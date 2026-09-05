@@ -1,0 +1,15 @@
+# Local and transient files
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+work/
+*.log
+# KiCad local state and locks (native design files stay tracked)
+*.kicad_prl
+*.lck
+~*.lck

@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1",
+  "evaluation_id": "REPLACE_ME",
+  "run_id": "REPLACE_ME",
+  "protocol_revision": null,
+  "evaluator": null,
+  "evaluated_at": null,
+  "status": "not_evaluated",
+  "checks": {
+    "artifact_opens": null,
+    "requirements_met": null,
+    "connectivity_correct": null,
+    "erc_errors": null,
+    "drc_errors": null,
+    "unrouted_nets": null,
+    "board_constraints_met": null,
+    "manufacturing_exports_present": null
+  },
+  "criterion_results": [],
+  "evidence": [],
+  "unsupported_checks": [],
+  "notes": null
+}

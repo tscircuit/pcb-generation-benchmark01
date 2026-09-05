@@ -1,0 +1,18 @@
+{
+  "schema_version": "0.1",
+  "prompt_id": "REPLACE_ME",
+  "revision": 1,
+  "title": "REPLACE_ME",
+  "status": "draft",
+  "split": "unassigned",
+  "family": null,
+  "difficulty": null,
+  "deliverable_scope": null,
+  "prompt_file": "prompt.md",
+  "prompt_sha256": null,
+  "assets": [],
+  "constraints": {},
+  "acceptance_criteria": [],
+  "source": null,
+  "license": null
+}

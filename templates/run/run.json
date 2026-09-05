@@ -1,0 +1,28 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "REPLACE_ME",
+  "run_id": "REPLACE_ME",
+  "prompt_id": "REPLACE_ME",
+  "prompt_revision": 1,
+  "prompt_sha256": null,
+  "method": "REPLACE_ME",
+  "replicate": 1,
+  "status": "not_started",
+  "repository_commit": null,
+  "started_at": null,
+  "ended_at": null,
+  "model": {},
+  "environment": {},
+  "budget": {},
+  "usage": {
+    "wall_time_seconds": null,
+    "input_tokens": null,
+    "output_tokens": null,
+    "tool_calls": null,
+    "cost_usd": null
+  },
+  "attempts": [],
+  "artifacts": [],
+  "failure": null,
+  "notes": null
+}

@@ -1,0 +1,3 @@
+# Run directory template
+
+Copy to `data/runs/<experiment-id>/<prompt-id>/<method>/replicate-<NNN>/` when collecting a run. Fill `run.json`; IDs must be globally unique. Save exact input text, tool wrapper, assets, and resolved configuration in `input/`; generated source and native files in `artifacts/`; tool outputs and transcripts in `logs/`; screenshots/action traces in `evidence/`. Keep intermediate attempts under distinct attempt directories and reference them in the manifest. Record artifact paths relative to this run directory, MIME/type, size, SHA-256, and role. External artifacts need URI and SHA-256. Do not treat this template as a run.

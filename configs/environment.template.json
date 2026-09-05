@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1",
+  "os": null,
+  "architecture": null,
+  "hardware": null,
+  "model_interface": null,
+  "tool_versions": {
+    "tscircuit": null,
+    "kicad": null,
+    "node": null,
+    "python": null,
+    "computer_use": null
+  },
+  "libraries": [],
+  "gui": {
+    "resolution": null,
+    "scaling": null,
+    "locale": null
+  },
+  "notes": null
+}

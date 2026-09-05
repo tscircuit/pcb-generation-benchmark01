@@ -1,0 +1,31 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "REPLACE_ME",
+  "status": "draft",
+  "dataset_version": "0.0.0",
+  "prompt_catalog": "prompts/catalog.json",
+  "prompt_revisions": [],
+  "methods": [
+    "tscircuit-codegen",
+    "kicad-codegen",
+    "kicad-computer-use"
+  ],
+  "model": {
+    "provider": null,
+    "name": null,
+    "reasoning_effort": null,
+    "sampling": {}
+  },
+  "replicates": null,
+  "budget": {
+    "wall_time_seconds": null,
+    "max_tokens": null,
+    "max_tool_calls": null
+  },
+  "repair_policy": null,
+  "network_policy": null,
+  "tool_versions": {},
+  "library_versions": {},
+  "execution_order_seed": null,
+  "evaluation_protocol_revision": null
+}
