@@ -8,7 +8,7 @@ Project scaffold for a paired dataset comparing three ways of producing PCB desi
 | `kicad-codegen` | Generate KiCad files directly or through recorded scripts/APIs | Native project, schematic, PCB, generation scripts |
 | `kicad-computer-use` | Create and edit designs through KiCad's GUI | Native project, schematic, PCB, screenshots and action trace |
 
-**Status: scaffold only.** No benchmark prompts, generated designs, adapters, runners, evaluators, or results have been implemented. No dependencies or API credentials are needed to use this structure.
+**Status: scaffold with 10 draft prompts.** The [prompt catalog](prompts/README.md) includes easy, medium, and hard prompts with topic labels. No generated designs, adapters, runners, evaluators, or results have been implemented. No dependencies or API credentials are needed to use this structure.
 
 ## Layout
 
@@ -38,7 +38,7 @@ work/                    Ignored scratch space
 3. Copy `configs/experiment.template.json` to a named experiment configuration. Freeze its prompt revisions, model, budgets, tools, and repeat count before collecting data.
 4. When the runner exists, collect each prompt across all three methods using `templates/run/`. Store evaluations separately using `templates/evaluation.template.json`.
 
-Template files are examples of structure, not actual dataset entries. Empty catalogs are intentional. Do not report placeholder metrics as measurements. Implementation and data collection are future work.
+Template files are examples of structure, not actual dataset entries. Cataloged prompts are drafts awaiting review. Do not report placeholder metrics as measurements. Implementation and data collection are future work.
 
 ## Model scoring and changes over time
 

@@ -1,5 +1,56 @@
 {
   "schema_version": "0.1",
   "dataset_version": "0.0.0",
-  "prompts": []
+  "prompts": [
+    {
+      "prompt_id": "led-indicator",
+      "revision": 1,
+      "path": "items/led-indicator"
+    },
+    {
+      "prompt_id": "voltage-divider",
+      "revision": 1,
+      "path": "items/voltage-divider"
+    },
+    {
+      "prompt_id": "rc-low-pass",
+      "revision": 1,
+      "path": "items/rc-low-pass"
+    },
+    {
+      "prompt_id": "button-input-bank",
+      "revision": 1,
+      "path": "items/button-input-bank"
+    },
+    {
+      "prompt_id": "npn-led-driver",
+      "revision": 1,
+      "path": "items/npn-led-driver"
+    },
+    {
+      "prompt_id": "i2c-pullup-hub",
+      "revision": 1,
+      "path": "items/i2c-pullup-hub"
+    },
+    {
+      "prompt_id": "stereo-passive-attenuator",
+      "revision": 1,
+      "path": "items/stereo-passive-attenuator"
+    },
+    {
+      "prompt_id": "mosfet-output-bank",
+      "revision": 1,
+      "path": "items/mosfet-output-bank"
+    },
+    {
+      "prompt_id": "diode-key-matrix",
+      "revision": 1,
+      "path": "items/diode-key-matrix"
+    },
+    {
+      "prompt_id": "analog-input-bank",
+      "revision": 1,
+      "path": "items/analog-input-bank"
+    }
+  ]
 }

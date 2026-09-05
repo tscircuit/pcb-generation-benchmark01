@@ -7,6 +7,7 @@ JSON Schema validators are future work. The copyable JSON templates define the i
 - References: project-relative paths, except run artifacts use run-relative paths.
 - Digests: SHA-256 of exact bytes; record assets as well as prompt text.
 - Metrics: null means unmeasured; zero is a measured result.
+- Prompt labels: `labels` is an array of unique lowercase kebab-case strings in prompt metadata; `[]` means no labels assigned. See `prompts/README.md` for usage.
 - Artifact entry: path or URI, role, media_type, size_bytes, sha256.
 - Attempt entry: attempt_id, started_at, ended_at, outcome, artifact_directory.
 - Criterion result: criterion_id, outcome (pass/fail/unknown/unsupported), evidence, notes.

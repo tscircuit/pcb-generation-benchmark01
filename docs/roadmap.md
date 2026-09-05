@@ -14,4 +14,4 @@
 - [ ] Produce reports with paired outcomes and documented limitations.
 - [ ] Select large-file storage, licenses, and a versioned release manifest.
 
-This checklist is a plan; no item has been implemented in the scaffold.
+Ten draft prompts have been authored with difficulty and topic labels. Review, freezing, split assignment, licensing, implementation, and collection remain pending.

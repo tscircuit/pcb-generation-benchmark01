@@ -8,6 +8,8 @@ Freeze canonical prompt bytes and SHA-256, shared assets, expected deliverable s
 
 ## Artifacts and provenance
 
+Freeze prompt metadata, including labels, with each prompt revision. Use those recorded labels for filtering and grouped reporting across methods; preserve historical label assignments when creating new revisions.
+
 Keep original source/native designs plus logs and evidence. Record the repository commit and resolved config. Method-specific artifacts need not share a file extension. Compare semantic requirements and agreed deliverables. Do not silently convert or repair outputs to improve their score. Any normalization belongs in separate derived artifacts with recorded tool version and provenance. Preserve first output and repair attempts separately; repairs consume the declared budget.
 
 ## Evaluation
