@@ -40,6 +40,10 @@ work/                    Ignored scratch space
 
 Template files are examples of structure, not actual dataset entries. Empty catalogs are intentional. Do not report placeholder metrics as measurements. Implementation and data collection are future work.
 
+## Model scoring and changes over time
+
+See `docs/model-judging.md` for the model-judge plan, `evaluation/rubric.json` for scoring rules, and `configs/judge.template.json` for fixed judge settings. Judgment and baseline-comparison templates record evidence, repeated scores, and improvement/regression decisions. These are scaffolds only; the judge and score calculator are not implemented.
+
 ## Git and storage
 
 Track prompts, configs, native design files, code, and compact evidence. Do not commit secrets. Large recordings should use an explicitly selected external store or Git LFS when configured; record their URI and SHA-256 in the run manifest. Neither external storage nor LFS is configured yet. Dataset and code licensing remain undecided; see `docs/dataset-card.md`.

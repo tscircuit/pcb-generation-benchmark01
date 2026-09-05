@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "status": "draft",
+  "judge_id": "REPLACE_ME",
+  "provider": null,
+  "model_snapshot": null,
+  "reasoning_effort": null,
+  "temperature": 0,
+  "seed": null,
+  "sampling_note": "Only pass supported parameters. Record unsupported controls; do not claim determinism.",
+  "system_prompt": "evaluation/judge-prompt.md",
+  "rubric": "evaluation/rubric.json",
+  "rubric_revision": "0.1-draft",
+  "repeats": 3,
+  "aggregation": "median_total_score",
+  "comparison": {
+    "baseline_experiment_id": null,
+    "candidate_experiment_id": null,
+    "tolerance_points": 2,
+    "tolerance_status": "provisional_calibrate_on_unchanged_outputs",
+    "require_matched_pairs": true
+  },
+  "max_output_tokens": null,
+  "evidence_policy": "identical frozen packet per artifact; blind method and candidate/baseline labels where practical"
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.1",
+  "revision": "0.1-draft",
+  "status": "draft_calibrate_before_collection",
+  "scale": {
+    "0": "No applicable acceptance criteria passed.",
+    "1": "Some, but not all, applicable acceptance criteria passed.",
+    "2": "All applicable acceptance criteria passed."
+  },
+  "criteria": [
+    {
+      "id": "functional_requirements",
+      "weight": 30,
+      "definition": "Requested circuit behavior, specified values, and component requirements."
+    },
+    {
+      "id": "connectivity",
+      "weight": 30,
+      "definition": "Required nets, pin connections, power and ground connectivity."
+    },
+    {
+      "id": "physical_constraints",
+      "weight": 20,
+      "definition": "Requested dimensions, layers, placement, and routing constraints."
+    },
+    {
+      "id": "deliverable_integrity",
+      "weight": 20,
+      "definition": "Requested native/source files are complete and open or build with recorded dependencies."
+    }
+  ],
+  "rules": [
+    "Before running, map every prompt acceptance criterion to exactly one rubric criterion.",
+    "Freeze applicability per prompt, identical across methods. Do not decide applicability based on an output.",
+    "Each acceptance criterion must have a concrete pass/fail test and required evidence.",
+    "Unknown evidence makes the containing criterion score null; do not guess.",
+    "Unrequested or inapplicable criteria have applicable=false and score=null.",
+    "Total = 100 * sum(weight * score / 2) / sum(applicable weights).",
+    "Total is null if any applicable criterion is unknown or no criterion applies.",
+    "Critical acceptance failures make overall_pass=false regardless of total.",
+    "A missing requested deliverable is a failure, not inapplicable.",
+    "Judge produces criterion decisions; future evaluator computes totals rather than trusting model arithmetic."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "0.1",
+  "baseline_experiment_id": "REPLACE_ME",
+  "candidate_experiment_id": "REPLACE_ME",
+  "judge_config_sha256": null,
+  "tolerance_points": 2,
+  "matched_pairs": [],
+  "missing_pairs": [],
+  "unscorable_pairs": [],
+  "aggregate": {
+    "paired_count": 0,
+    "mean_paired_delta": null,
+    "improved": 0,
+    "regressed": 0,
+    "inconclusive": 0
+  },
+  "notes": null
+}

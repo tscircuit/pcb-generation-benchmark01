@@ -7,6 +7,8 @@
 - [ ] Implement the three adapters according to `methods/` contracts.
 - [ ] Implement isolated execution, budgets, retries, provenance, and evidence capture.
 - [ ] Implement artifact inspection and requirement checks without editing outputs.
+- [ ] Implement evidence-based model judging and deterministic score calculation.
+- [ ] Calibrate judge variation and baseline regression tolerance.
 - [ ] Run a small paired pilot and review evidence before freezing the protocol.
 - [ ] Collect the complete paired dataset, retaining all failures.
 - [ ] Produce reports with paired outcomes and documented limitations.

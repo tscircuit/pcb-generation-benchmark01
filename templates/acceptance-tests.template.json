@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1",
+  "prompt_id": "REPLACE_ME",
+  "prompt_revision": 1,
+  "rubric_revision": "0.1-draft",
+  "criteria_applicability": {
+    "functional_requirements": true,
+    "connectivity": true,
+    "physical_constraints": null,
+    "deliverable_integrity": true
+  },
+  "tests": [
+    {
+      "test_id": "REPLACE_ME",
+      "rubric_criterion_id": "connectivity",
+      "requirement": "REPLACE_ME",
+      "pass_condition": "REPLACE_ME",
+      "required_evidence": [],
+      "critical": false
+    }
+  ]
+}

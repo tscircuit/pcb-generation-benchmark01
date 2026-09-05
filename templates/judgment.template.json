@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1",
+  "judgment_id": "REPLACE_ME",
+  "run_id": "REPLACE_ME",
+  "judge_id": "REPLACE_ME",
+  "judge_repeat": 1,
+  "model_snapshot": null,
+  "resolved_model_parameters": {},
+  "judge_prompt_sha256": null,
+  "rubric_sha256": null,
+  "acceptance_tests_sha256": null,
+  "evidence_packet_sha256": null,
+  "status": "not_evaluated",
+  "acceptance_results": [],
+  "criterion_scores": [],
+  "derived": {
+    "total_score": null,
+    "overall_pass": null
+  },
+  "raw_response_path": null,
+  "notes": null
+}
