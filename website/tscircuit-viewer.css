@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #111c2c;
+  color: #e4ecf6;
+  font: 14px/1.4 system-ui;
+}
+.native-bar {
+  height: 54px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+}
+.native-bar strong {
+  flex: 1;
+  font-size: 14px;
+}
+button {
+  font: inherit;
+  padding: 6px 9px;
+  background: #243650;
+  border: 1px solid #53647c;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+.native-panel {
+  position: fixed;
+  top: 54px;
+  right: 0;
+  bottom: 0;
+  width: 280px;
+  overflow: auto;
+  background: #17283bf5;
+  border-left: 1px solid #526279;
+  padding: 16px;
+  z-index: 2147483647;
+}
+h2 {
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+p {
+  font-size: 13px;
+  color: #bed0e4;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.layer-control {
+  border-bottom: 1px solid #3b4b60;
+  padding: 12px 0;
+}
+.layer-control label {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 14px;
+}
+.slider-row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-top: 6px;
+}
+.slider-row input {
+  min-width: 0;
+  width: 100%;
+  accent-color: #76d9c8;
+}
+.slider-row output {
+  min-width: 36px;
+  font-size: 13px;
+}
+.slider-row button {
+  font-size: 12px;
+}
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid #76d9c8;
+  outline-offset: 3px;
+}

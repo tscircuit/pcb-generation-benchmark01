@@ -73,7 +73,7 @@ export function buildWebsite() {
     parts.push("</tr>");
   }
   parts.push(
-    '</tbody></table></div></section><section id="designs"><div class="section-heading"><h2>Inspect the generated designs</h2><span>Final preserved candidates</span></div><p class="muted">Interactive PCB views include designs with known failures. Every layer starts at 50% opacity. Use Layers &amp; opacity to adjust visibility, or open the full viewer to inspect the board.</p>',
+    '</tbody></table></div></section><section id="designs"><div class="section-heading"><h2>Inspect the generated designs</h2><span>Final preserved candidates</span></div><p class="muted">Native tscircuit PCB views and KiCad layer exports. Layers start at 50% opacity. Open the layer controls to adjust visibility and opacity; click a KiCad drawing item to adjust it individually.</p>',
   );
   const publicResults: any[] = [],
     downloadManifest: any[] = [];
@@ -99,7 +99,7 @@ export function buildWebsite() {
           12,
         ),
         viewer = `views/${viewerName}?v=${viewerVersion}`,
-        previewHtml = `<iframe class="pcb-viewer" width="100%" height="640" style="display:block;width:100%;height:640px;border:0" loading="lazy" title="${esc(m.title)} ${name} PCB layer viewer" src="${viewer}"></iframe><a class="open-viewer" href="${viewer}" target="_blank" rel="noopener">Open full PCB viewer ↗</a>`;
+        previewHtml = `<iframe allow="fullscreen" allowfullscreen class="pcb-viewer" width="100%" height="640" style="display:block;width:100%;height:640px;border:0" loading="lazy" title="${esc(m.title)} ${name} PCB layer viewer" src="${viewer}"></iframe><a class="open-viewer" href="${viewer}" target="_blank" rel="noopener">Open full PCB viewer ↗</a>`;
       let downloads = "";
       if (method === "kicad-codegen") {
         const run = join(ROOT, "data/runs", EID, p, method, "replicate-1"),
@@ -213,7 +213,7 @@ export function buildWebsite() {
       ),
     });
   }
-  parts.push(FOOTER.replaceAll("{VID}", VID).replaceAll("{EID}", EID));
+  parts.push(FOOTER);
   write(
     join(OUT, "download-manifest.json"),
     JSON.stringify(downloadManifest, null, 2) + "\n",

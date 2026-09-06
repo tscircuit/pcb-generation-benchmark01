@@ -20,3 +20,7 @@ work/
 
 # Ignore dependency symlinks as well as directories.
 node_modules
+
+# Generated application output (rebuild locally; do not commit).
+/dist/
+/website/dist/

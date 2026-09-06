@@ -41,6 +41,18 @@ export async function renderViews() {
     naming: "viewer.js",
   });
   if (!build.success) throw Error(build.logs.join("\n"));
+  const nativeBuild = await Bun.build({
+    entrypoints: [join(ROOT, "website/tscircuit-viewer.tsx")],
+    target: "browser",
+    outdir: OUT,
+    naming: "tscircuit-viewer.js",
+    minify: true,
+    define: { "process.env.NODE_ENV": JSON.stringify("production") },
+  });
+  if (!nativeBuild.success) throw Error(nativeBuild.logs.join("\n"));
+  const nativeVersion = sha(
+    readFileSync(join(OUT, "tscircuit-viewer.js")),
+  ).slice(0, 12);
   const css = read(join(ROOT, "website/viewer.css")),
     version = sha(readFileSync(join(OUT, "viewer.js"))).slice(0, 12),
     manifest: any[] = [];
@@ -54,6 +66,39 @@ export async function renderViews() {
     const run = join(ROOT, "data/runs", EID, prompt, method, "replicate-1"),
       candidate = finalCandidate(run);
     if (!candidate) throw Error("Missing final candidate");
+    if (method === "tscircuit-codegen") {
+      const source = walk(candidate).find(
+        (p) => basename(p) === "circuit.json",
+      );
+      if (!source) throw Error("Missing circuit.json for native viewer");
+      const raw = readFileSync(source),
+        data = JSON.parse(raw.toString());
+      if (!Array.isArray(data)) throw Error("Invalid Circuit JSON");
+      const dataName = "circuits/" + prompt + ".json",
+        digest = sha(raw);
+      write(join(OUT, dataName), raw);
+      const title = prompt + " · tscircuit",
+        dest = join(OUT, prompt + "--" + method + ".html");
+      write(
+        dest,
+        `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)} · PCB view</title><style>${read(join(ROOT, "website/tscircuit-viewer.css"))}</style></head><body data-circuit="${dataName}?v=${digest.slice(0, 12)}"><div id="app"></div><script type="module" src="tscircuit-viewer.js?v=${nativeVersion}"></script></body></html>`,
+      );
+      manifest.push({
+        prompt,
+        method,
+        source: relative(ROOT, source),
+        sha256: digest,
+        viewer: basename(dest),
+        renderer: "@tscircuit/pcb-viewer",
+        renderer_version: json(
+          join(ROOT, "node_modules/@tscircuit/pcb-viewer/package.json"),
+        ).version,
+        default_opacity: 0.5,
+        operation:
+          "Render preserved Circuit JSON with the native tscircuit PCBViewer",
+      });
+      continue;
+    }
     const parser = new DOMParser(),
       doc = parser.parseFromString(
         `<svg xmlns="${NS}" width="100%" height="100%"/>`,
@@ -61,7 +106,7 @@ export async function renderViews() {
       ),
       svg = doc.documentElement!,
       groups = new Map<string, any>();
-    let source: string;
+    let source = "";
     if (method === "kicad-codegen") {
       source = walk(candidate).find((p) => p.endsWith(".kicad_pcb"))!;
       const output = join(OUT, "layers", prompt);
@@ -109,29 +154,6 @@ export async function renderViews() {
             group.appendChild(doc.importNode(c, true));
         groups.set(layer, group);
       }
-    } else {
-      source = walk(candidate).find((p) => basename(p) === "pcb.svg")!;
-      const tree = parser.parseFromString(
-        read(source),
-        "image/svg+xml",
-      ).documentElement!;
-      svg.setAttribute(
-        "viewBox",
-        tree.getAttribute("viewBox") ||
-          `0 0 ${tree.getAttribute("width")} ${tree.getAttribute("height")}`,
-      );
-      for (let c = tree.firstChild; c; c = c.nextSibling) {
-        if (c.nodeType !== 1) continue;
-        const el = c as any;
-        if (
-          el.getAttribute("data-type") === "pcb_background" ||
-          ["script", "foreignObject"].includes(el.localName)
-        )
-          continue;
-        const layer = el.getAttribute("data-pcb-layer") || "global";
-        if (!groups.has(layer)) groups.set(layer, doc.createElementNS(NS, "g"));
-        groups.get(layer).appendChild(doc.importNode(c, true));
-      }
     }
     if (!source || !existsSync(source) || !groups.size)
       throw Error("No PCB layers found");
@@ -140,14 +162,15 @@ export async function renderViews() {
     for (const [name, g] of groups) {
       g.setAttribute("id", `layer-${i}`);
       g.setAttribute("opacity", "0.5");
+      g.setAttribute("data-layer-name", name);
       svg.appendChild(g);
       controls.push(
-        `<label><input type="checkbox" checked data-layer="layer-${i}"><span>${esc(name)}</span><input aria-label="${esc(name)} opacity" type="range" min="0" max="100" value="50" data-layer="layer-${i}"><output>50%</output></label>`,
+        `<div class="layer-control" data-layer-name="${esc(name)}"><label><input type="checkbox" checked data-layer="layer-${i}"><span>${esc(name)}</span></label><div class="slider-row"><input aria-label="${esc(name)} opacity" type="range" min="0" max="100" value="50" data-layer="layer-${i}"><output>50%</output><button data-solo>Solo</button></div></div>`,
       );
       i++;
     }
     const title = `${prompt} · ${method === "kicad-codegen" ? "KiCad" : "tscircuit"}`,
-      document = `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)} · PCB view</title><style>${css}</style><div class="bar"><button id="minus" aria-label="Zoom out">−</button><button id="plus" aria-label="Zoom in">+</button><button id="reset">Reset view</button><span>All layers: 50% opacity by default · drag to pan</span></div><div class="viewport">${new XMLSerializer().serializeToString(svg)}</div><details><summary>Layers &amp; opacity</summary><section>${controls.join("")}</section><button id="layers-reset">Reset all layers to 50%</button><p>Visualization only. Layer opacity does not change the design or its score.</p></details><script type="module" src="viewer.js?v=${version}"></script></html>`;
+      document = `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)} · PCB view</title><style>${css}</style><div class="bar"><button id="minus" aria-label="Zoom out">−</button><span id="zoom-level">100%</span><button id="plus" aria-label="Zoom in">+</button><button id="reset">Fit board</button><button id="fullscreen">Fullscreen</button></div><div class="viewport">${new XMLSerializer().serializeToString(svg)}</div><details id="inspector" class="inspector"><summary>Layers &amp; items</summary><div class="panel"><div class="item-controls"><h2>Selected drawing item</h2><p id="selected-item-name">Click a drawing item on the PCB</p><label>Item opacity<input id="item-opacity" type="range" min="0" max="100" value="100" disabled><output id="item-value">100%</output></label><p>Item opacity multiplies its layer opacity.</p><div class="actions"><button id="hide-item" disabled>Hide item</button><button id="restore-items">Restore items</button></div></div><h2>Layer visibility</h2><label for="layer-preset">Preset</label><select id="layer-preset"><option value="all">All layers</option><option value="copper">Copper + outline</option><option value="front">Front + outline</option><option value="back">Back + outline</option></select><div class="actions"><button id="show-all">Show all</button><button id="hide-all">Hide all</button><button id="layers-reset">Reset 50%</button></div><section class="layer-list">${controls.join("")}</section></div></details><script type="module" src="viewer.js?v=${version}"></script></html>`;
     const dest = join(OUT, prompt + "--" + method + ".html");
     write(dest, document);
     manifest.push({

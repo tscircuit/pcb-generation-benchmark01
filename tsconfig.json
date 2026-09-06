@@ -7,13 +7,15 @@
     "noEmit": true,
     "skipLibCheck": true,
     "types": ["bun"],
-    "allowImportingTsExtensions": true
+    "allowImportingTsExtensions": true,
+    "jsx": "react-jsx"
   },
   "include": [
     "src/**/*.ts",
     "scripts/**/*.ts",
     "tests/**/*.ts",
-    "website/**/*.ts"
+    "website/**/*.ts",
+    "website/**/*.tsx"
   ],
   "exclude": ["data", "website/dist", "node_modules"]
 }
