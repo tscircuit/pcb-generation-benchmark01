@@ -1,0 +1,146 @@
+{
+  "entries": [
+    {
+      "event_count": 44,
+      "file": "2026-09-05-codegen-pilot-01--analog-input-bank--kicad-codegen--r1/342cf46303abb9f2ea4ac4f06b696e995ddab28f2739a270857b0a88988ea18f.json",
+      "run_id": "2026-09-05-codegen-pilot-01--analog-input-bank--kicad-codegen--r1",
+      "sha256": "342cf46303abb9f2ea4ac4f06b696e995ddab28f2739a270857b0a88988ea18f",
+      "status": "incomplete"
+    },
+    {
+      "event_count": 30,
+      "file": "2026-09-05-codegen-pilot-01--rc-low-pass--kicad-codegen--r1/973cae4937fcc80217d4238623c6ed8b9be8dfb2e0811c154f3304d331d375a8.json",
+      "run_id": "2026-09-05-codegen-pilot-01--rc-low-pass--kicad-codegen--r1",
+      "sha256": "973cae4937fcc80217d4238623c6ed8b9be8dfb2e0811c154f3304d331d375a8",
+      "status": "incomplete"
+    },
+    {
+      "event_count": 47,
+      "file": "2026-09-05-codegen-pilot-01--mosfet-output-bank--tscircuit-codegen--r1/f32d337e2392bd498fb989c6e1651039f9d5ec02996a322c6a5e2618d1005baf.json",
+      "run_id": "2026-09-05-codegen-pilot-01--mosfet-output-bank--tscircuit-codegen--r1",
+      "sha256": "f32d337e2392bd498fb989c6e1651039f9d5ec02996a322c6a5e2618d1005baf",
+      "status": "incomplete"
+    },
+    {
+      "event_count": 52,
+      "file": "2026-09-05-codegen-pilot-01--rc-low-pass--tscircuit-codegen--r1/6ebe4987b579b3689e0c2004eaa5f13363c8f590a2eab9c471da5fcd81d4bc98.json",
+      "run_id": "2026-09-05-codegen-pilot-01--rc-low-pass--tscircuit-codegen--r1",
+      "sha256": "6ebe4987b579b3689e0c2004eaa5f13363c8f590a2eab9c471da5fcd81d4bc98",
+      "status": "incomplete"
+    },
+    {
+      "event_count": 56,
+      "file": "2026-09-05-codegen-pilot-01--npn-led-driver--kicad-codegen--r1/3b31676172e52cb3c4bb910877b7f10864d20b2be3320ccb6f6109dc988f2ea3.json",
+      "run_id": "2026-09-05-codegen-pilot-01--npn-led-driver--kicad-codegen--r1",
+      "sha256": "3b31676172e52cb3c4bb910877b7f10864d20b2be3320ccb6f6109dc988f2ea3",
+      "status": "incomplete"
+    },
+    {
+      "event_count": 39,
+      "file": "2026-09-05-codegen-pilot-01--stereo-passive-attenuator--kicad-codegen--r1/cfb8b9defdee93873e55b0ecbe1786ada7043bc29a0e54e6958ac2d135a2979e.json",
+      "run_id": "2026-09-05-codegen-pilot-01--stereo-passive-attenuator--kicad-codegen--r1",
+      "sha256": "cfb8b9defdee93873e55b0ecbe1786ada7043bc29a0e54e6958ac2d135a2979e",
+      "status": "incomplete"
+    },
+    {
+      "event_count": 48,
+      "file": "2026-09-05-codegen-pilot-01--mosfet-output-bank--kicad-codegen--r1/43c66c7aa8dde02030e6ef4ae53c5ba055eefa78426994bb4dd1db39367189b7.json",
+      "run_id": "2026-09-05-codegen-pilot-01--mosfet-output-bank--kicad-codegen--r1",
+      "sha256": "43c66c7aa8dde02030e6ef4ae53c5ba055eefa78426994bb4dd1db39367189b7",
+      "status": "incomplete"
+    },
+    {
+      "event_count": 48,
+      "file": "2026-09-05-codegen-pilot-01--analog-input-bank--tscircuit-codegen--r1/c92d253390096d041e076e3eae099921e48ca6b036375007365ad14b22c26036.json",
+      "run_id": "2026-09-05-codegen-pilot-01--analog-input-bank--tscircuit-codegen--r1",
+      "sha256": "c92d253390096d041e076e3eae099921e48ca6b036375007365ad14b22c26036",
+      "status": "incomplete"
+    },
+    {
+      "event_count": 54,
+      "file": "2026-09-05-codegen-pilot-01--button-input-bank--tscircuit-codegen--r1/c65d0998e497994012d260cb5b3035a2b93657a97272b4b1deb67d289c5867af.json",
+      "run_id": "2026-09-05-codegen-pilot-01--button-input-bank--tscircuit-codegen--r1",
+      "sha256": "c65d0998e497994012d260cb5b3035a2b93657a97272b4b1deb67d289c5867af",
+      "status": "incomplete"
+    },
+    {
+      "event_count": 40,
+      "file": "2026-09-05-codegen-pilot-01--stereo-passive-attenuator--tscircuit-codegen--r1/1e1fe94aa95e2bda04cdace3d112dcfa803a0191315bbe09ad8d444aaa5e3931.json",
+      "run_id": "2026-09-05-codegen-pilot-01--stereo-passive-attenuator--tscircuit-codegen--r1",
+      "sha256": "1e1fe94aa95e2bda04cdace3d112dcfa803a0191315bbe09ad8d444aaa5e3931",
+      "status": "incomplete"
+    },
+    {
+      "event_count": 37,
+      "file": "2026-09-05-codegen-pilot-01--diode-key-matrix--kicad-codegen--r1/0a8a2490a8dc2f825de965c4cd225de3d6a47ed29a3dba2e6e2906dc60356c1d.json",
+      "run_id": "2026-09-05-codegen-pilot-01--diode-key-matrix--kicad-codegen--r1",
+      "sha256": "0a8a2490a8dc2f825de965c4cd225de3d6a47ed29a3dba2e6e2906dc60356c1d",
+      "status": "incomplete"
+    },
+    {
+      "event_count": 40,
+      "file": "2026-09-05-codegen-pilot-01--i2c-pullup-hub--tscircuit-codegen--r1/baec8a6e8729acef331b073ef87b5be16b07c6a8c7f1a90ecf769464a7ebb89a.json",
+      "run_id": "2026-09-05-codegen-pilot-01--i2c-pullup-hub--tscircuit-codegen--r1",
+      "sha256": "baec8a6e8729acef331b073ef87b5be16b07c6a8c7f1a90ecf769464a7ebb89a",
+      "status": "incomplete"
+    },
+    {
+      "event_count": 28,
+      "file": "2026-09-05-codegen-pilot-01--led-indicator--kicad-codegen--r1/2d6ea1d6bbcfb8f213f522e6299ec6084500ad2de0f613b52816740f1369ff37.json",
+      "run_id": "2026-09-05-codegen-pilot-01--led-indicator--kicad-codegen--r1",
+      "sha256": "2d6ea1d6bbcfb8f213f522e6299ec6084500ad2de0f613b52816740f1369ff37",
+      "status": "incomplete"
+    },
+    {
+      "event_count": 35,
+      "file": "2026-09-05-codegen-pilot-01--i2c-pullup-hub--kicad-codegen--r1/e3bcfaeeec0ce4d4e276bb36cf515bcc3a4bf5807481ba2bc4531eeb4a72e374.json",
+      "run_id": "2026-09-05-codegen-pilot-01--i2c-pullup-hub--kicad-codegen--r1",
+      "sha256": "e3bcfaeeec0ce4d4e276bb36cf515bcc3a4bf5807481ba2bc4531eeb4a72e374",
+      "status": "incomplete"
+    },
+    {
+      "event_count": 48,
+      "file": "2026-09-05-codegen-pilot-01--voltage-divider--tscircuit-codegen--r1/da8ac3ed6ab6aa091e5f4ae0e99508b5709126d3829727afa9038310870da401.json",
+      "run_id": "2026-09-05-codegen-pilot-01--voltage-divider--tscircuit-codegen--r1",
+      "sha256": "da8ac3ed6ab6aa091e5f4ae0e99508b5709126d3829727afa9038310870da401",
+      "status": "incomplete"
+    },
+    {
+      "event_count": 51,
+      "file": "2026-09-05-codegen-pilot-01--diode-key-matrix--tscircuit-codegen--r1/477681aa814822ec319815440ec26b50dd2cea0b9a088c731a08a404031d3de7.json",
+      "run_id": "2026-09-05-codegen-pilot-01--diode-key-matrix--tscircuit-codegen--r1",
+      "sha256": "477681aa814822ec319815440ec26b50dd2cea0b9a088c731a08a404031d3de7",
+      "status": "incomplete"
+    },
+    {
+      "event_count": 32,
+      "file": "2026-09-05-codegen-pilot-01--button-input-bank--kicad-codegen--r1/ae606801779f705d72e9cbce47e67f6fe1403fa7fa06b74d6be11b39014a383d.json",
+      "run_id": "2026-09-05-codegen-pilot-01--button-input-bank--kicad-codegen--r1",
+      "sha256": "ae606801779f705d72e9cbce47e67f6fe1403fa7fa06b74d6be11b39014a383d",
+      "status": "incomplete"
+    },
+    {
+      "event_count": 55,
+      "file": "2026-09-05-codegen-pilot-01--npn-led-driver--tscircuit-codegen--r1/c95454fe1a8fdcce3bc7062b59a33a5dc3c0cfd03b7f7a28b796d274751205ee.json",
+      "run_id": "2026-09-05-codegen-pilot-01--npn-led-driver--tscircuit-codegen--r1",
+      "sha256": "c95454fe1a8fdcce3bc7062b59a33a5dc3c0cfd03b7f7a28b796d274751205ee",
+      "status": "incomplete"
+    },
+    {
+      "event_count": 22,
+      "file": "2026-09-05-codegen-pilot-01--led-indicator--tscircuit-codegen--r1/0e5b849cf8d8061782e4fad91456d80366f453d519fdedf4fd07963271fc6a9d.json",
+      "run_id": "2026-09-05-codegen-pilot-01--led-indicator--tscircuit-codegen--r1",
+      "sha256": "0e5b849cf8d8061782e4fad91456d80366f453d519fdedf4fd07963271fc6a9d",
+      "status": "incomplete"
+    },
+    {
+      "event_count": 21,
+      "file": "2026-09-05-codegen-pilot-01--voltage-divider--kicad-codegen--r1/26c1f181e2169baaf68fc3106b2c98640f3024d1f5cca788f83578626860da32.json",
+      "run_id": "2026-09-05-codegen-pilot-01--voltage-divider--kicad-codegen--r1",
+      "sha256": "26c1f181e2169baaf68fc3106b2c98640f3024d1f5cca788f83578626860da32",
+      "status": "incomplete"
+    }
+  ],
+  "experiment_id": "2026-09-05-codegen-pilot-01",
+  "schema_version": "1"
+}

@@ -543,3 +543,17 @@ main {
 .design {
   scroll-margin-top: 16px;
 }
+
+.run-timing {
+  margin: 1rem 0;
+  font-size: 0.875rem;
+}
+.run-timing dt {
+  color: var(--muted, #64748b);
+  margin-top: 0.4rem;
+}
+.run-timing dd {
+  margin: 0;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
