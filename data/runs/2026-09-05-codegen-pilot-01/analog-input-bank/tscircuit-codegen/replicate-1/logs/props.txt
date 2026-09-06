@@ -1,0 +1,86 @@
+143:    /** Additional clearance around the nominal opening. */
+303:    /** Horizontal clearance between the board edge and inside wall. */
+20953:    minTraceWidth?: Distance;
+21034:    minTraceWidth?: Distance;
+21063:    minTraceWidth: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+21073:    minTraceWidth?: number | undefined;
+21083:    minTraceWidth?: string | number | undefined;
+21093:declare const autorouterConfig: z.ZodObject<{
+21136:declare const autorouterPreset: z.ZodUnion<[z.ZodLiteral<"sequential_trace">, z.ZodLiteral<"subcircuit">, z.ZodLiteral<"default">, z.ZodLiteral<"auto">, z.ZodLiteral<"auto_local">, z.ZodLiteral<"auto_cloud">, z.ZodLiteral<"auto_jumper">, z.ZodLiteral<"tscircuit_beta">, z.ZodLiteral<"krt">, z.ZodLiteral<"freerouting">, z.ZodLiteral<"laser_prefab">, z.ZodLiteral<"single_layer_fanout">, z.ZodLiteral<"fanout">, z.ZodLiteral<"auto-jumper">, z.ZodLiteral<"sequential-trace">, z.ZodLiteral<"auto-local">, z.ZodLiteral<"auto-cloud">]>;
+21137:declare const autorouterProp: z.ZodType<AutorouterProp>;
+21138:declare const autorouterEffortLevel: z.ZodEnum<["1x", "2x", "5x", "10x", "100x"]>;
+21152:    pcbRouteCache?: PcbRouteCache;
+21153:    autorouter?: AutorouterProp;
+21154:    autorouterEffortLevel?: "1x" | "2x" | "5x" | "10x" | "100x";
+21159:    autorouterVersion?: "beta_pipeline1" | "beta_pipeline3" | "beta_pipeline4" | "beta_pipeline5" | "beta_pipeline7" | "beta_pipeline9" | "latest" | (string & {});
+21335:    minTraceWidth: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+21893:    minTraceWidth?: number | undefined;
+22153:    minTraceWidth?: string | number | undefined;
+22846:    pcbRouteCache: z.ZodOptional<z.ZodType<PcbRouteCache, z.ZodTypeDef, PcbRouteCache>>;
+22847:    autorouter: z.ZodOptional<z.ZodType<AutorouterProp, z.ZodTypeDef, AutorouterProp>>;
+22848:    autorouterEffortLevel: z.ZodOptional<z.ZodEnum<["1x", "2x", "5x", "10x", "100x"]>>;
+22849:    autorouterVersion: z.ZodOptional<z.ZodEffects<z.ZodType<AutocompleteString<AutorouterVersion>, z.ZodTypeDef, AutocompleteString<AutorouterVersion>>, "beta_pipeline1" | "beta_pipeline3" | "beta_pipeline4" | "beta_pipeline5" | "beta_pipeline7" | "beta_pipeline9" | "latest", AutocompleteString<AutorouterVersion>>>;
+22870:    minTraceWidth: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+23179:    minTraceWidth?: number | undefined;
+23312:    pcbRouteCache?: PcbRouteCache | undefined;
+23313:    autorouter?: AutorouterProp | undefined;
+23314:    autorouterEffortLevel?: "2x" | "1x" | "5x" | "10x" | "100x" | undefined;
+23315:    autorouterVersion?: "beta_pipeline1" | "beta_pipeline3" | "beta_pipeline4" | "beta_pipeline5" | "beta_pipeline7" | "beta_pipeline9" | "latest" | undefined;
+23500:    minTraceWidth?: string | number | undefined;
+23635:    pcbRouteCache?: PcbRouteCache | undefined;
+23636:    autorouter?: AutorouterProp | undefined;
+23637:    autorouterEffortLevel?: "2x" | "1x" | "5x" | "10x" | "100x" | undefined;
+23638:    autorouterVersion?: AutocompleteString<AutorouterVersion> | undefined;
+24255:    pcbRouteCache: z.ZodOptional<z.ZodType<PcbRouteCache, z.ZodTypeDef, PcbRouteCache>>;
+24256:    autorouter: z.ZodOptional<z.ZodType<AutorouterProp, z.ZodTypeDef, AutorouterProp>>;
+24257:    autorouterEffortLevel: z.ZodOptional<z.ZodEnum<["1x", "2x", "5x", "10x", "100x"]>>;
+24258:    autorouterVersion: z.ZodOptional<z.ZodEffects<z.ZodType<AutocompleteString<AutorouterVersion>, z.ZodTypeDef, AutocompleteString<AutorouterVersion>>, "beta_pipeline1" | "beta_pipeline3" | "beta_pipeline4" | "beta_pipeline5" | "beta_pipeline7" | "beta_pipeline9" | "latest", AutocompleteString<AutorouterVersion>>>;
+24279:    minTraceWidth: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+24591:    minTraceWidth?: number | undefined;
+24724:    pcbRouteCache?: PcbRouteCache | undefined;
+24725:    autorouter?: AutorouterProp | undefined;
+24726:    autorouterEffortLevel?: "2x" | "1x" | "5x" | "10x" | "100x" | undefined;
+24727:    autorouterVersion?: "beta_pipeline1" | "beta_pipeline3" | "beta_pipeline4" | "beta_pipeline5" | "beta_pipeline7" | "beta_pipeline9" | "latest" | undefined;
+24913:    minTraceWidth?: string | number | undefined;
+25048:    pcbRouteCache?: PcbRouteCache | undefined;
+25049:    autorouter?: AutorouterProp | undefined;
+25050:    autorouterEffortLevel?: "2x" | "1x" | "5x" | "10x" | "100x" | undefined;
+25051:    autorouterVersion?: AutocompleteString<AutorouterVersion> | undefined;
+25238:    minTraceWidth: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+25798:    minTraceWidth?: number | undefined;
+26059:    minTraceWidth?: string | number | undefined;
+26751:    pcbRouteCache: z.ZodOptional<z.ZodType<PcbRouteCache, z.ZodTypeDef, PcbRouteCache>>;
+26752:    autorouter: z.ZodOptional<z.ZodType<AutorouterProp, z.ZodTypeDef, AutorouterProp>>;
+26753:    autorouterEffortLevel: z.ZodOptional<z.ZodEnum<["1x", "2x", "5x", "10x", "100x"]>>;
+26754:    autorouterVersion: z.ZodOptional<z.ZodEffects<z.ZodType<AutocompleteString<AutorouterVersion>, z.ZodTypeDef, AutocompleteString<AutorouterVersion>>, "beta_pipeline1" | "beta_pipeline3" | "beta_pipeline4" | "beta_pipeline5" | "beta_pipeline7" | "beta_pipeline9" | "latest", AutocompleteString<AutorouterVersion>>>;
+26775:    minTraceWidth: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+27087:    minTraceWidth?: number | undefined;
+27220:    pcbRouteCache?: PcbRouteCache | undefined;
+27221:    autorouter?: AutorouterProp | undefined;
+27222:    autorouterEffortLevel?: "2x" | "1x" | "5x" | "10x" | "100x" | undefined;
+# `<silkscreentext />`
+
+The `<silkscreentext />` element is used to add text to the silkscreen layer within a PCB footprint.
+
+## Example
+
+```tsx
+export default () => (
+  <board width="10mm" height="10mm">
+    <silkscreentext text="Hello, World!" fontSize="1mm" />
+  </board>
+)
+```
+
+## Props
+
+Commonly used: `text`, `anchorAlignment`, `font`, `fontSize`, `isKnockout`, `knockoutPadding`, `knockoutPaddingLeft`, `knockoutPaddingRight`
+
+## References
+
+- Props: [SilkscreenTextProps](https://github.com/tscircuit/props#silkscreentextprops-silkscreentext)
+- Source: [lib/components/silkscreen-text.ts](https://github.com/tscircuit/props/blob/main/lib/components/silkscreen-text.ts)
+- Local docs: [docs/docs/footprints/silkscreentext.mdx](../docs/docs/footprints/silkscreentext.mdx)
+bun.lock
+node_modules
+package.json

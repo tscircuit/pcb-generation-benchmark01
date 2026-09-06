@@ -1,0 +1,7 @@
+$ tsci check schematic-placement index.circuit.tsx
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. It was passed a child from default. See https://react.dev/link/warning-keys for more information.
+
+
+EXIT_CODE=0

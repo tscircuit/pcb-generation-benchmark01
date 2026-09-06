@@ -1,0 +1,5 @@
+(fp_lib_table (version 7)
+(lib (name "Connector_PinHeader_2.54mm") (type "KiCad") (uri "${KIPRJMOD}/libraries/Connector_PinHeader_2.54mm.pretty") (options "") (descr "Bundled KiCad 10 standard footprint"))
+(lib (name "Resistor_SMD") (type "KiCad") (uri "${KIPRJMOD}/libraries/Resistor_SMD.pretty") (options "") (descr "Bundled KiCad 10 standard footprint"))
+(lib (name "LED_SMD") (type "KiCad") (uri "${KIPRJMOD}/libraries/LED_SMD.pretty") (options "") (descr "Bundled KiCad 10 standard footprint"))
+)

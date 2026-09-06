@@ -1,0 +1,66 @@
+{
+  "schema_version": "0.1",
+  "prompt_id": "diode-key-matrix",
+  "revision": 1,
+  "title": "Nine-key diode-isolated matrix",
+  "labels": [
+    "hard",
+    "key-matrix",
+    "diodes",
+    "digital-input"
+  ],
+  "status": "draft",
+  "split": "unassigned",
+  "family": "key-matrix",
+  "difficulty": "hard",
+  "deliverable_scope": "both",
+  "prompt_file": "prompt.md",
+  "prompt_sha256": "8d97a8456932f786386bc04b8f672eb1a0dd9759deed87a475b0328ec07adc15",
+  "assets": [],
+  "constraints": {
+    "board_width_mm": 65,
+    "board_height_mm": 65,
+    "copper_layers": 2,
+    "min_clearance_mm": 0.25,
+    "min_signal_trace_width_mm": 0.25
+  },
+  "acceptance_criteria": [
+    {
+      "criterion_id": "req-01",
+      "requirement": "Use a rectangular 65 mm \u00d7 65 mm board outline (dimension tolerance 0.1 mm) with two copper layers."
+    },
+    {
+      "criterion_id": "req-02",
+      "requirement": "Use a six-pin header J1 with pins 1 through 6 assigned ROW1, ROW2, ROW3, COL1, COL2, COL3. The external controller supplies scanning and pull-ups; do not add a controller, supply connector, or pull-up resistors."
+    },
+    {
+      "criterion_id": "req-03",
+      "requirement": "Create nine normally-open momentary switches SW11 through SW33 in a three-row, three-column grid. For each position (r,c), connect COLc to one terminal of SWrc, the other switch terminal to the anode of a dedicated diode Drc, and the diode cathode to ROWr. Each switch-diode junction must be its own net."
+    },
+    {
+      "criterion_id": "req-04",
+      "requirement": "Use small-signal switching diodes with visible cathode markings. Record diode part numbers and footprint pin mappings. If switches have duplicated terminals, map the terminal pairs correctly."
+    },
+    {
+      "criterion_id": "req-05",
+      "requirement": "Place switch centres at x = 12, 32, and 52 mm for columns 1 through 3 and y = 12, 32, and 52 mm for rows 1 through 3, measured from the lower-left corner. Tolerance is 0.5 mm in each axis. Mark each switch RrCc on silkscreen."
+    },
+    {
+      "criterion_id": "req-06",
+      "requirement": "Place each diode within 8 mm of its switch centre. Keep all three row nets and all three column nets distinct, connected only through their specified switch-diode branches."
+    },
+    {
+      "criterion_id": "deliverables",
+      "requirement": "Editable schematic and fully placed and routed PCB are supplied with readable entry files and a README documenting component choices and unresolved requirements."
+    },
+    {
+      "criterion_id": "common-layout",
+      "requirement": "Header pitch, passive packages, component pin mapping, silkscreen, board containment, copper clearance, trace widths, and complete routing satisfy the common prompt requirements."
+    }
+  ],
+  "source": {
+    "type": "original",
+    "description": "Authored for this benchmark; draft awaiting review."
+  },
+  "license": null
+}

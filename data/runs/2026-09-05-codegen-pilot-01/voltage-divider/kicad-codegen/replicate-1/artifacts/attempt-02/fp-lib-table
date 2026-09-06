@@ -1,0 +1,5 @@
+(fp_lib_table
+(lib (name "Resistor_SMD")(type "KiCad")(uri "/Users/ankan/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Resistor_SMD.pretty")(options "")(descr ""))
+(lib (name "Connector_PinHeader_2.54mm")(type "KiCad")(uri "/Users/ankan/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Connector_PinHeader_2.54mm.pretty")(options "")(descr ""))
+(lib (name "TestPoint")(type "KiCad")(uri "/Users/ankan/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/TestPoint.pretty")(options "")(descr ""))
+)

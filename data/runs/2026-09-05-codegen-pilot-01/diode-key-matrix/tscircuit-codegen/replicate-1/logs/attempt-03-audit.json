@@ -1,0 +1,138 @@
+{
+  "board_dimensions_mm": [
+    65,
+    65
+  ],
+  "copper_layers": 2,
+  "positions_from_lower_left_mm": {
+    "J1": {
+      "x": 32.5,
+      "y": 60.5
+    },
+    "SW11": {
+      "x": 12.0,
+      "y": 12.0
+    },
+    "D11": {
+      "x": 18.0,
+      "y": 12.0
+    },
+    "SW12": {
+      "x": 32.0,
+      "y": 12.0
+    },
+    "D12": {
+      "x": 38.0,
+      "y": 12.0
+    },
+    "SW13": {
+      "x": 52.0,
+      "y": 12.0
+    },
+    "D13": {
+      "x": 58.0,
+      "y": 12.0
+    },
+    "SW21": {
+      "x": 12.0,
+      "y": 32.0
+    },
+    "D21": {
+      "x": 18.0,
+      "y": 32.0
+    },
+    "SW22": {
+      "x": 32.0,
+      "y": 32.0
+    },
+    "D22": {
+      "x": 38.0,
+      "y": 32.0
+    },
+    "SW23": {
+      "x": 52.0,
+      "y": 32.0
+    },
+    "D23": {
+      "x": 58.0,
+      "y": 32.0
+    },
+    "SW31": {
+      "x": 12.0,
+      "y": 52.0
+    },
+    "D31": {
+      "x": 18.0,
+      "y": 52.0
+    },
+    "SW32": {
+      "x": 32.0,
+      "y": 52.0
+    },
+    "D32": {
+      "x": 38.0,
+      "y": 52.0
+    },
+    "SW33": {
+      "x": 52.0,
+      "y": 52.0
+    },
+    "D33": {
+      "x": 58.0,
+      "y": 52.0
+    }
+  },
+  "switch_positions_pass": true,
+  "diodes_within_8mm": true,
+  "net_count": 15,
+  "net_route_metadata_continuity": {
+    "ROW1": true,
+    "ROW2": true,
+    "ROW3": true,
+    "COL1": true,
+    "COL2": true,
+    "COL3": true,
+    "KEY11": true,
+    "KEY12": true,
+    "KEY13": true,
+    "KEY21": true,
+    "KEY22": true,
+    "KEY23": true,
+    "KEY31": true,
+    "KEY32": true,
+    "KEY33": true
+  },
+  "all_net_route_metadata_continuity_pass": true,
+  "minimum_route_wire_width_mm": 0.25,
+  "pcb_trace_count": 45,
+  "pcb_via_count": 20,
+  "diagnostics": [
+    {
+      "type": "schematic_component_styling_warning",
+      "schematic_component_styling_warning_id": "schematic_component_styling_warning_0",
+      "warning_type": "schematic_component_styling_warning",
+      "message": "No <schematicsheet> was found. Add a <schematicsheet> to define the schematic drawing area.",
+      "schematic_component_id": "schematic_component_0",
+      "source_component_id": "source_component_0",
+      "styling_issue_type": "missing_schematic_sheet"
+    },
+    {
+      "type": "pcb_pad_trace_clearance_error",
+      "pcb_pad_trace_clearance_error_id": "pcb_pad_trace_clearance_error_0",
+      "error_type": "pcb_pad_trace_clearance_error",
+      "message": "Pad pcb_plated_hole[#pcb_plated_hole_37] and trace trace[.J1 > port.pin3, .D32 > port.pin1] are too close (clearance: 0.227mm, minimum: 0.25mm)",
+      "pcb_pad_id": "pcb_plated_hole_37",
+      "pcb_trace_id": "source_net_2_mst0_0",
+      "minimum_clearance": 0.25,
+      "actual_clearance": 0.22699999999999987,
+      "center": {
+        "x": 1.2900000000000003,
+        "y": 23.75
+      }
+    }
+  ],
+  "limitations": [
+    "Connectivity audit uses route connectsTo metadata plus declared switch internal connections; independent geometric opens verification is not performed.",
+    "Clearance diagnostics are retained; exit code alone is not a clean DRC result."
+  ]
+}

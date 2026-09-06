@@ -1,0 +1,985 @@
+{
+  "evaluation_id": "deterministic-v1-ts-c0d54e8e15702df309af--analog-input-bank--tscircuit-codegen",
+  "evaluator_code_sha256": "80118bcc09329c846dff89898c47f8bd8fd8f48832b6340f6d58ac52dbf7e2ed",
+  "method": "tscircuit-codegen",
+  "outcomes": [
+    {
+      "category": "functional_requirements",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "actual": {
+          "capacitor": 6,
+          "header": 7,
+          "resistor": 18,
+          "testpoint": 7
+        },
+        "expected": {
+          "capacitor": 6,
+          "header": 7,
+          "resistor": 18,
+          "testpoint": 7
+        }
+      },
+      "outcome": "pass",
+      "test_id": "required-components"
+    },
+    {
+      "category": "functional_requirements",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "net_mapping": {
+          "DIV1": "source_net_2",
+          "DIV2": "source_net_5",
+          "DIV3": "source_net_8",
+          "DIV4": "source_net_11",
+          "DIV5": "source_net_14",
+          "DIV6": "source_net_17",
+          "GND": "source_net_0",
+          "IN1": "source_net_1",
+          "IN2": "source_net_4",
+          "IN3": "source_net_7",
+          "IN4": "source_net_10",
+          "IN5": "source_net_13",
+          "IN6": "source_net_16",
+          "OUT1": "source_net_3",
+          "OUT2": "source_net_6",
+          "OUT3": "source_net_9",
+          "OUT4": "source_net_12",
+          "OUT5": "source_net_15",
+          "OUT6": "source_net_18"
+        },
+        "role_mapping": {
+          "J1": "J1",
+          "J2": "J2",
+          "J3": "J3",
+          "J4": "J4",
+          "J5": "J5",
+          "J6": "J6",
+          "J7": "J7",
+          "bottom1": "R2",
+          "bottom2": "R5",
+          "bottom3": "R8",
+          "bottom4": "R11",
+          "bottom5": "R14",
+          "bottom6": "R17",
+          "cap1": "C1",
+          "cap2": "C2",
+          "cap3": "C3",
+          "cap4": "C4",
+          "cap5": "C5",
+          "cap6": "C6",
+          "groundtp": "TP7",
+          "series1": "R3",
+          "series2": "R6",
+          "series3": "R9",
+          "series4": "R12",
+          "series5": "R15",
+          "series6": "R18",
+          "top1": "R1",
+          "top2": "R4",
+          "top3": "R7",
+          "top4": "R10",
+          "top5": "R13",
+          "top6": "R16",
+          "tp1": "TP1",
+          "tp2": "TP2",
+          "tp3": "TP3",
+          "tp4": "TP4",
+          "tp5": "TP5",
+          "tp6": "TP6"
+        }
+      },
+      "outcome": "pass",
+      "test_id": "passive-values"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "net_mapping": {
+          "DIV1": "source_net_2",
+          "DIV2": "source_net_5",
+          "DIV3": "source_net_8",
+          "DIV4": "source_net_11",
+          "DIV5": "source_net_14",
+          "DIV6": "source_net_17",
+          "GND": "source_net_0",
+          "IN1": "source_net_1",
+          "IN2": "source_net_4",
+          "IN3": "source_net_7",
+          "IN4": "source_net_10",
+          "IN5": "source_net_13",
+          "IN6": "source_net_16",
+          "OUT1": "source_net_3",
+          "OUT2": "source_net_6",
+          "OUT3": "source_net_9",
+          "OUT4": "source_net_12",
+          "OUT5": "source_net_15",
+          "OUT6": "source_net_18"
+        },
+        "role_mapping": {
+          "J1": "J1",
+          "J2": "J2",
+          "J3": "J3",
+          "J4": "J4",
+          "J5": "J5",
+          "J6": "J6",
+          "J7": "J7",
+          "bottom1": "R2",
+          "bottom2": "R5",
+          "bottom3": "R8",
+          "bottom4": "R11",
+          "bottom5": "R14",
+          "bottom6": "R17",
+          "cap1": "C1",
+          "cap2": "C2",
+          "cap3": "C3",
+          "cap4": "C4",
+          "cap5": "C5",
+          "cap6": "C6",
+          "groundtp": "TP7",
+          "series1": "R3",
+          "series2": "R6",
+          "series3": "R9",
+          "series4": "R12",
+          "series5": "R15",
+          "series6": "R18",
+          "top1": "R1",
+          "top2": "R4",
+          "top3": "R7",
+          "top4": "R10",
+          "top5": "R13",
+          "top6": "R16",
+          "tp1": "TP1",
+          "tp2": "TP2",
+          "tp3": "TP3",
+          "tp4": "TP4",
+          "tp5": "TP5",
+          "tp6": "TP6"
+        }
+      },
+      "outcome": "pass",
+      "test_id": "topology"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [],
+      "observed": {
+        "reason": "Compiled tscircuit source and PCB port links share an intermediate representation; independent schematic/source replay was not performed"
+      },
+      "outcome": "unknown",
+      "test_id": "schematic-pcb-net-agreement"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": [],
+        "primitive_count": 346,
+        "scope": "supported outer copper envelopes; no source/build replay"
+      },
+      "outcome": "pass",
+      "test_id": "routed-copper"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": [],
+        "primitive_count": 346,
+        "scope": "supported outer copper envelopes; no source/build replay"
+      },
+      "outcome": "pass",
+      "test_id": "no-copper-shorts"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "height_mm": 50,
+        "width_mm": 80
+      },
+      "outcome": "pass",
+      "test_id": "board-size"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "layers": 2
+      },
+      "outcome": "pass",
+      "test_id": "layers"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "minimum_mm": 0.25
+      },
+      "outcome": "pass",
+      "test_id": "trace-width"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": [
+          {
+            "a": 1,
+            "b": 321,
+            "clearance_mm": 0.158989436
+          },
+          {
+            "a": 1,
+            "b": 328,
+            "clearance_mm": 0.128029604
+          },
+          {
+            "a": 1,
+            "b": 329,
+            "clearance_mm": 0.194837009
+          },
+          {
+            "a": 1,
+            "b": 330,
+            "clearance_mm": 0.194837009
+          },
+          {
+            "a": 1,
+            "b": 322,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 1,
+            "b": 323,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 1,
+            "b": 324,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 1,
+            "b": 325,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 1,
+            "b": 326,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 1,
+            "b": 327,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 256,
+            "b": 206,
+            "clearance_mm": 0.115117977
+          },
+          {
+            "a": 256,
+            "b": 203,
+            "clearance_mm": 0.140117977
+          },
+          {
+            "a": 256,
+            "b": 204,
+            "clearance_mm": 0.140117977
+          },
+          {
+            "a": 256,
+            "b": 11,
+            "clearance_mm": 0.165117977
+          },
+          {
+            "a": 259,
+            "b": 57,
+            "clearance_mm": 0.239439748
+          },
+          {
+            "a": 260,
+            "b": 57,
+            "clearance_mm": 0.239439748
+          },
+          {
+            "a": 261,
+            "b": 57,
+            "clearance_mm": 0.161225436
+          },
+          {
+            "a": 262,
+            "b": 57,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 263,
+            "b": 57,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 57,
+            "b": 264,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 57,
+            "b": 265,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 57,
+            "b": 266,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 57,
+            "b": 267,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 57,
+            "b": 268,
+            "clearance_mm": 0.129479765
+          },
+          {
+            "a": 57,
+            "b": 269,
+            "clearance_mm": 0.159953946
+          },
+          {
+            "a": 272,
+            "b": 177,
+            "clearance_mm": 0.15989255
+          },
+          {
+            "a": 272,
+            "b": 174,
+            "clearance_mm": 0.18489255
+          },
+          {
+            "a": 272,
+            "b": 175,
+            "clearance_mm": 0.18489255
+          },
+          {
+            "a": 272,
+            "b": 20,
+            "clearance_mm": 0.20989255
+          },
+          {
+            "a": 276,
+            "b": 59,
+            "clearance_mm": 0.172167688
+          },
+          {
+            "a": 277,
+            "b": 59,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 278,
+            "b": 59,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 59,
+            "b": 279,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 59,
+            "b": 280,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 59,
+            "b": 281,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 59,
+            "b": 282,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 59,
+            "b": 283,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 59,
+            "b": 284,
+            "clearance_mm": 0.147121296
+          },
+          {
+            "a": 59,
+            "b": 285,
+            "clearance_mm": 0.216903481
+          },
+          {
+            "a": 59,
+            "b": 286,
+            "clearance_mm": 0.216903481
+          },
+          {
+            "a": 214,
+            "b": 7,
+            "clearance_mm": 0.148906918
+          },
+          {
+            "a": 215,
+            "b": 7,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 216,
+            "b": 7,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 217,
+            "b": 7,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 218,
+            "b": 7,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 219,
+            "b": 7,
+            "clearance_mm": 0.13122256
+          },
+          {
+            "a": 220,
+            "b": 7,
+            "clearance_mm": 0.185908847
+          },
+          {
+            "a": 213,
+            "b": 7,
+            "clearance_mm": 0.206924514
+          },
+          {
+            "a": 212,
+            "b": 7,
+            "clearance_mm": 0.206924514
+          },
+          {
+            "a": 18,
+            "b": 168,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 248,
+            "b": 29,
+            "clearance_mm": 0.102562135
+          },
+          {
+            "a": 251,
+            "b": 61,
+            "clearance_mm": 0.100132671
+          },
+          {
+            "a": 111,
+            "b": 340,
+            "clearance_mm": 0.172439366
+          },
+          {
+            "a": 111,
+            "b": 341,
+            "clearance_mm": 0.172439366
+          },
+          {
+            "a": 111,
+            "b": 342,
+            "clearance_mm": 0.177454219
+          },
+          {
+            "a": 111,
+            "b": 339,
+            "clearance_mm": 0.222898446
+          },
+          {
+            "a": 111,
+            "b": 338,
+            "clearance_mm": 0.223327167
+          },
+          {
+            "a": 342,
+            "b": 53,
+            "clearance_mm": 0.097687439
+          },
+          {
+            "a": 51,
+            "b": 245,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 85,
+            "b": 245,
+            "clearance_mm": 0.23
+          },
+          {
+            "a": 290,
+            "b": 63,
+            "clearance_mm": 0.13
+          },
+          {
+            "a": 309,
+            "b": 116,
+            "clearance_mm": 0.1565
+          },
+          {
+            "a": 317,
+            "b": 116,
+            "clearance_mm": 0.1315
+          },
+          {
+            "a": 305,
+            "b": 65,
+            "clearance_mm": 0.100973371
+          },
+          {
+            "a": 295,
+            "b": 92,
+            "clearance_mm": 0.1565
+          },
+          {
+            "a": 302,
+            "b": 92,
+            "clearance_mm": 0.1315
+          }
+        ]
+      },
+      "outcome": "fail",
+      "test_id": "copper-clearance"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "outside": []
+      },
+      "outcome": "pass",
+      "test_id": "component-containment"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": []
+      },
+      "outcome": "pass",
+      "test_id": "header-pitch"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "recognition": "two surface pads, centre spacing 1.6–2.2 mm, short side 0.8–1.3 mm and long side 1.1–1.7 mm"
+      },
+      "outcome": "pass",
+      "test_id": "passive-packages"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "Automated presence of text does not verify pin/signal association, polarity, and readable silkscreen placement."
+      },
+      "outcome": "unknown",
+      "test_id": "signal-markings"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "exposure_note": "mask opening/material exposure is not independently measured",
+        "undersized": []
+      },
+      "outcome": "pass",
+      "test_id": "test-pads"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "edge_distance_mm": 4
+      },
+      "outcome": "pass",
+      "test_id": "layout-01"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "edge_distance_mm": 4
+      },
+      "outcome": "pass",
+      "test_id": "layout-02"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "distance_mm": 8.736274949885678
+      },
+      "outcome": "pass",
+      "test_id": "layout-03"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "edge_distance_mm": 4
+      },
+      "outcome": "pass",
+      "test_id": "layout-04"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "distance_mm": 7.107467903550462
+      },
+      "outcome": "pass",
+      "test_id": "layout-05"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "edge_distance_mm": 4
+      },
+      "outcome": "pass",
+      "test_id": "layout-06"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "distance_mm": 6.132935675514623
+      },
+      "outcome": "pass",
+      "test_id": "layout-07"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "edge_distance_mm": 4
+      },
+      "outcome": "pass",
+      "test_id": "layout-08"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "distance_mm": 6.132935675514623
+      },
+      "outcome": "pass",
+      "test_id": "layout-09"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "edge_distance_mm": 4
+      },
+      "outcome": "pass",
+      "test_id": "layout-10"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "distance_mm": 7.107467903550462
+      },
+      "outcome": "pass",
+      "test_id": "layout-11"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "edge_distance_mm": 4
+      },
+      "outcome": "pass",
+      "test_id": "layout-12"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "distance_mm": 8.736274949885678
+      },
+      "outcome": "pass",
+      "test_id": "layout-13"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "minimum_spacing_mm": 11.199999999999996,
+        "positions_mm": [
+          [
+            -28,
+            21
+          ],
+          [
+            -16.8,
+            21
+          ],
+          [
+            -5.600000000000001,
+            21
+          ],
+          [
+            5.599999999999994,
+            21
+          ],
+          [
+            16.799999999999997,
+            21
+          ],
+          [
+            28,
+            21
+          ]
+        ]
+      },
+      "outcome": "pass",
+      "test_id": "layout-14"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "Copper clears holes, but full component-body distance from holes is not measured"
+      },
+      "outcome": "unknown",
+      "test_id": "layout-15"
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "scope": "structural parsing, not source replay"
+      },
+      "outcome": "pass",
+      "test_id": "editable-artifacts"
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "path": "artifacts/README.md"
+      },
+      "outcome": "pass",
+      "test_id": "readme"
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "A read-only static audit does not prove source/build reproducibility, exported-netlist freshness, or the semantic completeness of README component/limitation documentation."
+      },
+      "outcome": "unknown",
+      "test_id": "source-replay-and-documentation"
+    }
+  ],
+  "parse_error": null,
+  "prompt_id": "analog-input-bank",
+  "prompt_sha256": "441ad72121511dea1787995ae6086eabd660a0a235f60ea4d0cf70d11adac869",
+  "retrospective": true,
+  "rules_sha256": "e47adc579b67059e9a1099881f7785d9cfc5c026a02e4ed549dc845f6b6725c1",
+  "run_id": "2026-09-05-codegen-pilot-01--analog-input-bank--tscircuit-codegen--r1",
+  "schema_version": "1.0.0",
+  "scores": {
+    "applicable_test_count": 33,
+    "category_scores": [
+      {
+        "applicable": true,
+        "category": "functional_requirements",
+        "failed": 0,
+        "passed": 2,
+        "possible_score_max": 2,
+        "possible_score_min": 2,
+        "score": 2,
+        "unknown_or_unsupported": 0,
+        "weight": 30
+      },
+      {
+        "applicable": true,
+        "category": "connectivity",
+        "failed": 0,
+        "passed": 3,
+        "possible_score_max": 2,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 1,
+        "weight": 30
+      },
+      {
+        "applicable": true,
+        "category": "physical_constraints",
+        "failed": 1,
+        "passed": 21,
+        "possible_score_max": 1,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 2,
+        "weight": 20
+      },
+      {
+        "applicable": true,
+        "category": "deliverable_integrity",
+        "failed": 0,
+        "passed": 2,
+        "possible_score_max": 2,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 1,
+        "weight": 20
+      }
+    ],
+    "critical_failure": true,
+    "overall_pass": false,
+    "possible_total_max": 90,
+    "possible_total_min": 65,
+    "resolved_test_count": 29,
+    "total_score": null
+  },
+  "versions": {
+    "artifact_readers": "TypeScript data readers; no external native tool replay",
+    "bun": "1.3.14",
+    "evaluator": "1.0.0-ts.1"
+  }
+}

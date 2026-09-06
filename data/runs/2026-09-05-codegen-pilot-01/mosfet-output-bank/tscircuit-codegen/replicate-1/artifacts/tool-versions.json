@@ -1,0 +1,11 @@
+{
+  "tscircuit": "0.0.2462",
+  "@tscircuit/core": "0.0.1816",
+  "@tscircuit/cli": "0.1.2021",
+  "@tscircuit/props": "0.0.644",
+  "@tscircuit/footprinter": "0.0.426",
+  "@tscircuit/capacity-autorouter": "0.0.851",
+  "@tscircuit/checks": "0.0.178",
+  "react": "19.2.8",
+  "circuit-json": "0.0.479"
+}

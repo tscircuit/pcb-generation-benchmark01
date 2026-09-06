@@ -1,0 +1,28 @@
+{
+  "name": "pcb-generation-benchmark01",
+  "private": true,
+  "type": "module",
+  "packageManager": "bun@1.3.14",
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "score": "bun scripts/score-experiment.ts",
+    "collect": "bun scripts/collect-pilot-results.ts",
+    "rules": "bun scripts/author-scoring-rules.ts",
+    "website:views": "bun website/render-pcb-views.ts",
+    "website:build": "bun website/build.ts",
+    "build": "bun run website:views && bun run website:build",
+    "website:publish": "bun run build && ohmx-box publish-html --json website/dist --title 'PCB Generation Benchmark 01' --replace",
+    "format": "prettier --write \"src/**/*.ts\" \"scripts/**/*.ts\" \"tests/**/*.ts\" \"website/*.ts\" \"website/*.css\" package.json tsconfig.json",
+    "format:check": "prettier --check \"src/**/*.ts\" \"scripts/**/*.ts\" \"tests/**/*.ts\" \"website/*.ts\" \"website/*.css\" package.json tsconfig.json"
+  },
+  "dependencies": {
+    "@xmldom/xmldom": "^0.9.12",
+    "fflate": "^0.8.3"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.1",
+    "prettier": "^3.9.6",
+    "typescript": "^7.0.2"
+  }
+}

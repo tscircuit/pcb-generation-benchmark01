@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1",
+  "prompt_id": "button-input-bank",
+  "revision": 1,
+  "title": "Four-button digital input board",
+  "labels": [
+    "medium",
+    "buttons",
+    "digital-input",
+    "pull-up"
+  ],
+  "status": "draft",
+  "split": "unassigned",
+  "family": "button-input",
+  "difficulty": "medium",
+  "deliverable_scope": "both",
+  "prompt_file": "prompt.md",
+  "prompt_sha256": "41d352cc9a6280e14727ad0186f65a05ced344cb4a848c5689204b0beea64e47",
+  "assets": [],
+  "constraints": {
+    "board_width_mm": 50,
+    "board_height_mm": 35,
+    "copper_layers": 2,
+    "min_clearance_mm": 0.25,
+    "min_signal_trace_width_mm": 0.25
+  },
+  "acceptance_criteria": [
+    {
+      "criterion_id": "req-01",
+      "requirement": "Use a rectangular 50 mm \u00d7 35 mm board outline (dimension tolerance 0.1 mm) with two copper layers."
+    },
+    {
+      "criterion_id": "req-02",
+      "requirement": "Use a six-pin header J1 with pins 1 through 6 assigned +3V3, GND, BTN1, BTN2, BTN3, BTN4 respectively."
+    },
+    {
+      "criterion_id": "req-03",
+      "requirement": "For each channel i from 1 through 4, connect a 10 kohm resistor Ri from +3V3 to BTNi, a 100 nF capacitor Ci from BTNi to GND, and a normally-open momentary switch SWi between BTNi and GND. If a switch has duplicated terminals, map both terminal pairs correctly."
+    },
+    {
+      "criterion_id": "req-04",
+      "requirement": "Arrange SW1 through SW4 in a left-to-right row with at least 10 mm centre spacing. Label each switch with its BTN signal. Each button must pull only its own signal to GND when pressed; all four channels share the supply and ground."
+    },
+    {
+      "criterion_id": "deliverables",
+      "requirement": "Editable schematic and fully placed and routed PCB are supplied with readable entry files and a README documenting component choices and unresolved requirements."
+    },
+    {
+      "criterion_id": "common-layout",
+      "requirement": "Header pitch, passive packages, component pin mapping, silkscreen, board containment, copper clearance, trace widths, and complete routing satisfy the common prompt requirements."
+    }
+  ],
+  "source": {
+    "type": "original",
+    "description": "Authored for this benchmark; draft awaiting review."
+  },
+  "license": null
+}

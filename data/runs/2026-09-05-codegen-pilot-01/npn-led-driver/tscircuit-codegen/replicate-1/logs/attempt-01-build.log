@@ -1,0 +1,19 @@
+COMMAND: ['tsci', 'build', '--svgs', '--pcb-png', '--disable-parts-engine', '--autorouter-timeout', '120s', 'index.circuit.tsx']
+Building 1 file(s)...
+Building index.circuit.tsx...
+Generating circuit JSON...
+11 |     <chip name={`Q${i}`} manufacturerPartNumber="MMBT3904LT1G" footprint="sot23" pinLabels={{pin1:"B",pin2:"E",pin3:"C"}} schPinArrangement={{leftSide:{pins:["B"],direction:"top-to-bottom"},rightSide:{pins:["C","E"],direction:"top-to-bottom"}} pcbX={x} pcbY={-2} schX={s} schY={0} schSectionName={`CH${i}`}/>
+                                                                                                                                                                                                                                                         ^
+error: Expected "}" but found "pcbX"
+    at /Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/tscircuit-codegen/replicate-1/artifacts/attempt-01/index.circuit.tsx:11:245
+Fatal error [circuit_generation_failed]: BuildMessage: Expected "}" but found "pcbX"
+Generating preview images...
+No successful build output available for preview image generation.
+
+Build complete
+  Circuits  0 passed 1 failed
+  Options   pcb-png, svgs, autorouter-timeout
+  Output    dist
+
+⚠ Build completed with errors
+Build exiting with code 1: fatal circuit build errors occurred

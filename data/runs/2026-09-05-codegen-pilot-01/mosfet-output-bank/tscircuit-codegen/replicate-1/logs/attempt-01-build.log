@@ -1,0 +1,37 @@
+$ tsci build index.circuit.tsx --svgs --pcb-png --disable-parts-engine --autorouter-timeout 120s
+Building 1 file(s)...
+Building index.circuit.tsx...
+Generating circuit JSON...
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. It was passed a child from default. See https://react.dev/link/warning-keys for more information.
+Circuit JSON written to dist/index/circuit.json
+No <schematicsheet> was found. Add a <schematicsheet> to define the schematic drawing area.
+PCB trace trace[.J2 > port.pin5, .R7 > port.anode] is too close to trace[.J2 > port.pin4, .R5 > port.anode] (gap: 0.145mm)
+PCB trace trace[.Q3 > port.drain, .R6 > port.anode] is too close to trace[.R4 > port.cathode, .Q3 > port.source] (gap: 0.115mm)
+PCB trace trace[.Q3 > port.drain, .R6 > port.anode] is too close to trace[.R6 > port.cathode, .Q4 > port.source] (gap: 0.117mm)
+PCB trace trace[.R3 > port.cathode, .R4 > port.anode] is too close to trace[.R4 > port.cathode, .Q3 > port.source] (gap: 0.216mm)
+PCB trace trace[.Q1 > port.drain, .R2 > port.anode] is too close to trace[.C1 > port.anode, .D1 > port.pin1] (gap: 0.111mm)
+PCB trace trace[.Q1 > port.drain, .R2 > port.anode] is too close to trace[.R2 > port.cathode, .Q1 > port.source] (gap: 0.233mm)
+PCB trace trace[.Q1 > port.drain, .R2 > port.anode] is too close to trace[.R2 > port.cathode, .Q2 > port.source] (gap: 0.190mm)
+PCB trace trace[.Q1 > port.gate, .D1 > port.pin2] is too close to trace[.C1 > port.anode, .D1 > port.pin1] (gap: 0.187mm)
+PCB trace trace[.R6 > port.cathode, .Q3 > port.source] is too close to trace[.Q3 > port.drain, .R6 > port.anode] (gap: 0.182mm)
+Via pcb_via[#pcb_via_3] and trace trace[.J2 > port.pin4, .R5 > port.anode] are too close (clearance: 0.245mm, minimum: 0.25mm)
+Via pcb_via[#pcb_via_22] and trace trace[.Q3 > port.drain, .R6 > port.anode] are too close (clearance: 0.215mm, minimum: 0.25mm)
+Generating preview images...
+[index] Generating PCB SVG...
+[index] Written pcb.svg
+[index] Generating PCB PNG...
+[index] Written pcb.png
+[index] Generating schematic SVG...
+[index] Written schematic.svg
+
+Build complete
+  Circuits  1 passed
+  Options   pcb-png, svgs, autorouter-timeout
+  Output    dist
+
+⚠ Build completed with errors
+Build exiting with code 0: build finished successfully
+
+EXIT_CODE=0

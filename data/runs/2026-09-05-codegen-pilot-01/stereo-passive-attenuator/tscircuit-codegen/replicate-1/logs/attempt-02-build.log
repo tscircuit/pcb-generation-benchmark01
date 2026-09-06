@@ -1,0 +1,29 @@
+$ tsci build index.circuit.tsx --svgs --pcb-png --disable-parts-engine --autorouter-timeout 120s
+Building 1 file(s)...
+Building index.circuit.tsx...
+Generating circuit JSON...
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. It was passed a child from default. See https://react.dev/link/warning-keys for more information.
+Circuit JSON written to dist/index/circuit.json
+No <schematicsheet> was found. Add a <schematicsheet> to define the schematic drawing area.
+TP1 has no courtyard
+TP2 has no courtyard
+TP3 has no courtyard
+PCB trace trace[.J1 > port.pin3, .C2 > port.pos] is too close to trace[.J1 > port.pin1, .C1 > port.pos] (gap: 0.083mm)
+Via pcb_via[#pcb_via_4] and trace trace[.J1 > port.pin1, .C1 > port.pos] are too close (clearance: 0.058mm, minimum: 0.1mm)
+Generating preview images...
+[index] Generating PCB SVG...
+[index] Written pcb.svg
+[index] Generating PCB PNG...
+[index] Written pcb.png
+[index] Generating schematic SVG...
+[index] Written schematic.svg
+
+Build complete
+  Circuits  1 passed
+  Options   pcb-png, svgs, autorouter-timeout
+  Output    dist
+
+⚠ Build completed with errors
+Build exiting with code 0: build finished successfully

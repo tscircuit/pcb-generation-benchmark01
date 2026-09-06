@@ -14,3 +14,5 @@ JSON Schema validators are future work. The copyable JSON templates define the i
 - Freeze a schema version before collection and migrate explicitly when changing it.
 
 Future validators must reject placeholders in actual data, broken references, duplicate IDs, invalid states, missing prompt hashes, missing experiment fields, incomplete paired runs, and metrics lacking evidence.
+
+Deterministic scoring v1 has executable rule/outcome validation in `src/evaluation/scoring.ts`; its contract is documented in `docs/deterministic-scoring.md`. This does not replace the legacy templates with full JSON Schema validation. Unknown or unsupported evidence keeps strict totals null.

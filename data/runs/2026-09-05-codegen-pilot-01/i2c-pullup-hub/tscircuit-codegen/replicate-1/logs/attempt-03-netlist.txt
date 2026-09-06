@@ -1,0 +1,105 @@
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. See https://react.dev/link/warning-keys for more information.
+Errors: 0
+Warnings: 0
+
+Readable Netlist:
+COMPONENTS:
+ - J1: J1, source_component
+ - C1: 100nF capacitor
+ - J2: J2, source_component
+ - C2: 100nF capacitor
+ - J3: J3, source_component
+ - C3: 100nF capacitor
+ - R1: 4.7kΩ resistor
+ - JP1: 
+ - R2: 4.7kΩ resistor
+ - JP2: 
+
+NET: GND
+  - C3 pin2 (-)
+  - J3 GND
+  - C2 pin2 (-)
+  - J2 GND
+  - C1 pin2 (-)
+  - J1 GND
+
+NET: R1_neg
+  - R1 pin2
+  - JP1 pin1
+
+NET: SDA
+  - JP1 pin2
+  - J3 SDA
+  - J2 SDA
+  - J1 SDA
+
+NET: V3V3
+  - R2 pin1
+  - R1 pin1
+  - C3 pin1 (+)
+  - J3 V3V3
+  - C2 pin1 (+)
+  - J2 V3V3
+  - C1 pin1 (+)
+  - J1 V3V3
+
+NET: R2_neg
+  - R2 pin2
+  - JP2 pin1
+
+NET: SCL
+  - JP2 pin2
+  - J3 SCL
+  - J2 SCL
+  - J1 SCL
+
+
+COMPONENT_PINS:
+J1
+- pin1(V3V3): NETS(V3V3)
+- pin2(GND): NETS(GND)
+- pin3(SDA): NETS(SDA)
+- pin4(SCL): NETS(SCL)
+
+C1 (100nF undefined)
+- pin1(anode, pos, left): NETS(V3V3)
+- pin2(cathode, neg, right): NETS(GND)
+
+J2
+- pin1(V3V3): NETS(V3V3)
+- pin2(GND): NETS(GND)
+- pin3(SDA): NETS(SDA)
+- pin4(SCL): NETS(SCL)
+
+C2 (100nF undefined)
+- pin1(anode, pos, left): NETS(V3V3)
+- pin2(cathode, neg, right): NETS(GND)
+
+J3
+- pin1(V3V3): NETS(V3V3)
+- pin2(GND): NETS(GND)
+- pin3(SDA): NETS(SDA)
+- pin4(SCL): NETS(SCL)
+
+C3 (100nF undefined)
+- pin1(anode, pos, left): NETS(V3V3)
+- pin2(cathode, neg, right): NETS(GND)
+
+R1 (4.7kΩ undefined)
+- pin1(anode, pos, left): NETS(V3V3)
+- pin2(cathode, neg, right): NETS(R1_neg)
+
+JP1
+- pin1: NETS(R1_neg)
+- pin2: NETS(SDA)
+
+R2 (4.7kΩ undefined)
+- pin1(anode, pos, left): NETS(V3V3)
+- pin2(cathode, neg, right): NETS(R2_neg)
+
+JP2
+- pin1: NETS(R2_neg)
+- pin2: NETS(SCL)
+

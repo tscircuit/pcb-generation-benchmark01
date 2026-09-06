@@ -1,0 +1,224 @@
+$ tsci check netlist index.circuit.tsx
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. It was passed a child from default. See https://react.dev/link/warning-keys for more information.
+Errors: 0
+Warnings: 0
+
+Readable Netlist:
+COMPONENTS:
+ - J1: J1, source_component
+ - C1: 10uF capacitor
+ - C2: 100nF capacitor
+ - J2: J2, source_component
+ - Q1: AO3400A
+ - R1: 100Ω resistor
+ - R2: 100kΩ resistor
+ - D1: D1, source_component
+ - J3: J3, source_component
+ - Q2: AO3400A
+ - R3: 100Ω resistor
+ - R4: 100kΩ resistor
+ - D2: D2, source_component
+ - J4: J4, source_component
+ - Q3: AO3400A
+ - R5: 100Ω resistor
+ - R6: 100kΩ resistor
+ - D3: D3, source_component
+ - J5: J5, source_component
+ - Q4: AO3400A
+ - R7: 100Ω resistor
+ - R8: 100kΩ resistor
+ - D4: D4, source_component
+ - J6: J6, source_component
+
+NET: CTRL1
+  - R1 pin1
+  - J2 CTRL1
+
+NET: GATE1
+  - R2 pin1
+  - Q1 gate
+  - R1 pin2
+
+NET: OUT1
+  - J3 OUT1
+  - D1 anode (+)
+  - Q1 drain
+
+NET: CTRL2
+  - R3 pin1
+  - J2 CTRL2
+
+NET: GATE2
+  - R4 pin1
+  - Q2 gate
+  - R3 pin2
+
+NET: OUT2
+  - J4 OUT2
+  - D2 anode (+)
+  - Q2 drain
+
+NET: CTRL3
+  - R5 pin1
+  - J2 CTRL3
+
+NET: GATE3
+  - R6 pin1
+  - Q3 gate
+  - R5 pin2
+
+NET: OUT3
+  - J5 OUT3
+  - D3 anode (+)
+  - Q3 drain
+
+NET: CTRL4
+  - R7 pin1
+  - J2 CTRL4
+
+NET: GATE4
+  - R8 pin1
+  - Q4 gate
+  - R7 pin2
+
+NET: GND
+  - Q4 source
+  - R8 pin2
+  - Q3 source
+  - R6 pin2
+  - Q2 source
+  - R4 pin2
+  - Q1 source
+  - R2 pin2
+  - J2 GND
+  - C2 pin2 (-)
+  - C1 pin2 (-)
+  - J1 GND
+
+NET: V12
+  - J6 V12
+  - D4 cathode (-)
+  - J5 V12
+  - D3 cathode (-)
+  - J4 V12
+  - D2 cathode (-)
+  - J3 V12
+  - D1 cathode (-)
+  - C2 pin1 (+)
+  - C1 pin1 (+)
+  - J1 V12
+
+NET: OUT4
+  - J6 OUT4
+  - D4 anode (+)
+  - Q4 drain
+
+
+COMPONENT_PINS:
+J1
+- pin1(V12): NETS(V12)
+- pin2(GND): NETS(GND)
+
+C1 (10uF undefined)
+- pin1(anode, pos, left): NETS(V12)
+- pin2(cathode, neg, right): NETS(GND)
+
+C2 (100nF undefined)
+- pin1(anode, pos, left): NETS(V12)
+- pin2(cathode, neg, right): NETS(GND)
+
+J2
+- pin1(GND): NETS(GND)
+- pin2(CTRL1): NETS(CTRL1)
+- pin3(CTRL2): NETS(CTRL2)
+- pin4(CTRL3): NETS(CTRL3)
+- pin5(CTRL4): NETS(CTRL4)
+
+Q1 (AO3400A)
+- pin1(gate): NETS(GATE1)
+- pin2(source): NETS(GND)
+- pin3(drain): NETS(OUT1)
+
+R1 (100Ω undefined)
+- pin1(anode, pos, left): NETS(CTRL1)
+- pin2(cathode, neg, right): NETS(GATE1)
+
+R2 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(GATE1)
+- pin2(cathode, neg, right): NETS(GND)
+
+D1 (1N5819HW)
+- pin1(cathode): NETS(V12)
+- pin2(anode): NETS(OUT1)
+
+J3
+- pin1(V12): NETS(V12)
+- pin2(OUT1): NETS(OUT1)
+
+Q2 (AO3400A)
+- pin1(gate): NETS(GATE2)
+- pin2(source): NETS(GND)
+- pin3(drain): NETS(OUT2)
+
+R3 (100Ω undefined)
+- pin1(anode, pos, left): NETS(CTRL2)
+- pin2(cathode, neg, right): NETS(GATE2)
+
+R4 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(GATE2)
+- pin2(cathode, neg, right): NETS(GND)
+
+D2 (1N5819HW)
+- pin1(cathode): NETS(V12)
+- pin2(anode): NETS(OUT2)
+
+J4
+- pin1(V12): NETS(V12)
+- pin2(OUT2): NETS(OUT2)
+
+Q3 (AO3400A)
+- pin1(gate): NETS(GATE3)
+- pin2(source): NETS(GND)
+- pin3(drain): NETS(OUT3)
+
+R5 (100Ω undefined)
+- pin1(anode, pos, left): NETS(CTRL3)
+- pin2(cathode, neg, right): NETS(GATE3)
+
+R6 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(GATE3)
+- pin2(cathode, neg, right): NETS(GND)
+
+D3 (1N5819HW)
+- pin1(cathode): NETS(V12)
+- pin2(anode): NETS(OUT3)
+
+J5
+- pin1(V12): NETS(V12)
+- pin2(OUT3): NETS(OUT3)
+
+Q4 (AO3400A)
+- pin1(gate): NETS(GATE4)
+- pin2(source): NETS(GND)
+- pin3(drain): NETS(OUT4)
+
+R7 (100Ω undefined)
+- pin1(anode, pos, left): NETS(CTRL4)
+- pin2(cathode, neg, right): NETS(GATE4)
+
+R8 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(GATE4)
+- pin2(cathode, neg, right): NETS(GND)
+
+D4 (1N5819HW)
+- pin1(cathode): NETS(V12)
+- pin2(anode): NETS(OUT4)
+
+J6
+- pin1(V12): NETS(V12)
+- pin2(OUT4): NETS(OUT4)
+
+
+EXIT_CODE=0

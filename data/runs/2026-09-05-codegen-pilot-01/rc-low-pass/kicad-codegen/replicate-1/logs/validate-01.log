@@ -1,0 +1,27 @@
++logs/validate-01.zsh:3> kicad-cli sch erc artifacts/attempt-01/rc-filter.kicad_sch --format json --output logs/erc-01.json --exit-code-violations
+Found 0 violations
+Saved ERC Report to logs/erc-01.json
++logs/validate-01.zsh:4> print 'ERC_EXIT=0'
+ERC_EXIT=0
++logs/validate-01.zsh:5> kicad-cli sch export netlist artifacts/attempt-01/rc-filter.kicad_sch --format kicadxml --output artifacts/attempt-01/rc-filter.net
++logs/validate-01.zsh:6> print 'NETLIST_EXIT=0'
+NETLIST_EXIT=0
++logs/validate-01.zsh:7> kicad-cli sch export svg artifacts/attempt-01/rc-filter.kicad_sch --output artifacts/attempt-01/schematic-svg
+Plotted to '/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/artifacts/attempt-01/schematic-svg/rc-filter.svg'.
+Done.
++logs/validate-01.zsh:8> print 'SCH_EXPORT_EXIT=0'
+SCH_EXPORT_EXIT=0
++logs/validate-01.zsh:9> kicad-cli pcb drc artifacts/attempt-01/rc-filter.kicad_pcb --format json --output logs/drc-01.json --exit-code-violations --schematic-parity
+Found 0 violations
+Found 0 unconnected items
+Found 8 schematic parity issues
+Saved DRC Report to logs/drc-01.json
++logs/validate-01.zsh:10> print 'DRC_EXIT=5'
+DRC_EXIT=5
++logs/validate-01.zsh:11> kicad-cli pcb export svg artifacts/attempt-01/rc-filter.kicad_pcb --output artifacts/attempt-01/pcb-svg --layers F.Cu,B.Cu,F.Silkscreen,Edge.Cuts
+[33;1mThis command has deprecated behavior as of KiCad 9.0, the default behavior of this command will change in a future release.[0m
+[33;1mThe new behavior will match --mode-multi[0m
+Plotted to 'artifacts/attempt-01/pcb-svg'.
+Done.
++logs/validate-01.zsh:12> print 'PCB_EXPORT_EXIT=0'
+PCB_EXPORT_EXIT=0

@@ -1,0 +1,69 @@
+{
+  "status": "completed",
+  "final_attempt": "artifacts/attempt-02",
+  "generated_files": [
+    "artifacts/README.md",
+    "artifacts/attempt-01/fp-lib-table",
+    "artifacts/attempt-01/generate.py",
+    "artifacts/attempt-01/pcb-svg",
+    "artifacts/attempt-01/rc-filter.kicad_dru",
+    "artifacts/attempt-01/rc-filter.kicad_pcb",
+    "artifacts/attempt-01/rc-filter.kicad_prl",
+    "artifacts/attempt-01/rc-filter.kicad_pro",
+    "artifacts/attempt-01/rc-filter.kicad_sch",
+    "artifacts/attempt-01/rc-filter.net",
+    "artifacts/attempt-01/schematic-svg/rc-filter.svg",
+    "artifacts/attempt-01/sym-lib-table",
+    "artifacts/attempt-02/fp-lib-table",
+    "artifacts/attempt-02/generate.py",
+    "artifacts/attempt-02/pcb-svg",
+    "artifacts/attempt-02/rc-filter.kicad_dru",
+    "artifacts/attempt-02/rc-filter.kicad_pcb",
+    "artifacts/attempt-02/rc-filter.kicad_prl",
+    "artifacts/attempt-02/rc-filter.kicad_pro",
+    "artifacts/attempt-02/rc-filter.kicad_sch",
+    "artifacts/attempt-02/rc-filter.net",
+    "artifacts/attempt-02/repair.py",
+    "artifacts/attempt-02/schematic-svg/rc-filter.svg",
+    "artifacts/attempt-02/sym-lib-table",
+    "artifacts/attempt-02/verify_geometry.py",
+    "artifacts/repair-02.py"
+  ],
+  "validation": {
+    "erc": {
+      "passed": true,
+      "violations": 0,
+      "log": "logs/erc-02.json"
+    },
+    "drc": {
+      "passed": true,
+      "violations": 0,
+      "unconnected_items": 0,
+      "schematic_parity_issues": 0,
+      "log": "logs/drc-02.json"
+    },
+    "exports": {
+      "schematic_svg_exit_code": 0,
+      "schematic_netlist_exit_code": 0,
+      "pcb_svg_exit_code": 0,
+      "log": "logs/validate-02.log"
+    },
+    "geometry_and_topology": {
+      "passed": true,
+      "log": "logs/geometry-02.log"
+    },
+    "physical_testing": null
+  },
+  "known_limitations": [
+    "No physical testing or simulation.",
+    "No visual GUI review; native SVG exports retained.",
+    "Generic standard library components; exact manufacturer parts unspecified.",
+    "Library tables contain machine-specific installed library paths.",
+    "Headless pcbnew wxApp assertion diagnostic retained; CLI validation exits zero.",
+    "Default KiCad ignored checks recorded verbatim in ERC and DRC JSON."
+  ],
+  "failure": null,
+  "started_at": "2026-09-05T17:32:53.960900+00:00",
+  "ended_at": "2026-09-05T17:37:47.970084+00:00",
+  "wall_time_seconds": 294.009184
+}

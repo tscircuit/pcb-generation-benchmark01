@@ -1,0 +1,1182 @@
+{
+  "fast-png/package.json": {
+    "name": "fast-png",
+    "version": "8.0.0"
+  },
+  "tinyglobby/package.json": {
+    "name": "tinyglobby",
+    "version": "0.2.17"
+  },
+  "stack-svgs/package.json": {
+    "name": "stack-svgs",
+    "version": "0.0.1"
+  },
+  "minicssgrid/package.json": {
+    "name": "minicssgrid",
+    "version": "0.0.9"
+  },
+  "@biomejs/cli-darwin-arm64/package.json": {
+    "name": "@biomejs/cli-darwin-arm64",
+    "version": "2.5.11"
+  },
+  "@biomejs/biome/package.json": {
+    "name": "@biomejs/biome",
+    "version": "2.5.11"
+  },
+  "zod/package.json": {
+    "name": "zod",
+    "version": "3.25.76"
+  },
+  "simple-swizzle/package.json": {
+    "name": "simple-swizzle",
+    "version": "0.2.4"
+  },
+  "s-expression/package.json": {
+    "name": "s-expression",
+    "version": "3.1.1"
+  },
+  "fs-constants/package.json": {
+    "name": "fs-constants",
+    "version": "1.0.0"
+  },
+  "iobuffer/package.json": {
+    "name": "iobuffer",
+    "version": "6.0.1"
+  },
+  "pirates/package.json": {
+    "name": "pirates",
+    "version": "4.0.7"
+  },
+  "circuit-json-to-pnp-csv/package.json": {
+    "name": "circuit-json-to-pnp-csv",
+    "version": "0.0.8"
+  },
+  "@types/resolve/package.json": {
+    "name": "@types/resolve",
+    "version": "1.20.2"
+  },
+  "@types/history/package.json": {
+    "name": "@types/history",
+    "version": "4.7.11"
+  },
+  "@types/react-router-dom/package.json": {
+    "name": "@types/react-router-dom",
+    "version": "5.3.3"
+  },
+  "@types/estree/package.json": {
+    "name": "@types/estree",
+    "version": "1.0.9"
+  },
+  "@types/node/package.json": {
+    "name": "@types/node",
+    "version": "22.20.1"
+  },
+  "@types/react/package.json": {
+    "name": "@types/react",
+    "version": "19.2.18"
+  },
+  "@types/react-router/package.json": {
+    "name": "@types/react-router",
+    "version": "5.1.20"
+  },
+  "svg-path-commander/package.json": {
+    "name": "svg-path-commander",
+    "version": "2.3.1"
+  },
+  "lodash/package.json": {
+    "name": "lodash",
+    "version": "4.18.1"
+  },
+  "thenify/package.json": {
+    "name": "thenify",
+    "version": "3.3.1"
+  },
+  "circuit-json-to-simple-3d/package.json": {
+    "name": "circuit-json-to-simple-3d",
+    "version": "0.0.9"
+  },
+  "pngjs/package.json": {
+    "name": "pngjs",
+    "version": "7.0.0"
+  },
+  "csstype/package.json": {
+    "name": "csstype",
+    "version": "3.2.3"
+  },
+  "prebuild-install/package.json": {
+    "name": "prebuild-install",
+    "version": "7.1.3"
+  },
+  "prebuild-install/node_modules/tar-fs/package.json": {
+    "name": "tar-fs",
+    "version": "2.1.5"
+  },
+  "looks-same/package.json": {
+    "name": "looks-same",
+    "version": "9.0.1"
+  },
+  "loose-envify/package.json": {
+    "name": "loose-envify",
+    "version": "1.4.0"
+  },
+  "loose-envify/node_modules/js-tokens/package.json": {
+    "name": "js-tokens",
+    "version": "4.0.0"
+  },
+  "es-errors/package.json": {
+    "name": "es-errors",
+    "version": "1.3.0"
+  },
+  "sucrase/package.json": {
+    "name": "sucrase",
+    "version": "3.35.1"
+  },
+  "earcut/package.json": {
+    "name": "earcut",
+    "version": "3.2.3"
+  },
+  "react-supergrid/package.json": {
+    "name": "react-supergrid",
+    "version": "1.0.10"
+  },
+  "text-decoder/package.json": {
+    "name": "text-decoder",
+    "version": "1.2.7"
+  },
+  "node-addon-api/package.json": {
+    "name": "node-addon-api",
+    "version": "6.1.0"
+  },
+  "ms/package.json": {
+    "name": "ms",
+    "version": "2.1.3"
+  },
+  "abort-controller/package.json": {
+    "name": "abort-controller",
+    "version": "3.0.0"
+  },
+  "mz/package.json": {
+    "name": "mz",
+    "version": "2.7.0"
+  },
+  "strip-json-comments/package.json": {
+    "name": "strip-json-comments",
+    "version": "2.0.1"
+  },
+  "bl/package.json": {
+    "name": "bl",
+    "version": "4.1.0"
+  },
+  "bl/node_modules/readable-stream/package.json": {
+    "name": "readable-stream",
+    "version": "3.6.2"
+  },
+  "bl/node_modules/buffer/package.json": {
+    "name": "buffer",
+    "version": "5.7.1"
+  },
+  "chownr/package.json": {
+    "name": "chownr",
+    "version": "1.1.4"
+  },
+  "commander/package.json": {
+    "name": "commander",
+    "version": "4.1.1"
+  },
+  "papaparse/package.json": {
+    "name": "papaparse",
+    "version": "5.7.0"
+  },
+  "@thednp/dommatrix/package.json": {
+    "name": "@thednp/dommatrix",
+    "version": "3.1.1"
+  },
+  "estree-walker/package.json": {
+    "name": "estree-walker",
+    "version": "2.0.2"
+  },
+  "estree-walker/dist/esm/package.json": {
+    "name": null,
+    "version": null
+  },
+  "estree-walker/src/package.json": {
+    "name": null,
+    "version": null
+  },
+  "color-string/package.json": {
+    "name": "color-string",
+    "version": "1.9.1"
+  },
+  "fast-json-stable-stringify/package.json": {
+    "name": "fast-json-stable-stringify",
+    "version": "2.1.0"
+  },
+  "path-expression-matcher/package.json": {
+    "name": "path-expression-matcher",
+    "version": "1.6.2"
+  },
+  "opentype.js/package.json": {
+    "name": "opentype.js",
+    "version": "0.4.11"
+  },
+  "deep-extend/package.json": {
+    "name": "deep-extend",
+    "version": "0.6.0"
+  },
+  "detect-libc/package.json": {
+    "name": "detect-libc",
+    "version": "2.1.2"
+  },
+  "resolve/package.json": {
+    "name": "resolve",
+    "version": "1.22.12"
+  },
+  "tscircuit/package.json": {
+    "name": "tscircuit",
+    "version": "0.0.2462"
+  },
+  "svgson/package.json": {
+    "name": "svgson",
+    "version": "5.3.1"
+  },
+  "object-hash/package.json": {
+    "name": "object-hash",
+    "version": "3.0.0"
+  },
+  "base64-js/package.json": {
+    "name": "base64-js",
+    "version": "1.5.1"
+  },
+  "strnum/package.json": {
+    "name": "strnum",
+    "version": "2.4.2"
+  },
+  "spicets/package.json": {
+    "name": "spicets",
+    "version": "0.0.4"
+  },
+  "nanoid/package.json": {
+    "name": "nanoid",
+    "version": "5.1.16"
+  },
+  "ts-interface-checker/package.json": {
+    "name": "ts-interface-checker",
+    "version": "0.1.13"
+  },
+  "kicad-to-circuit-json/package.json": {
+    "name": "kicad-to-circuit-json",
+    "version": "0.0.117"
+  },
+  "once/package.json": {
+    "name": "once",
+    "version": "1.4.0"
+  },
+  "bare-path/package.json": {
+    "name": "bare-path",
+    "version": "3.1.1"
+  },
+  "bpc-graph/package.json": {
+    "name": "bpc-graph",
+    "version": "0.0.57"
+  },
+  "circuit-json-to-spice/package.json": {
+    "name": "circuit-json-to-spice",
+    "version": "0.0.45"
+  },
+  "circuit-json-to-spice/node_modules/circuit-json-to-connectivity-map/package.json": {
+    "name": "circuit-json-to-connectivity-map",
+    "version": "0.0.22"
+  },
+  "jscad-to-gltf/package.json": {
+    "name": "jscad-to-gltf",
+    "version": "0.0.5"
+  },
+  "string_decoder/package.json": {
+    "name": "string_decoder",
+    "version": "1.3.0"
+  },
+  "fast-xml-builder/package.json": {
+    "name": "fast-xml-builder",
+    "version": "1.3.1"
+  },
+  "tslib/package.json": {
+    "name": "tslib",
+    "version": "2.8.1"
+  },
+  "tslib/modules/package.json": {
+    "name": null,
+    "version": null
+  },
+  "magic-string/package.json": {
+    "name": "magic-string",
+    "version": "0.30.21"
+  },
+  "connectivity-map/package.json": {
+    "name": "connectivity-map",
+    "version": "1.0.0"
+  },
+  "picomatch/package.json": {
+    "name": "picomatch",
+    "version": "4.0.7"
+  },
+  "safe-buffer/package.json": {
+    "name": "safe-buffer",
+    "version": "5.2.1"
+  },
+  "fast-xml-parser/package.json": {
+    "name": "fast-xml-parser",
+    "version": "5.11.1"
+  },
+  "function-bind/package.json": {
+    "name": "function-bind",
+    "version": "1.1.2"
+  },
+  "format-si-unit/package.json": {
+    "name": "format-si-unit",
+    "version": "0.0.12"
+  },
+  "color/package.json": {
+    "name": "color",
+    "version": "4.2.3"
+  },
+  "color/node_modules/color-convert/package.json": {
+    "name": "color-convert",
+    "version": "2.0.1"
+  },
+  "typescript/package.json": {
+    "name": "typescript",
+    "version": "5.9.3"
+  },
+  "xml-naming/package.json": {
+    "name": "xml-naming",
+    "version": "0.3.0"
+  },
+  "inherits/package.json": {
+    "name": "inherits",
+    "version": "2.0.4"
+  },
+  "jsonfile/package.json": {
+    "name": "jsonfile",
+    "version": "4.0.0"
+  },
+  "color-name/package.json": {
+    "name": "color-name",
+    "version": "1.1.4"
+  },
+  "schematic-symbols/package.json": {
+    "name": "schematic-symbols",
+    "version": "0.0.244"
+  },
+  "parsel-js/package.json": {
+    "name": "parsel-js",
+    "version": "1.2.3"
+  },
+  "nested-error-stacks/package.json": {
+    "name": "nested-error-stacks",
+    "version": "2.1.1"
+  },
+  "dom-serializer/package.json": {
+    "name": "dom-serializer",
+    "version": "2.0.0"
+  },
+  "dom-serializer/lib/esm/package.json": {
+    "name": null,
+    "version": null
+  },
+  "@rollup/plugin-typescript/package.json": {
+    "name": "@rollup/plugin-typescript",
+    "version": "12.3.0"
+  },
+  "@rollup/plugin-json/package.json": {
+    "name": "@rollup/plugin-json",
+    "version": "6.1.0"
+  },
+  "@rollup/plugin-commonjs/package.json": {
+    "name": "@rollup/plugin-commonjs",
+    "version": "29.0.3"
+  },
+  "@rollup/plugin-node-resolve/package.json": {
+    "name": "@rollup/plugin-node-resolve",
+    "version": "16.0.3"
+  },
+  "@rollup/rollup-darwin-arm64/package.json": {
+    "name": "@rollup/rollup-darwin-arm64",
+    "version": "4.63.1"
+  },
+  "@rollup/pluginutils/package.json": {
+    "name": "@rollup/pluginutils",
+    "version": "5.4.0"
+  },
+  "lucide-react/package.json": {
+    "name": "lucide-react",
+    "version": "1.37.0"
+  },
+  "@flatten-js/core/package.json": {
+    "name": "@flatten-js/core",
+    "version": "1.6.14"
+  },
+  "@flatten-js/interval-tree/package.json": {
+    "name": "@flatten-js/interval-tree",
+    "version": "2.0.3"
+  },
+  "commondir/package.json": {
+    "name": "commondir",
+    "version": "1.0.1"
+  },
+  "comlink/package.json": {
+    "name": "comlink",
+    "version": "4.4.2"
+  },
+  "decompress-response/package.json": {
+    "name": "decompress-response",
+    "version": "6.0.0"
+  },
+  "simple-get/package.json": {
+    "name": "simple-get",
+    "version": "4.0.1"
+  },
+  "bun-types/package.json": {
+    "name": "bun-types",
+    "version": "1.4.0"
+  },
+  "@lume/kiwi/package.json": {
+    "name": "@lume/kiwi",
+    "version": "0.4.4"
+  },
+  "scheduler/package.json": {
+    "name": "scheduler",
+    "version": "0.27.0"
+  },
+  "events-universal/package.json": {
+    "name": "events-universal",
+    "version": "1.0.1"
+  },
+  "css-select/package.json": {
+    "name": "css-select",
+    "version": "5.1.0"
+  },
+  "css-select/lib/esm/package.json": {
+    "name": null,
+    "version": null
+  },
+  "jscad-planner/package.json": {
+    "name": "jscad-planner",
+    "version": "0.0.13"
+  },
+  "hasown/package.json": {
+    "name": "hasown",
+    "version": "2.0.4"
+  },
+  "tar-stream/package.json": {
+    "name": "tar-stream",
+    "version": "3.2.1"
+  },
+  "deepmerge/package.json": {
+    "name": "deepmerge",
+    "version": "4.3.1"
+  },
+  "kicad-component-converter/package.json": {
+    "name": "kicad-component-converter",
+    "version": "0.1.41"
+  },
+  "bare-fs/package.json": {
+    "name": "bare-fs",
+    "version": "4.8.1"
+  },
+  "@remix-run/router/package.json": {
+    "name": "@remix-run/router",
+    "version": "1.23.4"
+  },
+  "undici-types/package.json": {
+    "name": "undici-types",
+    "version": "6.21.0"
+  },
+  "github-from-package/package.json": {
+    "name": "github-from-package",
+    "version": "0.0.0"
+  },
+  "github-from-package/example/package.json": {
+    "name": "beep-boop",
+    "version": "1.2.3"
+  },
+  "is-module/package.json": {
+    "name": "is-module",
+    "version": "1.0.0"
+  },
+  "end-of-stream/package.json": {
+    "name": "end-of-stream",
+    "version": "1.4.5"
+  },
+  "minimist/package.json": {
+    "name": "minimist",
+    "version": "1.2.8"
+  },
+  "bare-url/package.json": {
+    "name": "bare-url",
+    "version": "2.5.2"
+  },
+  "jpeg-js/package.json": {
+    "name": "jpeg-js",
+    "version": "0.4.4"
+  },
+  "universalify/package.json": {
+    "name": "universalify",
+    "version": "0.1.2"
+  },
+  "bare-stream/package.json": {
+    "name": "bare-stream",
+    "version": "2.13.4"
+  },
+  "mimic-response/package.json": {
+    "name": "mimic-response",
+    "version": "3.1.0"
+  },
+  "spicey/package.json": {
+    "name": "spicey",
+    "version": "0.0.14"
+  },
+  "graphics-debug/package.json": {
+    "name": "graphics-debug",
+    "version": "0.0.95"
+  },
+  "graphics-debug/node_modules/transformation-matrix/package.json": {
+    "name": "transformation-matrix",
+    "version": "3.1.0"
+  },
+  "calculate-packing/package.json": {
+    "name": "calculate-packing",
+    "version": "0.0.89"
+  },
+  "fdir/package.json": {
+    "name": "fdir",
+    "version": "6.5.0"
+  },
+  "fs-extra/package.json": {
+    "name": "fs-extra",
+    "version": "8.1.0"
+  },
+  "supports-preserve-symlinks-flag/package.json": {
+    "name": "supports-preserve-symlinks-flag",
+    "version": "1.0.0"
+  },
+  "three/package.json": {
+    "name": "three",
+    "version": "0.179.1"
+  },
+  "color-convert/package.json": {
+    "name": "color-convert",
+    "version": "0.5.3"
+  },
+  "eventemitter3/package.json": {
+    "name": "eventemitter3",
+    "version": "2.0.3"
+  },
+  "is-unsafe/package.json": {
+    "name": "is-unsafe",
+    "version": "2.0.2"
+  },
+  "@jscad/modeling/package.json": {
+    "name": "@jscad/modeling",
+    "version": "2.13.0"
+  },
+  "css-what/package.json": {
+    "name": "css-what",
+    "version": "6.2.2"
+  },
+  "rename-keys/package.json": {
+    "name": "rename-keys",
+    "version": "1.2.0"
+  },
+  "react-dom/package.json": {
+    "name": "react-dom",
+    "version": "19.2.8"
+  },
+  "util-deprecate/package.json": {
+    "name": "util-deprecate",
+    "version": "1.0.2"
+  },
+  "path-parse/package.json": {
+    "name": "path-parse",
+    "version": "1.0.7"
+  },
+  "pureimage/package.json": {
+    "name": "pureimage",
+    "version": "0.4.20"
+  },
+  "kind-of/package.json": {
+    "name": "kind-of",
+    "version": "3.2.2"
+  },
+  "gl-matrix/package.json": {
+    "name": "gl-matrix",
+    "version": "3.4.4"
+  },
+  "gl-matrix/types.d.ts/package.json": {
+    "name": "gl-matrix/types.d.ts",
+    "version": null
+  },
+  "gl-matrix/quat2/package.json": {
+    "name": "gl-matrix/quat2",
+    "version": null
+  },
+  "gl-matrix/quat/package.json": {
+    "name": "gl-matrix/quat",
+    "version": null
+  },
+  "gl-matrix/vec3/package.json": {
+    "name": "gl-matrix/vec3",
+    "version": null
+  },
+  "gl-matrix/vec4/package.json": {
+    "name": "gl-matrix/vec4",
+    "version": null
+  },
+  "gl-matrix/vec2/package.json": {
+    "name": "gl-matrix/vec2",
+    "version": null
+  },
+  "gl-matrix/mat3/package.json": {
+    "name": "gl-matrix/mat3",
+    "version": null
+  },
+  "gl-matrix/mat4/package.json": {
+    "name": "gl-matrix/mat4",
+    "version": null
+  },
+  "gl-matrix/mat2d/package.json": {
+    "name": "gl-matrix/mat2d",
+    "version": null
+  },
+  "gl-matrix/mat2/package.json": {
+    "name": "gl-matrix/mat2",
+    "version": null
+  },
+  "ieee754/package.json": {
+    "name": "ieee754",
+    "version": "1.2.1"
+  },
+  "@react-hook/latest/package.json": {
+    "name": "@react-hook/latest",
+    "version": "1.0.3"
+  },
+  "@react-hook/passive-layout-effect/package.json": {
+    "name": "@react-hook/passive-layout-effect",
+    "version": "1.2.1"
+  },
+  "@react-hook/resize-observer/package.json": {
+    "name": "@react-hook/resize-observer",
+    "version": "2.0.2"
+  },
+  "calculate-cell-boundaries/package.json": {
+    "name": "calculate-cell-boundaries",
+    "version": "0.0.19"
+  },
+  "calculate-cell-boundaries/node_modules/react-dom/package.json": {
+    "name": "react-dom",
+    "version": "18.3.1"
+  },
+  "calculate-cell-boundaries/node_modules/react/package.json": {
+    "name": "react",
+    "version": "18.3.1"
+  },
+  "lines-and-columns/package.json": {
+    "name": "lines-and-columns",
+    "version": "1.2.4"
+  },
+  "semver/package.json": {
+    "name": "semver",
+    "version": "7.8.5"
+  },
+  "ini/package.json": {
+    "name": "ini",
+    "version": "1.3.8"
+  },
+  "b4a/package.json": {
+    "name": "b4a",
+    "version": "1.8.1"
+  },
+  "node-abi/package.json": {
+    "name": "node-abi",
+    "version": "3.96.0"
+  },
+  "boolbase/package.json": {
+    "name": "boolbase",
+    "version": "1.0.0"
+  },
+  "is-core-module/package.json": {
+    "name": "is-core-module",
+    "version": "2.16.2"
+  },
+  "jscad-electronics/package.json": {
+    "name": "jscad-electronics",
+    "version": "0.0.146"
+  },
+  "js-tokens/package.json": {
+    "name": "js-tokens",
+    "version": "10.0.0"
+  },
+  "circuit-json-to-gltf/package.json": {
+    "name": "circuit-json-to-gltf",
+    "version": "0.0.118"
+  },
+  "circuit-json-to-gltf/node_modules/jscad-planner/package.json": {
+    "name": "jscad-planner",
+    "version": "0.0.14"
+  },
+  "deep-rename-keys/package.json": {
+    "name": "deep-rename-keys",
+    "version": "0.2.1"
+  },
+  "@babel/runtime/package.json": {
+    "name": "@babel/runtime",
+    "version": "7.29.7"
+  },
+  "@babel/helper-validator-identifier/package.json": {
+    "name": "@babel/helper-validator-identifier",
+    "version": "8.0.4"
+  },
+  "@babel/code-frame/package.json": {
+    "name": "@babel/code-frame",
+    "version": "8.0.0"
+  },
+  "fast-fifo/package.json": {
+    "name": "fast-fifo",
+    "version": "1.3.2"
+  },
+  "bun-match-svg/package.json": {
+    "name": "bun-match-svg",
+    "version": "0.0.17"
+  },
+  "kicadts/package.json": {
+    "name": "kicadts",
+    "version": "0.0.53"
+  },
+  "rollup/package.json": {
+    "name": "rollup",
+    "version": "4.63.1"
+  },
+  "rollup/dist/es/package.json": {
+    "name": null,
+    "version": null
+  },
+  "pump/package.json": {
+    "name": "pump",
+    "version": "3.0.4"
+  },
+  "@resvg/resvg-js/package.json": {
+    "name": "@resvg/resvg-js",
+    "version": "2.6.2"
+  },
+  "@resvg/resvg-js-darwin-arm64/package.json": {
+    "name": "@resvg/resvg-js-darwin-arm64",
+    "version": "2.6.2"
+  },
+  "xml-lexer/package.json": {
+    "name": "xml-lexer",
+    "version": "0.2.2"
+  },
+  "@nodable/entities/package.json": {
+    "name": "@nodable/entities",
+    "version": "3.0.0"
+  },
+  "polished/package.json": {
+    "name": "polished",
+    "version": "4.3.1"
+  },
+  "thenify-all/package.json": {
+    "name": "thenify-all",
+    "version": "1.6.0"
+  },
+  "simple-concat/package.json": {
+    "name": "simple-concat",
+    "version": "1.0.1"
+  },
+  "convert-source-map/package.json": {
+    "name": "convert-source-map",
+    "version": "2.0.0"
+  },
+  "flatbush/package.json": {
+    "name": "flatbush",
+    "version": "4.6.2"
+  },
+  "is-arrayish/package.json": {
+    "name": "is-arrayish",
+    "version": "0.3.4"
+  },
+  "any-promise/package.json": {
+    "name": "any-promise",
+    "version": "1.3.0"
+  },
+  "object-assign/package.json": {
+    "name": "object-assign",
+    "version": "4.1.1"
+  },
+  "react-router-dom/package.json": {
+    "name": "react-router-dom",
+    "version": "6.30.6"
+  },
+  "domelementtype/package.json": {
+    "name": "domelementtype",
+    "version": "2.3.0"
+  },
+  "domelementtype/lib/esm/package.json": {
+    "name": null,
+    "version": null
+  },
+  "event-target-shim/package.json": {
+    "name": "event-target-shim",
+    "version": "5.0.1"
+  },
+  "tar-fs/package.json": {
+    "name": "tar-fs",
+    "version": "3.1.3"
+  },
+  "circuit-json/package.json": {
+    "name": "circuit-json",
+    "version": "0.0.479"
+  },
+  "js-graph-algorithms/package.json": {
+    "name": "js-graph-algorithms",
+    "version": "1.0.18"
+  },
+  "rollup-plugin-dts/package.json": {
+    "name": "rollup-plugin-dts",
+    "version": "6.5.1"
+  },
+  "anynum/package.json": {
+    "name": "anynum",
+    "version": "1.0.1"
+  },
+  "flatqueue/package.json": {
+    "name": "flatqueue",
+    "version": "3.1.0"
+  },
+  "poppygl/package.json": {
+    "name": "poppygl",
+    "version": "0.0.27"
+  },
+  "streamx/package.json": {
+    "name": "streamx",
+    "version": "2.28.1"
+  },
+  "events/package.json": {
+    "name": "events",
+    "version": "3.3.0"
+  },
+  "circuit-json-to-bpc/package.json": {
+    "name": "circuit-json-to-bpc",
+    "version": "0.0.13"
+  },
+  "@jridgewell/sourcemap-codec/package.json": {
+    "name": "@jridgewell/sourcemap-codec",
+    "version": "1.6.0"
+  },
+  "@jridgewell/trace-mapping/package.json": {
+    "name": "@jridgewell/trace-mapping",
+    "version": "0.3.31"
+  },
+  "@jridgewell/gen-mapping/package.json": {
+    "name": "@jridgewell/gen-mapping",
+    "version": "0.3.13"
+  },
+  "@jridgewell/resolve-uri/package.json": {
+    "name": "@jridgewell/resolve-uri",
+    "version": "3.1.2"
+  },
+  "@jridgewell/remapping/package.json": {
+    "name": "@jridgewell/remapping",
+    "version": "2.3.5"
+  },
+  "transformation-matrix/package.json": {
+    "name": "transformation-matrix",
+    "version": "2.16.1"
+  },
+  "occt-import-js/package.json": {
+    "name": "occt-import-js",
+    "version": "0.0.23"
+  },
+  "is-buffer/package.json": {
+    "name": "is-buffer",
+    "version": "1.1.6"
+  },
+  "wrappy/package.json": {
+    "name": "wrappy",
+    "version": "1.0.2"
+  },
+  "circuit-to-svg/package.json": {
+    "name": "circuit-to-svg",
+    "version": "0.0.410"
+  },
+  "calculate-elbow/package.json": {
+    "name": "calculate-elbow",
+    "version": "0.0.12"
+  },
+  "color-diff/package.json": {
+    "name": "color-diff",
+    "version": "1.4.0"
+  },
+  "rc/package.json": {
+    "name": "rc",
+    "version": "1.2.8"
+  },
+  "parse-color/package.json": {
+    "name": "parse-color",
+    "version": "1.0.0"
+  },
+  "teex/package.json": {
+    "name": "teex",
+    "version": "1.0.1"
+  },
+  "domutils/package.json": {
+    "name": "domutils",
+    "version": "3.2.2"
+  },
+  "domutils/lib/esm/package.json": {
+    "name": null,
+    "version": null
+  },
+  "react/package.json": {
+    "name": "react",
+    "version": "19.2.8"
+  },
+  "react-reconciler/package.json": {
+    "name": "react-reconciler",
+    "version": "0.32.0"
+  },
+  "react-reconciler/node_modules/scheduler/package.json": {
+    "name": "scheduler",
+    "version": "0.26.0"
+  },
+  "tunnel-agent/package.json": {
+    "name": "tunnel-agent",
+    "version": "0.6.0"
+  },
+  "sharp/package.json": {
+    "name": "sharp",
+    "version": "0.32.6"
+  },
+  "nth-check/package.json": {
+    "name": "nth-check",
+    "version": "2.1.1"
+  },
+  "nth-check/lib/esm/package.json": {
+    "name": null,
+    "version": null
+  },
+  "readable-stream/package.json": {
+    "name": "readable-stream",
+    "version": "4.7.0"
+  },
+  "mkdirp-classic/package.json": {
+    "name": "mkdirp-classic",
+    "version": "0.5.3"
+  },
+  "graceful-fs/package.json": {
+    "name": "graceful-fs",
+    "version": "4.2.11"
+  },
+  "@tscircuit/solver-utils/package.json": {
+    "name": "@tscircuit/solver-utils",
+    "version": "0.0.16"
+  },
+  "@tscircuit/capacity-autorouter/package.json": {
+    "name": "@tscircuit/capacity-autorouter",
+    "version": "0.0.851"
+  },
+  "@tscircuit/miniflex/package.json": {
+    "name": "@tscircuit/miniflex",
+    "version": "0.0.4"
+  },
+  "@tscircuit/schematic-corpus/package.json": {
+    "name": "@tscircuit/schematic-corpus",
+    "version": "0.0.114"
+  },
+  "@tscircuit/core/package.json": {
+    "name": "@tscircuit/core",
+    "version": "0.0.1816"
+  },
+  "@tscircuit/krt-wasm/package.json": {
+    "name": "@tscircuit/krt-wasm",
+    "version": "0.1.9"
+  },
+  "@tscircuit/krt-wasm/pkg-node/package.json": {
+    "name": "grid_router",
+    "version": "0.15.0"
+  },
+  "@tscircuit/math-utils/package.json": {
+    "name": "@tscircuit/math-utils",
+    "version": "0.0.36"
+  },
+  "@tscircuit/schematic-match-adapt/package.json": {
+    "name": "@tscircuit/schematic-match-adapt",
+    "version": "0.0.18"
+  },
+  "@tscircuit/checks/package.json": {
+    "name": "@tscircuit/checks",
+    "version": "0.0.178"
+  },
+  "@tscircuit/create-fdm-enclosure/package.json": {
+    "name": "@tscircuit/create-fdm-enclosure",
+    "version": "0.0.4"
+  },
+  "@tscircuit/props/package.json": {
+    "name": "@tscircuit/props",
+    "version": "0.0.644"
+  },
+  "@tscircuit/image-utils/package.json": {
+    "name": "@tscircuit/image-utils",
+    "version": "0.0.8"
+  },
+  "@tscircuit/alphabet/package.json": {
+    "name": "@tscircuit/alphabet",
+    "version": "0.0.25"
+  },
+  "@tscircuit/schematic-trace-solver/package.json": {
+    "name": "@tscircuit/schematic-trace-solver",
+    "version": "0.0.173"
+  },
+  "@tscircuit/fanout-solver/package.json": {
+    "name": "@tscircuit/fanout-solver",
+    "version": "0.0.46"
+  },
+  "@tscircuit/cli/package.json": {
+    "name": "@tscircuit/cli",
+    "version": "0.1.2021"
+  },
+  "@tscircuit/infgrid-ijump-astar/package.json": {
+    "name": "@tscircuit/infgrid-ijump-astar",
+    "version": "0.0.35"
+  },
+  "@tscircuit/runframe/package.json": {
+    "name": "@tscircuit/runframe",
+    "version": "0.0.2623"
+  },
+  "@tscircuit/matchpack/package.json": {
+    "name": "@tscircuit/matchpack",
+    "version": "0.0.88"
+  },
+  "@tscircuit/copper-pour-solver/package.json": {
+    "name": "@tscircuit/copper-pour-solver",
+    "version": "0.0.51"
+  },
+  "@tscircuit/simple-3d-svg/package.json": {
+    "name": "@tscircuit/simple-3d-svg",
+    "version": "0.0.41"
+  },
+  "@tscircuit/manifold-2d/package.json": {
+    "name": "@tscircuit/manifold-2d",
+    "version": "0.0.6"
+  },
+  "@tscircuit/soup-util/package.json": {
+    "name": "@tscircuit/soup-util",
+    "version": "0.0.41"
+  },
+  "@tscircuit/infer-cable-insertion-point/package.json": {
+    "name": "@tscircuit/infer-cable-insertion-point",
+    "version": "0.0.4"
+  },
+  "@tscircuit/mm/package.json": {
+    "name": "@tscircuit/mm",
+    "version": "0.0.8"
+  },
+  "@tscircuit/footprinter/package.json": {
+    "name": "@tscircuit/footprinter",
+    "version": "0.0.426"
+  },
+  "@tscircuit/eval/package.json": {
+    "name": "@tscircuit/eval",
+    "version": "0.0.1321"
+  },
+  "@tscircuit/internal-dynamic-import/package.json": {
+    "name": "@tscircuit/internal-dynamic-import",
+    "version": "0.0.11"
+  },
+  "@tscircuit/ngspice-spice-engine/package.json": {
+    "name": "@tscircuit/ngspice-spice-engine",
+    "version": "0.0.20"
+  },
+  "@tscircuit/circuit-json-util/package.json": {
+    "name": "@tscircuit/circuit-json-util",
+    "version": "0.0.106"
+  },
+  "fflate/package.json": {
+    "name": "fflate",
+    "version": "0.8.3"
+  },
+  "entities/package.json": {
+    "name": "entities",
+    "version": "4.5.0"
+  },
+  "entities/lib/esm/package.json": {
+    "name": null,
+    "version": null
+  },
+  "xml-reader/package.json": {
+    "name": "xml-reader",
+    "version": "2.4.3"
+  },
+  "expand-template/package.json": {
+    "name": "expand-template",
+    "version": "2.0.3"
+  },
+  "use-mouse-matrix-transform/package.json": {
+    "name": "use-mouse-matrix-transform",
+    "version": "1.3.5"
+  },
+  "use-mouse-matrix-transform/node_modules/transformation-matrix/package.json": {
+    "name": "transformation-matrix",
+    "version": "3.1.0"
+  },
+  "use-mouse-matrix-transform/node_modules/react/package.json": {
+    "name": "react",
+    "version": "18.3.1"
+  },
+  "fsevents/package.json": {
+    "name": "fsevents",
+    "version": "2.3.3"
+  },
+  "circuit-json-to-connectivity-map/package.json": {
+    "name": "circuit-json-to-connectivity-map",
+    "version": "0.0.30"
+  },
+  "performance-now/package.json": {
+    "name": "performance-now",
+    "version": "2.1.0"
+  },
+  "is-reference/package.json": {
+    "name": "is-reference",
+    "version": "1.2.1"
+  },
+  "napi-build-utils/package.json": {
+    "name": "napi-build-utils",
+    "version": "2.0.0"
+  },
+  "react-router/package.json": {
+    "name": "react-router",
+    "version": "6.30.6"
+  },
+  "process/package.json": {
+    "name": "process",
+    "version": "0.11.10"
+  },
+  "bare-events/package.json": {
+    "name": "bare-events",
+    "version": "2.9.2"
+  },
+  "debug/package.json": {
+    "name": "debug",
+    "version": "4.4.3"
+  },
+  "domhandler/package.json": {
+    "name": "domhandler",
+    "version": "5.0.3"
+  },
+  "domhandler/lib/esm/package.json": {
+    "name": null,
+    "version": null
+  },
+  "buffer/package.json": {
+    "name": "buffer",
+    "version": "6.0.3"
+  }
+}

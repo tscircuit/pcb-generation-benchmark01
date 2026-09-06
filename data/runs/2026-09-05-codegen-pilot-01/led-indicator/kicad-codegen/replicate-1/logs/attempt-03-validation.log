@@ -1,0 +1,27 @@
++logs/validate-attempt-03.zsh:3> kicad-cli sch erc --severity-all --exit-code-violations -o logs/attempt-03-erc.rpt artifacts/attempt-03/indicator.kicad_sch
+Found 0 violations
+Saved ERC Report to logs/attempt-03-erc.rpt
++logs/validate-attempt-03.zsh:4> print 'ERC_EXIT=0'
+ERC_EXIT=0
++logs/validate-attempt-03.zsh:5> kicad-cli sch export netlist -o artifacts/attempt-03/indicator.net artifacts/attempt-03/indicator.kicad_sch
++logs/validate-attempt-03.zsh:6> print 'NETLIST_EXIT=0'
+NETLIST_EXIT=0
++logs/validate-attempt-03.zsh:7> kicad-cli sch export svg -o artifacts/attempt-03/schematic-svg/ artifacts/attempt-03/indicator.kicad_sch
+Plotted to '/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/schematic-svg/indicator.svg'.
+Done.
++logs/validate-attempt-03.zsh:8> print 'SCH_SVG_EXIT=0'
+SCH_SVG_EXIT=0
++logs/validate-attempt-03.zsh:9> kicad-cli pcb drc --severity-all --schematic-parity --exit-code-violations -o logs/attempt-03-drc.rpt artifacts/attempt-03/indicator.kicad_pcb
+Found 0 violations
+Found 0 unconnected items
+Found 0 schematic parity issues
+Saved DRC Report to logs/attempt-03-drc.rpt
++logs/validate-attempt-03.zsh:10> print 'DRC_EXIT=0'
+DRC_EXIT=0
++logs/validate-attempt-03.zsh:11> kicad-cli pcb export svg -l F.Cu,B.Cu,F.Silkscreen,Edge.Cuts -o artifacts/attempt-03/pcb.svg artifacts/attempt-03/indicator.kicad_pcb
+[33;1mThis command has deprecated behavior as of KiCad 9.0, the default behavior of this command will change in a future release.[0m
+[33;1mThe new behavior will match --mode-multi[0m
+Plotted to 'artifacts/attempt-03/pcb.svg'.
+Done.
++logs/validate-attempt-03.zsh:12> print 'PCB_SVG_EXIT=0'
+PCB_SVG_EXIT=0

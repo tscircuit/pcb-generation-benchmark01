@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "2026-09-05-codegen-pilot-01",
+  "run_id": "2026-09-05-codegen-pilot-01--mosfet-output-bank--kicad-codegen--r1",
+  "prompt_id": "mosfet-output-bank",
+  "prompt_revision": 1,
+  "prompt_sha256": "46049eb02f86cb9da99159dcdd96c5eb5dd7bdba53dc4b53cb60572b4ecfdf4e",
+  "method": "kicad-codegen",
+  "replicate": 1,
+  "status": "completed",
+  "repository_commit": "a9d1e4f7624451818322ebec60f5e12dd4b3f9a6",
+  "started_at": "2026-09-05T17:44:38.368372+00:00",
+  "ended_at": "2026-09-05T17:51:17.239976+00:00",
+  "model": {
+    "provider": null,
+    "name": null,
+    "reasoning_effort": null,
+    "sampling": {}
+  },
+  "environment": {
+    "tool_versions": {
+      "tsci": "0.0.2462",
+      "kicad-cli": "10.0.6",
+      "bun": "1.3.14",
+      "python": "3.9.6"
+    },
+    "os": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "budget": {
+    "wall_time_seconds": 900,
+    "max_tokens": null,
+    "max_tool_calls": null
+  },
+  "usage": {
+    "wall_time_seconds": 398.871604,
+    "input_tokens": null,
+    "output_tokens": null,
+    "tool_calls": null,
+    "cost_usd": null
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "failed",
+      "path": "artifacts/attempt-01",
+      "failure": "Generator failed on incorrect generic MOSFET symbol library lookup.",
+      "log": "logs/attempt-01-generation.log"
+    },
+    {
+      "attempt": 2,
+      "status": "completed",
+      "path": "artifacts/attempt-02",
+      "notes": "Routed candidate; ERC library/grid warnings, DRC silk warnings and schematic parity findings retained."
+    },
+    {
+      "attempt": 3,
+      "status": "completed",
+      "path": "artifacts/attempt-03",
+      "notes": "Final repaired candidate; ERC, DRC, parity and unconnected checks all zero."
+    }
+  ],
+  "artifacts": [
+    "artifacts/README.md",
+    "artifacts/attempt-01/generate.py",
+    "artifacts/attempt-02/board.kicad_pcb",
+    "artifacts/attempt-02/board.kicad_prl",
+    "artifacts/attempt-02/board.kicad_pro",
+    "artifacts/attempt-02/board.kicad_sch",
+    "artifacts/attempt-02/board.net",
+    "artifacts/attempt-02/components.json",
+    "artifacts/attempt-02/generate.py",
+    "artifacts/attempt-03/board.kicad_pcb",
+    "artifacts/attempt-03/board.kicad_prl",
+    "artifacts/attempt-03/board.kicad_pro",
+    "artifacts/attempt-03/board.kicad_sch",
+    "artifacts/attempt-03/board.net",
+    "artifacts/attempt-03/board.svg",
+    "artifacts/attempt-03/components.json",
+    "artifacts/attempt-03/fp-lib-table",
+    "artifacts/attempt-03/generate.py",
+    "artifacts/attempt-03/repair.py",
+    "artifacts/attempt-03/schematic-svg/board.svg",
+    "artifacts/attempt-03/sym-lib-table"
+  ],
+  "failure": null,
+  "notes": "Exploratory pilot; GUI method excluded by user. Read result.json and raw validation logs for limitations."
+}

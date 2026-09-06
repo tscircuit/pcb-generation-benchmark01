@@ -1,0 +1,4 @@
+$ kicad-cli pcb drc artifacts/attempt-01/matrix.kicad_pcb -o logs/attempt-01-drc.rpt
+Found 29 violations
+Found 0 unconnected items
+Saved DRC Report to logs/attempt-01-drc.rpt

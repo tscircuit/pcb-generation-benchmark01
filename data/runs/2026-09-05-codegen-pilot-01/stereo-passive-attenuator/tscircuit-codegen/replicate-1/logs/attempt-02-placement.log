@@ -1,0 +1,29 @@
+$ tsci check placement index.circuit.tsx
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. It was passed a child from default. See https://react.dev/link/warning-keys for more information.
+placement summary: no placement issues
+
+board top-layer utilization:
+- occupied: 6.622% (99.334mm^2 of 1500mm^2)
+- empty spaces over 5% of board area:
+  - 27.523% (412.848mm^2); bounds=(minX=-20.23mm, maxX=9.05mm, minY=-7.05mm, maxY=7.05mm)
+  - 20.167% (302.5mm^2); bounds=(minX=-25mm, maxX=25mm, minY=-15mm, maxY=-8.95mm)
+  - 20.167% (302.5mm^2); bounds=(minX=-25mm, maxX=25mm, minY=8.95mm, maxY=15mm)
+
+board-edge status:
+- J1: 2.25mm inside left edge
+- J2: 2.25mm inside right edge
+- C1: 6.3mm inside bottom edge
+- R1: 6.3mm inside bottom edge
+- R2: 8.575mm inside bottom edge
+- C2: 6.3mm inside top edge
+- R3: 6.3mm inside top edge
+- R4: 8.575mm inside top edge
+- TP1: 4.25mm inside bottom edge
+- TP2: 4.25mm inside top edge
+- TP3: 14.25mm inside top edge
+
+placement drc:
+Errors: 0
+Warnings: 0

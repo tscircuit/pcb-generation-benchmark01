@@ -1,0 +1,313 @@
+Sat Sep  5 18:05:07 UTC 2026
+{
+  "schema_version": "0.1",
+  "experiment_id": "2026-09-05-codegen-pilot-01",
+  "run_id": "2026-09-05-codegen-pilot-01--npn-led-driver--tscircuit-codegen--r1",
+  "prompt_id": "npn-led-driver",
+  "prompt_revision": 1,
+  "prompt_sha256": "0bef478d2b6e9752e4230aab7eecf8bd3bab485b1a1927d697114e1e22542bf6",
+  "method": "tscircuit-codegen",
+  "replicate": 1,
+  "status": "not_started",
+  "repository_commit": "a9d1e4f7624451818322ebec60f5e12dd4b3f9a6",
+  "started_at": null,
+  "ended_at": null,
+  "model": {
+    "provider": null,
+    "name": null,
+    "reasoning_effort": null,
+    "sampling": {}
+  },
+  "environment": {
+    "tool_versions": {
+      "tsci": "0.0.2462",
+      "kicad-cli": "10.0.6",
+      "bun": "1.3.14",
+      "python": "3.9.6"
+    },
+    "os": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "budget": {
+    "wall_time_seconds": 900,
+    "max_tokens": null,
+    "max_tool_calls": null
+  },
+  "usage": {
+    "wall_time_seconds": null,
+    "input_tokens": null,
+    "output_tokens": null,
+    "tool_calls": null,
+    "cost_usd": null
+  },
+  "attempts": [],
+  "artifacts": [],
+  "failure": null,
+  "notes": "Exploratory pilot; GUI method excluded by user. Read result.json and raw validation logs for limitations."
+}
+/Users/ankan/.bun/bin/tsci
+/Users/ankan/.bun/bin/bun
+0.0.2462
+1.3.14
+Usage: tsci build [options] [file]
+
+Run tscircuit eval and output circuit json
+
+Arguments:
+  file                             Path to the entry file
+
+Options:
+  --ci                             Run install and optional prebuild/build
+                                   commands (or default CI build)
+  --ignore-errors                  Do not exit with code 1 on errors
+  --ignore-warnings                Do not log warnings
+  --ignore-netlist-drc             Ignore netlist DRC errors/warnings
+  --ignore-pin-specification-drc   Ignore pin-specification DRC errors/warnings
+  --ignore-placement-drc           Ignore placement DRC errors/warnings
+  --ignore-routing-drc             Ignore routing DRC errors/warnings
+  --ignore-config                  Ignore options from tscircuit.config.json
+  --disable-pcb                    Disable PCB outputs
+  --routing-disabled               Disable routing during circuit generation
+  --disable-parts-engine           Disable the parts engine
+  --site                           Generate a static site in the dist directory
+  --transpile                      Transpile the entry file to JavaScript
+  --preview-images                 Generate preview images in the dist directory
+  --all-images                     Generate preview images for every successful
+                                   build output
+  --pngs                           Generate PNG outputs during build generation
+  --pcb-png                        Generate PCB PNG outputs during build
+                                   generation
+  --schematic-png                  Generate schematic PNG outputs during build
+                                   generation
+  --svgs                           Generate SVG outputs during build generation
+  --pcb-svgs                       Generate PCB SVG outputs during build
+                                   generation
+  --schematic-svgs                 Generate schematic SVG outputs during build
+                                   generation
+  --simulation-svgs                Generate simulation graph SVG outputs during
+                                   build generation
+  --simulation-schematic-svgs      Generate schematic simulation SVG outputs
+                                   during build generation
+  --3d-png                         Generate 3D PNG outputs during build
+                                   generation
+  --3d                             Generate 3D PNG outputs during build
+                                   generation
+  --pcb-only                       Generate only PCB SVG outputs during build
+                                   generation
+  --schematic-only                 Generate only schematic SVG outputs during
+                                   build generation
+  --kicad-project                  Generate KiCad project directories for each
+                                   successful build output
+  --kicad-project-zip              Generate a zipped KiCad project for each
+                                   successful build output
+  --kicad-library                  Generate KiCad library in dist/kicad-library
+  --kicad-library-name <name>      Specify the name of the KiCad library
+  --preview-gltf                   Generate a GLTF file from the preview
+                                   entrypoint
+  --show-courtyards                Show courtyard outlines in PCB SVG outputs
+  --glbs                           Generate GLB 3D model files for every
+                                   successful build
+  --step                           Generate STEP 3D model files for every
+                                   successful build
+  --profile                        Log per-circuit circuit.json generation time
+                                   during build
+  --autorouter-debug               Log autorouting phases and write
+                                   unrouted/per-phase PNG artifacts
+  --autorouter-phase <name>        Enable autorouting debugging through the
+                                   named phase
+  --autorouter-timeout <duration>  Abort an autorouting phase after a duration,
+                                   e.g. "120s" or "2m"
+  --autorouter-debug-dir <path>    Directory for autorouting debug artifacts
+                                   (default: dist/autorouter-debug)
+  --autorouter-dump-srj [mode]     Dump SimpleRouteJson inputs/outputs: "all",
+                                   "failed", or "phase:<index>" (default:
+                                   failed)
+  --solver-debug                   Write constructor inputs for every solver
+                                   event emitted during the build
+  --solver-debug-dir <path>        Directory for solver input artifacts
+                                   (default: dist/solver-debug)
+  --kicad-pcm                      Generate KiCad PCM (Plugin and Content
+                                   Manager) assets in dist/pcm
+  --use-cdn-javascript             Use CDN-hosted JavaScript instead of bundled
+                                   standalone file for --site
+  --concurrency <number>           Number of files to build in parallel
+                                   (default: 1) (default: "1")
+  --inject-props <json>            Inject JSON props into the built file's
+                                   default export
+  --inject-props-file <path>       Inject JSON props from a file into the built
+                                   file's default export
+  -h, --help                       display help for command
+Usage: tsci check [options] [command] [file]
+
+Partially build and validate circuit artifacts
+
+Arguments:
+  file                                         Path to the entry file
+
+Options:
+  -h, --help                                   display help for command
+
+Commands:
+  netlist [file]                               Partially build and validate the netlist
+  pin_specification [file]                     Partially build and validate pin specification checks
+  placement [file] [refdes]                    Partially build and validate the placement
+  routing-difficulty [file]                    Analyze routing difficulty
+  schematic-placement [file]                   Analyze schematic component placement
+  shorts [options] [file]                      Detect unintended shorts between separate PCB copper groups
+  source [file]                                Partially build and validate source diagnostics
+  trace-length [options] <pinOrNetRef> [file]  Analyze trace length for a pin or net
+# `<board />`
+
+Root element that contains all chips and traces to create a printed circuit board.
+
+## Example
+
+```tsx
+export default () => (
+  <board width="10mm" height="10mm">
+    <resistor resistance="1k" footprint="0402" name="R1" />
+  </board>
+)
+```
+
+## Props
+
+Commonly used: `title`, `material`, `layers`, `borderRadius`, `thickness`, `boardAnchorPosition`, `anchorAlignment`, `boardAnchorAlignment`
+
+## References
+
+- Props: [BoardProps](https://github.com/tscircuit/props#boardprops-board)
+- Source: [lib/components/board.ts](https://github.com/tscircuit/props/blob/main/lib/components/board.ts)
+- Local docs: [docs/docs/elements/board.mdx](../docs/docs/elements/board.mdx)
+# `<transistor />`
+
+A transistor is a three-terminal semiconductor device that can amplify or switch electronic signals. It is a fundamental component in many electronic circuits, including amplifiers, oscillators, and digital logic gates.
+
+## Example
+
+```tsx
+export default () => (
+  <transistor
+    name="Q1"
+    type="npn"
+    footprint="sot23"
+  />
+)
+```
+
+## Props
+
+Commonly used: `type`, `connections`, `name`, `footprint`
+
+## References
+
+- Props: [TransistorProps](https://github.com/tscircuit/props#transistorprops-transistor)
+- Source: [lib/components/transistor.ts](https://github.com/tscircuit/props/blob/main/lib/components/transistor.ts)
+- Local docs: [docs/docs/elements/transistor.mdx](../docs/docs/elements/transistor.mdx)
+# `<pinheader />`
+
+The `<pinheader />` element is used to create a male or female pin header with configurable spacing and number of pins.
+
+## Example
+
+```tsx
+export default () => (
+   <board width="30mm" height="10mm">
+    <pinheader
+      name="J1"
+      pinCount={8}
+      gender="male"
+      pitch="2.54mm"
+      footprint="pinrow8_rows2"
+      doubleRow={true}
+      showSilkscreenPinLabels={true}
+      pinLabels={["VCC", "GND", "SDA", "SCL", "MISO", "MOSI", "SCK", "CS"]}
+      pcbX={0}
+      pcbY={0}
+    />
+   </board>
+  )
+```
+
+## Props
+
+Commonly used: `pinCount`, `pitch`, `schFacingDirection`, `gender`, `showSilkscreenPinLabels`, `pcbPinLabels`, `doubleRow`, `rightAngle`
+
+## References
+
+- Props: [PinHeaderProps](https://github.com/tscircuit/props#pinheaderprops-pinheader)
+- Source: [lib/components/pin-header.ts](https://github.com/tscircuit/props/blob/main/lib/components/pin-header.ts)
+- Local docs: [docs/docs/elements/pinheader.mdx](../docs/docs/elements/pinheader.mdx)
+# `<trace />`
+
+The `<trace />` element represents an electrical connection between two or more points in your circuit. Traces can connect components, nets, or specific pins on components.
+
+## Example
+
+```tsx
+export default () => (
+  <board width="10mm" height="10mm">
+    <resistor name="R1" resistance="1k" footprint="0402" pcbX={-2} schX={-2} />
+    <capacitor name="C1" capacitance="100nF" footprint="0402" pcbX={2} />
+    <trace
+      from=".R1 > .pin1"
+      to=".C1 > .pin1"
+    />
+  </board>
+)
+```
+
+## Props
+
+Commonly used: `via`, `fromLayer`, `toLayer`, `code`, `message`, `path`, `key`, `thickness`
+
+## References
+
+- Props: [TraceProps](https://github.com/tscircuit/props#traceprops-trace)
+- Source: [lib/components/trace.ts](https://github.com/tscircuit/props/blob/main/lib/components/trace.ts)
+- Local docs: [docs/docs/elements/trace.mdx](../docs/docs/elements/trace.mdx)
+# `<led />`
+
+Light emitting diodes are diodes that emit light when current passes through them. They are commonly used as indicators on a circuit board such as a "power on indicator" or "data transfer in progress indicator
+
+## Example
+
+```tsx
+export default () => (
+ <board width="10mm" height="10mm">
+  <led name="LED1" footprint="0603" color="red" />
+ </board>
+)
+```
+
+## Props
+
+Commonly used: `color`, `wavelength`, `schDisplayValue`, `schOrientation`, `connections`, `laser`, `name`, `footprint`
+
+## References
+
+- Props: [LedProps](https://github.com/tscircuit/props#ledprops-led)
+- Source: [lib/components/led.ts](https://github.com/tscircuit/props/blob/main/lib/components/led.ts)
+- Local docs: [docs/docs/elements/led.mdx](../docs/docs/elements/led.mdx)
+# `<silkscreentext />`
+
+The `<silkscreentext />` element is used to add text to the silkscreen layer within a PCB footprint.
+
+## Example
+
+```tsx
+export default () => (
+  <board width="10mm" height="10mm">
+    <silkscreentext text="Hello, World!" fontSize="1mm" />
+  </board>
+)
+```
+
+## Props
+
+Commonly used: `text`, `anchorAlignment`, `font`, `fontSize`, `isKnockout`, `knockoutPadding`, `knockoutPaddingLeft`, `knockoutPaddingRight`
+
+## References
+
+- Props: [SilkscreenTextProps](https://github.com/tscircuit/props#silkscreentextprops-silkscreentext)
+- Source: [lib/components/silkscreen-text.ts](https://github.com/tscircuit/props/blob/main/lib/components/silkscreen-text.ts)
+- Local docs: [docs/docs/footprints/silkscreentext.mdx](../docs/docs/footprints/silkscreentext.mdx)

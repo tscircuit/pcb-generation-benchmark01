@@ -1,0 +1,47 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "2026-09-05-codegen-pilot-01",
+  "run_id": "2026-09-05-codegen-pilot-01--voltage-divider--tscircuit-codegen--r1",
+  "prompt_id": "voltage-divider",
+  "prompt_revision": 1,
+  "prompt_sha256": "9bf89efc737280478cc01e57d670eb4caa16ad81b4e140e03bc68d6adcab33a5",
+  "method": "tscircuit-codegen",
+  "replicate": 1,
+  "status": "completed",
+  "repository_commit": "a9d1e4f7624451818322ebec60f5e12dd4b3f9a6",
+  "started_at": "2026-09-05T17:59:19.185593+00:00",
+  "ended_at": "2026-09-05T18:03:45.127368+00:00",
+  "model": {
+    "provider": null,
+    "name": null,
+    "reasoning_effort": null,
+    "sampling": {}
+  },
+  "environment": {
+    "tool_versions": {
+      "tsci": "0.0.2462",
+      "kicad-cli": "10.0.6",
+      "bun": "1.3.14",
+      "python": "3.9.6"
+    },
+    "os": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "budget": {
+    "wall_time_seconds": 900,
+    "max_tokens": null,
+    "max_tool_calls": null
+  },
+  "usage": {
+    "wall_time_seconds": null,
+    "input_tokens": null,
+    "output_tokens": null,
+    "tool_calls": null,
+    "cost_usd": null
+  },
+  "attempts": [],
+  "artifacts": [],
+  "failure": null,
+  "notes": "Exploratory pilot; GUI method excluded by user. Read result.json and raw validation logs for limitations.",
+  "final_attempt": "artifacts/attempt-03",
+  "result_path": "result.json"
+}

@@ -1,0 +1,53 @@
+placement summary: no placement issues
+
+board top-layer utilization:
+- occupied: 8.946% (357.828mm^2 of 4000mm^2)
+- empty spaces over 5% of board area:
+  - 30.74% (1229.6mm^2); bounds=(minX=-40mm, maxX=40mm, minY=-13.32mm, maxY=2.05mm)
+  - 10.56% (422.4mm^2); bounds=(minX=-40mm, maxX=40mm, minY=13.95mm, maxY=19.23mm)
+  - 6.2% (248mm^2); bounds=(minX=-40mm, maxX=40mm, minY=8.95mm, maxY=12.05mm)
+  - 6.2% (248mm^2); bounds=(minX=-40mm, maxX=40mm, minY=3.95mm, maxY=7.05mm)
+
+board-edge status:
+- J1: 3.25mm inside bottom edge
+- R1: 10.575mm inside left edge
+- R2: 10.575mm inside left edge
+- R3: 10.575mm inside left edge
+- C1: 8.575mm inside top edge
+- TP1: 14.25mm inside top edge
+- J2: 3.25mm inside bottom edge
+- R4: 11.3mm inside bottom edge
+- R5: 16.3mm inside bottom edge
+- R6: 21.3mm inside bottom edge
+- C2: 8.575mm inside top edge
+- TP2: 14.25mm inside top edge
+- J3: 3.25mm inside bottom edge
+- R7: 11.3mm inside bottom edge
+- R8: 16.3mm inside bottom edge
+- R9: 21.3mm inside bottom edge
+- C3: 8.575mm inside top edge
+- TP3: 14.25mm inside top edge
+- J4: 3.25mm inside bottom edge
+- R10: 11.3mm inside bottom edge
+- R11: 16.3mm inside bottom edge
+- R12: 21.3mm inside bottom edge
+- C4: 8.575mm inside top edge
+- TP4: 14.25mm inside top edge
+- J5: 3.25mm inside bottom edge
+- R13: 11.3mm inside bottom edge
+- R14: 16.3mm inside bottom edge
+- R15: 21.3mm inside bottom edge
+- C5: 8.575mm inside top edge
+- TP5: 14.25mm inside top edge
+- J6: 3.25mm inside bottom edge
+- R16: 10.575mm inside right edge
+- R17: 10.575mm inside right edge
+- R18: 10.575mm inside right edge
+- C6: 8.575mm inside top edge
+- TP6: 14.25mm inside top edge
+- J7: 3.25mm inside top edge
+- TP7: 9.25mm inside top edge
+
+placement drc:
+Errors: 0
+Warnings: 0

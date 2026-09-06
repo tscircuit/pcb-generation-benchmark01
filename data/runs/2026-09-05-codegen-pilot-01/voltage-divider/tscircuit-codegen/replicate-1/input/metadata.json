@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1",
+  "prompt_id": "voltage-divider",
+  "revision": 1,
+  "title": "Resistive voltage divider",
+  "labels": [
+    "easy",
+    "voltage-divider",
+    "analog"
+  ],
+  "status": "draft",
+  "split": "unassigned",
+  "family": "voltage-divider",
+  "difficulty": "easy",
+  "deliverable_scope": "both",
+  "prompt_file": "prompt.md",
+  "prompt_sha256": "9bf89efc737280478cc01e57d670eb4caa16ad81b4e140e03bc68d6adcab33a5",
+  "assets": [],
+  "constraints": {
+    "board_width_mm": 30,
+    "board_height_mm": 20,
+    "copper_layers": 2,
+    "min_clearance_mm": 0.25,
+    "min_signal_trace_width_mm": 0.25
+  },
+  "acceptance_criteria": [
+    {
+      "criterion_id": "req-01",
+      "requirement": "Use a rectangular 30 mm \u00d7 20 mm board outline (dimension tolerance 0.1 mm) with two copper layers."
+    },
+    {
+      "criterion_id": "req-02",
+      "requirement": "Use J1 with pin 1 VIN and pin 2 GND, and J2 with pin 1 VOUT and pin 2 GND. VIN is nominally 5 V."
+    },
+    {
+      "criterion_id": "req-03",
+      "requirement": "Connect R1 = 10 kohm from VIN to VOUT and R2 = 10 kohm from VOUT to GND. Add an exposed test pad TP1 on VOUT and TP2 on GND, each at least 1 mm in diameter."
+    },
+    {
+      "criterion_id": "req-04",
+      "requirement": "Place J1 within 5 mm of the left edge and J2 within 5 mm of the right edge, measured from footprint centres. The intended unloaded division ratio is 1:2; no load is included."
+    },
+    {
+      "criterion_id": "deliverables",
+      "requirement": "Editable schematic and fully placed and routed PCB are supplied with readable entry files and a README documenting component choices and unresolved requirements."
+    },
+    {
+      "criterion_id": "common-layout",
+      "requirement": "Header pitch, passive packages, component pin mapping, silkscreen, board containment, copper clearance, trace widths, and complete routing satisfy the common prompt requirements."
+    }
+  ],
+  "source": {
+    "type": "original",
+    "description": "Authored for this benchmark; draft awaiting review."
+  },
+  "license": null
+}

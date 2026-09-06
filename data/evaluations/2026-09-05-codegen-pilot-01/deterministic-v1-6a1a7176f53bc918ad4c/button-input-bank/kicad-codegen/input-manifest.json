@@ -1,0 +1,62 @@
+[
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/kicad-codegen/replicate-1/artifacts/README.md",
+    "sha256": "df6b1e66a816260ac262c9f36d97ae50f87e8908bdc5e4f218d358308d0f9cd5"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/buttons.kicad_pcb",
+    "sha256": "dd9792f8435204497c0637901063883f467e258aabe899c3be7041381e49ebfe"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/buttons.kicad_prl",
+    "sha256": "d626b4bc56e21b715f1524ecd030a784019ca89a5b457a535e3d450808667183"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/buttons.kicad_pro",
+    "sha256": "bdc063ae6fc872b5c6c45dbc9098e732eed54b204fb94efe5708da852a922ebc"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/buttons.kicad_sch",
+    "sha256": "271948b1e83e43e7d3bd29366080b900e776a5443dbed5a5f8806c3b18f9c2ec"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/buttons.net",
+    "sha256": "2b5f763c2fccf54d3d563153e5bf6319d1134100cd6d4458519f0a42c87cbf40"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/fp-lib-table",
+    "sha256": "86cb2bc6e9c2e2436823c2503850543dad4bf87a6f81c1f1eae76ba5b80c933b"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/generate.py",
+    "sha256": "b109688ad468e4d6f18536f874c35c1746aff1c7dd666e3fe14bf3b23d70f8ea"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/pcb-svg",
+    "sha256": "ff716703d24d1690accb1b8d7315d62bb2053fbf979a3e9aad998e814a754003"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/schematic-svg/buttons.svg",
+    "sha256": "bbf123782487427116f8048d2890cf266013b3f754c7876a4347c75c7404914c"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/sym-lib-table",
+    "sha256": "155c0221c67911fdfe75c4094d406ddf46516e3935eb09ceb2ff3a2838cd14aa"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/kicad-codegen/replicate-1/input/metadata.json",
+    "sha256": "fe3452ed78eeb349abe55785b863ac0f6506c8714bc8622cde6292bbba2d07e3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/kicad-codegen/replicate-1/input/prompt.md",
+    "sha256": "41d352cc9a6280e14727ad0186f65a05ced344cb4a848c5689204b0beea64e47"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/kicad-codegen/replicate-1/result.json",
+    "sha256": "6ef40fc86a486d652c647f75792b94a024b2b470b651a03ca57b06e6111dcfd8"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/kicad-codegen/replicate-1/run.json",
+    "sha256": "69f938fd6b6412acba3e6eafede65f16e8c1eb010895ab347f0c73082ae2c340"
+  }
+]

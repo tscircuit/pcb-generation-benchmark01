@@ -1,0 +1,809 @@
+(kicad_sch (version 20250114) (generator "pcb-benchmark") (uuid db782f5c-610b-4adc-9c2a-01e9d8a0a8b4) (paper "A4") (lib_symbols
+(symbol "Device:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Switch:SW_Push"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "SW"
+			(at 1.27 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 -1.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SW_Push_0_1"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy -2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Connector_Generic:Conn_01x06"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 0 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x06_1_1"
+			(rectangle
+				(start -1.27 6.35)
+				(end 1.27 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 5.207)
+				(end 0 4.953)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -4.953)
+				(end 0 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -7.493)
+				(end 0 -7.747)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 5.08 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -7.62 0)
+				(length 3.81)
+				(name "Pin_6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
+(symbol (lib_id "Connector_Generic:Conn_01x06") (at 45.72 55.88 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 7fd6090f-9957-4f7e-bba1-32c575fba8a9) (property "Reference" "J1" (at 48.72 53.88 0) (effects (font (size 1.27 1.27)))) (property "Value" "INPUTS" (at 49.72 57.88 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" (at 45.72 55.88 0) (effects (font (size 1.27 1.27)) hide)) (instances (project "buttons" (path "/db782f5c-610b-4adc-9c2a-01e9d8a0a8b4" (reference "J1") (unit 1)))))
+(wire (pts (xy 40.64 50.800000000000004) (xy 38.1 50.800000000000004)) (stroke (width 0) (type default)) (uuid cccfcf93-9711-41c6-882a-05e626d1043e))
+(global_label "+3V3" (shape bidirectional) (at 38.1 50.800000000000004 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid 8563222f-5530-4e68-a706-054b5f7387e0) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 38.1 50.800000000000004 0) (effects (font (size 1 1)) hide)))
+(wire (pts (xy 40.64 53.34) (xy 38.1 53.34)) (stroke (width 0) (type default)) (uuid 1ed7773d-f60e-4f88-b918-4aa75c867f26))
+(global_label "GND" (shape bidirectional) (at 38.1 53.34 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid 3f3a3547-3a93-4de2-a189-022e1a317163) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 38.1 53.34 0) (effects (font (size 1 1)) hide)))
+(wire (pts (xy 40.64 55.88) (xy 38.1 55.88)) (stroke (width 0) (type default)) (uuid 20e7095f-2ac6-40f4-8982-c1d0c5ab1f69))
+(global_label "BTN1" (shape bidirectional) (at 38.1 55.88 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid d20d0933-9352-4b28-9b2c-4873ae9095c2) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 38.1 55.88 0) (effects (font (size 1 1)) hide)))
+(wire (pts (xy 40.64 58.42) (xy 38.1 58.42)) (stroke (width 0) (type default)) (uuid 21474c37-ef5f-4184-80cb-ccef8d324bb7))
+(global_label "BTN2" (shape bidirectional) (at 38.1 58.42 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid 9fdcde1b-9a0a-4d8a-a8c7-bc744964bee3) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 38.1 58.42 0) (effects (font (size 1 1)) hide)))
+(wire (pts (xy 40.64 60.96) (xy 38.1 60.96)) (stroke (width 0) (type default)) (uuid e6f60d91-36fa-46f8-8f20-b1a16d5d1d05))
+(global_label "BTN3" (shape bidirectional) (at 38.1 60.96 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid 8787534b-3ae0-4e72-b7f4-9a19308101f3) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 38.1 60.96 0) (effects (font (size 1 1)) hide)))
+(wire (pts (xy 40.64 63.5) (xy 38.1 63.5)) (stroke (width 0) (type default)) (uuid 1e92a41e-56f6-4b2d-9703-65a9b0a1a54d))
+(global_label "BTN4" (shape bidirectional) (at 38.1 63.5 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid 2979a0a6-a65d-4dfb-8fec-32ac4d0c3698) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 38.1 63.5 0) (effects (font (size 1 1)) hide)))
+(symbol (lib_id "Device:R") (at 81.28 45.72 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid dbb82cfe-1ac5-4eee-baa5-08067e73389d) (property "Reference" "R1" (at 84.28 43.72 0) (effects (font (size 1.27 1.27)))) (property "Value" "10k" (at 85.28 47.72 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 81.28 45.72 0) (effects (font (size 1.27 1.27)) hide)) (instances (project "buttons" (path "/db782f5c-610b-4adc-9c2a-01e9d8a0a8b4" (reference "R1") (unit 1)))))
+(wire (pts (xy 81.28 41.91) (xy 81.28 39.37)) (stroke (width 0) (type default)) (uuid d7b53165-8764-4ab7-925c-4f8b3cb615a6))
+(global_label "+3V3" (shape bidirectional) (at 81.28 39.37 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid 4bc55ec8-f81d-4d52-b44d-b744bb48cffc) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 81.28 39.37 0) (effects (font (size 1 1)) hide)))
+(wire (pts (xy 81.28 49.53) (xy 81.28 52.07)) (stroke (width 0) (type default)) (uuid 2e125529-500d-46d0-a4f3-6f9f875907c8))
+(global_label "BTN1" (shape bidirectional) (at 81.28 52.07 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid ce5079af-341c-43d9-bc42-c35061315470) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 81.28 52.07 0) (effects (font (size 1 1)) hide)))
+(symbol (lib_id "Device:C") (at 81.28 71.12 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 37946b0b-9d96-42a7-b8da-0de9d1f62a81) (property "Reference" "C1" (at 84.28 69.12 0) (effects (font (size 1.27 1.27)))) (property "Value" "100nF" (at 85.28 73.12 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 81.28 71.12 0) (effects (font (size 1.27 1.27)) hide)) (instances (project "buttons" (path "/db782f5c-610b-4adc-9c2a-01e9d8a0a8b4" (reference "C1") (unit 1)))))
+(wire (pts (xy 81.28 67.31) (xy 81.28 64.77)) (stroke (width 0) (type default)) (uuid b86dfd6c-6dd4-4560-aa72-a5991a470143))
+(global_label "BTN1" (shape bidirectional) (at 81.28 64.77 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid 617f8219-963b-4034-b857-4850653588ac) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 81.28 64.77 0) (effects (font (size 1 1)) hide)))
+(wire (pts (xy 81.28 74.93) (xy 81.28 77.47000000000001)) (stroke (width 0) (type default)) (uuid 22b99256-8e16-4ecf-ab47-5c2dbbf1b56f))
+(global_label "GND" (shape bidirectional) (at 81.28 77.47000000000001 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid d11a54b8-930b-44a8-9752-b67844cdcb6d) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 81.28 77.47000000000001 0) (effects (font (size 1 1)) hide)))
+(symbol (lib_id "Switch:SW_Push") (at 81.28 93.98 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 27091015-31b6-4db9-aa30-b1e1eee2f21d) (property "Reference" "SW1" (at 84.28 91.98 0) (effects (font (size 1.27 1.27)))) (property "Value" "BTN1" (at 85.28 95.98 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (at 81.28 93.98 0) (effects (font (size 1.27 1.27)) hide)) (instances (project "buttons" (path "/db782f5c-610b-4adc-9c2a-01e9d8a0a8b4" (reference "SW1") (unit 1)))))
+(wire (pts (xy 76.2 93.98) (xy 73.66 93.98)) (stroke (width 0) (type default)) (uuid c9c0f200-78f9-4f47-b1ec-fe730852ebc1))
+(global_label "BTN1" (shape bidirectional) (at 73.66 93.98 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid c694f1a3-a06c-4849-8d1c-161b7fcc220a) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 73.66 93.98 0) (effects (font (size 1 1)) hide)))
+(wire (pts (xy 86.36 93.98) (xy 88.9 93.98)) (stroke (width 0) (type default)) (uuid 700c478e-a816-4626-83e5-0447aa01986b))
+(global_label "GND" (shape bidirectional) (at 88.9 93.98 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid fff88463-5c68-478a-b7b1-8fdd030da2a4) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 88.9 93.98 0) (effects (font (size 1 1)) hide)))
+(symbol (lib_id "Device:R") (at 116.84 45.72 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 106328a5-0fb3-4469-955c-7212a0558ff1) (property "Reference" "R2" (at 119.84 43.72 0) (effects (font (size 1.27 1.27)))) (property "Value" "10k" (at 120.84 47.72 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) hide)) (instances (project "buttons" (path "/db782f5c-610b-4adc-9c2a-01e9d8a0a8b4" (reference "R2") (unit 1)))))
+(wire (pts (xy 116.84 41.91) (xy 116.84 39.37)) (stroke (width 0) (type default)) (uuid f83ac366-1179-4d78-b691-0ac989c0a178))
+(global_label "+3V3" (shape bidirectional) (at 116.84 39.37 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid 1cd5ebc1-3dc5-4277-89a5-7ac64da44564) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 116.84 39.37 0) (effects (font (size 1 1)) hide)))
+(wire (pts (xy 116.84 49.53) (xy 116.84 52.07)) (stroke (width 0) (type default)) (uuid ba0e2262-0654-46cf-ac2d-87b35f979d2d))
+(global_label "BTN2" (shape bidirectional) (at 116.84 52.07 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid 46080cad-5e2c-40a3-b37e-c1d4b7cee6cc) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 116.84 52.07 0) (effects (font (size 1 1)) hide)))
+(symbol (lib_id "Device:C") (at 116.84 71.12 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid fafd7746-3ef5-4126-87ec-a28abe5a41f0) (property "Reference" "C2" (at 119.84 69.12 0) (effects (font (size 1.27 1.27)))) (property "Value" "100nF" (at 120.84 73.12 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 116.84 71.12 0) (effects (font (size 1.27 1.27)) hide)) (instances (project "buttons" (path "/db782f5c-610b-4adc-9c2a-01e9d8a0a8b4" (reference "C2") (unit 1)))))
+(wire (pts (xy 116.84 67.31) (xy 116.84 64.77)) (stroke (width 0) (type default)) (uuid aa0e64d2-2bb4-494b-a6b5-f40d18a81864))
+(global_label "BTN2" (shape bidirectional) (at 116.84 64.77 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid c2c3172e-ada0-4a30-90b0-2407e4226008) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 116.84 64.77 0) (effects (font (size 1 1)) hide)))
+(wire (pts (xy 116.84 74.93) (xy 116.84 77.47000000000001)) (stroke (width 0) (type default)) (uuid 9d17527f-5bba-433c-8326-f7ace1e9636a))
+(global_label "GND" (shape bidirectional) (at 116.84 77.47000000000001 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid fef8eff2-1791-42a8-8ada-1e50034c722e) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 116.84 77.47000000000001 0) (effects (font (size 1 1)) hide)))
+(symbol (lib_id "Switch:SW_Push") (at 116.84 93.98 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 19d5d694-fba5-4015-95ed-3072afccb94e) (property "Reference" "SW2" (at 119.84 91.98 0) (effects (font (size 1.27 1.27)))) (property "Value" "BTN2" (at 120.84 95.98 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (at 116.84 93.98 0) (effects (font (size 1.27 1.27)) hide)) (instances (project "buttons" (path "/db782f5c-610b-4adc-9c2a-01e9d8a0a8b4" (reference "SW2") (unit 1)))))
+(wire (pts (xy 111.76 93.98) (xy 109.22 93.98)) (stroke (width 0) (type default)) (uuid b7f45502-162a-436f-917b-13ad05c09bf2))
+(global_label "BTN2" (shape bidirectional) (at 109.22 93.98 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid a31524fd-4fd9-4f2a-aa48-5cac84c6b514) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 109.22 93.98 0) (effects (font (size 1 1)) hide)))
+(wire (pts (xy 121.92 93.98) (xy 124.46000000000001 93.98)) (stroke (width 0) (type default)) (uuid b8cbe8e9-112d-4453-89e2-3ac2b3e1276d))
+(global_label "GND" (shape bidirectional) (at 124.46000000000001 93.98 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid 8ce3a984-2bb0-44ad-80f4-9e382ddd201e) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 124.46000000000001 93.98 0) (effects (font (size 1 1)) hide)))
+(symbol (lib_id "Device:R") (at 152.4 45.72 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid b59d0a41-0e66-4af1-91cd-2f506f897f6d) (property "Reference" "R3" (at 155.4 43.72 0) (effects (font (size 1.27 1.27)))) (property "Value" "10k" (at 156.4 47.72 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 152.4 45.72 0) (effects (font (size 1.27 1.27)) hide)) (instances (project "buttons" (path "/db782f5c-610b-4adc-9c2a-01e9d8a0a8b4" (reference "R3") (unit 1)))))
+(wire (pts (xy 152.4 41.91) (xy 152.4 39.37)) (stroke (width 0) (type default)) (uuid 1f2378f9-dd63-461b-a6fa-b3f39d106138))
+(global_label "+3V3" (shape bidirectional) (at 152.4 39.37 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid 88e6d58c-74b4-4741-b481-6c7d0caa5407) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 152.4 39.37 0) (effects (font (size 1 1)) hide)))
+(wire (pts (xy 152.4 49.53) (xy 152.4 52.07)) (stroke (width 0) (type default)) (uuid afe76f50-8224-4358-bd1c-8b53878bee63))
+(global_label "BTN3" (shape bidirectional) (at 152.4 52.07 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid 0197eef8-16c3-4813-8491-077ce7f26621) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 152.4 52.07 0) (effects (font (size 1 1)) hide)))
+(symbol (lib_id "Device:C") (at 152.4 71.12 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 2788b9fc-15ca-4766-b4a1-65ea0583ebb3) (property "Reference" "C3" (at 155.4 69.12 0) (effects (font (size 1.27 1.27)))) (property "Value" "100nF" (at 156.4 73.12 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 152.4 71.12 0) (effects (font (size 1.27 1.27)) hide)) (instances (project "buttons" (path "/db782f5c-610b-4adc-9c2a-01e9d8a0a8b4" (reference "C3") (unit 1)))))
+(wire (pts (xy 152.4 67.31) (xy 152.4 64.77)) (stroke (width 0) (type default)) (uuid 25008ab3-27f7-4afe-8c89-b4f586b9d179))
+(global_label "BTN3" (shape bidirectional) (at 152.4 64.77 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid 72f97858-8413-43c6-a38a-62795f1eb97c) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 152.4 64.77 0) (effects (font (size 1 1)) hide)))
+(wire (pts (xy 152.4 74.93) (xy 152.4 77.47000000000001)) (stroke (width 0) (type default)) (uuid fd8b0187-cfe8-4ef9-adca-ab7ba8c0797d))
+(global_label "GND" (shape bidirectional) (at 152.4 77.47000000000001 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid c217a880-2b3e-489e-b960-702be1c22cd7) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 152.4 77.47000000000001 0) (effects (font (size 1 1)) hide)))
+(symbol (lib_id "Switch:SW_Push") (at 152.4 93.98 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 2944d4ff-a1ec-46f7-a522-a6fedbde6288) (property "Reference" "SW3" (at 155.4 91.98 0) (effects (font (size 1.27 1.27)))) (property "Value" "BTN3" (at 156.4 95.98 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (at 152.4 93.98 0) (effects (font (size 1.27 1.27)) hide)) (instances (project "buttons" (path "/db782f5c-610b-4adc-9c2a-01e9d8a0a8b4" (reference "SW3") (unit 1)))))
+(wire (pts (xy 147.32 93.98) (xy 144.78 93.98)) (stroke (width 0) (type default)) (uuid 5b56667f-ebf0-4a3a-be9f-8d12f4e0ae6a))
+(global_label "BTN3" (shape bidirectional) (at 144.78 93.98 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid c2ee01e9-d533-4af8-93f5-0376a058e22f) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 144.78 93.98 0) (effects (font (size 1 1)) hide)))
+(wire (pts (xy 157.48000000000002 93.98) (xy 160.02 93.98)) (stroke (width 0) (type default)) (uuid 3eaf5d61-36c2-4596-b1f6-fee7ae11c2bd))
+(global_label "GND" (shape bidirectional) (at 160.02 93.98 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid 7e772dc9-b8e6-444d-955b-fd56f87fc07d) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 160.02 93.98 0) (effects (font (size 1 1)) hide)))
+(symbol (lib_id "Device:R") (at 187.96 45.72 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid f2515cca-d2b3-407e-bb3a-3db1af09cf50) (property "Reference" "R4" (at 190.96 43.72 0) (effects (font (size 1.27 1.27)))) (property "Value" "10k" (at 191.96 47.72 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 187.96 45.72 0) (effects (font (size 1.27 1.27)) hide)) (instances (project "buttons" (path "/db782f5c-610b-4adc-9c2a-01e9d8a0a8b4" (reference "R4") (unit 1)))))
+(wire (pts (xy 187.96 41.91) (xy 187.96 39.37)) (stroke (width 0) (type default)) (uuid 362e2a7a-ba2d-4fbb-9935-da478ce820ce))
+(global_label "+3V3" (shape bidirectional) (at 187.96 39.37 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid efab05f3-aa69-4267-90d1-6887af52ef2d) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 187.96 39.37 0) (effects (font (size 1 1)) hide)))
+(wire (pts (xy 187.96 49.53) (xy 187.96 52.07)) (stroke (width 0) (type default)) (uuid 34d7d1ba-1a2d-4272-a929-8a9e3c0631d6))
+(global_label "BTN4" (shape bidirectional) (at 187.96 52.07 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid 2ca08095-6a58-4e5c-b6d6-13794c63841f) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 187.96 52.07 0) (effects (font (size 1 1)) hide)))
+(symbol (lib_id "Device:C") (at 187.96 71.12 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid f9df2b44-b901-440c-b412-e53a6970b351) (property "Reference" "C4" (at 190.96 69.12 0) (effects (font (size 1.27 1.27)))) (property "Value" "100nF" (at 191.96 73.12 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 187.96 71.12 0) (effects (font (size 1.27 1.27)) hide)) (instances (project "buttons" (path "/db782f5c-610b-4adc-9c2a-01e9d8a0a8b4" (reference "C4") (unit 1)))))
+(wire (pts (xy 187.96 67.31) (xy 187.96 64.77)) (stroke (width 0) (type default)) (uuid 117cfa70-455f-4165-8d63-d8a1ed85097d))
+(global_label "BTN4" (shape bidirectional) (at 187.96 64.77 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid 7cfe11e6-3372-4389-8823-040c40437c57) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 187.96 64.77 0) (effects (font (size 1 1)) hide)))
+(wire (pts (xy 187.96 74.93) (xy 187.96 77.47000000000001)) (stroke (width 0) (type default)) (uuid 592a61ff-4d87-4348-86d3-bdd6786e09d9))
+(global_label "GND" (shape bidirectional) (at 187.96 77.47000000000001 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid 8244c8cd-9580-4d91-bd47-6ba4948357f8) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 187.96 77.47000000000001 0) (effects (font (size 1 1)) hide)))
+(symbol (lib_id "Switch:SW_Push") (at 187.96 93.98 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 80d143f0-6f5f-4f1b-9472-268a2920e568) (property "Reference" "SW4" (at 190.96 91.98 0) (effects (font (size 1.27 1.27)))) (property "Value" "BTN4" (at 191.96 95.98 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (at 187.96 93.98 0) (effects (font (size 1.27 1.27)) hide)) (instances (project "buttons" (path "/db782f5c-610b-4adc-9c2a-01e9d8a0a8b4" (reference "SW4") (unit 1)))))
+(wire (pts (xy 182.88 93.98) (xy 180.34 93.98)) (stroke (width 0) (type default)) (uuid 88a17f5e-787c-4964-969e-d226dc1da400))
+(global_label "BTN4" (shape bidirectional) (at 180.34 93.98 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid b30c77e7-7ec4-482f-b019-07b55e9f6f24) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 180.34 93.98 0) (effects (font (size 1 1)) hide)))
+(wire (pts (xy 193.04000000000002 93.98) (xy 195.58 93.98)) (stroke (width 0) (type default)) (uuid f6f7228f-e1ea-4080-8a83-b6cd7e4a561e))
+(global_label "GND" (shape bidirectional) (at 195.58 93.98 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid f3c7f0c3-69e1-4679-806c-e2a79c554259) (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 195.58 93.98 0) (effects (font (size 1 1)) hide)))
+(embedded_fonts no))

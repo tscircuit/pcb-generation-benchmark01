@@ -1,0 +1,98 @@
+[
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/README.md",
+    "sha256": "cee66a073716018e9c36131c24720336151ac76ca5d1b65f9b0e85febe749ba3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/6c2b19a807-ccc32b30ed006d660b97b0ef52d670ba.json",
+    "sha256": "38dd432379b937c2caf62d9efd9e313c5599ad8d1e4fec0c489a1aa5f6307ee5"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/cle_d1_5__-0cf1c9a7014b82371363e1b2dd25e8ab.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/cle_d1_5__-202f959a2c7f0dcfaf963d7f58d0abbd.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/cle_d1_5__-c2671485d60fecdf953d789dcf06ff7d.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-27a59f81d8c60374e654b386339cfe23.json",
+    "sha256": "9fd6196235d20d0f10c76aada36c7246c293a4e90bf323733154285683474bd3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-449e20854ae5a6bd2728bbe0660d4352.json",
+    "sha256": "9fd6196235d20d0f10c76aada36c7246c293a4e90bf323733154285683474bd3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-7e9b043a1765415211070137734d1fa5.json",
+    "sha256": "f72658fe64506b74f59b222a1aac6376bf1e45508f641f3eaac30a00fa14eb43"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-9f603b87a601b12dc88e706884a0f5dd.json",
+    "sha256": "9fd6196235d20d0f10c76aada36c7246c293a4e90bf323733154285683474bd3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-bc54dedd8da2c2029fd5f1c1b235b4f6.json",
+    "sha256": "9fd6196235d20d0f10c76aada36c7246c293a4e90bf323733154285683474bd3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-f42b00ec23fc22eb47b53b7aad96d123.json",
+    "sha256": "f72658fe64506b74f59b222a1aac6376bf1e45508f641f3eaac30a00fa14eb43"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/w3_p2_54__-6bfaec0b29351a388ba319e846d79bc2.json",
+    "sha256": "a660b69217c4e89d00b81bad79d07ad3f67b8fc395af84d9181f2acba9120f2f"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/w3_p2_54__-9e9ee71f8c04707517864d50ee7a438d.json",
+    "sha256": "a660b69217c4e89d00b81bad79d07ad3f67b8fc395af84d9181f2acba9120f2f"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/circuit.json",
+    "sha256": "718bcfaae74fbe959ff0615488558904630883ba58858cd015d0455f21da53dc"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/pcb.png",
+    "sha256": "7db0549411557cba62107e76d1b96090c487c392c2ca5b184198c73fbe11505c"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/pcb.svg",
+    "sha256": "3329c06859eea0d0e820e6dd902acc247b2b6dcda909ce06470ca607a2faf488"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/schematic.svg",
+    "sha256": "c233744b1c4f82192a3ca8b80f506f406a3a32ac26d0502e2127213c4172e666"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/environment.bun.lock",
+    "sha256": "8fc3c694d6f79ced508e7b65dff2a23a5405b92c0cecadd3739b0d7b96756e6c"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/index.circuit.tsx",
+    "sha256": "901a409de55e5e0e3f5469e7cd2af5cf23c84012fe2d2f793968ca74b376c9b6"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/package.json",
+    "sha256": "55b0957ecf7220c8d1e50d591fd9aab09633f3f4a1de1fad83e4dda1a6bddd18"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/input/metadata.json",
+    "sha256": "6adf523765495f5d5e17a300df3478f96e21229d12f7a1718d36a1113fce1eff"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/input/prompt.md",
+    "sha256": "2af5de18a6c2a7bf188a0b22ee6714466cbfa080c2f6a28bdd81a3579968fb4a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/result.json",
+    "sha256": "f77afa3a3628ae52928dfd00b2ff5da244e4e4ecd3e18b485b916bef57488a55"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/run.json",
+    "sha256": "696cfd63779ad751671b780f8b49bfea3f8f6ce84426063e2b00d5f0f5c5b56a"
+  }
+]

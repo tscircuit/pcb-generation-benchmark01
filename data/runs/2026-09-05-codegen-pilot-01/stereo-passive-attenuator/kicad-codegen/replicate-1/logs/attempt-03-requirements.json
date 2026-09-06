@@ -1,0 +1,77 @@
+{
+  "outline_mm": [
+    50.0,
+    30.0
+  ],
+  "copper_layers": 2,
+  "schematic_connectivity_matches_spec": true,
+  "pcb_connectivity_matches_spec": true,
+  "left_component_centres_top_half": true,
+  "right_component_centres_bottom_half": true,
+  "connector_edge_offsets_mm": {
+    "J1": 3.0,
+    "J2": 3.0
+  },
+  "minimum_track_width_mm": 0.3,
+  "test_pad_diameters_mm": {
+    "TP1": [
+      1.5,
+      1.5
+    ],
+    "TP2": [
+      1.5,
+      1.5
+    ],
+    "TP3": [
+      1.5,
+      1.5
+    ]
+  },
+  "footprint_centres_mm": {
+    "R3": [
+      124.0,
+      123.0
+    ],
+    "TP1": [
+      138.0,
+      104.0
+    ],
+    "C1": [
+      114.0,
+      107.0
+    ],
+    "TP3": [
+      125.0,
+      115.0
+    ],
+    "R1": [
+      124.0,
+      107.0
+    ],
+    "R4": [
+      133.0,
+      120.0
+    ],
+    "R2": [
+      133.0,
+      110.0
+    ],
+    "C2": [
+      114.0,
+      123.0
+    ],
+    "TP2": [
+      138.0,
+      126.0
+    ],
+    "J2": [
+      147.0,
+      112.46
+    ],
+    "J1": [
+      103.0,
+      112.46
+    ]
+  },
+  "physical_testing": null
+}

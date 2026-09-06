@@ -1,0 +1,6 @@
+$ kicad-cli pcb drc artifacts/attempt-03/matrix.kicad_pcb -o logs/attempt-03-drc.rpt
+Found 19 violations
+Found 0 unconnected items
+Saved DRC Report to logs/attempt-03-drc.rpt
+11:26:48 PM: Warning: Library table '/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/sym-lib-table' has type UNINITIALIZED but expected SYMBOL; skipping
+11:26:48 PM: Warning: Library table '/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/fp-lib-table' has type UNINITIALIZED but expected FOOTPRINT; skipping

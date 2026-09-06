@@ -1,0 +1,74 @@
+[
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/artifacts/README.md",
+    "sha256": "b5e8eea8f92ddf27772da54cb76a1fd46bd39645e4392ed498345441609094e1"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/artifacts/attempt-02/fp-lib-table",
+    "sha256": "9b5dbb6500f4907333eb0d1a493aa30cba1fd9bfe239344455c1a3e06262a62c"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/artifacts/attempt-02/generate.py",
+    "sha256": "2458757513d3f86f981fa34403109b6c14f1c0d1b1d40405b8f973768f22f2b6"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/artifacts/attempt-02/pcb-svg",
+    "sha256": "a6126dc2c524cf34e9e61f57b317d86cd61b15ec8f22919d831ef8d9a92faac8"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/artifacts/attempt-02/rc-filter.kicad_dru",
+    "sha256": "b707054fe7d48466c18a582d50a4cd6d40e79b8ea1480b7aeba8984eb73d9dec"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/artifacts/attempt-02/rc-filter.kicad_pcb",
+    "sha256": "b0eeb9b6a566f2ac6b11301f8bbc04018565e659b0c40c949a4a6793de99ffe9"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/artifacts/attempt-02/rc-filter.kicad_prl",
+    "sha256": "7e06710341efb1e18298e892edf4da1bef6ca56d4949f7babfccc4fae0077060"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/artifacts/attempt-02/rc-filter.kicad_pro",
+    "sha256": "703f96fb0410c6388b7788d8c2380ce53bfb5de3122ea2f0f7506bbd3c7876f2"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/artifacts/attempt-02/rc-filter.kicad_sch",
+    "sha256": "4c4d3af1d5d54a1b25005f34ca67dba27a73f856e74b93bdd64faf48314c0def"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/artifacts/attempt-02/rc-filter.net",
+    "sha256": "907d6fbfe97fc3421fda372c968cf9fc8229490182cffd071dae8d75d72e9d86"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/artifacts/attempt-02/repair.py",
+    "sha256": "cb8a971d99f187d2f59deca62c61d4837037bdbbdaab3c09695fe71092dc4b13"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/artifacts/attempt-02/schematic-svg/rc-filter.svg",
+    "sha256": "81965b07ae628191dd7ec1d859ae652e57960c4a9fb7292a0b6fba0785de2e49"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/artifacts/attempt-02/sym-lib-table",
+    "sha256": "c905612973f76bc15a1478e7ab1d6ac44f3bac9402ecfeb3aa30a36b8344ee05"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/artifacts/attempt-02/verify_geometry.py",
+    "sha256": "a4eeb1ce9c593b9d63b4af4b6a26dd34ef238d4541b0eee490e75a879e344266"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/input/metadata.json",
+    "sha256": "b83d078d0e19292c78f1f54adf45a12bd96e5eae370645627564dbe61ad7b957"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/input/prompt.md",
+    "sha256": "eda1af0a7aa0fba25e862b7795c61a6137ad61d76285ec39f641765016bb6541"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/result.json",
+    "sha256": "e26fca3911aebf92d911106a1816c2485881aaad1730ee2d8a0cd60d9899b6f1"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/run.json",
+    "sha256": "7425fe9b0ae7d11ea7136afe4df586fd0b3b57db23b7be7eb7ed6e0fac244624"
+  }
+]

@@ -1,0 +1,66 @@
+$ tsci check netlist index.circuit.tsx
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. It was passed a child from default. See https://react.dev/link/warning-keys for more information.
+Errors: 0
+Warnings: 0
+
+Readable Netlist:
+COMPONENTS:
+ - J1: J1, source_component
+ - J2: J2, source_component
+ - C1: 1uF capacitor
+ - R1: 10kΩ resistor
+ - R2: 10kΩ resistor
+ - C2: 1uF capacitor
+ - R3: 10kΩ resistor
+ - R4: 10kΩ resistor
+ - TP1: TP1, source_component
+ - TP2: TP2, source_component
+ - TP3: TP3, source_component
+
+
+COMPONENT_PINS:
+J1
+- pin1(LEFT_IN): NOT_CONNECTED
+- pin2(GND): NOT_CONNECTED
+- pin3(RIGHT_IN): NOT_CONNECTED
+
+J2
+- pin1(LEFT_OUT): NOT_CONNECTED
+- pin2(GND): NOT_CONNECTED
+- pin3(RIGHT_OUT): NOT_CONNECTED
+
+C1 (1uF undefined)
+- pin1(pos, anode, left): NOT_CONNECTED
+- pin2(neg, cathode, right): NOT_CONNECTED
+
+R1 (10kΩ undefined)
+- pin1(anode, pos, left): NOT_CONNECTED
+- pin2(cathode, neg, right): NOT_CONNECTED
+
+R2 (10kΩ undefined)
+- pin1(anode, pos, left): NOT_CONNECTED
+- pin2(cathode, neg, right): NOT_CONNECTED
+
+C2 (1uF undefined)
+- pin1(pos, anode, left): NOT_CONNECTED
+- pin2(neg, cathode, right): NOT_CONNECTED
+
+R3 (10kΩ undefined)
+- pin1(anode, pos, left): NOT_CONNECTED
+- pin2(cathode, neg, right): NOT_CONNECTED
+
+R4 (10kΩ undefined)
+- pin1(anode, pos, left): NOT_CONNECTED
+- pin2(cathode, neg, right): NOT_CONNECTED
+
+TP1
+- pin1: NOT_CONNECTED
+
+TP2
+- pin1: NOT_CONNECTED
+
+TP3
+- pin1: NOT_CONNECTED
+

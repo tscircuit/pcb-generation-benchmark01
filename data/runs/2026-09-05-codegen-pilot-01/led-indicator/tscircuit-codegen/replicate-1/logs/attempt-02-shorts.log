@@ -1,0 +1,2 @@
+$ tsci check shorts index.circuit.tsx
+No shorts detected in index.circuit.tsx

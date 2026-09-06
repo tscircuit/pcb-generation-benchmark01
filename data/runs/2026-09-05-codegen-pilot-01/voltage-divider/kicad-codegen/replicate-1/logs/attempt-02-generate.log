@@ -1,0 +1,3 @@
+$ /Users/ankan/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/3.9/bin/python3 /Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/attempt-02/generate.py
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+Wrote editable schematic and PCB: 6 components 12 tracks

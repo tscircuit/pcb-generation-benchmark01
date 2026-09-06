@@ -1,0 +1,477 @@
+(kicad_sch (version 20250114) (generator "pcb-benchmark-script") (uuid "5c9d9e7f-ace3-4cf1-b3cc-4cb8f7e35c1a") (paper "A4")
+(lib_symbols (symbol "Device:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	) (symbol "Connector_Generic:Conn_01x02"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x02_1_1"
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	) (symbol "Connector:TestPoint"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.762)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "TP"
+			(at 0 6.858 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "test point tp"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Pin* Test*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TestPoint_0_1"
+			(circle
+				(center 0 3.302)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TestPoint_1_1"
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+(symbol (lib_id "Connector_Generic:Conn_01x02") (at 50.8 50.8 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "a6ec6628-a590-4a25-b709-ef73fd1194d4")
+ (property "Reference" "J1" (at 54.61 48.26 0) (effects (font (size 1.27 1.27))))
+ (property "Value" "INPUT" (at 54.61 52.07 0) (effects (font (size 1.27 1.27))))
+ (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 50.8 50.8 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (pin "1" (uuid "9cd82f3d-ba11-4fde-846c-7cca80126549")) (pin "2" (uuid "f90eae7e-8585-4760-8d19-aae45bcf8433"))
+ (instances (project "divider" (path "/5c9d9e7f-ace3-4cf1-b3cc-4cb8f7e35c1a" (reference "J1") (unit 1)))))
+(wire (pts (xy 45.72 50.8) (xy 40.64 50.8)) (stroke (width 0) (type default)) (uuid "d26ab072-ef73-467d-9cd7-1917b3eea1f1"))
+(label "VIN" (at 40.64 50.8 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "51a9886f-c1f5-4bfc-a164-9274c4629228"))
+(wire (pts (xy 45.72 53.339999999999996) (xy 40.64 53.339999999999996)) (stroke (width 0) (type default)) (uuid "8492eb4e-76eb-45a0-8ac9-cec9580c8050"))
+(label "GND" (at 40.64 53.339999999999996 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "98fd75c6-2e36-4e4f-9fc9-4f51f40e1988"))
+(symbol (lib_id "Connector_Generic:Conn_01x02") (at 111.76 50.8 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "be3fcb58-bb21-42ce-8da0-a808269d3d7e")
+ (property "Reference" "J2" (at 115.57000000000001 48.26 0) (effects (font (size 1.27 1.27))))
+ (property "Value" "OUTPUT" (at 115.57000000000001 52.07 0) (effects (font (size 1.27 1.27))))
+ (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 111.76 50.8 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (pin "1" (uuid "d080f44b-4e35-44f3-b77b-e3a5ae853f30")) (pin "2" (uuid "36134c12-aa0f-4d14-93ee-35d02e76249d"))
+ (instances (project "divider" (path "/5c9d9e7f-ace3-4cf1-b3cc-4cb8f7e35c1a" (reference "J2") (unit 1)))))
+(wire (pts (xy 106.68 50.8) (xy 101.60000000000001 50.8)) (stroke (width 0) (type default)) (uuid "b139e7ad-b858-437b-b55c-1d6ea80385a5"))
+(label "VOUT" (at 101.60000000000001 50.8 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1b4575d8-abd2-444c-8fd4-02d0f572c46d"))
+(wire (pts (xy 106.68 53.339999999999996) (xy 101.60000000000001 53.339999999999996)) (stroke (width 0) (type default)) (uuid "dc3ea1ee-90bd-49ea-9f9c-8dc4befac540"))
+(label "GND" (at 101.60000000000001 53.339999999999996 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a62ae3c0-69dd-4651-9d8b-78d2fe272734"))
+(symbol (lib_id "Device:R") (at 71.12 50.8 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "70d53559-3201-4bba-bd1d-6ded827fa791")
+ (property "Reference" "R1" (at 74.93 48.26 0) (effects (font (size 1.27 1.27))))
+ (property "Value" "10k" (at 74.93 52.07 0) (effects (font (size 1.27 1.27))))
+ (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 71.12 50.8 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (pin "1" (uuid "97df1731-88a7-453f-994c-4ee09d0f4b60")) (pin "2" (uuid "6c3e6e38-3517-40be-87ff-a800699973c4"))
+ (instances (project "divider" (path "/5c9d9e7f-ace3-4cf1-b3cc-4cb8f7e35c1a" (reference "R1") (unit 1)))))
+(wire (pts (xy 71.12 46.989999999999995) (xy 66.04 46.989999999999995)) (stroke (width 0) (type default)) (uuid "1c227678-fed4-442d-872e-a600ce083bb9"))
+(label "VIN" (at 66.04 46.989999999999995 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "59083f66-4500-4eb8-87ea-c20bd050c2c6"))
+(wire (pts (xy 71.12 54.61) (xy 66.04 54.61)) (stroke (width 0) (type default)) (uuid "43c7ef51-a08c-42f0-8909-c49bbae09781"))
+(label "VOUT" (at 66.04 54.61 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "dc51c27c-736a-4c17-a0d0-190c12f1207c"))
+(symbol (lib_id "Device:R") (at 91.44 50.8 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "851e9ea4-b7e2-4638-ab55-dc7002b5b2d1")
+ (property "Reference" "R2" (at 95.25 48.26 0) (effects (font (size 1.27 1.27))))
+ (property "Value" "10k" (at 95.25 52.07 0) (effects (font (size 1.27 1.27))))
+ (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 91.44 50.8 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (pin "1" (uuid "6c29ae80-712a-4a7f-9878-8831625c69de")) (pin "2" (uuid "ab9e43fa-2374-479e-b456-ad372dd45df5"))
+ (instances (project "divider" (path "/5c9d9e7f-ace3-4cf1-b3cc-4cb8f7e35c1a" (reference "R2") (unit 1)))))
+(wire (pts (xy 91.44 46.989999999999995) (xy 86.36 46.989999999999995)) (stroke (width 0) (type default)) (uuid "54a9033b-bea9-4c5f-b9a5-2733d664b8cb"))
+(label "VOUT" (at 86.36 46.989999999999995 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b18ea707-7770-48ba-9a80-594c8ea526e1"))
+(wire (pts (xy 91.44 54.61) (xy 86.36 54.61)) (stroke (width 0) (type default)) (uuid "ea23f2d7-6ca4-4885-91d3-c51086e69841"))
+(label "GND" (at 86.36 54.61 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "77556eba-5167-4fb8-98bf-54880b6fa5bf"))
+(symbol (lib_id "Connector:TestPoint") (at 71.12 73.66 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "f93e8304-7107-4298-9299-3cabf64e809b")
+ (property "Reference" "TP1" (at 74.93 71.11999999999999 0) (effects (font (size 1.27 1.27))))
+ (property "Value" "VOUT" (at 74.93 74.92999999999999 0) (effects (font (size 1.27 1.27))))
+ (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 71.12 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (pin "1" (uuid "ce4ce074-145c-4ae0-ac2a-a45d69cbb0a5"))
+ (instances (project "divider" (path "/5c9d9e7f-ace3-4cf1-b3cc-4cb8f7e35c1a" (reference "TP1") (unit 1)))))
+(wire (pts (xy 71.12 73.66) (xy 66.04 73.66)) (stroke (width 0) (type default)) (uuid "61be0f98-f49d-41a6-b2b9-0f0c48647c5a"))
+(label "VOUT" (at 66.04 73.66 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "92f9b041-5f92-4602-a257-bfc1ec88b852"))
+(symbol (lib_id "Connector:TestPoint") (at 91.44 73.66 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "7bd01be0-9263-4c14-bb01-0a93490ddce3")
+ (property "Reference" "TP2" (at 95.25 71.11999999999999 0) (effects (font (size 1.27 1.27))))
+ (property "Value" "GND" (at 95.25 74.92999999999999 0) (effects (font (size 1.27 1.27))))
+ (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 91.44 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (pin "1" (uuid "c723a647-1e31-4a81-abed-3c82a090fce7"))
+ (instances (project "divider" (path "/5c9d9e7f-ace3-4cf1-b3cc-4cb8f7e35c1a" (reference "TP2") (unit 1)))))
+(wire (pts (xy 91.44 73.66) (xy 86.36 73.66)) (stroke (width 0) (type default)) (uuid "bc19479d-5be3-40da-8291-25d9489e34e9"))
+(label "GND" (at 86.36 73.66 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3d40b0cf-fe74-438a-a900-5498a848a854"))
+)

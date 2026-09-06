@@ -1,0 +1,7 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+Traceback (most recent call last):
+  File "/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-02/generate.py", line 43, in <module>
+    lib,name=c['fp'].split(':');f=p.FootprintLoad(str(LIB/'footprints'/(lib+'.pretty')),name);lid=p.LIB_ID();lid.SetLibNickname(lib);lid.SetLibItemName(name);f.SetFPID(lid);f.SetReference(c['ref']);f.SetValue(c['val']);f.SetPosition(V(*c['pcb']));f.SetPath(p.KIID_PATH('/'+root+'/'+c['uuid']));b.Add(f);fps[c['ref']]=f
+  File "/Users/ankan/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pcbnew.py", line 7933, in SetLibNickname
+    return _pcbnew.LIB_ID_SetLibNickname(self, aLibNickname)
+TypeError: in method 'LIB_ID_SetLibNickname', argument 2 of type 'UTF8 const &'

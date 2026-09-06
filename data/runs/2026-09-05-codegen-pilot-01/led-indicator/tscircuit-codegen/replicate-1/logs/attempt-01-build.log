@@ -1,0 +1,26 @@
+$ tsci build index.circuit.tsx --pcb-png --schematic-png --svgs
+Building 1 file(s)...
+Building index.circuit.tsx...
+Generating circuit JSON...
+Circuit JSON written to dist/index/circuit.json
+<trace#32(from:J1.pin1 to:R1.pin1) /> is missing a name. Add a name prop to make the trace easier to identify.
+<trace#33(from:R1.pin2 to:D1.anode) /> is missing a name. Add a name prop to make the trace easier to identify.
+<trace#34(from:D1.cathode to:J1.pin2) /> is missing a name. Add a name prop to make the trace easier to identify.
+No <schematicsheet> was found. Add a <schematicsheet> to define the schematic drawing area.
+Generating preview images...
+[index] Generating PCB SVG...
+[index] Written pcb.svg
+[index] Generating PCB PNG...
+[index] Written pcb.png
+[index] Generating schematic SVG...
+[index] Written schematic.svg
+[index] Generating schematic PNG...
+[index] Written schematic.png
+
+Build complete
+  Circuits  1 passed
+  Options   pcb-png, schematic-png, svgs
+  Output    dist
+
+✓ Done
+Build exiting with code 0: build finished successfully

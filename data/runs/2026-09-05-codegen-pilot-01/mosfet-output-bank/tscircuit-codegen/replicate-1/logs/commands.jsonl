@@ -1,0 +1,17 @@
+{"attempt": "attempt-01", "name": "netlist", "command": ["tsci", "check", "netlist", "index.circuit.tsx"], "exit_code": 0, "seconds": 1.681272667, "log": "logs/attempt-01-netlist.log"}
+{"attempt": "attempt-01", "name": "schematic-placement", "command": ["tsci", "check", "schematic-placement", "index.circuit.tsx"], "exit_code": 0, "seconds": 1.0590435420000002, "log": "logs/attempt-01-schematic-placement.log"}
+{"attempt": "attempt-01", "name": "placement", "command": ["tsci", "check", "placement", "index.circuit.tsx"], "exit_code": 0, "seconds": 4.238717167, "log": "logs/attempt-01-placement.log"}
+{"attempt": "attempt-01", "name": "build", "command": ["tsci", "build", "index.circuit.tsx", "--svgs", "--pcb-png", "--disable-parts-engine", "--autorouter-timeout", "120s"], "exit_code": 0, "seconds": 3.323804084, "log": "logs/attempt-01-build.log"}
+{"attempt": "attempt-01", "name": "shorts", "command": ["tsci", "check", "shorts", "dist/index.circuit.json"], "exit_code": 1, "seconds": 0.782328166, "log": "logs/attempt-01-shorts.log"}
+{"attempt": "attempt-02", "name": "netlist", "command": ["tsci", "check", "netlist", "index.circuit.tsx"], "exit_code": 0, "seconds": 1.638647542, "log": "logs/attempt-02-netlist.log"}
+{"attempt": "attempt-02", "name": "schematic-placement", "command": ["tsci", "check", "schematic-placement", "index.circuit.tsx"], "exit_code": 0, "seconds": 1.06177425, "log": "logs/attempt-02-schematic-placement.log"}
+{"attempt": "attempt-02", "name": "placement", "command": ["tsci", "check", "placement", "index.circuit.tsx"], "exit_code": 0, "seconds": 2.696556917, "log": "logs/attempt-02-placement.log"}
+{"attempt": "attempt-02", "name": "build", "command": ["tsci", "build", "index.circuit.tsx", "--svgs", "--pcb-png", "--disable-parts-engine", "--autorouter-timeout", "120s"], "exit_code": 0, "seconds": 2.638079458, "log": "logs/attempt-02-build.log"}
+{"attempt": "attempt-01", "name": "shorts-corrected-path", "command": ["tsci", "check", "shorts", "dist/index/circuit.json"], "exit_code": 0, "seconds": 1.222038709, "log": "logs/attempt-01-shorts-corrected-path.log"}
+{"attempt": "attempt-02", "name": "shorts", "command": ["tsci", "check", "shorts", "dist/index/circuit.json"], "exit_code": 0, "seconds": 1.10952425, "log": "logs/attempt-02-shorts.log"}
+{"attempt": "attempt-03", "name": "netlist", "command": ["tsci", "check", "netlist", "index.circuit.tsx"], "exit_code": 0, "seconds": 1.643967416, "log": "logs/attempt-03-netlist.log"}
+{"attempt": "attempt-03", "name": "schematic-placement", "command": ["tsci", "check", "schematic-placement", "index.circuit.tsx"], "exit_code": 0, "seconds": 1.102186959, "log": "logs/attempt-03-schematic-placement.log"}
+{"attempt": "attempt-03", "name": "placement", "command": ["tsci", "check", "placement", "index.circuit.tsx"], "exit_code": 0, "seconds": 2.736406625, "log": "logs/attempt-03-placement.log"}
+{"attempt": "attempt-03", "name": "build", "command": ["tsci", "build", "index.circuit.tsx", "--svgs", "--pcb-png", "--disable-parts-engine", "--autorouter-timeout", "120s"], "exit_code": 0, "seconds": 2.846541792, "log": "logs/attempt-03-build.log"}
+{"attempt": "attempt-03", "name": "shorts", "command": ["tsci", "check", "shorts", "dist/index/circuit.json"], "exit_code": 0, "seconds": 1.2187298750000002, "log": "logs/attempt-03-shorts.log"}
+{"attempt": "attempt-03", "name": "inspection", "command": ["python3", "../../logs/inspect-final.py"], "exit_code": 0, "seconds": 0.039307999999999996, "log": "logs/attempt-03-inspection.log"}

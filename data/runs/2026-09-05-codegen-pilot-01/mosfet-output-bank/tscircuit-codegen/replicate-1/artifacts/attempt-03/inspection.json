@@ -1,0 +1,312 @@
+{
+  "board": {
+    "type": "pcb_board",
+    "pcb_board_id": "pcb_board_0",
+    "source_board_id": "source_board_0",
+    "center": {
+      "x": 0,
+      "y": 0
+    },
+    "thickness": 1.4,
+    "num_layers": 2,
+    "width": 70,
+    "height": 50,
+    "material": "fr4",
+    "min_trace_width": 0.5,
+    "min_via_hole_diameter": 0.2,
+    "min_via_pad_diameter": 0.3,
+    "min_via_hole_edge_to_via_hole_edge_clearance": 0.1,
+    "min_via_edge_to_pad_edge_clearance": 0.25,
+    "min_trace_to_pad_edge_clearance": 0.25,
+    "min_pad_edge_to_pad_edge_clearance": 0.25,
+    "min_plated_hole_drill_edge_to_drill_edge_clearance": 0.15,
+    "min_board_edge_clearance": 0.5
+  },
+  "components": 24,
+  "trace_count": 41,
+  "via_count": 27,
+  "trace_width_min_mm": 0.5,
+  "trace_width_max_mm": 0.5,
+  "capacitor_distance_from_J1_mm": {
+    "C1": 5.099019513592785,
+    "C2": 5.8309518948453
+  },
+  "diode_distance_to_header_mm": {
+    "D1": 6.0,
+    "D2": 6.0,
+    "D3": 6.0,
+    "D4": 6.0
+  },
+  "header_right_edge_distance_mm": {
+    "J3": 4,
+    "J4": 4,
+    "J5": 4,
+    "J6": 4
+  },
+  "output_header_spacing_mm": [
+    12.0,
+    12.0,
+    12.0
+  ],
+  "route_endpoint_coverage": [
+    {
+      "port_count": 11,
+      "route_endpoint_groups": 1
+    },
+    {
+      "port_count": 12,
+      "route_endpoint_groups": 1
+    },
+    {
+      "port_count": 2,
+      "route_endpoint_groups": 1
+    },
+    {
+      "port_count": 2,
+      "route_endpoint_groups": 1
+    },
+    {
+      "port_count": 2,
+      "route_endpoint_groups": 1
+    },
+    {
+      "port_count": 2,
+      "route_endpoint_groups": 1
+    },
+    {
+      "port_count": 3,
+      "route_endpoint_groups": 1
+    },
+    {
+      "port_count": 3,
+      "route_endpoint_groups": 1
+    },
+    {
+      "port_count": 3,
+      "route_endpoint_groups": 1
+    },
+    {
+      "port_count": 3,
+      "route_endpoint_groups": 1
+    },
+    {
+      "port_count": 3,
+      "route_endpoint_groups": 1
+    },
+    {
+      "port_count": 3,
+      "route_endpoint_groups": 1
+    },
+    {
+      "port_count": 3,
+      "route_endpoint_groups": 1
+    },
+    {
+      "port_count": 3,
+      "route_endpoint_groups": 1
+    }
+  ],
+  "endpoint_coverage_pass": true,
+  "copper_continuity_independent_check": null,
+  "errors": [
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "message": "PCB trace trace[.J2 > port.pin5, .R7 > port.anode] is too close to trace[.J2 > port.pin4, .R5 > port.anode] (gap: 0.145mm)",
+      "pcb_trace_id": "source_net_12_0",
+      "source_trace_id": "",
+      "pcb_trace_error_id": "pcb_trace_error_0",
+      "pcb_component_ids": [],
+      "center": {
+        "x": -13.610648455807237,
+        "y": -4.154556017321804
+      },
+      "pcb_port_ids": [
+        "pcb_port_10",
+        "pcb_port_47",
+        "pcb_port_9",
+        "pcb_port_36"
+      ]
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "message": "PCB trace trace[.Q3 > port.pin1, .R6 > port.anode] is too close to trace[.R4 > port.cathode, .Q3 > port.pin2] (gap: 0.115mm)",
+      "pcb_trace_id": "source_net_10_mst0_0",
+      "source_trace_id": "",
+      "pcb_trace_error_id": "pcb_trace_error_1",
+      "pcb_component_ids": [],
+      "center": {
+        "x": 14.64385686364027,
+        "y": -6.633988863230078
+      },
+      "pcb_port_ids": [
+        "pcb_port_33",
+        "pcb_port_38",
+        "pcb_port_28",
+        "pcb_port_34"
+      ]
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "message": "PCB trace trace[.Q3 > port.pin1, .R6 > port.anode] is too close to trace[.R6 > port.cathode, .Q4 > port.pin2] (gap: 0.117mm)",
+      "pcb_trace_id": "source_net_10_mst0_0",
+      "source_trace_id": "",
+      "pcb_trace_error_id": "pcb_trace_error_2",
+      "pcb_component_ids": [],
+      "center": {
+        "x": 13.603730898186697,
+        "y": -9.586492043314534
+      },
+      "pcb_port_ids": [
+        "pcb_port_33",
+        "pcb_port_38",
+        "pcb_port_39",
+        "pcb_port_45"
+      ]
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "message": "PCB trace trace[.R3 > port.cathode, .R4 > port.anode] is too close to trace[.R4 > port.cathode, .Q3 > port.pin2] (gap: 0.216mm)",
+      "pcb_trace_id": "source_net_7_mst1_0",
+      "source_trace_id": "",
+      "pcb_trace_error_id": "pcb_trace_error_3",
+      "pcb_component_ids": [],
+      "center": {
+        "x": 10.387263951542115,
+        "y": 3.6800631148472527
+      },
+      "pcb_port_ids": [
+        "pcb_port_26",
+        "pcb_port_27",
+        "pcb_port_28",
+        "pcb_port_34"
+      ]
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "message": "PCB trace trace[.Q1 > port.pin1, .R2 > port.anode] is too close to trace[.C1 > port.anode, .D1 > port.pin1] (gap: 0.111mm)",
+      "pcb_trace_id": "source_net_4_mst0_0",
+      "source_trace_id": "",
+      "pcb_trace_error_id": "pcb_trace_error_4",
+      "pcb_component_ids": [],
+      "center": {
+        "x": 13.940211435620203,
+        "y": 18.863330953901837
+      },
+      "pcb_port_ids": [
+        "pcb_port_11",
+        "pcb_port_16",
+        "pcb_port_2",
+        "pcb_port_18"
+      ]
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "message": "PCB trace trace[.Q1 > port.pin1, .R2 > port.anode] is too close to trace[.R2 > port.cathode, .Q1 > port.pin2] (gap: 0.233mm)",
+      "pcb_trace_id": "source_net_4_mst0_0",
+      "source_trace_id": "",
+      "pcb_trace_error_id": "pcb_trace_error_5",
+      "pcb_component_ids": [],
+      "center": {
+        "x": 13.749140176496649,
+        "y": 17.326629787648223
+      },
+      "pcb_port_ids": [
+        "pcb_port_11",
+        "pcb_port_16",
+        "pcb_port_17",
+        "pcb_port_12"
+      ]
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "message": "PCB trace trace[.Q1 > port.pin1, .R2 > port.anode] is too close to trace[.R2 > port.cathode, .Q2 > port.pin2] (gap: 0.190mm)",
+      "pcb_trace_id": "source_net_4_mst0_0",
+      "source_trace_id": "",
+      "pcb_trace_error_id": "pcb_trace_error_6",
+      "pcb_component_ids": [],
+      "center": {
+        "x": 13.169582198183027,
+        "y": 15.590110300071391
+      },
+      "pcb_port_ids": [
+        "pcb_port_11",
+        "pcb_port_16",
+        "pcb_port_17",
+        "pcb_port_23"
+      ]
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "message": "PCB trace trace[.Q1 > port.pin3, .D1 > port.pin2] is too close to trace[.C1 > port.anode, .D1 > port.pin1] (gap: 0.187mm)",
+      "pcb_trace_id": "source_net_2_mst1_0",
+      "source_trace_id": "",
+      "pcb_trace_error_id": "pcb_trace_error_7",
+      "pcb_component_ids": [],
+      "center": {
+        "x": 22.27616689364603,
+        "y": 19.592440616747968
+      },
+      "pcb_port_ids": [
+        "pcb_port_13",
+        "pcb_port_19",
+        "pcb_port_2",
+        "pcb_port_18"
+      ]
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "message": "PCB trace trace[.R6 > port.cathode, .Q3 > port.pin2] is too close to trace[.Q3 > port.pin1, .R6 > port.anode] (gap: 0.182mm)",
+      "pcb_trace_id": "source_net_1_mst3_0",
+      "source_trace_id": "",
+      "pcb_trace_error_id": "pcb_trace_error_8",
+      "pcb_component_ids": [],
+      "center": {
+        "x": 14.085719968511361,
+        "y": -8.50770657722423
+      },
+      "pcb_port_ids": [
+        "pcb_port_39",
+        "pcb_port_34",
+        "pcb_port_33",
+        "pcb_port_38"
+      ]
+    },
+    {
+      "type": "pcb_via_trace_clearance_error",
+      "pcb_via_trace_clearance_error_id": "pcb_via_trace_clearance_error_0",
+      "error_type": "pcb_via_trace_clearance_error",
+      "message": "Via pcb_via[#pcb_via_3] and trace trace[.J2 > port.pin4, .R5 > port.anode] are too close (clearance: 0.245mm, minimum: 0.25mm)",
+      "pcb_via_id": "pcb_via_3",
+      "pcb_trace_id": "source_net_9_0",
+      "minimum_clearance": 0.25,
+      "actual_clearance": 0.24489639283198217,
+      "center": {
+        "x": -10.45625,
+        "y": -3.73
+      }
+    },
+    {
+      "type": "pcb_via_trace_clearance_error",
+      "pcb_via_trace_clearance_error_id": "pcb_via_trace_clearance_error_1",
+      "error_type": "pcb_via_trace_clearance_error",
+      "message": "Via pcb_via[#pcb_via_22] and trace trace[.Q3 > port.pin1, .R6 > port.anode] are too close (clearance: 0.215mm, minimum: 0.25mm)",
+      "pcb_via_id": "pcb_via_22",
+      "pcb_trace_id": "source_net_10_mst0_0",
+      "minimum_clearance": 0.25,
+      "actual_clearance": 0.21499761621291935,
+      "center": {
+        "x": 13.93125,
+        "y": -7.481249999999999
+      }
+    }
+  ]
+}

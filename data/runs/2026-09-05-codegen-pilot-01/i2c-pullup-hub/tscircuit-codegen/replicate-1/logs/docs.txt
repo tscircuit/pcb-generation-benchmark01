@@ -1,0 +1,155 @@
+lrwxrwxrwx@ 1 ankan  staff  48 Sep  4 01:46 /Users/ankan/.bun/bin/tsci -> ../install/global/node_modules/tscircuit/cli.mjs
+# `<trace />`
+
+The `<trace />` element represents an electrical connection between two or more points in your circuit. Traces can connect components, nets, or specific pins on components.
+
+## Example
+
+```tsx
+export default () => (
+  <board width="10mm" height="10mm">
+    <resistor name="R1" resistance="1k" footprint="0402" pcbX={-2} schX={-2} />
+    <capacitor name="C1" capacitance="100nF" footprint="0402" pcbX={2} />
+    <trace
+      from=".R1 > .pin1"
+      to=".C1 > .pin1"
+    />
+  </board>
+)
+```
+
+## Props
+
+Commonly used: `via`, `fromLayer`, `toLayer`, `code`, `message`, `path`, `key`, `thickness`
+
+## References
+
+- Props: [TraceProps](https://github.com/tscircuit/props#traceprops-trace)
+- Source: [lib/components/trace.ts](https://github.com/tscircuit/props/blob/main/lib/components/trace.ts)
+- Local docs: [docs/docs/elements/trace.mdx](../docs/docs/elements/trace.mdx)
+# `<silkscreentext />`
+
+The `<silkscreentext />` element is used to add text to the silkscreen layer within a PCB footprint.
+
+## Example
+
+```tsx
+export default () => (
+  <board width="10mm" height="10mm">
+    <silkscreentext text="Hello, World!" fontSize="1mm" />
+  </board>
+)
+```
+
+## Props
+
+Commonly used: `text`, `anchorAlignment`, `font`, `fontSize`, `isKnockout`, `knockoutPadding`, `knockoutPaddingLeft`, `knockoutPaddingRight`
+
+## References
+
+- Props: [SilkscreenTextProps](https://github.com/tscircuit/props#silkscreentextprops-silkscreentext)
+- Source: [lib/components/silkscreen-text.ts](https://github.com/tscircuit/props/blob/main/lib/components/silkscreen-text.ts)
+- Local docs: [docs/docs/footprints/silkscreentext.mdx](../docs/docs/footprints/silkscreentext.mdx)
+# `<schematicsection />`
+
+Groups components into a named section on the schematic (e.g. "Power", "Digital").
+
+Use `schSectionName` on any component to assign it to a section, then declare the section with `<schematicsection />`.
+
+> **No auto-layout.** `<schematicsection />` does NOT move components. You must manually place all components in the section in close proximity using `schX`/`schY` so the section renders as a coherent group.
+
+## Placement rule
+
+Pick a cluster origin (e.g. `schX={0} schY={0}`) and place all section members nearby. Components scattered across the schematic will still be tagged to the section but will look disconnected.
+
+## Example
+
+```tsx
+export default () => (
+  <board width="40mm" height="20mm">
+    <schematicsection name="Power" displayName="Power Supply" />
+    <schematicsection name="IO" displayName="Input / Output" />
+
+    {/* Power section — cluster around schX=0 */}
+    <capacitor
+      name="C1"
+      capacitance="100nF"
+      footprint="0402"
+      schSectionName="Power"
+      schX={0}
+      schY={0}
+    />
+    <capacitor
+      name="C2"
+      capacitance="10uF"
+      footprint="0805"
+      schSectionName="Power"
+      schX={2}
+      schY={0}
+    />
+    <resistor
+      name="R1"
+      resistance="10k"
+      footprint="0402"
+      schSectionName="Power"
+      schX={4}
+      schY={0}
+    />
+
+    {/* IO section — cluster around schX=12, well separated from Power */}
+    <pushbutton
+      name="BTN1"
+      footprint="button_4pin"
+      schSectionName="IO"
+      schX={12}
+      schY={0}
+    />
+    <resistor
+      name="R2"
+      resistance="1k"
+      footprint="0402"
+      schSectionName="IO"
+      schX={14}
+      schY={0}
+    />
+  </board>
+)
+```
+
+## Props
+
+| Prop | Type | Required | Description |
+|------|------|----------|-------------|
+| `name` | `string` | yes | Unique identifier for the section |
+| `displayName` | `string` | no | Human-readable label shown on schematic |
+
+## Assigning components to a section
+
+Any component that accepts `CommonComponentProps` has `schSectionName`. Set it to the `name` of a `<schematicsection />`.
+
+```tsx
+<resistor name="R1" resistance="10k" footprint="0402" schSectionName="Power" schX={0} schY={0} />
+```
+
+## Layout guidance
+
+- Keep section members within ~4–6 schematic units of each other.
+- Separate different sections by at least 6–8 units so section boundaries are visually clear.
+- Arrange members in a row or grid — do not leave large schX/schY gaps between them.
+
+## References
+
+- Props: [SchematicSectionProps](https://github.com/tscircuit/props#schematicsectionprops-schematicsection)
+- Source: [lib/components/schematic-section.ts](https://github.com/tscircuit/props/blob/main/lib/components/schematic-section.ts)
+Usage: tsci init [options] [directory]
+
+Initialize a new TSCircuit project in the specified directory (or current
+directory if none is provided)
+
+Arguments:
+  directory     Directory name (optional, defaults to current directory)
+
+Options:
+  -y, --yes     Use defaults and skip prompts
+  --no-install  Skip installing dependencies
+  -h, --help    display help for command

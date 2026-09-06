@@ -1,0 +1,18 @@
+{
+  "clearance_violations": [
+    {
+      "a": 57,
+      "b": 137,
+      "clearance_mm": 0.186805126
+    },
+    {
+      "a": 57,
+      "b": 454,
+      "clearance_mm": 0.186805126
+    }
+  ],
+  "disconnected_nets": [],
+  "primitive_count": 2496,
+  "shorts": [],
+  "unsupported_geometry": []
+}

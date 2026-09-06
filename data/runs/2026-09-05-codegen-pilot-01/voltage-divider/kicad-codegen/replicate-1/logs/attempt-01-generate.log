@@ -1,0 +1,2 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+Wrote editable schematic and PCB: 6 components 12 tracks

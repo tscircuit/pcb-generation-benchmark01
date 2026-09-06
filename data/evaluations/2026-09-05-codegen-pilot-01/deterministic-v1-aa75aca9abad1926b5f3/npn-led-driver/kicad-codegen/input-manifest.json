@@ -1,0 +1,94 @@
+[
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/README.md",
+    "sha256": "f03690239064001bc1e5fa9e2509549d36fed8b08316c21da2c0e4c027d90ee4"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/driver.kicad_pcb",
+    "sha256": "6be0daa5c01b39c18c0dd9dce07aab46872ae9811eddceec23638f6bd1e58381"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/driver.kicad_prl",
+    "sha256": "98d63a58b652bf90f28cd53040a2ee4db63812ffe27e09e8196dda95597a45c9"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/driver.kicad_pro",
+    "sha256": "228337fa3db41dd3eb64fb18b90d937801c92dd9e32ccb3ac60c4c39081f4046"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/driver.kicad_sch",
+    "sha256": "8c1e52ffedc4458a3ad5e92807d6f83aa6d524686dfafe6e33ee8bceefee2832"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/fp-lib-table",
+    "sha256": "aabed2a793c610707bcb67027e432f1734f1c0e67265939f25db3f3c71f2eb95"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/generate.py",
+    "sha256": "6be3dedf255f17abdcbb2db316aa44eb103077efdcf73ec45e40aceb7c47d068"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/libraries/Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod",
+    "sha256": "62775a51fe74ba7f1b572de327bdbd3fc92582721b2abcaa47787865590d89cb"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/libraries/Connector_Generic.kicad_sym",
+    "sha256": "812286ac9354c47d2d1f1c3e5bc5aee521d2d21cfc5ca586cb57cb224c021216"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/libraries/Connector_PinHeader_2.54mm.pretty/PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
+    "sha256": "571d2d16b49795f8f9a91f96cc83fd2adf49890cd66c377189c44204ebd03c29"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/libraries/Device.kicad_sym",
+    "sha256": "2ad2ce69fde9b0b17e50a47edaa31e6a7d2266a6b53dd38fc20af2c4e5426317"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/libraries/LED_SMD.pretty/LED_0805_2012Metric.kicad_mod",
+    "sha256": "8806125556e590701b13b47a1725dff28fc47fca41a7905c7d78c8312d08cbbd"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/libraries/Package_TO_SOT_SMD.pretty/SOT-23.kicad_mod",
+    "sha256": "0d88c86c1b6d8c1aae4aa8c09386264c089d4451a128b6ccd63ed253f4300b15"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/libraries/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod",
+    "sha256": "f050b6a50cc7e6f86291fb7aa8f87b0d02255e21cfbddf291cdccc87e5889794"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/libraries/Transistor_BJT.kicad_sym",
+    "sha256": "d26710a21e67e0a664444f293b9c1cd0674e888f85170a9b71a2784fc06118b0"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/pcb.svg",
+    "sha256": "d7a6186b65b7005fbeab08508c4834f2d5275075233bb73dd97da699b0d1b95a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/pin-map.json",
+    "sha256": "9a2b31e4ac462dc62521da1bb3d331522757e0ce709cd570de86e65b8f21d689"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/schematic-svg/driver.svg",
+    "sha256": "af0a744dccd84fe060710ef9cce7918ab925baafe20582e3e38663e4ce8278b4"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/sym-lib-table",
+    "sha256": "183d4bbe7142a51330866da557a7ae673df51e3d69b70bcbc250b6a01adbe5f2"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/input/metadata.json",
+    "sha256": "60aba86caa9731ad81a0772b6616cdd003595da8010561a4c87c2cf3c07d844e"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/input/prompt.md",
+    "sha256": "0bef478d2b6e9752e4230aab7eecf8bd3bab485b1a1927d697114e1e22542bf6"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/result.json",
+    "sha256": "55e776f9583139781390ee458d89fc99eb6f256728a514b2070da4987fb791b1"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/run.json",
+    "sha256": "d1a94c93664a5bc8191e71990c85d3d2d45ea9b012b8fe104505c5939254b16e"
+  }
+]

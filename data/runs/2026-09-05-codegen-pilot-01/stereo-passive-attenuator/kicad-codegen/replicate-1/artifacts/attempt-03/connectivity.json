@@ -1,0 +1,210 @@
+[
+  {
+    "ref": "J1",
+    "val": "INPUT",
+    "sym": "Connector_Generic:Conn_01x03",
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "nets": [
+      "LEFT_IN",
+      "GND",
+      "RIGHT_IN"
+    ],
+    "sch": [
+      40.64,
+      60.96
+    ],
+    "pcb": [
+      103,
+      112.46
+    ],
+    "uuid": "7731c3f6-38bd-467a-a031-1347a6e26571"
+  },
+  {
+    "ref": "J2",
+    "val": "OUTPUT",
+    "sym": "Connector_Generic:Conn_01x03",
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "nets": [
+      "LEFT_OUT",
+      "GND",
+      "RIGHT_OUT"
+    ],
+    "sch": [
+      165.1,
+      60.96
+    ],
+    "pcb": [
+      147,
+      112.46
+    ],
+    "uuid": "df1b4f3b-4b12-4af2-ad4a-d0e176942029"
+  },
+  {
+    "ref": "C1",
+    "val": "1uF ceramic nonpolar",
+    "sym": "Device:C",
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "nets": [
+      "LEFT_IN",
+      "LEFT_AC"
+    ],
+    "sch": [
+      71.12,
+      45.72
+    ],
+    "pcb": [
+      114,
+      107
+    ],
+    "uuid": "ac0e9938-8873-48d7-a2ca-db2bf80cc394"
+  },
+  {
+    "ref": "R1",
+    "val": "10k",
+    "sym": "Device:R",
+    "fp": "Resistor_SMD:R_0805_2012Metric",
+    "nets": [
+      "LEFT_AC",
+      "LEFT_OUT"
+    ],
+    "sch": [
+      104.14,
+      45.72
+    ],
+    "pcb": [
+      124,
+      107
+    ],
+    "uuid": "1e24878f-c9ec-47e8-bb13-036e8fe959b7"
+  },
+  {
+    "ref": "R2",
+    "val": "10k",
+    "sym": "Device:R",
+    "fp": "Resistor_SMD:R_0805_2012Metric",
+    "nets": [
+      "LEFT_OUT",
+      "GND"
+    ],
+    "sch": [
+      137.16,
+      45.72
+    ],
+    "pcb": [
+      133,
+      110
+    ],
+    "uuid": "058210b1-b76c-412f-b048-0b3196e40c46"
+  },
+  {
+    "ref": "TP1",
+    "val": "LEFT_OUT",
+    "sym": "Connector:TestPoint",
+    "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+    "nets": [
+      "LEFT_OUT"
+    ],
+    "sch": [
+      175.26,
+      45.72
+    ],
+    "pcb": [
+      138,
+      104
+    ],
+    "uuid": "82449b0a-a7d2-43f6-9fba-cdf855221510"
+  },
+  {
+    "ref": "C2",
+    "val": "1uF ceramic nonpolar",
+    "sym": "Device:C",
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "nets": [
+      "RIGHT_IN",
+      "RIGHT_AC"
+    ],
+    "sch": [
+      71.12,
+      96.52
+    ],
+    "pcb": [
+      114,
+      123
+    ],
+    "uuid": "40ff97c8-35f8-4250-b169-6e3ffffd589d"
+  },
+  {
+    "ref": "R3",
+    "val": "10k",
+    "sym": "Device:R",
+    "fp": "Resistor_SMD:R_0805_2012Metric",
+    "nets": [
+      "RIGHT_AC",
+      "RIGHT_OUT"
+    ],
+    "sch": [
+      104.14,
+      96.52
+    ],
+    "pcb": [
+      124,
+      123
+    ],
+    "uuid": "c2aa29be-0015-41a9-a48b-46ae2f01ee4a"
+  },
+  {
+    "ref": "R4",
+    "val": "10k",
+    "sym": "Device:R",
+    "fp": "Resistor_SMD:R_0805_2012Metric",
+    "nets": [
+      "RIGHT_OUT",
+      "GND"
+    ],
+    "sch": [
+      137.16,
+      96.52
+    ],
+    "pcb": [
+      133,
+      120
+    ],
+    "uuid": "2e3e5c5f-f10a-4a38-922f-4da3637983d9"
+  },
+  {
+    "ref": "TP2",
+    "val": "RIGHT_OUT",
+    "sym": "Connector:TestPoint",
+    "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+    "nets": [
+      "RIGHT_OUT"
+    ],
+    "sch": [
+      175.26,
+      96.52
+    ],
+    "pcb": [
+      138,
+      126
+    ],
+    "uuid": "c08c9a87-3aa4-49d4-be33-4e71f820064c"
+  },
+  {
+    "ref": "TP3",
+    "val": "GND",
+    "sym": "Connector:TestPoint",
+    "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+    "nets": [
+      "GND"
+    ],
+    "sch": [
+      175.26,
+      119.38
+    ],
+    "pcb": [
+      125,
+      115
+    ],
+    "uuid": "e423a36f-c596-49e3-805c-48f0bd949ec0"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "check": "netlist",
+    "exit_code": 0,
+    "log": "logs/attempt-02-netlist.log"
+  },
+  {
+    "check": "schematic-placement",
+    "exit_code": 0,
+    "log": "logs/attempt-02-schematic-placement.log"
+  },
+  {
+    "check": "placement",
+    "exit_code": 0,
+    "log": "logs/attempt-02-placement.log"
+  },
+  {
+    "check": "build",
+    "exit_code": 0,
+    "log": "logs/attempt-02-build.log"
+  }
+]

@@ -1,0 +1,22 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+routed PU_SDA 23.35 17.0 23
+routed PU_SCL 23.35 23.0 23
+routed +3V3 42.0 14.0 196
+routed +3V3 18.69 3.0 56
+routed +3V3 6.8 18.75 31
+routed +3V3 38.2 18.75 31
+routed +3V3 22.5 7.75 20
+routed +3V3 17.0875 17.0 16
+routed +3V3 17.0875 23.0 31
+routed GND 42.0 16.54 196
+routed GND 21.23 3.0 69
+routed GND 6.8 16.85 3
+routed GND 38.2 16.85 3
+routed GND 22.5 5.85 8
+routed SDA 42.0 19.08 196
+routed SDA 23.77 3.0 86
+routed SDA 24.65 17.0 2
+routed SCL 42.0 21.62 196
+routed SCL 26.31 3.0 96
+routed SCL 24.65 23.0 17
+Saved native files

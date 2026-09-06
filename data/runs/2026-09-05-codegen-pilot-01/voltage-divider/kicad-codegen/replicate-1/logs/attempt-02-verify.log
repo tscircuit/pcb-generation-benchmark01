@@ -1,0 +1,5 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+Traceback (most recent call last):
+  File "/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/attempt-02/verify.py", line 23, in <module>
+    assert found==expected,(found,expected)
+AssertionError: ({}, {'/VIN': {('J1', '1'), ('R1', '1')}, '/VOUT': {('R2', '1'), ('TP1', '1'), ('R1', '2'), ('J2', '1')}, '/GND': {('R2', '2'), ('J2', '2'), ('TP2', '1'), ('J1', '2')}})

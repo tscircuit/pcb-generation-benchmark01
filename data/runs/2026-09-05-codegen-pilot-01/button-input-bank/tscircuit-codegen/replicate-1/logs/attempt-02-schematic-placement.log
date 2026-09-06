@@ -1,0 +1,9 @@
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. See https://react.dev/link/warning-keys for more information.
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="J1" positionAnchor="center" schX="-12" schY="0" width="1.5" height="1.4" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<PinHeaderSchematicBoxTooWide message="Shrink schematic box width" componentName="J1" currentSchWidth="1.5" measuredInnerLabelHorizontalEmptySpace="1.02" maxAllowedInnerLabelHorizontalEmptySpace="0.1" suggestedSchWidth="0.58" />
+</SchematicPlacementIssues>

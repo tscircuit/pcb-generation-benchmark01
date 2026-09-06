@@ -1,0 +1,17 @@
+$ tsci check placement index.circuit.tsx
+placement summary: no placement issues
+
+board top-layer utilization:
+- occupied: 5.715% (34.291mm^2 of 600mm^2)
+- empty spaces over 5% of board area:
+  - 36.547% (219.282mm^2); bounds=(minX=-9.23mm, maxX=15mm, minY=-10mm, maxY=-0.95mm)
+  - 34.8% (208.8mm^2); bounds=(minX=-15mm, maxX=15mm, minY=3.04mm, maxY=10mm)
+
+board-edge status:
+- J1: 3.25mm inside left edge
+- R1: 7.3mm inside bottom edge
+- D1: 2.575mm inside right edge
+
+placement drc:
+Errors: 0
+Warnings: 0

@@ -1,0 +1,410 @@
+$ tsci build index.circuit.tsx --svgs --pcb-png --disable-parts-engine --autorouter-timeout 120s
+Building 1 file(s)...
+Building index.circuit.tsx...
+Generating circuit JSON...
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. It was passed a child from default. See https://react.dev/link/warning-keys for more information.
+Circuit JSON written to dist/index/circuit.json
+No <schematicsheet> was found. Add a <schematicsheet> to define the schematic drawing area.
+Could not create chip "Q1". Invalid props for chip "Q1": schPinArrangement ({"_errors":[],"leftSide":{"_errors":["Expected array, received object"],"direction":{"_errors":["Invalid literal value, expected \"top-to-bottom\"","Invalid literal value, expected \"left-to-right\"","Invalid literal value, expected \"bottom-to-top\"","Invalid literal value, expected \"right-to-left\""]}},"rightSide":{"_errors":["Expected array, received object"],"direction":{"_errors":["Invalid literal value, expected \"top-to-bottom\"","Invalid literal value, expected \"left-to-right\"","Invalid literal value, expected \"bottom-to-top\"","Invalid literal value, expected \"right-to-left\""]}}}) Details: Props: {
+  "name": "Q1",
+  "schPinArrangement": {
+    "leftSide": {
+      "pins": [
+        1
+      ]
+    },
+    "rightSide": {
+      "pins": [
+        3,
+        2
+      ]
+    }
+  },
+  "footprint": "sot23",
+  "manufacturerPartNumber": "AO3400A",
+  "pinLabels": {
+    "pin1": [
+      "gate"
+    ],
+    "pin2": [
+      "source"
+    ],
+    "pin3": [
+      "drain"
+    ]
+  },
+  "pcbX": 17,
+  "pcbY": 18,
+  "schX": 2,
+  "schY": 12,
+  "schSectionName": "Channel1",
+  "componentType": "chip",
+  "error": {
+    "componentName": "chip",
+    "originalProps": {
+      "name": "Q1",
+      "schPinArrangement": "[Circular]",
+      "footprint": "sot23",
+      "manufacturerPartNumber": "AO3400A",
+      "pinLabels": {
+        "pin1": [
+          "gate"
+        ],
+        "pin2": [
+          "source"
+        ],
+        "pin3": [
+          "drain"
+        ]
+      },
+      "pcbX": 17,
+      "pcbY": 18,
+      "schX": 2,
+      "schY": 12,
+      "schSectionName": "Channel1"
+    },
+    "formattedError": {
+      "_errors": [],
+      "schPinArrangement": {
+        "_errors": [],
+        "leftSide": {
+          "_errors": [
+            "Expected array, received object"
+          ],
+          "direction": {
+            "_errors": [
+              "Invalid literal value, expected \"top-to-bottom\"",
+              "Invalid literal value, expected \"left-to-right\"",
+              "Invalid literal value, expected \"bottom-to-top\"",
+              "Invalid literal value, expected \"right-to-left\""
+            ]
+          }
+        },
+        "rightSide": {
+          "_errors": [
+            "Expected array, received object"
+          ],
+          "direction": {
+            "_errors": [
+              "Invalid literal value, expected \"top-to-bottom\"",
+              "Invalid literal value, expected \"left-to-right\"",
+              "Invalid literal value, expected \"bottom-to-top\"",
+              "Invalid literal value, expected \"right-to-left\""
+            ]
+          }
+        }
+      }
+    }
+  },
+  "type"…
+Could not create chip "Q2". Invalid props for chip "Q2": schPinArrangement ({"_errors":[],"leftSide":{"_errors":["Expected array, received object"],"direction":{"_errors":["Invalid literal value, expected \"top-to-bottom\"","Invalid literal value, expected \"left-to-right\"","Invalid literal value, expected \"bottom-to-top\"","Invalid literal value, expected \"right-to-left\""]}},"rightSide":{"_errors":["Expected array, received object"],"direction":{"_errors":["Invalid literal value, expected \"top-to-bottom\"","Invalid literal value, expected \"left-to-right\"","Invalid literal value, expected \"bottom-to-top\"","Invalid literal value, expected \"right-to-left\""]}}}) Details: Props: {
+  "name": "Q2",
+  "schPinArrangement": {
+    "leftSide": {
+      "pins": [
+        1
+      ]
+    },
+    "rightSide": {
+      "pins": [
+        3,
+        2
+      ]
+    }
+  },
+  "footprint": "sot23",
+  "manufacturerPartNumber": "AO3400A",
+  "pinLabels": {
+    "pin1": [
+      "gate"
+    ],
+    "pin2": [
+      "source"
+    ],
+    "pin3": [
+      "drain"
+    ]
+  },
+  "pcbX": 17,
+  "pcbY": 6,
+  "schX": 2,
+  "schY": 3,
+  "schSectionName": "Channel2",
+  "componentType": "chip",
+  "error": {
+    "componentName": "chip",
+    "originalProps": {
+      "name": "Q2",
+      "schPinArrangement": "[Circular]",
+      "footprint": "sot23",
+      "manufacturerPartNumber": "AO3400A",
+      "pinLabels": {
+        "pin1": [
+          "gate"
+        ],
+        "pin2": [
+          "source"
+        ],
+        "pin3": [
+          "drain"
+        ]
+      },
+      "pcbX": 17,
+      "pcbY": 6,
+      "schX": 2,
+      "schY": 3,
+      "schSectionName": "Channel2"
+    },
+    "formattedError": {
+      "_errors": [],
+      "schPinArrangement": {
+        "_errors": [],
+        "leftSide": {
+          "_errors": [
+            "Expected array, received object"
+          ],
+          "direction": {
+            "_errors": [
+              "Invalid literal value, expected \"top-to-bottom\"",
+              "Invalid literal value, expected \"left-to-right\"",
+              "Invalid literal value, expected \"bottom-to-top\"",
+              "Invalid literal value, expected \"right-to-left\""
+            ]
+          }
+        },
+        "rightSide": {
+          "_errors": [
+            "Expected array, received object"
+          ],
+          "direction": {
+            "_errors": [
+              "Invalid literal value, expected \"top-to-bottom\"",
+              "Invalid literal value, expected \"left-to-right\"",
+              "Invalid literal value, expected \"bottom-to-top\"",
+              "Invalid literal value, expected \"right-to-left\""
+            ]
+          }
+        }
+      }
+    }
+  },
+  "type": "u…
+Could not create chip "Q3". Invalid props for chip "Q3": schPinArrangement ({"_errors":[],"leftSide":{"_errors":["Expected array, received object"],"direction":{"_errors":["Invalid literal value, expected \"top-to-bottom\"","Invalid literal value, expected \"left-to-right\"","Invalid literal value, expected \"bottom-to-top\"","Invalid literal value, expected \"right-to-left\""]}},"rightSide":{"_errors":["Expected array, received object"],"direction":{"_errors":["Invalid literal value, expected \"top-to-bottom\"","Invalid literal value, expected \"left-to-right\"","Invalid literal value, expected \"bottom-to-top\"","Invalid literal value, expected \"right-to-left\""]}}}) Details: Props: {
+  "name": "Q3",
+  "schPinArrangement": {
+    "leftSide": {
+      "pins": [
+        1
+      ]
+    },
+    "rightSide": {
+      "pins": [
+        3,
+        2
+      ]
+    }
+  },
+  "footprint": "sot23",
+  "manufacturerPartNumber": "AO3400A",
+  "pinLabels": {
+    "pin1": [
+      "gate"
+    ],
+    "pin2": [
+      "source"
+    ],
+    "pin3": [
+      "drain"
+    ]
+  },
+  "pcbX": 17,
+  "pcbY": -6,
+  "schX": 2,
+  "schY": -6,
+  "schSectionName": "Channel3",
+  "componentType": "chip",
+  "error": {
+    "componentName": "chip",
+    "originalProps": {
+      "name": "Q3",
+      "schPinArrangement": "[Circular]",
+      "footprint": "sot23",
+      "manufacturerPartNumber": "AO3400A",
+      "pinLabels": {
+        "pin1": [
+          "gate"
+        ],
+        "pin2": [
+          "source"
+        ],
+        "pin3": [
+          "drain"
+        ]
+      },
+      "pcbX": 17,
+      "pcbY": -6,
+      "schX": 2,
+      "schY": -6,
+      "schSectionName": "Channel3"
+    },
+    "formattedError": {
+      "_errors": [],
+      "schPinArrangement": {
+        "_errors": [],
+        "leftSide": {
+          "_errors": [
+            "Expected array, received object"
+          ],
+          "direction": {
+            "_errors": [
+              "Invalid literal value, expected \"top-to-bottom\"",
+              "Invalid literal value, expected \"left-to-right\"",
+              "Invalid literal value, expected \"bottom-to-top\"",
+              "Invalid literal value, expected \"right-to-left\""
+            ]
+          }
+        },
+        "rightSide": {
+          "_errors": [
+            "Expected array, received object"
+          ],
+          "direction": {
+            "_errors": [
+              "Invalid literal value, expected \"top-to-bottom\"",
+              "Invalid literal value, expected \"left-to-right\"",
+              "Invalid literal value, expected \"bottom-to-top\"",
+              "Invalid literal value, expected \"right-to-left\""
+            ]
+          }
+        }
+      }
+    }
+  },
+  "type"…
+Could not create chip "Q4". Invalid props for chip "Q4": schPinArrangement ({"_errors":[],"leftSide":{"_errors":["Expected array, received object"],"direction":{"_errors":["Invalid literal value, expected \"top-to-bottom\"","Invalid literal value, expected \"left-to-right\"","Invalid literal value, expected \"bottom-to-top\"","Invalid literal value, expected \"right-to-left\""]}},"rightSide":{"_errors":["Expected array, received object"],"direction":{"_errors":["Invalid literal value, expected \"top-to-bottom\"","Invalid literal value, expected \"left-to-right\"","Invalid literal value, expected \"bottom-to-top\"","Invalid literal value, expected \"right-to-left\""]}}}) Details: Props: {
+  "name": "Q4",
+  "schPinArrangement": {
+    "leftSide": {
+      "pins": [
+        1
+      ]
+    },
+    "rightSide": {
+      "pins": [
+        3,
+        2
+      ]
+    }
+  },
+  "footprint": "sot23",
+  "manufacturerPartNumber": "AO3400A",
+  "pinLabels": {
+    "pin1": [
+      "gate"
+    ],
+    "pin2": [
+      "source"
+    ],
+    "pin3": [
+      "drain"
+    ]
+  },
+  "pcbX": 17,
+  "pcbY": -18,
+  "schX": 2,
+  "schY": -15,
+  "schSectionName": "Channel4",
+  "componentType": "chip",
+  "error": {
+    "componentName": "chip",
+    "originalProps": {
+      "name": "Q4",
+      "schPinArrangement": "[Circular]",
+      "footprint": "sot23",
+      "manufacturerPartNumber": "AO3400A",
+      "pinLabels": {
+        "pin1": [
+          "gate"
+        ],
+        "pin2": [
+          "source"
+        ],
+        "pin3": [
+          "drain"
+        ]
+      },
+      "pcbX": 17,
+      "pcbY": -18,
+      "schX": 2,
+      "schY": -15,
+      "schSectionName": "Channel4"
+    },
+    "formattedError": {
+      "_errors": [],
+      "schPinArrangement": {
+        "_errors": [],
+        "leftSide": {
+          "_errors": [
+            "Expected array, received object"
+          ],
+          "direction": {
+            "_errors": [
+              "Invalid literal value, expected \"top-to-bottom\"",
+              "Invalid literal value, expected \"left-to-right\"",
+              "Invalid literal value, expected \"bottom-to-top\"",
+              "Invalid literal value, expected \"right-to-left\""
+            ]
+          }
+        },
+        "rightSide": {
+          "_errors": [
+            "Expected array, received object"
+          ],
+          "direction": {
+            "_errors": [
+              "Invalid literal value, expected \"top-to-bottom\"",
+              "Invalid literal value, expected \"left-to-right\"",
+              "Invalid literal value, expected \"bottom-to-top\"",
+              "Invalid literal value, expected \"right-to-left\""
+            ]
+          }
+        }
+      }
+    }
+  },
+  "t…
+Could not find port for selector ".Q1 .pin1". Component "Q1" found, but does not have pin "pin1". It has no ports
+Could not find port for selector ".Q1 .pin2". Component "Q1" found, but does not have pin "pin2". It has no ports
+Could not find port for selector ".Q1 .pin3". Component "Q1" found, but does not have pin "pin3". It has no ports
+Could not find port for selector ".Q2 .pin1". Component "Q2" found, but does not have pin "pin1". It has no ports
+Could not find port for selector ".Q2 .pin2". Component "Q2" found, but does not have pin "pin2". It has no ports
+Could not find port for selector ".Q2 .pin3". Component "Q2" found, but does not have pin "pin3". It has no ports
+Could not find port for selector ".Q3 .pin1". Component "Q3" found, but does not have pin "pin1". It has no ports
+Could not find port for selector ".Q3 .pin2". Component "Q3" found, but does not have pin "pin2". It has no ports
+Could not find port for selector ".Q3 .pin3". Component "Q3" found, but does not have pin "pin3". It has no ports
+Could not find port for selector ".Q4 .pin1". Component "Q4" found, but does not have pin "pin1". It has no ports
+Could not find port for selector ".Q4 .pin2". Component "Q4" found, but does not have pin "pin2". It has no ports
+Could not find port for selector ".Q4 .pin3". Component "Q4" found, but does not have pin "pin3". It has no ports
+PCB trace trace[.J2 > port.pin5, .R7 > port.anode] is too close to trace[.J2 > port.pin2, .R1 > port.anode] (gap: 0.244mm)
+PCB trace trace[.J2 > port.pin5, .R7 > port.anode] is too close to trace[.J2 > port.pin4, .R5 > port.anode] (gap: 0.145mm)
+PCB trace trace[.R1 > port.cathode, .R2 > port.anode] is too close to trace[.C1 > port.anode, .D1 > port.pin1] (gap: 0.182mm)
+Via pcb_via[#pcb_via_1] and trace trace[.J2 > port.pin4, .R5 > port.anode] are too close (clearance: 0.245mm, minimum: 0.25mm)
+Generating preview images...
+[index] Generating PCB SVG...
+[index] Written pcb.svg
+[index] Generating PCB PNG...
+[index] Written pcb.png
+[index] Generating schematic SVG...
+[index] Written schematic.svg
+
+Build complete
+  Circuits  1 passed
+  Options   pcb-png, svgs, autorouter-timeout
+  Output    dist
+
+⚠ Build completed with errors
+Build exiting with code 0: build finished successfully
+
+EXIT_CODE=0

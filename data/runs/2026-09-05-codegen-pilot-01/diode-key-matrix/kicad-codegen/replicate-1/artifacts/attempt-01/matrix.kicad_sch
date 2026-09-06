@@ -1,0 +1,624 @@
+(kicad_sch (version 20250114) (generator "pcb-matrix-codegen") (uuid "3e3aba2f-13ea-44e6-a550-3368729b4ec1") (paper "A4") (lib_symbols (symbol "Switch:SW_Push"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "SW"
+			(at 1.27 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 -1.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SW_Push_0_1"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy -2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Device:D"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "D_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Connector_Generic:Conn_01x06"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 0 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x06_1_1"
+			(rectangle
+				(start -1.27 6.35)
+				(end 1.27 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 5.207)
+				(end 0 4.953)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -4.953)
+				(end 0 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -7.493)
+				(end 0 -7.747)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 5.08 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -7.62 0)
+				(length 3.81)
+				(name "Pin_6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))(symbol (lib_id "Switch:SW_Push") (at 40 40 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "1618625e-3594-4b13-b275-4dfb00d0e5c5")(property "Reference" "SW11" (at 40 35 0) (effects (font (size 1.27 1.27))) )(property "Value" "SW_Push" (at 40 45 0) (effects (font (size 1.27 1.27))) )(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (at 40 40 0) (effects (font (size 1.27 1.27)) (hide yes)) )(pin "1" (uuid "c4842a05-1f1c-4ea2-b4a3-7852d94a2ead"))(pin "2" (uuid "bf6ad56a-c5bd-4753-a944-16a27feb82cc"))(instances (project "matrix" (path "/3e3aba2f-13ea-44e6-a550-3368729b4ec1" (reference "SW11") (unit 1)))))(symbol (lib_id "Device:D") (at 65.4 40 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "7be0e58a-ed50-4560-b7cd-4f13843c8982")(property "Reference" "D11" (at 65.4 35 0) (effects (font (size 1.27 1.27))) )(property "Value" "1N4148" (at 65.4 45 0) (effects (font (size 1.27 1.27))) )(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 65.4 40 0) (effects (font (size 1.27 1.27)) (hide yes)) )(pin "1" (uuid "8c29186f-12b2-4d36-8b6c-04480c54f8f8"))(pin "2" (uuid "c0685e8b-e33d-444b-9933-bf46d00cea0d"))(instances (project "matrix" (path "/3e3aba2f-13ea-44e6-a550-3368729b4ec1" (reference "D11") (unit 1)))))(wire (pts (xy 34.92 40)(xy 27.3 40)) (stroke (width 0)(type default))(uuid "783cf49c-718a-4303-af87-eed5e708d59d"))(label "COL1" (at 27.3 40 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "39f15ceb-0e4c-4ac5-bb77-d2e1c5af14a4"))(wire (pts (xy 45.08 40)(xy 47.62 40)) (stroke (width 0)(type default))(uuid "17eb5544-681e-4f36-adcf-b6cc67a775be"))(wire (pts (xy 47.62 40)(xy 47.62 50.16)) (stroke (width 0)(type default))(uuid "1914ffec-2c37-41c8-8566-b7a097392992"))(wire (pts (xy 47.62 50.16)(xy 73.02000000000001 50.16)) (stroke (width 0)(type default))(uuid "64450cbb-4e79-49f7-bf7e-e7bdb18f0a42"))(wire (pts (xy 73.02000000000001 50.16)(xy 73.02000000000001 40)) (stroke (width 0)(type default))(uuid "b634c3cb-0a7f-41c6-9237-954bbd9ccc66"))(wire (pts (xy 73.02000000000001 40)(xy 69.21000000000001 40)) (stroke (width 0)(type default))(uuid "e7cb964c-0989-4a45-8ac4-999ac61c9365"))(label "KEY11" (at 47.62 50.16 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "ded56221-e2bf-475c-b47b-adb1d21c6394"))(wire (pts (xy 61.59 40)(xy 57.78 40)) (stroke (width 0)(type default))(uuid "07387218-99ca-4994-9600-e1dc31964e4d"))(label "ROW1" (at 57.78 40 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "3c0b0604-64fb-4faa-8868-66449c621fee"))(symbol (lib_id "Switch:SW_Push") (at 110 40 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "48fa0e3d-7767-45c0-8e1f-fb4eadb02e23")(property "Reference" "SW12" (at 110 35 0) (effects (font (size 1.27 1.27))) )(property "Value" "SW_Push" (at 110 45 0) (effects (font (size 1.27 1.27))) )(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (at 110 40 0) (effects (font (size 1.27 1.27)) (hide yes)) )(pin "1" (uuid "1533ee05-f32d-44de-a087-678fad5ff1dd"))(pin "2" (uuid "d6fc7183-2f9a-4ca5-adc5-858b17075f8c"))(instances (project "matrix" (path "/3e3aba2f-13ea-44e6-a550-3368729b4ec1" (reference "SW12") (unit 1)))))(symbol (lib_id "Device:D") (at 135.4 40 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "5e5741ce-2a98-4fd3-b3c5-3b30d12a9156")(property "Reference" "D12" (at 135.4 35 0) (effects (font (size 1.27 1.27))) )(property "Value" "1N4148" (at 135.4 45 0) (effects (font (size 1.27 1.27))) )(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 135.4 40 0) (effects (font (size 1.27 1.27)) (hide yes)) )(pin "1" (uuid "5ac5ec4c-760b-4db1-b8e5-5e21e01027c2"))(pin "2" (uuid "3cf857a8-cafe-4c76-80ed-40405311d804"))(instances (project "matrix" (path "/3e3aba2f-13ea-44e6-a550-3368729b4ec1" (reference "D12") (unit 1)))))(wire (pts (xy 104.92 40)(xy 97.3 40)) (stroke (width 0)(type default))(uuid "44ea7ea8-a588-4026-a3c4-5a6a85b7deed"))(label "COL2" (at 97.3 40 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "ff4bca1e-9f58-4f94-9170-5adb748e4056"))(wire (pts (xy 115.08 40)(xy 117.62 40)) (stroke (width 0)(type default))(uuid "05fa0fc5-0ba7-48a2-80cb-e60753010171"))(wire (pts (xy 117.62 40)(xy 117.62 50.16)) (stroke (width 0)(type default))(uuid "bdf5c7ae-b64e-4000-a30a-9050f2459747"))(wire (pts (xy 117.62 50.16)(xy 143.02 50.16)) (stroke (width 0)(type default))(uuid "e46ad467-adb5-4f5e-a626-c83f26407b3d"))(wire (pts (xy 143.02 50.16)(xy 143.02 40)) (stroke (width 0)(type default))(uuid "1061f949-e898-4144-8244-922a289eb202"))(wire (pts (xy 143.02 40)(xy 139.21 40)) (stroke (width 0)(type default))(uuid "69fbfeb8-6646-4dac-8017-d1fd9a1df271"))(label "KEY12" (at 117.62 50.16 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "f431fd69-dd34-4669-81d8-cef6f1b35186"))(wire (pts (xy 131.59 40)(xy 127.78 40)) (stroke (width 0)(type default))(uuid "d12bc03e-980d-4d0c-a210-7c087e72429f"))(label "ROW1" (at 127.78 40 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "6ebda50c-3dc5-4a7f-9191-ba1948f5e894"))(symbol (lib_id "Switch:SW_Push") (at 180 40 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "d0ecfb9e-76de-4146-8317-49075e67f4a3")(property "Reference" "SW13" (at 180 35 0) (effects (font (size 1.27 1.27))) )(property "Value" "SW_Push" (at 180 45 0) (effects (font (size 1.27 1.27))) )(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (at 180 40 0) (effects (font (size 1.27 1.27)) (hide yes)) )(pin "1" (uuid "36ba839c-7a89-4fc1-bcd7-15e46ce07858"))(pin "2" (uuid "2dfec26e-9e3d-4374-9264-a76725ebaae4"))(instances (project "matrix" (path "/3e3aba2f-13ea-44e6-a550-3368729b4ec1" (reference "SW13") (unit 1)))))(symbol (lib_id "Device:D") (at 205.4 40 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "6403ef1c-bdde-4a77-9ecc-5939eb2f51c4")(property "Reference" "D13" (at 205.4 35 0) (effects (font (size 1.27 1.27))) )(property "Value" "1N4148" (at 205.4 45 0) (effects (font (size 1.27 1.27))) )(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 205.4 40 0) (effects (font (size 1.27 1.27)) (hide yes)) )(pin "1" (uuid "008af6bb-e12f-40a8-bf63-1db59de6762d"))(pin "2" (uuid "7634a8ff-399a-4515-8db7-8a8ec3d40fdf"))(instances (project "matrix" (path "/3e3aba2f-13ea-44e6-a550-3368729b4ec1" (reference "D13") (unit 1)))))(wire (pts (xy 174.92 40)(xy 167.3 40)) (stroke (width 0)(type default))(uuid "baabf2a6-7cd5-460a-9ada-e331b95be710"))(label "COL3" (at 167.3 40 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "aa82c362-7b41-4321-a33e-fb6ecaf219a5"))(wire (pts (xy 185.08 40)(xy 187.62 40)) (stroke (width 0)(type default))(uuid "7c677ed9-d90f-4b36-afde-cf8704dac9f4"))(wire (pts (xy 187.62 40)(xy 187.62 50.16)) (stroke (width 0)(type default))(uuid "48adcf18-c0a8-4abf-8831-6da13d26bcc3"))(wire (pts (xy 187.62 50.16)(xy 213.02 50.16)) (stroke (width 0)(type default))(uuid "e89de2fa-5f2e-464a-980d-457beb890ded"))(wire (pts (xy 213.02 50.16)(xy 213.02 40)) (stroke (width 0)(type default))(uuid "f59fbf99-03bd-412b-bc10-07d13b88468d"))(wire (pts (xy 213.02 40)(xy 209.21 40)) (stroke (width 0)(type default))(uuid "06411577-7bc6-4a6d-a071-a0cca00621c7"))(label "KEY13" (at 187.62 50.16 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "7f71faed-62e6-432e-91bb-e0b08bbee518"))(wire (pts (xy 201.59 40)(xy 197.78 40)) (stroke (width 0)(type default))(uuid "310197c8-fc3e-4da2-9945-cb796f7885fe"))(label "ROW1" (at 197.78 40 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "e84705e4-a41e-4115-a6da-feae455813e0"))(symbol (lib_id "Switch:SW_Push") (at 40 80 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "e74ef9e6-ac2d-46bb-b16b-e7815aae29ad")(property "Reference" "SW21" (at 40 75 0) (effects (font (size 1.27 1.27))) )(property "Value" "SW_Push" (at 40 85 0) (effects (font (size 1.27 1.27))) )(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (at 40 80 0) (effects (font (size 1.27 1.27)) (hide yes)) )(pin "1" (uuid "e357f468-e72f-4bd2-bb9b-6f0711b00ed8"))(pin "2" (uuid "319680d3-ddb6-44e7-b8e9-5e1867d9c0e1"))(instances (project "matrix" (path "/3e3aba2f-13ea-44e6-a550-3368729b4ec1" (reference "SW21") (unit 1)))))(symbol (lib_id "Device:D") (at 65.4 80 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "db22309e-eba9-4c55-88e9-2f5ea6c3bd74")(property "Reference" "D21" (at 65.4 75 0) (effects (font (size 1.27 1.27))) )(property "Value" "1N4148" (at 65.4 85 0) (effects (font (size 1.27 1.27))) )(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 65.4 80 0) (effects (font (size 1.27 1.27)) (hide yes)) )(pin "1" (uuid "d34f9013-e2bd-47ec-8897-40ae19a4f1ea"))(pin "2" (uuid "6b819b48-256d-46cb-9497-f90739be8fbc"))(instances (project "matrix" (path "/3e3aba2f-13ea-44e6-a550-3368729b4ec1" (reference "D21") (unit 1)))))(wire (pts (xy 34.92 80)(xy 27.3 80)) (stroke (width 0)(type default))(uuid "0ee16b6c-c33d-42b5-8fe9-ff34f20ec34b"))(label "COL1" (at 27.3 80 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "017fa486-4632-45e6-b44f-ff78c7dc2cd3"))(wire (pts (xy 45.08 80)(xy 47.62 80)) (stroke (width 0)(type default))(uuid "d4dd1cae-754d-4ff5-9d64-146ab6c0ba9e"))(wire (pts (xy 47.62 80)(xy 47.62 90.16)) (stroke (width 0)(type default))(uuid "4fe97858-464b-4912-9a2a-ed4df6007774"))(wire (pts (xy 47.62 90.16)(xy 73.02000000000001 90.16)) (stroke (width 0)(type default))(uuid "1e907bd3-1378-4946-b170-5e64c6f74e71"))(wire (pts (xy 73.02000000000001 90.16)(xy 73.02000000000001 80)) (stroke (width 0)(type default))(uuid "c19d1998-b9ba-4f5a-a563-7664981c626d"))(wire (pts (xy 73.02000000000001 80)(xy 69.21000000000001 80)) (stroke (width 0)(type default))(uuid "08ddbc2a-e2c7-4d45-90b5-168d6087369b"))(label "KEY21" (at 47.62 90.16 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "318ed2b4-f871-48ae-a928-2094cd16c93d"))(wire (pts (xy 61.59 80)(xy 57.78 80)) (stroke (width 0)(type default))(uuid "a5071b49-9e80-4f13-92f9-d23eb3ee6e17"))(label "ROW2" (at 57.78 80 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "22d06ee0-92fd-4bc0-bed5-5d2db6a7ae6f"))(symbol (lib_id "Switch:SW_Push") (at 110 80 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "090b89f1-ac55-4144-8ca7-9bcdfc0c91d9")(property "Reference" "SW22" (at 110 75 0) (effects (font (size 1.27 1.27))) )(property "Value" "SW_Push" (at 110 85 0) (effects (font (size 1.27 1.27))) )(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (at 110 80 0) (effects (font (size 1.27 1.27)) (hide yes)) )(pin "1" (uuid "8ca1d1e2-4eda-4b80-9f36-187d0325c27c"))(pin "2" (uuid "80fcd347-7bb3-4032-bec2-704f5df232ae"))(instances (project "matrix" (path "/3e3aba2f-13ea-44e6-a550-3368729b4ec1" (reference "SW22") (unit 1)))))(symbol (lib_id "Device:D") (at 135.4 80 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "b7188c5a-f24a-430f-8362-0b02f6363677")(property "Reference" "D22" (at 135.4 75 0) (effects (font (size 1.27 1.27))) )(property "Value" "1N4148" (at 135.4 85 0) (effects (font (size 1.27 1.27))) )(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 135.4 80 0) (effects (font (size 1.27 1.27)) (hide yes)) )(pin "1" (uuid "eca93891-1711-4904-9fca-077aa70e7b28"))(pin "2" (uuid "f8766344-d6f7-4b48-b7ff-32a6fbf0a045"))(instances (project "matrix" (path "/3e3aba2f-13ea-44e6-a550-3368729b4ec1" (reference "D22") (unit 1)))))(wire (pts (xy 104.92 80)(xy 97.3 80)) (stroke (width 0)(type default))(uuid "bb8f5e22-85b2-461f-b3a5-bd7b33313ac8"))(label "COL2" (at 97.3 80 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "89ae2703-7693-440c-a6a6-2d93d508ed5e"))(wire (pts (xy 115.08 80)(xy 117.62 80)) (stroke (width 0)(type default))(uuid "9897d3b0-1afc-4aff-995e-06afdf276cab"))(wire (pts (xy 117.62 80)(xy 117.62 90.16)) (stroke (width 0)(type default))(uuid "c2a04690-8067-404e-8bc8-8fec63c3fbe7"))(wire (pts (xy 117.62 90.16)(xy 143.02 90.16)) (stroke (width 0)(type default))(uuid "2303cac4-4813-4d37-8fb9-bf01ab8c62fa"))(wire (pts (xy 143.02 90.16)(xy 143.02 80)) (stroke (width 0)(type default))(uuid "11a38253-86bd-4737-a445-a6058df5fd2b"))(wire (pts (xy 143.02 80)(xy 139.21 80)) (stroke (width 0)(type default))(uuid "8d9a29e7-2ada-4866-8736-db6b0107b8c6"))(label "KEY22" (at 117.62 90.16 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "f736f637-1ba4-478c-aa9e-0912694cb61a"))(wire (pts (xy 131.59 80)(xy 127.78 80)) (stroke (width 0)(type default))(uuid "64bfc84c-8eef-4109-9851-bf3e48189d9a"))(label "ROW2" (at 127.78 80 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "e531c064-77ce-4a46-af7d-f183421969fb"))(symbol (lib_id "Switch:SW_Push") (at 180 80 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "ea3d0e61-9bb8-4cd9-aa44-4181de4cb2f9")(property "Reference" "SW23" (at 180 75 0) (effects (font (size 1.27 1.27))) )(property "Value" "SW_Push" (at 180 85 0) (effects (font (size 1.27 1.27))) )(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (at 180 80 0) (effects (font (size 1.27 1.27)) (hide yes)) )(pin "1" (uuid "533fe13e-87c8-4f57-80a5-e707f3614484"))(pin "2" (uuid "4fa47ec9-bedb-43e4-a456-2e60cbb948aa"))(instances (project "matrix" (path "/3e3aba2f-13ea-44e6-a550-3368729b4ec1" (reference "SW23") (unit 1)))))(symbol (lib_id "Device:D") (at 205.4 80 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "94a8c423-cc59-4662-bfbf-dd390217519c")(property "Reference" "D23" (at 205.4 75 0) (effects (font (size 1.27 1.27))) )(property "Value" "1N4148" (at 205.4 85 0) (effects (font (size 1.27 1.27))) )(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 205.4 80 0) (effects (font (size 1.27 1.27)) (hide yes)) )(pin "1" (uuid "faf1a095-bdcf-4be4-a935-b1f22e9e3667"))(pin "2" (uuid "9c073c9d-804f-43a6-a578-a847d1f07aa4"))(instances (project "matrix" (path "/3e3aba2f-13ea-44e6-a550-3368729b4ec1" (reference "D23") (unit 1)))))(wire (pts (xy 174.92 80)(xy 167.3 80)) (stroke (width 0)(type default))(uuid "1fb2450b-1fa0-47ba-aaa5-f1f32020b395"))(label "COL3" (at 167.3 80 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "f29ec012-eb18-4a17-9484-2067d96b0d24"))(wire (pts (xy 185.08 80)(xy 187.62 80)) (stroke (width 0)(type default))(uuid "908d50bc-8e86-452f-81ae-bae8a2b83777"))(wire (pts (xy 187.62 80)(xy 187.62 90.16)) (stroke (width 0)(type default))(uuid "bf56219a-7351-4dff-911b-76ce65201f16"))(wire (pts (xy 187.62 90.16)(xy 213.02 90.16)) (stroke (width 0)(type default))(uuid "db0b4181-0381-41e1-bbcd-e717d016223f"))(wire (pts (xy 213.02 90.16)(xy 213.02 80)) (stroke (width 0)(type default))(uuid "0ba0bcf4-d8ad-4ec4-bd74-0ace2191cdbb"))(wire (pts (xy 213.02 80)(xy 209.21 80)) (stroke (width 0)(type default))(uuid "6fdc874f-347d-42fb-a5b6-5c2d87046811"))(label "KEY23" (at 187.62 90.16 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "14913ed5-1680-4b61-82b8-372de8812f5a"))(wire (pts (xy 201.59 80)(xy 197.78 80)) (stroke (width 0)(type default))(uuid "9871371c-ee97-4c89-a919-120fc3f55a89"))(label "ROW2" (at 197.78 80 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "270c2187-adba-4000-af71-925e29bcc2b0"))(symbol (lib_id "Switch:SW_Push") (at 40 120 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "1453916a-e93c-435b-a665-ba51305e5b79")(property "Reference" "SW31" (at 40 115 0) (effects (font (size 1.27 1.27))) )(property "Value" "SW_Push" (at 40 125 0) (effects (font (size 1.27 1.27))) )(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (at 40 120 0) (effects (font (size 1.27 1.27)) (hide yes)) )(pin "1" (uuid "eb5d86ba-ae65-4782-abe1-531d08656fac"))(pin "2" (uuid "0b835c3c-dd19-44f9-a6f4-f659129df917"))(instances (project "matrix" (path "/3e3aba2f-13ea-44e6-a550-3368729b4ec1" (reference "SW31") (unit 1)))))(symbol (lib_id "Device:D") (at 65.4 120 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "ab0475d6-faf8-47c3-b3f3-6ca9cffa5b9a")(property "Reference" "D31" (at 65.4 115 0) (effects (font (size 1.27 1.27))) )(property "Value" "1N4148" (at 65.4 125 0) (effects (font (size 1.27 1.27))) )(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 65.4 120 0) (effects (font (size 1.27 1.27)) (hide yes)) )(pin "1" (uuid "047e39dd-c13c-4005-84aa-0b3f640eee27"))(pin "2" (uuid "373b7a7b-84ab-44b8-b96a-4f209d808e44"))(instances (project "matrix" (path "/3e3aba2f-13ea-44e6-a550-3368729b4ec1" (reference "D31") (unit 1)))))(wire (pts (xy 34.92 120)(xy 27.3 120)) (stroke (width 0)(type default))(uuid "f1852255-227e-43a2-a646-0bac35c141b4"))(label "COL1" (at 27.3 120 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "2afe1c80-9e82-444e-858e-bdcf317e436b"))(wire (pts (xy 45.08 120)(xy 47.62 120)) (stroke (width 0)(type default))(uuid "7f4b23ca-8198-499b-8f5a-7d60dbba3705"))(wire (pts (xy 47.62 120)(xy 47.62 130.16)) (stroke (width 0)(type default))(uuid "3db18ebc-918b-4525-85cb-07b48d7c407d"))(wire (pts (xy 47.62 130.16)(xy 73.02000000000001 130.16)) (stroke (width 0)(type default))(uuid "e394a3a7-e2af-4ece-b024-2e08dcb7fca3"))(wire (pts (xy 73.02000000000001 130.16)(xy 73.02000000000001 120)) (stroke (width 0)(type default))(uuid "d605159e-812e-4530-9b29-618629cb993f"))(wire (pts (xy 73.02000000000001 120)(xy 69.21000000000001 120)) (stroke (width 0)(type default))(uuid "007d4962-19a5-4bdb-9281-7c8ea11498f0"))(label "KEY31" (at 47.62 130.16 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "a8c62d64-c3b0-40fc-ba22-0f0cbb71f9de"))(wire (pts (xy 61.59 120)(xy 57.78 120)) (stroke (width 0)(type default))(uuid "c1ebaa27-1ce5-4f4d-b966-7a99f836f7bb"))(label "ROW3" (at 57.78 120 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "44009da7-75e1-48d0-a8cb-a8bbd30cd714"))(symbol (lib_id "Switch:SW_Push") (at 110 120 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "018765c3-7169-42bd-b2e5-f587a673f7f1")(property "Reference" "SW32" (at 110 115 0) (effects (font (size 1.27 1.27))) )(property "Value" "SW_Push" (at 110 125 0) (effects (font (size 1.27 1.27))) )(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (at 110 120 0) (effects (font (size 1.27 1.27)) (hide yes)) )(pin "1" (uuid "9b350046-adc7-41fc-bbab-095beb63c651"))(pin "2" (uuid "d80373f8-aaa9-42d3-979c-9133e6082196"))(instances (project "matrix" (path "/3e3aba2f-13ea-44e6-a550-3368729b4ec1" (reference "SW32") (unit 1)))))(symbol (lib_id "Device:D") (at 135.4 120 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "3cd83170-1b83-4ce9-8764-5ae7550166b6")(property "Reference" "D32" (at 135.4 115 0) (effects (font (size 1.27 1.27))) )(property "Value" "1N4148" (at 135.4 125 0) (effects (font (size 1.27 1.27))) )(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 135.4 120 0) (effects (font (size 1.27 1.27)) (hide yes)) )(pin "1" (uuid "ac71d570-7ab5-4c68-b021-d5dffc03362c"))(pin "2" (uuid "a4d5f0f4-d090-4d14-b594-b9d00736bc94"))(instances (project "matrix" (path "/3e3aba2f-13ea-44e6-a550-3368729b4ec1" (reference "D32") (unit 1)))))(wire (pts (xy 104.92 120)(xy 97.3 120)) (stroke (width 0)(type default))(uuid "0304e504-0191-446c-acdd-7ba347d4c059"))(label "COL2" (at 97.3 120 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "500a6756-d792-4975-84d7-d83ef475b434"))(wire (pts (xy 115.08 120)(xy 117.62 120)) (stroke (width 0)(type default))(uuid "68bd2607-ff26-4d37-93f8-dc638d0537fd"))(wire (pts (xy 117.62 120)(xy 117.62 130.16)) (stroke (width 0)(type default))(uuid "9236020e-894a-4d09-b8a1-ddcf16493f62"))(wire (pts (xy 117.62 130.16)(xy 143.02 130.16)) (stroke (width 0)(type default))(uuid "445b9969-c077-49fa-8940-bfee2a850959"))(wire (pts (xy 143.02 130.16)(xy 143.02 120)) (stroke (width 0)(type default))(uuid "12dcd2d3-6291-42b3-9c22-f03ce5f64187"))(wire (pts (xy 143.02 120)(xy 139.21 120)) (stroke (width 0)(type default))(uuid "67b57329-d7ff-462c-b07f-507bdd16567f"))(label "KEY32" (at 117.62 130.16 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "a317b44f-f909-4876-a54d-66267f51751d"))(wire (pts (xy 131.59 120)(xy 127.78 120)) (stroke (width 0)(type default))(uuid "93f07aec-1142-4dfe-bf6b-bcbe3c15e79c"))(label "ROW3" (at 127.78 120 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "6dd518c8-4710-4a05-9377-7304290ce1e4"))(symbol (lib_id "Switch:SW_Push") (at 180 120 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "381957b1-8a62-4c39-b00a-0eb2665ad27e")(property "Reference" "SW33" (at 180 115 0) (effects (font (size 1.27 1.27))) )(property "Value" "SW_Push" (at 180 125 0) (effects (font (size 1.27 1.27))) )(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (at 180 120 0) (effects (font (size 1.27 1.27)) (hide yes)) )(pin "1" (uuid "212fe0ab-b6cd-4c67-bb2a-a1795d3662c8"))(pin "2" (uuid "d984980a-9970-417e-be35-b7db26b6ae31"))(instances (project "matrix" (path "/3e3aba2f-13ea-44e6-a550-3368729b4ec1" (reference "SW33") (unit 1)))))(symbol (lib_id "Device:D") (at 205.4 120 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "5750269f-4c1c-440d-9681-34dbf24acf17")(property "Reference" "D33" (at 205.4 115 0) (effects (font (size 1.27 1.27))) )(property "Value" "1N4148" (at 205.4 125 0) (effects (font (size 1.27 1.27))) )(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 205.4 120 0) (effects (font (size 1.27 1.27)) (hide yes)) )(pin "1" (uuid "ecfc190f-be3d-45ab-b660-c58bb354425a"))(pin "2" (uuid "eafcdbe6-e287-4688-b2fc-b6b80665777b"))(instances (project "matrix" (path "/3e3aba2f-13ea-44e6-a550-3368729b4ec1" (reference "D33") (unit 1)))))(wire (pts (xy 174.92 120)(xy 167.3 120)) (stroke (width 0)(type default))(uuid "d042374b-0309-4b37-a7ff-4376cf4ac4eb"))(label "COL3" (at 167.3 120 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "59c7b6ac-687a-4ff5-b899-e48b1462c0ba"))(wire (pts (xy 185.08 120)(xy 187.62 120)) (stroke (width 0)(type default))(uuid "1586b110-75a7-44f4-aee0-37c19068e359"))(wire (pts (xy 187.62 120)(xy 187.62 130.16)) (stroke (width 0)(type default))(uuid "129d1afa-27b1-4140-947a-f7fdec5dcd64"))(wire (pts (xy 187.62 130.16)(xy 213.02 130.16)) (stroke (width 0)(type default))(uuid "26135961-b323-4635-9fab-45afc122f023"))(wire (pts (xy 213.02 130.16)(xy 213.02 120)) (stroke (width 0)(type default))(uuid "a6c558a2-7ae5-441f-be15-b584d4185422"))(wire (pts (xy 213.02 120)(xy 209.21 120)) (stroke (width 0)(type default))(uuid "c2fd4dad-5b64-45da-83ae-2795b63372d0"))(label "KEY33" (at 187.62 130.16 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "f56f7662-a3bf-4578-8cd7-9cb79a05ec45"))(wire (pts (xy 201.59 120)(xy 197.78 120)) (stroke (width 0)(type default))(uuid "d7efaea9-0ddd-453c-982d-51dc1cb11f7d"))(label "ROW3" (at 197.78 120 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "232716c5-93c6-4d9a-95bd-c4b9244e0b3b"))(symbol (lib_id "Connector_Generic:Conn_01x06") (at 50 165 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "39529565-f413-4dc6-b39c-1fd2a5352d59")(property "Reference" "J1" (at 50 160 0) (effects (font (size 1.27 1.27))) )(property "Value" "MATRIX" (at 50 170 0) (effects (font (size 1.27 1.27))) )(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" (at 50 165 0) (effects (font (size 1.27 1.27)) (hide yes)) )(pin "1" (uuid "4501d039-2d43-4658-b82d-21c6d6cb9037"))(pin "2" (uuid "f5971c20-f43c-4aae-ab2e-bff4de372e1c"))(pin "3" (uuid "7ab15a5e-1bd1-480c-a9fc-7d62b54471f0"))(pin "4" (uuid "57a0bbbc-438d-437d-95f8-b3cdfbb3454f"))(pin "5" (uuid "25ee11a5-7f06-443e-b0c0-1a14b43a811c"))(pin "6" (uuid "8520dbef-f109-4aaf-9004-5a4962743389"))(instances (project "matrix" (path "/3e3aba2f-13ea-44e6-a550-3368729b4ec1" (reference "J1") (unit 1)))))(wire (pts (xy 44.92 159.92)(xy 30 159.92)) (stroke (width 0)(type default))(uuid "4e00e30d-22d4-41ff-a2e6-cb4d6d5b9eae"))(label "ROW1" (at 30 159.92 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "a07b61cd-44d4-4379-8dd5-1952b000af64"))(wire (pts (xy 44.92 162.45999999999998)(xy 30 162.45999999999998)) (stroke (width 0)(type default))(uuid "8d92fde8-4d4f-4d53-9bb7-60df05340325"))(label "ROW2" (at 30 162.45999999999998 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "6cae36cc-9529-4ea9-adb3-94d35f862cc1"))(wire (pts (xy 44.92 165.0)(xy 30 165.0)) (stroke (width 0)(type default))(uuid "633807c6-1542-4aba-a381-f46367e0691e"))(label "ROW3" (at 30 165.0 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "41588381-911c-4192-8b39-21bad04a758d"))(wire (pts (xy 44.92 167.54)(xy 30 167.54)) (stroke (width 0)(type default))(uuid "cd27f532-6d78-47b4-8f0b-a79d63c68c15"))(label "COL1" (at 30 167.54 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "b67da3dd-4817-4f52-8e9e-c9d2d62cba8f"))(wire (pts (xy 44.92 170.07999999999998)(xy 30 170.07999999999998)) (stroke (width 0)(type default))(uuid "bceaa7ba-2979-49b6-bd32-65a0769b60c4"))(label "COL2" (at 30 170.07999999999998 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "26d86f92-c2c6-40e5-9122-56d8cc831d22"))(wire (pts (xy 44.92 172.61999999999998)(xy 30 172.61999999999998)) (stroke (width 0)(type default))(uuid "b20c1e14-1939-4e61-aa2f-f0347ef38f7b"))(label "COL3" (at 30 172.61999999999998 0) (effects (font(size 1.27 1.27))(justify left bottom))(uuid "c037fd0c-4fd9-45cc-b1c7-9ad0f25d3ca3"))(sheet_instances(path "/"(page "1"))))

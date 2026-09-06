@@ -1,0 +1,4 @@
+$ tsci check shorts dist/index.circuit.json
+ENOENT: no such file or directory, open '/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-01/dist/index.circuit.json'
+
+EXIT_CODE=1

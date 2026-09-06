@@ -1,0 +1,7 @@
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="R1" positionAnchor="center" schX="0" schY="1" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C1" positionAnchor="center" schX="2.5" schY="-1" width="0.9" height="0.6" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_1" targetComponentName="R1" deltaSchX="0" deltaSchY="-2.58" newSchX="0" newSchY="-1.58" currentTurnCount="3" suggestedTurnCount="1" message="move R1 down by 2.58 (to schX=0, schY=-1.58) to reduce this trace from 3 turns to 1" />
+</SchematicPlacementIssues>

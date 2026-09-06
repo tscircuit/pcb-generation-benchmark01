@@ -1,0 +1,5 @@
+(sym_lib_table
+(lib (name "Device")(type "KiCad")(uri "/Users/ankan/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols/Device.kicad_sym")(options "")(descr ""))
+(lib (name "Switch")(type "KiCad")(uri "/Users/ankan/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols/Switch.kicad_sym")(options "")(descr ""))
+(lib (name "Connector_Generic")(type "KiCad")(uri "/Users/ankan/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols/Connector_Generic.kicad_sym")(options "")(descr ""))
+)

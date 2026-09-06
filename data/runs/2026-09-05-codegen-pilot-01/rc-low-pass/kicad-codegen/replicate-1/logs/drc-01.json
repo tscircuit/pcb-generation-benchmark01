@@ -1,0 +1,157 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-05T23:05:41",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [
+        {
+            "description": "Pad net (SIGNAL_OUT) doesn't match net given by schematic (/SIGNAL_OUT)",
+            "items": [
+                {
+                    "description": "Pad 1 [SIGNAL_OUT] of C1 on F.Cu",
+                    "pos": {
+                        "x": 77.05,
+                        "y": 61.27
+                    },
+                    "uuid": "598a049f-563c-4c46-84fb-8514e88fac53"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (GND) doesn't match net given by schematic (/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of C1 on F.Cu",
+                    "pos": {
+                        "x": 78.95,
+                        "y": 61.27
+                    },
+                    "uuid": "19494b3b-571c-4452-bb4e-db2af2db63d0"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (SIGNAL_IN) doesn't match net given by schematic (/SIGNAL_IN)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [SIGNAL_IN] of J1",
+                    "pos": {
+                        "x": 53.0,
+                        "y": 60.0
+                    },
+                    "uuid": "81846932-4581-471a-96d7-abca1d92e600"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (GND) doesn't match net given by schematic (/GND)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [GND] of J1",
+                    "pos": {
+                        "x": 53.0,
+                        "y": 62.54
+                    },
+                    "uuid": "34a93ebe-7b58-41ae-b679-f70d29fb3f9a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (SIGNAL_OUT) doesn't match net given by schematic (/SIGNAL_OUT)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [SIGNAL_OUT] of J2",
+                    "pos": {
+                        "x": 82.0,
+                        "y": 60.0
+                    },
+                    "uuid": "0ef736ea-a0dd-44cf-92a6-af3df0a36175"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (GND) doesn't match net given by schematic (/GND)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [GND] of J2",
+                    "pos": {
+                        "x": 82.0,
+                        "y": 62.54
+                    },
+                    "uuid": "e1e6b49a-86f0-4385-a978-70f7a9c11394"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (SIGNAL_IN) doesn't match net given by schematic (/SIGNAL_IN)",
+            "items": [
+                {
+                    "description": "Pad 1 [SIGNAL_IN] of R1 on F.Cu",
+                    "pos": {
+                        "x": 66.0875,
+                        "y": 60.0
+                    },
+                    "uuid": "cc6b4c4a-c1cd-44dc-8bb4-9330f5599bd2"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (SIGNAL_OUT) doesn't match net given by schematic (/SIGNAL_OUT)",
+            "items": [
+                {
+                    "description": "Pad 2 [SIGNAL_OUT] of R1 on F.Cu",
+                    "pos": {
+                        "x": 67.9125,
+                        "y": 60.0
+                    },
+                    "uuid": "26206b3d-f40a-436c-b672-27a253802c6d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        }
+    ],
+    "source": "rc-filter.kicad_pcb",
+    "unconnected_items": [],
+    "violations": []
+}

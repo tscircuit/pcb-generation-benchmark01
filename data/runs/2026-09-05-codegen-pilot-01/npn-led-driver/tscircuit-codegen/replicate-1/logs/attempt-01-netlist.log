@@ -1,0 +1,2 @@
+COMMAND: ['tsci', 'check', 'netlist', 'index.circuit.tsx']
+BuildMessage: Expected "}" but found "pcbX"

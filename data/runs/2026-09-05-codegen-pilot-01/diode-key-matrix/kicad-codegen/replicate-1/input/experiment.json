@@ -1,0 +1,183 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "2026-09-05-codegen-pilot-01",
+  "status": "frozen",
+  "dataset_version": "0.0.0",
+  "prompt_catalog": "prompts/catalog.json",
+  "prompt_revisions": [
+    {
+      "prompt_id": "led-indicator",
+      "revision": 1,
+      "sha256": "ac819606ce733f29806a8bc142714050d32099f1bef99a8d611b0e0581442f5b"
+    },
+    {
+      "prompt_id": "voltage-divider",
+      "revision": 1,
+      "sha256": "9bf89efc737280478cc01e57d670eb4caa16ad81b4e140e03bc68d6adcab33a5"
+    },
+    {
+      "prompt_id": "rc-low-pass",
+      "revision": 1,
+      "sha256": "eda1af0a7aa0fba25e862b7795c61a6137ad61d76285ec39f641765016bb6541"
+    },
+    {
+      "prompt_id": "button-input-bank",
+      "revision": 1,
+      "sha256": "41d352cc9a6280e14727ad0186f65a05ced344cb4a848c5689204b0beea64e47"
+    },
+    {
+      "prompt_id": "npn-led-driver",
+      "revision": 1,
+      "sha256": "0bef478d2b6e9752e4230aab7eecf8bd3bab485b1a1927d697114e1e22542bf6"
+    },
+    {
+      "prompt_id": "i2c-pullup-hub",
+      "revision": 1,
+      "sha256": "63731fd6945270a8a0584ce606aacb4b084064584774f34cc24007635c1b5810"
+    },
+    {
+      "prompt_id": "stereo-passive-attenuator",
+      "revision": 1,
+      "sha256": "2af5de18a6c2a7bf188a0b22ee6714466cbfa080c2f6a28bdd81a3579968fb4a"
+    },
+    {
+      "prompt_id": "mosfet-output-bank",
+      "revision": 1,
+      "sha256": "46049eb02f86cb9da99159dcdd96c5eb5dd7bdba53dc4b53cb60572b4ecfdf4e"
+    },
+    {
+      "prompt_id": "diode-key-matrix",
+      "revision": 1,
+      "sha256": "8d97a8456932f786386bc04b8f672eb1a0dd9759deed87a475b0328ec07adc15"
+    },
+    {
+      "prompt_id": "analog-input-bank",
+      "revision": 1,
+      "sha256": "441ad72121511dea1787995ae6086eabd660a0a235f60ea4d0cf70d11adac869"
+    }
+  ],
+  "methods": [
+    "tscircuit-codegen",
+    "kicad-codegen"
+  ],
+  "model": {
+    "provider": null,
+    "name": null,
+    "reasoning_effort": null,
+    "sampling": {}
+  },
+  "replicates": 1,
+  "budget": {
+    "wall_time_seconds": 900,
+    "max_tokens": null,
+    "max_tool_calls": null
+  },
+  "repair_policy": {
+    "maximum_repairs": 2,
+    "preserve_every_candidate": true,
+    "budget_includes_repairs": true
+  },
+  "network_policy": "Documentation and package retrieval permitted; no evaluator references or other run outputs.",
+  "tool_versions": {
+    "tsci": "0.0.2462",
+    "kicad-cli": "10.0.6",
+    "bun": "1.3.14",
+    "python": "3.9.6"
+  },
+  "library_versions": {},
+  "execution_order_seed": 42,
+  "evaluation_protocol_revision": "pilot-wrapper-v1",
+  "protocol_deviations": [
+    "User explicitly excluded kicad-computer-use: this is a two-method pilot, not the full three-method benchmark.",
+    "Model identifier/settings and token accounting are unavailable through subagent tooling; left null. This is an exploratory artifact-generation pilot, not a controlled model comparison."
+  ],
+  "excluded_methods": [
+    {
+      "method": "kicad-computer-use",
+      "reason": "Explicit user instruction to skip computer use."
+    }
+  ],
+  "repository_commit": "a9d1e4f7624451818322ebec60f5e12dd4b3f9a6",
+  "execution_order": [
+    {
+      "prompt_id": "analog-input-bank",
+      "method": "kicad-codegen"
+    },
+    {
+      "prompt_id": "rc-low-pass",
+      "method": "kicad-codegen"
+    },
+    {
+      "prompt_id": "mosfet-output-bank",
+      "method": "tscircuit-codegen"
+    },
+    {
+      "prompt_id": "rc-low-pass",
+      "method": "tscircuit-codegen"
+    },
+    {
+      "prompt_id": "npn-led-driver",
+      "method": "kicad-codegen"
+    },
+    {
+      "prompt_id": "stereo-passive-attenuator",
+      "method": "kicad-codegen"
+    },
+    {
+      "prompt_id": "mosfet-output-bank",
+      "method": "kicad-codegen"
+    },
+    {
+      "prompt_id": "analog-input-bank",
+      "method": "tscircuit-codegen"
+    },
+    {
+      "prompt_id": "button-input-bank",
+      "method": "tscircuit-codegen"
+    },
+    {
+      "prompt_id": "stereo-passive-attenuator",
+      "method": "tscircuit-codegen"
+    },
+    {
+      "prompt_id": "diode-key-matrix",
+      "method": "kicad-codegen"
+    },
+    {
+      "prompt_id": "i2c-pullup-hub",
+      "method": "tscircuit-codegen"
+    },
+    {
+      "prompt_id": "led-indicator",
+      "method": "kicad-codegen"
+    },
+    {
+      "prompt_id": "i2c-pullup-hub",
+      "method": "kicad-codegen"
+    },
+    {
+      "prompt_id": "voltage-divider",
+      "method": "tscircuit-codegen"
+    },
+    {
+      "prompt_id": "diode-key-matrix",
+      "method": "tscircuit-codegen"
+    },
+    {
+      "prompt_id": "button-input-bank",
+      "method": "kicad-codegen"
+    },
+    {
+      "prompt_id": "npn-led-driver",
+      "method": "tscircuit-codegen"
+    },
+    {
+      "prompt_id": "led-indicator",
+      "method": "tscircuit-codegen"
+    },
+    {
+      "prompt_id": "voltage-divider",
+      "method": "kicad-codegen"
+    }
+  ]
+}

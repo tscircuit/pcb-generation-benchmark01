@@ -1,0 +1,45 @@
+** Drc report for indicator.kicad_pcb **
+** Created on 2026-09-05T23:29:04 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 3 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the footprint library 'LED_SMD'
+    Local override; warning
+    @(127.0000 mm, 108.7300 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(103.0000 mm, 108.7300 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Resistor_SMD'
+    Local override; warning
+    @(115.0000 mm, 108.7300 mm): Footprint R1
+
+** Found 0 unconnected pads **
+
+** Found 6 Footprint errors **
+[net_conflict]: Pad net (GND) doesn't match net given by schematic (/GND)
+    Local override; warning
+    @(127.9375 mm, 108.7300 mm): Pad 1 [GND] of D1 on F.Cu
+[net_conflict]: Pad net (LED_A) doesn't match net given by schematic (/LED_A)
+    Local override; warning
+    @(126.0625 mm, 108.7300 mm): Pad 2 [LED_A] of D1 on F.Cu
+[net_conflict]: Pad net (+5V) doesn't match net given by schematic (/+5V)
+    Local override; warning
+    @(103.0000 mm, 108.7300 mm): PTH pad 1 [+5V] of J1
+[net_conflict]: Pad net (GND) doesn't match net given by schematic (/GND)
+    Local override; warning
+    @(103.0000 mm, 111.2700 mm): PTH pad 2 [GND] of J1
+[net_conflict]: Pad net (+5V) doesn't match net given by schematic (/+5V)
+    Local override; warning
+    @(114.0875 mm, 108.7300 mm): Pad 1 [+5V] of R1 on F.Cu
+[net_conflict]: Pad net (LED_A) doesn't match net given by schematic (/LED_A)
+    Local override; warning
+    @(115.9125 mm, 108.7300 mm): Pad 2 [LED_A] of R1 on F.Cu
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

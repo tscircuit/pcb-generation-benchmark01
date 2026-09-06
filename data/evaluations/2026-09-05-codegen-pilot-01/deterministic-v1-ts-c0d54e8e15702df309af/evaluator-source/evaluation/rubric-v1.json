@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "mode": "deterministic-artifact-evaluation",
+  "weights": {"functional_requirements": 30, "connectivity": 30, "physical_constraints": 20, "deliverable_integrity": 20},
+  "category_scale": {"0": "No tests pass", "1": "Some tests pass and some fail", "2": "All tests pass"},
+  "unknown_policy": "Any unknown or unsupported applicable test makes its category and strict total null. Bounds describe possible totals, not awarded scores.",
+  "critical_policy": "A known critical failure makes overall_pass false even when other evidence is unknown. Otherwise all applicable tests must pass for overall_pass true.",
+  "arithmetic": "100 * sum(weight * category_score / 2) / sum(applicable weights), using exact rational arithmetic before JSON serialization",
+  "atomic_rule_policy": "Split mixed prompt requirements into atomic tests, each assigned exactly one category. Retain source criterion IDs and require coverage of every original criterion.",
+  "pilot_policy": "Rules authored after the pilot are retrospective. They do not make the original generation experiment preregistered or controlled.",
+  "evidence_policy": "Read frozen native/compiled design artifacts. Never trust generator result.json validation claims as evidence of correctness. Missing or unsupported information stays unknown. No generation scripts are executed.",
+  "reproducibility": "Identical artifact bytes, rule bytes, and evaluator code produce identical evaluation JSON. Evaluations have content-derived IDs and cannot overwrite different historical results."
+}

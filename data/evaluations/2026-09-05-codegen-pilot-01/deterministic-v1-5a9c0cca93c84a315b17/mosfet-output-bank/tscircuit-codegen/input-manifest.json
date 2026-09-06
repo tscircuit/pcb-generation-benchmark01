@@ -1,0 +1,150 @@
+[
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/README.md",
+    "sha256": "8067106efaec8863994afbf6b5c513bb1223f12c22e31bce57a4415548388513"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/___sot23__-5212a3440343ae32dbf2d66a00260668.json",
+    "sha256": "780ffb951d593bade84f22de53abf0087c2654710c8d7987b39ff7dda5c9f0b3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/___sot23__-5e7d6eb1712871a9d22490c5c0bf0104.json",
+    "sha256": "780ffb951d593bade84f22de53abf0087c2654710c8d7987b39ff7dda5c9f0b3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/___sot23__-c19bbce5b4cab903935706264a318eb2.json",
+    "sha256": "780ffb951d593bade84f22de53abf0087c2654710c8d7987b39ff7dda5c9f0b3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/___sot23__-f82140ae0f1afed4100e709e43fa4e6f.json",
+    "sha256": "780ffb951d593bade84f22de53abf0087c2654710c8d7987b39ff7dda5c9f0b3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/__sod123__-277a066d1311e8309b8416d46ec732ad.json",
+    "sha256": "780ffb951d593bade84f22de53abf0087c2654710c8d7987b39ff7dda5c9f0b3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/__sod123__-30492e1249b67c28a6a68e3108230343.json",
+    "sha256": "780ffb951d593bade84f22de53abf0087c2654710c8d7987b39ff7dda5c9f0b3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/__sod123__-8f42658276633168034c391b96d220fb.json",
+    "sha256": "780ffb951d593bade84f22de53abf0087c2654710c8d7987b39ff7dda5c9f0b3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/__sod123__-a63277b8b3ee64f9263f0f7d99f33652.json",
+    "sha256": "780ffb951d593bade84f22de53abf0087c2654710c8d7987b39ff7dda5c9f0b3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/_p2_54mm__-1b984e2bef3799a92ce18569617695bc.json",
+    "sha256": "cc9d883ba0864d6a85d9099d9b9752ca095d862fd6aaede16f161da747392d51"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/_p2_54mm__-2938a6042137d4ae176f89098475dbc2.json",
+    "sha256": "cc9d883ba0864d6a85d9099d9b9752ca095d862fd6aaede16f161da747392d51"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/_p2_54mm__-3932f600b1a777812ae68876919e9c08.json",
+    "sha256": "cc9d883ba0864d6a85d9099d9b9752ca095d862fd6aaede16f161da747392d51"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/_p2_54mm__-47faf8f9bd95a3beb7fb18f5cc9b2bc8.json",
+    "sha256": "108a60f0e25e5b77342bef7eb9edc36610de84f264b99056f465fc7986ccba88"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/_p2_54mm__-8a2ec52321dd8e2f9ee4242431854ec6.json",
+    "sha256": "cc9d883ba0864d6a85d9099d9b9752ca095d862fd6aaede16f161da747392d51"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/_p2_54mm__-bac2943c4299df0a3fa16b29c4a40b2d.json",
+    "sha256": "cc9d883ba0864d6a85d9099d9b9752ca095d862fd6aaede16f161da747392d51"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/ffe3b90365-edd9142d230618855af142ae3954ddba.json",
+    "sha256": "bc7994581e6afc081d6a64a508a37904faa8d6d29d4cf9fb721fba5f56f3d831"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-14dbab3daa696c3799231f83c3533fff.json",
+    "sha256": "1624a27453c47827367b7cb0647da8af23203ac8970e276bdefe4a45491dde2f"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-1741ba7c32835acb3334753165565519.json",
+    "sha256": "c752e8a994d1009e946024c35cca627b43eeb7032f5ab8b589ff22b8ddf40851"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-27a59f81d8c60374e654b386339cfe23.json",
+    "sha256": "c752e8a994d1009e946024c35cca627b43eeb7032f5ab8b589ff22b8ddf40851"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-449e20854ae5a6bd2728bbe0660d4352.json",
+    "sha256": "1624a27453c47827367b7cb0647da8af23203ac8970e276bdefe4a45491dde2f"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-4cb2c94ac2ae06a87d6ab6c9ada63def.json",
+    "sha256": "1624a27453c47827367b7cb0647da8af23203ac8970e276bdefe4a45491dde2f"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-5d9a9aed274f8686c7cb7027f4dc6eec.json",
+    "sha256": "c752e8a994d1009e946024c35cca627b43eeb7032f5ab8b589ff22b8ddf40851"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-7e9b043a1765415211070137734d1fa5.json",
+    "sha256": "ea8f3346c08d1a77fc91d33ef10942ff46dcfacb5f01dcb73a26893599a8df28"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-9f603b87a601b12dc88e706884a0f5dd.json",
+    "sha256": "c752e8a994d1009e946024c35cca627b43eeb7032f5ab8b589ff22b8ddf40851"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-bc54dedd8da2c2029fd5f1c1b235b4f6.json",
+    "sha256": "1624a27453c47827367b7cb0647da8af23203ac8970e276bdefe4a45491dde2f"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-f42b00ec23fc22eb47b53b7aad96d123.json",
+    "sha256": "19df87db3d820e80ae18782eeb28785c83b2293a9ead02c00c0cc602bf1c2c16"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/circuit.json",
+    "sha256": "6e80d1c78fe1afe7073b2cedd1847ac5d269d234b1d880f66d6eab3ca4ce367f"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/pcb.png",
+    "sha256": "d786cd36bde8021f147b376c5a5b918952d943ee6b494b91c5f90bc62b8e6e72"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/pcb.svg",
+    "sha256": "273ca850812a2217d78f21db8defde98cf5fc70bf2d533486f98aba84d7bd877"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/schematic.svg",
+    "sha256": "4932b7ff9809f3d0767b872694f1d335d36df166619e081d4c9c57f4a2c7c36f"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/index.circuit.tsx",
+    "sha256": "02d1fea6f13af63f00a7712ffa49c249f465b2f368e65db594491102c750b613"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/inspection.json",
+    "sha256": "ad371d86d753103bf4db347a687aa36e056df5129891d867cc2aa1cea3faaa51"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/package.json",
+    "sha256": "38ab1f7ddcc9b164e158e87d4b7feb81d8ca5a57a2eb7389b4674d51b8310d7e"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/input/metadata.json",
+    "sha256": "0bca7d34efa2d16f9975b68db439e61f1fbde5b04d93938783dfef9805f334f9"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/input/prompt.md",
+    "sha256": "46049eb02f86cb9da99159dcdd96c5eb5dd7bdba53dc4b53cb60572b4ecfdf4e"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/result.json",
+    "sha256": "bee6c6ab59708d2fada4a71c6d93550b308d4e39821fe896c6882c8b9f64ccec"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/run.json",
+    "sha256": "7495be1cef31454c3e409a2344eb67f04b5d5a5da04cb5a225060727ee70d443"
+  }
+]

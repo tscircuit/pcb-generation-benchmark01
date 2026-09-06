@@ -1,0 +1,138 @@
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. See https://react.dev/link/warning-keys for more information.
+Errors: 0
+Warnings: 0
+
+Readable Netlist:
+COMPONENTS:
+ - J1: J1, source_component
+ - R1: 10kΩ resistor
+ - C1: 100nF capacitor
+ - SW1: SW1, source_component
+ - R2: 10kΩ resistor
+ - C2: 100nF capacitor
+ - SW2: SW2, source_component
+ - R3: 10kΩ resistor
+ - C3: 100nF capacitor
+ - SW3: SW3, source_component
+ - R4: 10kΩ resistor
+ - C4: 100nF capacitor
+ - SW4: SW4, source_component
+
+NET: BTN1
+  - SW1 pin1
+  - SW1 pin2
+  - C1 pin1 (+)
+  - R1 pin2
+  - J1 BTN1
+
+NET: BTN2
+  - SW2 pin1
+  - SW2 pin2
+  - C2 pin1 (+)
+  - R2 pin2
+  - J1 BTN2
+
+NET: BTN3
+  - SW3 pin1
+  - SW3 pin2
+  - C3 pin1 (+)
+  - R3 pin2
+  - J1 BTN3
+
+NET: V3V3
+  - R4 pin1
+  - R3 pin1
+  - R2 pin1
+  - R1 pin1
+  - J1 V3V3
+
+NET: BTN4
+  - SW4 pin1
+  - SW4 pin2
+  - C4 pin1 (+)
+  - R4 pin2
+  - J1 BTN4
+
+NET: GND
+  - SW4 pin3
+  - SW4 pin4
+  - C4 pin2 (-)
+  - SW3 pin3
+  - SW3 pin4
+  - C3 pin2 (-)
+  - SW2 pin3
+  - SW2 pin4
+  - C2 pin2 (-)
+  - SW1 pin3
+  - SW1 pin4
+  - C1 pin2 (-)
+  - J1 GND
+
+
+COMPONENT_PINS:
+J1
+- pin1(V3V3): NETS(V3V3)
+- pin2(GND): NETS(GND)
+- pin3(BTN1): NETS(BTN1)
+- pin4(BTN2): NETS(BTN2)
+- pin5(BTN3): NETS(BTN3)
+- pin6(BTN4): NETS(BTN4)
+
+R1 (10kΩ undefined)
+- pin1(anode, pos, left): NETS(V3V3)
+- pin2(cathode, neg, right): NETS(BTN1)
+
+C1 (100nF undefined)
+- pin1(anode, pos, left): NETS(BTN1)
+- pin2(cathode, neg, right): NETS(GND)
+
+SW1
+- pin1: NETS(BTN1)
+- pin2: NETS(BTN1)
+- pin3: NETS(GND)
+- pin4: NETS(GND)
+
+R2 (10kΩ undefined)
+- pin1(anode, pos, left): NETS(V3V3)
+- pin2(cathode, neg, right): NETS(BTN2)
+
+C2 (100nF undefined)
+- pin1(anode, pos, left): NETS(BTN2)
+- pin2(cathode, neg, right): NETS(GND)
+
+SW2
+- pin1: NETS(BTN2)
+- pin2: NETS(BTN2)
+- pin3: NETS(GND)
+- pin4: NETS(GND)
+
+R3 (10kΩ undefined)
+- pin1(anode, pos, left): NETS(V3V3)
+- pin2(cathode, neg, right): NETS(BTN3)
+
+C3 (100nF undefined)
+- pin1(anode, pos, left): NETS(BTN3)
+- pin2(cathode, neg, right): NETS(GND)
+
+SW3
+- pin1: NETS(BTN3)
+- pin2: NETS(BTN3)
+- pin3: NETS(GND)
+- pin4: NETS(GND)
+
+R4 (10kΩ undefined)
+- pin1(anode, pos, left): NETS(V3V3)
+- pin2(cathode, neg, right): NETS(BTN4)
+
+C4 (100nF undefined)
+- pin1(anode, pos, left): NETS(BTN4)
+- pin2(cathode, neg, right): NETS(GND)
+
+SW4
+- pin1: NETS(BTN4)
+- pin2: NETS(BTN4)
+- pin3: NETS(GND)
+- pin4: NETS(GND)
+

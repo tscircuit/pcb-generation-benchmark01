@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font: 14px/1.4 system-ui;
+  background: #111c2c;
+  color: #e4ecf6;
+}
+button {
+  font: inherit;
+  background: #243650;
+  color: #fff;
+  border: 1px solid #53647c;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+button:focus-visible,
+input:focus-visible,
+summary:focus-visible {
+  outline: 2px solid #7ae0d0;
+  outline-offset: 2px;
+}
+.bar {
+  min-height: 54px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.bar span {
+  flex: 1;
+  color: #b9c9dd;
+  font-size: 12px;
+}
+.viewport {
+  height: calc(100vh - 110px);
+  min-height: 420px;
+  overflow: hidden;
+  touch-action: none;
+  cursor: grab;
+  background: #111c2c;
+}
+.viewport:active {
+  cursor: grabbing;
+}
+.viewport svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+details {
+  padding: 8px 12px;
+  border-top: 1px solid #38495f;
+}
+summary {
+  cursor: pointer;
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 7px 20px;
+  padding: 12px 0;
+}
+label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+}
+label span {
+  min-width: 78px;
+}
+input[type="range"] {
+  width: 100%;
+  min-width: 45px;
+  accent-color: #71cfc2;
+}
+output {
+  min-width: 34px;
+}
+p {
+  color: #b9c9dd;
+  font-size: 12px;
+  margin: 8px 0;
+}
+h1 {
+  font-size: 16px;
+  margin: 12px;
+}
+input[type="checkbox"] {
+  accent-color: #71cfc2;
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "2026-09-05-codegen-pilot-01",
+  "run_id": "2026-09-05-codegen-pilot-01--i2c-pullup-hub--tscircuit-codegen--r1",
+  "prompt_id": "i2c-pullup-hub",
+  "prompt_revision": 1,
+  "prompt_sha256": "63731fd6945270a8a0584ce606aacb4b084064584774f34cc24007635c1b5810",
+  "method": "tscircuit-codegen",
+  "replicate": 1,
+  "status": "completed",
+  "repository_commit": "a9d1e4f7624451818322ebec60f5e12dd4b3f9a6",
+  "started_at": "2026-09-05T17:54:34.571954+00:00",
+  "ended_at": "2026-09-05T17:58:35.307946+00:00",
+  "model": {
+    "provider": null,
+    "name": null,
+    "reasoning_effort": null,
+    "sampling": {}
+  },
+  "environment": {
+    "tool_versions": {
+      "tsci": "0.0.2462",
+      "kicad-cli": "10.0.6",
+      "bun": "1.3.14",
+      "python": "3.9.6"
+    },
+    "os": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "budget": {
+    "wall_time_seconds": 900,
+    "max_tokens": null,
+    "max_tool_calls": null
+  },
+  "usage": {
+    "wall_time_seconds": 240.735992,
+    "input_tokens": null,
+    "output_tokens": null,
+    "tool_calls": null,
+    "cost_usd": null
+  },
+  "attempts": [
+    {
+      "id": "attempt-01",
+      "status": "failed",
+      "reason": "Invalid +3V3 pin label omitted all headers"
+    },
+    {
+      "id": "attempt-02",
+      "status": "completed_with_issues",
+      "reason": "Schematic header width violations"
+    },
+    {
+      "id": "attempt-03",
+      "status": "completed",
+      "reason": "Final generation; clearance compliance unresolved"
+    }
+  ],
+  "artifacts": [
+    "artifacts/README.md",
+    "artifacts/attempt-02/index.circuit.tsx",
+    "artifacts/attempt-02/dist/artifacts/attempt-02/index/pcb.png",
+    "artifacts/attempt-02/dist/artifacts/attempt-02/index/schematic.svg",
+    "artifacts/attempt-02/dist/artifacts/attempt-02/index/circuit.json",
+    "artifacts/attempt-02/dist/artifacts/attempt-02/index/pcb.svg",
+    "artifacts/attempt-03/index.circuit.tsx",
+    "artifacts/attempt-03/dist/artifacts/attempt-03/index/pcb.png",
+    "artifacts/attempt-03/dist/artifacts/attempt-03/index/schematic.svg",
+    "artifacts/attempt-03/dist/artifacts/attempt-03/index/schematic.png",
+    "artifacts/attempt-03/dist/artifacts/attempt-03/index/circuit.json",
+    "artifacts/attempt-03/dist/artifacts/attempt-03/index/pcb.svg",
+    "artifacts/attempt-01/index.circuit.tsx",
+    "artifacts/attempt-01/dist/artifacts/attempt-01/index/pcb.png",
+    "artifacts/attempt-01/dist/artifacts/attempt-01/index/schematic.svg",
+    "artifacts/attempt-01/dist/artifacts/attempt-01/index/circuit.json",
+    "artifacts/attempt-01/dist/artifacts/attempt-01/index/pcb.svg",
+    "package.json",
+    "bun.lock"
+  ],
+  "failure": null,
+  "notes": "Exploratory pilot; GUI method excluded by user. Read result.json and raw validation logs for limitations."
+}

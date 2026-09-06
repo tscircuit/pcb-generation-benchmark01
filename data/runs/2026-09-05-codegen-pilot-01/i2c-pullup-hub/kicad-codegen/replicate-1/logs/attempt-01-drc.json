@@ -1,0 +1,737 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-05T23:32:03",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [
+        {
+            "description": "C_0805_2012Metric doesn't match footprint given by symbol (Capacitor_SMD:C_0805_2012Metric)",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 17.8
+                    },
+                    "uuid": "3deb1d68-c797-4290-98f6-1b7a562da646"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Pad net (+3V3) doesn't match net given by schematic (/+3V3)",
+            "items": [
+                {
+                    "description": "Pad 1 [+3V3] of C1 on F.Cu",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 18.75
+                    },
+                    "uuid": "347b79c8-a277-41dd-9f2d-e794f9b576c1"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (GND) doesn't match net given by schematic (/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of C1 on F.Cu",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 16.85
+                    },
+                    "uuid": "c83743cc-e38a-4c10-b59b-f52275e13fef"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "C_0805_2012Metric doesn't match footprint given by symbol (Capacitor_SMD:C_0805_2012Metric)",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 38.2,
+                        "y": 17.8
+                    },
+                    "uuid": "990ea05e-8302-4ca8-9d0e-2ac6e2480751"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Pad net (+3V3) doesn't match net given by schematic (/+3V3)",
+            "items": [
+                {
+                    "description": "Pad 1 [+3V3] of C2 on F.Cu",
+                    "pos": {
+                        "x": 38.2,
+                        "y": 18.75
+                    },
+                    "uuid": "e6f746fc-ed72-4109-843a-c0ced456dde5"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (GND) doesn't match net given by schematic (/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of C2 on F.Cu",
+                    "pos": {
+                        "x": 38.2,
+                        "y": 16.85
+                    },
+                    "uuid": "fa7b9640-66ba-4843-9881-8e0d24e8c5ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "C_0805_2012Metric doesn't match footprint given by symbol (Capacitor_SMD:C_0805_2012Metric)",
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 22.5,
+                        "y": 6.8
+                    },
+                    "uuid": "5875908f-5e50-45ea-b20e-d8ade1d70fe9"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Pad net (+3V3) doesn't match net given by schematic (/+3V3)",
+            "items": [
+                {
+                    "description": "Pad 1 [+3V3] of C3 on F.Cu",
+                    "pos": {
+                        "x": 22.5,
+                        "y": 7.75
+                    },
+                    "uuid": "81dc6ed7-9135-4b6e-93d5-1c82a01844ea"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (GND) doesn't match net given by schematic (/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of C3 on F.Cu",
+                    "pos": {
+                        "x": 22.5,
+                        "y": 5.85
+                    },
+                    "uuid": "0fb9af67-60c4-4238-a4dd-50e32f28fdd6"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "PinHeader_1x04_P2.54mm_Vertical doesn't match footprint given by symbol (Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical)",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 3.0,
+                        "y": 14.0
+                    },
+                    "uuid": "4e423267-9a4c-4087-a4a0-43c688f2cfd9"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Pad net (+3V3) doesn't match net given by schematic (/+3V3)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [+3V3] of J1",
+                    "pos": {
+                        "x": 3.0,
+                        "y": 14.0
+                    },
+                    "uuid": "81703782-835f-4329-a6e6-08235752c51c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (GND) doesn't match net given by schematic (/GND)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [GND] of J1",
+                    "pos": {
+                        "x": 3.0,
+                        "y": 16.54
+                    },
+                    "uuid": "b1bdc971-7cf3-4f48-8dc8-01af8359620e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (SDA) doesn't match net given by schematic (/SDA)",
+            "items": [
+                {
+                    "description": "PTH pad 3 [SDA] of J1",
+                    "pos": {
+                        "x": 3.0,
+                        "y": 19.08
+                    },
+                    "uuid": "5791eef9-858b-443f-9bd7-ef75f85c689a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (SCL) doesn't match net given by schematic (/SCL)",
+            "items": [
+                {
+                    "description": "PTH pad 4 [SCL] of J1",
+                    "pos": {
+                        "x": 3.0,
+                        "y": 21.62
+                    },
+                    "uuid": "0650ef39-75d5-482a-9bcc-b1a180dd22d2"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "PinHeader_1x04_P2.54mm_Vertical doesn't match footprint given by symbol (Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical)",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 42.0,
+                        "y": 14.0
+                    },
+                    "uuid": "d9d38d43-9185-4f8d-a563-08652902c27c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Pad net (+3V3) doesn't match net given by schematic (/+3V3)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [+3V3] of J2",
+                    "pos": {
+                        "x": 42.0,
+                        "y": 14.0
+                    },
+                    "uuid": "a09a5c77-31a9-4b4a-9c03-51ee53d7ea85"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (GND) doesn't match net given by schematic (/GND)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [GND] of J2",
+                    "pos": {
+                        "x": 42.0,
+                        "y": 16.54
+                    },
+                    "uuid": "b51d16af-d1f6-4b50-bb6a-6c69b0a1b3ea"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (SDA) doesn't match net given by schematic (/SDA)",
+            "items": [
+                {
+                    "description": "PTH pad 3 [SDA] of J2",
+                    "pos": {
+                        "x": 42.0,
+                        "y": 19.08
+                    },
+                    "uuid": "c3eff28a-941e-409c-afda-4e697c16f053"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (SCL) doesn't match net given by schematic (/SCL)",
+            "items": [
+                {
+                    "description": "PTH pad 4 [SCL] of J2",
+                    "pos": {
+                        "x": 42.0,
+                        "y": 21.62
+                    },
+                    "uuid": "321d30bd-5efb-4b16-b6c0-3b39e07b7f01"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "PinHeader_1x04_P2.54mm_Vertical doesn't match footprint given by symbol (Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical)",
+            "items": [
+                {
+                    "description": "Footprint J3",
+                    "pos": {
+                        "x": 18.69,
+                        "y": 3.0
+                    },
+                    "uuid": "aaf26a49-ff65-4e4f-ae66-590fe87e3f90"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Pad net (+3V3) doesn't match net given by schematic (/+3V3)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [+3V3] of J3",
+                    "pos": {
+                        "x": 18.69,
+                        "y": 3.0
+                    },
+                    "uuid": "b63bf01f-795f-4c48-8ccc-e5b738ab51ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (GND) doesn't match net given by schematic (/GND)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [GND] of J3",
+                    "pos": {
+                        "x": 21.23,
+                        "y": 3.0
+                    },
+                    "uuid": "898a6dad-839d-47eb-ad9e-2efe87c88229"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (SDA) doesn't match net given by schematic (/SDA)",
+            "items": [
+                {
+                    "description": "PTH pad 3 [SDA] of J3",
+                    "pos": {
+                        "x": 23.77,
+                        "y": 3.0
+                    },
+                    "uuid": "77ae844f-9272-4510-929b-f21400ed432e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (SCL) doesn't match net given by schematic (/SCL)",
+            "items": [
+                {
+                    "description": "PTH pad 4 [SCL] of J3",
+                    "pos": {
+                        "x": 26.31,
+                        "y": 3.0
+                    },
+                    "uuid": "c229047b-a084-480a-9342-9bcf84e998c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm doesn't match footprint given by symbol (Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm)",
+            "items": [
+                {
+                    "description": "Footprint JP1",
+                    "pos": {
+                        "x": 24.0,
+                        "y": 17.0
+                    },
+                    "uuid": "06a3d412-bc30-405a-8872-2052085736d5"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint JP1",
+                    "pos": {
+                        "x": 24.0,
+                        "y": 17.0
+                    },
+                    "uuid": "06a3d412-bc30-405a-8872-2052085736d5"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Pad net (PU_SDA) doesn't match net given by schematic (/PU_SDA)",
+            "items": [
+                {
+                    "description": "Pad 1 [PU_SDA] of JP1 on F.Cu",
+                    "pos": {
+                        "x": 23.35,
+                        "y": 17.0
+                    },
+                    "uuid": "f005dc8d-e666-412e-baf1-c4a6bcb657bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (SDA) doesn't match net given by schematic (/SDA)",
+            "items": [
+                {
+                    "description": "Pad 2 [SDA] of JP1 on F.Cu",
+                    "pos": {
+                        "x": 24.65,
+                        "y": 17.0
+                    },
+                    "uuid": "fb38cf60-dc09-4819-b715-ba43e5ae6aa3"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm doesn't match footprint given by symbol (Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm)",
+            "items": [
+                {
+                    "description": "Footprint JP2",
+                    "pos": {
+                        "x": 24.0,
+                        "y": 23.0
+                    },
+                    "uuid": "b257d277-d466-47e1-adda-20d98152dbc8"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint JP2",
+                    "pos": {
+                        "x": 24.0,
+                        "y": 23.0
+                    },
+                    "uuid": "b257d277-d466-47e1-adda-20d98152dbc8"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Pad net (PU_SCL) doesn't match net given by schematic (/PU_SCL)",
+            "items": [
+                {
+                    "description": "Pad 1 [PU_SCL] of JP2 on F.Cu",
+                    "pos": {
+                        "x": 23.35,
+                        "y": 23.0
+                    },
+                    "uuid": "fa6dd356-798c-4607-a731-0a91d0bb87ea"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (SCL) doesn't match net given by schematic (/SCL)",
+            "items": [
+                {
+                    "description": "Pad 2 [SCL] of JP2 on F.Cu",
+                    "pos": {
+                        "x": 24.65,
+                        "y": 23.0
+                    },
+                    "uuid": "67c89af1-ecf5-44dc-8213-6b4e870ef0b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "R_0805_2012Metric doesn't match footprint given by symbol (Resistor_SMD:R_0805_2012Metric)",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 18.0,
+                        "y": 17.0
+                    },
+                    "uuid": "b540a94f-bf6a-4e3c-a52b-ad2d237d602f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Pad net (+3V3) doesn't match net given by schematic (/+3V3)",
+            "items": [
+                {
+                    "description": "Pad 1 [+3V3] of R1 on F.Cu",
+                    "pos": {
+                        "x": 17.0875,
+                        "y": 17.0
+                    },
+                    "uuid": "82a5ac0a-9159-4a97-bb20-1edea783f2cf"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (PU_SDA) doesn't match net given by schematic (/PU_SDA)",
+            "items": [
+                {
+                    "description": "Pad 2 [PU_SDA] of R1 on F.Cu",
+                    "pos": {
+                        "x": 18.9125,
+                        "y": 17.0
+                    },
+                    "uuid": "94e55e2a-0352-4107-b42c-9ab49a049d0c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "R_0805_2012Metric doesn't match footprint given by symbol (Resistor_SMD:R_0805_2012Metric)",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 18.0,
+                        "y": 23.0
+                    },
+                    "uuid": "3710bb67-9bea-46c1-8e94-e4850e49c117"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Pad net (+3V3) doesn't match net given by schematic (/+3V3)",
+            "items": [
+                {
+                    "description": "Pad 1 [+3V3] of R2 on F.Cu",
+                    "pos": {
+                        "x": 17.0875,
+                        "y": 23.0
+                    },
+                    "uuid": "3b7083fc-b30d-4bcd-8f01-ce7d9b0d4832"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (PU_SCL) doesn't match net given by schematic (/PU_SCL)",
+            "items": [
+                {
+                    "description": "Pad 2 [PU_SCL] of R2 on F.Cu",
+                    "pos": {
+                        "x": 18.9125,
+                        "y": 23.0
+                    },
+                    "uuid": "b3b0fe3b-7759-44f3-96c1-ead2a28c65bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        }
+    ],
+    "source": "hub.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '1 3V3' on F.Silkscreen",
+                    "pos": {
+                        "x": 17.0,
+                        "y": 1.1
+                    },
+                    "uuid": "16d5a533-8ef7-4fe6-a428-471999385d10"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '2 GND' on F.Silkscreen",
+                    "pos": {
+                        "x": 21.0,
+                        "y": 1.1
+                    },
+                    "uuid": "14017ba5-35ae-451e-b7a8-a04e749f476c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '3 SDA' on F.Silkscreen",
+                    "pos": {
+                        "x": 25.0,
+                        "y": 1.1
+                    },
+                    "uuid": "35e570a0-c0a6-4046-a056-7b18b9efe70b"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '4 SCL' on F.Silkscreen",
+                    "pos": {
+                        "x": 29.0,
+                        "y": 1.1
+                    },
+                    "uuid": "6ad04376-6967-485e-adbd-286ab110c799"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of C3",
+                    "pos": {
+                        "x": 22.5,
+                        "y": 4.5
+                    },
+                    "uuid": "3e71714e-cff3-4e7a-9b2d-96ed730913d9"
+                },
+                {
+                    "description": "Segment of J3 on F.Silkscreen",
+                    "pos": {
+                        "x": 19.96,
+                        "y": 4.38
+                    },
+                    "uuid": "b4aae2a4-ddbf-41ac-b7a3-7022e5d424cf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PCB text '1 3V3' on F.Silkscreen",
+                    "pos": {
+                        "x": 17.0,
+                        "y": 1.1
+                    },
+                    "uuid": "16d5a533-8ef7-4fe6-a428-471999385d10"
+                },
+                {
+                    "description": "Reference field of J3",
+                    "pos": {
+                        "x": 18.69,
+                        "y": 0.7
+                    },
+                    "uuid": "94f1b54c-d2d5-49d0-9db2-41e8be9de5f4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of JP1",
+                    "pos": {
+                        "x": 24.0,
+                        "y": 14.7
+                    },
+                    "uuid": "78ec9fc9-cffc-4912-8e60-d2a20ff2f001"
+                },
+                {
+                    "description": "PCB text 'JP1 SDA PU' on F.Silkscreen",
+                    "pos": {
+                        "x": 24.0,
+                        "y": 14.0
+                    },
+                    "uuid": "7feb90b8-3ccd-487e-8d6a-b403d4fadce6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}

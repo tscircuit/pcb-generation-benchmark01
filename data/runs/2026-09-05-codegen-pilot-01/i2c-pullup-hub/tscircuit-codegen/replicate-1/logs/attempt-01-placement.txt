@@ -1,0 +1,24 @@
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. See https://react.dev/link/warning-keys for more information.
+placement summary: no placement issues
+
+board top-layer utilization:
+- occupied: 3.627% (57.12mm^2 of 1575mm^2)
+- empty spaces over 5% of board area:
+  - 37.857% (596.25mm^2); bounds=(minX=-22.5mm, maxX=22.5mm, minY=-17.5mm, maxY=-4.25mm)
+  - 18.54% (292.002mm^2); bounds=(minX=-22.5mm, maxX=-0.95mm, minY=3.95mm, maxY=17.5mm)
+  - 18.129% (285.538mm^2); bounds=(minX=0.95mm, maxX=22.5mm, minY=4.25mm, maxY=17.5mm)
+
+board-edge status:
+- C1: 6.8mm inside left edge
+- C2: 6.8mm inside right edge
+- C3: 6.075mm inside bottom edge
+- R1: 13.8mm inside bottom edge
+- JP1: 13.75mm inside bottom edge
+- R2: 13.8mm inside top edge
+- JP2: 13.75mm inside top edge
+
+placement drc:
+Errors: 0
+Warnings: 0

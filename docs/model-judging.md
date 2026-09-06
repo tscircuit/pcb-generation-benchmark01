@@ -1,4 +1,6 @@
-# Model judging and regression tracking
+# Historical model-judge proposal and regression tracking
+
+The implemented scoring path is the [deterministic evaluator](deterministic-scoring.md). This document retains the earlier, unimplemented model-judge proposal; its repeated-judge protocol does not apply to deterministic v1 evaluations.
 
 This is a configuration and record scaffold, not an implemented judge. The initial rubric has four explicit categories totaling 100 points. Each maps to prewritten binary acceptance tests and receives 0, 1, or 2; unsupported conclusions stay unknown. Copy `templates/acceptance-tests.template.json` into each prompt directory and replace every placeholder before collection.
 

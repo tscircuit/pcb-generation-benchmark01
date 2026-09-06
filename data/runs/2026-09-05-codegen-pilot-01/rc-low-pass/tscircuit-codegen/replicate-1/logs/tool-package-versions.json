@@ -1,0 +1,9 @@
+{
+  "tscircuit": "0.0.2462",
+  "@tscircuit/core": "0.0.1816",
+  "@tscircuit/props": "0.0.644",
+  "@tscircuit/cli": "0.1.2021",
+  "@tscircuit/eval": "0.0.1321",
+  "@tscircuit/footprinter": "0.0.426",
+  "@tscircuit/checks": "0.0.178"
+}

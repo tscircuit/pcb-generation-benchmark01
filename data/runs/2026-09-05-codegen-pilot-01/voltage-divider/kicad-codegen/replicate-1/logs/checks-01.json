@@ -1,0 +1,27 @@
+[
+  {
+    "check": "erc",
+    "exit_code": 0,
+    "log": "logs/attempt-01-erc.log"
+  },
+  {
+    "check": "drc",
+    "exit_code": 5,
+    "log": "logs/attempt-01-drc.log"
+  },
+  {
+    "check": "schematic-svg",
+    "exit_code": 0,
+    "log": "logs/attempt-01-schematic-svg.log"
+  },
+  {
+    "check": "netlist",
+    "exit_code": 0,
+    "log": "logs/attempt-01-netlist.log"
+  },
+  {
+    "check": "pcb-svg",
+    "exit_code": 0,
+    "log": "logs/attempt-01-pcb-svg.log"
+  }
+]

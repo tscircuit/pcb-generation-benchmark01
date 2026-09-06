@@ -1,0 +1,106 @@
+[
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/README.md",
+    "sha256": "0ee1950e33db09ca2ca019b41b854d526039fdb74b12a16d480d65aca35688e6"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/connectivity.json",
+    "sha256": "0497193f1a6c89fd9f626c1d60bf11c799eb49f0e57483101eb7d07f13092cf9"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/fp-lib-table",
+    "sha256": "54190d9db1f7e6fd0817f22489caf1996b4ee83d1506e504b76b96da76a9f959"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/generate.py",
+    "sha256": "c732773a22c30bba8cad5dc846c84f340270e0b438ea6ef245fc9a8480912052"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/hub.kicad_pcb",
+    "sha256": "a5750f5a56ccc0af3f774bd5d8c9d4d4621a26df6ce98237fd6cd57d1ee55119"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/hub.kicad_prl",
+    "sha256": "fa9474934992be4b0b50ca8570bedbfef280b532f34e8c70545061f9c1b59b8a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/hub.kicad_pro",
+    "sha256": "43fecc64fa9252c3d4943fd5298c14d00ee48d69f56a4731deaa4fd91ff0488a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/hub.kicad_sch",
+    "sha256": "da0aaea6a0b2d826a8a062cd90fcb8b88fb8cbacf2d39d0ab0b6ef3389ff9a2b"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/hub.net.xml",
+    "sha256": "7b5136b6262c92b015294cbeaf76e81365f2661b70e8247112c1bcac3c1a6277"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/libraries/Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod",
+    "sha256": "62775a51fe74ba7f1b572de327bdbd3fc92582721b2abcaa47787865590d89cb"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/libraries/Connector_Generic.kicad_sym",
+    "sha256": "c4cf50f4d94bd6bffeedcbf1868caa8fcb322b76bb14efca0aedcb8ab483837e"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/libraries/Connector_PinHeader_2.54mm.pretty/PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
+    "sha256": "571d2d16b49795f8f9a91f96cc83fd2adf49890cd66c377189c44204ebd03c29"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/libraries/Device.kicad_sym",
+    "sha256": "e69d87e72b395d35ee3053d617159ce8ca7559ea4ae74f2f1901acda686d73a9"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/libraries/Jumper.kicad_sym",
+    "sha256": "9a054fad115473fd256b524b4adad9919acc1764e4cdefb91114c2dcdd068da4"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/libraries/Jumper.pretty/SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm.kicad_mod",
+    "sha256": "583bdfa61b7b56e3df937aed02e98a6ff9507205cc10daf93b081b232b7c9b30"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/libraries/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod",
+    "sha256": "f050b6a50cc7e6f86291fb7aa8f87b0d02255e21cfbddf291cdccc87e5889794"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/pcb-svg/hub-B_Cu.svg",
+    "sha256": "ee3c9f49f98039e0a36002a054d93ae831941f512d684d0d22dead9a2244aa80"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/pcb-svg/hub-Edge_Cuts.svg",
+    "sha256": "64f9472865bcc5f7551e180fe47ed4c20f4ea67e075919c106784fc69b173e5b"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/pcb-svg/hub-F_Cu.svg",
+    "sha256": "2796a105e11888561e6e76992b6314b17687fac75b2591708cd5d5e5364d663e"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/pcb-svg/hub-F_Silkscreen.svg",
+    "sha256": "f56b607ff4141975ac6fc01f50d232842a0e0021d3b8137651552b883f0caa6b"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/schematic-svg/hub.svg",
+    "sha256": "8280763d713587ac9d112024dbee6a1c22665527b4a8fff78eb95ad610879838"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/sym-lib-table",
+    "sha256": "8794294f97ff0a62a38dcbe09a3d76e749e6588c0d5da49391ca9073264ebc0e"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/input/metadata.json",
+    "sha256": "e6110c79e238eac8f71342ed59df99715b47639925fd7a4b252a39dec8a28120"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/input/prompt.md",
+    "sha256": "63731fd6945270a8a0584ce606aacb4b084064584774f34cc24007635c1b5810"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/result.json",
+    "sha256": "47c6d6ce9991668c0fbe886b3b8886186518f40ffb20bd80834b3983d55b117d"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/run.json",
+    "sha256": "a621143ef4040c478c879a3f0bb18f10ab0a2986d79dbedc236355f828d9c101"
+  }
+]

@@ -1,0 +1,83 @@
+Building 1 file(s)...
+Building index.circuit.tsx...
+Generating circuit JSON...
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. See https://react.dev/link/warning-keys for more information.
+Circuit JSON written to dist/index/circuit.json
+No <schematicsheet> was found. Add a <schematicsheet> to define the schematic drawing area.
+Could not create pinheader "J1". Invalid props for pinheader "J1": pinLabels ({"0":{"_errors":["Invalid"]},"_errors":[]}) Details: Props: {
+  "name": "J1",
+  "pinCount": 6,
+  "pitch": "2.54mm",
+  "gender": "male",
+  "footprint": "pinrow6_p2.54mm",
+  "pcbX": 0,
+  "pcbY": 11,
+  "schX": -12,
+  "schY": 0,
+  "schSectionName": "Header",
+  "pinLabels": [
+    "+3V3",
+    "GND",
+    "BTN1",
+    "BTN2",
+    "BTN3",
+    "BTN4"
+  ],
+  "showSilkscreenPinLabels": true,
+  "componentType": "pinheader",
+  "error": {
+    "componentName": "pinheader",
+    "originalProps": {
+      "name": "J1",
+      "pinCount": 6,
+      "pitch": "2.54mm",
+      "gender": "male",
+      "footprint": "pinrow6_p2.54mm",
+      "pcbX": 0,
+      "pcbY": 11,
+      "schX": -12,
+      "schY": 0,
+      "schSectionName": "Header",
+      "pinLabels": "[Circular]",
+      "showSilkscreenPinLabels": true
+    },
+    "formattedError": {
+      "_errors": [],
+      "pinLabels": {
+        "0": {
+          "_errors": [
+            "Invalid"
+          ]
+        },
+        "_errors": []
+      }
+    }
+  },
+  "type": "unknown",
+  "component_name": "J1",
+  "error_type": "source_failed_to_create_component_error",
+  "message": "Invalid props for pinheader \"J1\": pinLabels ({\"0\":{\"_errors\":[\"Invalid\"]},\"_errors\":[]})"
+}
+Could not find port for selector ".J1 > .pin1". Component ".J1 > " not found
+Could not find port for selector ".J1 > .pin2". Component ".J1 > " not found
+Could not find port for selector ".J1 > .pin3". Component ".J1 > " not found
+Could not find port for selector ".J1 > .pin4". Component ".J1 > " not found
+Could not find port for selector ".J1 > .pin5". Component ".J1 > " not found
+Could not find port for selector ".J1 > .pin6". Component ".J1 > " not found
+Generating preview images...
+[index] Generating PCB SVG...
+[index] Written pcb.svg
+[index] Generating PCB PNG...
+[index] Written pcb.png
+[index] Generating schematic SVG...
+[index] Written schematic.svg
+
+Build complete
+  Circuits  1 passed
+  Options   pcb-png, svgs, autorouter-timeout
+  Output    artifacts/attempt-01/dist
+
+⚠ Build completed with errors
+Build exiting with code 0: build finished successfully

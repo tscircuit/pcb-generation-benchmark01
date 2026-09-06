@@ -1,0 +1,3 @@
+$ kicad-cli sch export svg artifacts/attempt-01/matrix.kicad_sch -o artifacts/attempt-01/schematic-svg
+Plotted to '/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-01/schematic-svg/matrix.svg'.
+Done.

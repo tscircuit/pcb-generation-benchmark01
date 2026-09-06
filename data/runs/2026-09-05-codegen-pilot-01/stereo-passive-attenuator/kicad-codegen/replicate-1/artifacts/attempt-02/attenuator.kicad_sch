@@ -1,0 +1,659 @@
+(kicad_sch (version 20250114) (generator "pcb-benchmark-codegen") (uuid 0a4833af-091f-44fb-9190-f940e3c37faf) (paper "A4") (lib_symbols (symbol "Connector:TestPoint"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.762)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "TP"
+			(at 0 6.858 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "test point tp"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Pin* Test*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TestPoint_0_1"
+			(circle
+				(center 0 3.302)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TestPoint_1_1"
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Connector_Generic:Conn_01x03"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x03_1_1"
+			(rectangle
+				(start -1.27 3.81)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+(symbol (lib_id "Connector_Generic:Conn_01x03") (at 40.64 60.96 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 355b1eb0-381f-42e1-b28e-1c17d4ff7679)(property "Reference" "J1" (at 40.64 53.34 0) (effects (font (size 1.27 1.27))))(property "Value" "INPUT" (at 40.64 68.58 0) (effects (font (size 1 1))))(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 40.64 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))(instances (project "attenuator" (path "/0a4833af-091f-44fb-9190-f940e3c37faf" (reference "J1") (unit 1)))))
+(wire (pts (xy 35.56 58.42) (xy 27.94 58.42)) (stroke (width 0) (type default)) (uuid a0e960f3-a56d-416c-b3a7-4f103955b059))
+(label "LEFT_IN" (at 27.94 58.42 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 9b2fe8cc-8b17-411c-ab10-172f0ca88028))
+(wire (pts (xy 35.56 60.96) (xy 27.94 60.96)) (stroke (width 0) (type default)) (uuid 69fc34b0-5239-4016-b2ad-8cf05872844f))
+(label "GND" (at 27.94 60.96 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 8cf81070-36cc-40e7-9246-b1320e104d5a))
+(wire (pts (xy 35.56 63.5) (xy 27.94 63.5)) (stroke (width 0) (type default)) (uuid 1ab8a2a7-2a49-41cb-8e46-d7686c402a2e))
+(label "RIGHT_IN" (at 27.94 63.5 0) (effects (font (size 1 1)) (justify left bottom)) (uuid bd6d06d6-3de2-4a91-ba57-4b855f9d50bd))
+(symbol (lib_id "Connector_Generic:Conn_01x03") (at 165.1 60.96 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 09e8a630-45a5-426d-83a8-b82921c252bf)(property "Reference" "J2" (at 165.1 53.34 0) (effects (font (size 1.27 1.27))))(property "Value" "OUTPUT" (at 165.1 68.58 0) (effects (font (size 1 1))))(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 165.1 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))(instances (project "attenuator" (path "/0a4833af-091f-44fb-9190-f940e3c37faf" (reference "J2") (unit 1)))))
+(wire (pts (xy 160.02 58.42) (xy 152.4 58.42)) (stroke (width 0) (type default)) (uuid d553ee59-4f50-4c12-9ae9-6d0de9f9023d))
+(label "LEFT_OUT" (at 152.4 58.42 0) (effects (font (size 1 1)) (justify left bottom)) (uuid d2ba9661-5d93-4dcc-baee-9025d5e5211b))
+(wire (pts (xy 160.02 60.96) (xy 152.4 60.96)) (stroke (width 0) (type default)) (uuid cedc16b6-88fe-4309-87d4-258db3821fb0))
+(label "GND" (at 152.4 60.96 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 14b08d86-9f4f-4134-87a4-e21f48232256))
+(wire (pts (xy 160.02 63.5) (xy 152.4 63.5)) (stroke (width 0) (type default)) (uuid 10bcaa08-c4d9-4e09-b36d-7f691e868927))
+(label "RIGHT_OUT" (at 152.4 63.5 0) (effects (font (size 1 1)) (justify left bottom)) (uuid a231c746-e1bd-49cf-92bd-792c839b7873))
+(symbol (lib_id "Device:C") (at 71.12 45.72 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 19bc34d0-5c67-4ece-9a00-7f0e53109b4f)(property "Reference" "C1" (at 71.12 38.1 0) (effects (font (size 1.27 1.27))))(property "Value" "1uF ceramic nonpolar" (at 71.12 53.339999999999996 0) (effects (font (size 1 1))))(property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 71.12 55.879999999999995 0) (effects (font (size 1.27 1.27)) (hide yes)))(instances (project "attenuator" (path "/0a4833af-091f-44fb-9190-f940e3c37faf" (reference "C1") (unit 1)))))
+(wire (pts (xy 71.12 41.91) (xy 63.5 41.91)) (stroke (width 0) (type default)) (uuid ecfe2c74-3870-48d5-8bfd-aaf4f36626dc))
+(label "LEFT_IN" (at 63.5 41.91 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 021986c5-acc5-43c7-a578-d778ca4798d5))
+(wire (pts (xy 71.12 49.53) (xy 63.5 49.53)) (stroke (width 0) (type default)) (uuid 33f7fef4-83ea-4843-8ae6-3487c631313c))
+(label "LEFT_AC" (at 63.5 49.53 0) (effects (font (size 1 1)) (justify left bottom)) (uuid ddb92ad8-9f63-4304-85c7-b80e40ea733e))
+(symbol (lib_id "Device:R") (at 104.14 45.72 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid edd46376-85e2-4e66-8432-28f1eb254f08)(property "Reference" "R1" (at 104.14 38.1 0) (effects (font (size 1.27 1.27))))(property "Value" "10k" (at 104.14 53.339999999999996 0) (effects (font (size 1 1))))(property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 104.14 55.879999999999995 0) (effects (font (size 1.27 1.27)) (hide yes)))(instances (project "attenuator" (path "/0a4833af-091f-44fb-9190-f940e3c37faf" (reference "R1") (unit 1)))))
+(wire (pts (xy 104.14 41.91) (xy 96.52 41.91)) (stroke (width 0) (type default)) (uuid 5a47ad9f-01ad-4fdd-bf67-8a4ba663e021))
+(label "LEFT_AC" (at 96.52 41.91 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 2c99f3e2-7d2c-4d81-b340-7d3c156dd183))
+(wire (pts (xy 104.14 49.53) (xy 96.52 49.53)) (stroke (width 0) (type default)) (uuid 660deac2-ada9-4db3-ae67-aed98be61fd1))
+(label "LEFT_OUT" (at 96.52 49.53 0) (effects (font (size 1 1)) (justify left bottom)) (uuid a117ec3f-bca9-4517-86c2-7ce1df0e8de4))
+(symbol (lib_id "Device:R") (at 137.16 45.72 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 906a8c35-10d5-4b8c-81ad-0e3e52be5986)(property "Reference" "R2" (at 137.16 38.1 0) (effects (font (size 1.27 1.27))))(property "Value" "10k" (at 137.16 53.339999999999996 0) (effects (font (size 1 1))))(property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 137.16 55.879999999999995 0) (effects (font (size 1.27 1.27)) (hide yes)))(instances (project "attenuator" (path "/0a4833af-091f-44fb-9190-f940e3c37faf" (reference "R2") (unit 1)))))
+(wire (pts (xy 137.16 41.91) (xy 129.54 41.91)) (stroke (width 0) (type default)) (uuid 89435243-8768-45d4-b792-755da55b0d12))
+(label "LEFT_OUT" (at 129.54 41.91 0) (effects (font (size 1 1)) (justify left bottom)) (uuid e05349b3-fc35-4d91-99e9-2dad6f4d6d75))
+(wire (pts (xy 137.16 49.53) (xy 129.54 49.53)) (stroke (width 0) (type default)) (uuid 131aae2c-a9b0-4584-a713-eea730146dc7))
+(label "GND" (at 129.54 49.53 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 59200a95-6a64-48b7-9aed-4d4549b51b1b))
+(symbol (lib_id "Connector:TestPoint") (at 175.26 45.72 0) (unit 1) (in_bom no) (on_board yes) (dnp no) (uuid ede7ef90-fdbf-4d05-93c0-1bcf064ace1d)(property "Reference" "TP1" (at 175.26 38.1 0) (effects (font (size 1.27 1.27))))(property "Value" "LEFT_OUT" (at 175.26 53.339999999999996 0) (effects (font (size 1 1))))(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 175.26 55.879999999999995 0) (effects (font (size 1.27 1.27)) (hide yes)))(instances (project "attenuator" (path "/0a4833af-091f-44fb-9190-f940e3c37faf" (reference "TP1") (unit 1)))))
+(wire (pts (xy 175.26 45.72) (xy 167.64 45.72)) (stroke (width 0) (type default)) (uuid 73de7e36-dc82-45cb-b348-5d8813334443))
+(label "LEFT_OUT" (at 167.64 45.72 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 99213978-4ea2-4353-8e02-58c67388feac))
+(symbol (lib_id "Device:C") (at 71.12 96.52 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 15d0a45b-9892-4e14-9e6a-86797cc5b839)(property "Reference" "C2" (at 71.12 88.89999999999999 0) (effects (font (size 1.27 1.27))))(property "Value" "1uF ceramic nonpolar" (at 71.12 104.14 0) (effects (font (size 1 1))))(property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 71.12 106.67999999999999 0) (effects (font (size 1.27 1.27)) (hide yes)))(instances (project "attenuator" (path "/0a4833af-091f-44fb-9190-f940e3c37faf" (reference "C2") (unit 1)))))
+(wire (pts (xy 71.12 92.71) (xy 63.5 92.71)) (stroke (width 0) (type default)) (uuid 81b576a2-cc8d-497e-ac99-18d72ab0195e))
+(label "RIGHT_IN" (at 63.5 92.71 0) (effects (font (size 1 1)) (justify left bottom)) (uuid e67ceec4-fa77-495b-8281-28298d1677f6))
+(wire (pts (xy 71.12 100.33) (xy 63.5 100.33)) (stroke (width 0) (type default)) (uuid cf4e8059-8110-4493-824a-8ee15214c234))
+(label "RIGHT_AC" (at 63.5 100.33 0) (effects (font (size 1 1)) (justify left bottom)) (uuid dd4b958a-b19b-4f9f-b478-8292122b0774))
+(symbol (lib_id "Device:R") (at 104.14 96.52 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 5a9d40ae-ff56-43be-9a13-f093647c9d92)(property "Reference" "R3" (at 104.14 88.89999999999999 0) (effects (font (size 1.27 1.27))))(property "Value" "10k" (at 104.14 104.14 0) (effects (font (size 1 1))))(property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 104.14 106.67999999999999 0) (effects (font (size 1.27 1.27)) (hide yes)))(instances (project "attenuator" (path "/0a4833af-091f-44fb-9190-f940e3c37faf" (reference "R3") (unit 1)))))
+(wire (pts (xy 104.14 92.71) (xy 96.52 92.71)) (stroke (width 0) (type default)) (uuid 67d4af5a-5862-4545-9174-ddc5356414e3))
+(label "RIGHT_AC" (at 96.52 92.71 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 0dd377aa-7cf2-47b8-bf14-72495ccd6fa3))
+(wire (pts (xy 104.14 100.33) (xy 96.52 100.33)) (stroke (width 0) (type default)) (uuid 3ca39a33-8800-470f-8a49-884c2bc96202))
+(label "RIGHT_OUT" (at 96.52 100.33 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 56897c0d-1c45-4b43-87ee-8d6b3d863056))
+(symbol (lib_id "Device:R") (at 137.16 96.52 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid af4c991e-0ea4-407f-8ff4-f4e189688818)(property "Reference" "R4" (at 137.16 88.89999999999999 0) (effects (font (size 1.27 1.27))))(property "Value" "10k" (at 137.16 104.14 0) (effects (font (size 1 1))))(property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 137.16 106.67999999999999 0) (effects (font (size 1.27 1.27)) (hide yes)))(instances (project "attenuator" (path "/0a4833af-091f-44fb-9190-f940e3c37faf" (reference "R4") (unit 1)))))
+(wire (pts (xy 137.16 92.71) (xy 129.54 92.71)) (stroke (width 0) (type default)) (uuid 0ffe14ab-a482-4190-9e35-124b8704cf93))
+(label "RIGHT_OUT" (at 129.54 92.71 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 3ec5e804-3437-482a-9a5b-3ba9d2d6751a))
+(wire (pts (xy 137.16 100.33) (xy 129.54 100.33)) (stroke (width 0) (type default)) (uuid a38a5af6-242a-4d80-a06f-22b5f8b42197))
+(label "GND" (at 129.54 100.33 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 217f389e-0931-4c04-a80b-d860f4f7f541))
+(symbol (lib_id "Connector:TestPoint") (at 175.26 96.52 0) (unit 1) (in_bom no) (on_board yes) (dnp no) (uuid 18ef13df-9b17-4753-a021-029be0ea44ca)(property "Reference" "TP2" (at 175.26 88.89999999999999 0) (effects (font (size 1.27 1.27))))(property "Value" "RIGHT_OUT" (at 175.26 104.14 0) (effects (font (size 1 1))))(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 175.26 106.67999999999999 0) (effects (font (size 1.27 1.27)) (hide yes)))(instances (project "attenuator" (path "/0a4833af-091f-44fb-9190-f940e3c37faf" (reference "TP2") (unit 1)))))
+(wire (pts (xy 175.26 96.52) (xy 167.64 96.52)) (stroke (width 0) (type default)) (uuid ab710ea9-86d7-4256-a098-6841dd7060ac))
+(label "RIGHT_OUT" (at 167.64 96.52 0) (effects (font (size 1 1)) (justify left bottom)) (uuid a2c79aed-d6f5-402b-a25e-864df2191535))
+(symbol (lib_id "Connector:TestPoint") (at 175.26 119.38 0) (unit 1) (in_bom no) (on_board yes) (dnp no) (uuid fa67277f-3aca-4652-a806-35e01f874775)(property "Reference" "TP3" (at 175.26 111.75999999999999 0) (effects (font (size 1.27 1.27))))(property "Value" "GND" (at 175.26 127.0 0) (effects (font (size 1 1))))(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 175.26 129.54 0) (effects (font (size 1.27 1.27)) (hide yes)))(instances (project "attenuator" (path "/0a4833af-091f-44fb-9190-f940e3c37faf" (reference "TP3") (unit 1)))))
+(wire (pts (xy 175.26 119.38) (xy 167.64 119.38)) (stroke (width 0) (type default)) (uuid 1c9c40c6-1655-419f-97f1-94d6eb125d64))
+(label "GND" (at 167.64 119.38 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 615ad732-7be6-4cb6-ba41-7dc551057c62))
+)

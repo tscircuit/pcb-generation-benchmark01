@@ -1,0 +1,122 @@
+COMMAND: ['tsci', 'check', 'netlist', 'index.circuit.tsx']
+trace: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)
+Errors: 0
+Warnings: 0
+
+Readable Netlist:
+COMPONENTS:
+ - J1: J1, source_component
+ - C1: 100nF capacitor
+ - Q1: MMBT3904LT1G
+ - D1: D1, source_component
+ - R1: 1kΩ resistor
+ - R2: 4.7kΩ resistor
+ - R3: 100kΩ resistor
+ - Q2: MMBT3904LT1G
+ - D2: D2, source_component
+ - R4: 1kΩ resistor
+ - R5: 4.7kΩ resistor
+ - R6: 100kΩ resistor
+
+NET: V5
+  - R4 pin1
+  - R1 pin1
+  - C1 pin1 (+)
+  - J1 V5
+
+NET: GND
+  - R6 pin2
+  - R3 pin2
+  - Q2 E
+  - Q1 E
+  - C1 pin2 (-)
+  - J1 GND
+
+NET: CTRL1
+  - R2 pin1
+  - J1 CTRL1
+
+NET: CTRL2
+  - R5 pin1
+  - J1 CTRL2
+
+NET: BASE1
+  - Q1 B
+  - R3 pin1
+  - R2 pin2
+
+NET: BASE2
+  - Q2 B
+  - R6 pin1
+  - R5 pin2
+
+NET: ANODE1
+  - D1 pin1 (+)
+  - R1 pin2
+
+NET: ANODE2
+  - D2 pin1 (+)
+  - R4 pin2
+
+NET: COLLECTOR1
+  - D1 pin2 (-)
+  - Q1 C
+
+NET: COLLECTOR2
+  - D2 pin2 (-)
+  - Q2 C
+
+
+COMPONENT_PINS:
+J1
+- pin1(V5): NETS(V5)
+- pin2(GND): NETS(GND)
+- pin3(CTRL1): NETS(CTRL1)
+- pin4(CTRL2): NETS(CTRL2)
+
+C1 (100nF undefined)
+- pin1(anode, pos, left): NETS(V5)
+- pin2(cathode, neg, right): NETS(GND)
+
+Q1 (MMBT3904LT1G)
+- pin1(B): NETS(BASE1)
+- pin2(E): NETS(GND)
+- pin3(C): NETS(COLLECTOR1)
+
+D1
+- pin1(anode, pos, left): NETS(ANODE1)
+- pin2(cathode, neg, right): NETS(COLLECTOR1)
+
+R1 (1kΩ undefined)
+- pin1(anode, pos, left): NETS(V5)
+- pin2(cathode, neg, right): NETS(ANODE1)
+
+R2 (4.7kΩ undefined)
+- pin1(anode, pos, left): NETS(CTRL1)
+- pin2(cathode, neg, right): NETS(BASE1)
+
+R3 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(BASE1)
+- pin2(cathode, neg, right): NETS(GND)
+
+Q2 (MMBT3904LT1G)
+- pin1(B): NETS(BASE2)
+- pin2(E): NETS(GND)
+- pin3(C): NETS(COLLECTOR2)
+
+D2
+- pin1(anode, pos, left): NETS(ANODE2)
+- pin2(cathode, neg, right): NETS(COLLECTOR2)
+
+R4 (1kΩ undefined)
+- pin1(anode, pos, left): NETS(V5)
+- pin2(cathode, neg, right): NETS(ANODE2)
+
+R5 (4.7kΩ undefined)
+- pin1(anode, pos, left): NETS(CTRL2)
+- pin2(cathode, neg, right): NETS(BASE2)
+
+R6 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(BASE2)
+- pin2(cathode, neg, right): NETS(GND)
+

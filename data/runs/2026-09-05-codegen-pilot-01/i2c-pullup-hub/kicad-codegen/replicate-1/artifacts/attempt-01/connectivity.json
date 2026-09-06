@@ -1,0 +1,208 @@
+[
+  {
+    "ref": "J1",
+    "val": "I2C",
+    "lib": "Connector_Generic:Conn_01x04",
+    "foot": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+    "pos": [
+      3,
+      14
+    ],
+    "rot": 0,
+    "nets": [
+      "+3V3",
+      "GND",
+      "SDA",
+      "SCL"
+    ],
+    "sch": [
+      80,
+      45
+    ],
+    "uuid": "a5c93971-ba53-4688-b8ce-00124f89ed14"
+  },
+  {
+    "ref": "J2",
+    "val": "I2C",
+    "lib": "Connector_Generic:Conn_01x04",
+    "foot": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+    "pos": [
+      42,
+      14
+    ],
+    "rot": 0,
+    "nets": [
+      "+3V3",
+      "GND",
+      "SDA",
+      "SCL"
+    ],
+    "sch": [
+      120,
+      45
+    ],
+    "uuid": "b92bdaba-907d-4fd5-9135-8f26432aa1a8"
+  },
+  {
+    "ref": "J3",
+    "val": "I2C",
+    "lib": "Connector_Generic:Conn_01x04",
+    "foot": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+    "pos": [
+      18.69,
+      3
+    ],
+    "rot": 90,
+    "nets": [
+      "+3V3",
+      "GND",
+      "SDA",
+      "SCL"
+    ],
+    "sch": [
+      160,
+      45
+    ],
+    "uuid": "2a48bc14-41eb-4b4a-a124-b499fc7bcbd8"
+  },
+  {
+    "ref": "C1",
+    "val": "100nF",
+    "lib": "Device:C",
+    "foot": "Capacitor_SMD:C_0805_2012Metric",
+    "pos": [
+      6.8,
+      17.8
+    ],
+    "rot": 90,
+    "nets": [
+      "+3V3",
+      "GND"
+    ],
+    "sch": [
+      80,
+      80
+    ],
+    "uuid": "eba064b3-6e9d-4718-87ee-de515cdbd998"
+  },
+  {
+    "ref": "C2",
+    "val": "100nF",
+    "lib": "Device:C",
+    "foot": "Capacitor_SMD:C_0805_2012Metric",
+    "pos": [
+      38.2,
+      17.8
+    ],
+    "rot": 90,
+    "nets": [
+      "+3V3",
+      "GND"
+    ],
+    "sch": [
+      120,
+      80
+    ],
+    "uuid": "ae5876f4-9547-4f2a-80b0-794e991dbfad"
+  },
+  {
+    "ref": "C3",
+    "val": "100nF",
+    "lib": "Device:C",
+    "foot": "Capacitor_SMD:C_0805_2012Metric",
+    "pos": [
+      22.5,
+      6.8
+    ],
+    "rot": 90,
+    "nets": [
+      "+3V3",
+      "GND"
+    ],
+    "sch": [
+      160,
+      80
+    ],
+    "uuid": "72961db6-11e6-4937-8fbd-d2820183ebed"
+  },
+  {
+    "ref": "R1",
+    "val": "4.7k",
+    "lib": "Device:R",
+    "foot": "Resistor_SMD:R_0805_2012Metric",
+    "pos": [
+      18,
+      17
+    ],
+    "rot": 0,
+    "nets": [
+      "+3V3",
+      "PU_SDA"
+    ],
+    "sch": [
+      70,
+      130
+    ],
+    "uuid": "74b557aa-6c2e-4394-a621-8acb0c1b6bda"
+  },
+  {
+    "ref": "JP1",
+    "val": "SDA PU",
+    "lib": "Jumper:SolderJumper_2_Open",
+    "foot": "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm",
+    "pos": [
+      24,
+      17
+    ],
+    "rot": 0,
+    "nets": [
+      "PU_SDA",
+      "SDA"
+    ],
+    "sch": [
+      110,
+      130
+    ],
+    "uuid": "b3cc4dd9-b931-4592-9811-859882a622cb"
+  },
+  {
+    "ref": "R2",
+    "val": "4.7k",
+    "lib": "Device:R",
+    "foot": "Resistor_SMD:R_0805_2012Metric",
+    "pos": [
+      18,
+      23
+    ],
+    "rot": 0,
+    "nets": [
+      "+3V3",
+      "PU_SCL"
+    ],
+    "sch": [
+      70,
+      155
+    ],
+    "uuid": "0dac0296-bef2-41a9-abd8-b73d51f1e57a"
+  },
+  {
+    "ref": "JP2",
+    "val": "SCL PU",
+    "lib": "Jumper:SolderJumper_2_Open",
+    "foot": "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm",
+    "pos": [
+      24,
+      23
+    ],
+    "rot": 0,
+    "nets": [
+      "PU_SCL",
+      "SCL"
+    ],
+    "sch": [
+      110,
+      155
+    ],
+    "uuid": "7d4bff22-1e32-4a37-bc3c-18a91d457c98"
+  }
+]

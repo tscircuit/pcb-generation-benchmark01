@@ -1,0 +1,212 @@
+[
+  {
+    "prompt_id": "led-indicator",
+    "final_attempt": "attempt-03",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/indicator.kicad_pcb",
+    "download": "downloads/led-indicator/indicator.kicad_pcb",
+    "sha256": "4fb29a23069efc356a7140410977f5648e6e3866147371c7294280d50c5c07c3"
+  },
+  {
+    "prompt_id": "led-indicator",
+    "final_attempt": "attempt-03",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/indicator.kicad_pro",
+    "download": "downloads/led-indicator/indicator.kicad_pro",
+    "sha256": "a3ac4a94304240919dc17ff88a693518ef91925e18dabd75a93e1bcf67d09605"
+  },
+  {
+    "prompt_id": "led-indicator",
+    "final_attempt": "attempt-03",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/indicator.kicad_sch",
+    "download": "downloads/led-indicator/indicator.kicad_sch",
+    "sha256": "225a03afc676467c86abdf22728dbca606e21c094a380a0a94f13f155f8c763c"
+  },
+  {
+    "prompt_id": "rc-low-pass",
+    "final_attempt": "artifacts/attempt-02",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/artifacts/attempt-02/rc-filter.kicad_pcb",
+    "download": "downloads/rc-low-pass/rc-filter.kicad_pcb",
+    "sha256": "b0eeb9b6a566f2ac6b11301f8bbc04018565e659b0c40c949a4a6793de99ffe9"
+  },
+  {
+    "prompt_id": "rc-low-pass",
+    "final_attempt": "artifacts/attempt-02",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/artifacts/attempt-02/rc-filter.kicad_pro",
+    "download": "downloads/rc-low-pass/rc-filter.kicad_pro",
+    "sha256": "703f96fb0410c6388b7788d8c2380ce53bfb5de3122ea2f0f7506bbd3c7876f2"
+  },
+  {
+    "prompt_id": "rc-low-pass",
+    "final_attempt": "artifacts/attempt-02",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/artifacts/attempt-02/rc-filter.kicad_sch",
+    "download": "downloads/rc-low-pass/rc-filter.kicad_sch",
+    "sha256": "4c4d3af1d5d54a1b25005f34ca67dba27a73f856e74b93bdd64faf48314c0def"
+  },
+  {
+    "prompt_id": "voltage-divider",
+    "final_attempt": "artifacts/attempt-02",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/attempt-02/divider.kicad_pcb",
+    "download": "downloads/voltage-divider/divider.kicad_pcb",
+    "sha256": "2bd25b9eeba6f55fcde1a3735d567b2ee395ab50220e8f08184320e051e6fd49"
+  },
+  {
+    "prompt_id": "voltage-divider",
+    "final_attempt": "artifacts/attempt-02",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/attempt-02/divider.kicad_pro",
+    "download": "downloads/voltage-divider/divider.kicad_pro",
+    "sha256": "b1a179a4ada1743fe8816e6fb84a6bf08194d6e48862521401d1f5f4b0093220"
+  },
+  {
+    "prompt_id": "voltage-divider",
+    "final_attempt": "artifacts/attempt-02",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/attempt-02/divider.kicad_sch",
+    "download": "downloads/voltage-divider/divider.kicad_sch",
+    "sha256": "598ead0af007fbdf1363d2263359549ebd8d29a8cccf849409e8c67899f73720"
+  },
+  {
+    "prompt_id": "button-input-bank",
+    "final_attempt": "artifacts/attempt-03",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/buttons.kicad_pcb",
+    "download": "downloads/button-input-bank/buttons.kicad_pcb",
+    "sha256": "dd9792f8435204497c0637901063883f467e258aabe899c3be7041381e49ebfe"
+  },
+  {
+    "prompt_id": "button-input-bank",
+    "final_attempt": "artifacts/attempt-03",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/buttons.kicad_pro",
+    "download": "downloads/button-input-bank/buttons.kicad_pro",
+    "sha256": "bdc063ae6fc872b5c6c45dbc9098e732eed54b204fb94efe5708da852a922ebc"
+  },
+  {
+    "prompt_id": "button-input-bank",
+    "final_attempt": "artifacts/attempt-03",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/buttons.kicad_sch",
+    "download": "downloads/button-input-bank/buttons.kicad_sch",
+    "sha256": "271948b1e83e43e7d3bd29366080b900e776a5443dbed5a5f8806c3b18f9c2ec"
+  },
+  {
+    "prompt_id": "i2c-pullup-hub",
+    "final_attempt": "artifacts/attempt-02",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/hub.kicad_pcb",
+    "download": "downloads/i2c-pullup-hub/hub.kicad_pcb",
+    "sha256": "a5750f5a56ccc0af3f774bd5d8c9d4d4621a26df6ce98237fd6cd57d1ee55119"
+  },
+  {
+    "prompt_id": "i2c-pullup-hub",
+    "final_attempt": "artifacts/attempt-02",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/hub.kicad_pro",
+    "download": "downloads/i2c-pullup-hub/hub.kicad_pro",
+    "sha256": "43fecc64fa9252c3d4943fd5298c14d00ee48d69f56a4731deaa4fd91ff0488a"
+  },
+  {
+    "prompt_id": "i2c-pullup-hub",
+    "final_attempt": "artifacts/attempt-02",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/kicad-codegen/replicate-1/artifacts/attempt-02/hub.kicad_sch",
+    "download": "downloads/i2c-pullup-hub/hub.kicad_sch",
+    "sha256": "da0aaea6a0b2d826a8a062cd90fcb8b88fb8cbacf2d39d0ab0b6ef3389ff9a2b"
+  },
+  {
+    "prompt_id": "npn-led-driver",
+    "final_attempt": "attempt-03",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/driver.kicad_pcb",
+    "download": "downloads/npn-led-driver/driver.kicad_pcb",
+    "sha256": "6be0daa5c01b39c18c0dd9dce07aab46872ae9811eddceec23638f6bd1e58381"
+  },
+  {
+    "prompt_id": "npn-led-driver",
+    "final_attempt": "attempt-03",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/driver.kicad_pro",
+    "download": "downloads/npn-led-driver/driver.kicad_pro",
+    "sha256": "228337fa3db41dd3eb64fb18b90d937801c92dd9e32ccb3ac60c4c39081f4046"
+  },
+  {
+    "prompt_id": "npn-led-driver",
+    "final_attempt": "attempt-03",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/driver.kicad_sch",
+    "download": "downloads/npn-led-driver/driver.kicad_sch",
+    "sha256": "8c1e52ffedc4458a3ad5e92807d6f83aa6d524686dfafe6e33ee8bceefee2832"
+  },
+  {
+    "prompt_id": "stereo-passive-attenuator",
+    "final_attempt": "artifacts/attempt-03",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/attenuator.kicad_pcb",
+    "download": "downloads/stereo-passive-attenuator/attenuator.kicad_pcb",
+    "sha256": "19db15c57e0d314e3cfebca723f4a154da6c6b9c29efe57da5f9afa7bdbcc4c3"
+  },
+  {
+    "prompt_id": "stereo-passive-attenuator",
+    "final_attempt": "artifacts/attempt-03",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/attenuator.kicad_pro",
+    "download": "downloads/stereo-passive-attenuator/attenuator.kicad_pro",
+    "sha256": "499939bce73edd90119723df6ef6554fd0789500fe3071fb9ddcb8849d4f8b5c"
+  },
+  {
+    "prompt_id": "stereo-passive-attenuator",
+    "final_attempt": "artifacts/attempt-03",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/attenuator.kicad_sch",
+    "download": "downloads/stereo-passive-attenuator/attenuator.kicad_sch",
+    "sha256": "fe28eb13a5390298a7489db708ca1daf642b611ff230e8a76f487e8cf0b96f2d"
+  },
+  {
+    "prompt_id": "analog-input-bank",
+    "final_attempt": "artifacts/attempt-03",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/analog_input.kicad_pcb",
+    "download": "downloads/analog-input-bank/analog_input.kicad_pcb",
+    "sha256": "683231383ebe1af155fde11193674a2a09318fe519444aa40dcfdf667ebe9398"
+  },
+  {
+    "prompt_id": "analog-input-bank",
+    "final_attempt": "artifacts/attempt-03",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/analog_input.kicad_pro",
+    "download": "downloads/analog-input-bank/analog_input.kicad_pro",
+    "sha256": "37d7ec3e72f60c5ed7b6e0c8144db019d8f0e9ddff9a8c40eb2bebcf2656e6e8"
+  },
+  {
+    "prompt_id": "analog-input-bank",
+    "final_attempt": "artifacts/attempt-03",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/analog_input.kicad_sch",
+    "download": "downloads/analog-input-bank/analog_input.kicad_sch",
+    "sha256": "ae44c826602378c58c5fe04c1e4024a37291b00f2859bb0737daaa917aa94f06"
+  },
+  {
+    "prompt_id": "diode-key-matrix",
+    "final_attempt": "attempt-03",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/matrix.kicad_pcb",
+    "download": "downloads/diode-key-matrix/matrix.kicad_pcb",
+    "sha256": "f80554709e64bb4b43d7024f302b1fed1ed1ee581a740a69710a68a064ff9fc7"
+  },
+  {
+    "prompt_id": "diode-key-matrix",
+    "final_attempt": "attempt-03",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/matrix.kicad_pro",
+    "download": "downloads/diode-key-matrix/matrix.kicad_pro",
+    "sha256": "fa7fc94b4a314825844a0ae94419eb634907998112458c8829b050d3b9f2fd9e"
+  },
+  {
+    "prompt_id": "diode-key-matrix",
+    "final_attempt": "attempt-03",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/matrix.kicad_sch",
+    "download": "downloads/diode-key-matrix/matrix.kicad_sch",
+    "sha256": "9bd7bcbcc45b16a18dfde37bbc2f53f0be70bf380c3e99ee53bad51a3def480f"
+  },
+  {
+    "prompt_id": "mosfet-output-bank",
+    "final_attempt": "artifacts/attempt-03",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/artifacts/attempt-03/board.kicad_pcb",
+    "download": "downloads/mosfet-output-bank/board.kicad_pcb",
+    "sha256": "79e4d7e38cca8ade339c7f054c3ff0deea273e4310246504b328aae688eda378"
+  },
+  {
+    "prompt_id": "mosfet-output-bank",
+    "final_attempt": "artifacts/attempt-03",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/artifacts/attempt-03/board.kicad_pro",
+    "download": "downloads/mosfet-output-bank/board.kicad_pro",
+    "sha256": "26150ca12f2bdfb7760ca8215e9df93d486d2b22f40dc0b7d32220d9a8e46369"
+  },
+  {
+    "prompt_id": "mosfet-output-bank",
+    "final_attempt": "artifacts/attempt-03",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/artifacts/attempt-03/board.kicad_sch",
+    "download": "downloads/mosfet-output-bank/board.kicad_sch",
+    "sha256": "129af06c86ee759ae22c0a23ad4bdaa83f8aa482f7f2334ff33257b870920178"
+  }
+]

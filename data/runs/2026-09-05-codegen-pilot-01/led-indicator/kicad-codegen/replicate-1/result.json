@@ -1,0 +1,61 @@
+{
+  "status": "completed",
+  "final_attempt": "attempt-03",
+  "generated_files": [
+    "artifacts/attempt-03/ids.json",
+    "artifacts/attempt-03/indicator.kicad_sch",
+    "artifacts/attempt-03/generate.py",
+    "artifacts/attempt-03/fp-lib-table",
+    "artifacts/attempt-03/indicator.net",
+    "artifacts/attempt-03/indicator.kicad_pro",
+    "artifacts/attempt-03/sym-lib-table",
+    "artifacts/attempt-03/indicator.kicad_dru",
+    "artifacts/attempt-03/indicator.kicad_pcb",
+    "artifacts/attempt-03/pcb.svg",
+    "artifacts/attempt-03/indicator.kicad_prl",
+    "artifacts/attempt-03/schematic-svg/indicator.svg",
+    "artifacts/attempt-03/libraries/Connector_Generic.kicad_sym",
+    "artifacts/attempt-03/libraries/Device.kicad_sym",
+    "artifacts/attempt-03/libraries/LED_SMD.pretty/LED_0805_2012Metric.kicad_mod",
+    "artifacts/attempt-03/libraries/Connector_PinHeader_2.54mm.pretty/PinHeader_1x02_P2.54mm_Vertical.kicad_mod",
+    "artifacts/attempt-03/libraries/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod",
+    "artifacts/README.md"
+  ],
+  "validation": {
+    "erc": {
+      "passed": true,
+      "errors": 0,
+      "warnings": 0,
+      "log_path": "logs/attempt-03-erc.rpt"
+    },
+    "drc": {
+      "passed": true,
+      "violations": 0,
+      "unconnected_pads": 0,
+      "schematic_parity_issues": 0,
+      "log_path": "logs/attempt-03-drc.rpt"
+    },
+    "schematic_netlist_export": {
+      "passed": true,
+      "log_path": "logs/attempt-03-validation.log"
+    },
+    "schematic_svg_export": {
+      "passed": true,
+      "log_path": "logs/attempt-03-validation.log"
+    },
+    "pcb_svg_export": {
+      "passed": true,
+      "log_path": "logs/attempt-03-validation.log"
+    },
+    "geometry": {
+      "log_path": "logs/final-measurements.json"
+    },
+    "physical_testing": null
+  },
+  "known_limitations": [
+    "Generic red 0805 LED; manufacturer part number and physical operation untested.",
+    "B.Cu is unused; all routing is on F.Cu.",
+    "KiCad Python emitted a nonfatal wxApp initialization assertion; raw diagnostic retained."
+  ],
+  "failure": null
+}

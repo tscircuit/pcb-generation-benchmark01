@@ -1,0 +1,30 @@
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="J1" positionAnchor="center" schX="-4" schY="0" width="1.4" height="0.6" />
+<SchematicBoxPlacement componentName="R2" positionAnchor="center" schX="3" schY="-3" width="0.9" height="0.6" />
+<SchematicBoxPlacement componentName="J2" positionAnchor="center" schX="16" schY="0" width="1.4" height="0.6" />
+<SchematicBoxPlacement componentName="R5" positionAnchor="center" schX="23" schY="-3" width="0.9" height="0.6" />
+<SchematicBoxPlacement componentName="J3" positionAnchor="center" schX="-4" schY="-14" width="1.4" height="0.6" />
+<SchematicBoxPlacement componentName="R8" positionAnchor="center" schX="3" schY="-17" width="0.9" height="0.6" />
+<SchematicBoxPlacement componentName="J4" positionAnchor="center" schX="16" schY="-14" width="1.4" height="0.6" />
+<SchematicBoxPlacement componentName="R11" positionAnchor="center" schX="23" schY="-17" width="0.9" height="0.6" />
+<SchematicBoxPlacement componentName="J5" positionAnchor="center" schX="-4" schY="-28" width="1.4" height="0.6" />
+<SchematicBoxPlacement componentName="R14" positionAnchor="center" schX="3" schY="-31" width="0.9" height="0.6" />
+<SchematicBoxPlacement componentName="J6" positionAnchor="center" schX="16" schY="-28" width="1.4" height="0.6" />
+<SchematicBoxPlacement componentName="R17" positionAnchor="center" schX="23" schY="-31" width="0.9" height="0.6" />
+<SchematicBoxPlacement componentName="J7" positionAnchor="center" schX="42" schY="-12" width="1.5" height="1.8" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<PinHeaderSchematicBoxTooWide message="Shrink schematic box width" componentName="J7" currentSchWidth="1.5" measuredInnerLabelHorizontalEmptySpace="1.02" maxAllowedInnerLabelHorizontalEmptySpace="0.1" suggestedSchWidth="0.58" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_1" targetComponentName="J1" deltaSchX="0" deltaSchY="-0.44" newSchX="-4" newSchY="-0.44" currentTurnCount="3" suggestedTurnCount="1" message="move J1 down by 0.44 (to schX=-4, schY=-0.44) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_1" targetComponentName="R2" deltaSchX="-4.6" deltaSchY="0" newSchX="-1.6" newSchY="-3" currentTurnCount="3" suggestedTurnCount="1" message="move R2 left by 4.6 (to schX=-1.6, schY=-3) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_2" targetComponentName="J2" deltaSchX="0" deltaSchY="-0.44" newSchX="16" newSchY="-0.44" currentTurnCount="3" suggestedTurnCount="1" message="move J2 down by 0.44 (to schX=16, schY=-0.44) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_2" targetComponentName="R5" deltaSchX="-4.6" deltaSchY="0" newSchX="18.4" newSchY="-3" currentTurnCount="3" suggestedTurnCount="1" message="move R5 left by 4.6 (to schX=18.4, schY=-3) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_3" targetComponentName="J3" deltaSchX="0" deltaSchY="-0.44" newSchX="-4" newSchY="-14.44" currentTurnCount="3" suggestedTurnCount="1" message="move J3 down by 0.44 (to schX=-4, schY=-14.44) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_3" targetComponentName="R8" deltaSchX="-4.6" deltaSchY="0" newSchX="-1.6" newSchY="-17" currentTurnCount="3" suggestedTurnCount="1" message="move R8 left by 4.6 (to schX=-1.6, schY=-17) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_4" targetComponentName="J4" deltaSchX="0" deltaSchY="-0.44" newSchX="16" newSchY="-14.44" currentTurnCount="3" suggestedTurnCount="1" message="move J4 down by 0.44 (to schX=16, schY=-14.44) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_4" targetComponentName="R11" deltaSchX="-4.6" deltaSchY="0" newSchX="18.4" newSchY="-17" currentTurnCount="3" suggestedTurnCount="1" message="move R11 left by 4.6 (to schX=18.4, schY=-17) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_5" targetComponentName="J5" deltaSchX="0" deltaSchY="-0.44" newSchX="-4" newSchY="-28.44" currentTurnCount="3" suggestedTurnCount="1" message="move J5 down by 0.44 (to schX=-4, schY=-28.44) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_5" targetComponentName="R14" deltaSchX="-4.6" deltaSchY="0" newSchX="-1.6" newSchY="-31" currentTurnCount="3" suggestedTurnCount="1" message="move R14 left by 4.6 (to schX=-1.6, schY=-31) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_6" targetComponentName="J6" deltaSchX="0" deltaSchY="-0.44" newSchX="16" newSchY="-28.44" currentTurnCount="3" suggestedTurnCount="1" message="move J6 down by 0.44 (to schX=16, schY=-28.44) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_6" targetComponentName="R17" deltaSchX="-4.6" deltaSchY="0" newSchX="18.4" newSchY="-31" currentTurnCount="3" suggestedTurnCount="1" message="move R17 left by 4.6 (to schX=18.4, schY=-31) to reduce this trace from 3 turns to 1" />
+</SchematicPlacementIssues>

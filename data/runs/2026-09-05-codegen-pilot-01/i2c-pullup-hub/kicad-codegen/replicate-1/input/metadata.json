@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1",
+  "prompt_id": "i2c-pullup-hub",
+  "revision": 1,
+  "title": "I2C connector and pull-up hub",
+  "labels": [
+    "medium",
+    "i2c",
+    "pull-up",
+    "connectors"
+  ],
+  "status": "draft",
+  "split": "unassigned",
+  "family": "i2c-hub",
+  "difficulty": "medium",
+  "deliverable_scope": "both",
+  "prompt_file": "prompt.md",
+  "prompt_sha256": "63731fd6945270a8a0584ce606aacb4b084064584774f34cc24007635c1b5810",
+  "assets": [],
+  "constraints": {
+    "board_width_mm": 45,
+    "board_height_mm": 35,
+    "copper_layers": 2,
+    "min_clearance_mm": 0.25,
+    "min_signal_trace_width_mm": 0.25
+  },
+  "acceptance_criteria": [
+    {
+      "criterion_id": "req-01",
+      "requirement": "Use a rectangular 45 mm \u00d7 35 mm board outline (dimension tolerance 0.1 mm) with two copper layers."
+    },
+    {
+      "criterion_id": "req-02",
+      "requirement": "Use three four-pin headers J1, J2, and J3. On each header, pins 1 through 4 are +3V3, GND, SDA, SCL. Connect corresponding signals across all three headers."
+    },
+    {
+      "criterion_id": "req-03",
+      "requirement": "Connect +3V3 through R1 = 4.7 kohm and a two-pad solder jumper JP1 in series to SDA. Connect +3V3 through R2 = 4.7 kohm and a separate two-pad solder jumper JP2 in series to SCL. Each jumper must have two isolated copper pads with a solderable gap and no default copper short."
+    },
+    {
+      "criterion_id": "req-04",
+      "requirement": "Add C1, C2, and C3, each 100 nF between +3V3 and GND, within 5 mm of the corresponding connector centre. Mark JP1 as SDA PU and JP2 as SCL PU."
+    },
+    {
+      "criterion_id": "req-05",
+      "requirement": "Place J1 within 5 mm of the left edge, J2 within 5 mm of the right edge, and J3 within 5 mm of the top edge, measured from footprint centres. This board contains no controller or peripheral IC."
+    },
+    {
+      "criterion_id": "deliverables",
+      "requirement": "Editable schematic and fully placed and routed PCB are supplied with readable entry files and a README documenting component choices and unresolved requirements."
+    },
+    {
+      "criterion_id": "common-layout",
+      "requirement": "Header pitch, passive packages, component pin mapping, silkscreen, board containment, copper clearance, trace widths, and complete routing satisfy the common prompt requirements."
+    }
+  ],
+  "source": {
+    "type": "original",
+    "description": "Authored for this benchmark; draft awaiting review."
+  },
+  "license": null
+}

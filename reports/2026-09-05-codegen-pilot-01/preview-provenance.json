@@ -1,0 +1,116 @@
+[
+  {
+    "source": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/pcb.png",
+    "preview": "reports/2026-09-05-codegen-pilot-01/previews/led-indicator--tscircuit-codegen.png",
+    "operation": "byte-for-byte copy with standardized filename",
+    "sha256": "5b28c5022ad2ba24e5dc2612bf1f5cef8aff9532725ac17b6302fdbc1596448b"
+  },
+  {
+    "source": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/pcb.svg",
+    "preview": "reports/2026-09-05-codegen-pilot-01/previews/led-indicator--kicad-codegen.svg",
+    "operation": "byte-for-byte copy with standardized filename",
+    "sha256": "add6d2671105fb26fff3f6ae151e4423f922c0f7fc4f6d5b89cab5bea8d6d73a"
+  },
+  {
+    "source": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/pcb.png",
+    "preview": "reports/2026-09-05-codegen-pilot-01/previews/rc-low-pass--tscircuit-codegen.png",
+    "operation": "byte-for-byte copy with standardized filename",
+    "sha256": "2b5d4799f7ebdd0b056bc47015fc67d60ed7f356e4c699c47fce457ce5cb7666"
+  },
+  {
+    "source": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/kicad-codegen/replicate-1/artifacts/attempt-02/pcb-svg",
+    "preview": "reports/2026-09-05-codegen-pilot-01/previews/rc-low-pass--kicad-codegen.svg",
+    "operation": "byte-for-byte copy with standardized filename",
+    "sha256": "a6126dc2c524cf34e9e61f57b317d86cd61b15ec8f22919d831ef8d9a92faac8"
+  },
+  {
+    "source": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/pcb.png",
+    "preview": "reports/2026-09-05-codegen-pilot-01/previews/voltage-divider--tscircuit-codegen.png",
+    "operation": "byte-for-byte copy with standardized filename",
+    "sha256": "d3c6cdbb4697e3f691cd72c36a82780eef249d1a2f5c9145e22eb7d67274dac9"
+  },
+  {
+    "source": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/attempt-02/pcb.svg",
+    "preview": "reports/2026-09-05-codegen-pilot-01/previews/voltage-divider--kicad-codegen.svg",
+    "operation": "byte-for-byte copy with standardized filename",
+    "sha256": "962069c822059bcbe4d290f3b66286268872a6242500e5a63ff18bff95660a71"
+  },
+  {
+    "source": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/pcb.png",
+    "preview": "reports/2026-09-05-codegen-pilot-01/previews/button-input-bank--tscircuit-codegen.png",
+    "operation": "byte-for-byte copy with standardized filename",
+    "sha256": "304cb6bcad535db2d39bf1a4a7146b1d5d9940e399f475c5b2500afdfb7fb63f"
+  },
+  {
+    "source": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/pcb-svg",
+    "preview": "reports/2026-09-05-codegen-pilot-01/previews/button-input-bank--kicad-codegen.svg",
+    "operation": "byte-for-byte copy with standardized filename",
+    "sha256": "ff716703d24d1690accb1b8d7315d62bb2053fbf979a3e9aad998e814a754003"
+  },
+  {
+    "source": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/artifacts/attempt-03/index/pcb.png",
+    "preview": "reports/2026-09-05-codegen-pilot-01/previews/i2c-pullup-hub--tscircuit-codegen.png",
+    "operation": "byte-for-byte copy with standardized filename",
+    "sha256": "3f370cbc3b23dc359d16a9ac6ee0efdf461e6119a00b33d5da2d02fe3f369d5d"
+  },
+  {
+    "source": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/pcb.png",
+    "preview": "reports/2026-09-05-codegen-pilot-01/previews/npn-led-driver--tscircuit-codegen.png",
+    "operation": "byte-for-byte copy with standardized filename",
+    "sha256": "b6ec7c73f61eea52878aad49fff7498b7c92dce3af028c0e55c7671bed472334"
+  },
+  {
+    "source": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/kicad-codegen/replicate-1/artifacts/attempt-03/pcb.svg",
+    "preview": "reports/2026-09-05-codegen-pilot-01/previews/npn-led-driver--kicad-codegen.svg",
+    "operation": "byte-for-byte copy with standardized filename",
+    "sha256": "d7a6186b65b7005fbeab08508c4834f2d5275075233bb73dd97da699b0d1b95a"
+  },
+  {
+    "source": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/pcb.png",
+    "preview": "reports/2026-09-05-codegen-pilot-01/previews/stereo-passive-attenuator--tscircuit-codegen.png",
+    "operation": "byte-for-byte copy with standardized filename",
+    "sha256": "7db0549411557cba62107e76d1b96090c487c392c2ca5b184198c73fbe11505c"
+  },
+  {
+    "source": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/pcb-svg",
+    "preview": "reports/2026-09-05-codegen-pilot-01/previews/stereo-passive-attenuator--kicad-codegen.svg",
+    "operation": "byte-for-byte copy with standardized filename",
+    "sha256": "e1b86ee7d1ff4d6656b878b442632bcb0ffbb88d5f0474528ef2570c5e18c5c4"
+  },
+  {
+    "source": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/pcb.png",
+    "preview": "reports/2026-09-05-codegen-pilot-01/previews/analog-input-bank--tscircuit-codegen.png",
+    "operation": "byte-for-byte copy with standardized filename",
+    "sha256": "bcc37831c3ecade45eeda7ad97ca0b4f0fad4dd45fa117db3c7623b4569758ce"
+  },
+  {
+    "source": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/board.svg",
+    "preview": "reports/2026-09-05-codegen-pilot-01/previews/analog-input-bank--kicad-codegen.svg",
+    "operation": "byte-for-byte copy with standardized filename",
+    "sha256": "c6b90acedbbc8432578fe8614954836d77cd90de71dcba575f5d776e1b2d207e"
+  },
+  {
+    "source": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/pcb.png",
+    "preview": "reports/2026-09-05-codegen-pilot-01/previews/diode-key-matrix--tscircuit-codegen.png",
+    "operation": "byte-for-byte copy with standardized filename",
+    "sha256": "88151d85f1726b5dc0679ddf1d7dfb1ebfceda3818b8cd5062581c7f126ff2ef"
+  },
+  {
+    "source": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/pcb-svg",
+    "preview": "reports/2026-09-05-codegen-pilot-01/previews/diode-key-matrix--kicad-codegen.svg",
+    "operation": "byte-for-byte copy with standardized filename",
+    "sha256": "24580f3ee7be44a5cb6fb6467bdb580726ae82220f9a397ba5ec9c5ba930bb07"
+  },
+  {
+    "source": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/pcb.png",
+    "preview": "reports/2026-09-05-codegen-pilot-01/previews/mosfet-output-bank--tscircuit-codegen.png",
+    "operation": "byte-for-byte copy with standardized filename",
+    "sha256": "d786cd36bde8021f147b376c5a5b918952d943ee6b494b91c5f90bc62b8e6e72"
+  },
+  {
+    "source": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/artifacts/attempt-03/board.svg",
+    "preview": "reports/2026-09-05-codegen-pilot-01/previews/mosfet-output-bank--kicad-codegen.svg",
+    "operation": "byte-for-byte copy with standardized filename",
+    "sha256": "215d5e03b1c60f674d32ecf7037e876aadef28448fcf5c40064871f375b6b137"
+  }
+]

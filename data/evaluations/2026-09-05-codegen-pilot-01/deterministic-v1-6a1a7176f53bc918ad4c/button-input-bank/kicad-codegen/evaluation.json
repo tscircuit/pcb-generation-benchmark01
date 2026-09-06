@@ -1,0 +1,479 @@
+{
+  "evaluation_id": "deterministic-v1-6a1a7176f53bc918ad4c--button-input-bank--kicad-codegen",
+  "evaluator_code_sha256": "4bb17d4993c1766c19a22f6394e12369197e4a58a5c8937192b3be89211ad4f3",
+  "method": "kicad-codegen",
+  "outcomes": [
+    {
+      "category": "functional_requirements",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "actual": {
+          "capacitor": 4,
+          "header": 1,
+          "resistor": 4,
+          "switch": 4
+        },
+        "expected": {
+          "capacitor": 4,
+          "header": 1,
+          "resistor": 4,
+          "switch": 4
+        }
+      },
+      "outcome": "pass",
+      "test_id": "required-components"
+    },
+    {
+      "category": "functional_requirements",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "net_mapping": {
+          "BTN1": "BTN1",
+          "BTN2": "BTN2",
+          "BTN3": "BTN3",
+          "BTN4": "BTN4",
+          "GND": "GND",
+          "V3": "+3V3"
+        },
+        "role_mapping": {
+          "C1": "C1",
+          "C2": "C2",
+          "C3": "C3",
+          "C4": "C4",
+          "J1": "J1",
+          "R1": "R1",
+          "R2": "R2",
+          "R3": "R3",
+          "R4": "R4",
+          "SW1": "SW1",
+          "SW2": "SW2",
+          "SW3": "SW3",
+          "SW4": "SW4"
+        }
+      },
+      "outcome": "pass",
+      "test_id": "passive-values"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "net_mapping": {
+          "BTN1": "BTN1",
+          "BTN2": "BTN2",
+          "BTN3": "BTN3",
+          "BTN4": "BTN4",
+          "GND": "GND",
+          "V3": "+3V3"
+        },
+        "role_mapping": {
+          "C1": "C1",
+          "C2": "C2",
+          "C3": "C3",
+          "C4": "C4",
+          "J1": "J1",
+          "R1": "R1",
+          "R2": "R2",
+          "R3": "R3",
+          "R4": "R4",
+          "SW1": "SW1",
+          "SW2": "SW2",
+          "SW3": "SW3",
+          "SW4": "SW4"
+        }
+      },
+      "outcome": "pass",
+      "test_id": "topology"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "logical_partitions": [
+          [
+            "C1.1",
+            "J1.3",
+            "R1.2",
+            "SW1.1"
+          ],
+          [
+            "C1.2",
+            "C2.2",
+            "C3.2",
+            "C4.2",
+            "J1.2",
+            "SW1.2",
+            "SW2.2",
+            "SW3.2",
+            "SW4.2"
+          ],
+          [
+            "C2.1",
+            "J1.4",
+            "R2.2",
+            "SW2.1"
+          ],
+          [
+            "C3.1",
+            "J1.5",
+            "R3.2",
+            "SW3.1"
+          ],
+          [
+            "C4.1",
+            "J1.6",
+            "R4.2",
+            "SW4.1"
+          ],
+          [
+            "J1.1",
+            "R1.1",
+            "R2.1",
+            "R3.1",
+            "R4.1"
+          ]
+        ],
+        "pcb_partitions": [
+          [
+            "C1.1",
+            "J1.3",
+            "R1.2",
+            "SW1.1"
+          ],
+          [
+            "C1.2",
+            "C2.2",
+            "C3.2",
+            "C4.2",
+            "J1.2",
+            "SW1.2",
+            "SW2.2",
+            "SW3.2",
+            "SW4.2"
+          ],
+          [
+            "C2.1",
+            "J1.4",
+            "R2.2",
+            "SW2.1"
+          ],
+          [
+            "C3.1",
+            "J1.5",
+            "R3.2",
+            "SW3.1"
+          ],
+          [
+            "C4.1",
+            "J1.6",
+            "R4.2",
+            "SW4.1"
+          ],
+          [
+            "J1.1",
+            "R1.1",
+            "R2.1",
+            "R3.1",
+            "R4.1"
+          ]
+        ]
+      },
+      "outcome": "pass",
+      "test_id": "schematic-pcb-net-agreement"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": [],
+        "primitive_count": 105,
+        "scope": "supported outer copper envelopes; no source/build replay"
+      },
+      "outcome": "pass",
+      "test_id": "routed-copper"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": [],
+        "primitive_count": 105,
+        "scope": "supported outer copper envelopes; no source/build replay"
+      },
+      "outcome": "pass",
+      "test_id": "no-copper-shorts"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "height_mm": 35.0,
+        "width_mm": 50.0
+      },
+      "outcome": "pass",
+      "test_id": "board-size"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "layers": 2
+      },
+      "outcome": "pass",
+      "test_id": "layers"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "minimum_mm": 0.3
+      },
+      "outcome": "pass",
+      "test_id": "trace-width"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": [],
+        "primitive_count": 105,
+        "scope": "supported outer copper envelopes; no source/build replay"
+      },
+      "outcome": "pass",
+      "test_id": "copper-clearance"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "outside": []
+      },
+      "outcome": "pass",
+      "test_id": "component-containment"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": []
+      },
+      "outcome": "pass",
+      "test_id": "header-pitch"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "recognition": "two surface pads, centre spacing 1.6\u20132.2 mm, short side 0.8\u20131.3 mm and long side 1.1\u20131.7 mm"
+      },
+      "outcome": "pass",
+      "test_id": "passive-packages"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "Automated presence of text does not verify pin/signal association, polarity, and readable silkscreen placement."
+      },
+      "outcome": "unknown",
+      "test_id": "signal-markings"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "minimum_spacing_mm": 11.0,
+        "positions_mm": [
+          [
+            8.25,
+            -25.25
+          ],
+          [
+            19.25,
+            -25.25
+          ],
+          [
+            30.25,
+            -25.25
+          ],
+          [
+            41.25,
+            -25.25
+          ]
+        ]
+      },
+      "outcome": "pass",
+      "test_id": "layout-01"
+    },
+    {
+      "category": "functional_requirements",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "Normally-open momentary behavior and internal switch-terminal grouping need verified component-library evidence."
+      },
+      "outcome": "unknown",
+      "test_id": "component-evidence-01"
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "scope": "structural parsing, not source replay"
+      },
+      "outcome": "pass",
+      "test_id": "editable-artifacts"
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "path": "artifacts/README.md"
+      },
+      "outcome": "pass",
+      "test_id": "readme"
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "A read-only static audit does not prove source/build reproducibility, exported-netlist freshness, or the semantic completeness of README component/limitation documentation."
+      },
+      "outcome": "unknown",
+      "test_id": "source-replay-and-documentation"
+    }
+  ],
+  "parse_error": null,
+  "prompt_id": "button-input-bank",
+  "prompt_sha256": "41d352cc9a6280e14727ad0186f65a05ced344cb4a848c5689204b0beea64e47",
+  "retrospective": true,
+  "rules_sha256": "b49595a78f488fca2966047d88d0b3625fb08cc6eee5e844b597899126e6131c",
+  "run_id": "2026-09-05-codegen-pilot-01--button-input-bank--kicad-codegen--r1",
+  "schema_version": "1.0.0",
+  "scores": {
+    "applicable_test_count": 19,
+    "category_scores": [
+      {
+        "applicable": true,
+        "category": "functional_requirements",
+        "failed": 0,
+        "passed": 2,
+        "possible_score_max": 2,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 1,
+        "weight": 30
+      },
+      {
+        "applicable": true,
+        "category": "connectivity",
+        "failed": 0,
+        "passed": 4,
+        "possible_score_max": 2,
+        "possible_score_min": 2,
+        "score": 2,
+        "unknown_or_unsupported": 0,
+        "weight": 30
+      },
+      {
+        "applicable": true,
+        "category": "physical_constraints",
+        "failed": 0,
+        "passed": 8,
+        "possible_score_max": 2,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 1,
+        "weight": 20
+      },
+      {
+        "applicable": true,
+        "category": "deliverable_integrity",
+        "failed": 0,
+        "passed": 2,
+        "possible_score_max": 2,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 1,
+        "weight": 20
+      }
+    ],
+    "critical_failure": false,
+    "overall_pass": null,
+    "possible_total_max": 100.0,
+    "possible_total_min": 65.0,
+    "resolved_test_count": 16,
+    "total_score": null
+  },
+  "versions": {
+    "artifact_readers": "stdlib-only; no external native tool replay",
+    "evaluator": "1.0.0",
+    "python": "3.9.6"
+  }
+}

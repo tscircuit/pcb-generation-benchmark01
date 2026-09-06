@@ -1,0 +1,24 @@
+$ tsci build index.circuit.tsx --svgs --pcb-png --disable-parts-engine --autorouter-timeout 120s
+Building 1 file(s)...
+Building index.circuit.tsx...
+Generating circuit JSON...
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. See https://react.dev/link/warning-keys for more information.
+Circuit JSON written to dist/index/circuit.json
+No <schematicsheet> was found. Add a <schematicsheet> to define the schematic drawing area.
+Generating preview images...
+[index] Generating PCB SVG...
+[index] Written pcb.svg
+[index] Generating PCB PNG...
+[index] Written pcb.png
+[index] Generating schematic SVG...
+[index] Written schematic.svg
+
+Build complete
+  Circuits  1 passed
+  Options   pcb-png, svgs, autorouter-timeout
+  Output    dist
+
+✓ Done
+Build exiting with code 0: build finished successfully

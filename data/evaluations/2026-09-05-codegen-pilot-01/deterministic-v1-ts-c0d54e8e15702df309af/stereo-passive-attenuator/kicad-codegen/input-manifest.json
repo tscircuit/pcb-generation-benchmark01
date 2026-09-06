@@ -1,0 +1,98 @@
+[
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/README.md",
+    "sha256": "55c354737a0cd5f67ad779cfd07d5dac57018719f21c0f50f14be7b6e2f2ce4d"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/attenuator.kicad_dru",
+    "sha256": "b98dc70a6803e8266cedf4158996c707f128d7c1a180187cda5f5cd063a3c1c7"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/attenuator.kicad_pcb",
+    "sha256": "19db15c57e0d314e3cfebca723f4a154da6c6b9c29efe57da5f9afa7bdbcc4c3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/attenuator.kicad_prl",
+    "sha256": "beb048e680e60483284b81456807f45f80801bd82d49b6fa891a98ccecd995bb"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/attenuator.kicad_pro",
+    "sha256": "499939bce73edd90119723df6ef6554fd0789500fe3071fb9ddcb8849d4f8b5c"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/attenuator.kicad_sch",
+    "sha256": "fe28eb13a5390298a7489db708ca1daf642b611ff230e8a76f487e8cf0b96f2d"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/attenuator.net",
+    "sha256": "b343de5a0ab0d898d41fa4ba299d00b0d08b65ea88664a013b47cf21fb29ad06"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/connectivity.json",
+    "sha256": "dcd96f624ea8895bf7d6a78ce35993d7471bacbf8e2ee2266ab27bc33231f3f6"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/fp-lib-table",
+    "sha256": "bb612a3d3adb846047c69a073bcb5f57b6e25114b9f53eb69cb11d64b25f27d5"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/generate.py",
+    "sha256": "134c573a4e2094fae0fa07bd420f692bc437b6ce33375b4370717cd28202bbff"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/libraries/Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod",
+    "sha256": "62775a51fe74ba7f1b572de327bdbd3fc92582721b2abcaa47787865590d89cb"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/libraries/Connector.kicad_sym",
+    "sha256": "06831dba6edf4e7b0dcc4782c6831a986ecb72499edc182e213555cf0c2a2412"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/libraries/Connector_Generic.kicad_sym",
+    "sha256": "a9491b796fbb43dd45ff34883de3fb40d81665b3068626cc8b7d4abda879a0d0"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/libraries/Connector_PinHeader_2.54mm.pretty/PinHeader_1x03_P2.54mm_Vertical.kicad_mod",
+    "sha256": "e5f24b6fea852f86171042806da48490229c9c8025b6d266b8cad6485b26e79f"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/libraries/Device.kicad_sym",
+    "sha256": "954e5f591b88dedaa8de3eba2b63c52f65011d94085d3c6ee22615a5bf017aaf"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/libraries/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod",
+    "sha256": "f050b6a50cc7e6f86291fb7aa8f87b0d02255e21cfbddf291cdccc87e5889794"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/libraries/TestPoint.pretty/TestPoint_Pad_D1.5mm.kicad_mod",
+    "sha256": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/pcb-svg",
+    "sha256": "e1b86ee7d1ff4d6656b878b442632bcb0ffbb88d5f0474528ef2570c5e18c5c4"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/schematic-svg/attenuator.svg",
+    "sha256": "a20b6001fa8d08b95affb76c203799b1056273537ebe9e902b41a34c4e9cccc7"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/artifacts/attempt-03/sym-lib-table",
+    "sha256": "40bb9982154a883fb0edf6c8f6857e2527846cf0b0ba1464ac3215aa324f8f81"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/input/metadata.json",
+    "sha256": "6adf523765495f5d5e17a300df3478f96e21229d12f7a1718d36a1113fce1eff"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/input/prompt.md",
+    "sha256": "2af5de18a6c2a7bf188a0b22ee6714466cbfa080c2f6a28bdd81a3579968fb4a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/result.json",
+    "sha256": "09bc1b100338760b3b635349a3f68ee2322d132804e03138781a093a584d5345"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/kicad-codegen/replicate-1/run.json",
+    "sha256": "1a19e3aab7436ecf63364b617fa6c623629233108384a744f637a89c15d67891"
+  }
+]

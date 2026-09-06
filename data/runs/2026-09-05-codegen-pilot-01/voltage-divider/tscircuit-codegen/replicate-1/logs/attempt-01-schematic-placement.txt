@@ -1,0 +1,15 @@
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="J1" positionAnchor="center" schX="-2.142" schY="-0.827" width="1.4" height="0.6" />
+<SchematicBoxPlacement componentName="J2" positionAnchor="center" schX="0.508" schY="-0.827" width="1.5" height="0.6" />
+<SchematicBoxPlacement componentName="R1" positionAnchor="center" schX="2.757" schY="-0.827" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R2" positionAnchor="center" schX="4.803" schY="-0.827" width="0.9" height="0.6" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_1" targetComponentName="R1" deltaSchX="0" deltaSchY="+0.5" newSchX="2.757" newSchY="-0.327" currentTurnCount="3" suggestedTurnCount="1" message="move R1 up by 0.5 (to schX=2.757, schY=-0.327) to reduce this trace from 3 turns to 1" />
+<ComponentNetLabelCollision pair1="J1/J2">
+  <SuggestedFix note="Apply all moves simultaneously. Set schAutoLayoutEnabled on your circuit.">
+    <Move componentName="J1" newSchX="-2.63" newSchY="-0.83" />
+    <Move componentName="J2" newSchX="1" newSchY="-0.83" />
+  </SuggestedFix>
+</ComponentNetLabelCollision>
+</SchematicPlacementIssues>

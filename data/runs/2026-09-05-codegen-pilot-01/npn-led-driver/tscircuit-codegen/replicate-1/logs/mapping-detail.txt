@@ -1,0 +1,86 @@
+}
+
+// lib/components/normal-components/Transistor.ts
+import { transistorProps } from "@tscircuit/props";
+var SHORT_ALIASES = {
+  collector: ["c"],
+  base: ["b"],
+  emitter: ["e"]
+};
+var Transistor = class extends NormalComponent3 {
+  get config() {
+    const baseSymbolName = this.props.type === "npn" ? "npn_bipolar_transistor" : "pnp_bipolar_transistor";
+    return {
+      componentName: "Transistor",
+      schematicSymbolName: this.props.symbolName ?? baseSymbolName,
+      zodProps: transistorProps,
+      sourceFtype: "simple_transistor",
+      shouldRenderAsSchematicBox: false
+    };
+  }
+  initPorts() {
+    const additionalAliases = {};
+    const symbol = this.getSchematicSymbol();
+    for (const symPort of symbol?.ports ?? []) {
+      const pinNumber = getPinNumberFromLabels(symPort.labels);
+      if (!pinNumber) continue;
+      for (const label of symPort.labels) {
+        const shortAliases = SHORT_ALIASES[label];
+        if (shortAliases) {
+          additionalAliases[`pin${pinNumber}`] = shortAliases;
+        }
+      }
+    }
+    super.initPorts({
+      pinCount: 3,
+      additionalAliases
+    });
+  }
+  get collector() {
+    return this.portMap.collector;
+  }
+  get base() {
+    return this.portMap.base;
+  }
+  get emitter() {
+    return this.portMap.emitter;
+  }
+  doInitialCreateNetsFromProps() {
+    this._createNetsFromProps([...this._getNetsFromConnectionsProp()]);
+  }
+  doInitialCreateTracesFromProps() {
+    this._createTracesFromConnectionsProp();
+  }
+  doInitialSourceRender() {
+    const { db } = this.root;
+    const { _parsedProps: props } = this;
+    serverUrl?: string;
+    inputFormat?: "simplified" | "circuit-json";
+    serverMode?: "job" | "solve-endpoint";
+    serverCacheEnabled?: boolean;
+    cache?: PcbRouteCache;
+    traceClearance?: Distance;
+    availableJumperTypes?: Array<"1206x4" | "0603">;
+    allowViaInPad?: boolean;
+    groupMode?: "sequential_trace" | "subcircuit" | /** @deprecated Use "sequential_trace" */ "sequential-trace";
+    local?: boolean;
+    algorithmFn?: (simpleRouteJson: any) => Promise<any>;
+    /** Override the solver used to place implicit breakout points. */
+    implicitBreakoutPointSolverFn?: ImplicitBreakoutPointSolverFn;
+    preset?: "sequential_trace" | "subcircuit" | "default" | "auto" | "auto_local" | "auto_cloud" | "auto_jumper" | "tscircuit_beta" | "krt" | "freerouting" | "laser_prefab" | "single_layer_fanout" | "fanout" | /** @deprecated Use "auto_jumper" */ "auto-jumper" | /** @deprecated Use "sequential_trace" */ "sequential-trace" | /** @deprecated Use "auto_local" */ "auto-local" | /** @deprecated Use "auto_cloud" */ "auto-cloud";
+}
+type AutorouterPreset = "sequential_trace" | "subcircuit" | "default" | "auto" | "auto_local" | "auto_cloud" | "auto_jumper" | "tscircuit_beta" | "krt" | "freerouting" | "laser_prefab" | "single_layer_fanout" | "fanout" | "auto-jumper" | "sequential-trace" | "auto-local" | "auto-cloud";
+type AutorouterProp = AutorouterConfig | AutocompleteString<AutorouterPreset>;
+declare const routingTolerances: z.ZodObject<{
+    minTraceWidth: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+    minViaHoleEdgeToViaHoleEdgeClearance: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+20953:    minTraceWidth?: Distance;
+21034:    minTraceWidth?: Distance;
+21063:    minTraceWidth: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+21073:    minTraceWidth?: number | undefined;
+21083:    minTraceWidth?: string | number | undefined;
+21335:    minTraceWidth: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+21893:    minTraceWidth?: number | undefined;
+22153:    minTraceWidth?: string | number | undefined;
+22870:    minTraceWidth: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+23179:    minTraceWidth?: number | undefined;

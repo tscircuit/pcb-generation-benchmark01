@@ -1,0 +1,84 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "2026-09-05-codegen-pilot-01",
+  "run_id": "2026-09-05-codegen-pilot-01--led-indicator--tscircuit-codegen--r1",
+  "prompt_id": "led-indicator",
+  "prompt_revision": 1,
+  "prompt_sha256": "ac819606ce733f29806a8bc142714050d32099f1bef99a8d611b0e0581442f5b",
+  "method": "tscircuit-codegen",
+  "replicate": 1,
+  "status": "completed",
+  "repository_commit": "a9d1e4f7624451818322ebec60f5e12dd4b3f9a6",
+  "started_at": "2026-09-05T18:08:48.441585+00:00",
+  "ended_at": "2026-09-05T18:15:04.567826+00:00",
+  "model": {
+    "provider": null,
+    "name": null,
+    "reasoning_effort": null,
+    "sampling": {}
+  },
+  "environment": {
+    "tool_versions": {
+      "tsci": "0.0.2462",
+      "kicad-cli": "10.0.6",
+      "bun": "1.3.14",
+      "python": "3.9.6"
+    },
+    "os": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "budget": {
+    "wall_time_seconds": 900,
+    "max_tokens": null,
+    "max_tool_calls": null
+  },
+  "usage": {
+    "wall_time_seconds": 376.126241,
+    "input_tokens": null,
+    "output_tokens": null,
+    "tool_calls": null,
+    "cost_usd": null
+  },
+  "attempts": [
+    {
+      "attempt_id": "attempt-01",
+      "artifact_directory": "artifacts/attempt-01",
+      "outcome": "superseded"
+    },
+    {
+      "attempt_id": "attempt-02",
+      "artifact_directory": "artifacts/attempt-02",
+      "outcome": "completed"
+    }
+  ],
+  "artifacts": [
+    "artifacts/README.md",
+    "artifacts/attempt-02/environment.bun.lock",
+    "artifacts/attempt-02/package.json",
+    "artifacts/attempt-02/index.circuit.tsx",
+    "artifacts/attempt-02/inspection.json",
+    "artifacts/attempt-02/dist/index/pcb.png",
+    "artifacts/attempt-02/dist/index/schematic.svg",
+    "artifacts/attempt-02/dist/index/schematic.png",
+    "artifacts/attempt-02/dist/index/circuit.json",
+    "artifacts/attempt-02/dist/index/pcb.svg",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-204639452bff11565a086c375be54719.json",
+    "artifacts/attempt-02/.tscircuit/cache/747d7e3a11-60bbe4487cfdfab0e8a20e458fa25440.json",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-9f603b87a601b12dc88e706884a0f5dd.json",
+    "artifacts/attempt-02/.tscircuit/cache/w2_p2_54__-ee9729f8721473af1fb535458baa3268.json",
+    "artifacts/attempt-02/.tscircuit/cache/3069b12c11-4d95e5b75b115cb30eec1d322022d4bc.json",
+    "artifacts/attempt-01/environment.bun.lock",
+    "artifacts/attempt-01/package.json",
+    "artifacts/attempt-01/index.circuit.tsx",
+    "artifacts/attempt-01/dist/index/pcb.png",
+    "artifacts/attempt-01/dist/index/schematic.svg",
+    "artifacts/attempt-01/dist/index/schematic.png",
+    "artifacts/attempt-01/dist/index/circuit.json",
+    "artifacts/attempt-01/dist/index/pcb.svg",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-204639452bff11565a086c375be54719.json",
+    "artifacts/attempt-01/.tscircuit/cache/747d7e3a11-60bbe4487cfdfab0e8a20e458fa25440.json",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-9f603b87a601b12dc88e706884a0f5dd.json",
+    "artifacts/attempt-01/.tscircuit/cache/w2_p2_54__-ee9729f8721473af1fb535458baa3268.json"
+  ],
+  "failure": null,
+  "notes": "Exploratory pilot; GUI method excluded by user. Read result.json and raw validation logs for limitations. Parent-generated after agent thread limit; prior orchestration context is a confound."
+}

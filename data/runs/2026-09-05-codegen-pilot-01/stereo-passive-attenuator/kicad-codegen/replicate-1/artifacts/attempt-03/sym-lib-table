@@ -1,0 +1,4 @@
+(sym_lib_table
+(lib (name "Connector") (type "KiCad") (uri "${KIPRJMOD}/libraries/Connector.kicad_sym") (options "") (descr "Bundled standard KiCad library subset"))
+(lib (name "Connector_Generic") (type "KiCad") (uri "${KIPRJMOD}/libraries/Connector_Generic.kicad_sym") (options "") (descr "Bundled standard KiCad library subset"))
+(lib (name "Device") (type "KiCad") (uri "${KIPRJMOD}/libraries/Device.kicad_sym") (options "") (descr "Bundled standard KiCad library subset")))

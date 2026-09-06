@@ -1,0 +1,111 @@
+{
+  "status": "completed",
+  "final_attempt": "attempt-02",
+  "generated_files": [
+    "artifacts/README.md",
+    "artifacts/attempt-02/package.json",
+    "artifacts/attempt-02/index.circuit.tsx",
+    "artifacts/attempt-02/dist/index/pcb.png",
+    "artifacts/attempt-02/dist/index/schematic.svg",
+    "artifacts/attempt-02/dist/index/schematic.png",
+    "artifacts/attempt-02/dist/index/circuit.json",
+    "artifacts/attempt-02/dist/index/pcb.svg",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-9f603b87a601b12dc88e706884a0f5dd.json",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-9a9a94a3705b3d3fab70d5a3caea3a34.json",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-7e9b043a1765415211070137734d1fa5.json",
+    "artifacts/attempt-02/.tscircuit/cache/shbutton__-4a8a8792604a0ff802db25caf1b3d730.json",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-f42b00ec23fc22eb47b53b7aad96d123.json",
+    "artifacts/attempt-02/.tscircuit/cache/shbutton__-f365d435b66418857a6ca7cafaf50b3b.json",
+    "artifacts/attempt-02/.tscircuit/cache/2838f4e834-983cea1483fe4f155a281c4ee9717314.json",
+    "artifacts/attempt-02/.tscircuit/cache/shbutton__-f9131b810046ab1ff072c7787eca5274.json",
+    "artifacts/attempt-02/.tscircuit/cache/shbutton__-627cb6deac72a2d8932c7e62e4e55c4f.json",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-27a59f81d8c60374e654b386339cfe23.json",
+    "artifacts/attempt-02/.tscircuit/cache/_p2_54mm__-a1d1ccdb87c7c7ea926f8c6651b98979.json",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-bc54dedd8da2c2029fd5f1c1b235b4f6.json",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-3a06863b7b647f829860bd4b5a4c3169.json",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-449e20854ae5a6bd2728bbe0660d4352.json",
+    "artifacts/attempt-03/package.json",
+    "artifacts/attempt-03/index.circuit.tsx",
+    "artifacts/attempt-03/dist/index/pcb.png",
+    "artifacts/attempt-03/dist/index/schematic.svg",
+    "artifacts/attempt-03/dist/index/schematic.png",
+    "artifacts/attempt-03/dist/index/circuit.json",
+    "artifacts/attempt-03/dist/index/pcb.svg",
+    "artifacts/attempt-03/.tscircuit/cache/g___0805__-9f603b87a601b12dc88e706884a0f5dd.json",
+    "artifacts/attempt-03/.tscircuit/cache/g___0805__-9a9a94a3705b3d3fab70d5a3caea3a34.json",
+    "artifacts/attempt-03/.tscircuit/cache/g___0805__-7e9b043a1765415211070137734d1fa5.json",
+    "artifacts/attempt-03/.tscircuit/cache/shbutton__-4a8a8792604a0ff802db25caf1b3d730.json",
+    "artifacts/attempt-03/.tscircuit/cache/g___0805__-f42b00ec23fc22eb47b53b7aad96d123.json",
+    "artifacts/attempt-03/.tscircuit/cache/shbutton__-f365d435b66418857a6ca7cafaf50b3b.json",
+    "artifacts/attempt-03/.tscircuit/cache/2838f4e834-983cea1483fe4f155a281c4ee9717314.json",
+    "artifacts/attempt-03/.tscircuit/cache/shbutton__-f9131b810046ab1ff072c7787eca5274.json",
+    "artifacts/attempt-03/.tscircuit/cache/shbutton__-627cb6deac72a2d8932c7e62e4e55c4f.json",
+    "artifacts/attempt-03/.tscircuit/cache/g___0805__-27a59f81d8c60374e654b386339cfe23.json",
+    "artifacts/attempt-03/.tscircuit/cache/_p2_54mm__-a1d1ccdb87c7c7ea926f8c6651b98979.json",
+    "artifacts/attempt-03/.tscircuit/cache/g___0805__-bc54dedd8da2c2029fd5f1c1b235b4f6.json",
+    "artifacts/attempt-03/.tscircuit/cache/g___0805__-3a06863b7b647f829860bd4b5a4c3169.json",
+    "artifacts/attempt-03/.tscircuit/cache/g___0805__-449e20854ae5a6bd2728bbe0660d4352.json",
+    "artifacts/attempt-01/package.json",
+    "artifacts/attempt-01/index.circuit.tsx",
+    "artifacts/attempt-01/dist/index/pcb.png",
+    "artifacts/attempt-01/dist/index/schematic.svg",
+    "artifacts/attempt-01/dist/index/circuit.json",
+    "artifacts/attempt-01/dist/index/pcb.svg",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-9f603b87a601b12dc88e706884a0f5dd.json",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-9a9a94a3705b3d3fab70d5a3caea3a34.json",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-7e9b043a1765415211070137734d1fa5.json",
+    "artifacts/attempt-01/.tscircuit/cache/shbutton__-4a8a8792604a0ff802db25caf1b3d730.json",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-f42b00ec23fc22eb47b53b7aad96d123.json",
+    "artifacts/attempt-01/.tscircuit/cache/shbutton__-f365d435b66418857a6ca7cafaf50b3b.json",
+    "artifacts/attempt-01/.tscircuit/cache/shbutton__-f9131b810046ab1ff072c7787eca5274.json",
+    "artifacts/attempt-01/.tscircuit/cache/a5132cfafb-03e3b6eccad5a460719250d32c0d5253.json",
+    "artifacts/attempt-01/.tscircuit/cache/shbutton__-627cb6deac72a2d8932c7e62e4e55c4f.json",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-27a59f81d8c60374e654b386339cfe23.json",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-bc54dedd8da2c2029fd5f1c1b235b4f6.json",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-3a06863b7b647f829860bd4b5a4c3169.json",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-449e20854ae5a6bd2728bbe0660d4352.json"
+  ],
+  "validation": {
+    "netlist": {
+      "status": "passed",
+      "exit_code": 0,
+      "log_path": "logs/attempt-02-netlist.log"
+    },
+    "schematic-placement": {
+      "status": "warning",
+      "exit_code": 0,
+      "log_path": "logs/attempt-02-schematic-placement.log"
+    },
+    "placement": {
+      "status": "passed",
+      "exit_code": 0,
+      "log_path": "logs/attempt-02-placement.log"
+    },
+    "build": {
+      "status": "passed",
+      "exit_code": 0,
+      "log_path": "logs/attempt-02-build.log"
+    },
+    "shorts": {
+      "status": "passed",
+      "exit_code": 0,
+      "log_path": "logs/attempt-02-shorts.log"
+    },
+    "connectivity-audit": {
+      "status": "passed",
+      "exit_code": 0,
+      "log_path": "logs/attempt-02-connectivity-audit.log"
+    },
+    "minimum_physical_copper_clearance_mm": null
+  },
+  "known_limitations": [
+    "J1 schematic box too wide warning remains in selected attempt despite exit code 0.",
+    "Automatic J1 supplier footprint mismatch; generic 2.54 mm through-hole header is the design intent, not the auto-selected supplier item.",
+    "Minimum physical copper clearance and independent geometric opens check are unmeasured; configured clearances are 0.25 mm.",
+    "Generic switch footprint requires a matching physical normally-open momentary component with 1/2 and 3/4 internal terminal pairs.",
+    "Attempt 3 has an empty schematic preview and is not selected; original artifacts retained."
+  ],
+  "failure": null,
+  "correctness_certified": false,
+  "attempt_count": 3
+}

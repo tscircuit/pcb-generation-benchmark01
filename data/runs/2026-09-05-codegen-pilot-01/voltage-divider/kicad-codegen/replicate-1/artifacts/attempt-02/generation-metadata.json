@@ -1,0 +1,172 @@
+{
+  "root_uuid": "058fdc37-9d13-4238-92bc-19f4bfc1b876",
+  "symbol_uuids": {
+    "J1": "4772c41c-351f-4a8c-a6cf-ec45626fbb2c",
+    "J2": "b7a5056d-4582-4e35-be50-9e574915f79b",
+    "R1": "391a294f-4089-4e9e-89fd-ad1420e24cde",
+    "R2": "5669b9ae-9301-469d-aa53-d073426e116b",
+    "TP1": "99469ad4-01ef-4572-a0f6-eff8f3420a4d",
+    "TP2": "0d6cb9fb-d7b5-4ca7-95ae-1c554e234544"
+  },
+  "components": [
+    [
+      "J1",
+      "Connector_Generic:Conn_01x02",
+      "INPUT",
+      "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      [
+        50.8,
+        50.8
+      ],
+      {
+        "1": "VIN",
+        "2": "GND"
+      },
+      {
+        "1": [
+          -5.08,
+          0
+        ],
+        "2": [
+          -5.08,
+          -2.54
+        ]
+      },
+      [
+        4,
+        8
+      ]
+    ],
+    [
+      "J2",
+      "Connector_Generic:Conn_01x02",
+      "OUTPUT",
+      "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      [
+        111.76,
+        50.8
+      ],
+      {
+        "1": "VOUT",
+        "2": "GND"
+      },
+      {
+        "1": [
+          -5.08,
+          0
+        ],
+        "2": [
+          -5.08,
+          -2.54
+        ]
+      },
+      [
+        26,
+        8
+      ]
+    ],
+    [
+      "R1",
+      "Device:R",
+      "10k",
+      "Resistor_SMD:R_0805_2012Metric",
+      [
+        71.12,
+        50.8
+      ],
+      {
+        "1": "VIN",
+        "2": "VOUT"
+      },
+      {
+        "1": [
+          0,
+          3.81
+        ],
+        "2": [
+          0,
+          -3.81
+        ]
+      },
+      [
+        11,
+        8
+      ]
+    ],
+    [
+      "R2",
+      "Device:R",
+      "10k",
+      "Resistor_SMD:R_0805_2012Metric",
+      [
+        91.44,
+        50.8
+      ],
+      {
+        "1": "VOUT",
+        "2": "GND"
+      },
+      {
+        "1": [
+          0,
+          3.81
+        ],
+        "2": [
+          0,
+          -3.81
+        ]
+      },
+      [
+        18,
+        12
+      ]
+    ],
+    [
+      "TP1",
+      "Connector:TestPoint",
+      "VOUT",
+      "TestPoint:TestPoint_Pad_D1.5mm",
+      [
+        71.12,
+        73.66
+      ],
+      {
+        "1": "VOUT"
+      },
+      {
+        "1": [
+          0,
+          0
+        ]
+      },
+      [
+        22,
+        5
+      ]
+    ],
+    [
+      "TP2",
+      "Connector:TestPoint",
+      "GND",
+      "TestPoint:TestPoint_Pad_D1.5mm",
+      [
+        91.44,
+        73.66
+      ],
+      {
+        "1": "GND"
+      },
+      {
+        "1": [
+          0,
+          0
+        ]
+      },
+      [
+        10,
+        16
+      ]
+    ]
+  ],
+  "tracks": 12
+}
