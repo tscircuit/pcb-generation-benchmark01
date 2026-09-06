@@ -1,0 +1,939 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "outcome": "header omitted due to invalid pin label; retained",
+      "path": "artifacts/attempt-01"
+    },
+    {
+      "attempt": 2,
+      "outcome": "selected; routed with documented warnings",
+      "path": "artifacts/attempt-02"
+    },
+    {
+      "attempt": 3,
+      "outcome": "empty schematic preview; retained, not selected",
+      "path": "artifacts/attempt-03"
+    }
+  ],
+  "events": [
+    {
+      "item": {
+        "content": [
+          {
+            "text": "<recommended_plugins>\nHere is a list of plugins that are available but not installed.\n\n- Airtable (airtable@openai-curated-remote)\n- Alpaca (alpaca@openai-curated-remote)\n- Apollo.io (apollo@openai-curated-remote)\n- Spotify (app-68de829bf7648191acd70a907364c67c@openai-curated-remote)\n- Apple Music (app-6938a94a61d881918ef32cb999ff937c@openai-curated-remote)\n- LONA Trading Assistant (app-694336b0c0948191a4ad234f9942885b@openai-curated-remote)\n- SciSpace (app-69439d715a7c8191aed9e2f6649e105f@openai-curated-remote)\n- Tarot (app-6943a2c078b0819188de39e4fe168d9b@openai-curated-remote)\n- Todoist: To Do List & Calendar (app-6943b73823548191a9f9216c6790c453@openai-curated-remote)\n- Consensus (app-6943e6f4a928819195962de16fb9ffe4@openai-curated-remote)\n- Sider Scholar (app-6948b485f5bc8191adb4df13f369cec7@openai-curated-remote)\n- True Sky (app-69490a4a06148191a0dd78606a3dbf1f@openai-curated-remote)\n- Bigdata.com (app-69491eceef3c8191beb70788b7840429@openai-curated-remote)\n- Gamma (app-698a098735908191989f5788d7ee317e@openai-curated-remote)\n- Tredict (app-69aef5b699a0819184512d57743fc1cd@openai-curated-remote)\n- Maersk (app-69b2b5a768d4819190d3a86c5f12e6d9@openai-curated-remote)\n- Dropbox (app-69b31dc2110c8191b8b47dc98fe5a052@openai-curated-remote)\n- Parqet (app-69b68652f0308191a27d7c7096cab4f6@openai-curated-remote)\n- Interactive Brokers (IBKR) (app-69bc11db874881918718abaca20b68ce@openai-curated-remote)\n- Financial Datasets (app-69cacd9394a88191ba6564e1bb0430fa@openai-curated-remote)\n- Fathom (app-69d88b99c5c481918e8da9225737e1e9@openai-curated-remote)\n- vidIQ (app-69dd11f3e50c8191b1ca48d03cf7e2ad@openai-curated-remote)\n- TickTick:To-Do List & Calendar (app-69ddbaba3fb48191a825f22c21b0599d@openai-curated-remote)\n- Plaud (app-69f3c30d68288191bbd428a394a78407@openai-curated-remote)\n- Wolfram (app-69fe0bf66c8481919c513d799406436e@openai-curated-remote)\n- Runway (app-6a05e3b201788191be12b590b43e6ce3@openai-curated-remote)\n- Caliber (app-6a05e8f22d408191b13ba3897157f6df@openai-curated-remote)\n- COROS (app-6a0694cbb2608191bbefb74ba810ab68@openai-curated-remote)\n- TradingCursor (app-6a0d835ff1dc8191972eeabd14967446@openai-curated-remote)\n- CoinMarketCap (app-6a172fe86f5481919f73cbc3bc3ad5bb@openai-curated-remote)\n- Trello (app-6a20b18a639081918c1b438f8381b27e@openai-curated-remote)\n- Longbridge (app-6a2baf2fad748191812393c3e00308ef@openai-curated-remote)\n- freddy (app-6a322b52a82c8191b7fb653f9e9f7891@openai-curated-remote)\n- Higgsfield (app-6a3293e129088191abf0875820e839da@openai-curated-remote)\n- Stocktwits (app-6a427a19b1f481919c5db13838af00c2@openai-curated-remote)\n- CoinGecko (app-6a4f02d735388191959c8328877e0bbd@openai-curated-remote)\n- Asana (asana@openai-curated-remote)\n- Atlassian Rovo (atlassian-rovo@openai-curated-remote)\n- Base44 (base44@openai-curated-remote)\n- Binance (binance@openai-curated-remote)\n- Box (box@openai-curated-remote)\n- Canva (canva@openai-curated-remote)\n- ClickUp (clickup@openai-curated-remote)\n- Cloudflare (cloudflare@openai-curated-remote)\n- Codex Security (codex-security@openai-curated-remote)\n- Figma (figma@openai-curated-remote)\n- Gmail (gmail@openai-curated-remote)\n- Google Calendar (google-calendar@openai-curated-remote)\n- Google Drive (google-drive@openai-curated-remote)\n</recommended_plugins>",
+            "type": "input_text"
+          },
+          {
+            "text": "# AGENTS.md instructions for /Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark\n\n<INSTRUCTIONS>\nuse shell like zsh when possible and avoid computer use\n\n--- project-doc ---\n\n# Project instructions\n\nUse zsh and shell tools when possible. Avoid computer use for repository setup and ordinary code work.\n\nThis repository currently contains a scaffold only. Do not run experiments, create real prompts or designs, install tools, or implement the pipeline unless the user requests that work.\n\nWhen benchmark execution is requested, the `kicad-computer-use` method requires GUI operations for design creation; keep that exception confined to that method. Never replace its design work with generated scripts or direct file edits.\n\nKeep the canonical prompt text identical across methods. Record method-specific tool instructions separately. Preserve every failed attempt and retain original artifacts. Never invent metrics or overwrite historical runs. Use null for unmeasured values. Keep evaluator-only references outside generation context. Read docs/protocol.md before implementing or collecting data.\n\n</INSTRUCTIONS>",
+            "type": "input_text"
+          },
+          {
+            "text": "<environment_context>\n  <cwd>/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark</cwd>\n  <shell>zsh</shell>\n  <current_date>2026-09-05</current_date>\n  <timezone>Asia/Kolkata</timezone>\n  <filesystem><workspace_roots><root>/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark</root><root>/Users/ankan/.codex/visualizations/2026/09/05/01a07291-57aa-7871-b581-0dd70239e21a</root></workspace_roots><permission_profile type=\"disabled\"><file_system type=\"unrestricted\" /></permission_profile></filesystem>\n</environment_context>",
+            "type": "input_text"
+          }
+        ],
+        "role": "user",
+        "type": "message"
+      },
+      "source_line": 6,
+      "source_line_sha256": "06d71b4c21b9915d0f0c71467aeaf06208d4cc59d10b102a2e8cff673c0c01b0",
+      "timestamp": "2026-09-05T17:48:18.664Z"
+    },
+    {
+      "item": {
+        "author": "/root",
+        "content": [
+          {
+            "text": "Message Type: NEW_TASK\nTask name: /root/pilot_09\nSender: /root\nPayload:\n",
+            "type": "input_text"
+          },
+          {
+            "reason": "encrypted content",
+            "type": "unavailable"
+          }
+        ],
+        "recipient": "/root/pilot_09",
+        "type": "agent_message"
+      },
+      "source_line": 10,
+      "source_line_sha256": "4465ac649ae7ff465ba16eec2083f98c657f7fcf4f320c6ba40c17df04ba6166",
+      "timestamp": "2026-09-05T17:48:18.669Z"
+    },
+    {
+      "item": {
+        "call_id": "call_AwMu58y49FO8tHxo4vguO8D2",
+        "input": "text(await tools.exec_command({cmd:\"cat input/method-instructions.md; cat input/prompt.md; cat /Users/ankan/.codex/skills/tscircuit/SKILL.md\",\"workdir\":\"/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1\",\"shell\":\"/bin/zsh\",\"max_output_tokens\":16000}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 11,
+      "source_line_sha256": "8fa5f466d4a324776ec88ceefa370103e2ba442d3e8c4eaa1d16b9db388600f0",
+      "timestamp": "2026-09-05T17:48:25.038Z"
+    },
+    {
+      "item": {
+        "call_id": "call_AwMu58y49FO8tHxo4vguO8D2",
+        "output": [
+          {
+            "text": "Script completed\nWall time 0.1 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "text": "{\"chunk_id\":\"c42a39\",\"wall_time_seconds\":0.00000275,\"exit_code\":0,\"original_token_count\":3606,\"output\":\"Generate the requested circuit using tscircuit TSX source. Use the installed tsci CLI and bun; read /Users/ankan/.codex/skills/tscircuit/SKILL.md and relevant local references. Preserve package versions and lockfiles. Build the source and preserve circuit JSON, schematic SVG, PCB SVG/PNG, validation commands and raw output. Use the canonical prompt verbatim from input/prompt.md as the design specification. Do not use KiCad to create this design. Use documented primitives and actual component pin mappings. Export editable source plus compiled schematic/PCB representations. Run available netlist, schematic placement, PCB placement, and shorts checks. A failed check is an outcome to retain, not permission to hide it.\\nWork only within this run directory and read only its canonical input plus general tool documentation/libraries. Do not inspect other runs, benchmark evaluation references, or other methods' designs. Budget: 900 seconds wall time from start, one initial candidate plus at most two repaired candidates. Preserve the initial candidate and every repaired candidate in separate artifacts/attempt-01, attempt-02, attempt-03 directories; never overwrite a prior candidate. Keep all commands and diagnostic output under logs. No downloads of benchmark designs or reference solutions. Documentation and component/library package retrieval is allowed. Do not publish or commit. Do not use computer-use tools. Record your actual method and limitations in artifacts/README.md. Write result.json at the run root with status (completed/failed/timeout/unsupported), final_attempt, generated_files, validation results with log paths, known limitations, and failure if applicable. Completed means generation ended normally, not correctness. Never claim a check passed without running it; unmeasured values are null. If you cannot finish fully routing or a check remains failed within the budget, retain and report the partial design honestly. Return a concise summary and paths.\\n# Four-button digital input board\\n\\nCreate an editable schematic and a fully placed and routed two-layer PCB for the circuit below. Provide the editable design source/native files and a short README identifying the entry files, component choices, and any unresolved requirements. A schematic generated from editable source is acceptable. Use millimetres for all dimensions. Use 2.54 mm through-hole headers for connectors, 0805 resistors and capacitors unless otherwise specified, and clearly mark connector pin 1 and signal names on silkscreen. Choose footprints that match the component pin mapping. Keep all components inside the board outline. Use at least 0.25 mm copper clearance and 0.25 mm signal trace width. Route every required connection; do not leave unrouted nets. Do not substitute a rendered picture for editable design files. Manufacturing exports and physical testing are not required.\\n\\n## Circuit and layout requirements\\n\\n1. Use a rectangular 50 mm × 35 mm board outline (dimension tolerance 0.1 mm) with two copper layers.\\n2. Use a six-pin header J1 with pins 1 through 6 assigned +3V3, GND, BTN1, BTN2, BTN3, BTN4 respectively.\\n3. For each channel i from 1 through 4, connect a 10 kohm resistor Ri from +3V3 to BTNi, a 100 nF capacitor Ci from BTNi to GND, and a normally-open momentary switch SWi between BTNi and GND. If a switch has duplicated terminals, map both terminal pairs correctly.\\n4. Arrange SW1 through SW4 in a left-to-right row with at least 10 mm centre spacing. Label each switch with its BTN signal. Each button must pull only its own signal to GND when pressed; all four channels share the supply and ground.\\n---\\nname: tscircuit\\ndescription: Build, modify, and debug tscircuit (React/TypeScript) PCB designs. Use when working with tsci CLI (init/dev/search/add/import/build/export/snapshot/push), choosing footprints, placing parts, wiring nets/traces, or preparing fabrication outputs (Gerbers/BOM/PnP).\\nallowed-tools: Read, Write, Grep, Glob, Bash\\n---\\n\\n# tscircuit\\n\\nYou are helping the user design electronics using tscircuit (React/TypeScript) and the `tsci` CLI.\\n\\nWhen this Skill is active:\\n\\n- Prefer tscircuit’s documented primitives and CLI behavior. If something is unclear, confirm by:\\n  - Reading local files in the repo (e.g., `tscircuit.config.json`, `index.circuit.tsx`, `package.json`)\\n  - Running `tsci --help` or the specific subcommand’s `--help`\\n- Avoid “inventing” JSX props or CLI flags.\\n\\n## Default workflow\\n\\n1) Clarify requirements (if not already given)\\n- Board form factor / size constraints\\n- Power sources and voltage rails\\n- I/O: connectors, headers, mounting holes, mechanical constraints\\n- Target manufacturer constraints (trace/space, assembly, supplier)\\n\\n2) Choose a starting point\\n- If the repo is not a tscircuit project, recommend:\\n  - Install CLI, then `tsci init` to bootstrap a project.\\n- If a form-factor template is appropriate (Arduino Shield, Raspberry Pi HAT, etc.), prefer `@tscircuit/common` templates.\\n\\n3) Find and install components\\n- Use `tsci search \\\"<query>\\\"` to discover footprints and tscircuit registry packages.\\n- Use `tsci search --digikey \\\"<query>\\\"` or `tsci search --mouser \\\"<query>\\\"` when distributor stock and supplier part numbers matter. Both flags can be combined, and `--json` provides machine-readable results.\\n- For USB-C receptacles/connectors, prefer builtin syntax with `<connector standard=\\\"usb_c\\\" />` instead of importing from JLCPCB.\\n- Use one of:\\n  - `tsci add <author/pkg>` for registry packages (installs `@tsci/*` packages)\\n  - `tsci import <query>` when you need to import a component from JLCPCB or the registry.\\n- DigiKey and Mouser search results are for part discovery; `tsci import` does not directly import from those distributors.\\n\\n4) Write/modify TSX circuit code\\n- Keep circuits as a default-exported function that returns JSX.\\n- Read `FOOTPRINTS.md` before writing custom footprint TSX; prefer a footprinter string when one matches the package.\\n- Use layout props intentionally:\\n  - PCB: `pcbX`, `pcbY`, `pcbRotation`, `layer`\\n  - Schematic: `schX`, `schY`, `schRotation`, `schOrientation`\\n- On large projects (5+ components), use `<schematicsection />` to group components by function (e.g. \\\"Power\\\", \\\"MCU\\\", \\\"IO\\\"). This is one of the most important things for schematic readability. Assign each component a `schSectionName` and manually position all members of a section in close proximity using `schX`/`schY`.\\n- When one large chip needs to appear on multiple schematic sheets, declare the `<chip />` once before the sheets, then use one `<schematicbox chipRef=\\\".U1\\\" />` per sheet. Either nest each box inside its `<schematicsheet />`, or keep the elements as siblings and assign the box with `schSheetName`. Pass only that sheet's labels to the box and keep connections addressed to the original chip, such as `U1.VCC`. See the [`<schematicbox />` reference](./elements/schematicbox.md#split-one-chip-across-multiple-schematic-sheets).\\n- Use `<trace />` for connectivity; prefer net connections (`net.GND`, `net.VCC`, etc.) for power/ground.\\n\\n5) Build and iterate\\n- Run `tsci check netlist` before `tsci check schematic-placement`, `tsci check placement`, and `tsci build` to catch connectivity issues early.\\n- Use `tsci check schematic-placement` to validate schematic-side placement before checking PCB placement.\\n- Do not finalize unless both `tsci check schematic-placement` and `tsci check placement` pass with no actionable placement violations; if violations exist, fix layout and rerun until clean.\\n- Use `tsci check trace-length` to check for long straight line distances (before routing) or long routes (after routing)\\n- Run `tsci build --pcb-png [file]` to inspect placement before checking routing.\\n- Run `tsci check routing-difficulty` after placement to identify potential areas of congestion.\\n- Run `tsci build` to compile and validate the circuit.\\n- When routing looks suspicious, run\\n  `tsci build [file] --autorouter-debug --autorouter-debug-dir dist/autorouter-debug`\\n  and inspect `placement-unrouted.png` plus each cumulative\\n  `phase-N-routed.png`. Add `--autorouter-dump-srj all` when the\\n  SimpleRouteJson input and output for every stage is also needed.\\n- After routing, run `tsci check shorts [file]` to detect unintended shorts between separate PCB copper groups. Omit `[file]` to use the project entrypoint; a prebuilt `*.circuit.json` file is also accepted.\\n- A detected short makes `tsci check shorts` exit nonzero. Inspect `checks/check-shorts/bitmap.png` and `checks/check-shorts/pcb.svg`, fix the implicated copper, then rerun the check. Do not dismiss this failure as a generic DRC warning.\\n- The default check analyzes Gerber-derived copper on both layers. Use `--mode pcb` for PCB geometry, `--layer top` or `--layer bottom` to narrow the scope, and `--pixels-per-mm <number>` only when a different bitmap resolution is needed.\\n- DRC (Design Rule Check) errors can often be ignored during development—focus on getting the circuit correct first.\\n- If routing struggles, reduce density, use `<group />` for sub-layouts, or change autorouter settings.\\n- Use `tsci dev` only when you need interactive visual feedback (not typical for AI-driven iteration).\\n\\n6) Validate and export\\n- Run `tsci check netlist` before `tsci check schematic-placement`, `tsci check placement`, and `tsci build` when preparing to share/publish.\\n- Run `tsci check shorts` after routing and before sharing, publishing, or producing fabrication outputs. Resolve every reported short before proceeding.\\n- Run `tsci build` (and optionally `tsci snapshot`) before sharing/publishing.\\n- Use `tsci export` for SVG/netlist/DSN/3D/library outputs.\\n- For manufacturing, obtain fabrication outputs (Gerbers/BOM/PnP) from the export UI after `tsci dev`.\\n\\n## Safety and non-goals\\n\\n- Treat electrical safety, regulatory compliance, and manufacturability as user-owned responsibilities.\\n- Do not publish (`tsci push`) or place orders unless the user explicitly requests it.\\n\\n## Local references bundled with this Skill\\n\\n- CLI primer: `CLI.md`\\n- Syntax primer: `SYNTAX.md`\\n- Workflow patterns: `WORKFLOW.md`\\n- Pre-export checklist: `CHECKLIST.md`\\n- Ready-to-copy templates: `templates/`\\n- Helper scripts: `scripts/`\\n\\n## Builtin Elements\\n\\n- [`<analogsimulation />`](./elements/analogsimulation.md)\\n- [`<assembly.device />`](./elements/assemblydevice.md)\\n- [`<battery />`](./elements/battery.md)\\n- [`<board />`](./elements/board.md)\\n- [`<breakout />`](./elements/breakout.md)\\n- [`<breakoutpoint />`](./elements/breakoutpoint.md)\\n- [`<cadassembly />`](./elements/cadassembly.md)\\n- [`<cadmodel />`](./elements/cadmodel.md)\\n- [`<capacitor />`](./elements/capacitor.md)\\n- [`<chip />`](./elements/chip.md)\\n- [`<connector />`](./elements/connector.md)\\n- [`<constraint />`](./elements/constraint.md)\\n- [`<copperpour />`](./elements/copperpour.md)\\n- [`<coppertext />`](./elements/coppertext.md)\\n- [`<courtyardcircle />`](./elements/courtyardcircle.md)\\n- [`<courtyardoutline />`](./elements/courtyardoutline.md)\\n- [`<courtyardpill />`](./elements/courtyardpill.md)\\n- [`<courtyardrect />`](./elements/courtyardrect.md)\\n- [`<crystal />`](./elements/crystal.md)\\n- [`<currentsource />`](./elements/currentsource.md)\\n- [`<cutout />`](./elements/cutout.md)\\n- [`<diode />`](./elements/diode.md)\\n- [`<enclosure.cutoutaperture />`](./elements/enclosurecutoutaperture.md)\\n- [`<enclosure.fdm.box />`](./elements/enclosurefdmbox.md)\\n- [`<fabricationnotedimension />`](./elements/fabricationnotedimension.md)\\n- [`<fabricationnotepath />`](./elements/fabricationnotepath.md)\\n- [`<fabricationnoterect />`](./elements/fabricationnoterect.md)\\n- [`<fabricationnotetext />`](./elements/fabricationnotetext.md)\\n- [`<fiducial />`](./elements/fiducial.md)\\n- [`<footprint />`](./elements/footprint.md)\\n- [`<fuse />`](./elements/fuse.md)\\n- [`<group />`](./elements/group.md)\\n- [`<hole />`](./elements/hole.md)\\n- [`<inductor />`](./elements/inductor.md)\\n- [`<jumper />`](./elements/jumper.md)\\n- [`<led />`](./elements/led.md)\\n- [`<mosfet />`](./elements/mosfet.md)\\n- [`<mountedboard />`](./elements/mountedboard.md)\\n- [`<net />`](./elements/net.md)\\n- [`<netalias />`](./elements/netalias.md)\\n- [`<netlabel />`](./elements/netlabel.md)\\n- [`<opamp />`](./elements/opamp.md)\\n- [`<panel />`](./elements/panel.md)\\n- [`<pcbkeepout />`](./elements/pcbkeepout.md)\\n- [`<pcbnotedimension />`](./elements/pcbnotedimension.md)\\n- [`<pcbnoteline />`](./elements/pcbnoteline.md)\\n- [`<pcbnotepath />`](./elements/pcbnotepath.md)\\n- [`<pcbnoterect />`](./elements/pcbnoterect.md)\\n- [`<pcbnotetext />`](./elements/pcbnotetext.md)\\n- [`<pcbtrace />`](./elements/pcbtrace.md)\\n- [`<pinheader />`](./elements/pinheader.md)\\n- [`<pinout />`](./elements/pinout.md)\\n- [`<platedhole />`](./elements/platedhole.md)\\n- [`<port />`](./elements/port.md)\\n- [`<potentiometer />`](./elements/potentiometer.md)\\n- [`<pushbutton />`](./elements/pushbutton.md)\\n- [`<resistor />`](./elements/resistor.md)\\n- [`<resonator />`](./elements/resonator.md)\\n- [`<schematicarc />`](./elements/schematicarc.md)\\n- [`<schematicbox />`](./elements/schematicbox.md)\\n- [`<schematiccell />`](./elements/schematiccell.md)\\n- [`<schematiccircle />`](./elements/schematiccircle.md)\\n- [`<schematicline />`](./elements/schematicline.md)\\n- [`<schematicpath />`](./elements/schematicpath.md)\\n- [`<schematicrect />`](./elements/schematicrect.md)\\n- [`<schematicrow />`](./elements/schematicrow.md)\\n- [`<schematicsection />`](./elements/schematicsection.md)\\n- [`<schematictable />`](./elements/schematictable.md)\\n- [`<schematictext />`](./elements/schematictext.md)\\n- [`<silkscreencircle />`](./elements/silkscreencircle.md)\\n- [`<silkscreenline />`](./elements/silkscreenline.md)\\n- [`<silkscreenpath />`](./elements/silkscreenpath.md)\\n- [`<silkscreenrect />`](./elements/silkscreenrect.md)\\n- [`<silkscreentext />`](./elements/silkscreentext.md)\\n- [`<smtpad />`](./elements/smtpad.md)\\n- [`<solderjumper />`](./elements/solderjumper.md)\\n- [`<subcircuit />`](./elements/subcircuit.md)\\n- [`<subpanel />`](./elements/subpanel.md)\\n- [`<switch />`](./elements/switch.md)\\n- [`<symbol />`](./elements/symbol.md)\\n- [`<testpoint />`](./elements/testpoint.md)\\n- [`<trace />`](./elements/trace.md)\\n- [`<tracehint />`](./elements/tracehint.md)\\n- [`<transistor />`](./elements/transistor.md)\\n- [`<via />`](./elements/via.md)\\n- [`<voltageprobe />`](./elements/voltageprobe.md)\\n- [`<voltagesource />`](./elements/voltagesource.md)\\n\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 14,
+      "source_line_sha256": "424569a3e8db2a46d90f4ced9fa53e9fa3de9a69d35d8e8b320c2133f6c7d06f",
+      "timestamp": "2026-09-05T17:48:25.126Z"
+    },
+    {
+      "item": {
+        "content": [
+          {
+            "text": "I’m using the tscircuit skill to create the four-button board and preserve the source, routed outputs, and validation diagnostics for this run.\n",
+            "type": "output_text"
+          }
+        ],
+        "phase": "commentary",
+        "role": "assistant",
+        "type": "message"
+      },
+      "source_line": 19,
+      "source_line_sha256": "a8b5d0c23085d14504095d83d01169b6baa793219e9a7adb414a75f921b6fd34",
+      "timestamp": "2026-09-05T17:48:29.319Z"
+    },
+    {
+      "item": {
+        "call_id": "call_1Rtk9UuYvtcvod0CKzt2hymF",
+        "input": "text(await tools.exec_command({cmd:\"mkdir -p logs artifacts/attempt-01; date -u +%FT%TZ > logs/started_at.txt; cat run.json; command -v tsci; tsci build --help; cat /Users/ankan/.codex/skills/tscircuit/elements/{board,pushbutton,pinheader,trace,schematicsection,silkscreentext}.md\",\"workdir\":\"/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1\",\"shell\":\"/bin/zsh\",\"max_output_tokens\":17000}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 20,
+      "source_line_sha256": "2460176862d9423fb5755c0c9e934ca1523531aa826b293f6d3c8791824fe8e7",
+      "timestamp": "2026-09-05T17:48:34.186Z"
+    },
+    {
+      "item": {
+        "call_id": "call_1Rtk9UuYvtcvod0CKzt2hymF",
+        "output": [
+          {
+            "text": "Script completed\nWall time 0.8 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "text": "{\"chunk_id\":\"7de65c\",\"wall_time_seconds\":0.608983917,\"exit_code\":0,\"original_token_count\":3377,\"output\":\"{\\n  \\\"schema_version\\\": \\\"0.1\\\",\\n  \\\"experiment_id\\\": \\\"2026-09-05-codegen-pilot-01\\\",\\n  \\\"run_id\\\": \\\"2026-09-05-codegen-pilot-01--button-input-bank--tscircuit-codegen--r1\\\",\\n  \\\"prompt_id\\\": \\\"button-input-bank\\\",\\n  \\\"prompt_revision\\\": 1,\\n  \\\"prompt_sha256\\\": \\\"41d352cc9a6280e14727ad0186f65a05ced344cb4a848c5689204b0beea64e47\\\",\\n  \\\"method\\\": \\\"tscircuit-codegen\\\",\\n  \\\"replicate\\\": 1,\\n  \\\"status\\\": \\\"not_started\\\",\\n  \\\"repository_commit\\\": \\\"a9d1e4f7624451818322ebec60f5e12dd4b3f9a6\\\",\\n  \\\"started_at\\\": null,\\n  \\\"ended_at\\\": null,\\n  \\\"model\\\": {\\n    \\\"provider\\\": null,\\n    \\\"name\\\": null,\\n    \\\"reasoning_effort\\\": null,\\n    \\\"sampling\\\": {}\\n  },\\n  \\\"environment\\\": {\\n    \\\"tool_versions\\\": {\\n      \\\"tsci\\\": \\\"0.0.2462\\\",\\n      \\\"kicad-cli\\\": \\\"10.0.6\\\",\\n      \\\"bun\\\": \\\"1.3.14\\\",\\n      \\\"python\\\": \\\"3.9.6\\\"\\n    },\\n    \\\"os\\\": \\\"macOS-26.6.2-arm64-arm-64bit\\\"\\n  },\\n  \\\"budget\\\": {\\n    \\\"wall_time_seconds\\\": 900,\\n    \\\"max_tokens\\\": null,\\n    \\\"max_tool_calls\\\": null\\n  },\\n  \\\"usage\\\": {\\n    \\\"wall_time_seconds\\\": null,\\n    \\\"input_tokens\\\": null,\\n    \\\"output_tokens\\\": null,\\n    \\\"tool_calls\\\": null,\\n    \\\"cost_usd\\\": null\\n  },\\n  \\\"attempts\\\": [],\\n  \\\"artifacts\\\": [],\\n  \\\"failure\\\": null,\\n  \\\"notes\\\": \\\"Exploratory pilot; GUI method excluded by user. Read result.json and raw validation logs for limitations.\\\"\\n}\\n/Users/ankan/.bun/bin/tsci\\nUsage: tsci build [options] [file]\\n\\nRun tscircuit eval and output circuit json\\n\\nArguments:\\n  file                             Path to the entry file\\n\\nOptions:\\n  --ci                             Run install and optional prebuild/build\\n                                   commands (or default CI build)\\n  --ignore-errors                  Do not exit with code 1 on errors\\n  --ignore-warnings                Do not log warnings\\n  --ignore-netlist-drc             Ignore netlist DRC errors/warnings\\n  --ignore-pin-specification-drc   Ignore pin-specification DRC errors/warnings\\n  --ignore-placement-drc           Ignore placement DRC errors/warnings\\n  --ignore-routing-drc             Ignore routing DRC errors/warnings\\n  --ignore-config                  Ignore options from tscircuit.config.json\\n  --disable-pcb                    Disable PCB outputs\\n  --routing-disabled               Disable routing during circuit generation\\n  --disable-parts-engine           Disable the parts engine\\n  --site                           Generate a static site in the dist directory\\n  --transpile                      Transpile the entry file to JavaScript\\n  --preview-images                 Generate preview images in the dist directory\\n  --all-images                     Generate preview images for every successful\\n                                   build output\\n  --pngs                           Generate PNG outputs during build generation\\n  --pcb-png                        Generate PCB PNG outputs during build\\n                                   generation\\n  --schematic-png                  Generate schematic PNG outputs during build\\n                                   generation\\n  --svgs                           Generate SVG outputs during build generation\\n  --pcb-svgs                       Generate PCB SVG outputs during build\\n                                   generation\\n  --schematic-svgs                 Generate schematic SVG outputs during build\\n                                   generation\\n  --simulation-svgs                Generate simulation graph SVG outputs during\\n                                   build generation\\n  --simulation-schematic-svgs      Generate schematic simulation SVG outputs\\n                                   during build generation\\n  --3d-png                         Generate 3D PNG outputs during build\\n                                   generation\\n  --3d                             Generate 3D PNG outputs during build\\n                                   generation\\n  --pcb-only                       Generate only PCB SVG outputs during build\\n                                   generation\\n  --schematic-only                 Generate only schematic SVG outputs during\\n                                   build generation\\n  --kicad-project                  Generate KiCad project directories for each\\n                                   successful build output\\n  --kicad-project-zip              Generate a zipped KiCad project for each\\n                                   successful build output\\n  --kicad-library                  Generate KiCad library in dist/kicad-library\\n  --kicad-library-name <name>      Specify the name of the KiCad library\\n  --preview-gltf                   Generate a GLTF file from the preview\\n                                   entrypoint\\n  --show-courtyards                Show courtyard outlines in PCB SVG outputs\\n  --glbs                           Generate GLB 3D model files for every\\n                                   successful build\\n  --step                           Generate STEP 3D model files for every\\n                                   successful build\\n  --profile                        Log per-circuit circuit.json generation time\\n                                   during build\\n  --autorouter-debug               Log autorouting phases and write\\n                                   unrouted/per-phase PNG artifacts\\n  --autorouter-phase <name>        Enable autorouting debugging through the\\n                                   named phase\\n  --autorouter-timeout <duration>  Abort an autorouting phase after a duration,\\n                                   e.g. \\\"120s\\\" or \\\"2m\\\"\\n  --autorouter-debug-dir <path>    Directory for autorouting debug artifacts\\n                                   (default: dist/autorouter-debug)\\n  --autorouter-dump-srj [mode]     Dump SimpleRouteJson inputs/outputs: \\\"all\\\",\\n                                   \\\"failed\\\", or \\\"phase:<index>\\\" (default:\\n                                   failed)\\n  --solver-debug                   Write constructor inputs for every solver\\n                                   event emitted during the build\\n  --solver-debug-dir <path>        Directory for solver input artifacts\\n                                   (default: dist/solver-debug)\\n  --kicad-pcm                      Generate KiCad PCM (Plugin and Content\\n                                   Manager) assets in dist/pcm\\n  --use-cdn-javascript             Use CDN-hosted JavaScript instead of bundled\\n                                   standalone file for --site\\n  --concurrency <number>           Number of files to build in parallel\\n                                   (default: 1) (default: \\\"1\\\")\\n  --inject-props <json>            Inject JSON props into the built file's\\n                                   default export\\n  --inject-props-file <path>       Inject JSON props from a file into the built\\n                                   file's default export\\n  -h, --help                       display help for command\\n# `<board />`\\n\\nRoot element that contains all chips and traces to create a printed circuit board.\\n\\n## Example\\n\\n```tsx\\nexport default () => (\\n  <board width=\\\"10mm\\\" height=\\\"10mm\\\">\\n    <resistor resistance=\\\"1k\\\" footprint=\\\"0402\\\" name=\\\"R1\\\" />\\n  </board>\\n)\\n```\\n\\n## Props\\n\\nCommonly used: `title`, `material`, `layers`, `borderRadius`, `thickness`, `boardAnchorPosition`, `anchorAlignment`, `boardAnchorAlignment`\\n\\n## References\\n\\n- Props: [BoardProps](https://github.com/tscircuit/props#boardprops-board)\\n- Source: [lib/components/board.ts](https://github.com/tscircuit/props/blob/main/lib/components/board.ts)\\n- Local docs: [docs/docs/elements/board.mdx](../docs/docs/elements/board.mdx)\\n# `<pushbutton />`\\n\\nPushbuttons a common type of switch normally open momentary switch. They are commonly used as a reset or pairing button.\\n\\n## Example\\n\\n```tsx\\nexport default () => (\\n  <board width=\\\"10mm\\\" height=\\\"10mm\\\">\\n    <pushbutton\\n      name=\\\"SW1\\\"\\n      footprint=\\\"pushbutton\\\"\\n    />\\n  </board>\\n)\\n```\\n\\n## Props\\n\\nCommonly used: `name`, `footprint`, `connections`\\n\\n## References\\n\\n- Props: [PushButtonProps](https://github.com/tscircuit/props#pushbuttonprops-pushbutton)\\n- Source: [lib/components/push-button.ts](https://github.com/tscircuit/props/blob/main/lib/components/push-button.ts)\\n- Local docs: [docs/docs/elements/pushbutton.mdx](../docs/docs/elements/pushbutton.mdx)\\n# `<pinheader />`\\n\\nThe `<pinheader />` element is used to create a male or female pin header with configurable spacing and number of pins.\\n\\n## Example\\n\\n```tsx\\nexport default () => (\\n   <board width=\\\"30mm\\\" height=\\\"10mm\\\">\\n    <pinheader\\n      name=\\\"J1\\\"\\n      pinCount={8}\\n      gender=\\\"male\\\"\\n      pitch=\\\"2.54mm\\\"\\n      footprint=\\\"pinrow8_rows2\\\"\\n      doubleRow={true}\\n      showSilkscreenPinLabels={true}\\n      pinLabels={[\\\"VCC\\\", \\\"GND\\\", \\\"SDA\\\", \\\"SCL\\\", \\\"MISO\\\", \\\"MOSI\\\", \\\"SCK\\\", \\\"CS\\\"]}\\n      pcbX={0}\\n      pcbY={0}\\n    />\\n   </board>\\n  )\\n```\\n\\n## Props\\n\\nCommonly used: `pinCount`, `pitch`, `schFacingDirection`, `gender`, `showSilkscreenPinLabels`, `pcbPinLabels`, `doubleRow`, `rightAngle`\\n\\n## References\\n\\n- Props: [PinHeaderProps](https://github.com/tscircuit/props#pinheaderprops-pinheader)\\n- Source: [lib/components/pin-header.ts](https://github.com/tscircuit/props/blob/main/lib/components/pin-header.ts)\\n- Local docs: [docs/docs/elements/pinheader.mdx](../docs/docs/elements/pinheader.mdx)\\n# `<trace />`\\n\\nThe `<trace />` element represents an electrical connection between two or more points in your circuit. Traces can connect components, nets, or specific pins on components.\\n\\n## Example\\n\\n```tsx\\nexport default () => (\\n  <board width=\\\"10mm\\\" height=\\\"10mm\\\">\\n    <resistor name=\\\"R1\\\" resistance=\\\"1k\\\" footprint=\\\"0402\\\" pcbX={-2} schX={-2} />\\n    <capacitor name=\\\"C1\\\" capacitance=\\\"100nF\\\" footprint=\\\"0402\\\" pcbX={2} />\\n    <trace\\n      from=\\\".R1 > .pin1\\\"\\n      to=\\\".C1 > .pin1\\\"\\n    />\\n  </board>\\n)\\n```\\n\\n## Props\\n\\nCommonly used: `via`, `fromLayer`, `toLayer`, `code`, `message`, `path`, `key`, `thickness`\\n\\n## References\\n\\n- Props: [TraceProps](https://github.com/tscircuit/props#traceprops-trace)\\n- Source: [lib/components/trace.ts](https://github.com/tscircuit/props/blob/main/lib/components/trace.ts)\\n- Local docs: [docs/docs/elements/trace.mdx](../docs/docs/elements/trace.mdx)\\n# `<schematicsection />`\\n\\nGroups components into a named section on the schematic (e.g. \\\"Power\\\", \\\"Digital\\\").\\n\\nUse `schSectionName` on any component to assign it to a section, then declare the section with `<schematicsection />`.\\n\\n> **No auto-layout.** `<schematicsection />` does NOT move components. You must manually place all components in the section in close proximity using `schX`/`schY` so the section renders as a coherent group.\\n\\n## Placement rule\\n\\nPick a cluster origin (e.g. `schX={0} schY={0}`) and place all section members nearby. Components scattered across the schematic will still be tagged to the section but will look disconnected.\\n\\n## Example\\n\\n```tsx\\nexport default () => (\\n  <board width=\\\"40mm\\\" height=\\\"20mm\\\">\\n    <schematicsection name=\\\"Power\\\" displayName=\\\"Power Supply\\\" />\\n    <schematicsection name=\\\"IO\\\" displayName=\\\"Input / Output\\\" />\\n\\n    {/* Power section — cluster around schX=0 */}\\n    <capacitor\\n      name=\\\"C1\\\"\\n      capacitance=\\\"100nF\\\"\\n      footprint=\\\"0402\\\"\\n      schSectionName=\\\"Power\\\"\\n      schX={0}\\n      schY={0}\\n    />\\n    <capacitor\\n      name=\\\"C2\\\"\\n      capacitance=\\\"10uF\\\"\\n      footprint=\\\"0805\\\"\\n      schSectionName=\\\"Power\\\"\\n      schX={2}\\n      schY={0}\\n    />\\n    <resistor\\n      name=\\\"R1\\\"\\n      resistance=\\\"10k\\\"\\n      footprint=\\\"0402\\\"\\n      schSectionName=\\\"Power\\\"\\n      schX={4}\\n      schY={0}\\n    />\\n\\n    {/* IO section — cluster around schX=12, well separated from Power */}\\n    <pushbutton\\n      name=\\\"BTN1\\\"\\n      footprint=\\\"button_4pin\\\"\\n      schSectionName=\\\"IO\\\"\\n      schX={12}\\n      schY={0}\\n    />\\n    <resistor\\n      name=\\\"R2\\\"\\n      resistance=\\\"1k\\\"\\n      footprint=\\\"0402\\\"\\n      schSectionName=\\\"IO\\\"\\n      schX={14}\\n      schY={0}\\n    />\\n  </board>\\n)\\n```\\n\\n## Props\\n\\n| Prop | Type | Required | Description |\\n|------|------|----------|-------------|\\n| `name` | `string` | yes | Unique identifier for the section |\\n| `displayName` | `string` | no | Human-readable label shown on schematic |\\n\\n## Assigning components to a section\\n\\nAny component that accepts `CommonComponentProps` has `schSectionName`. Set it to the `name` of a `<schematicsection />`.\\n\\n```tsx\\n<resistor name=\\\"R1\\\" resistance=\\\"10k\\\" footprint=\\\"0402\\\" schSectionName=\\\"Power\\\" schX={0} schY={0} />\\n```\\n\\n## Layout guidance\\n\\n- Keep section members within ~4–6 schematic units of each other.\\n- Separate different sections by at least 6–8 units so section boundaries are visually clear.\\n- Arrange members in a row or grid — do not leave large schX/schY gaps between them.\\n\\n## References\\n\\n- Props: [SchematicSectionProps](https://github.com/tscircuit/props#schematicsectionprops-schematicsection)\\n- Source: [lib/components/schematic-section.ts](https://github.com/tscircuit/props/blob/main/lib/components/schematic-section.ts)\\n# `<silkscreentext />`\\n\\nThe `<silkscreentext />` element is used to add text to the silkscreen layer within a PCB footprint.\\n\\n## Example\\n\\n```tsx\\nexport default () => (\\n  <board width=\\\"10mm\\\" height=\\\"10mm\\\">\\n    <silkscreentext text=\\\"Hello, World!\\\" fontSize=\\\"1mm\\\" />\\n  </board>\\n)\\n```\\n\\n## Props\\n\\nCommonly used: `text`, `anchorAlignment`, `font`, `fontSize`, `isKnockout`, `knockoutPadding`, `knockoutPaddingLeft`, `knockoutPaddingRight`\\n\\n## References\\n\\n- Props: [SilkscreenTextProps](https://github.com/tscircuit/props#silkscreentextprops-silkscreentext)\\n- Source: [lib/components/silkscreen-text.ts](https://github.com/tscircuit/props/blob/main/lib/components/silkscreen-text.ts)\\n- Local docs: [docs/docs/footprints/silkscreentext.mdx](../docs/docs/footprints/silkscreentext.mdx)\\n\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 23,
+      "source_line_sha256": "fa3d5c4fe3151f1807d0ab86e55fb1afdd86028755349b2a1e7530ff8b41f078",
+      "timestamp": "2026-09-05T17:48:34.964Z"
+    },
+    {
+      "item": {
+        "call_id": "call_NrRwMaqh7fhGwFkLgbD0f2UT",
+        "input": "text(await tools.exec_command({cmd:\"ls -l /Users/ankan/.bun/bin/tsci; ls /Users/ankan/.bun/install/global/node_modules/tsci; rg -n 'minTraceWidth|clearance|pushbutton|internallyConnected' /Users/ankan/.bun/install/global/node_modules/@tscircuit/props/dist/index.d.ts | head -45; cat /Users/ankan/.codex/skills/tscircuit/FOOTPRINTS.md; tsci check --help > logs/check-help.log; python3 - <<'PY'\\nimport json\\np='run.json'; d=json.load(open(p)); d['started_at']=open('logs/started_at.txt').read().strip(); d['status']='running'; json.dump(d,open(p,'w'),indent=2)\\nPY\",\"workdir\":\"/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1\",\"shell\":\"/bin/zsh\",\"max_output_tokens\":5000}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 25,
+      "source_line_sha256": "6ac440ca33f94d2b8bd09c110f3cec190d82e876ac3ddcc7e5060479553246f1",
+      "timestamp": "2026-09-05T17:48:46.002Z"
+    },
+    {
+      "item": {
+        "call_id": "call_NrRwMaqh7fhGwFkLgbD0f2UT",
+        "output": [
+          {
+            "text": "Script completed\nWall time 0.8 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "text": "{\"chunk_id\":\"65f396\",\"wall_time_seconds\":0.630631667,\"exit_code\":0,\"original_token_count\":1466,\"output\":\"lrwxrwxrwx@ 1 ankan  staff  48 Sep  4 01:46 /Users/ankan/.bun/bin/tsci -> ../install/global/node_modules/tscircuit/cli.mjs\\nls: /Users/ankan/.bun/install/global/node_modules/tsci: No such file or directory\\n143:    /** Additional clearance around the nominal opening. */\\n303:    /** Horizontal clearance between the board edge and inside wall. */\\n20953:    minTraceWidth?: Distance;\\n21034:    minTraceWidth?: Distance;\\n21063:    minTraceWidth: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n21073:    minTraceWidth?: number | undefined;\\n21083:    minTraceWidth?: string | number | undefined;\\n21335:    minTraceWidth: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n21893:    minTraceWidth?: number | undefined;\\n22153:    minTraceWidth?: string | number | undefined;\\n22870:    minTraceWidth: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n23179:    minTraceWidth?: number | undefined;\\n23500:    minTraceWidth?: string | number | undefined;\\n24279:    minTraceWidth: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n24591:    minTraceWidth?: number | undefined;\\n24913:    minTraceWidth?: string | number | undefined;\\n25238:    minTraceWidth: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n25798:    minTraceWidth?: number | undefined;\\n26059:    minTraceWidth?: string | number | undefined;\\n26775:    minTraceWidth: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n27087:    minTraceWidth?: number | undefined;\\n27409:    minTraceWidth?: string | number | undefined;\\n27985:    minTraceWidth: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n28656:    minTraceWidth?: number | undefined;\\n28998:    minTraceWidth?: string | number | undefined;\\n29381:    minTraceWidth: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n29962:    minTraceWidth?: number | undefined;\\n30239:    minTraceWidth?: string | number | undefined;\\n30520:    minTraceWidth: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n31101:    minTraceWidth?: number | undefined;\\n31378:    minTraceWidth?: string | number | undefined;\\n31797:     * Minimum clearance between this fanout boundary and another fanout\\n32379:    minTraceWidth: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n32738:    minTraceWidth?: number | undefined;\\n33070:    minTraceWidth?: string | number | undefined;\\n33347:    internallyConnectedPins?: (string | number)[][];\\n37282:    internallyConnectedPins: z.ZodOptional<z.ZodArray<z.ZodArray<z.ZodUnion<[z.ZodString, z.ZodNumber]>, \\\"many\\\">, \\\"many\\\">>;\\n38285:    internallyConnectedPins?: (string | number)[][] | undefined;\\n39028:    internallyConnectedPins?: (string | number)[][] | undefined;\\n42948:    internallyConnectedPins: z.ZodOptional<z.ZodArray<z.ZodArray<z.ZodUnion<[z.ZodString, z.ZodNumber]>, \\\"many\\\">, \\\"many\\\">>;\\n43951:    internallyConnectedPins?: (string | number)[][] | undefined;\\n44694:    internallyConnectedPins?: (string | number)[][] | undefined;\\n48613:    internallyConnectedPins: z.ZodOptional<z.ZodArray<z.ZodArray<z.ZodUnion<[z.ZodString, z.ZodNumber]>, \\\"many\\\">, \\\"many\\\">>;\\n49616:    internallyConnectedPins?: (string | number)[][] | undefined;\\n50359:    internallyConnectedPins?: (string | number)[][] | undefined;\\n# Footprints\\n\\nUse a footprinter string for standard packages.\\n\\nFor JLCPCB parts, run `tsci import <C-number>`. It uses a string only when there is a close footprinter string match. Otherwise it keeps the exact EasyEDA footprint. `--use-exact-footprint` skips conversion.\\n\\n## Examples\\n\\n```tsx\\n// Passives\\n<resistor footprint=\\\"0201\\\" />\\n<resistor footprint=\\\"0402\\\" />\\n<resistor footprint=\\\"0603\\\" />\\n<resistor footprint=\\\"0805\\\" />\\n<resistor footprint=\\\"1206\\\" />\\n<capacitor footprint=\\\"cap0402\\\" />\\n<resistor footprint=\\\"res0805\\\" />\\n<resistor footprint=\\\"axial_p0.2in\\\" />\\n<capacitor footprint=\\\"radial_p2.54mm\\\" />\\n<capacitor footprint=\\\"electrolytic_d6.3mm_p2.5mm\\\" />\\n\\n// Diodes and transistors\\n<diode footprint=\\\"sod123\\\" />\\n<diode footprint=\\\"sod323\\\" />\\n<diode footprint=\\\"sma\\\" />\\n<diode footprint=\\\"smb\\\" />\\n<diode footprint=\\\"smf\\\" />\\n<transistor footprint=\\\"sot23\\\" />\\n<transistor footprint=\\\"sot223\\\" />\\n<transistor footprint=\\\"sot323\\\" />\\n<transistor footprint=\\\"sot363\\\" />\\n<transistor footprint=\\\"sot563\\\" />\\n\\n// ICs\\n<chip footprint=\\\"dip8_w0.3in\\\" />\\n<chip footprint=\\\"dip16\\\" />\\n<chip footprint=\\\"soic8_p1.27mm\\\" />\\n<chip footprint=\\\"soic16_p1.27mm\\\" />\\n<chip footprint=\\\"ssop16_p0.65mm\\\" />\\n<chip footprint=\\\"tssop20_p0.5mm\\\" />\\n<chip footprint=\\\"msop10_p0.5mm\\\" />\\n<chip footprint=\\\"vssop8_p0.5mm\\\" />\\n<chip footprint=\\\"qfn16_w3_h3_p0.5mm_thermalpad\\\" />\\n<chip footprint=\\\"qfn24_w6_h6_p0.8mm_thermalpad\\\" />\\n<chip footprint=\\\"qfn32_w5_h5_p0.5mm_thermalpad\\\" />\\n<chip footprint=\\\"tqfp32_w7_h7_p0.8mm\\\" />\\n<chip footprint=\\\"lqfp48_w7_h7_p0.5mm\\\" />\\n<chip footprint=\\\"bga64_grid8x8_p0.8mm_w8_h8\\\" />\\n\\n// Connectors and through-hole packages\\n<connector footprint=\\\"pinrow4_p2.54mm\\\" />\\n<connector footprint=\\\"pinrow10_p2.54mm\\\" />\\n<connector footprint=\\\"pinrow6_p2.54mm_rows2\\\" />\\n<connector footprint=\\\"jst2_p2mm_ph\\\" />\\n<connector footprint=\\\"jst4_p1mm_sh\\\" />\\n<crystal footprint=\\\"hc49_p4.88mm\\\" />\\n<crystal footprint=\\\"crystal4_px2.5mm_py2mm\\\" />\\n<transistor footprint=\\\"to220\\\" />\\n<transistor footprint=\\\"to220f\\\" />\\n<transistor footprint=\\\"to92\\\" />\\n<pushbutton footprint=\\\"smdpushbutton\\\" />\\n```\\n\\nSyntax: `<family>[pin-count]_<modifier><value>...`. Include units.\\n\\nUse custom `<footprint>` TSX only for unsupported manufacturer geometry, such as asymmetric pads, slots, shield tabs, segmented thermal pads, or mixed SMT and through-hole layouts. Never guess.\\n\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 28,
+      "source_line_sha256": "bbeaf2eaeef5577aa46eb3b9acbcf690209b141f858b74a9a84714f3d198cd57",
+      "timestamp": "2026-09-05T17:48:46.820Z"
+    },
+    {
+      "item": {
+        "call_id": "call_P5GSD7UzEobrUX4m2Au1PCgD",
+        "input": "text(await tools.exec_command({cmd:\"sed -n '20920,21095p' /Users/ankan/.bun/install/global/node_modules/@tscircuit/props/dist/index.d.ts; rg -n 'class PushButton|internallyConnectedPins.*|pushbutton.*=' /Users/ankan/.bun/install/global/node_modules/@tscircuit/core/dist/index.js | head -30; rg -n 'smdpushbutton|pushbutton' /Users/ankan/.bun/install/global/node_modules/@tscircuit/footprinter/dist/index.js | head -25; cat logs/check-help.log\",\"workdir\":\"/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1\",\"shell\":\"/bin/zsh\",\"max_output_tokens\":5500}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 30,
+      "source_line_sha256": "a9b05fc8635a9f3be5f5a8f203f620fb7bf375ffdfec4e4e6a06ff2414818679",
+      "timestamp": "2026-09-05T17:48:57.038Z"
+    },
+    {
+      "item": {
+        "call_id": "call_P5GSD7UzEobrUX4m2Au1PCgD",
+        "output": [
+          {
+            "text": "Script completed\nWall time 0.1 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "text": "{\"chunk_id\":\"b430ce\",\"wall_time_seconds\":0.000003083,\"exit_code\":0,\"original_token_count\":2504,\"output\":\"    children?: any;\\n    pcbStyle?: PcbStyle;\\n    /**\\n     * Title to display above this group in the schematic view\\n     */\\n    schTitle?: string;\\n    /**\\n     * This group will be drawn as part of this sheet e.g. \\\"Main\\\"\\n     */\\n    schSheetName?: string;\\n    /**\\n     * If true, render this group as a single schematic box\\n     */\\n    showAsSchematicBox?: boolean;\\n    /**\\n     * Mapping of external pin names to internal connection targets\\n     */\\n    connections?: Connections;\\n    /**\\n     * Arrangement for pins when rendered as a schematic box\\n     */\\n    schPinArrangement?: SchematicPinArrangement;\\n    /**\\n     * Spacing between pins when rendered as a schematic box\\n     * @deprecated Use schPinStyle instead.\\n     */\\n    schPinSpacing?: Distance;\\n    /**\\n     * Styles to apply to individual pins in the schematic box representation\\n     */\\n    schPinStyle?: SchematicPinStyle;\\n    pcbWidth?: Distance;\\n    pcbHeight?: Distance;\\n    minTraceWidth?: Distance;\\n    nominalTraceWidth?: Distance;\\n    schWidth?: Distance;\\n    schHeight?: Distance;\\n    pcbLayout?: LayoutConfig;\\n    schLayout?: LayoutConfig;\\n    cellBorder?: Border | null;\\n    border?: Border | null;\\n    schPadding?: Distance;\\n    schPaddingLeft?: Distance;\\n    schPaddingRight?: Distance;\\n    schPaddingTop?: Distance;\\n    schPaddingBottom?: Distance;\\n    pcbPadding?: Distance;\\n    pcbPaddingLeft?: Distance;\\n    pcbPaddingRight?: Distance;\\n    pcbPaddingTop?: Distance;\\n    pcbPaddingBottom?: Distance;\\n    /**\\n     * Anchor to use when interpreting pcbX/pcbY/pcbOffsetX/pcbOffsetY relative to pcbPosition\\n     */\\n    pcbAnchorAlignment?: AutocompleteString<z.infer<typeof ninePointAnchor>>;\\n    /** @deprecated Use `pcbGrid` */\\n    grid?: boolean;\\n    /** @deprecated Use `pcbFlex` */\\n    flex?: boolean | string;\\n    pcbGrid?: boolean;\\n    pcbGridCols?: number | string;\\n    pcbGridRows?: number | string;\\n    pcbGridTemplateRows?: string;\\n    pcbGridTemplateColumns?: string;\\n    pcbGridTemplate?: string;\\n    pcbGridGap?: number | string;\\n    pcbGridRowGap?: number | string;\\n    pcbGridColumnGap?: number | string;\\n    pcbFlex?: boolean | string;\\n    pcbFlexGap?: number | string;\\n    pcbFlexDirection?: \\\"row\\\" | \\\"column\\\";\\n    pcbAlignItems?: \\\"start\\\" | \\\"center\\\" | \\\"end\\\" | \\\"stretch\\\";\\n    pcbJustifyContent?: \\\"start\\\" | \\\"center\\\" | \\\"end\\\" | \\\"stretch\\\" | \\\"space-between\\\" | \\\"space-around\\\" | \\\"space-evenly\\\";\\n    pcbFlexRow?: boolean;\\n    pcbFlexColumn?: boolean;\\n    pcbGap?: number | string;\\n    pcbPack?: boolean;\\n    pcbPackGap?: number | string;\\n    schGrid?: boolean;\\n    schGridCols?: number | string;\\n    schGridRows?: number | string;\\n    schGridTemplateRows?: string;\\n    schGridTemplateColumns?: string;\\n    schGridTemplate?: string;\\n    schGridGap?: number | string;\\n    schGridRowGap?: number | string;\\n    schGridColumnGap?: number | string;\\n    schFlex?: boolean | string;\\n    schFlexGap?: number | string;\\n    schFlexDirection?: \\\"row\\\" | \\\"column\\\";\\n    schAlignItems?: \\\"start\\\" | \\\"center\\\" | \\\"end\\\" | \\\"stretch\\\";\\n    schJustifyContent?: \\\"start\\\" | \\\"center\\\" | \\\"end\\\" | \\\"stretch\\\" | \\\"space-between\\\" | \\\"space-around\\\" | \\\"space-evenly\\\";\\n    schFlexRow?: boolean;\\n    schFlexColumn?: boolean;\\n    schGap?: number | string;\\n    schPack?: boolean;\\n    schMatchAdapt?: boolean;\\n}\\ntype PartsEngine = {\\n    findPart: (params: {\\n        sourceComponent: AnySourceComponent;\\n        footprinterString?: string;\\n    }) => Promise<SupplierPartNumbers> | SupplierPartNumbers;\\n    fetchPartCircuitJson?: (params: {\\n        supplierPartNumber?: string;\\n        manufacturerPartNumber?: string;\\n        platformFetch?: typeof fetch;\\n    }) => Promise<AnyCircuitElement[] | undefined> | AnyCircuitElement[] | undefined;\\n};\\ninterface PcbRouteCache {\\n    pcbTraces: PcbTrace[];\\n    cacheKey: string;\\n}\\ninterface RoutingTolerances {\\n    minTraceWidth?: Distance;\\n    minViaHoleEdgeToViaHoleEdgeClearance?: Distance;\\n    minPlatedHoleDrillEdgeToDrillEdgeClearance?: Distance;\\n    minTraceToPadEdgeClearance?: Distance;\\n    minPadEdgeToPadEdgeClearance?: Distance;\\n    minBoardEdgeClearance?: Distance;\\n    minViaEdgeToPadEdgeClearance?: Distance;\\n    minViaHoleDiameter?: Distance;\\n    minViaPadDiameter?: Distance;\\n}\\ninterface AutorouterConfig {\\n    serverUrl?: string;\\n    inputFormat?: \\\"simplified\\\" | \\\"circuit-json\\\";\\n    serverMode?: \\\"job\\\" | \\\"solve-endpoint\\\";\\n    serverCacheEnabled?: boolean;\\n    cache?: PcbRouteCache;\\n    traceClearance?: Distance;\\n    availableJumperTypes?: Array<\\\"1206x4\\\" | \\\"0603\\\">;\\n    allowViaInPad?: boolean;\\n    groupMode?: \\\"sequential_trace\\\" | \\\"subcircuit\\\" | /** @deprecated Use \\\"sequential_trace\\\" */ \\\"sequential-trace\\\";\\n    local?: boolean;\\n    algorithmFn?: (simpleRouteJson: any) => Promise<any>;\\n    /** Override the solver used to place implicit breakout points. */\\n    implicitBreakoutPointSolverFn?: ImplicitBreakoutPointSolverFn;\\n    preset?: \\\"sequential_trace\\\" | \\\"subcircuit\\\" | \\\"default\\\" | \\\"auto\\\" | \\\"auto_local\\\" | \\\"auto_cloud\\\" | \\\"auto_jumper\\\" | \\\"tscircuit_beta\\\" | \\\"krt\\\" | \\\"freerouting\\\" | \\\"laser_prefab\\\" | \\\"single_layer_fanout\\\" | \\\"fanout\\\" | /** @deprecated Use \\\"auto_jumper\\\" */ \\\"auto-jumper\\\" | /** @deprecated Use \\\"sequential_trace\\\" */ \\\"sequential-trace\\\" | /** @deprecated Use \\\"auto_local\\\" */ \\\"auto-local\\\" | /** @deprecated Use \\\"auto_cloud\\\" */ \\\"auto-cloud\\\";\\n}\\ntype AutorouterPreset = \\\"sequential_trace\\\" | \\\"subcircuit\\\" | \\\"default\\\" | \\\"auto\\\" | \\\"auto_local\\\" | \\\"auto_cloud\\\" | \\\"auto_jumper\\\" | \\\"tscircuit_beta\\\" | \\\"krt\\\" | \\\"freerouting\\\" | \\\"laser_prefab\\\" | \\\"single_layer_fanout\\\" | \\\"fanout\\\" | \\\"auto-jumper\\\" | \\\"sequential-trace\\\" | \\\"auto-local\\\" | \\\"auto-cloud\\\";\\ntype AutorouterProp = AutorouterConfig | AutocompleteString<AutorouterPreset>;\\ndeclare const routingTolerances: z.ZodObject<{\\n    minTraceWidth: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n    minViaHoleEdgeToViaHoleEdgeClearance: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n    minViaEdgeToPadEdgeClearance: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n    minPlatedHoleDrillEdgeToDrillEdgeClearance: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n    minTraceToPadEdgeClearance: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n    minPadEdgeToPadEdgeClearance: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n    minBoardEdgeClearance: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n    minViaHoleDiameter: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n    minViaPadDiameter: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n}, \\\"strip\\\", z.ZodTypeAny, {\\n    minTraceWidth?: number | undefined;\\n    minViaHoleEdgeToViaHoleEdgeClearance?: number | undefined;\\n    minViaEdgeToPadEdgeClearance?: number | undefined;\\n    minPlatedHoleDrillEdgeToDrillEdgeClearance?: number | undefined;\\n    minTraceToPadEdgeClearance?: number | undefined;\\n    minPadEdgeToPadEdgeClearance?: number | undefined;\\n    minBoardEdgeClearance?: number | undefined;\\n    minViaHoleDiameter?: number | undefined;\\n    minViaPadDiameter?: number | undefined;\\n}, {\\n    minTraceWidth?: string | number | undefined;\\n    minViaHoleEdgeToViaHoleEdgeClearance?: string | number | undefined;\\n    minViaEdgeToPadEdgeClearance?: string | number | undefined;\\n    minPlatedHoleDrillEdgeToDrillEdgeClearance?: string | number | undefined;\\n    minTraceToPadEdgeClearance?: string | number | undefined;\\n    minPadEdgeToPadEdgeClearance?: string | number | undefined;\\n    minBoardEdgeClearance?: string | number | undefined;\\n    minViaHoleDiameter?: string | number | undefined;\\n    minViaPadDiameter?: string | number | undefined;\\n}>;\\ndeclare const autorouterConfig: z.ZodObject<{\\n    serverUrl: z.ZodOptional<z.ZodType<string, z.ZodTypeDef, string>>;\\n    inputFormat: z.ZodOptional<z.ZodEnum<[\\\"simplified\\\", \\\"circuit-json\\\"]>>;\\n14822:    const rawPins = this._parsedProps.internallyConnectedPins ?? this.defaultInternallyConnectedPinNames;\\n17064:  const internallyConnectedPins = mapInternallyConnectedSourcePortIdsToPinLabels(\\n17090:    internallyConnectedPins\\n45944:    const { internallyConnectedPins } = this._parsedProps;\\n45946:    if (!internallyConnectedPins || internallyConnectedPins.length === 0) {\\n45954:      const internallyConnectedRow = internallyConnectedPins?.find(\\n49:  pushbutton: () => pushbutton,\\n62:  smdpushbutton: () => smdpushbutton,\\n5017:// src/fn/pushbutton.ts\\n5022:var pushbutton_def = base_def.extend({\\n5023:  fn: z36.literal(\\\"pushbutton\\\"),\\n5029:var pushbutton = (raw_params) => {\\n5030:  const parameters = pushbutton_def.parse(raw_params);\\n11893:// src/fn/smdpushbutton.ts\\n11898:var smdpushbutton_def = base_def.extend({\\n11899:  fn: z87.literal(\\\"smdpushbutton\\\"),\\n11906:var smdpushbutton = (rawParams) => {\\n11907:  const parameters = smdpushbutton_def.parse(rawParams);\\nUsage: tsci check [options] [command] [file]\\n\\nPartially build and validate circuit artifacts\\n\\nArguments:\\n  file                                         Path to the entry file\\n\\nOptions:\\n  -h, --help                                   display help for command\\n\\nCommands:\\n  netlist [file]                               Partially build and validate the netlist\\n  pin_specification [file]                     Partially build and validate pin specification checks\\n  placement [file] [refdes]                    Partially build and validate the placement\\n  routing-difficulty [file]                    Analyze routing difficulty\\n  schematic-placement [file]                   Analyze schematic component placement\\n  shorts [options] [file]                      Detect unintended shorts between separate PCB copper groups\\n  source [file]                                Partially build and validate source diagnostics\\n  trace-length [options] <pinOrNetRef> [file]  Analyze trace length for a pin or net\\n\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 33,
+      "source_line_sha256": "870ad04e7c62fc6fd0761d4917aa9c59fb8eda636a45d7750f9b0b6360990f3d",
+      "timestamp": "2026-09-05T17:48:57.152Z"
+    },
+    {
+      "item": {
+        "call_id": "call_SL1JWeVIaELukYrdZGGz09rU",
+        "input": "text(await tools.exec_command({cmd:\"sed -n '5017,5100p' /Users/ankan/.bun/install/global/node_modules/@tscircuit/footprinter/dist/index.js; rg -n 'PushButton|defaultInternallyConnectedPinNames' /Users/ankan/.bun/install/global/node_modules/@tscircuit/core/dist/index.js | tail -20; rg -n 'routingTolerances' /Users/ankan/.bun/install/global/node_modules/@tscircuit/props/dist/index.d.ts | head -5; cat /Users/ankan/.bun/install/global/node_modules/tscircuit/package.json | head -30\",\"workdir\":\"/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1\",\"shell\":\"/bin/zsh\",\"max_output_tokens\":4000}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 35,
+      "source_line_sha256": "392a344d591fa28ac6ba424954bf1fa534b05d288baf6f53c2af7c20f2763343",
+      "timestamp": "2026-09-05T17:49:06.864Z"
+    },
+    {
+      "item": {
+        "call_id": "call_SL1JWeVIaELukYrdZGGz09rU",
+        "output": [
+          {
+            "text": "Script completed\nWall time 0.1 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "text": "{\"chunk_id\":\"83e914\",\"wall_time_seconds\":0.00000275,\"exit_code\":0,\"original_token_count\":4919,\"output\":\"Warning: truncated output (original token count: 4919)\\nTotal output lines: 130\\n\\n// src/fn/pushbutton.ts\\nimport {\\n  length as length31\\n} from \\\"circuit-json\\\";\\nimport { z as z36 } from \\\"zod\\\";\\nvar pushbutton_def = base_def.extend({\\n  fn: z36.literal(\\\"pushbutton\\\"),\\n  w: length31.default(4.5),\\n  h: length31.default(6.5),\\n  id: length31.default(1),\\n  od: length31.default(1.2)\\n});\\nvar pushbutton = (raw_params) => {\\n  const parameters = pushbutton_def.parse(raw_params);\\n  const width = parameters.w;\\n  const height = parameters.h;\\n  const holeDiameter = parameters.id;\\n  const holes = [\\n    platedhole(1, -width / 2, height / 2, holeDiameter, holeDiameter * 1.5),\\n    platedhole(2, -width / 2, -height / 2, holeDiameter, holeDiameter * 1.5),\\n    platedhole(3, width / 2, -height / 2, holeDiameter, holeDiameter * 1.5),\\n    platedhole(4, width / 2, height / 2, holeDiameter, holeDiameter * 1.5)\\n  ];\\n  const silkscreenLines = [\\n    // Vertical lines indicating connections\\n    silkscreenpath([\\n      { x: -width / 2, y: -height / 2 },\\n      { x: -width / 2, y: height / 2 }\\n    ]),\\n    silkscreenpath([\\n      { x: width / 2, y: -height / 2 },\\n      { x: width / 2, y: height / 2 }\\n    ]),\\n    // Center indicating latch\\n    silkscreenpath([\\n      { x: -width / 2, y: 0 },\\n      { x: -width / 5, y: 0 },\\n      { x: width / 5 * 1 / Math.sqrt(2), y: height / 8 }\\n    ]),\\n    silkscreenpath([\\n      { x: width / 2, y: 0 },\\n      { x: width / 5, y: 0 }\\n    ])\\n  ];\\n  const silkscreenRefText = silkscreenRef(\\n    0,\\n    height / 2 + 0.4,\\n    0.5\\n  );\\n  const padOuterRadius = holeDiameter * 1.5 / 2;\\n  const pinRowSpanX = width;\\n  const pinRowSpanY = height;\\n  const padOuterHalfWidth = pinRowSpanX / 2 + padOuterRadius;\\n  const padOuterHalfHeight = pinRowSpanY / 2 + padOuterRadius;\\n  const courtyardHalfWidth = padOuterHalfWidth + 0.5;\\n  const courtyardHalfHeight = padOuterHalfHeight + 0.5;\\n  const courtyard = {\\n    type: \\\"pcb_courtyard_rect\\\",\\n    pcb_courtyard_rect_id: \\\"\\\",\\n    pcb_component_id: \\\"\\\",\\n    center: { x: 0, y: 0 },\\n    width: 2 * courtyardHalfWidth,\\n    height: 2 * courtyardHalfHeight,\\n    layer: \\\"top\\\"\\n  };\\n  return {\\n    circuitJson: [...holes, ...silkscreenLines, silkscreenRefText, courtyard],\\n    parameters\\n  };\\n};\\n\\n// src/fn/stampboard.ts\\nimport {\\n  length as length32\\n} from \\\"circuit-json\\\";\\nimport { z as z37 } from \\\"zod\\\";\\nvar stampboard_def = base_def.extend({\\n  fn: z37.string(),\\n  w: length32.default(\\\"22.58mm\\\"),\\n  h: length32.optional(),\\n  left: length32.optional().default(20),\\n  right: length32.optional().default(20),\\n  top: length32.optional().default(2),\\n  bottom: length32.optional().default(2),\\n82:  PushButton: () => PushButton,\\n14818:  get defaultInternallyConnectedPinNames() {\\n14822:    const rawPins = this._parsedProps.internallyConnectedPins ?? this.defaultInternallyConnectedPinNames;\\n45916:// lib/components/normal-components/PushButton.ts\\n45919:var PushButton = class extends NormalComponent3 {\\n45922:      componentName: \\\"PushButton\\\",\\n45928:  get defaultInternallyConnectedPinNames() {\\n45983:// lib/components/primitive-components/Group/Subcircuit/inflators/inflateSourcePushButton.ts\\n45984:function inflateSourcePushButton(sourceElm, inflatorContext) {\\n45997:  const pushButton = new PushButton({\\n46638:        inflateSourcePushButton(sourceComponent, inflationCtx);\\n49889:  get defaultInternallyConnectedPinNames() {\\n49999:  get defaultInternallyConnectedPinNames() {\\n56594:  PushButton,\\n21062:declare const routingTolerances: z.ZodObject<{\\n226009:export { type AmmeterPinLabels, type AmmeterProps, type AnalogAcSweepSimulationProps, type AnalogAnalysisSimulationBaseProps, type AnalogCapacitanceSweepParameterProps, type AnalogCurrentSweepParameterProps, type AnalogDcOperatingPointSimulationProps, type AnalogDcSweepSimulationProps, type AnalogInductanceSweepParameterProps, type AnalogResistanceSweepParameterProps, type AnalogSimulationProps, type AnalogSweepParameterProps, type AnalogTransientSimulationProps, type AnalogVoltageSweepParameterProps, type AntennaFrequencyBand, type AntennaProps, type AntennaShape, type AssemblyDeviceProps, type AssemblyDevicePropsInput, type AutocompleteString, type AutorouterConfig, type AutorouterDefinition, type AutorouterInstance, type AutorouterPreset, type AutorouterProp, type AutorouterVersion, type AutoroutingPhaseProps, type BaseGroupProps, type BaseManualEditEvent, type BaseManualEditEventInput, type BasicFootprint, type BatteryPinLabels, type BatteryProps, type BoardColor, type BoardColorPreset, type BoardOutlinePoint, type BoardProps, type Border, type BreakoutPointProps, type BreakoutProps, type BusFanoutDirection, type BusFanoutDirectionLiteral, type BusName, type BusProps, type CadAssemblyProps, type CadAssemblyPropsInput, type CadModelAxisDirection, type CadModelBase, type CadModelFootprinterString, type CadModelGlb, type CadModelGltf, type CadModelJscad, type CadModelObj, type CadModelProp, type CadModelProps, type CadModelPropsInput, type CadModelStep, type CadModelStl, type CadModelWrl, type CanonicalBusFanoutDirection, type CapacitorPinLabels, type CapacitorProps, type ChipConnections, type ChipPinLabels, type ChipProps, type ChipPropsSU, type CircleCutoutProps, type CircleEnclosureCutoutApertureProps, type CircleHoleProps, type CirclePlatedHoleProps, type CircleShapeProps, type CircleSmtPadProps, type CircleSolderPasteProps, type CircuitJson, type CircularHoleWithRectPlatedProps, type CommonComponentProps, type CommonLayoutProps, type CommonShapeProps, type ComponentProps, type ConnectionTarget, type Connections, type ConnectorProps, type ConnectorStandard, type ConstrainedLayoutProps, type ConstraintProps, type CopperPourProps, type CopperPourPropsInput, type CopperTextProps, type CourtyardCircleProps, type CourtyardOutlineProps, type CourtyardPillProps, type CourtyardRectProps, type CrystalPinLabels, type CrystalProps, type CurrentSourcePinLabels, type CurrentSourceProps, type CustomDrcCheckContext, type CustomDrcCheckFn, type CustomDrcCheckInput, type CustomDrcConnectable, type CustomDrcSelect, type CustomDrcSelectAll, type CutoutApertureProps, type CutoutProps, type CutoutPropsInput, type DifferentialPairProps, type DiodePinLabels, type DiodePinLabelsProp, type DiodeProps, type Direction, type DirectionAlongEdge, type DirectionalFanoutBoundaryPadding, type DrcCheckProps, type EditPcbComponentLocationEvent, type EditPcbComponentLocationEventInput, type EditPcbGroupLocationEvent, type EditPcbGroupLocationEventInput, type EditSchematicComponentLocationEvent, type EditSchematicComponentLocationEventInput, type EditSchematicGroupLocationEvent, type EditSchematicGroupLocationEventInput, type EditTraceHintEvent, type EditTraceHintEventInput, type EnclosureCutoutApertureProps, type EnclosureCutoutApertureShape, type EnclosureFdmBoxProps, type EnclosureFdmBoxPropsInput, type FabricationNoteDimensionProps, type FabricationNoteDimensionPropsInput, type FabricationNotePathProps, type FabricationNoteRectProps, type FabricationNoteTextProps, type FabricationNoteTextPropsInput, type FanoutBoundaryPadding, type FanoutPourNetMap, type FanoutProps, type FiducialProps, type FootprintFileParserEntry, type FootprintInsertionDirection, type FootprintLibraryResult, type FootprintProp, type FootprintProps, type FootprintPropsInput, type FootprintSoupElements, type FootprinterAutocompleteString, type FootprinterStringExample, type FusePinLabels, type FuseProps, type GroupProps, type HoleProps, type HoleWithPolygonPadPlatedHoleProps, type ImplicitBreakoutBounds, type ImplicitBreakoutBus, type ImplicitBreakoutConnection, type ImplicitBreakoutConnectionEndpoint, type ImplicitBreakoutConnectionOrDifferentialPair, type ImplicitBreakoutDifferentialPair, type ImplicitBreakoutEdge, type ImplicitBreakoutPoint, type ImplicitBreakoutPointSolverFn, type ImplicitBreakoutPointSolverInput, type ImplicitBreakoutPointSolverOutput, type ImplicitBreakoutRegion, type ImplicitBreakoutSolverPoint, type InductorPinLabels, type InductorProps, type InferredChipProps, type InferredConstrainedLayoutProps, type InferredDiodeProps, type InferredFusePr…919 tokens truncated…type SchematicPathProps, type SchematicPinArrangement, type SchematicPinArrangementWithPinCounts, type SchematicPinArrangementWithSides, type SchematicPinArrangementWithSizes, type SchematicPinLabel, type SchematicPinStyle, type SchematicPortArrangement, type SchematicPortArrangementWithPinCounts, type SchematicPortArrangementWithSides, type SchematicPortArrangementWithSizes, type SchematicRectProps, type SchematicRowProps, type SchematicSectionProps, type SchematicSheetProps, type SchematicSheetSize, type SchematicSymbolProps, type SchematicSymbolSize, type SchematicTableProps, type SchematicTextProps, type SelectionResult, type SelectionResultComponent, type SelectionResultNet, type SelectionResultPort, type Selectors, type SilkscreenCircleProps, type SilkscreenGraphicProps, type SilkscreenLineProps, type SilkscreenPathProps, type SilkscreenRectProps, type SilkscreenTextProps, type SimpleRouteJson, type SmtPadProps, type SolderJumperProps, type SolderPasteProps, type SpiceEngine, type SpiceEngineSimulationResult, type SpiceModelElement, type SpiceModelProps, type SpiceOptions, type StampboardProps, type SubcircuitGroupProps, type SubcircuitGroupPropsWithBool, type SubcircuitProps, type SubpanelProps, type SupplierName, type SupplierPartNumbers, type SupplierProps, type SwitchProps, type SymbolProp, type SymbolProps, type SymbolPropsInput, type TestpointConnections, type TestpointPinLabels, type TestpointProps, type ToolingrailProps, type TraceHintProps, type TraceProps, type TransistorPinLabels, type TransistorProps, type ViaProps, type VoltageProbeProps, type VoltageSourcePinLabels, type VoltageSourceProps, type WaveShape, ammeterPinLabels, ammeterPins, ammeterProps, analogAcSweepSimulationProps, analogAnalysisSimulationBaseProps, analogCapacitanceSweepParameterProps, analogCurrentSweepParameterProps, analogDcOperatingPointSimulationProps, analogDcSweepSimulationProps, analogInductanceSweepParameterProps, analogResistanceSweepParameterProps, analogSimulationProps, analogSweepParameterProps, analogTransientSimulationProps, analogVoltageSweepParameterProps, antennaFrequencyBand, antennaFrequencyBands, antennaProps, antennaShape, antennaShapes, assemblyDeviceProps, assemblyProps, autorouterConfig, autorouterEffortLevel, autorouterPreset, autorouterProp, autoroutingPhaseProps, baseGroupProps, base_manual_edit_event, batteryPins, batteryProps, boardOutlinePoint, boardProps, border, breakoutPointProps, breakoutProps, bugProps, busFanoutDirection, busProps, cadModelAxisDirection, cadModelAxisDirections, cadModelBase, cadModelGlb, cadModelGltf, cadModelJscad, cadModelObj, cadModelProp, cadModelStep, cadModelStl, cadModelWrl, cadassemblyProps, cadmodelProps, canonicalBusFanoutDirection, canonicalBusFanoutDirectionValues, capacitorPinLabels, capacitorPins, capacitorProps, chipProps, circleCutoutProps, circleShapeProps, circleSmtPadProps, circleSolderPasteProps, commonComponentProps, commonLayoutProps, commonShapeProps, componentProps, connectorProps, connectorStandard, constrainedLayoutProps, constraintProps, copperPourProps, copperTextProps, courtyardCircleProps, courtyardOutlineProps, courtyardPillProps, courtyardRectProps, crystalPins, crystalProps, currentSourcePinLabels, currentSourcePins, currentSourceProps, customDrcCheckFn, cutoutApertureBaseProps, cutoutProps, differentialPairProps, diodePinLabelsProp, diodePins, diodeProps, direction, directionAlongEdge, distanceOrMultiplier, drcCheckProps, edit_component_location_event, edit_pcb_component_location_event, edit_pcb_group_location_event, edit_schematic_component_location_event, edit_schematic_group_location_event, edit_trace_hint_event, enclosureCutoutApertureProps, enclosureCutoutApertureShapes, enclosureFdmBoxProps, enclosureProps, explicitPinSideDefinition, fabricationNoteDimensionProps, fabricationNotePathProps, fabricationNoteRectProps, fabricationNoteTextProps, fanoutBoundaryPadding, fanoutProps, fiducialProps, footprintInsertionDirection, footprintProp, footprintProps, footprinterStringExamples, fusePinLabels, fuseProps, groupProps, holeProps, inductorPins, inductorProps, interconnectProps, internalCircuitProps, jumperProps, kicadAt, kicadEffects, kicadFont, kicadFootprintAttributes, kicadFootprintKeys, kicadFootprintMetadata, kicadFootprintModel, kicadFootprintPad, kicadFootprintProperties, kicadFootprintStrings, kicadPinElectricalType, kicadPinGraphicStyle, kicadPinMetadata, kicadProperty, kicadSymbolEffects, kicadSymbolMetadata, kicadSymbolPinNames, kicadSymbolPinNumbers, kicadSymbolProperties, kicadSymbolProperty, layoutConfig, ledPins, ledProps, lrPins, lrPolarPins, manual_edit_event, manual_edits_file, manual_pcb_placement, manual_schematic_placement, manual_trace_hint, mosfetPins, mosfetProps, mountedboardProps, netAliasProps, netLabelProps, netProps, ninePointAnchor, opampPinLabels, opampPins, opampProps, panelProps, partsEngine, pcbKeepoutProps, pcbLayoutProps, pcbNoteDimensionProps, pcbNoteLineProps, pcbNotePathProps, pcbNoteRectProps, pcbNoteTextProps, pcbPath, pcbPathPoint, pcbSameXConstraintProps, pcbSameYConstraintProps, pcbStyle, pcbSx, pcbSxValue, pcbTraceProps, pcbXDistConstraintProps, pcbYDistConstraintProps, pillShapeProps, pillSmtPadProps, pinAttributeMap, pinCapability, pinCompatibleVariant, pinHeaderProps, pinLabelsProp, pinoutProps, platedHoleProps, platformConfig, point3, polygonCutoutProps, polygonSmtPadProps, portHints, portProps, portRef, potentiometerPinLabels, potentiometerProps, powerSourceProps, projectConfig, pushButtonProps, rectCutoutProps, rectShapeProps, rectSmtPadProps, rectSolderPasteProps, resistorPinLabels, resistorPins, resistorProps, resonatorProps, rotatedPillSmtPadProps, rotatedRectSmtPadProps, rotationPoint3, routeHintPointProps, routingTolerances, schStyle, schematicArcProps, schematicBoxProps, schematicCellProps, schematicCircleProps, schematicGraphicProps, schematicLineProps, schematicOrientation, schematicPathProps, schematicPinArrangement, schematicPinLabel, schematicPinStyle, schematicPortArrangement, schematicRectProps, schematicRowProps, schematicSectionProps, schematicSheetProps, schematicSymbolProps, schematicSymbolSize, schematicTableProps, schematicTextProps, silkscreenCircleProps, silkscreenGraphicProps, silkscreenLineProps, silkscreenPathProps, silkscreenRectProps, silkscreenTextProps, smtPadProps, solderPasteProps, solderjumperProps, spicemodelProps, stampboardProps, subcircuitGroupProps, subcircuitGroupPropsWithBool, subcircuitProps, subpanelProps, supplierProps, switchProps, symbolProp, symbolProps, testpointPins, testpointProps, toolingrailProps, traceHintProps, traceProps, transistorPins, transistorPinsLabels, transistorProps, viaProps, voltageProbeProps, voltageSourcePinLabels, voltageSourcePins, voltageSourceProps };\\n{\\n  \\\"name\\\": \\\"tscircuit\\\",\\n  \\\"main\\\": \\\"dist/index.js\\\",\\n  \\\"types\\\": \\\"dist/index.d.ts\\\",\\n  \\\"type\\\": \\\"module\\\",\\n  \\\"version\\\": \\\"0.0.2462\\\",\\n  \\\"license\\\": \\\"MIT\\\",\\n  \\\"repository\\\": {\\n    \\\"type\\\": \\\"git\\\",\\n    \\\"url\\\": \\\"https://github.com/tscircuit/tscircuit\\\"\\n  },\\n  \\\"files\\\": [\\n    \\\"dist\\\",\\n    \\\"cli.mjs\\\",\\n    \\\"globals.d.ts\\\"\\n  ],\\n  \\\"scripts\\\": {\\n    \\\"build\\\": \\\"tsup-node && bun run copy-runframe-standalone && bun run copy-eval-webworker && cp types/static-assets.d.ts dist/static-assets.d.ts && bun run add-global-types-reference\\\",\\n    \\\"add-global-types-reference\\\": \\\"echo '/// <reference path=\\\\\\\"../globals.d.ts\\\\\\\" />' | cat - dist/index.d.ts > dist/index.d.ts.tmp && mv dist/index.d.ts.tmp dist/index.d.ts\\\",\\n    \\\"test\\\": \\\"bun test\\\",\\n    \\\"upgrade-deps\\\": \\\"bun update --latest @tscircuit/core @tscircuit/cli @tscircuit/eval @tscircuit/runframe && bun run copy-core-versions && bun install --ignore-scripts\\\",\\n    \\\"copy-runframe-standalone\\\": \\\"bun run scripts/copy-runframe-standalone.ts\\\",\\n    \\\"copy-eval-webworker\\\": \\\"bun run scripts/copy-eval-webworker.ts\\\",\\n    \\\"copy-core-versions\\\": \\\"bun run scripts/copy-core-versions.ts && bun install --ignore-scripts\\\"\\n  },\\n  \\\"exports\\\": {\\n    \\\".\\\": {\\n      \\\"types\\\": \\\"./dist/index.d.ts\\\",\\n      \\\"default\\\": \\\"./dist/index.js\\\"\\n    },\\n\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 38,
+      "source_line_sha256": "6e6e5a58b8ba98ef9ce69d294f711379a0f39949b146f37bf1a4fe45094b128e",
+      "timestamp": "2026-09-05T17:49:06.942Z"
+    },
+    {
+      "item": {
+        "call_id": "call_RRLhWiDA1lAAzdnkiGd0iDEK",
+        "input": "text(await tools.exec_command({cmd:\"sed -n '45916,45982p' /Users/ankan/.bun/install/global/node_modules/@tscircuit/core/dist/index.js; rg -n 'routingTolerances\\\\??:|routingTolerances:' /Users/ankan/.bun/install/global/node_modules/@tscircuit/props/dist/index.d.ts | head -8; rg -n 'interface PcbStyle' /Users/ankan/.bun/install/global/node_modules/@tscircuit/props/dist/index.d.ts\",\"workdir\":\"/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1\",\"shell\":\"/bin/zsh\",\"max_output_tokens\":2000}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 40,
+      "source_line_sha256": "23e381d8699180293146537b3d485b88bd0e72f83c5f7e79f35a1602c04cb9e0",
+      "timestamp": "2026-09-05T17:49:15.889Z"
+    },
+    {
+      "item": {
+        "call_id": "call_RRLhWiDA1lAAzdnkiGd0iDEK",
+        "output": [
+          {
+            "text": "Script completed\nWall time 0.1 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "text": "{\"chunk_id\":\"940367\",\"wall_time_seconds\":0.000001458,\"exit_code\":0,\"original_token_count\":644,\"output\":\"// lib/components/normal-components/PushButton.ts\\nimport { pushButtonProps } from \\\"@tscircuit/props\\\";\\nimport { symbols as symbols6 } from \\\"schematic-symbols\\\";\\nvar PushButton = class extends NormalComponent3 {\\n  get config() {\\n    return {\\n      componentName: \\\"PushButton\\\",\\n      schematicSymbolName: this.props.symbolName ?? \\\"push_button_normally_open_momentary\\\",\\n      zodProps: pushButtonProps,\\n      sourceFtype: FTYPE.simple_push_button\\n    };\\n  }\\n  get defaultInternallyConnectedPinNames() {\\n    return [];\\n  }\\n  initPorts() {\\n    super.initPorts({\\n      pinCount: 2,\\n      ignoreSymbolPorts: true\\n    });\\n    const symbol = symbols6[this._getSchematicSymbolNameOrThrow()];\\n    const symPort1 = symbol.ports.find((p) => p.labels.includes(\\\"1\\\"));\\n    const symPort2 = symbol.ports.find((p) => p.labels.includes(\\\"2\\\"));\\n    const ports = this.selectAll(\\\"port\\\");\\n    const pin1Port = ports.find((p) => p.props.pinNumber === 1);\\n    const pin2Port = ports.find((p) => p.props.pinNumber === 2);\\n    const pin3Port = ports.find((p) => p.props.pinNumber === 3);\\n    const pin4Port = ports.find((p) => p.props.pinNumber === 4);\\n    const { internallyConnectedPins } = this._parsedProps;\\n    pin1Port.schematicSymbolPortDef = symPort1;\\n    if (!internallyConnectedPins || internallyConnectedPins.length === 0) {\\n      pin2Port.schematicSymbolPortDef = symPort2;\\n    }\\n    for (const [pn, port] of [\\n      [2, pin2Port],\\n      [3, pin3Port],\\n      [4, pin4Port]\\n    ]) {\\n      const internallyConnectedRow = internallyConnectedPins?.find(\\n        ([pin1, pin2]) => pin1 === `pin${pn}` || pin2 === `pin${pn}`\\n      );\\n      if (!internallyConnectedRow) {\\n        port.schematicSymbolPortDef = symPort2;\\n        break;\\n      }\\n      const internallyConnectedTo = internallyConnectedRow?.[0] === `pin${pn}` ? internallyConnectedRow[1] : internallyConnectedRow?.[0];\\n      if (internallyConnectedTo === \\\"pin1\\\") {\\n        continue;\\n      }\\n      port.schematicSymbolPortDef = symPort2;\\n    }\\n  }\\n  doInitialSourceRender() {\\n    const { db } = this.root;\\n    const { _parsedProps: props } = this;\\n    const source_component = db.source_component.insert({\\n      name: this.name,\\n      ftype: FTYPE.simple_push_button,\\n      supplier_part_numbers: props.supplierPartNumbers,\\n      manufacturer_part_number: props.manufacturerPartNumber ?? props.mfn,\\n      are_pins_interchangeable: true,\\n      display_name: props.displayName\\n    });\\n    this.source_component_id = source_component.source_component_id;\\n  }\\n};\\n\\n21062:declare const routingTolerances: z.ZodObject<{\\n8092:interface PcbStyle {\\n\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 43,
+      "source_line_sha256": "9158f21a1e3969094cfb91a4f3a711a0b3e9b941797602a669215598e0656c4b",
+      "timestamp": "2026-09-05T17:49:15.985Z"
+    },
+    {
+      "item": {
+        "call_id": "call_ZxweUiAblvQncKXMikOiBCYV",
+        "input": "text(await tools.exec_command({cmd:\"sed -n '8092,8150p' /Users/ankan/.bun/install/global/node_modules/@tscircuit/props/dist/index.d.ts; rg -n 'RoutingTolerances' /Users/ankan/.bun/install/global/node_modules/@tscircuit/props/dist/index.d.ts | head -5; cat > artifacts/attempt-01/index.circuit.tsx <<'EOF'\\nexport default () => (\\n  <board width=\\\"50mm\\\" height=\\\"35mm\\\" layers={2} minTraceWidth=\\\"0.25mm\\\"\\n    autorouter={{local:true, traceClearance:0.25}}\\n    title=\\\"Four-button digital input board\\\">\\n    <schematicsection name=\\\"Header\\\" />\\n    <pinheader name=\\\"J1\\\" pinCount={6} pitch=\\\"2.54mm\\\" gender=\\\"male\\\"\\n      footprint=\\\"pinrow6_p2.54mm\\\" pcbX={0} pcbY={11}\\n      schX={-12} schY={0} schSectionName=\\\"Header\\\"\\n      pinLabels={[\\\"+3V3\\\", \\\"GND\\\", \\\"BTN1\\\", \\\"BTN2\\\", \\\"BTN3\\\", \\\"BTN4\\\"]}\\n      showSilkscreenPinLabels={true} />\\n    <net name=\\\"V3V3\\\" /><net name=\\\"GND\\\" />\\n    <trace from=\\\".J1 > .pin1\\\" to=\\\"net.V3V3\\\" thickness=\\\"0.25mm\\\" />\\n    <trace from=\\\".J1 > .pin2\\\" to=\\\"net.GND\\\" thickness=\\\"0.25mm\\\" />\\n    <silkscreentext text=\\\"1:+3V3  2:GND  3-6:BTN1-4\\\" pcbX={0} pcbY={15} fontSize={0.8} />\\n    {[1,2,3,4].map((i) => {\\n      const x = -18 + (i-1)*12;\\n      const sx = (i-1)*8;\\n      return <>\\n        <schematicsection name={`Channel${i}`} displayName={`BTN${i}`} />\\n        <net name={`BTN${i}`} />\\n        <resistor name={`R${i}`} resistance=\\\"10k\\\" footprint=\\\"0805\\\"\\n          pcbX={x-2.5} pcbY={3} schX={sx} schY={3} schRotation={90} schSectionName={`Channel${i}`} />\\n        <capacitor name={`C${i}`} capacitance=\\\"100nF\\\" footprint=\\\"0805\\\"\\n          pcbX={x+2.5} pcbY={3} schX={sx+2} schY={-1} schRotation={90} schSectionName={`Channel${i}`} />\\n        <pushbutton name={`SW${i}`} footprint=\\\"pushbutton\\\" internallyConnectedPins={[[\\\"pin1\\\",\\\"pin2\\\"],[\\\"pin3\\\",\\\"pin4\\\"]]}\\n          pcbX={x} pcbY={-7} schX={sx-2} schY={-1} schRotation={90} schSectionName={`Channel${i}`} />\\n        <silkscreentext text={`BTN${i}`} pcbX={x} pcbY={-13} fontSize={1.3} />\\n        <trace from={`.J1 > .pin${i+2}`} to={`net.BTN${i}`} thickness=\\\"0.25mm\\\" />\\n        <trace from={`.R${i} > .pin1`} to=\\\"net.V3V3\\\" thickness=\\\"0.25mm\\\" />\\n        <trace from={`.R${i} > .pin2`} to={`net.BTN${i}`} thickness=\\\"0.25mm\\\" />\\n        <trace from={`.C${i} > .pin1`} to={`net.BTN${i}`} thickness=\\\"0.25mm\\\" />\\n        <trace from={`.C${i} > .pin2`} to=\\\"net.GND\\\" thickness=\\\"0.25mm\\\" />\\n        <trace from={`.SW${i} > .pin1`} to={`net.BTN${i}`} thickness=\\\"0.25mm\\\" />\\n        <trace from={`.SW${i} > .pin2`} to={`net.BTN${i}`} thickness=\\\"0.25mm\\\" />\\n        <trace from={`.SW${i} > .pin3`} to=\\\"net.GND\\\" thickness=\\\"0.25mm\\\" />\\n        <trace from={`.SW${i} > .pin4`} to=\\\"net.GND\\\" thickness=\\\"0.25mm\\\" />\\n      </>\\n    })}\\n  </board>\\n)\\nEOF\\ncat > artifacts/attempt-01/package.json <<'EOF'\\n{\\\"name\\\":\\\"button-input-bank-pilot\\\",\\\"private\\\":true,\\\"type\\\":\\\"module\\\",\\\"dependencies\\\":{\\\"tscircuit\\\":\\\"0.0.2462\\\"}}\\nEOF\\ncp /Users/ankan/.bun/install/global/bun.lock logs/installed-global.bun.lock\\ncp /Users/ankan/.bun/install/global/node_modules/tscircuit/package.json logs/installed-tscircuit-package.json\\ncat > logs/run-command.sh <<'EOF'\\n#!/bin/zsh\\nset +e\\nrun_dir=/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1\\nlabel=$1\\nshift\\nprint -r -- \\\"$(date -u +%FT%TZ) $*\\\" >> \\\"$run_dir/logs/commands.log\\\"\\n\\\"$@\\\" > \\\"$run_dir/logs/$label.log\\\" 2>&1\\nrc=$?\\nprint -r -- \\\"$rc\\\" > \\\"$run_dir/logs/$label.exit\\\"\\ntail -30 \\\"$run_dir/logs/$label.log\\\"\\nexit $rc\\nEOF\\nzsh logs/run-command.sh attempt-01-netlist tsci check netlist artifacts/attempt-01/index.circuit.tsx\",\"workdir\":\"/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1\",\"shell\":\"/bin/zsh\",\"max_output_tokens\":3000,\"yield_time_ms\":1000}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 47,
+      "source_line_sha256": "745bb37dde7c2f91aac6d850f5d80292531428bd80a4a5614aa644b6b3d78b1a",
+      "timestamp": "2026-09-05T17:50:02.042Z"
+    },
+    {
+      "item": {
+        "call_id": "call_ZxweUiAblvQncKXMikOiBCYV",
+        "output": [
+          {
+            "text": "Script completed\nWall time 1.2 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "text": "{\"chunk_id\":\"0b3446\",\"wall_time_seconds\":1.001639833,\"session_id\":43740,\"original_token_count\":4457,\"output\":\"Warning: truncated output (original token count: 4457)\\nTotal output lines: 63\\n\\ninterface PcbStyle {\\n    silkscreenFontSize?: string | number;\\n    viaPadDiameter?: string | number;\\n    viaHoleDiameter?: string | number;\\n    silkscreenTextPosition?: \\\"centered\\\" | \\\"outside\\\" | \\\"none\\\" | {\\n        offsetX: number;\\n        offsetY: number;\\n    };\\n    silkscreenTextVisibility?: \\\"hidden\\\" | \\\"visible\\\" | \\\"inherit\\\";\\n}\\ndeclare const pcbStyle: z.ZodObject<{\\n    silkscreenFontSize: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n    viaPadDiameter: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n    viaHoleDiameter: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n    silkscreenTextPosition: z.ZodOptional<z.ZodUnion<[z.ZodEnum<[\\\"centered\\\", \\\"outside\\\", \\\"none\\\"]>, z.ZodObject<{\\n        offsetX: z.ZodNumber;\\n        offsetY: z.ZodNumber;\\n    }, \\\"strip\\\", z.ZodTypeAny, {\\n        offsetX: number;\\n        offsetY: number;\\n    }, {\\n        offsetX: number;\\n        offsetY: number;\\n    }>]>>;\\n    silkscreenTextVisibility: z.ZodOptional<z.ZodEnum<[\\\"hidden\\\", \\\"visible\\\", \\\"inherit\\\"]>>;\\n}, \\\"strip\\\", z.ZodTypeAny, {\\n    silkscreenFontSize?: number | undefined;\\n    viaPadDiameter?: number | undefined;\\n    viaHoleDiameter?: number | undefined;\\n    silkscreenTextPosition?: \\\"centered\\\" | \\\"outside\\\" | \\\"none\\\" | {\\n        offsetX: number;\\n        offsetY: number;\\n    } | undefined;\\n    silkscreenTextVisibility?: \\\"hidden\\\" | \\\"visible\\\" | \\\"inherit\\\" | undefined;\\n}, {\\n    silkscreenFontSize?: string | number | undefined;\\n    viaPadDiameter?: string | number | undefined;\\n    viaHoleDiameter?: string | number | undefined;\\n    silkscreenTextPosition?: \\\"centered\\\" | \\\"outside\\\" | \\\"none\\\" | {\\n        offsetX: number;\\n        offsetY: number;\\n    } | undefined;\\n    silkscreenTextVisibility?: \\\"hidden\\\" | \\\"visible\\\" | \\\"inherit\\\" | undefined;\\n}>;\\n\\ntype PcbSxSelector = \\\"& footprint[src^='kicad:'] silkscreentext\\\" | \\\"& footprint[src^='jlcpcb:'] silkscreentext\\\" | \\\"& silkscreentext\\\" | \\\"& fabricationnotetext\\\";\\ninterface PcbSxValue {\\n    fontSize?: string | number;\\n    pcbX?: string | number;\\n    pcbY?: string | number;\\n    visibility?: \\\"hidden\\\" | \\\"visible\\\" | \\\"inherit\\\";\\n}\\ntype PcbSxBase = Record<string, PcbSxValue>;\\ntype PcbSx = PcbSxBase & {\\n    [K in PcbSxSelector]?: PcbSxValue;\\n};\\ndeclare const pcbSxValue: z.ZodObject<{\\n    fontSize: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;\\n    pcbX: z.ZodOptional<z.ZodUnion<[z.ZodString, z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>]>>;\\n21033:interface RoutingTolerances {\\n21140:interface SubcircuitGroupProps extends BaseGroupProps, RoutingTolerances {\\n146890:interface AutoroutingPhaseProps extends RoutingTolerances, FanoutProps {\\n226009:export { type AmmeterPinLabels, type AmmeterProps, type AnalogAcSweepSimulationProps, type AnalogAnalysisSimulationBaseProps, type AnalogCapacitanceSweepParameterProps, type AnalogCurrentSweepParameterProps, type AnalogDcOperatingPointSimulationProps, type AnalogDcSweepSimulationProps, type AnalogInductanceSweepParameterProps, type AnalogResistanceSweepParameterProps, type AnalogSimulationProps, type AnalogSweepParameterProps, type AnalogTransientSimulationProps, type AnalogVoltageSweepParameterProps, type AntennaFrequencyBand, type AntennaProps, type AntennaShape, type AssemblyDeviceProps, type AssemblyDevicePropsInput, type AutocompleteString, type AutorouterConfig, type AutorouterDefinition, type AutorouterInstance, type AutorouterPreset, type AutorouterProp, type AutorouterVersion, type AutoroutingPhaseProps, type BaseGroupProps, type BaseManualEditEvent, type BaseManualEditEventInput, type BasicFootprint, type BatteryPinLabels, type BatteryProps, type BoardColor, type BoardColorPreset, type BoardOutlinePoint, type BoardProps, type Border, type BreakoutPointProps, type BreakoutProps, type BusFanoutDirection, type BusFanoutDirectionLiteral, type BusName, type BusProps, type CadAssemblyProps, type CadAssemblyPropsInput, type CadModelAxisDirection, type CadModelBase, type CadModelFootprinterString, type CadModelGlb, type CadModelGltf, type CadModelJscad, type CadModelObj, type CadModelProp, type CadModelProps, type CadModelPropsInput, type CadModelStep, type CadModelStl, type CadModelWrl, type CanonicalBusFanoutDirection, type CapacitorPinLabels, type CapacitorProps, type ChipConnections, type ChipPinLabels, type ChipProps, type ChipPropsSU, type CircleCutoutProps, type CircleEnclosureCutoutApertureProps, type CircleHoleProps, type CirclePlatedHoleProps, type CircleShapeProps, type CircleSmtPadProps, type CircleSolderPasteProps, type CircuitJson, type CircularHoleWithRectPlatedProps, type CommonComponentProps, type CommonLayoutProps, type CommonShapeProps, type ComponentProps, type ConnectionTarget, type Connections, type ConnectorProps, type ConnectorStandard, type ConstrainedLayoutProps, type ConstraintProps, type CopperPourProps, type CopperPourPropsInput, type CopperTextProps, type CourtyardCircleProps, type CourtyardOutlineProps, type CourtyardPillProps, type CourtyardRectProps, type CrystalPinLabels, type CrystalProps, type CurrentSourcePinLabels, type CurrentSourceProps, type CustomDrcCheckContext, type CustomDrcCheckFn, type CustomDrcCheckInput, type CustomDrcConnectable, type CustomDrcSelect, type CustomDrcSelectAll, type CutoutApertureProps, type CutoutProps, type CutoutPropsInput, type DifferentialPairProps, type DiodePinLabels, type DiodePinLabelsProp, type DiodeProps, type Direction, type DirectionAlongEdge, type DirectionalFanoutBoundaryPadding, type DrcCheckProps, type EditPcbComponentLocationEvent, type EditPcbComponentLocationEventInput, type EditPcbGroupLocationEvent, type EditPcbGroupLocationEventInput, type EditSchematicComponentLocationEvent, type EditSchematicComponentLocationEventInput, type EditSchematicGroupLocationEvent, type EditSchematicGroupLocationEventInput, type EditTraceHintEvent, type EditTraceHintEventInput, type E…1457 tokens truncated…screenGraphicProps, type SilkscreenLineProps, type SilkscreenPathProps, type SilkscreenRectProps, type SilkscreenTextProps, type SimpleRouteJson, type SmtPadProps, type SolderJumperProps, type SolderPasteProps, type SpiceEngine, type SpiceEngineSimulationResult, type SpiceModelElement, type SpiceModelProps, type SpiceOptions, type StampboardProps, type SubcircuitGroupProps, type SubcircuitGroupPropsWithBool, type SubcircuitProps, type SubpanelProps, type SupplierName, type SupplierPartNumbers, type SupplierProps, type SwitchProps, type SymbolProp, type SymbolProps, type SymbolPropsInput, type TestpointConnections, type TestpointPinLabels, type TestpointProps, type ToolingrailProps, type TraceHintProps, type TraceProps, type TransistorPinLabels, type TransistorProps, type ViaProps, type VoltageProbeProps, type VoltageSourcePinLabels, type VoltageSourceProps, type WaveShape, ammeterPinLabels, ammeterPins, ammeterProps, analogAcSweepSimulationProps, analogAnalysisSimulationBaseProps, analogCapacitanceSweepParameterProps, analogCurrentSweepParameterProps, analogDcOperatingPointSimulationProps, analogDcSweepSimulationProps, analogInductanceSweepParameterProps, analogResistanceSweepParameterProps, analogSimulationProps, analogSweepParameterProps, analogTransientSimulationProps, analogVoltageSweepParameterProps, antennaFrequencyBand, antennaFrequencyBands, antennaProps, antennaShape, antennaShapes, assemblyDeviceProps, assemblyProps, autorouterConfig, autorouterEffortLevel, autorouterPreset, autorouterProp, autoroutingPhaseProps, baseGroupProps, base_manual_edit_event, batteryPins, batteryProps, boardOutlinePoint, boardProps, border, breakoutPointProps, breakoutProps, bugProps, busFanoutDirection, busProps, cadModelAxisDirection, cadModelAxisDirections, cadModelBase, cadModelGlb, cadModelGltf, cadModelJscad, cadModelObj, cadModelProp, cadModelStep, cadModelStl, cadModelWrl, cadassemblyProps, cadmodelProps, canonicalBusFanoutDirection, canonicalBusFanoutDirectionValues, capacitorPinLabels, capacitorPins, capacitorProps, chipProps, circleCutoutProps, circleShapeProps, circleSmtPadProps, circleSolderPasteProps, commonComponentProps, commonLayoutProps, commonShapeProps, componentProps, connectorProps, connectorStandard, constrainedLayoutProps, constraintProps, copperPourProps, copperTextProps, courtyardCircleProps, courtyardOutlineProps, courtyardPillProps, courtyardRectProps, crystalPins, crystalProps, currentSourcePinLabels, currentSourcePins, currentSourceProps, customDrcCheckFn, cutoutApertureBaseProps, cutoutProps, differentialPairProps, diodePinLabelsProp, diodePins, diodeProps, direction, directionAlongEdge, distanceOrMultiplier, drcCheckProps, edit_component_location_event, edit_pcb_component_location_event, edit_pcb_group_location_event, edit_schematic_component_location_event, edit_schematic_group_location_event, edit_trace_hint_event, enclosureCutoutApertureProps, enclosureCutoutApertureShapes, enclosureFdmBoxProps, enclosureProps, explicitPinSideDefinition, fabricationNoteDimensionProps, fabricationNotePathProps, fabricationNoteRectProps, fabricationNoteTextProps, fanoutBoundaryPadding, fanoutProps, fiducialProps, footprintInsertionDirection, footprintProp, footprintProps, footprinterStringExamples, fusePinLabels, fuseProps, groupProps, holeProps, inductorPins, inductorProps, interconnectProps, internalCircuitProps, jumperProps, kicadAt, kicadEffects, kicadFont, kicadFootprintAttributes, kicadFootprintKeys, kicadFootprintMetadata, kicadFootprintModel, kicadFootprintPad, kicadFootprintProperties, kicadFootprintStrings, kicadPinElectricalType, kicadPinGraphicStyle, kicadPinMetadata, kicadProperty, kicadSymbolEffects, kicadSymbolMetadata, kicadSymbolPinNames, kicadSymbolPinNumbers, kicadSymbolProperties, kicadSymbolProperty, layoutConfig, ledPins, ledProps, lrPins, lrPolarPins, manual_edit_event, manual_edits_file, manual_pcb_placement, manual_schematic_placement, manual_trace_hint, mosfetPins, mosfetProps, mountedboardProps, netAliasProps, netLabelProps, netProps, ninePointAnchor, opampPinLabels, opampPins, opampProps, panelProps, partsEngine, pcbKeepoutProps, pcbLayoutProps, pcbNoteDimensionProps, pcbNoteLineProps, pcbNotePathProps, pcbNoteRectProps, pcbNoteTextProps, pcbPath, pcbPathPoint, pcbSameXConstraintProps, pcbSameYConstraintProps, pcbStyle, pcbSx, pcbSxValue, pcbTraceProps, pcbXDistConstraintProps, pcbYDistConstraintProps, pillShapeProps, pillSmtPadProps, pinAttributeMap, pinCapability, pinCompatibleVariant, pinHeaderProps, pinLabelsProp, pinoutProps, platedHoleProps, platformConfig, point3, polygonCutoutProps, polygonSmtPadProps, portHints, portProps, portRef, potentiometerPinLabels, potentiometerProps, powerSourceProps, projectConfig, pushButtonProps, rectCutoutProps, rectShapeProps, rectSmtPadProps, rectSolderPasteProps, resistorPinLabels, resistorPins, resistorProps, resonatorProps, rotatedPillSmtPadProps, rotatedRectSmtPadProps, rotationPoint3, routeHintPointProps, routingTolerances, schStyle, schematicArcProps, schematicBoxProps, schematicCellProps, schematicCircleProps, schematicGraphicProps, schematicLineProps, schematicOrientation, schematicPathProps, schematicPinArrangement, schematicPinLabel, schematicPinStyle, schematicPortArrangement, schematicRectProps, schematicRowProps, schematicSectionProps, schematicSheetProps, schematicSymbolProps, schematicSymbolSize, schematicTableProps, schematicTextProps, silkscreenCircleProps, silkscreenGraphicProps, silkscreenLineProps, silkscreenPathProps, silkscreenRectProps, silkscreenTextProps, smtPadProps, solderPasteProps, solderjumperProps, spicemodelProps, stampboardProps, subcircuitGroupProps, subcircuitGroupPropsWithBool, subcircuitProps, subpanelProps, supplierProps, switchProps, symbolProp, symbolProps, testpointPins, testpointProps, toolingrailProps, traceHintProps, traceProps, transistorPins, transistorPinsLabels, transistorProps, viaProps, voltageProbeProps, voltageSourcePinLabels, voltageSourcePins, voltageSourceProps };\\n\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 49,
+      "source_line_sha256": "77a72e808c668566418b790d9a0528c4de733b20640703414914039d7292988a",
+      "timestamp": "2026-09-05T17:50:03.231Z"
+    },
+    {
+      "item": {
+        "call_id": "call_oqbc59NDYaVpiGYndyN4UG9d",
+        "input": "text(await tools.write_stdin({session_id:43740,chars:\"\",\"yield_time_ms\":1000,\"max_output_tokens\":2000}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 52,
+      "source_line_sha256": "f1856067e52f2b6f2b158ba52536740f92a8fe2cdf57c7d537cb78c8f3f1e8f9",
+      "timestamp": "2026-09-05T17:50:07.837Z"
+    },
+    {
+      "item": {
+        "call_id": "call_oqbc59NDYaVpiGYndyN4UG9d",
+        "output": [
+          {
+            "text": "Script completed\nWall time 0.0 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "text": "{\"chunk_id\":\"dfb561\",\"wall_time_seconds\":0.000001542,\"exit_code\":0,\"original_token_count\":143,\"output\":\"- pin4: NETS(GND)\\n\\nR3 (10kΩ undefined)\\n- pin1(anode, pos, left): NETS(V3V3)\\n- pin2(cathode, neg, right): NETS(BTN3)\\n\\nC3 (100nF undefined)\\n- pin1(anode, pos, left): NETS(BTN3)\\n- pin2(cathode, neg, right): NETS(GND)\\n\\nSW3\\n- pin1: NETS(BTN3)\\n- pin2: NETS(BTN3)\\n- pin3: NETS(GND)\\n- pin4: NETS(GND)\\n\\nR4 (10kΩ undefined)\\n- pin1(anode, pos, left): NETS(V3V3)\\n- pin2(cathode, neg, right): NETS(BTN4)\\n\\nC4 (100nF undefined)\\n- pin1(anode, pos, left): NETS(BTN4)\\n- pin2(cathode, neg, right): NETS(GND)\\n\\nSW4\\n- pin1: NETS(BTN4)\\n- pin2: NETS(BTN4)\\n- pin3: NETS(GND)\\n- pin4: NETS(GND)\\n\\n\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 54,
+      "source_line_sha256": "2c7e98d27dc15db81a3ceb8db5047f3539b52c5ecf5d78a13cbdc2d0d57dcf13",
+      "timestamp": "2026-09-05T17:50:07.894Z"
+    },
+    {
+      "item": {
+        "call_id": "call_vr2BFoyhem3jcBDEeVmeFnvV",
+        "input": "text(await tools.exec_command({cmd:\"zsh logs/run-command.sh attempt-01-schematic-placement tsci check schematic-placement artifacts/attempt-01/index.circuit.tsx\\nzsh logs/run-command.sh attempt-01-placement tsci check placement artifacts/attempt-01/index.circuit.tsx\\nzsh logs/run-command.sh attempt-01-build tsci build artifacts/attempt-01/index.circuit.tsx --svgs --pcb-png --autorouter-timeout 120s\",\"workdir\":\"/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1\",\"shell\":\"/bin/zsh\",\"max_output_tokens\":3000,\"yield_time_ms\":1000}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 56,
+      "source_line_sha256": "2f69a69fad904f7ce27b5dd0d91a7581f17a549842d85dbf7e0e41a7f9e194ac",
+      "timestamp": "2026-09-05T17:50:16.160Z"
+    },
+    {
+      "item": {
+        "call_id": "call_vr2BFoyhem3jcBDEeVmeFnvV",
+        "output": [
+          {
+            "text": "Script completed\nWall time 1.2 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "text": "{\"chunk_id\":\"49ec70\",\"wall_time_seconds\":1.002291083,\"session_id\":40808,\"original_token_count\":39,\"output\":\"Each child in a list should have a unique \\\"key\\\" prop.\\n\\nCheck the render method of `board`. See https://react.dev/link/warning-keys for more information.\\n\\n\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 58,
+      "source_line_sha256": "51bf9a6950d4e5bd43274e308023e107b5fb70b41e3f08509398bfcfc6680a3f",
+      "timestamp": "2026-09-05T17:50:17.348Z"
+    },
+    {
+      "item": {
+        "call_id": "call_RoQwo6hKfsBHbxUBlLQJjJ8C",
+        "input": "text(await tools.write_stdin({session_id:40808,chars:\"\",\"yield_time_ms\":1000,\"max_output_tokens\":3000}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 62,
+      "source_line_sha256": "0c5e6bbb7c30d769872d4e3691701129dd6b17d57735efbc1f858579e35964a3",
+      "timestamp": "2026-09-05T17:50:21.247Z"
+    },
+    {
+      "item": {
+        "call_id": "call_RoQwo6hKfsBHbxUBlLQJjJ8C",
+        "output": [
+          {
+            "text": "Script completed\nWall time 0.4 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "text": "{\"chunk_id\":\"36ff9b\",\"wall_time_seconds\":0.376920458,\"exit_code\":0,\"original_token_count\":528,\"output\":\"Each child in a list should have a unique \\\"key\\\" prop.\\n\\nCheck the render method of `board`. See https://react.dev/link/warning-keys for more information.\\nplacement summary: no placement issues\\n\\nboard top-layer utilization:\\n- occupied: 17.318% (303.072mm^2 of 1750mm^2)\\n- empty spaces over 5% of board area:\\n  - 38.714% (677.5mm^2); bounds=(minX=-25mm, maxX=25mm, minY=3.95mm, maxY=17.5mm)\\n  - 17.143% (300mm^2); bounds=(minX=-25mm, maxX=25mm, minY=-17.5mm, maxY=-11.5mm)\\n  - 13% (227.5mm^2); bounds=(minX=-25mm, maxX=25mm, minY=-2.5mm, maxY=2.05mm)\\n\\nboard-edge status:\\n- R1: 3.075mm inside left edge\\n- C1: 8.075mm inside left edge\\n- SW1: 4mm inside left edge\\n- R2: 13.8mm inside bottom edge\\n- C2: 13.8mm inside bottom edge\\n- SW2: 6.5mm inside top edge\\n- R3: 13.8mm inside bottom edge\\n- C3: 13.8mm inside bottom edge\\n- SW3: 6.5mm inside top edge\\n- R4: 8.075mm inside right edge\\n- C4: 3.075mm inside right edge\\n- SW4: 4mm inside right edge\\n\\nplacement drc:\\nErrors: 0\\nWarnings: 0\\n        \\\"_errors\\\": []\\n      }\\n    }\\n  },\\n  \\\"type\\\": \\\"unknown\\\",\\n  \\\"component_name\\\": \\\"J1\\\",\\n  \\\"error_type\\\": \\\"source_failed_to_create_component_error\\\",\\n  \\\"message\\\": \\\"Invalid props for pinheader \\\\\\\"J1\\\\\\\": pinLabels ({\\\\\\\"0\\\\\\\":{\\\\\\\"_errors\\\\\\\":[\\\\\\\"Invalid\\\\\\\"]},\\\\\\\"_errors\\\\\\\":[]})\\\"\\n}\\nCould not find port for selector \\\".J1 > .pin1\\\". Component \\\".J1 > \\\" not found\\nCould not find port for selector \\\".J1 > .pin2\\\". Component \\\".J1 > \\\" not found\\nCould not find port for selector \\\".J1 > .pin3\\\". Component \\\".J1 > \\\" not found\\nCould not find port for selector \\\".J1 > .pin4\\\". Component \\\".J1 > \\\" not found\\nCould not find port for selector \\\".J1 > .pin5\\\". Component \\\".J1 > \\\" not found\\nCould not find port for selector \\\".J1 > .pin6\\\". Component \\\".J1 > \\\" not found\\nGenerating preview images...\\n[index] Generating PCB SVG...\\n[index] Written pcb.svg\\n[index] Generating PCB PNG...\\n[index] Written pcb.png\\n[index] Generating schematic SVG...\\n[index] Written schematic.svg\\n\\nBuild complete\\n  Circuits  1 passed\\n  Options   pcb-png, svgs, autorouter-timeout\\n  Output    artifacts/attempt-01/dist\\n\\n⚠ Build completed with errors\\nBuild exiting with code 0: build finished successfully\\n\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 65,
+      "source_line_sha256": "346daa06f302ff0d8e42ebb4881e880c2cb98eb390f3b1529826f9a53f2831b9",
+      "timestamp": "2026-09-05T17:50:21.633Z"
+    },
+    {
+      "item": {
+        "content": [
+          {
+            "text": "The first build exposed a header-label parsing error: tscircuit rejected “+3V3” as a pin identifier and omitted the header. I’m preserving that candidate and repairing the identifier while keeping the printed connector label explicit.\n",
+            "type": "output_text"
+          }
+        ],
+        "phase": "commentary",
+        "role": "assistant",
+        "type": "message"
+      },
+      "source_line": 70,
+      "source_line_sha256": "820ac3994c50dcf67e63b9a5115837efbf7bdd8fff1d57109df431f383c02682",
+      "timestamp": "2026-09-05T17:50:27.913Z"
+    },
+    {
+      "item": {
+        "call_id": "call_CJGjfQIn9SZF6MwVXmnfHIwL",
+        "input": "text(await tools.exec_command({cmd:\"mkdir -p artifacts/attempt-02; cp artifacts/attempt-01/{index.circuit.tsx,package.json} artifacts/attempt-02/; python3 - <<'PY'\\np='artifacts/attempt-02/index.circuit.tsx'\\ns=open(p).read().replace('pinLabels={[\\\"+3V3\\\"','pinLabels={[\\\"V3V3\\\"').replace('minTraceWidth=\\\"0.25mm\\\"','minTraceWidth=\\\"0.25mm\\\" minTraceToPadEdgeClearance=\\\"0.25mm\\\" minPadEdgeToPadEdgeClearance=\\\"0.25mm\\\" minViaEdgeToPadEdgeClearance=\\\"0.25mm\\\"',1)\\nopen(p,'w').write(s)\\nPY\\nzsh logs/run-command.sh attempt-02-netlist tsci check netlist artifacts/attempt-02/index.circuit.tsx\\nzsh logs/run-command.sh attempt-02-schematic-placement tsci check schematic-placement artifacts/attempt-02/index.circuit.tsx\\nzsh logs/run-command.sh attempt-02-placement tsci check placement artifacts/attempt-02/index.circuit.tsx\\nzsh logs/run-command.sh attempt-02-build tsci build artifacts/attempt-02/index.circuit.tsx --svgs --pcb-png --autorouter-timeout 120s\",\"workdir\":\"/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1\",\"shell\":\"/bin/zsh\",\"max_output_tokens\":3000,\"yield_time_ms\":1000}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 71,
+      "source_line_sha256": "eca7fb84f10c98a48bcbfffd27e0eefca2f711083d06369b0fecd43d1f31e051",
+      "timestamp": "2026-09-05T17:50:37.362Z"
+    },
+    {
+      "item": {
+        "call_id": "call_CJGjfQIn9SZF6MwVXmnfHIwL",
+        "output": [
+          {
+            "text": "Script completed\nWall time 1.2 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "text": "{\"chunk_id\":\"208c32\",\"wall_time_seconds\":1.001917583,\"session_id\":25608,\"original_token_count\":0,\"output\":\"\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 73,
+      "source_line_sha256": "e5c2085aa92e575152d861278a1f8345e95000bdefde785100305c740d12987c",
+      "timestamp": "2026-09-05T17:50:38.551Z"
+    },
+    {
+      "item": {
+        "call_id": "call_DDzYWPRcTFP2mZeMyAyUe95o",
+        "input": "text(await tools.write_stdin({session_id:25608,chars:\"\",\"yield_time_ms\":1000,\"max_output_tokens\":3000}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 75,
+      "source_line_sha256": "f9c02a33139bbf97a914f8e7dddacef8a39cc04344e8d999656df3a6c73432fd",
+      "timestamp": "2026-09-05T17:50:44.383Z"
+    },
+    {
+      "item": {
+        "call_id": "call_DDzYWPRcTFP2mZeMyAyUe95o",
+        "output": [
+          {
+            "text": "Script completed\nWall time 1.1 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "text": "{\"chunk_id\":\"e268d3\",\"wall_time_seconds\":1.058092958,\"exit_code\":0,\"original_token_count\":773,\"output\":\"- pin4: NETS(GND)\\n\\nR3 (10kΩ undefined)\\n- pin1(anode, pos, left): NETS(V3V3)\\n- pin2(cathode, neg, right): NETS(BTN3)\\n\\nC3 (100nF undefined)\\n- pin1(anode, pos, left): NETS(BTN3)\\n- pin2(cathode, neg, right): NETS(GND)\\n\\nSW3\\n- pin1: NETS(BTN3)\\n- pin2: NETS(BTN3)\\n- pin3: NETS(GND)\\n- pin4: NETS(GND)\\n\\nR4 (10kΩ undefined)\\n- pin1(anode, pos, left): NETS(V3V3)\\n- pin2(cathode, neg, right): NETS(BTN4)\\n\\nC4 (100nF undefined)\\n- pin1(anode, pos, left): NETS(BTN4)\\n- pin2(cathode, neg, right): NETS(GND)\\n\\nSW4\\n- pin1: NETS(BTN4)\\n- pin2: NETS(BTN4)\\n- pin3: NETS(GND)\\n- pin4: NETS(GND)\\n\\nEach child in a list should have a unique \\\"key\\\" prop.\\n\\nCheck the render method of `board`. See https://react.dev/link/warning-keys for more information.\\n<SchematicBoxPositions>\\n<SchematicBoxPlacement componentName=\\\"J1\\\" positionAnchor=\\\"center\\\" schX=\\\"-12\\\" schY=\\\"0\\\" width=\\\"1.5\\\" height=\\\"1.4\\\" />\\n</SchematicBoxPositions>\\n<SchematicPlacementIssues>\\n<PinHeaderSchematicBoxTooWide message=\\\"Shrink schematic box width\\\" componentName=\\\"J1\\\" currentSchWidth=\\\"1.5\\\" measuredInnerLabelHorizontalEmptySpace=\\\"1.02\\\" maxAllowedInnerLabelHorizontalEmptySpace=\\\"0.1\\\" suggestedSchWidth=\\\"0.58\\\" />\\n</SchematicPlacementIssues>\\n\\nCheck the render method of `board`. See https://react.dev/link/warning-keys for more information.\\nplacement summary: no placement issues\\n\\nboard top-layer utilization:\\n- occupied: 20.604% (360.562mm^2 of 1750mm^2)\\n- empty spaces over 5% of board area:\\n  - 17.143% (300mm^2); bounds=(minX=-25mm, maxX=25mm, minY=-17.5mm, maxY=-11.5mm)\\n  - 15.086% (264mm^2); bounds=(minX=-25mm, maxX=25mm, minY=3.95mm, maxY=9.23mm)\\n  - 13.514% (236.5mm^2); bounds=(minX=-25mm, maxX=25mm, minY=12.77mm, maxY=17.5mm)\\n  - 13% (227.5mm^2); bounds=(minX=-25mm, maxX=25mm, minY=-2.5mm, maxY=2.05mm)\\n\\nboard-edge status:\\n- J1: 5.75mm inside bottom edge\\n- R1: 3.075mm inside left edge\\n- C1: 8.075mm inside left edge\\n- SW1: 4mm inside left edge\\n- R2: 13.8mm inside bottom edge\\n- C2: 13.8mm inside bottom edge\\n- SW2: 6.5mm inside top edge\\n- R3: 13.8mm inside bottom edge\\n- C3: 13.8mm inside bottom edge\\n- SW3: 6.5mm inside top edge\\n- R4: 8.075mm inside right edge\\n- C4: 3.075mm inside right edge\\n- SW4: 4mm inside right edge\\n\\nplacement drc:\\nErrors: 0\\nWarnings: 0\\nBuilding 1 file(s)...\\nBuilding index.circuit.tsx...\\nGenerating circuit JSON...\\nEach child in a list should have a unique \\\"key\\\" prop.\\n\\nCheck the render method of `board`. See https://react.dev/link/warning-keys for more information.\\nCircuit JSON written to dist/index/circuit.json\\nNo <schematicsheet> was found. Add a <schematicsheet> to define the schematic drawing area.\\n<pinheader#1 name=\\\".J1\\\" /> footprint \\\"pinrow6_p2.54mm\\\" does not match supplier footprint jlcpcb:C492420 (copper IoU 0.255).\\nGenerating preview images...\\n[index] Generating PCB SVG...\\n[index] Written pcb.svg\\n[index] Generating PCB PNG...\\n[index] Written pcb.png\\n[index] Generating schematic SVG...\\n[index] Written schematic.svg\\n\\nBuild complete\\n  Circuits  1 passed\\n  Options   pcb-png, svgs, autorouter-timeout\\n  Output    artifacts/attempt-02/dist\\n\\n✓ Done\\nBuild exiting with code 0: build finished successfully\\n\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 78,
+      "source_line_sha256": "b119363e9b7d5f6b4f07fc90ebf79c9fda488e87b16845a641eaa624650b58ef",
+      "timestamp": "2026-09-05T17:50:45.447Z"
+    },
+    {
+      "item": {
+        "call_id": "call_D2EzzMRuPYh59YU0mWCXRKyS",
+        "input": "text(await tools.exec_command({cmd:\"zsh logs/run-command.sh attempt-02-shorts tsci check shorts artifacts/attempt-02/dist/index/circuit.json\\npython3 - <<'PY'\\nimport json,collections\\np='artifacts/attempt-02/dist/index/circuit.json';d=json.load(open(p));print(collections.Counter(x['type'] for x in d));print([x for x in d if 'error' in x['type']]);print([x for x in d if x['type']=='pcb_board'])\\nPY\\ncat /Users/ankan/.codex/skills/tscircuit/elements/schematicsheet.md\",\"workdir\":\"/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1\",\"shell\":\"/bin/zsh\",\"max_output_tokens\":4000,\"yield_time_ms\":1000}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 82,
+      "source_line_sha256": "1777e0f6403bf0afb1c5ede1f244ff9821fe7d7ecd90e8091182fb28849bb051",
+      "timestamp": "2026-09-05T17:50:56.014Z"
+    },
+    {
+      "item": {
+        "call_id": "call_D2EzzMRuPYh59YU0mWCXRKyS",
+        "output": [
+          {
+            "text": "Script completed\nWall time 1.0 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "text": "{\"chunk_id\":\"5c0826\",\"wall_time_seconds\":0.805698625,\"exit_code\":1,\"original_token_count\":349,\"output\":\"No shorts detected in circuit.json\\nCounter({'pcb_solder_paste': 58, 'source_port': 38, 'source_trace': 38, 'schematic_port': 38, 'pcb_port': 38, 'pcb_trace': 32, 'pcb_silkscreen_path': 28, 'pcb_silkscreen_text': 24, 'schematic_trace': 22, 'pcb_plated_hole': 22, 'schematic_text': 18, 'pcb_smtpad': 16, 'source_component': 13, 'schematic_component': 13, 'pcb_component': 13, 'pcb_courtyard_rect': 13, 'cad_component': 13, 'schematic_net_label': 10, 'pcb_via': 9, 'source_component_internal_connection': 8, 'source_net': 6, 'schematic_line': 4, 'source_group': 1, 'source_board': 1, 'schematic_group': 1, 'schematic_component_styling_warning': 1, 'pcb_board': 1, 'supplier_footprint_mismatch_warning': 1, 'source_project_metadata': 1})\\n[]\\n[{'type': 'pcb_board', 'pcb_board_id': 'pcb_board_0', 'source_board_id': 'source_board_0', 'center': {'x': 0, 'y': 0}, 'thickness': 1.4, 'num_layers': 2, 'width': 50, 'height': 35, 'material': 'fr4', 'min_trace_width': 0.25, 'min_via_hole_diameter': 0.2, 'min_via_pad_diameter': 0.3, 'min_via_hole_edge_to_via_hole_edge_clearance': 0.1, 'min_via_edge_to_pad_edge_clearance': 0.25, 'min_trace_to_pad_edge_clearance': 0.25, 'min_pad_edge_to_pad_edge_clearance': 0.25, 'min_plated_hole_drill_edge_to_drill_edge_clearance': 0.15, 'min_board_edge_clearance': 0.2}]\\ncat: /Users/ankan/.codex/skills/tscircuit/elements/schematicsheet.md: No such file or directory\\n\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 85,
+      "source_line_sha256": "3ddcf3ab7624e65aa134ea76bc8db24bab0898b964642f9ac083e1b39e358dfd",
+      "timestamp": "2026-09-05T17:50:57.007Z"
+    },
+    {
+      "item": {
+        "call_id": "call_0nh3DdAegz1Bqx7UAW1PUaxC",
+        "input": "image((await tools.view_image({path:\"/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/pcb.png\"})).image_url);\ntext(await tools.exec_command({cmd:\"rg -n 'interface SchematicSheetProps' /Users/ankan/.bun/install/global/node_modules/@tscircuit/props/dist/index.d.ts; rg -n 'partsEngine\\\\??:' /Users/ankan/.bun/install/global/node_modules/@tscircuit/props/dist/index.d.ts | head -5; rg --files checks | head -30\",\"workdir\":\"/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1\",\"shell\":\"/bin/zsh\",\"max_output_tokens\":1500}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 89,
+      "source_line_sha256": "d923ceadfc62c18e2661dff762b1f9a0b4190456604e4163d315acea36bdf8fc",
+      "timestamp": "2026-09-05T17:51:12.502Z"
+    },
+    {
+      "item": {
+        "call_id": "call_0nh3DdAegz1Bqx7UAW1PUaxC",
+        "output": [
+          {
+            "text": "Script completed\nWall time 0.1 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "reason": "Binary media omitted; original design artifacts retained separately",
+            "sha256": "da63a688f899afb89244c2a050319c2406bb7fa2894e9a4017a2effc7abb8990",
+            "type": "omitted_media"
+          },
+          {
+            "text": "{\"chunk_id\":\"f0d112\",\"wall_time_seconds\":0.000002792,\"exit_code\":0,\"original_token_count\":108,\"output\":\"223409:interface SchematicSheetProps {\\n21184:    partsEngine?: PartsEngine;\\n22285:declare const partsEngine: z.ZodType<PartsEngine, z.ZodTypeDef, PartsEngine>;\\n22844:    partsEngine: z.ZodOptional<z.ZodType<PartsEngine, z.ZodTypeDef, PartsEngine>>;\\n23322:    partsEngine?: PartsEngine | undefined;\\n23645:    partsEngine?: PartsEngine | undefined;\\nrg: checks: IO error for operation on checks: No such file or directory (os error 2)\\n\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 93,
+      "source_line_sha256": "953923d113b2238330c70c02f746205622608e489a891162f9942cba65db391f",
+      "timestamp": "2026-09-05T17:51:12.601Z"
+    },
+    {
+      "item": {
+        "content": [
+          {
+            "text": "The repaired board routes successfully, and the shorts check reports no shorts. The switches are spaced 12 mm apart with their duplicated terminal pairs mapped explicitly. I’m using the final repair to address the header’s schematic spacing and remove an automatic supplier-footprint mismatch.\n",
+            "type": "output_text"
+          }
+        ],
+        "phase": "commentary",
+        "role": "assistant",
+        "type": "message"
+      },
+      "source_line": 98,
+      "source_line_sha256": "18f15bd28085aac7c516bdf5e27d562c19c777cdffd7234ceb39a9e2c9e84508",
+      "timestamp": "2026-09-05T17:51:21.881Z"
+    },
+    {
+      "item": {
+        "call_id": "call_ViYmWe6WRGutz5DcCBsICQ3U",
+        "input": "text(await tools.exec_command({cmd:\"sed -n '223409,223462p' /Users/ankan/.bun/install/global/node_modules/@tscircuit/props/dist/index.d.ts; rg --files artifacts/attempt-02 | head -35; mkdir -p artifacts/attempt-03; cp artifacts/attempt-02/{index.circuit.tsx,package.json} artifacts/attempt-03/; python3 - <<'PY'\\np='artifacts/attempt-03/index.circuit.tsx';s=open(p).read().replace('title=\\\"Four-button digital input board\\\">','partsEngine={{findPart: () => ({})}} title=\\\"Four-button digital input board\\\">\\\\n    <schematicsheet name=\\\"Main\\\" />').replace('schX={-12} schY={0}', 'schWidth={0.58} schX={-12} schY={0}')\\nopen(p,'w').write(s)\\nPY\\nzsh logs/run-command.sh attempt-03-netlist tsci check netlist artifacts/attempt-03/index.circuit.tsx\\nzsh logs/run-command.sh attempt-03-schematic-placement tsci check schematic-placement artifacts/attempt-03/index.circuit.tsx\\nzsh logs/run-command.sh attempt-03-placement tsci check placement artifacts/attempt-03/index.circuit.tsx\\nzsh logs/run-command.sh attempt-03-build tsci build artifacts/attempt-03/index.circuit.tsx --svgs --pcb-png --schematic-png --autorouter-timeout 120s\\nzsh logs/run-command.sh attempt-03-shorts tsci check shorts artifacts/attempt-03/dist/index/circuit.json\",\"workdir\":\"/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1\",\"shell\":\"/bin/zsh\",\"max_output_tokens\":3500,\"yield_time_ms\":1000}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 99,
+      "source_line_sha256": "c1bb2ba350730599bdcf6e7e3f774e87e42faf6c44a8ae047b333b7c9c71bbd4",
+      "timestamp": "2026-09-05T17:51:34.025Z"
+    },
+    {
+      "item": {
+        "call_id": "call_ViYmWe6WRGutz5DcCBsICQ3U",
+        "output": [
+          {
+            "text": "Script completed\nWall time 1.2 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "text": "{\"chunk_id\":\"4ad7f5\",\"wall_time_seconds\":1.001615166,\"session_id\":78677,\"original_token_count\":767,\"output\":\"interface SchematicSheetProps {\\n    name?: string;\\n    displayName?: string;\\n    sheetIndex?: number;\\n    /** Sheet size used to render the schematic. Defaults to A4. */\\n    sheetSize?: SchematicSheetSize;\\n    /** Explicit schematic sheet width. Overrides the width from sheetSize. */\\n    sheetWidth?: Distance;\\n    /** Explicit schematic sheet height. Overrides the height from sheetSize. */\\n    sheetHeight?: Distance;\\n    children?: any;\\n}\\ndeclare const schematicSheetProps: z.ZodObject<{\\n    name: z.ZodOptional<z.ZodString>;\\n    displayName: z.ZodOptional<z.ZodString>;\\n    sheetIndex: z.ZodOptional<z.ZodNumber>;\\n    sheetSize: z.ZodDefault<z.ZodEnum<[\\\"A4\\\", \\\"ANSI_B\\\"]>>;\\n    sheetWidth: z.ZodOptional<z.ZodPipeline<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>, z.ZodNumber>>;\\n    sheetHeight: z.ZodOptional<z.ZodPipeline<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>, z.ZodNumber>>;\\n    children: z.ZodOptional<z.ZodAny>;\\n}, \\\"strip\\\", z.ZodTypeAny, {\\n    sheetSize: \\\"A4\\\" | \\\"ANSI_B\\\";\\n    name?: string | undefined;\\n    displayName?: string | undefined;\\n    children?: any;\\n    sheetIndex?: number | undefined;\\n    sheetWidth?: number | undefined;\\n    sheetHeight?: number | undefined;\\n}, {\\n    name?: string | undefined;\\n    displayName?: string | undefined;\\n    children?: any;\\n    sheetIndex?: number | undefined;\\n    sheetSize?: \\\"A4\\\" | \\\"ANSI_B\\\" | undefined;\\n    sheetWidth?: string | number | undefined;\\n    sheetHeight?: string | number | undefined;\\n}>;\\ntype InferredSchematicSheetProps = z.input<typeof schematicSheetProps>;\\n\\n/**\\n * Props for embedding an image or raw SVG graphic in a schematic sheet.\\n * At least one source is required; both sources may be provided.\\n * When both are provided, imageUrl is the canonical asset source and\\n * svgContent is optional materialized fallback content.\\n */\\ninterface SchematicGraphicProps {\\n    /** URL or static-file import for the canonical source SVG asset. */\\n    imageUrl?: string;\\n    /**\\n     * Complete SVG markup, including its dimensions or viewBox. Used as the\\n     * source when imageUrl is omitted, or as fallback content when both exist.\\n     */\\n    svgContent?: string;\\n    /** Optional rendered width of the graphic. */\\nartifacts/attempt-02/package.json\\nartifacts/attempt-02/index.circuit.tsx\\nartifacts/attempt-02/dist/index/schematic.svg\\nartifacts/attempt-02/dist/index/pcb.png\\nartifacts/attempt-02/dist/index/circuit.json\\nartifacts/attempt-02/dist/index/pcb.svg\\n- pin4: NETS(GND)\\n\\nR3 (10kΩ undefined)\\n- pin1(anode, pos, left): NETS(V3V3)\\n- pin2(cathode, neg, right): NETS(BTN3)\\n\\nC3 (100nF undefined)\\n- pin1(anode, pos, left): NETS(BTN3)\\n- pin2(cathode, neg, right): NETS(GND)\\n\\nSW3\\n- pin1: NETS(BTN3)\\n- pin2: NETS(BTN3)\\n- pin3: NETS(GND)\\n- pin4: NETS(GND)\\n\\nR4 (10kΩ undefined)\\n- pin1(anode, pos, left): NETS(V3V3)\\n- pin2(cathode, neg, right): NETS(BTN4)\\n\\nC4 (100nF undefined)\\n- pin1(anode, pos, left): NETS(BTN4)\\n- pin2(cathode, neg, right): NETS(GND)\\n\\nSW4\\n- pin1: NETS(BTN4)\\n- pin2: NETS(BTN4)\\n- pin3: NETS(GND)\\n- pin4: NETS(GND)\\n\\n\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 101,
+      "source_line_sha256": "e7b6814230fa8bbff4ed5d0435e12f5d49251f729f46c8a8ad1ae2d554ce8287",
+      "timestamp": "2026-09-05T17:51:35.216Z"
+    },
+    {
+      "item": {
+        "call_id": "call_0Rb65FcPAMfaWiwxakFWDR6n",
+        "input": "text(await tools.write_stdin({session_id:78677,chars:\"\",\"yield_time_ms\":1000,\"max_output_tokens\":3000}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 103,
+      "source_line_sha256": "ce2abd647e0340aacfcaa3d9f47ca7d70f81a9bd81e415cd7e6e87c0b40e2e83",
+      "timestamp": "2026-09-05T17:51:39.524Z"
+    },
+    {
+      "item": {
+        "call_id": "call_0Rb65FcPAMfaWiwxakFWDR6n",
+        "output": [
+          {
+            "text": "Script completed\nWall time 0.6 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "text": "{\"chunk_id\":\"2ebbfe\",\"wall_time_seconds\":0.600468792,\"exit_code\":0,\"original_token_count\":494,\"output\":\"Each child in a list should have a unique \\\"key\\\" prop.\\n\\nCheck the render method of `board`. See https://react.dev/link/warning-keys for more information.\\n\\n\\nCheck the render method of `board`. See https://react.dev/link/warning-keys for more information.\\nplacement summary: no placement issues\\n\\nboard top-layer utilization:\\n- occupied: 20.604% (360.562mm^2 of 1750mm^2)\\n- empty spaces over 5% of board area:\\n  - 17.143% (300mm^2); bounds=(minX=-25mm, maxX=25mm, minY=-17.5mm, maxY=-11.5mm)\\n  - 15.086% (264mm^2); bounds=(minX=-25mm, maxX=25mm, minY=3.95mm, maxY=9.23mm)\\n  - 13.514% (236.5mm^2); bounds=(minX=-25mm, maxX=25mm, minY=12.77mm, maxY=17.5mm)\\n  - 13% (227.5mm^2); bounds=(minX=-25mm, maxX=25mm, minY=-2.5mm, maxY=2.05mm)\\n\\nboard-edge status:\\n- J1: 5.75mm inside bottom edge\\n- R1: 3.075mm inside left edge\\n- C1: 8.075mm inside left edge\\n- SW1: 4mm inside left edge\\n- R2: 13.8mm inside bottom edge\\n- C2: 13.8mm inside bottom edge\\n- SW2: 6.5mm inside top edge\\n- R3: 13.8mm inside bottom edge\\n- C3: 13.8mm inside bottom edge\\n- SW3: 6.5mm inside top edge\\n- R4: 8.075mm inside right edge\\n- C4: 3.075mm inside right edge\\n- SW4: 4mm inside right edge\\n\\nplacement drc:\\nErrors: 0\\nWarnings: 0\\nBuilding 1 file(s)...\\nBuilding index.circuit.tsx...\\nGenerating circuit JSON...\\nEach child in a list should have a unique \\\"key\\\" prop.\\n\\nCheck the render method of `board`. See https://react.dev/link/warning-keys for more information.\\nCircuit JSON written to dist/index/circuit.json\\nGenerating preview images...\\n[index] Generating PCB SVG...\\n[index] Written pcb.svg\\n[index] Generating PCB PNG...\\n[index] Written pcb.png\\n[index] Generating schematic SVG...\\n[index] Written schematic.svg\\n[index] Generating schematic PNG...\\n[index] Written schematic.png\\n\\nBuild complete\\n  Circuits  1 passed\\n  Options   pcb-png, schematic-png, svgs, autorouter-timeout\\n  Output    artifacts/attempt-03/dist\\n\\n✓ Done\\nBuild exiting with code 0: build finished successfully\\nNo shorts detected in circuit.json\\n\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 106,
+      "source_line_sha256": "6bae705d6c85e33f898114f71fd4451a7fbc1f51ab9494e27be9ba919f622353",
+      "timestamp": "2026-09-05T17:51:40.130Z"
+    },
+    {
+      "item": {
+        "call_id": "call_3A8pOeSo2YuTFrIY6o4Gscj0",
+        "input": "image((await tools.view_image({path:\"/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/schematic.png\"})).image_url);\ntext(await tools.exec_command({cmd:\"python3 - <<'PY'\\nimport json,collections\\np='artifacts/attempt-03/dist/index/circuit.json';d=json.load(open(p));print(collections.Counter(x['type'] for x in d))\\nfor t in ['pcb_trace','source_trace','pcb_port','source_component_internal_connection']:\\n print(t,next(x for x in d if x['type']==t))\\nPY\\nls -la logs | head -15\\nls -lh logs/installed-global.bun.lock\",\"workdir\":\"/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1\",\"shell\":\"/bin/zsh\",\"max_output_tokens\":2500}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 110,
+      "source_line_sha256": "d9b561449eb0d8e7096aa546fe4234f65ef86cb2d3dd372ec683396fc62a19e7",
+      "timestamp": "2026-09-05T17:51:51.885Z"
+    },
+    {
+      "item": {
+        "call_id": "call_3A8pOeSo2YuTFrIY6o4Gscj0",
+        "output": [
+          {
+            "text": "Script completed\nWall time 0.1 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "reason": "Binary media omitted; original design artifacts retained separately",
+            "sha256": "ac83793a1d24861386eb1052899d07db7e9adc8a6d7236e010a5bb358a37fd7e",
+            "type": "omitted_media"
+          },
+          {
+            "text": "{\"chunk_id\":\"d4e465\",\"wall_time_seconds\":0.000002125,\"exit_code\":0,\"original_token_count\":797,\"output\":\"Counter({'pcb_solder_paste': 58, 'source_port': 38, 'source_trace': 38, 'schematic_port': 38, 'pcb_port': 38, 'pcb_trace': 32, 'pcb_silkscreen_path': 28, 'pcb_silkscreen_text': 24, 'schematic_trace': 22, 'pcb_plated_hole': 22, 'schematic_text': 18, 'pcb_smtpad': 16, 'source_component': 13, 'schematic_component': 13, 'pcb_component': 13, 'pcb_courtyard_rect': 13, 'cad_component': 13, 'schematic_net_label': 10, 'pcb_via': 9, 'source_component_internal_connection': 8, 'source_net': 6, 'schematic_line': 4, 'schematic_sheet': 1, 'source_group': 1, 'source_board': 1, 'schematic_group': 1, 'pcb_board': 1, 'source_project_metadata': 1})\\npcb_trace {'type': 'pcb_trace', 'pcb_trace_id': 'source_net_5_mst0_0', 'connection_name': 'source_net_5', 'connectsTo': ['pcb_port_31', 'pcb_port_32'], 'route': [{'route_type': 'wire', 'x': 16.4125, 'y': 3, 'width': 0.25, 'layer': 'top', 'start_pcb_port_id': 'pcb_port_31'}, {'route_type': 'wire', 'x': 19.588, 'y': 3, 'width': 0.25, 'layer': 'top'}, {'route_type': 'wire', 'x': 19.5875, 'y': 3, 'width': 0.25, 'layer': 'top', 'end_pcb_port_id': 'pcb_port_32'}], 'subcircuit_id': 'subcircuit_source_group_0', 'source_trace_id': 'source_trace_31'}\\nsource_trace {'type': 'source_trace', 'source_trace_id': 'source_trace_0', 'connected_source_port_ids': ['source_port_0'], 'connected_source_net_ids': ['source_net_0'], 'subcircuit_id': 'subcircuit_source_group_0', 'display_name': '.J1 > .pin1 to net.V3V3', 'min_trace_thickness': 0.25, 'subcircuit_connectivity_map_key': 'unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0'}\\npcb_port {'type': 'pcb_port', 'pcb_port_id': 'pcb_port_0', 'pcb_component_id': 'pcb_component_0', 'layers': ['top', 'bottom'], 'subcircuit_id': 'subcircuit_source_group_0', 'x': -6.35, 'y': 11, 'source_port_id': 'source_port_0'}\\nsource_component_internal_connection {'type': 'source_component_internal_connection', 'source_component_internal_connection_id': 'source_component_internal_connection_0', 'source_component_id': 'source_component_3', 'subcircuit_id': 'subcircuit_source_group_0', 'source_port_ids': ['source_port_10', 'source_port_11']}\\ntotal 432\\ndrwxr-xr-x@ 36 ankan  staff   1152 Sep  5 23:21 .\\ndrwxr-xr-x@  7 ankan  staff    224 Sep  5 23:02 ..\\n-rw-r--r--@  1 ankan  staff      2 Sep  5 23:20 attempt-01-build.exit\\n-rw-r--r--@  1 ankan  staff   2531 Sep  5 23:20 attempt-01-build.log\\n-rw-r--r--@  1 ankan  staff      2 Sep  5 23:20 attempt-01-netlist.exit\\n-rw-r--r--@  1 ankan  staff   2125 Sep  5 23:20 attempt-01-netlist.log\\n-rw-r--r--@  1 ankan  staff      2 Sep  5 23:20 attempt-01-placement.exit\\n-rw-r--r--@  1 ankan  staff    975 Sep  5 23:20 attempt-01-placement.log\\n-rw-r--r--@  1 ankan  staff      2 Sep  5 23:20 attempt-01-schematic-placement.exit\\n-rw-r--r--@  1 ankan  staff    154 Sep  5 23:20 attempt-01-schematic-placement.log\\n-rw-r--r--@  1 ankan  staff      2 Sep  5 23:20 attempt-02-build.exit\\n-rw-r--r--@  1 ankan  staff    885 Sep  5 23:20 attempt-02-build.log\\n-rw-r--r--@  1 ankan  staff      2 Sep  5 23:20 attempt-02-netlist.exit\\n-rw-r--r--@  1 ankan  staff   2376 Sep  5 23:20 attempt-02-netlist.log\\n-rw-r--r--@ 1 ankan  staff    78K Sep  5 23:20 logs/installed-global.bun.lock\\n\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 114,
+      "source_line_sha256": "90429bbcf537a5d109b101ac362eb4342ba14fed1ad3be30492312616593e766",
+      "timestamp": "2026-09-05T17:51:51.997Z"
+    },
+    {
+      "item": {
+        "call_id": "call_bxzD1s8YE5EYwwoP3P0p450K",
+        "input": "text(await tools.exec_command({cmd:\"tsci export --help > logs/export-help.log; cat logs/export-help.log; rg -n 'schematicSheet|sheetName|sheetId|sheet' /Users/ankan/.bun/install/global/node_modules/circuit-to-svg/dist/index.d.ts | head -25; rg --files /Users/ankan/.bun/install/global/node_modules | rg 'circuit-json-to.*svg.*/.*d.ts$' | head -5\",\"workdir\":\"/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1\",\"shell\":\"/bin/zsh\",\"max_output_tokens\":3500}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 118,
+      "source_line_sha256": "146558491e0fb046eeb24c7c478ed312d8a3de242e55f00423e9fde2c6550693",
+      "timestamp": "2026-09-05T17:52:04.779Z"
+    },
+    {
+      "item": {
+        "call_id": "call_bxzD1s8YE5EYwwoP3P0p450K",
+        "output": [
+          {
+            "text": "Script completed\nWall time 0.8 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "text": "{\"chunk_id\":\"f8734d\",\"wall_time_seconds\":0.622485,\"exit_code\":0,\"original_token_count\":426,\"output\":\"Usage: tsci export [options] <file>\\n\\nExport tscircuit code to various formats\\n\\nArguments:\\n  file                    Path to the package file\\n\\nOptions:\\n  -f, --format <format>   Output format (json, circuit-json, schematic-svg,\\n                          schematic-pdf, pcb-svg, gerbers, readable-netlist,\\n                          gltf, glb, specctra-dsn, kicad_sch, kicad_pcb,\\n                          kicad_zip, kicad-library, srj, step, assembly-svg,\\n                          component-box-3mf)\\n  -o, --output <path>     Output file path\\n  --disable-parts-engine  Disable the parts engine\\n  --show-courtyards       Show courtyard outlines in PCB SVG output\\n  -h, --help              display help for command\\n285:        worksheet: string;\\n294:        worksheet: string;\\n332:        sheet: string;\\n333:        sheet_background: string;\\n334:        sheet_fields: string;\\n335:        sheet_filename: string;\\n336:        sheet_label: string;\\n337:        sheet_name: string;\\n342:        worksheet: string;\\n354:    schematicSheetIndex?: number;\\n355:    schematicSheetId?: string;\\n379:    /** Height in px of the label band drawn above each sheet. Default 28. */\\n380:    sheetLabelHeight?: number;\\n381:    /** Vertical gap in px between stacked sheets. Default 16. */\\n382:    sheetGap?: number;\\n385: * Render every schematic sheet in the circuit JSON stacked vertically into a\\n386: * single SVG, one panel per sheet with the sheet's display name on top. This is\\n388: * single sheet at a time, so this makes it easy to eyeball every sheet at once.\\n390: * Each panel is the regular single-sheet render of that sheet (sheet border\\n392: * fewer than two sheets are present this falls back to the single-sheet\\n\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 121,
+      "source_line_sha256": "2b612068e794a77ccd76bdc5a043846157fc14e4cc042a79a7cdf7d75f57bd33",
+      "timestamp": "2026-09-05T17:52:05.588Z"
+    },
+    {
+      "item": {
+        "call_id": "call_903WLWhnvwqxtTBmIRBqxSmj",
+        "input": "text(await tools.exec_command({cmd:\"sed -n '346,378p' /Users/ankan/.bun/install/global/node_modules/circuit-to-svg/dist/index.d.ts; python3 - <<'PY'\\nimport json\\np='artifacts/attempt-02/dist/index/circuit.json';d=json.load(open(p));print([x for x in d if x['type']=='schematic_component'][:2]);print([x for x in d if x['type']=='pcb_trace'][-2:])\\nPY\",\"workdir\":\"/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1\",\"shell\":\"/bin/zsh\",\"max_output_tokens\":2200}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 125,
+      "source_line_sha256": "3b5008b0f62caa5d66e5d47365526d0c0eeffd9cb0a3c971993a590daf8f865f",
+      "timestamp": "2026-09-05T17:52:17.358Z"
+    },
+    {
+      "item": {
+        "call_id": "call_903WLWhnvwqxtTBmIRBqxSmj",
+        "output": [
+          {
+            "text": "Script completed\nWall time 0.1 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "text": "{\"chunk_id\":\"67b186\",\"wall_time_seconds\":0.00000325,\"exit_code\":0,\"original_token_count\":1360,\"output\":\"\\ntype ColorOverrides = {\\n    schematic?: Partial<ColorMap[\\\"schematic\\\"]>;\\n};\\ninterface Options$1 {\\n    colorOverrides?: ColorOverrides;\\n    width?: number;\\n    height?: number;\\n    schematicSheetIndex?: number;\\n    schematicSheetId?: string;\\n    grid?: boolean | {\\n        cellSize?: number;\\n        labelCells?: boolean;\\n    };\\n    labeledPoints?: Array<{\\n        x: number;\\n        y: number;\\n        label: string;\\n    }>;\\n    includeVersion?: boolean;\\n    showErrorsInTextOverlay?: boolean;\\n    drawPorts?: boolean;\\n    css?: string;\\n    className?: string;\\n}\\ndeclare function convertCircuitJsonToSchematicSvg(circuitJson: AnyCircuitElement[], options?: Options$1): string;\\n/**\\n * @deprecated use `convertCircuitJsonToSchematicSvg` instead\\n */\\ndeclare const circuitJsonToSchematicSvg: typeof convertCircuitJsonToSchematicSvg;\\n\\ntype SchematicSvgOptions = NonNullable<Parameters<typeof convertCircuitJsonToSchematicSvg>[1]>;\\ninterface StackedSchematicSheetsSvgOptions extends SchematicSvgOptions {\\n[{'type': 'schematic_component', 'schematic_component_id': 'schematic_component_0', 'center': {'x': -12, 'y': 0}, 'rotation': 0, 'size': {'width': 1.5, 'height': 1.4}, 'port_arrangement': {'right_side': {'direction': 'top-to-bottom', 'pins': ['pin1', 'pin2', 'pin3', 'pin4', 'pin5', 'pin6']}}, 'pin_spacing': 0.2, 'port_labels': {'1': 'V3V3', '2': 'GND', '3': 'BTN1', '4': 'BTN2', '5': 'BTN3', '6': 'BTN4'}, 'source_component_id': 'source_component_0', 'schematic_group_id': 'schematic_group_0'}, {'type': 'schematic_component', 'schematic_component_id': 'schematic_component_1', 'center': {'x': 0, 'y': 3}, 'size': {'width': 0.9, 'height': 0.6}, 'source_component_id': 'source_component_1', 'is_box_with_pins': True, 'symbol_name': 'boxresistor_up', 'symbol_display_value': '10kΩ', 'schematic_group_id': 'schematic_group_0'}]\\n[{'type': 'pcb_trace', 'pcb_trace_id': 'source_net_0_mst2_0', 'connection_name': 'source_net_0', 'connectsTo': ['pcb_port_22', 'pcb_port_30'], 'route': [{'route_type': 'wire', 'x': 2.5875, 'y': 3, 'width': 0.25, 'layer': 'top', 'start_pcb_port_id': 'pcb_port_22'}, {'route_type': 'wire', 'x': 3.783, 'y': 1.8050000000000002, 'width': 0.25, 'layer': 'top'}, {'route_type': 'wire', 'x': 3.783, 'y': 0.383, 'width': 0.25, 'layer': 'top'}, {'route_type': 'via', 'x': 3.783, 'y': 0.383, 'from_layer': 'bottom', 'to_layer': 'top', 'via_diameter': 0.3, 'via_hole_diameter': 0.2}, {'route_type': 'wire', 'x': 3.783, 'y': 0.383, 'width': 0.25, 'layer': 'bottom'}, {'route_type': 'wire', 'x': 3.809817847019625, 'y': 0.35618215298037503, 'width': 0.25, 'layer': 'bottom'}, {'route_type': 'wire', 'x': 3.9568115392509937, 'y': 0.35618215298037503, 'width': 0.25, 'layer': 'bottom'}, {'route_type': 'wire', 'x': 5.6026293862706185, 'y': 2.002, 'width': 0.25, 'layer': 'bottom'}, {'route_type': 'wire', 'x': 10.524, 'y': 2.002, 'width': 0.25, 'layer': 'bottom'}, {'route_type': 'via', 'x': 10.524, 'y': 2.002, 'from_layer': 'top', 'to_layer': 'bottom', 'via_diameter': 0.3, 'via_hole_diameter': 0.2}, {'route_type': 'wire', 'x': 10.524, 'y': 2.002, 'width': 0.25, 'layer': 'top'}, {'route_type': 'wire', 'x': 10.609219563610745, 'y': 2.0872195636107462, 'width': 0.25, 'layer': 'top'}, {'route_type': 'wire', 'x': 10.715683203308856, 'y': 2.0872195636107462, 'width': 0.25, 'layer': 'top'}, {'route_type': 'wire', 'x': 11.62846363969811, 'y': 3, 'width': 0.25, 'layer': 'top'}, {'route_type': 'wire', 'x': 14.5875, 'y': 3, 'width': 0.25, 'layer': 'top', 'end_pcb_port_id': 'pcb_port_30'}], 'subcircuit_id': 'subcircuit_source_group_0', 'source_trace_id': 'source_trace_21'}, {'type': 'pcb_trace', 'pcb_trace_id': 'source_net_0_mst3_0', 'connection_name': 'source_net_0', 'connectsTo': ['pcb_port_6', 'pcb_port_14'], 'route': [{'route_type': 'wire', 'x': -21.4125, 'y': 3, 'width': 0.25, 'layer': 'top', 'start_pcb_port_id': 'pcb_port_6'}, {'route_type': 'wire', 'x': -21.342486123428642, 'y': 3.0302703693324604, 'width': 0.25, 'layer': 'top'}, {'route_type': 'wire', 'x': -20.352828859644234, 'y': 4.019927633116868, 'width': 0.25, 'layer': 'top'}, {'route_type': 'wire', 'x': -20.318653231772796, 'y': 4.022940806085745, 'width': 0.25, 'layer': 'top'}, {'route_type': 'wire', 'x': -20.261320277445215, 'y': 4.205197952887145, 'width': 0.25, 'layer': 'top'}, {'route_type': 'via', 'x': -20.261320277445215, 'y': 4.205197952887145, 'from_layer': 'top', 'to_layer': 'bottom', 'via_diameter': 0.3, 'via_hole_diameter': 0.2}, {'route_type': 'wire', 'x': -20.261320277445215, 'y': 4.205197952887145, 'width': 0.25, 'layer': 'bottom'}, {'route_type': 'wire', 'x': -14.501876901026062, 'y': 4.083, 'width': 0.25, 'layer': 'bottom'}, {'route_type': 'wire', 'x': -14.461475672915713, 'y': 4.1234012281103505, 'width': 0.25, 'layer': 'bottom'}, {'route_type': 'wire', 'x': -14.456598771889649, 'y': 4.1234012281103505, 'width': 0.25, 'layer': 'bottom'}, {'route_type': 'wire', 'x': -14.375, 'y': 4.205, 'width': 0.25, 'layer': 'bottom'}, {'route_type': 'via', 'x': -14.375, 'y': 4.205, 'from_layer': 'bottom', 'to_layer': 'top', 'via_diameter': 0.3, 'via_hole_diameter': 0.2}, {'route_type': 'wire', 'x': -14.375, 'y': 4.205, 'width': 0.25, 'layer': 'top'}, {'route_type': 'wire', 'x': -10.617, 'y': 4.205, 'width': 0.25, 'layer': 'top'}, {'route_type': 'wire', 'x': -9.4125, 'y': 3, 'width': 0.25, 'layer': 'top', 'end_pcb_port_id': 'pcb_port_14'}], 'subcircuit_id': 'subcircuit_source_group_0', 'source_trace_id': 'source_trace_3'}]\\n\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 128,
+      "source_line_sha256": "545a39f8173e38cd95f72e048b1f42ceee92778e432e82602837271705533ddc",
+      "timestamp": "2026-09-05T17:52:17.465Z"
+    },
+    {
+      "item": {
+        "call_id": "call_Xv8uFeooY27mRplAJxwhUQDO",
+        "input": "text(await tools.exec_command({cmd:\"cat > logs/audit-connectivity.py <<'PY'\\nimport json,collections\\nfrom pathlib import Path\\np=Path('artifacts/attempt-02/dist/index/circuit.json');d=json.loads(p.read_text())\\nby=lambda t:[x for x in d if x['type']==t]\\nports={x['source_port_id']:x['pcb_port_id'] for x in by('pcb_port')}\\nparent={x:x for x in ports.values()}\\ndef root(x):\\n while parent[x]!=x:\\n  parent[x]=parent[parent[x]];x=parent[x]\\n return x\\ndef join(a,b):parent[root(a)]=root(b)\\nfor t in by('pcb_trace'):\\n pp=t.get('connectsTo',[])\\n for x in pp[1:]:join(pp[0],x)\\nfor t in by('source_component_internal_connection'):\\n pp=[ports[x] for x in t['source_port_ids']]\\n for x in pp[1:]:join(pp[0],x)\\nnets=collections.defaultdict(set)\\nfor t in by('source_trace'):\\n for n in t.get('connected_source_net_ids',[]):nets[n].update(t['connected_source_port_ids'])\\nsummary={}\\nfor n in by('source_net'):\\n pp=nets[n['source_net_id']]\\n summary[n['name']]={'source_port_count':len(pp),'routed_connected_groups_including_internal_switch_pairs':len({root(ports[x]) for x in pp})}\\nwidths=[q['width'] for t in by('pcb_trace') for q in t['route'] if q['route_type']=='wire']\\nresult={'method':'Compiler route connectsTo graph plus source internal switch terminal pairs; not independent geometric continuity DRC','nets':summary,'all_nets_connected_in_route_graph':all(x['routed_connected_groups_including_internal_switch_pairs']==1 for x in summary.values()),'min_trace_width_mm':min(widths),'max_trace_width_mm':max(widths),'pcb_trace_count':len(by('pcb_trace')),'via_count':len(by('pcb_via')),'board':by('pcb_board'),'errors':[x for x in d if 'error' in x['type']],'minimum_physical_copper_clearance_mm':None}\\nprint(json.dumps(result,indent=2))\\nPY\\nzsh logs/run-command.sh attempt-02-connectivity-audit python3 logs/audit-connectivity.py\\ncat > logs/render-schematic.ts <<'EOF'\\nimport {convertCircuitJsonToSchematicSvg} from '/Users/ankan/.bun/install/global/node_modules/circuit-to-svg/dist/index.js';\\nimport sharp from '/Users/ankan/.bun/install/global/node_modules/sharp/lib/index.js';\\nconst svg = await Bun.file('artifacts/attempt-02/dist/index/schematic.svg').text();\\nawait sharp(Buffer.from(svg)).png().toFile('artifacts/attempt-02/dist/index/schematic.png');\\nEOF\\nzsh logs/run-command.sh attempt-02-schematic-preview bun logs/render-schematic.ts\",\"workdir\":\"/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1\",\"shell\":\"/bin/zsh\",\"max_output_tokens\":2500}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 132,
+      "source_line_sha256": "9a550fe4e681963d98c7d0c098a17b02953e9630e4be1a98aa4b7787731ef962",
+      "timestamp": "2026-09-05T17:52:45.755Z"
+    },
+    {
+      "item": {
+        "call_id": "call_Xv8uFeooY27mRplAJxwhUQDO",
+        "output": [
+          {
+            "text": "Script completed\nWall time 0.2 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "text": "{\"chunk_id\":\"9dd325\",\"wall_time_seconds\":0.02230725,\"exit_code\":0,\"original_token_count\":207,\"output\":\"  \\\"pcb_trace_count\\\": 32,\\n  \\\"via_count\\\": 9,\\n  \\\"board\\\": [\\n    {\\n      \\\"type\\\": \\\"pcb_board\\\",\\n      \\\"pcb_board_id\\\": \\\"pcb_board_0\\\",\\n      \\\"source_board_id\\\": \\\"source_board_0\\\",\\n      \\\"center\\\": {\\n        \\\"x\\\": 0,\\n        \\\"y\\\": 0\\n      },\\n      \\\"thickness\\\": 1.4,\\n      \\\"num_layers\\\": 2,\\n      \\\"width\\\": 50,\\n      \\\"height\\\": 35,\\n      \\\"material\\\": \\\"fr4\\\",\\n      \\\"min_trace_width\\\": 0.25,\\n      \\\"min_via_hole_diameter\\\": 0.2,\\n      \\\"min_via_pad_diameter\\\": 0.3,\\n      \\\"min_via_hole_edge_to_via_hole_edge_clearance\\\": 0.1,\\n      \\\"min_via_edge_to_pad_edge_clearance\\\": 0.25,\\n      \\\"min_trace_to_pad_edge_clearance\\\": 0.25,\\n      \\\"min_pad_edge_to_pad_edge_clearance\\\": 0.25,\\n      \\\"min_plated_hole_drill_edge_to_drill_edge_clearance\\\": 0.15,\\n      \\\"min_board_edge_clearance\\\": 0.2\\n    }\\n  ],\\n  \\\"errors\\\": [],\\n  \\\"minimum_physical_copper_clearance_mm\\\": null\\n}\\n\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 135,
+      "source_line_sha256": "6efc2f9cfabb3a8343bb46bc806d2f3de1762878edfbb0a47cf1fd3975f5934a",
+      "timestamp": "2026-09-05T17:52:45.964Z"
+    },
+    {
+      "item": {
+        "call_id": "call_UaoaaECgV5tNXAnPLqw5Ewa1",
+        "input": "image((await tools.view_image({path:\"/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/schematic.png\"})).image_url);\ntext(await tools.exec_command({cmd:\"head -43 logs/attempt-02-connectivity-audit.log; cat logs/attempt-02-schematic-placement.exit; date -u +%FT%TZ\",\"workdir\":\"/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1\",\"shell\":\"/bin/zsh\",\"max_output_tokens\":1500}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 137,
+      "source_line_sha256": "fafe1ea113f0be6cfcd717c8cdd10257b2cca5cbbbe08bb416266280eb16997a",
+      "timestamp": "2026-09-05T17:52:54.551Z"
+    },
+    {
+      "item": {
+        "call_id": "call_UaoaaECgV5tNXAnPLqw5Ewa1",
+        "output": [
+          {
+            "text": "Script completed\nWall time 0.1 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "reason": "Binary media omitted; original design artifacts retained separately",
+            "sha256": "3f21448f07f04ccc95c35b1a80c4720fcda4a321c5cce024d8641c6aa1d0d561",
+            "type": "omitted_media"
+          },
+          {
+            "text": "{\"chunk_id\":\"427a33\",\"wall_time_seconds\":0.000003,\"exit_code\":0,\"original_token_count\":310,\"output\":\"{\\n  \\\"method\\\": \\\"Compiler route connectsTo graph plus source internal switch terminal pairs; not independent geometric continuity DRC\\\",\\n  \\\"nets\\\": {\\n    \\\"V3V3\\\": {\\n      \\\"source_port_count\\\": 5,\\n      \\\"routed_connected_groups_including_internal_switch_pairs\\\": 1\\n    },\\n    \\\"GND\\\": {\\n      \\\"source_port_count\\\": 13,\\n      \\\"routed_connected_groups_including_internal_switch_pairs\\\": 1\\n    },\\n    \\\"BTN1\\\": {\\n      \\\"source_port_count\\\": 5,\\n      \\\"routed_connected_groups_including_internal_switch_pairs\\\": 1\\n    },\\n    \\\"BTN2\\\": {\\n      \\\"source_port_count\\\": 5,\\n      \\\"routed_connected_groups_including_internal_switch_pairs\\\": 1\\n    },\\n    \\\"BTN3\\\": {\\n      \\\"source_port_count\\\": 5,\\n      \\\"routed_connected_groups_including_internal_switch_pairs\\\": 1\\n    },\\n    \\\"BTN4\\\": {\\n      \\\"source_port_count\\\": 5,\\n      \\\"routed_connected_groups_including_internal_switch_pairs\\\": 1\\n    }\\n  },\\n  \\\"all_nets_connected_in_route_graph\\\": true,\\n  \\\"min_trace_width_mm\\\": 0.25,\\n  \\\"max_trace_width_mm\\\": 0.25,\\n  \\\"pcb_trace_count\\\": 32,\\n  \\\"via_count\\\": 9,\\n  \\\"board\\\": [\\n    {\\n      \\\"type\\\": \\\"pcb_board\\\",\\n      \\\"pcb_board_id\\\": \\\"pcb_board_0\\\",\\n      \\\"source_board_id\\\": \\\"source_board_0\\\",\\n      \\\"center\\\": {\\n        \\\"x\\\": 0,\\n        \\\"y\\\": 0\\n      },\\n      \\\"thickness\\\": 1.4,\\n0\\n2026-09-05T17:52:54Z\\n\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 141,
+      "source_line_sha256": "046effdc969406df980c3b8e27ab365cc2956df0e24e2c92b6d8a97bae7357f8",
+      "timestamp": "2026-09-05T17:52:54.642Z"
+    },
+    {
+      "item": {
+        "content": [
+          {
+            "text": "The final repair produced an empty schematic preview because the new sheet did not include the existing components. I’m retaining attempt 2 as the selected result. Its schematic and PCB previews are usable, all six nets are connected in the compiler’s route graph, and the shorts check passes; the header spacing warning and supplier mismatch remain documented.\n",
+            "type": "output_text"
+          }
+        ],
+        "phase": "commentary",
+        "role": "assistant",
+        "type": "message"
+      },
+      "source_line": 146,
+      "source_line_sha256": "68ba45d2bab1441e3b260a7ab9261eb3e7b4d95ea22192ed1c51129d5b28f76e",
+      "timestamp": "2026-09-05T17:53:03.848Z"
+    },
+    {
+      "item": {
+        "call_id": "call_BkQkrqEzzhNvOjzfw1eZOLbN",
+        "input": "text(await tools.exec_command({cmd:\"cat > artifacts/README.md <<'EOF'\\n# Four-button digital input board\\n\\nSelected candidate: `attempt-02/index.circuit.tsx` (editable tscircuit source).\\nCompiled editable schematic/PCB data: `attempt-02/dist/index/circuit.json`.\\nViews: `attempt-02/dist/index/schematic.svg`, `schematic.png`, `pcb.svg`, `pcb.png`.\\nBuild with tscircuit 0.0.2462: `tsci build artifacts/attempt-02/index.circuit.tsx --svgs --pcb-png` from the run root.\\n\\n50 × 35 mm, two copper layers. J1 is a generic 6-position male 2.54 mm through-hole header; square pad identifies pin 1. Header signals are V3V3 (+3V3), GND, BTN1–BTN4. R1–R4 are 0805 10 kohm; C1–C4 are 0805 100 nF. SW1–SW4 are generic normally-open momentary switches using tscircuit's `pushbutton` footprint: 4.5 mm horizontal and 6.5 mm vertical hole spacing, 1 mm holes, 1.5 mm copper pads. Pins 1/2 are one internal terminal and pins 3/4 the other, matching the local footprinter geometry. Switch centres are x=-18,-6,6,18 mm, y=-7 mm. Choose a physical switch with that exact terminal geometry and pairing; no manufacturer part number is claimed.\\n\\nMethod: shell-generated TSX, installed tsci CLI, local autorouter; no GUI, KiCad design creation, publishing, or commits. Installed package metadata and original global Bun lockfile are preserved under `logs/`. No per-candidate install was needed. Explicit 0.25 mm trace widths and trace clearance plus pad/via-to-pad clearance settings are specified. All generated trace wire widths are 0.25 mm. Physical minimum copper clearance has not been independently measured.\\n\\nValidation: selected attempt's netlist/build and PCB placement checks ran; PCB placement reports zero errors/warnings. Shorts check reports no shorts. A supplementary compiler-connectivity graph check finds one connected group for each of six nets, accounting for switch internal terminal pairs. This is not an independent geometric open-circuit check. Raw commands and diagnostics are under `../logs/`.\\n\\nUnresolved: schematic-placement reports J1 box too wide (suggested 0.58 versus 1.5); CLI still exits zero. The parts engine automatically associates J1 with JLCPCB C492420 and warns that its footprint differs from the chosen generic header. Treat the header as generic and disregard the automatic sourcing association. No formal schematic sheet is present in attempt 2; its rendered schematic remains available. Manufacturer selection, independent comprehensive clearance DRC, manufacturing exports, and physical testing were not performed.\\n\\nAttempt history: attempt 1 rejected the +3V3 pin identifier and omitted J1; artifacts retained. Attempt 2 repaired the identifier and clearance settings and is selected. Attempt 3 narrowed the header box, disabled auto sourcing, and added an empty sheet; CLI checks passed but its schematic preview is empty, so it is retained as an unsuccessful visual repair and not selected. No fourth candidate was created. React key warnings are retained in raw logs.\\nEOF\\ncat > logs/finalize.py <<'PY'\\nimport json,datetime,pathlib\\nroot=pathlib.Path('.')\\nnow=datetime.datetime.now(datetime.timezone.utc).isoformat().replace('+00:00','Z')\\nlimitations=[\\\"J1 schematic box too wide warning remains in selected attempt despite exit code 0.\\\",\\\"Automatic J1 supplier footprint mismatch; generic 2.54 mm through-hole header is the design intent, not the auto-selected supplier item.\\\",\\\"Minimum physical copper clearance and independent geometric opens check are unmeasured; configured clearances are 0.25 mm.\\\",\\\"Generic switch footprint requires a matching physical normally-open momentary component with 1/2 and 3/4 internal terminal pairs.\\\",\\\"Attempt 3 has an empty schematic preview and is not selected; original artifacts retained.\\\"]\\nvalidation={}\\nfor name in ['netlist','schematic-placement','placement','build','shorts','connectivity-audit']:\\n prefix='logs/attempt-02-'+name\\n validation[name]={'status':'warning' if name=='schematic-placement' else 'passed','exit_code':int(pathlib.Path(prefix+'.exit').read_text()),'log_path':prefix+'.log'}\\nvalidation['minimum_physical_copper_clearance_mm']=None\\nfiles=[str(p) for p in pathlib.Path('artifacts').rglob('*') if p.is_file()]\\nresult={'status':'completed','final_attempt':'attempt-02','generated_files':files,'validation':validation,'known_limitations':limitations,'failure':None,'correctness_certified':False,'attempt_count':3}\\npathlib.Path('result.json').write_text(json.dumps(result,indent=2)+'\\\\n')\\np=pathlib.Path('run.json');d=json.loads(p.read_text());d['status']='completed';d['ended_at']=now\\nd['usage']['wall_time_seconds']=(datetime.datetime.fromisoformat(now.replace('Z','+00:00'))-datetime.datetime.fromisoformat(d['started_at'].replace('Z','+00:00'))).total_seconds()\\nd['attempts']=[{'attempt':i,'path':f'artifacts/attempt-{i:02d}','outcome':outcome} for i,outcome in [(1,'header omitted due to invalid pin label; retained'),(2,'selected; routed with documented warnings'),(3,'empty schematic preview; retained, not selected')]]\\nd['artifacts']=files;d['failure']=None;p.write_text(json.dumps(d,indent=2)+'\\\\n')\\nprint(json.dumps({'status':d['status'],'selected':result['final_attempt'],'wall_time_seconds':d['usage']['wall_time_seconds'],'files':len(files)},indent=2))\\nPY\\nzsh logs/run-command.sh finalize python3 logs/finalize.py\",\"workdir\":\"/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1\",\"shell\":\"/bin/zsh\",\"max_output_tokens\":1000}));\n",
+        "name": "exec",
+        "status": "completed",
+        "type": "custom_tool_call"
+      },
+      "source_line": 147,
+      "source_line_sha256": "9db25a432d230bab2aed45137288ec672d47c79bbbc1dfadcbe1095033878d9e",
+      "timestamp": "2026-09-05T17:53:45.644Z"
+    },
+    {
+      "item": {
+        "call_id": "call_BkQkrqEzzhNvOjzfw1eZOLbN",
+        "output": [
+          {
+            "text": "Script completed\nWall time 0.1 seconds\nOutput:\n",
+            "type": "input_text"
+          },
+          {
+            "text": "{\"chunk_id\":\"9a9610\",\"wall_time_seconds\":0.000002458,\"exit_code\":0,\"original_token_count\":27,\"output\":\"{\\n  \\\"status\\\": \\\"completed\\\",\\n  \\\"selected\\\": \\\"attempt-02\\\",\\n  \\\"wall_time_seconds\\\": 311.733373,\\n  \\\"files\\\": 62\\n}\\n\"}",
+            "type": "input_text"
+          }
+        ],
+        "type": "custom_tool_call_output"
+      },
+      "source_line": 150,
+      "source_line_sha256": "b81a3ef8c14181f74e02c0a1568e47f5f724d93bd827dcb9567af3f701930f94",
+      "timestamp": "2026-09-05T17:53:45.762Z"
+    },
+    {
+      "item": {
+        "author": "/root",
+        "content": [
+          {
+            "text": "Message Type: MESSAGE\nTask name: /root/pilot_09\nSender: /root\nPayload:\n",
+            "type": "input_text"
+          },
+          {
+            "reason": "encrypted content",
+            "type": "unavailable"
+          }
+        ],
+        "recipient": "/root/pilot_09",
+        "type": "agent_message"
+      },
+      "source_line": 153,
+      "source_line_sha256": "ab287b35a470dbf64ffbe2662620abef0991bb8857b92d1159987d7e2ecaf98a",
+      "timestamp": "2026-09-05T17:53:45.764Z"
+    },
+    {
+      "item": {
+        "arguments": "{\"target\":\"/root\",\"message\":\"[unavailable: encrypted content]\"}",
+        "call_id": "call_Y7ZzLeUCt6GAimLuzqcgizH8",
+        "name": "send_message",
+        "namespace": "collaboration",
+        "type": "function_call"
+      },
+      "source_line": 154,
+      "source_line_sha256": "749317a36035deb5875ce12a678ffe8d5d8ff42ae1979e2f67ee8f13271456bb",
+      "timestamp": "2026-09-05T17:53:54.546Z"
+    },
+    {
+      "item": {
+        "call_id": "call_Y7ZzLeUCt6GAimLuzqcgizH8",
+        "output": "",
+        "type": "function_call_output"
+      },
+      "source_line": 157,
+      "source_line_sha256": "bd79e39569eccde4f1e1d4ab13862f58dd56a98c3ef103708dc8b74857ff8976",
+      "timestamp": "2026-09-05T17:53:54.609Z"
+    },
+    {
+      "item": {
+        "content": [
+          {
+            "text": "Completed run; selected `artifacts/attempt-02`.\n\n- Editable TSX, circuit JSON, schematic and PCB SVG/PNG preserved.\n- PCB placement and shorts checks passed; all six nets connected in route graph.\n- Header schematic spacing and automatic supplier mismatch remain documented.\n- Three candidates retained; no further repairs.\n- Details: `result.json`, `run.json`, `artifacts/README.md`, and `logs/`.",
+            "type": "output_text"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant",
+        "type": "message"
+      },
+      "source_line": 160,
+      "source_line_sha256": "3307e606f17460b53bc798f0a1a373afd3a0af6f2696cfa63aafe5bb3e68bd57",
+      "timestamp": "2026-09-05T17:54:02.205Z"
+    }
+  ],
+  "notes": [
+    "Incomplete transcript: encrypted content is unavailable; hidden reasoning, system/developer instructions and runtime context are excluded.",
+    "Text is credential-redacted. Binary media is represented by hashes. Original archive is not copied. No missing messages are reconstructed.",
+    "Tool output may already be truncated in the source archive; retained as recorded.",
+    "Readable user/assistant messages, agent messages, tool calls/results retained from the dedicated session, including repairs."
+  ],
+  "provenance": {
+    "extractor": {
+      "path": "scripts/recover-generation-transcripts.ts",
+      "sanitizer_sha256": "4d16169ad3af4c3f57a8f98291f42214ca0a02091e95ad99d26ebb552dbd1321",
+      "sha256": "9f9f368cbf65ad83bf85d09ca38f38fcafe02022f2c2032621e4735dfe581327"
+    },
+    "mapping": {
+      "config": {
+        "path": "configs/2026-09-05-codegen-pilot-01.json",
+        "sha256": "e53418abb3a674f64fefce21ecc878ec5baf7a7c32674ebbef74cf654605054e"
+      },
+      "corroborating_source_lines": [
+        11,
+        20,
+        25,
+        30,
+        35,
+        40,
+        47,
+        56,
+        71,
+        82,
+        89,
+        99,
+        110,
+        118,
+        125,
+        132,
+        137,
+        147
+      ],
+      "execution_order_index": 9,
+      "rule": "Session parent + agent path matching frozen execution order, corroborated by exact run-directory tool calls",
+      "run": {
+        "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/run.json",
+        "sha256": "6c51eae58ffebcf2375bfc743e7578389608805e4fcd843171f284dfbb5b1e7f"
+      }
+    },
+    "source": {
+      "agent_path": "/root/pilot_09",
+      "archive_file": "rollout-2026-09-05T23-18-15-01a072af-726a-7182-87ba-594d6b751b41.jsonl",
+      "bytes": 701411,
+      "parent_thread_id": "01a07291-57aa-7871-b581-0dd70239e21a",
+      "session_id": "01a072af-726a-7182-87ba-594d6b751b41",
+      "sha256": "70857d1628f8469e0a9efed8e0fcfda20b21d453e1ce90ac47fc8cd4f4b8a0a6"
+    }
+  },
+  "run_id": "2026-09-05-codegen-pilot-01--button-input-bank--tscircuit-codegen--r1",
+  "schema_version": "1",
+  "status": "incomplete"
+}

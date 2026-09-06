@@ -12,6 +12,7 @@ import {
   finalCandidate,
   escapeHtml as esc,
 } from "../src/lib/io";
+import { publishRunEvidence } from "./run-evidence";
 import { HEADER, FOOTER } from "./templates";
 const EID = "2026-09-05-codegen-pilot-01",
   VID = "deterministic-v1-5a9c0cca93c84a315b17",
@@ -51,6 +52,15 @@ export function buildWebsite() {
       ),
     ]),
   );
+  const evidence: Record<
+    string,
+    Record<string, ReturnType<typeof publishRunEvidence>>
+  > = {};
+  for (const p of Object.keys(paired)) {
+    evidence[p] = {};
+    for (const method of methods)
+      evidence[p][method] = publishRunEvidence(EID, p, method, OUT);
+  }
   const order = Object.keys(paired).sort(
       (a, b) =>
         ["easy", "medium", "hard"].indexOf(meta[a].difficulty) -
@@ -68,7 +78,9 @@ export function buildWebsite() {
     );
     for (const method of methods) {
       const r = paired[p][method];
-      parts.push(`<td>${result(r)}<div class="counts">${badges(r)}</div></td>`);
+      parts.push(
+        `<td>${result(r)}<div class="counts">${badges(r)}</div>${evidence[p][method].html}</td>`,
+      );
     }
     parts.push("</tr>");
   }
@@ -146,7 +158,7 @@ export function buildWebsite() {
         downloads = `<div class="downloads"><strong>Editable KiCad files</strong><a class="download-all" download href="downloads/${p}/${zipname}">Download KiCad files (.zip) ↓</a><div>${links.join(" · ")}</div><small>Final recorded attempt · original files, including known failures. Open with KiCad 10; standard libraries may be required.</small></div>`;
       }
       parts.push(
-        `<div class="method ${method}"><div class="method-heading"><h4>${name}</h4>${result(r)}</div>${previewHtml}<div class="counts">${badges(r)}</div><p class="range">Possible score range <b>${r.possible_total_min}–${r.possible_total_max}</b> / 100<br><small>Unresolved bounds · not an awarded score</small></p>${downloads}</div>`,
+        `<div class="method ${method}"><div class="method-heading"><h4>${name}</h4>${result(r)}</div>${previewHtml}<div class="counts">${badges(r)}</div><p class="range">Possible score range <b>${r.possible_total_min}–${r.possible_total_max}</b> / 100<br><small>Unresolved bounds · not an awarded score</small></p>${evidence[p][method].html}${downloads}</div>`,
       );
       outcomes[method] = json(join(EV, p, method, "evaluation.json")).outcomes;
     }
@@ -203,6 +215,8 @@ export function buildWebsite() {
           method,
           {
             summary: paired[p][method],
+            timing: evidence[p][method].timing,
+            transcript: evidence[p][method].transcript,
             rules: outcomes[method].map((o) => ({
               test_id: o.test_id,
               outcome: o.outcome,
