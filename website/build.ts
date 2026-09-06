@@ -213,7 +213,7 @@ export function buildWebsite() {
       ),
     });
   }
-  parts.push(FOOTER.replaceAll("{VID}", VID).replaceAll("{EID}", EID));
+  parts.push(FOOTER);
   write(
     join(OUT, "download-manifest.json"),
     JSON.stringify(downloadManifest, null, 2) + "\n",
