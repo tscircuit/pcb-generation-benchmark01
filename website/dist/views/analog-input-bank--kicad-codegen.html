@@ -93,7 +93,103 @@ h1 {
 input[type="checkbox"] {
   accent-color: #71cfc2;
 }
-</style><div class="bar"><button id="minus" aria-label="Zoom out">−</button><button id="plus" aria-label="Zoom in">+</button><button id="reset">Reset view</button><span>All layers: 50% opacity by default · drag to pan</span></div><div class="viewport"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0.0000 0.0000 79.9846 49.9872"><g id="layer-0" opacity="0.5"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
+body {
+  overflow: hidden;
+}
+.viewport {
+  height: calc(100vh - 58px);
+  min-height: 0;
+}
+.bar {
+  height: 58px;
+  flex-wrap: nowrap;
+}
+.bar span {
+  flex: initial;
+}
+.bar button {
+  white-space: nowrap;
+}
+.inspector {
+  position: absolute;
+  top: 58px;
+  right: 0;
+  padding: 0;
+  border: 1px solid #53647c;
+  z-index: 10;
+  background: #17283bf5;
+  width: 270px;
+  max-height: calc(100vh - 58px);
+  overflow: auto;
+}
+.inspector summary {
+  padding: 10px 14px;
+  font-weight: 650;
+}
+.panel {
+  padding: 0 14px 14px;
+}
+.actions {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: 12px 0;
+}
+.layer-control {
+  border-bottom: 1px solid #3b4b60;
+  padding: 10px 0;
+}
+.layer-control > label {
+  font-size: 14px;
+}
+.slider-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 6px;
+}
+.slider-row input {
+  min-width: 0;
+  width: 100%;
+}
+.slider-row button {
+  font-size: 12px;
+}
+.item-controls {
+  border-bottom: 1px solid #53647c;
+  padding-bottom: 14px;
+}
+h2 {
+  font-size: 14px;
+  margin: 12px 0 6px;
+}
+select {
+  font: inherit;
+  background: #243650;
+  border: 1px solid #53647c;
+  color: white;
+  padding: 6px;
+  border-radius: 4px;
+  width: 100%;
+}
+button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.selected-item {
+  filter: brightness(1.5);
+}
+.inspector:not([open]) {
+  width: auto;
+}
+#zoom-level {
+  min-width: 38px;
+}
+section.layer-list {
+  display: block;
+  padding: 0;
+}
+</style><div class="bar"><button id="minus" aria-label="Zoom out">−</button><span id="zoom-level">100%</span><button id="plus" aria-label="Zoom in">+</button><button id="reset">Fit board</button><button id="fullscreen">Fullscreen</button></div><div class="viewport"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0.0000 0.0000 79.9846 49.9872"><g id="layer-0" opacity="0.5" data-layer-name="B.Cu"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
 <path style="fill:#4D7FC4; fill-opacity:1.0000; stroke:none;fill-rule:evenodd;" d="M 57.1500,4.8500 57.1500,3.1500 58.8500,3.1500 58.8500,4.8500 Z"/> 
 </g><g style="fill:#4D7FC4; fill-opacity:1.0000; stroke:none;">
 <circle cx="58.0000" cy="6.5400" r="0.8500"/> 
@@ -570,7 +666,7 @@ input[type="checkbox"] {
 <circle cx="46.0000" cy="6.5400" r="0.5000"/> 
 </g><g style="fill:#000000; fill-opacity:1.0000; stroke:none;">
 <circle cx="76.0000" cy="4.0000" r="1.6000"/> 
-</g></g><g id="layer-1" opacity="0.5"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
+</g></g><g id="layer-1" opacity="0.5" data-layer-name="F.Cu"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
 </g><g style="fill:#C83434; fill-opacity:1.0000; stroke:none;">
 <circle cx="32.5000" cy="35.0000" r="0.7500"/> 
 <path style="fill:#C83434; fill-opacity:1.0000; stroke:none;fill-rule:evenodd;" d="M 20.5750,21.5500 20.5940,21.4543 20.6482,21.3732 20.7293,21.3190 20.8250,21.3000 21.3500,21.3000 21.4457,21.3190 21.5268,21.3732 21.5810,21.4543 21.6000,21.5500 21.6000,22.4500 21.5810,22.5457 21.5268,22.6268 21.4457,22.6810 21.3500,22.7000 20.8250,22.7000 20.7293,22.6810 20.6482,22.6268 20.5940,22.5457 20.5750,22.4500 Z"/> 
@@ -2764,7 +2860,7 @@ input[type="checkbox"] {
 <circle cx="46.0000" cy="6.5400" r="0.5000"/> 
 </g><g style="fill:#000000; fill-opacity:1.0000; stroke:none;">
 <circle cx="76.0000" cy="4.0000" r="1.6000"/> 
-</g></g><g id="layer-2" opacity="0.5"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
+</g></g><g id="layer-2" opacity="0.5" data-layer-name="B.Adhesive"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
 </g><g style="fill:#000000; fill-opacity:1.0000; stroke:none;">
 <circle cx="4.0000" cy="46.0000" r="1.6000"/> 
 <circle cx="58.0000" cy="4.0000" r="0.5000"/> 
@@ -2790,7 +2886,7 @@ input[type="checkbox"] {
 <circle cx="46.0000" cy="4.0000" r="0.5000"/> 
 <circle cx="46.0000" cy="6.5400" r="0.5000"/> 
 <circle cx="76.0000" cy="4.0000" r="1.6000"/> 
-</g></g><g id="layer-3" opacity="0.5"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
+</g></g><g id="layer-3" opacity="0.5" data-layer-name="F.Adhesive"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
 </g><g style="fill:#000000; fill-opacity:1.0000; stroke:none;">
 <circle cx="4.0000" cy="46.0000" r="1.6000"/> 
 <circle cx="58.0000" cy="4.0000" r="0.5000"/> 
@@ -2816,7 +2912,7 @@ input[type="checkbox"] {
 <circle cx="46.0000" cy="4.0000" r="0.5000"/> 
 <circle cx="46.0000" cy="6.5400" r="0.5000"/> 
 <circle cx="76.0000" cy="4.0000" r="1.6000"/> 
-</g></g><g id="layer-4" opacity="0.5"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
+</g></g><g id="layer-4" opacity="0.5" data-layer-name="B.Paste"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
 </g><g style="fill:#000000; fill-opacity:1.0000; stroke:none;">
 <circle cx="4.0000" cy="46.0000" r="1.6000"/> 
 <circle cx="58.0000" cy="4.0000" r="0.5000"/> 
@@ -2842,7 +2938,7 @@ input[type="checkbox"] {
 <circle cx="46.0000" cy="4.0000" r="0.5000"/> 
 <circle cx="46.0000" cy="6.5400" r="0.5000"/> 
 <circle cx="76.0000" cy="4.0000" r="1.6000"/> 
-</g></g><g id="layer-5" opacity="0.5"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
+</g></g><g id="layer-5" opacity="0.5" data-layer-name="F.Paste"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
 <path style="fill:#B4A09A; fill-opacity:0.9000; stroke:none;fill-rule:evenodd;" d="M 20.5750,21.5500 20.5940,21.4543 20.6482,21.3732 20.7293,21.3190 20.8250,21.3000 21.3500,21.3000 21.4457,21.3190 21.5268,21.3732 21.5810,21.4543 21.6000,21.5500 21.6000,22.4500 21.5810,22.5457 21.5268,22.6268 21.4457,22.6810 21.3500,22.7000 20.8250,22.7000 20.7293,22.6810 20.6482,22.6268 20.5940,22.5457 20.5750,22.4500 Z"/> 
 <path style="fill:#B4A09A; fill-opacity:0.9000; stroke:none;fill-rule:evenodd;" d="M 22.4000,21.5500 22.4190,21.4543 22.4732,21.3732 22.5543,21.3190 22.6500,21.3000 23.1750,21.3000 23.2707,21.3190 23.3518,21.3732 23.4060,21.4543 23.4250,21.5500 23.4250,22.4500 23.4060,22.5457 23.3518,22.6268 23.2707,22.6810 23.1750,22.7000 22.6500,22.7000 22.5543,22.6810 22.4732,22.6268 22.4190,22.5457 22.4000,22.4500 Z"/> 
 <path style="fill:#B4A09A; fill-opacity:0.9000; stroke:none;fill-rule:evenodd;" d="M 32.5750,28.5500 32.5940,28.4543 32.6482,28.3732 32.7293,28.3190 32.8250,28.3000 33.3500,28.3000 33.4457,28.3190 33.5268,28.3732 33.5810,28.4543 33.6000,28.5500 33.6000,29.4500 33.5810,29.5457 33.5268,29.6268 33.4457,29.6810 33.3500,29.7000 32.8250,29.7000 32.7293,29.6810 32.6482,29.6268 32.5940,29.5457 32.5750,29.4500 Z"/> 
@@ -2916,7 +3012,7 @@ input[type="checkbox"] {
 <circle cx="46.0000" cy="4.0000" r="0.5000"/> 
 <circle cx="46.0000" cy="6.5400" r="0.5000"/> 
 <circle cx="76.0000" cy="4.0000" r="1.6000"/> 
-</g></g><g id="layer-6" opacity="0.5"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
+</g></g><g id="layer-6" opacity="0.5" data-layer-name="B.Mask"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
 </g><g style="fill:#02FFEE; fill-opacity:0.4000; stroke:none;">
 <circle cx="4.0000" cy="46.0000" r="1.6000"/> 
 <path style="fill:#02FFEE; fill-opacity:0.4000; stroke:none;fill-rule:evenodd;" d="M 57.1500,4.8500 57.1500,3.1500 58.8500,3.1500 58.8500,4.8500 Z"/> 
@@ -2990,7 +3086,7 @@ input[type="checkbox"] {
 <circle cx="46.0000" cy="6.5400" r="0.5000"/> 
 </g><g style="fill:#000000; fill-opacity:1.0000; stroke:none;">
 <circle cx="76.0000" cy="4.0000" r="1.6000"/> 
-</g></g><g id="layer-7" opacity="0.5"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
+</g></g><g id="layer-7" opacity="0.5" data-layer-name="F.Mask"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
 </g><g style="fill:#D864FF; fill-opacity:0.4000; stroke:none;">
 <circle cx="32.5000" cy="35.0000" r="0.7500"/> 
 <path style="fill:#D864FF; fill-opacity:0.4000; stroke:none;fill-rule:evenodd;" d="M 20.5750,21.5500 20.5940,21.4543 20.6482,21.3732 20.7293,21.3190 20.8250,21.3000 21.3500,21.3000 21.4457,21.3190 21.5268,21.3732 21.5810,21.4543 21.6000,21.5500 21.6000,22.4500 21.5810,22.5457 21.5268,22.6268 21.4457,22.6810 21.3500,22.7000 20.8250,22.7000 20.7293,22.6810 20.6482,22.6268 20.5940,22.5457 20.5750,22.4500 Z"/> 
@@ -3119,7 +3215,7 @@ input[type="checkbox"] {
 <circle cx="46.0000" cy="6.5400" r="0.5000"/> 
 </g><g style="fill:#000000; fill-opacity:1.0000; stroke:none;">
 <circle cx="76.0000" cy="4.0000" r="1.6000"/> 
-</g></g><g id="layer-8" opacity="0.5"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
+</g></g><g id="layer-8" opacity="0.5" data-layer-name="B.Silkscreen"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
 </g><g style="fill:#000000; fill-opacity:1.0000; stroke:none;">
 <circle cx="4.0000" cy="46.0000" r="1.6000"/> 
 <circle cx="58.0000" cy="4.0000" r="0.5000"/> 
@@ -3145,7 +3241,7 @@ input[type="checkbox"] {
 <circle cx="46.0000" cy="4.0000" r="0.5000"/> 
 <circle cx="46.0000" cy="6.5400" r="0.5000"/> 
 <circle cx="76.0000" cy="4.0000" r="1.6000"/> 
-</g></g><g id="layer-9" opacity="0.5"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
+</g></g><g id="layer-9" opacity="0.5" data-layer-name="F.Silkscreen"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
 </g><g style="fill:none;  stroke:#F2EDA1; stroke-width:0.1200; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
 <text x="40.0000" y="42.7600" textLength="18.0846" font-size="0.6933" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0" stroke-opacity="0">OUT1 OUT2 OUT3 OUT4 OUT5 OUT6 GND GND</text>
 <g class="stroked-text"><desc>OUT1 OUT2 OUT3 OUT4 OUT5 OUT6 GND GND</desc>
@@ -4566,7 +4662,7 @@ input[type="checkbox"] {
 <circle cx="46.0000" cy="4.0000" r="0.5000"/> 
 <circle cx="46.0000" cy="6.5400" r="0.5000"/> 
 <circle cx="76.0000" cy="4.0000" r="1.6000"/> 
-</g></g><g id="layer-10" opacity="0.5"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
+</g></g><g id="layer-10" opacity="0.5" data-layer-name="B.Courtyard"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
 </g><g style="fill:#000000; fill-opacity:1.0000; stroke:none;">
 <circle cx="4.0000" cy="46.0000" r="1.6000"/> 
 <circle cx="58.0000" cy="4.0000" r="0.5000"/> 
@@ -4592,7 +4688,7 @@ input[type="checkbox"] {
 <circle cx="46.0000" cy="4.0000" r="0.5000"/> 
 <circle cx="46.0000" cy="6.5400" r="0.5000"/> 
 <circle cx="76.0000" cy="4.0000" r="1.6000"/> 
-</g></g><g id="layer-11" opacity="0.5"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
+</g></g><g id="layer-11" opacity="0.5" data-layer-name="F.Courtyard"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
 </g><g style="fill:none;  stroke:#FF26E2; stroke-width:0.0500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
 <circle cx="32.5000" cy="35.0000" r="1.2500"/> 
 <path style="fill:none;  stroke:#FF26E2; stroke-width:0.0500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;fill:none" d="M 20.3200,21.0500 23.6800,21.0500 23.6800,22.9500 20.3200,22.9500 Z"/> 
@@ -4661,7 +4757,7 @@ input[type="checkbox"] {
 <circle cx="46.0000" cy="4.0000" r="0.5000"/> 
 <circle cx="46.0000" cy="6.5400" r="0.5000"/> 
 <circle cx="76.0000" cy="4.0000" r="1.6000"/> 
-</g></g><g id="layer-12" opacity="0.5"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
+</g></g><g id="layer-12" opacity="0.5" data-layer-name="B.Fab"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
 </g><g style="fill:#000000; fill-opacity:1.0000; stroke:none;">
 <circle cx="4.0000" cy="46.0000" r="1.6000"/> 
 <circle cx="58.0000" cy="4.0000" r="0.5000"/> 
@@ -4687,7 +4783,7 @@ input[type="checkbox"] {
 <circle cx="46.0000" cy="4.0000" r="0.5000"/> 
 <circle cx="46.0000" cy="6.5400" r="0.5000"/> 
 <circle cx="76.0000" cy="4.0000" r="1.6000"/> 
-</g></g><g id="layer-13" opacity="0.5"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
+</g></g><g id="layer-13" opacity="0.5" data-layer-name="F.Fab"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
 </g><g style="fill:none;  stroke:#AFAFAF; stroke-width:0.1500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
 <text x="32.5000" y="37.2500" textLength="4.0595" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0" stroke-opacity="0">OUT1</text>
 <g class="stroked-text"><desc>OUT1</desc>
@@ -7817,7 +7913,7 @@ input[type="checkbox"] {
 <circle cx="46.0000" cy="4.0000" r="0.5000"/> 
 <circle cx="46.0000" cy="6.5400" r="0.5000"/> 
 <circle cx="76.0000" cy="4.0000" r="1.6000"/> 
-</g></g><g id="layer-14" opacity="0.5"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
+</g></g><g id="layer-14" opacity="0.5" data-layer-name="Edge.Cuts"><g style="fill:#000000; fill-opacity:1.0000;stroke:#000000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
 </g><g style="fill:none;  stroke:#D0D2CD; stroke-width:0.0500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
 <path d="M0.0000 0.0000 L80.0000 0.0000 "/>
 <path d="M0.0000 50.0000 L0.0000 0.0000 "/>
@@ -7848,4 +7944,4 @@ input[type="checkbox"] {
 <circle cx="46.0000" cy="4.0000" r="0.5000"/> 
 <circle cx="46.0000" cy="6.5400" r="0.5000"/> 
 <circle cx="76.0000" cy="4.0000" r="1.6000"/> 
-</g></g></svg></div><details><summary>Layers &amp; opacity</summary><section><label><input type="checkbox" checked data-layer="layer-0"><span>B.Cu</span><input aria-label="B.Cu opacity" type="range" min="0" max="100" value="50" data-layer="layer-0"><output>50%</output></label><label><input type="checkbox" checked data-layer="layer-1"><span>F.Cu</span><input aria-label="F.Cu opacity" type="range" min="0" max="100" value="50" data-layer="layer-1"><output>50%</output></label><label><input type="checkbox" checked data-layer="layer-2"><span>B.Adhesive</span><input aria-label="B.Adhesive opacity" type="range" min="0" max="100" value="50" data-layer="layer-2"><output>50%</output></label><label><input type="checkbox" checked data-layer="layer-3"><span>F.Adhesive</span><input aria-label="F.Adhesive opacity" type="range" min="0" max="100" value="50" data-layer="layer-3"><output>50%</output></label><label><input type="checkbox" checked data-layer="layer-4"><span>B.Paste</span><input aria-label="B.Paste opacity" type="range" min="0" max="100" value="50" data-layer="layer-4"><output>50%</output></label><label><input type="checkbox" checked data-layer="layer-5"><span>F.Paste</span><input aria-label="F.Paste opacity" type="range" min="0" max="100" value="50" data-layer="layer-5"><output>50%</output></label><label><input type="checkbox" checked data-layer="layer-6"><span>B.Mask</span><input aria-label="B.Mask opacity" type="range" min="0" max="100" value="50" data-layer="layer-6"><output>50%</output></label><label><input type="checkbox" checked data-layer="layer-7"><span>F.Mask</span><input aria-label="F.Mask opacity" type="range" min="0" max="100" value="50" data-layer="layer-7"><output>50%</output></label><label><input type="checkbox" checked data-layer="layer-8"><span>B.Silkscreen</span><input aria-label="B.Silkscreen opacity" type="range" min="0" max="100" value="50" data-layer="layer-8"><output>50%</output></label><label><input type="checkbox" checked data-layer="layer-9"><span>F.Silkscreen</span><input aria-label="F.Silkscreen opacity" type="range" min="0" max="100" value="50" data-layer="layer-9"><output>50%</output></label><label><input type="checkbox" checked data-layer="layer-10"><span>B.Courtyard</span><input aria-label="B.Courtyard opacity" type="range" min="0" max="100" value="50" data-layer="layer-10"><output>50%</output></label><label><input type="checkbox" checked data-layer="layer-11"><span>F.Courtyard</span><input aria-label="F.Courtyard opacity" type="range" min="0" max="100" value="50" data-layer="layer-11"><output>50%</output></label><label><input type="checkbox" checked data-layer="layer-12"><span>B.Fab</span><input aria-label="B.Fab opacity" type="range" min="0" max="100" value="50" data-layer="layer-12"><output>50%</output></label><label><input type="checkbox" checked data-layer="layer-13"><span>F.Fab</span><input aria-label="F.Fab opacity" type="range" min="0" max="100" value="50" data-layer="layer-13"><output>50%</output></label><label><input type="checkbox" checked data-layer="layer-14"><span>Edge.Cuts</span><input aria-label="Edge.Cuts opacity" type="range" min="0" max="100" value="50" data-layer="layer-14"><output>50%</output></label></section><button id="layers-reset">Reset all layers to 50%</button><p>Visualization only. Layer opacity does not change the design or its score.</p></details><script type="module" src="viewer.js?v=00b6068d4210"></script></html>
+</g></g></svg></div><details id="inspector" class="inspector"><summary>Layers &amp; items</summary><div class="panel"><div class="item-controls"><h2>Selected drawing item</h2><p id="selected-item-name">Click a drawing item on the PCB</p><label>Item opacity<input id="item-opacity" type="range" min="0" max="100" value="100" disabled><output id="item-value">100%</output></label><p>Item opacity multiplies its layer opacity.</p><div class="actions"><button id="hide-item" disabled>Hide item</button><button id="restore-items">Restore items</button></div></div><h2>Layer visibility</h2><label for="layer-preset">Preset</label><select id="layer-preset"><option value="all">All layers</option><option value="copper">Copper + outline</option><option value="front">Front + outline</option><option value="back">Back + outline</option></select><div class="actions"><button id="show-all">Show all</button><button id="hide-all">Hide all</button><button id="layers-reset">Reset 50%</button></div><section class="layer-list"><div class="layer-control" data-layer-name="B.Cu"><label><input type="checkbox" checked data-layer="layer-0"><span>B.Cu</span></label><div class="slider-row"><input aria-label="B.Cu opacity" type="range" min="0" max="100" value="50" data-layer="layer-0"><output>50%</output><button data-solo>Solo</button></div></div><div class="layer-control" data-layer-name="F.Cu"><label><input type="checkbox" checked data-layer="layer-1"><span>F.Cu</span></label><div class="slider-row"><input aria-label="F.Cu opacity" type="range" min="0" max="100" value="50" data-layer="layer-1"><output>50%</output><button data-solo>Solo</button></div></div><div class="layer-control" data-layer-name="B.Adhesive"><label><input type="checkbox" checked data-layer="layer-2"><span>B.Adhesive</span></label><div class="slider-row"><input aria-label="B.Adhesive opacity" type="range" min="0" max="100" value="50" data-layer="layer-2"><output>50%</output><button data-solo>Solo</button></div></div><div class="layer-control" data-layer-name="F.Adhesive"><label><input type="checkbox" checked data-layer="layer-3"><span>F.Adhesive</span></label><div class="slider-row"><input aria-label="F.Adhesive opacity" type="range" min="0" max="100" value="50" data-layer="layer-3"><output>50%</output><button data-solo>Solo</button></div></div><div class="layer-control" data-layer-name="B.Paste"><label><input type="checkbox" checked data-layer="layer-4"><span>B.Paste</span></label><div class="slider-row"><input aria-label="B.Paste opacity" type="range" min="0" max="100" value="50" data-layer="layer-4"><output>50%</output><button data-solo>Solo</button></div></div><div class="layer-control" data-layer-name="F.Paste"><label><input type="checkbox" checked data-layer="layer-5"><span>F.Paste</span></label><div class="slider-row"><input aria-label="F.Paste opacity" type="range" min="0" max="100" value="50" data-layer="layer-5"><output>50%</output><button data-solo>Solo</button></div></div><div class="layer-control" data-layer-name="B.Mask"><label><input type="checkbox" checked data-layer="layer-6"><span>B.Mask</span></label><div class="slider-row"><input aria-label="B.Mask opacity" type="range" min="0" max="100" value="50" data-layer="layer-6"><output>50%</output><button data-solo>Solo</button></div></div><div class="layer-control" data-layer-name="F.Mask"><label><input type="checkbox" checked data-layer="layer-7"><span>F.Mask</span></label><div class="slider-row"><input aria-label="F.Mask opacity" type="range" min="0" max="100" value="50" data-layer="layer-7"><output>50%</output><button data-solo>Solo</button></div></div><div class="layer-control" data-layer-name="B.Silkscreen"><label><input type="checkbox" checked data-layer="layer-8"><span>B.Silkscreen</span></label><div class="slider-row"><input aria-label="B.Silkscreen opacity" type="range" min="0" max="100" value="50" data-layer="layer-8"><output>50%</output><button data-solo>Solo</button></div></div><div class="layer-control" data-layer-name="F.Silkscreen"><label><input type="checkbox" checked data-layer="layer-9"><span>F.Silkscreen</span></label><div class="slider-row"><input aria-label="F.Silkscreen opacity" type="range" min="0" max="100" value="50" data-layer="layer-9"><output>50%</output><button data-solo>Solo</button></div></div><div class="layer-control" data-layer-name="B.Courtyard"><label><input type="checkbox" checked data-layer="layer-10"><span>B.Courtyard</span></label><div class="slider-row"><input aria-label="B.Courtyard opacity" type="range" min="0" max="100" value="50" data-layer="layer-10"><output>50%</output><button data-solo>Solo</button></div></div><div class="layer-control" data-layer-name="F.Courtyard"><label><input type="checkbox" checked data-layer="layer-11"><span>F.Courtyard</span></label><div class="slider-row"><input aria-label="F.Courtyard opacity" type="range" min="0" max="100" value="50" data-layer="layer-11"><output>50%</output><button data-solo>Solo</button></div></div><div class="layer-control" data-layer-name="B.Fab"><label><input type="checkbox" checked data-layer="layer-12"><span>B.Fab</span></label><div class="slider-row"><input aria-label="B.Fab opacity" type="range" min="0" max="100" value="50" data-layer="layer-12"><output>50%</output><button data-solo>Solo</button></div></div><div class="layer-control" data-layer-name="F.Fab"><label><input type="checkbox" checked data-layer="layer-13"><span>F.Fab</span></label><div class="slider-row"><input aria-label="F.Fab opacity" type="range" min="0" max="100" value="50" data-layer="layer-13"><output>50%</output><button data-solo>Solo</button></div></div><div class="layer-control" data-layer-name="Edge.Cuts"><label><input type="checkbox" checked data-layer="layer-14"><span>Edge.Cuts</span></label><div class="slider-row"><input aria-label="Edge.Cuts opacity" type="range" min="0" max="100" value="50" data-layer="layer-14"><output>50%</output><button data-solo>Solo</button></div></div></section></div></details><script type="module" src="viewer.js?v=6edc9c9d7502"></script></html>

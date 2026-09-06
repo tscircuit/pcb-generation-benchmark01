@@ -1,5 +1,4 @@
 import { test, expect } from "bun:test";
-import { DOMParser } from "@xmldom/xmldom";
 import { unzipSync } from "fflate";
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
@@ -18,10 +17,30 @@ test("website download data and default layer controls match preserved artifacts
   expect(views).toHaveLength(20);
   for (const v of views) {
     const html = read(join(out, "views", v.viewer));
-    expect(html.match(/id="layer-\d+" opacity="0.5"/g)?.length).toBe(
-      v.layers.length,
-    );
-    expect(html.match(/value="50"/g)?.length).toBe(v.layers.length);
+    if (v.method === "kicad-codegen") {
+      expect(html.match(/id="layer-\d+" opacity="0.5"/g)?.length).toBe(
+        v.layers.length,
+      );
+      expect(html.match(/value="50"/g)?.length).toBe(v.layers.length);
+      for (const id of [
+        "item-opacity",
+        "hide-item",
+        "restore-items",
+        "layer-preset",
+        "show-all",
+        "hide-all",
+        "fullscreen",
+      ])
+        expect(html).toContain('id="' + id + '"');
+    } else {
+      expect(v.renderer).toBe("@tscircuit/pcb-viewer");
+      expect(html).toContain("tscircuit-viewer.js?v=");
+      expect(html).not.toContain("<svg");
+      expect(
+        readFileSync(join(out, "views/circuits", v.prompt + ".json")),
+      ).toEqual(readFileSync(join(ROOT, v.source)));
+      expect(v.default_opacity).toBe(0.5);
+    }
     expect(sha(readFileSync(join(ROOT, v.source)))).toBe(v.sha256);
   }
   const html = read(join(out, "index.html"));

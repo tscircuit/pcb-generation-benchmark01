@@ -28,19 +28,13 @@
   {
     "prompt": "analog-input-bank",
     "method": "tscircuit-codegen",
-    "source": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/pcb.svg",
-    "sha256": "6aee7c90fee1eb84a4dd3bb8c4f067a4c7a42cf724fc184eebe8389ed1105734",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/circuit.json",
+    "sha256": "2c7115fbf9754c23b7152344a4639333b3e7fd71ccd1e7dd1cf6afee5c58f50c",
     "viewer": "analog-input-bank--tscircuit-codegen.html",
-    "layers": [
-      "global",
-      "board",
-      "bottom",
-      "top",
-      "through",
-      "drill"
-    ],
+    "renderer": "@tscircuit/pcb-viewer",
+    "renderer_version": "1.11.393",
     "default_opacity": 0.5,
-    "operation": "Group preserved SVG geometry by recorded layer"
+    "operation": "Render preserved Circuit JSON with the native tscircuit PCBViewer"
   },
   {
     "prompt": "button-input-bank",
@@ -71,18 +65,13 @@
   {
     "prompt": "button-input-bank",
     "method": "tscircuit-codegen",
-    "source": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/pcb.svg",
-    "sha256": "f65b81b82deb822d268e1a4bebde1691ae7248cc978a3dc39b83c92414c01e9b",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/circuit.json",
+    "sha256": "d8f31e9e39516b2ce0ee4c6ad1a396aa45e807844c1fb687df02dcb0e80730f1",
     "viewer": "button-input-bank--tscircuit-codegen.html",
-    "layers": [
-      "global",
-      "board",
-      "bottom",
-      "top",
-      "through"
-    ],
+    "renderer": "@tscircuit/pcb-viewer",
+    "renderer_version": "1.11.393",
     "default_opacity": 0.5,
-    "operation": "Group preserved SVG geometry by recorded layer"
+    "operation": "Render preserved Circuit JSON with the native tscircuit PCBViewer"
   },
   {
     "prompt": "diode-key-matrix",
@@ -113,19 +102,13 @@
   {
     "prompt": "diode-key-matrix",
     "method": "tscircuit-codegen",
-    "source": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/pcb.svg",
-    "sha256": "139646c12654df0b311f56f6f3e00a266fd9175c45e59983bedf8dec191c8664",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/circuit.json",
+    "sha256": "d751cec9d21156300b8eb9d5c7362942f561cbb94797d329d0418bf741c4cd34",
     "viewer": "diode-key-matrix--tscircuit-codegen.html",
-    "layers": [
-      "global",
-      "board",
-      "bottom",
-      "top",
-      "through",
-      "overlay"
-    ],
+    "renderer": "@tscircuit/pcb-viewer",
+    "renderer_version": "1.11.393",
     "default_opacity": 0.5,
-    "operation": "Group preserved SVG geometry by recorded layer"
+    "operation": "Render preserved Circuit JSON with the native tscircuit PCBViewer"
   },
   {
     "prompt": "i2c-pullup-hub",
@@ -156,18 +139,13 @@
   {
     "prompt": "i2c-pullup-hub",
     "method": "tscircuit-codegen",
-    "source": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/artifacts/attempt-03/index/pcb.svg",
-    "sha256": "623d10bc9dfb896be8bccc5ff2a4aade25e1bba244953cee70e0cb98b1c81ed1",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/artifacts/attempt-03/index/circuit.json",
+    "sha256": "b4ca3b88c0eae2c599b0ba35101a4ab922194e4d56fb7897c97603a9f30c585d",
     "viewer": "i2c-pullup-hub--tscircuit-codegen.html",
-    "layers": [
-      "global",
-      "board",
-      "bottom",
-      "top",
-      "through"
-    ],
+    "renderer": "@tscircuit/pcb-viewer",
+    "renderer_version": "1.11.393",
     "default_opacity": 0.5,
-    "operation": "Group preserved SVG geometry by recorded layer"
+    "operation": "Render preserved Circuit JSON with the native tscircuit PCBViewer"
   },
   {
     "prompt": "led-indicator",
@@ -198,18 +176,13 @@
   {
     "prompt": "led-indicator",
     "method": "tscircuit-codegen",
-    "source": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/pcb.svg",
-    "sha256": "45faca00c989769535ba7a53e649cd9a590e1abb0b32d228a035f04d6ddf446d",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/circuit.json",
+    "sha256": "2d1ceccab2e98b78737332983cd9c0e8986c5a6cd55e1c65ad57053e9cbb15f3",
     "viewer": "led-indicator--tscircuit-codegen.html",
-    "layers": [
-      "global",
-      "board",
-      "bottom",
-      "top",
-      "through"
-    ],
+    "renderer": "@tscircuit/pcb-viewer",
+    "renderer_version": "1.11.393",
     "default_opacity": 0.5,
-    "operation": "Group preserved SVG geometry by recorded layer"
+    "operation": "Render preserved Circuit JSON with the native tscircuit PCBViewer"
   },
   {
     "prompt": "mosfet-output-bank",
@@ -240,19 +213,13 @@
   {
     "prompt": "mosfet-output-bank",
     "method": "tscircuit-codegen",
-    "source": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/pcb.svg",
-    "sha256": "273ca850812a2217d78f21db8defde98cf5fc70bf2d533486f98aba84d7bd877",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/circuit.json",
+    "sha256": "6e80d1c78fe1afe7073b2cedd1847ac5d269d234b1d880f66d6eab3ca4ce367f",
     "viewer": "mosfet-output-bank--tscircuit-codegen.html",
-    "layers": [
-      "global",
-      "board",
-      "bottom",
-      "top",
-      "through",
-      "overlay"
-    ],
+    "renderer": "@tscircuit/pcb-viewer",
+    "renderer_version": "1.11.393",
     "default_opacity": 0.5,
-    "operation": "Group preserved SVG geometry by recorded layer"
+    "operation": "Render preserved Circuit JSON with the native tscircuit PCBViewer"
   },
   {
     "prompt": "npn-led-driver",
@@ -283,18 +250,13 @@
   {
     "prompt": "npn-led-driver",
     "method": "tscircuit-codegen",
-    "source": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/pcb.svg",
-    "sha256": "564618544f12ba88c6a82e3b9c29dc4de70cf2e1b6cfad4a574ce23a76f686d8",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/npn-led-driver/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/circuit.json",
+    "sha256": "2d3362f4b4e5e63e1fc787c7e67adb3a13e7ac9bea09a3b2d1f9cd48591e39ac",
     "viewer": "npn-led-driver--tscircuit-codegen.html",
-    "layers": [
-      "global",
-      "board",
-      "bottom",
-      "top",
-      "through"
-    ],
+    "renderer": "@tscircuit/pcb-viewer",
+    "renderer_version": "1.11.393",
     "default_opacity": 0.5,
-    "operation": "Group preserved SVG geometry by recorded layer"
+    "operation": "Render preserved Circuit JSON with the native tscircuit PCBViewer"
   },
   {
     "prompt": "rc-low-pass",
@@ -325,18 +287,13 @@
   {
     "prompt": "rc-low-pass",
     "method": "tscircuit-codegen",
-    "source": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/pcb.svg",
-    "sha256": "8dd26b2c8abdd52e939fc796ceb05c27d35b5eed9d904c5ac030a0258c5db2ae",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/circuit.json",
+    "sha256": "6a579a3d13e0c535397a74b6ac81210425d87453e03cbb833b29322314ab5971",
     "viewer": "rc-low-pass--tscircuit-codegen.html",
-    "layers": [
-      "global",
-      "board",
-      "bottom",
-      "top",
-      "through"
-    ],
+    "renderer": "@tscircuit/pcb-viewer",
+    "renderer_version": "1.11.393",
     "default_opacity": 0.5,
-    "operation": "Group preserved SVG geometry by recorded layer"
+    "operation": "Render preserved Circuit JSON with the native tscircuit PCBViewer"
   },
   {
     "prompt": "stereo-passive-attenuator",
@@ -367,18 +324,13 @@
   {
     "prompt": "stereo-passive-attenuator",
     "method": "tscircuit-codegen",
-    "source": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/pcb.svg",
-    "sha256": "3329c06859eea0d0e820e6dd902acc247b2b6dcda909ce06470ca607a2faf488",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/stereo-passive-attenuator/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/circuit.json",
+    "sha256": "718bcfaae74fbe959ff0615488558904630883ba58858cd015d0455f21da53dc",
     "viewer": "stereo-passive-attenuator--tscircuit-codegen.html",
-    "layers": [
-      "global",
-      "board",
-      "bottom",
-      "top",
-      "through"
-    ],
+    "renderer": "@tscircuit/pcb-viewer",
+    "renderer_version": "1.11.393",
     "default_opacity": 0.5,
-    "operation": "Group preserved SVG geometry by recorded layer"
+    "operation": "Render preserved Circuit JSON with the native tscircuit PCBViewer"
   },
   {
     "prompt": "voltage-divider",
@@ -409,17 +361,12 @@
   {
     "prompt": "voltage-divider",
     "method": "tscircuit-codegen",
-    "source": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/pcb.svg",
-    "sha256": "23eb0b048699580c3e7d73af7443deaf7a595cecd83173c5536f7410a4eac4e2",
+    "source": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/circuit.json",
+    "sha256": "3e7ee31c06f6cb65bd9883122b24007625df8c74cad8a888ad431d4d24862836",
     "viewer": "voltage-divider--tscircuit-codegen.html",
-    "layers": [
-      "global",
-      "board",
-      "bottom",
-      "top",
-      "through"
-    ],
+    "renderer": "@tscircuit/pcb-viewer",
+    "renderer_version": "1.11.393",
     "default_opacity": 0.5,
-    "operation": "Group preserved SVG geometry by recorded layer"
+    "operation": "Render preserved Circuit JSON with the native tscircuit PCBViewer"
   }
 ]

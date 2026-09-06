@@ -93,3 +93,99 @@ h1 {
 input[type="checkbox"] {
   accent-color: #71cfc2;
 }
+body {
+  overflow: hidden;
+}
+.viewport {
+  height: calc(100vh - 58px);
+  min-height: 0;
+}
+.bar {
+  height: 58px;
+  flex-wrap: nowrap;
+}
+.bar span {
+  flex: initial;
+}
+.bar button {
+  white-space: nowrap;
+}
+.inspector {
+  position: absolute;
+  top: 58px;
+  right: 0;
+  padding: 0;
+  border: 1px solid #53647c;
+  z-index: 10;
+  background: #17283bf5;
+  width: 270px;
+  max-height: calc(100vh - 58px);
+  overflow: auto;
+}
+.inspector summary {
+  padding: 10px 14px;
+  font-weight: 650;
+}
+.panel {
+  padding: 0 14px 14px;
+}
+.actions {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: 12px 0;
+}
+.layer-control {
+  border-bottom: 1px solid #3b4b60;
+  padding: 10px 0;
+}
+.layer-control > label {
+  font-size: 14px;
+}
+.slider-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 6px;
+}
+.slider-row input {
+  min-width: 0;
+  width: 100%;
+}
+.slider-row button {
+  font-size: 12px;
+}
+.item-controls {
+  border-bottom: 1px solid #53647c;
+  padding-bottom: 14px;
+}
+h2 {
+  font-size: 14px;
+  margin: 12px 0 6px;
+}
+select {
+  font: inherit;
+  background: #243650;
+  border: 1px solid #53647c;
+  color: white;
+  padding: 6px;
+  border-radius: 4px;
+  width: 100%;
+}
+button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.selected-item {
+  filter: brightness(1.5);
+}
+.inspector:not([open]) {
+  width: auto;
+}
+#zoom-level {
+  min-width: 38px;
+}
+section.layer-list {
+  display: block;
+  padding: 0;
+}

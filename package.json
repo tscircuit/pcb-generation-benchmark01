@@ -13,15 +13,21 @@
     "website:build": "bun website/build.ts",
     "build": "bun run website:views && bun run website:build",
     "website:publish": "bun run build && ohmx-box publish-html --json website/dist --title 'PCB Generation Benchmark 01' --replace",
-    "format": "prettier --write \"src/**/*.ts\" \"scripts/**/*.ts\" \"tests/**/*.ts\" \"website/*.ts\" \"website/*.css\" package.json tsconfig.json",
-    "format:check": "prettier --check \"src/**/*.ts\" \"scripts/**/*.ts\" \"tests/**/*.ts\" \"website/*.ts\" \"website/*.css\" package.json tsconfig.json"
+    "format": "prettier --write \"src/**/*.ts\" \"scripts/**/*.ts\" \"tests/**/*.ts\" \"website/*.{ts,tsx}\" \"website/*.css\" package.json tsconfig.json",
+    "format:check": "prettier --check \"src/**/*.ts\" \"scripts/**/*.ts\" \"tests/**/*.ts\" \"website/*.{ts,tsx}\" \"website/*.css\" package.json tsconfig.json"
   },
   "dependencies": {
+    "@tscircuit/pcb-viewer": "1.11.393",
     "@xmldom/xmldom": "^0.9.12",
-    "fflate": "^0.8.3"
+    "circuit-json": "0.0.485",
+    "fflate": "^0.8.3",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   },
   "devDependencies": {
     "@types/bun": "^1.4.1",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
     "prettier": "^3.9.6",
     "typescript": "^7.0.2"
   }
