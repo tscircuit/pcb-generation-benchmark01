@@ -1,0 +1,2 @@
+COMMAND: ['tsci', 'check', 'schematic-placement', 'index.circuit.tsx']
+BuildMessage: Expected "}" but found "pcbX"

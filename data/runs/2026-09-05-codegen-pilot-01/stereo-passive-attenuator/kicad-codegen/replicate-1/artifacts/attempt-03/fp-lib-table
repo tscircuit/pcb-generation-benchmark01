@@ -1,0 +1,5 @@
+(fp_lib_table
+(lib (name "Capacitor_SMD") (type "KiCad") (uri "${KIPRJMOD}/libraries/Capacitor_SMD.pretty") (options "") (descr "Bundled standard KiCad library subset"))
+(lib (name "Connector_PinHeader_2.54mm") (type "KiCad") (uri "${KIPRJMOD}/libraries/Connector_PinHeader_2.54mm.pretty") (options "") (descr "Bundled standard KiCad library subset"))
+(lib (name "Resistor_SMD") (type "KiCad") (uri "${KIPRJMOD}/libraries/Resistor_SMD.pretty") (options "") (descr "Bundled standard KiCad library subset"))
+(lib (name "TestPoint") (type "KiCad") (uri "${KIPRJMOD}/libraries/TestPoint.pretty") (options "") (descr "Bundled standard KiCad library subset")))

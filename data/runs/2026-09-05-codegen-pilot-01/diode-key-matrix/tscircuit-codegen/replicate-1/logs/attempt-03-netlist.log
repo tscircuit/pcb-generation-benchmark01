@@ -1,0 +1,219 @@
+$ tsci check netlist index.circuit.tsx
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. See https://react.dev/link/warning-keys for more information.
+Errors: 0
+Warnings: 0
+
+Readable Netlist:
+COMPONENTS:
+ - J1: J1, source_component
+ - SW11: SW11, source_component
+ - D11: D11, source_component
+ - SW12: SW12, source_component
+ - D12: D12, source_component
+ - SW13: SW13, source_component
+ - D13: D13, source_component
+ - SW21: SW21, source_component
+ - D21: D21, source_component
+ - SW22: SW22, source_component
+ - D22: D22, source_component
+ - SW23: SW23, source_component
+ - D23: D23, source_component
+ - SW31: SW31, source_component
+ - D31: D31, source_component
+ - SW32: SW32, source_component
+ - D32: D32, source_component
+ - SW33: SW33, source_component
+ - D33: D33, source_component
+
+NET: KEY11
+  - D11 anode (+)
+  - SW11 pin3
+  - SW11 pin4
+
+NET: KEY12
+  - D12 anode (+)
+  - SW12 pin3
+  - SW12 pin4
+
+NET: KEY13
+  - D13 anode (+)
+  - SW13 pin3
+  - SW13 pin4
+
+NET: ROW1
+  - D13 cathode (-)
+  - D12 cathode (-)
+  - D11 cathode (-)
+  - J1 ROW1
+
+NET: KEY21
+  - D21 anode (+)
+  - SW21 pin3
+  - SW21 pin4
+
+NET: KEY22
+  - D22 anode (+)
+  - SW22 pin3
+  - SW22 pin4
+
+NET: KEY23
+  - D23 anode (+)
+  - SW23 pin3
+  - SW23 pin4
+
+NET: ROW2
+  - D23 cathode (-)
+  - D22 cathode (-)
+  - D21 cathode (-)
+  - J1 ROW2
+
+NET: COL1
+  - SW31 pin1
+  - SW31 pin2
+  - SW21 pin1
+  - SW21 pin2
+  - SW11 pin1
+  - SW11 pin2
+  - J1 COL1
+
+NET: KEY31
+  - D31 anode (+)
+  - SW31 pin3
+  - SW31 pin4
+
+NET: COL2
+  - SW32 pin1
+  - SW32 pin2
+  - SW22 pin1
+  - SW22 pin2
+  - SW12 pin1
+  - SW12 pin2
+  - J1 COL2
+
+NET: KEY32
+  - D32 anode (+)
+  - SW32 pin3
+  - SW32 pin4
+
+NET: COL3
+  - SW33 pin1
+  - SW33 pin2
+  - SW23 pin1
+  - SW23 pin2
+  - SW13 pin1
+  - SW13 pin2
+  - J1 COL3
+
+NET: KEY33
+  - D33 anode (+)
+  - SW33 pin3
+  - SW33 pin4
+
+NET: ROW3
+  - D33 cathode (-)
+  - D32 cathode (-)
+  - D31 cathode (-)
+  - J1 ROW3
+
+
+COMPONENT_PINS:
+J1
+- pin1(ROW1): NETS(ROW1)
+- pin2(ROW2): NETS(ROW2)
+- pin3(ROW3): NETS(ROW3)
+- pin4(COL1): NETS(COL1)
+- pin5(COL2): NETS(COL2)
+- pin6(COL3): NETS(COL3)
+
+SW11
+- pin1: NETS(COL1)
+- pin2: NETS(COL1)
+- pin3: NETS(KEY11)
+- pin4: NETS(KEY11)
+
+D11 (1N4148W)
+- pin1(cathode): NETS(ROW1)
+- pin2(anode): NETS(KEY11)
+
+SW12
+- pin1: NETS(COL2)
+- pin2: NETS(COL2)
+- pin3: NETS(KEY12)
+- pin4: NETS(KEY12)
+
+D12 (1N4148W)
+- pin1(cathode): NETS(ROW1)
+- pin2(anode): NETS(KEY12)
+
+SW13
+- pin1: NETS(COL3)
+- pin2: NETS(COL3)
+- pin3: NETS(KEY13)
+- pin4: NETS(KEY13)
+
+D13 (1N4148W)
+- pin1(cathode): NETS(ROW1)
+- pin2(anode): NETS(KEY13)
+
+SW21
+- pin1: NETS(COL1)
+- pin2: NETS(COL1)
+- pin3: NETS(KEY21)
+- pin4: NETS(KEY21)
+
+D21 (1N4148W)
+- pin1(cathode): NETS(ROW2)
+- pin2(anode): NETS(KEY21)
+
+SW22
+- pin1: NETS(COL2)
+- pin2: NETS(COL2)
+- pin3: NETS(KEY22)
+- pin4: NETS(KEY22)
+
+D22 (1N4148W)
+- pin1(cathode): NETS(ROW2)
+- pin2(anode): NETS(KEY22)
+
+SW23
+- pin1: NETS(COL3)
+- pin2: NETS(COL3)
+- pin3: NETS(KEY23)
+- pin4: NETS(KEY23)
+
+D23 (1N4148W)
+- pin1(cathode): NETS(ROW2)
+- pin2(anode): NETS(KEY23)
+
+SW31
+- pin1: NETS(COL1)
+- pin2: NETS(COL1)
+- pin3: NETS(KEY31)
+- pin4: NETS(KEY31)
+
+D31 (1N4148W)
+- pin1(cathode): NETS(ROW3)
+- pin2(anode): NETS(KEY31)
+
+SW32
+- pin1: NETS(COL2)
+- pin2: NETS(COL2)
+- pin3: NETS(KEY32)
+- pin4: NETS(KEY32)
+
+D32 (1N4148W)
+- pin1(cathode): NETS(ROW3)
+- pin2(anode): NETS(KEY32)
+
+SW33
+- pin1: NETS(COL3)
+- pin2: NETS(COL3)
+- pin3: NETS(KEY33)
+- pin4: NETS(KEY33)
+
+D33 (1N4148W)
+- pin1(cathode): NETS(ROW3)
+- pin2(anode): NETS(KEY33)
+

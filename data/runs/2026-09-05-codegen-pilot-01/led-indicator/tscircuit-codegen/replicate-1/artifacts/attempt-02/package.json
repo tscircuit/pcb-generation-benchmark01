@@ -1,0 +1,1 @@
+{"name":"led-indicator-pilot","private":true,"scripts":{"build":"tsci build index.circuit.tsx --pcb-png --schematic-png --svgs"},"devDependencies":{"@tscircuit/cli":"0.0.2462"}}

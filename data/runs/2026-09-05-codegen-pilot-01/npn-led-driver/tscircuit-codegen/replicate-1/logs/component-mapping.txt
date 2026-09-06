@@ -1,0 +1,183 @@
+/Users/ankan/.bun/install/global/node_modules/@tscircuit/core/dist/index.js:46415:  collector: ["c"],
+/Users/ankan/.bun/install/global/node_modules/@tscircuit/core/dist/index.js:46417:  emitter: ["e"]
+/Users/ankan/.bun/install/global/node_modules/@tscircuit/core/dist/index.js:46448:  get collector() {
+/Users/ankan/.bun/install/global/node_modules/@tscircuit/core/dist/index.js:46449:    return this.portMap.collector;
+/Users/ankan/.bun/install/global/node_modules/@tscircuit/core/dist/index.js:46454:  get emitter() {
+/Users/ankan/.bun/install/global/node_modules/@tscircuit/core/dist/index.js:46455:    return this.portMap.emitter;
+    autorouter?: AutorouterProp | undefined;
+    busFanoutDirections?: Record<string, "top_left" | "top_center" | "top_right" | "center_left" | "center" | "center_right" | "bottom_left" | "bottom_center" | "bottom_right" | "topside_left" | "topside_center" | "topside_right" | "rightside_top" | "rightside_center" | "rightside_bottom" | "bottomside_right" | "bottomside_center" | "bottomside_left" | "leftside_bottom" | "leftside_center" | "leftside_top" | {
+        direction: "top_left" | "top_center" | "top_right" | "center_left" | "center" | "center_right" | "bottom_left" | "bottom_center" | "bottom_right" | "topside_left" | "topside_center" | "topside_right" | "rightside_top" | "rightside_center" | "rightside_bottom" | "bottomside_right" | "bottomside_center" | "bottomside_left" | "leftside_bottom" | "leftside_center" | "leftside_top";
+    }> | undefined;
+    fanoutBoundaryPadding?: string | number | {
+        left?: string | number | undefined;
+        right?: string | number | undefined;
+        top?: string | number | undefined;
+        bottom?: string | number | undefined;
+    } | undefined;
+    fanoutRoutingLayers?: ("top" | "bottom" | "inner1" | "inner2" | "inner3" | "inner4" | "inner5" | "inner6" | "inner7" | "inner8" | {
+        name: "top" | "bottom" | "inner1" | "inner2" | "inner3" | "inner4" | "inner5" | "inner6" | "inner7" | "inner8";
+    })[] | undefined;
+    fanoutPourNetMap?: Partial<Record<"top" | "bottom" | "inner1" | "inner2" | "inner3" | "inner4" | "inner5" | "inner6" | "inner7" | "inner8" | {
+        name: "top" | "bottom" | "inner1" | "inner2" | "inner3" | "inner4" | "inner5" | "inner6" | "inner7" | "inner8";
+    }, string | string[]>> | undefined;
+    connection?: string | undefined;
+    phaseIndex?: number | undefined;
+    region?: {
+        minX: number;
+        maxX: number;
+        minY: number;
+        maxY: number;
+        shape?: "rect" | undefined;
+    } | undefined;
+    reroute?: boolean | undefined;
+}>;
+
+declare const transistorPinsLabels: readonly ["pin1", "pin2", "pin3", "emitter", "collector", "base", "gate", "source", "drain"];
+type transistorPinsLabels = (typeof transistorPinsLabels)[number];
+interface TransistorProps<PinLabel extends string = string> extends CommonComponentProps<PinLabel> {
+    type: "npn" | "pnp" | "bjt" | "jfet" | "mosfet" | "igbt";
+    connections?: Connections<transistorPinsLabels>;
+}
+declare const transistorProps: z.ZodObject<{
+    pcbX: z.ZodOptional<z.ZodUnion<[z.ZodString, z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>]>>;
+    pcbY: z.ZodOptional<z.ZodUnion<[z.ZodString, z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>]>>;
+    pcbLeftEdgeX: z.ZodOptional<z.ZodUnion<[z.ZodString, z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>]>>;
+    pcbRightEdgeX: z.ZodOptional<z.ZodUnion<[z.ZodString, z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>]>>;
+    pcbTopEdgeY: z.ZodOptional<z.ZodUnion<[z.ZodString, z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>]>>;
+    pcbBottomEdgeY: z.ZodOptional<z.ZodUnion<[z.ZodString, z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>]>>;
+    pcbOffsetX: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+    pcbOffsetY: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+    pcbRotation: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+    pcbPositionAnchor: z.ZodOptional<z.ZodString>;
+    pcbPositionMode: z.ZodOptional<z.ZodEnum<["relative_to_group_anchor", "auto", "relative_to_board_anchor", "relative_to_component_anchor"]>>;
+    shouldBeOnEdgeOfBoard: z.ZodOptional<z.ZodBoolean>;
+    pcbMarginTop: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+    pcbMarginRight: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+    pcbMarginBottom: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+    pcbMarginLeft: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+    pcbMarginX: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+    pcbMarginY: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+    pcbStyle: z.ZodOptional<z.ZodObject<{
+        silkscreenFontSize: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+        viaPadDiameter: z.ZodOptional<z.ZodEffects<z.ZodUnion<[z.ZodString, z.ZodNumber]>, number, string | number>>;
+{
+  "name": "tscircuit",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "version": "0.0.2462",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tscircuit/tscircuit"
+  },
+  "files": [
+    "dist",
+    "cli.mjs",
+    "globals.d.ts"
+  ],
+  "scripts": {
+    "build": "tsup-node && bun run copy-runframe-standalone && bun run copy-eval-webworker && cp types/static-assets.d.ts dist/static-assets.d.ts && bun run add-global-types-reference",
+    "add-global-types-reference": "echo '/// <reference path=\"../globals.d.ts\" />' | cat - dist/index.d.ts > dist/index.d.ts.tmp && mv dist/index.d.ts.tmp dist/index.d.ts",
+    "test": "bun test",
+    "upgrade-deps": "bun update --latest @tscircuit/core @tscircuit/cli @tscircuit/eval @tscircuit/runframe && bun run copy-core-versions && bun install --ignore-scripts",
+    "copy-runframe-standalone": "bun run scripts/copy-runframe-standalone.ts",
+    "copy-eval-webworker": "bun run scripts/copy-eval-webworker.ts",
+    "copy-core-versions": "bun run scripts/copy-core-versions.ts && bun install --ignore-scripts"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./browser": "./dist/browser.min.js"
+  },
+  "bin": {
+    "tsci": "cli.mjs",
+    "tscircuit": "cli.mjs"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.16",
+    "esbuild": "^0.20.2",
+    "esbuild-register": "^3.5.0",
+    "tsup": "^8.2.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@flatten-js/core": "^1.6.2",
+    "@lume/kiwi": "^0.4.3",
+    "@resvg/resvg-js": "^2.6.2",
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-typescript": "^12.3.0",
+    "@tscircuit/alphabet": "0.0.25",
+    "@tscircuit/capacity-autorouter": "^0.0.851",
+    "@tscircuit/checks": "^0.0.178",
+    "@tscircuit/circuit-json-util": "^0.0.106",
+    "@tscircuit/cli": "^0.1.2021",
+    "@tscircuit/copper-pour-solver": "^0.0.51",
+    "@tscircuit/core": "^0.0.1816",
+    "@tscircuit/create-fdm-enclosure": "0.0.4",
+    "@tscircuit/eval": "^0.0.1321",
+    "@tscircuit/fanout-solver": "0.0.46",
+    "@tscircuit/footprinter": "^0.0.426",
+    "@tscircuit/image-utils": "^0.0.8",
+    "@tscircuit/infer-cable-insertion-point": "^0.0.4",
+    "@tscircuit/infgrid-ijump-astar": "^0.0.35",
+    "@tscircuit/internal-dynamic-import": "^0.0.11",
+    "@tscircuit/krt-wasm": "^0.1.1",
+    "@tscircuit/matchpack": "^0.0.88",
+    "@tscircuit/math-utils": "^0.0.36",
+    "@tscircuit/miniflex": "^0.0.4",
+    "@tscircuit/ngspice-spice-engine": "^0.0.20",
+    "@tscircuit/props": "^0.0.644",
+    "@tscircuit/runframe": "^0.0.2623",
+    "@tscircuit/schematic-match-adapt": "^0.0.18",
+    "@tscircuit/schematic-trace-solver": "^0.0.173",
+    "@tscircuit/simple-3d-svg": "^0.0.41",
+    "@tscircuit/solver-utils": "^0.0.16",
+    "@tscircuit/soup-util": "^0.0.41",
+    "bpc-graph": "^0.0.57",
+    "calculate-cell-boundaries": "^0.0.19",
+    "calculate-elbow": "^0.0.12",
+    "calculate-packing": "^0.0.89",
+    "circuit-json": "^0.0.479",
+    "circuit-json-to-bpc": "^0.0.13",
+    "circuit-json-to-connectivity-map": "^0.0.30",
+    "circuit-json-to-gltf": "^0.0.118",
+    "circuit-json-to-pnp-csv": "^0.0.8",
+    "circuit-json-to-simple-3d": "^0.0.9",
+    "circuit-json-to-spice": "^0.0.45",
+    "circuit-to-svg": "^0.0.410",
+    "comlink": "^4.4.2",
+    "connectivity-map": "^1.0.0",
+    "css-select": "5.1.0",
+    "debug": "^4.3.6",
+    "flatbush": "^4.5.0",
+    "format-si-unit": "^0.0.12",
+    "graphics-debug": "^0.0.95",
+    "jscad-planner": "^0.0.13",
+    "kicad-component-converter": "^0.1.40",
+    "kicad-to-circuit-json": "^0.0.117",
+    "kicadts": "^0.0.53",
+    "minicssgrid": "^0.0.9",
+    "performance-now": "^2.1.0",
+    "poppygl": "^0.0.27",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "rollup": "^4.53.2",
+    "rollup-plugin-dts": "^6.2.3",
+    "s-expression": "^3.1.1",
+    "schematic-symbols": "^0.0.244",
+    "spicets": "^0.0.4",
+    "spicey": "^0.0.14",
+    "sucrase": "^3.35.0",
+    "svg-path-commander": "^2.1.11",
+    "transformation-matrix": "^2.16.1",
+    "tslib": "^2.8.1",
+    "zod": "^3.25.67"
+  }
+}

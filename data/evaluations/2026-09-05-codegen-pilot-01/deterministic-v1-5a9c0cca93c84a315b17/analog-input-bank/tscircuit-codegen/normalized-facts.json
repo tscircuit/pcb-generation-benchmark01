@@ -1,0 +1,11282 @@
+{
+  "board": {
+    "bounds": [
+      -40.0,
+      -25.0,
+      40.0,
+      25.0
+    ],
+    "height": 50,
+    "layers": 2,
+    "rectangular": true,
+    "width": 80
+  },
+  "components": {
+    "C1": {
+      "bounds": [
+        -7.05,
+        -16.425,
+        -5.6499999999999995,
+        -13.575
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "capacitor",
+      "pads": [
+        {
+          "height": 1.025,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.4,
+          "x": -6.35,
+          "y": -15.9125
+        },
+        {
+          "height": 1.025,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.4,
+          "x": -6.35,
+          "y": -14.0875
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_3",
+        "2": "source_net_0"
+      },
+      "position": {
+        "x": -6.35,
+        "y": -15
+      },
+      "value": 1e-07
+    },
+    "C2": {
+      "bounds": [
+        -4.51,
+        -16.425,
+        -3.1099999999999994,
+        -13.575
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "capacitor",
+      "pads": [
+        {
+          "height": 1.025,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.4,
+          "x": -3.8099999999999996,
+          "y": -15.9125
+        },
+        {
+          "height": 1.025,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.4,
+          "x": -3.8099999999999996,
+          "y": -14.0875
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_6",
+        "2": "source_net_0"
+      },
+      "position": {
+        "x": -3.8099999999999996,
+        "y": -15
+      },
+      "value": 1e-07
+    },
+    "C3": {
+      "bounds": [
+        -1.9699999999999995,
+        -16.425,
+        -0.5699999999999996,
+        -13.575
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "capacitor",
+      "pads": [
+        {
+          "height": 1.025,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.4,
+          "x": -1.2699999999999996,
+          "y": -15.9125
+        },
+        {
+          "height": 1.025,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.4,
+          "x": -1.2699999999999996,
+          "y": -14.0875
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_9",
+        "2": "source_net_0"
+      },
+      "position": {
+        "x": -1.2699999999999996,
+        "y": -15
+      },
+      "value": 1e-07
+    },
+    "C4": {
+      "bounds": [
+        0.5700000000000005,
+        -16.425,
+        1.9700000000000004,
+        -13.575
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "capacitor",
+      "pads": [
+        {
+          "height": 1.025,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.4,
+          "x": 1.2700000000000005,
+          "y": -15.9125
+        },
+        {
+          "height": 1.025,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.4,
+          "x": 1.2700000000000005,
+          "y": -14.0875
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_12",
+        "2": "source_net_0"
+      },
+      "position": {
+        "x": 1.2700000000000005,
+        "y": -15
+      },
+      "value": 1e-07
+    },
+    "C5": {
+      "bounds": [
+        3.1100000000000003,
+        -16.425,
+        4.510000000000001,
+        -13.575
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "capacitor",
+      "pads": [
+        {
+          "height": 1.025,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.4,
+          "x": 3.8100000000000005,
+          "y": -15.9125
+        },
+        {
+          "height": 1.025,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.4,
+          "x": 3.8100000000000005,
+          "y": -14.0875
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_15",
+        "2": "source_net_0"
+      },
+      "position": {
+        "x": 3.8100000000000005,
+        "y": -15
+      },
+      "value": 1e-07
+    },
+    "C6": {
+      "bounds": [
+        5.6499999999999995,
+        -16.425,
+        7.05,
+        -13.575
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "capacitor",
+      "pads": [
+        {
+          "height": 1.025,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.4,
+          "x": 6.35,
+          "y": -15.9125
+        },
+        {
+          "height": 1.025,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.4,
+          "x": 6.35,
+          "y": -14.0875
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_18",
+        "2": "source_net_0"
+      },
+      "position": {
+        "x": 6.35,
+        "y": -15
+      },
+      "value": 1e-07
+    },
+    "J1": {
+      "bounds": [
+        -30.02,
+        20.25,
+        -25.98,
+        21.75
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "header",
+      "pads": [
+        {
+          "height": 1.5,
+          "hole": 1,
+          "pin": "1",
+          "shape": "circular_hole_with_rect_pad",
+          "width": 1.5,
+          "x": -29.27,
+          "y": 21
+        },
+        {
+          "height": 1.5,
+          "hole": 1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 1.5,
+          "x": -26.73,
+          "y": 21
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_1",
+        "2": "source_net_0"
+      },
+      "position": {
+        "x": -28,
+        "y": 21
+      },
+      "value": null
+    },
+    "J2": {
+      "bounds": [
+        -18.82,
+        20.25,
+        -14.780000000000001,
+        21.75
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "header",
+      "pads": [
+        {
+          "height": 1.5,
+          "hole": 1,
+          "pin": "1",
+          "shape": "circular_hole_with_rect_pad",
+          "width": 1.5,
+          "x": -18.07,
+          "y": 21
+        },
+        {
+          "height": 1.5,
+          "hole": 1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 1.5,
+          "x": -15.530000000000001,
+          "y": 21
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_4",
+        "2": "source_net_0"
+      },
+      "position": {
+        "x": -16.8,
+        "y": 21
+      },
+      "value": null
+    },
+    "J3": {
+      "bounds": [
+        -7.620000000000001,
+        20.25,
+        -3.580000000000002,
+        21.75
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "header",
+      "pads": [
+        {
+          "height": 1.5,
+          "hole": 1,
+          "pin": "1",
+          "shape": "circular_hole_with_rect_pad",
+          "width": 1.5,
+          "x": -6.870000000000001,
+          "y": 21
+        },
+        {
+          "height": 1.5,
+          "hole": 1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 1.5,
+          "x": -4.330000000000002,
+          "y": 21
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_7",
+        "2": "source_net_0"
+      },
+      "position": {
+        "x": -5.600000000000001,
+        "y": 21
+      },
+      "value": null
+    },
+    "J4": {
+      "bounds": [
+        3.5799999999999947,
+        20.25,
+        7.619999999999994,
+        21.75
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "header",
+      "pads": [
+        {
+          "height": 1.5,
+          "hole": 1,
+          "pin": "1",
+          "shape": "circular_hole_with_rect_pad",
+          "width": 1.5,
+          "x": 4.329999999999995,
+          "y": 21
+        },
+        {
+          "height": 1.5,
+          "hole": 1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 1.5,
+          "x": 6.869999999999994,
+          "y": 21
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_10",
+        "2": "source_net_0"
+      },
+      "position": {
+        "x": 5.599999999999994,
+        "y": 21
+      },
+      "value": null
+    },
+    "J5": {
+      "bounds": [
+        14.779999999999998,
+        20.25,
+        18.819999999999997,
+        21.75
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "header",
+      "pads": [
+        {
+          "height": 1.5,
+          "hole": 1,
+          "pin": "1",
+          "shape": "circular_hole_with_rect_pad",
+          "width": 1.5,
+          "x": 15.529999999999998,
+          "y": 21
+        },
+        {
+          "height": 1.5,
+          "hole": 1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 1.5,
+          "x": 18.069999999999997,
+          "y": 21
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_13",
+        "2": "source_net_0"
+      },
+      "position": {
+        "x": 16.799999999999997,
+        "y": 21
+      },
+      "value": null
+    },
+    "J6": {
+      "bounds": [
+        25.98,
+        20.25,
+        30.02,
+        21.75
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "header",
+      "pads": [
+        {
+          "height": 1.5,
+          "hole": 1,
+          "pin": "1",
+          "shape": "circular_hole_with_rect_pad",
+          "width": 1.5,
+          "x": 26.73,
+          "y": 21
+        },
+        {
+          "height": 1.5,
+          "hole": 1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 1.5,
+          "x": 29.27,
+          "y": 21
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_16",
+        "2": "source_net_0"
+      },
+      "position": {
+        "x": 28,
+        "y": 21
+      },
+      "value": null
+    },
+    "J7": {
+      "bounds": [
+        -9.64,
+        -21.75,
+        9.64,
+        -20.25
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "header",
+      "pads": [
+        {
+          "height": 1.5,
+          "hole": 1,
+          "pin": "1",
+          "shape": "circular_hole_with_rect_pad",
+          "width": 1.5,
+          "x": -8.89,
+          "y": -21
+        },
+        {
+          "height": 1.5,
+          "hole": 1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 1.5,
+          "x": -6.3500000000000005,
+          "y": -21
+        },
+        {
+          "height": 1.5,
+          "hole": 1,
+          "pin": "3",
+          "shape": "circle",
+          "width": 1.5,
+          "x": -3.8100000000000005,
+          "y": -21
+        },
+        {
+          "height": 1.5,
+          "hole": 1,
+          "pin": "4",
+          "shape": "circle",
+          "width": 1.5,
+          "x": -1.2700000000000005,
+          "y": -21
+        },
+        {
+          "height": 1.5,
+          "hole": 1,
+          "pin": "5",
+          "shape": "circle",
+          "width": 1.5,
+          "x": 1.2699999999999996,
+          "y": -21
+        },
+        {
+          "height": 1.5,
+          "hole": 1,
+          "pin": "6",
+          "shape": "circle",
+          "width": 1.5,
+          "x": 3.8099999999999987,
+          "y": -21
+        },
+        {
+          "height": 1.5,
+          "hole": 1,
+          "pin": "7",
+          "shape": "circle",
+          "width": 1.5,
+          "x": 6.35,
+          "y": -21
+        },
+        {
+          "height": 1.5,
+          "hole": 1,
+          "pin": "8",
+          "shape": "circle",
+          "width": 1.5,
+          "x": 8.89,
+          "y": -21
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_3",
+        "2": "source_net_6",
+        "3": "source_net_9",
+        "4": "source_net_12",
+        "5": "source_net_15",
+        "6": "source_net_18",
+        "7": "source_net_0",
+        "8": "source_net_0"
+      },
+      "position": {
+        "x": 0,
+        "y": -21
+      },
+      "value": null
+    },
+    "R1": {
+      "bounds": [
+        -29.425,
+        12.3,
+        -26.575,
+        13.7
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "resistor",
+      "pads": [
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.025,
+          "x": -28.9125,
+          "y": 13
+        },
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.025,
+          "x": -27.0875,
+          "y": 13
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_1",
+        "2": "source_net_2"
+      },
+      "position": {
+        "x": -28,
+        "y": 13
+      },
+      "value": 10000
+    },
+    "R10": {
+      "bounds": [
+        4.1749999999999945,
+        12.3,
+        7.024999999999994,
+        13.7
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "resistor",
+      "pads": [
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.025,
+          "x": 4.687499999999995,
+          "y": 13
+        },
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.025,
+          "x": 6.512499999999994,
+          "y": 13
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_10",
+        "2": "source_net_11"
+      },
+      "position": {
+        "x": 5.599999999999994,
+        "y": 13
+      },
+      "value": 10000
+    },
+    "R11": {
+      "bounds": [
+        4.1749999999999945,
+        7.300000000000001,
+        7.024999999999994,
+        8.7
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "resistor",
+      "pads": [
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.025,
+          "x": 4.687499999999995,
+          "y": 8
+        },
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.025,
+          "x": 6.512499999999994,
+          "y": 8
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_11",
+        "2": "source_net_0"
+      },
+      "position": {
+        "x": 5.599999999999994,
+        "y": 8
+      },
+      "value": 20000
+    },
+    "R12": {
+      "bounds": [
+        4.1749999999999945,
+        2.3,
+        7.024999999999994,
+        3.7
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "resistor",
+      "pads": [
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.025,
+          "x": 4.687499999999995,
+          "y": 3
+        },
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.025,
+          "x": 6.512499999999994,
+          "y": 3
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_11",
+        "2": "source_net_12"
+      },
+      "position": {
+        "x": 5.599999999999994,
+        "y": 3
+      },
+      "value": 1000
+    },
+    "R13": {
+      "bounds": [
+        15.374999999999996,
+        12.3,
+        18.224999999999998,
+        13.7
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "resistor",
+      "pads": [
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.025,
+          "x": 15.887499999999998,
+          "y": 13
+        },
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.025,
+          "x": 17.7125,
+          "y": 13
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_13",
+        "2": "source_net_14"
+      },
+      "position": {
+        "x": 16.799999999999997,
+        "y": 13
+      },
+      "value": 10000
+    },
+    "R14": {
+      "bounds": [
+        15.374999999999996,
+        7.300000000000001,
+        18.224999999999998,
+        8.7
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "resistor",
+      "pads": [
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.025,
+          "x": 15.887499999999998,
+          "y": 8
+        },
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.025,
+          "x": 17.7125,
+          "y": 8
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_14",
+        "2": "source_net_0"
+      },
+      "position": {
+        "x": 16.799999999999997,
+        "y": 8
+      },
+      "value": 20000
+    },
+    "R15": {
+      "bounds": [
+        15.374999999999996,
+        2.3,
+        18.224999999999998,
+        3.7
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "resistor",
+      "pads": [
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.025,
+          "x": 15.887499999999998,
+          "y": 3
+        },
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.025,
+          "x": 17.7125,
+          "y": 3
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_14",
+        "2": "source_net_15"
+      },
+      "position": {
+        "x": 16.799999999999997,
+        "y": 3
+      },
+      "value": 1000
+    },
+    "R16": {
+      "bounds": [
+        26.575,
+        12.3,
+        29.425,
+        13.7
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "resistor",
+      "pads": [
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.025,
+          "x": 27.0875,
+          "y": 13
+        },
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.025,
+          "x": 28.9125,
+          "y": 13
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_16",
+        "2": "source_net_17"
+      },
+      "position": {
+        "x": 28,
+        "y": 13
+      },
+      "value": 10000
+    },
+    "R17": {
+      "bounds": [
+        26.575,
+        7.300000000000001,
+        29.425,
+        8.7
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "resistor",
+      "pads": [
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.025,
+          "x": 27.0875,
+          "y": 8
+        },
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.025,
+          "x": 28.9125,
+          "y": 8
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_17",
+        "2": "source_net_0"
+      },
+      "position": {
+        "x": 28,
+        "y": 8
+      },
+      "value": 20000
+    },
+    "R18": {
+      "bounds": [
+        26.575,
+        2.3,
+        29.425,
+        3.7
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "resistor",
+      "pads": [
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.025,
+          "x": 27.0875,
+          "y": 3
+        },
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.025,
+          "x": 28.9125,
+          "y": 3
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_17",
+        "2": "source_net_18"
+      },
+      "position": {
+        "x": 28,
+        "y": 3
+      },
+      "value": 1000
+    },
+    "R2": {
+      "bounds": [
+        -29.425,
+        7.300000000000001,
+        -26.575,
+        8.7
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "resistor",
+      "pads": [
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.025,
+          "x": -28.9125,
+          "y": 8
+        },
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.025,
+          "x": -27.0875,
+          "y": 8
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_2",
+        "2": "source_net_0"
+      },
+      "position": {
+        "x": -28,
+        "y": 8
+      },
+      "value": 20000
+    },
+    "R3": {
+      "bounds": [
+        -29.425,
+        2.3,
+        -26.575,
+        3.7
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "resistor",
+      "pads": [
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.025,
+          "x": -28.9125,
+          "y": 3
+        },
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.025,
+          "x": -27.0875,
+          "y": 3
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_2",
+        "2": "source_net_3"
+      },
+      "position": {
+        "x": -28,
+        "y": 3
+      },
+      "value": 1000
+    },
+    "R4": {
+      "bounds": [
+        -18.225,
+        12.3,
+        -15.375,
+        13.7
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "resistor",
+      "pads": [
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.025,
+          "x": -17.712500000000002,
+          "y": 13
+        },
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.025,
+          "x": -15.887500000000001,
+          "y": 13
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_4",
+        "2": "source_net_5"
+      },
+      "position": {
+        "x": -16.8,
+        "y": 13
+      },
+      "value": 10000
+    },
+    "R5": {
+      "bounds": [
+        -18.225,
+        7.300000000000001,
+        -15.375,
+        8.7
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "resistor",
+      "pads": [
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.025,
+          "x": -17.712500000000002,
+          "y": 8
+        },
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.025,
+          "x": -15.887500000000001,
+          "y": 8
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_5",
+        "2": "source_net_0"
+      },
+      "position": {
+        "x": -16.8,
+        "y": 8
+      },
+      "value": 20000
+    },
+    "R6": {
+      "bounds": [
+        -18.225,
+        2.3,
+        -15.375,
+        3.7
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "resistor",
+      "pads": [
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.025,
+          "x": -17.712500000000002,
+          "y": 3
+        },
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.025,
+          "x": -15.887500000000001,
+          "y": 3
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_5",
+        "2": "source_net_6"
+      },
+      "position": {
+        "x": -16.8,
+        "y": 3
+      },
+      "value": 1000
+    },
+    "R7": {
+      "bounds": [
+        -7.025000000000001,
+        12.3,
+        -4.175000000000002,
+        13.7
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "resistor",
+      "pads": [
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.025,
+          "x": -6.512500000000001,
+          "y": 13
+        },
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.025,
+          "x": -4.687500000000002,
+          "y": 13
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_7",
+        "2": "source_net_8"
+      },
+      "position": {
+        "x": -5.600000000000001,
+        "y": 13
+      },
+      "value": 10000
+    },
+    "R8": {
+      "bounds": [
+        -7.025000000000001,
+        7.300000000000001,
+        -4.175000000000002,
+        8.7
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "resistor",
+      "pads": [
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.025,
+          "x": -6.512500000000001,
+          "y": 8
+        },
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.025,
+          "x": -4.687500000000002,
+          "y": 8
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_8",
+        "2": "source_net_0"
+      },
+      "position": {
+        "x": -5.600000000000001,
+        "y": 8
+      },
+      "value": 20000
+    },
+    "R9": {
+      "bounds": [
+        -7.025000000000001,
+        2.3,
+        -4.175000000000002,
+        3.7
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "resistor",
+      "pads": [
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.025,
+          "x": -6.512500000000001,
+          "y": 3
+        },
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "2",
+          "shape": "rect",
+          "width": 1.025,
+          "x": -4.687500000000002,
+          "y": 3
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_8",
+        "2": "source_net_9"
+      },
+      "position": {
+        "x": -5.600000000000001,
+        "y": 3
+      },
+      "value": 1000
+    },
+    "TP1": {
+      "bounds": [
+        -7.1,
+        -10.75,
+        -5.6,
+        -9.25
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "testpoint",
+      "pads": [
+        {
+          "height": 1.5,
+          "hole": 0,
+          "pin": "1",
+          "shape": "circle",
+          "width": 1.5,
+          "x": -6.35,
+          "y": -10
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_3"
+      },
+      "position": {
+        "x": -6.35,
+        "y": -10
+      },
+      "value": null
+    },
+    "TP2": {
+      "bounds": [
+        -4.56,
+        -10.75,
+        -3.0599999999999996,
+        -9.25
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "testpoint",
+      "pads": [
+        {
+          "height": 1.5,
+          "hole": 0,
+          "pin": "1",
+          "shape": "circle",
+          "width": 1.5,
+          "x": -3.8099999999999996,
+          "y": -10
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_6"
+      },
+      "position": {
+        "x": -3.8099999999999996,
+        "y": -10
+      },
+      "value": null
+    },
+    "TP3": {
+      "bounds": [
+        -2.0199999999999996,
+        -10.75,
+        -0.5199999999999996,
+        -9.25
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "testpoint",
+      "pads": [
+        {
+          "height": 1.5,
+          "hole": 0,
+          "pin": "1",
+          "shape": "circle",
+          "width": 1.5,
+          "x": -1.2699999999999996,
+          "y": -10
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_9"
+      },
+      "position": {
+        "x": -1.2699999999999996,
+        "y": -10
+      },
+      "value": null
+    },
+    "TP4": {
+      "bounds": [
+        0.5200000000000005,
+        -10.75,
+        2.0200000000000005,
+        -9.25
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "testpoint",
+      "pads": [
+        {
+          "height": 1.5,
+          "hole": 0,
+          "pin": "1",
+          "shape": "circle",
+          "width": 1.5,
+          "x": 1.2700000000000005,
+          "y": -10
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_12"
+      },
+      "position": {
+        "x": 1.2700000000000005,
+        "y": -10
+      },
+      "value": null
+    },
+    "TP5": {
+      "bounds": [
+        3.0600000000000005,
+        -10.75,
+        4.5600000000000005,
+        -9.25
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "testpoint",
+      "pads": [
+        {
+          "height": 1.5,
+          "hole": 0,
+          "pin": "1",
+          "shape": "circle",
+          "width": 1.5,
+          "x": 3.8100000000000005,
+          "y": -10
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_15"
+      },
+      "position": {
+        "x": 3.8100000000000005,
+        "y": -10
+      },
+      "value": null
+    },
+    "TP6": {
+      "bounds": [
+        5.6,
+        -10.75,
+        7.1,
+        -9.25
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "testpoint",
+      "pads": [
+        {
+          "height": 1.5,
+          "hole": 0,
+          "pin": "1",
+          "shape": "circle",
+          "width": 1.5,
+          "x": 6.35,
+          "y": -10
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_18"
+      },
+      "position": {
+        "x": 6.35,
+        "y": -10
+      },
+      "value": null
+    },
+    "TP7": {
+      "bounds": [
+        12.25,
+        -15.75,
+        13.75,
+        -14.25
+      ],
+      "color": null,
+      "footprint": null,
+      "kind": "testpoint",
+      "pads": [
+        {
+          "height": 1.5,
+          "hole": 0,
+          "pin": "1",
+          "shape": "circle",
+          "width": 1.5,
+          "x": 13,
+          "y": -15
+        }
+      ],
+      "part": null,
+      "pins": {
+        "1": "source_net_0"
+      },
+      "position": {
+        "x": 13,
+        "y": -15
+      },
+      "value": null
+    }
+  },
+  "copper": [
+    {
+      "bounds": [
+        -29.425,
+        12.3,
+        -28.400000000000002,
+        13.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_1",
+      "pin": "R1.1",
+      "radius": 0,
+      "vertices": [
+        [
+          -29.425,
+          12.3
+        ],
+        [
+          -28.400000000000002,
+          12.3
+        ],
+        [
+          -28.400000000000002,
+          13.7
+        ],
+        [
+          -29.425,
+          13.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -27.599999999999998,
+        12.3,
+        -26.575,
+        13.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_2",
+      "pin": "R1.2",
+      "radius": 0,
+      "vertices": [
+        [
+          -27.599999999999998,
+          12.3
+        ],
+        [
+          -26.575,
+          12.3
+        ],
+        [
+          -26.575,
+          13.7
+        ],
+        [
+          -27.599999999999998,
+          13.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -29.425,
+        7.3,
+        -28.400000000000002,
+        8.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_2",
+      "pin": "R2.1",
+      "radius": 0,
+      "vertices": [
+        [
+          -29.425,
+          7.3
+        ],
+        [
+          -28.400000000000002,
+          7.3
+        ],
+        [
+          -28.400000000000002,
+          8.7
+        ],
+        [
+          -29.425,
+          8.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -27.599999999999998,
+        7.3,
+        -26.575,
+        8.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": "R2.2",
+      "radius": 0,
+      "vertices": [
+        [
+          -27.599999999999998,
+          7.3
+        ],
+        [
+          -26.575,
+          7.3
+        ],
+        [
+          -26.575,
+          8.7
+        ],
+        [
+          -27.599999999999998,
+          8.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -29.425,
+        2.3,
+        -28.400000000000002,
+        3.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_2",
+      "pin": "R3.1",
+      "radius": 0,
+      "vertices": [
+        [
+          -29.425,
+          2.3
+        ],
+        [
+          -28.400000000000002,
+          2.3
+        ],
+        [
+          -28.400000000000002,
+          3.7
+        ],
+        [
+          -29.425,
+          3.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -27.599999999999998,
+        2.3,
+        -26.575,
+        3.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_3",
+      "pin": "R3.2",
+      "radius": 0,
+      "vertices": [
+        [
+          -27.599999999999998,
+          2.3
+        ],
+        [
+          -26.575,
+          2.3
+        ],
+        [
+          -26.575,
+          3.7
+        ],
+        [
+          -27.599999999999998,
+          3.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.05,
+        -16.425,
+        -5.6499999999999995,
+        -15.4
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_3",
+      "pin": "C1.1",
+      "radius": 0,
+      "vertices": [
+        [
+          -7.05,
+          -16.425
+        ],
+        [
+          -5.6499999999999995,
+          -16.425
+        ],
+        [
+          -5.6499999999999995,
+          -15.4
+        ],
+        [
+          -7.05,
+          -15.4
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.05,
+        -14.6,
+        -5.6499999999999995,
+        -13.575000000000001
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": "C1.2",
+      "radius": 0,
+      "vertices": [
+        [
+          -7.05,
+          -14.6
+        ],
+        [
+          -5.6499999999999995,
+          -14.6
+        ],
+        [
+          -5.6499999999999995,
+          -13.575000000000001
+        ],
+        [
+          -7.05,
+          -13.575000000000001
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.1,
+        -10.75,
+        -5.6,
+        -9.25
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_3",
+      "pin": "TP1.1",
+      "radius": 0.75,
+      "vertices": [
+        [
+          -6.35,
+          -10
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -18.225,
+        12.3,
+        -17.200000000000003,
+        13.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_4",
+      "pin": "R4.1",
+      "radius": 0,
+      "vertices": [
+        [
+          -18.225,
+          12.3
+        ],
+        [
+          -17.200000000000003,
+          12.3
+        ],
+        [
+          -17.200000000000003,
+          13.7
+        ],
+        [
+          -18.225,
+          13.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -16.400000000000002,
+        12.3,
+        -15.375000000000002,
+        13.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_5",
+      "pin": "R4.2",
+      "radius": 0,
+      "vertices": [
+        [
+          -16.400000000000002,
+          12.3
+        ],
+        [
+          -15.375000000000002,
+          12.3
+        ],
+        [
+          -15.375000000000002,
+          13.7
+        ],
+        [
+          -16.400000000000002,
+          13.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -18.225,
+        7.3,
+        -17.200000000000003,
+        8.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_5",
+      "pin": "R5.1",
+      "radius": 0,
+      "vertices": [
+        [
+          -18.225,
+          7.3
+        ],
+        [
+          -17.200000000000003,
+          7.3
+        ],
+        [
+          -17.200000000000003,
+          8.7
+        ],
+        [
+          -18.225,
+          8.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -16.400000000000002,
+        7.3,
+        -15.375000000000002,
+        8.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": "R5.2",
+      "radius": 0,
+      "vertices": [
+        [
+          -16.400000000000002,
+          7.3
+        ],
+        [
+          -15.375000000000002,
+          7.3
+        ],
+        [
+          -15.375000000000002,
+          8.7
+        ],
+        [
+          -16.400000000000002,
+          8.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -18.225,
+        2.3,
+        -17.200000000000003,
+        3.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_5",
+      "pin": "R6.1",
+      "radius": 0,
+      "vertices": [
+        [
+          -18.225,
+          2.3
+        ],
+        [
+          -17.200000000000003,
+          2.3
+        ],
+        [
+          -17.200000000000003,
+          3.7
+        ],
+        [
+          -18.225,
+          3.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -16.400000000000002,
+        2.3,
+        -15.375000000000002,
+        3.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_6",
+      "pin": "R6.2",
+      "radius": 0,
+      "vertices": [
+        [
+          -16.400000000000002,
+          2.3
+        ],
+        [
+          -15.375000000000002,
+          2.3
+        ],
+        [
+          -15.375000000000002,
+          3.7
+        ],
+        [
+          -16.400000000000002,
+          3.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -4.51,
+        -16.425,
+        -3.1099999999999994,
+        -15.4
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_6",
+      "pin": "C2.1",
+      "radius": 0,
+      "vertices": [
+        [
+          -4.51,
+          -16.425
+        ],
+        [
+          -3.1099999999999994,
+          -16.425
+        ],
+        [
+          -3.1099999999999994,
+          -15.4
+        ],
+        [
+          -4.51,
+          -15.4
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -4.51,
+        -14.6,
+        -3.1099999999999994,
+        -13.575000000000001
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": "C2.2",
+      "radius": 0,
+      "vertices": [
+        [
+          -4.51,
+          -14.6
+        ],
+        [
+          -3.1099999999999994,
+          -14.6
+        ],
+        [
+          -3.1099999999999994,
+          -13.575000000000001
+        ],
+        [
+          -4.51,
+          -13.575000000000001
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -4.56,
+        -10.75,
+        -3.0599999999999996,
+        -9.25
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_6",
+      "pin": "TP2.1",
+      "radius": 0.75,
+      "vertices": [
+        [
+          -3.8099999999999996,
+          -10
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.025000000000001,
+        12.3,
+        -6.000000000000001,
+        13.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_7",
+      "pin": "R7.1",
+      "radius": 0,
+      "vertices": [
+        [
+          -7.025000000000001,
+          12.3
+        ],
+        [
+          -6.000000000000001,
+          12.3
+        ],
+        [
+          -6.000000000000001,
+          13.7
+        ],
+        [
+          -7.025000000000001,
+          13.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -5.200000000000002,
+        12.3,
+        -4.175000000000002,
+        13.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_8",
+      "pin": "R7.2",
+      "radius": 0,
+      "vertices": [
+        [
+          -5.200000000000002,
+          12.3
+        ],
+        [
+          -4.175000000000002,
+          12.3
+        ],
+        [
+          -4.175000000000002,
+          13.7
+        ],
+        [
+          -5.200000000000002,
+          13.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.025000000000001,
+        7.3,
+        -6.000000000000001,
+        8.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_8",
+      "pin": "R8.1",
+      "radius": 0,
+      "vertices": [
+        [
+          -7.025000000000001,
+          7.3
+        ],
+        [
+          -6.000000000000001,
+          7.3
+        ],
+        [
+          -6.000000000000001,
+          8.7
+        ],
+        [
+          -7.025000000000001,
+          8.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -5.200000000000002,
+        7.3,
+        -4.175000000000002,
+        8.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": "R8.2",
+      "radius": 0,
+      "vertices": [
+        [
+          -5.200000000000002,
+          7.3
+        ],
+        [
+          -4.175000000000002,
+          7.3
+        ],
+        [
+          -4.175000000000002,
+          8.7
+        ],
+        [
+          -5.200000000000002,
+          8.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.025000000000001,
+        2.3,
+        -6.000000000000001,
+        3.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_8",
+      "pin": "R9.1",
+      "radius": 0,
+      "vertices": [
+        [
+          -7.025000000000001,
+          2.3
+        ],
+        [
+          -6.000000000000001,
+          2.3
+        ],
+        [
+          -6.000000000000001,
+          3.7
+        ],
+        [
+          -7.025000000000001,
+          3.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -5.200000000000002,
+        2.3,
+        -4.175000000000002,
+        3.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_9",
+      "pin": "R9.2",
+      "radius": 0,
+      "vertices": [
+        [
+          -5.200000000000002,
+          2.3
+        ],
+        [
+          -4.175000000000002,
+          2.3
+        ],
+        [
+          -4.175000000000002,
+          3.7
+        ],
+        [
+          -5.200000000000002,
+          3.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -1.9699999999999995,
+        -16.425,
+        -0.5699999999999996,
+        -15.4
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_9",
+      "pin": "C3.1",
+      "radius": 0,
+      "vertices": [
+        [
+          -1.9699999999999995,
+          -16.425
+        ],
+        [
+          -0.5699999999999996,
+          -16.425
+        ],
+        [
+          -0.5699999999999996,
+          -15.4
+        ],
+        [
+          -1.9699999999999995,
+          -15.4
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -1.9699999999999995,
+        -14.6,
+        -0.5699999999999996,
+        -13.575000000000001
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": "C3.2",
+      "radius": 0,
+      "vertices": [
+        [
+          -1.9699999999999995,
+          -14.6
+        ],
+        [
+          -0.5699999999999996,
+          -14.6
+        ],
+        [
+          -0.5699999999999996,
+          -13.575000000000001
+        ],
+        [
+          -1.9699999999999995,
+          -13.575000000000001
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -2.0199999999999996,
+        -10.75,
+        -0.5199999999999996,
+        -9.25
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_9",
+      "pin": "TP3.1",
+      "radius": 0.75,
+      "vertices": [
+        [
+          -1.2699999999999996,
+          -10
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        4.1749999999999945,
+        12.3,
+        5.199999999999995,
+        13.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_10",
+      "pin": "R10.1",
+      "radius": 0,
+      "vertices": [
+        [
+          4.1749999999999945,
+          12.3
+        ],
+        [
+          5.199999999999995,
+          12.3
+        ],
+        [
+          5.199999999999995,
+          13.7
+        ],
+        [
+          4.1749999999999945,
+          13.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        5.999999999999994,
+        12.3,
+        7.024999999999994,
+        13.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_11",
+      "pin": "R10.2",
+      "radius": 0,
+      "vertices": [
+        [
+          5.999999999999994,
+          12.3
+        ],
+        [
+          7.024999999999994,
+          12.3
+        ],
+        [
+          7.024999999999994,
+          13.7
+        ],
+        [
+          5.999999999999994,
+          13.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        4.1749999999999945,
+        7.3,
+        5.199999999999995,
+        8.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_11",
+      "pin": "R11.1",
+      "radius": 0,
+      "vertices": [
+        [
+          4.1749999999999945,
+          7.3
+        ],
+        [
+          5.199999999999995,
+          7.3
+        ],
+        [
+          5.199999999999995,
+          8.7
+        ],
+        [
+          4.1749999999999945,
+          8.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        5.999999999999994,
+        7.3,
+        7.024999999999994,
+        8.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": "R11.2",
+      "radius": 0,
+      "vertices": [
+        [
+          5.999999999999994,
+          7.3
+        ],
+        [
+          7.024999999999994,
+          7.3
+        ],
+        [
+          7.024999999999994,
+          8.7
+        ],
+        [
+          5.999999999999994,
+          8.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        4.1749999999999945,
+        2.3,
+        5.199999999999995,
+        3.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_11",
+      "pin": "R12.1",
+      "radius": 0,
+      "vertices": [
+        [
+          4.1749999999999945,
+          2.3
+        ],
+        [
+          5.199999999999995,
+          2.3
+        ],
+        [
+          5.199999999999995,
+          3.7
+        ],
+        [
+          4.1749999999999945,
+          3.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        5.999999999999994,
+        2.3,
+        7.024999999999994,
+        3.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_12",
+      "pin": "R12.2",
+      "radius": 0,
+      "vertices": [
+        [
+          5.999999999999994,
+          2.3
+        ],
+        [
+          7.024999999999994,
+          2.3
+        ],
+        [
+          7.024999999999994,
+          3.7
+        ],
+        [
+          5.999999999999994,
+          3.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        0.5700000000000005,
+        -16.425,
+        1.9700000000000004,
+        -15.4
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_12",
+      "pin": "C4.1",
+      "radius": 0,
+      "vertices": [
+        [
+          0.5700000000000005,
+          -16.425
+        ],
+        [
+          1.9700000000000004,
+          -16.425
+        ],
+        [
+          1.9700000000000004,
+          -15.4
+        ],
+        [
+          0.5700000000000005,
+          -15.4
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        0.5700000000000005,
+        -14.6,
+        1.9700000000000004,
+        -13.575000000000001
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": "C4.2",
+      "radius": 0,
+      "vertices": [
+        [
+          0.5700000000000005,
+          -14.6
+        ],
+        [
+          1.9700000000000004,
+          -14.6
+        ],
+        [
+          1.9700000000000004,
+          -13.575000000000001
+        ],
+        [
+          0.5700000000000005,
+          -13.575000000000001
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        0.5200000000000005,
+        -10.75,
+        2.0200000000000005,
+        -9.25
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_12",
+      "pin": "TP4.1",
+      "radius": 0.75,
+      "vertices": [
+        [
+          1.2700000000000005,
+          -10
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.374999999999998,
+        12.3,
+        16.4,
+        13.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_13",
+      "pin": "R13.1",
+      "radius": 0,
+      "vertices": [
+        [
+          15.374999999999998,
+          12.3
+        ],
+        [
+          16.4,
+          12.3
+        ],
+        [
+          16.4,
+          13.7
+        ],
+        [
+          15.374999999999998,
+          13.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        17.2,
+        12.3,
+        18.224999999999998,
+        13.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_14",
+      "pin": "R13.2",
+      "radius": 0,
+      "vertices": [
+        [
+          17.2,
+          12.3
+        ],
+        [
+          18.224999999999998,
+          12.3
+        ],
+        [
+          18.224999999999998,
+          13.7
+        ],
+        [
+          17.2,
+          13.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.374999999999998,
+        7.3,
+        16.4,
+        8.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_14",
+      "pin": "R14.1",
+      "radius": 0,
+      "vertices": [
+        [
+          15.374999999999998,
+          7.3
+        ],
+        [
+          16.4,
+          7.3
+        ],
+        [
+          16.4,
+          8.7
+        ],
+        [
+          15.374999999999998,
+          8.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        17.2,
+        7.3,
+        18.224999999999998,
+        8.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": "R14.2",
+      "radius": 0,
+      "vertices": [
+        [
+          17.2,
+          7.3
+        ],
+        [
+          18.224999999999998,
+          7.3
+        ],
+        [
+          18.224999999999998,
+          8.7
+        ],
+        [
+          17.2,
+          8.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.374999999999998,
+        2.3,
+        16.4,
+        3.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_14",
+      "pin": "R15.1",
+      "radius": 0,
+      "vertices": [
+        [
+          15.374999999999998,
+          2.3
+        ],
+        [
+          16.4,
+          2.3
+        ],
+        [
+          16.4,
+          3.7
+        ],
+        [
+          15.374999999999998,
+          3.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        17.2,
+        2.3,
+        18.224999999999998,
+        3.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_15",
+      "pin": "R15.2",
+      "radius": 0,
+      "vertices": [
+        [
+          17.2,
+          2.3
+        ],
+        [
+          18.224999999999998,
+          2.3
+        ],
+        [
+          18.224999999999998,
+          3.7
+        ],
+        [
+          17.2,
+          3.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.1100000000000003,
+        -16.425,
+        4.510000000000001,
+        -15.4
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_15",
+      "pin": "C5.1",
+      "radius": 0,
+      "vertices": [
+        [
+          3.1100000000000003,
+          -16.425
+        ],
+        [
+          4.510000000000001,
+          -16.425
+        ],
+        [
+          4.510000000000001,
+          -15.4
+        ],
+        [
+          3.1100000000000003,
+          -15.4
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.1100000000000003,
+        -14.6,
+        4.510000000000001,
+        -13.575000000000001
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": "C5.2",
+      "radius": 0,
+      "vertices": [
+        [
+          3.1100000000000003,
+          -14.6
+        ],
+        [
+          4.510000000000001,
+          -14.6
+        ],
+        [
+          4.510000000000001,
+          -13.575000000000001
+        ],
+        [
+          3.1100000000000003,
+          -13.575000000000001
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.0600000000000005,
+        -10.75,
+        4.5600000000000005,
+        -9.25
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_15",
+      "pin": "TP5.1",
+      "radius": 0.75,
+      "vertices": [
+        [
+          3.8100000000000005,
+          -10
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        26.575,
+        12.3,
+        27.599999999999998,
+        13.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_16",
+      "pin": "R16.1",
+      "radius": 0,
+      "vertices": [
+        [
+          26.575,
+          12.3
+        ],
+        [
+          27.599999999999998,
+          12.3
+        ],
+        [
+          27.599999999999998,
+          13.7
+        ],
+        [
+          26.575,
+          13.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        28.400000000000002,
+        12.3,
+        29.425,
+        13.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_17",
+      "pin": "R16.2",
+      "radius": 0,
+      "vertices": [
+        [
+          28.400000000000002,
+          12.3
+        ],
+        [
+          29.425,
+          12.3
+        ],
+        [
+          29.425,
+          13.7
+        ],
+        [
+          28.400000000000002,
+          13.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        26.575,
+        7.3,
+        27.599999999999998,
+        8.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_17",
+      "pin": "R17.1",
+      "radius": 0,
+      "vertices": [
+        [
+          26.575,
+          7.3
+        ],
+        [
+          27.599999999999998,
+          7.3
+        ],
+        [
+          27.599999999999998,
+          8.7
+        ],
+        [
+          26.575,
+          8.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        28.400000000000002,
+        7.3,
+        29.425,
+        8.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": "R17.2",
+      "radius": 0,
+      "vertices": [
+        [
+          28.400000000000002,
+          7.3
+        ],
+        [
+          29.425,
+          7.3
+        ],
+        [
+          29.425,
+          8.7
+        ],
+        [
+          28.400000000000002,
+          8.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        26.575,
+        2.3,
+        27.599999999999998,
+        3.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_17",
+      "pin": "R18.1",
+      "radius": 0,
+      "vertices": [
+        [
+          26.575,
+          2.3
+        ],
+        [
+          27.599999999999998,
+          2.3
+        ],
+        [
+          27.599999999999998,
+          3.7
+        ],
+        [
+          26.575,
+          3.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        28.400000000000002,
+        2.3,
+        29.425,
+        3.7
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_18",
+      "pin": "R18.2",
+      "radius": 0,
+      "vertices": [
+        [
+          28.400000000000002,
+          2.3
+        ],
+        [
+          29.425,
+          2.3
+        ],
+        [
+          29.425,
+          3.7
+        ],
+        [
+          28.400000000000002,
+          3.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        5.6499999999999995,
+        -16.425,
+        7.05,
+        -15.4
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_18",
+      "pin": "C6.1",
+      "radius": 0,
+      "vertices": [
+        [
+          5.6499999999999995,
+          -16.425
+        ],
+        [
+          7.05,
+          -16.425
+        ],
+        [
+          7.05,
+          -15.4
+        ],
+        [
+          5.6499999999999995,
+          -15.4
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        5.6499999999999995,
+        -14.6,
+        7.05,
+        -13.575000000000001
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": "C6.2",
+      "radius": 0,
+      "vertices": [
+        [
+          5.6499999999999995,
+          -14.6
+        ],
+        [
+          7.05,
+          -14.6
+        ],
+        [
+          7.05,
+          -13.575000000000001
+        ],
+        [
+          5.6499999999999995,
+          -13.575000000000001
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        5.6,
+        -10.75,
+        7.1,
+        -9.25
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_18",
+      "pin": "TP6.1",
+      "radius": 0.75,
+      "vertices": [
+        [
+          6.35,
+          -10
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        12.25,
+        -15.75,
+        13.75,
+        -14.25
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": "TP7.1",
+      "radius": 0.75,
+      "vertices": [
+        [
+          13,
+          -15
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -30.02,
+        20.25,
+        -28.52,
+        21.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_1",
+      "pin": "J1.1",
+      "radius": 0,
+      "vertices": [
+        [
+          -30.02,
+          20.25
+        ],
+        [
+          -28.52,
+          20.25
+        ],
+        [
+          -28.52,
+          21.75
+        ],
+        [
+          -30.02,
+          21.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -27.48,
+        20.25,
+        -25.98,
+        21.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": "J1.2",
+      "radius": 0.75,
+      "vertices": [
+        [
+          -26.73,
+          21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -18.82,
+        20.25,
+        -17.32,
+        21.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_4",
+      "pin": "J2.1",
+      "radius": 0,
+      "vertices": [
+        [
+          -18.82,
+          20.25
+        ],
+        [
+          -17.32,
+          20.25
+        ],
+        [
+          -17.32,
+          21.75
+        ],
+        [
+          -18.82,
+          21.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -16.28,
+        20.25,
+        -14.780000000000001,
+        21.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": "J2.2",
+      "radius": 0.75,
+      "vertices": [
+        [
+          -15.530000000000001,
+          21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.620000000000001,
+        20.25,
+        -6.120000000000001,
+        21.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_7",
+      "pin": "J3.1",
+      "radius": 0,
+      "vertices": [
+        [
+          -7.620000000000001,
+          20.25
+        ],
+        [
+          -6.120000000000001,
+          20.25
+        ],
+        [
+          -6.120000000000001,
+          21.75
+        ],
+        [
+          -7.620000000000001,
+          21.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -5.080000000000002,
+        20.25,
+        -3.580000000000002,
+        21.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": "J3.2",
+      "radius": 0.75,
+      "vertices": [
+        [
+          -4.330000000000002,
+          21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.5799999999999947,
+        20.25,
+        5.079999999999995,
+        21.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_10",
+      "pin": "J4.1",
+      "radius": 0,
+      "vertices": [
+        [
+          3.5799999999999947,
+          20.25
+        ],
+        [
+          5.079999999999995,
+          20.25
+        ],
+        [
+          5.079999999999995,
+          21.75
+        ],
+        [
+          3.5799999999999947,
+          21.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        6.119999999999994,
+        20.25,
+        7.619999999999994,
+        21.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": "J4.2",
+      "radius": 0.75,
+      "vertices": [
+        [
+          6.869999999999994,
+          21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        14.779999999999998,
+        20.25,
+        16.279999999999998,
+        21.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_13",
+      "pin": "J5.1",
+      "radius": 0,
+      "vertices": [
+        [
+          14.779999999999998,
+          20.25
+        ],
+        [
+          16.279999999999998,
+          20.25
+        ],
+        [
+          16.279999999999998,
+          21.75
+        ],
+        [
+          14.779999999999998,
+          21.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        17.319999999999997,
+        20.25,
+        18.819999999999997,
+        21.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": "J5.2",
+      "radius": 0.75,
+      "vertices": [
+        [
+          18.069999999999997,
+          21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        25.98,
+        20.25,
+        27.48,
+        21.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_16",
+      "pin": "J6.1",
+      "radius": 0,
+      "vertices": [
+        [
+          25.98,
+          20.25
+        ],
+        [
+          27.48,
+          20.25
+        ],
+        [
+          27.48,
+          21.75
+        ],
+        [
+          25.98,
+          21.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        28.52,
+        20.25,
+        30.02,
+        21.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": "J6.2",
+      "radius": 0.75,
+      "vertices": [
+        [
+          29.27,
+          21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -9.64,
+        -21.75,
+        -8.14,
+        -20.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_3",
+      "pin": "J7.1",
+      "radius": 0,
+      "vertices": [
+        [
+          -9.64,
+          -21.75
+        ],
+        [
+          -8.14,
+          -21.75
+        ],
+        [
+          -8.14,
+          -20.25
+        ],
+        [
+          -9.64,
+          -20.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.1000000000000005,
+        -21.75,
+        -5.6000000000000005,
+        -20.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_6",
+      "pin": "J7.2",
+      "radius": 0.75,
+      "vertices": [
+        [
+          -6.3500000000000005,
+          -21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -4.5600000000000005,
+        -21.75,
+        -3.0600000000000005,
+        -20.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_9",
+      "pin": "J7.3",
+      "radius": 0.75,
+      "vertices": [
+        [
+          -3.8100000000000005,
+          -21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -2.0200000000000005,
+        -21.75,
+        -0.5200000000000005,
+        -20.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_12",
+      "pin": "J7.4",
+      "radius": 0.75,
+      "vertices": [
+        [
+          -1.2700000000000005,
+          -21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        0.5199999999999996,
+        -21.75,
+        2.0199999999999996,
+        -20.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_15",
+      "pin": "J7.5",
+      "radius": 0.75,
+      "vertices": [
+        [
+          1.2699999999999996,
+          -21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.0599999999999987,
+        -21.75,
+        4.559999999999999,
+        -20.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_18",
+      "pin": "J7.6",
+      "radius": 0.75,
+      "vertices": [
+        [
+          3.8099999999999987,
+          -21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        5.6,
+        -21.75,
+        7.1,
+        -20.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": "J7.7",
+      "radius": 0.75,
+      "vertices": [
+        [
+          6.35,
+          -21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        8.14,
+        -21.75,
+        9.64,
+        -20.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": "J7.8",
+      "radius": 0.75,
+      "vertices": [
+        [
+          8.89,
+          -21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.6849999999999987,
+        -18.577,
+        6.475,
+        -15.7875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_18",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          6.35,
+          -15.9125
+        ],
+        [
+          3.8099999999999987,
+          -18.452
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.6849999999999987,
+        -21.125,
+        3.9349999999999987,
+        -18.327
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_18",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          3.8099999999999987,
+          -18.452
+        ],
+        [
+          3.8099999999999987,
+          -21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        6.225,
+        -16.487000000000002,
+        6.925,
+        -15.7875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_18",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          6.35,
+          -15.9125
+        ],
+        [
+          6.8,
+          -16.362000000000002
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        6.675,
+        -16.925,
+        6.925,
+        -16.237000000000002
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_18",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          6.8,
+          -16.362000000000002
+        ],
+        [
+          6.8,
+          -16.8
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        6.675,
+        -16.925,
+        6.925,
+        -16.653049431298616
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_18",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          6.8,
+          -16.8
+        ],
+        [
+          6.8,
+          -16.778049431298616
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        6.675,
+        -16.903049431298616,
+        7.848,
+        -15.730049431298616
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_18",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          6.8,
+          -16.778049431298616
+        ],
+        [
+          7.723,
+          -15.855049431298616
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        7.598,
+        -15.980049431298616,
+        7.848,
+        -13.287
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_18",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          7.723,
+          -15.855049431298616
+        ],
+        [
+          7.723,
+          -13.412
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        7.589100745182808,
+        -13.537,
+        7.848,
+        -13.278100745182808
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_18",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          7.723,
+          -13.412
+        ],
+        [
+          7.714100745182808,
+          -13.403100745182808
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        6.225,
+        -13.528100745182808,
+        7.839100745182808,
+        -11.914
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_18",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          7.714100745182808,
+          -13.403100745182808
+        ],
+        [
+          6.35,
+          -12.039
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        6.225,
+        -12.164,
+        6.475,
+        -9.875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_18",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          6.35,
+          -12.039
+        ],
+        [
+          6.35,
+          -10
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        6.6499999999999995,
+        -16.95,
+        6.95,
+        -16.650000000000002
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_18",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          6.8,
+          -16.8
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        7.5729999999999995,
+        -13.562000000000001,
+        7.873,
+        -13.262
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_18",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          7.723,
+          -13.412
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.788,
+        -10.125,
+        29.0375,
+        3.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_18",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          28.9125,
+          3
+        ],
+        [
+          15.913,
+          -10
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        6.225,
+        -10.125,
+        16.038,
+        -9.875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_18",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          15.913,
+          -10
+        ],
+        [
+          6.35,
+          -10
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        26.9625,
+        7.874499999999998,
+        27.2125,
+        8.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_17",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          27.0875,
+          8
+        ],
+        [
+          27.0875,
+          7.999499999999998
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        26.9625,
+        2.875,
+        27.2125,
+        8.124499999999998
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_17",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          27.0875,
+          7.999499999999998
+        ],
+        [
+          27.0875,
+          3
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        26.9625,
+        11.049499999999998,
+        29.0375,
+        13.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_17",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          28.9125,
+          13
+        ],
+        [
+          27.0875,
+          11.174499999999998
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        26.9625,
+        7.875,
+        27.2125,
+        11.299499999999998
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_17",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          27.0875,
+          11.174499999999998
+        ],
+        [
+          27.0875,
+          8
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        26.605,
+        13.233,
+        26.855,
+        21.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_16",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          26.73,
+          21
+        ],
+        [
+          26.73,
+          13.358
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        26.605,
+        12.875,
+        27.2125,
+        13.483
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_16",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          26.73,
+          13.358
+        ],
+        [
+          27.0875,
+          13
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        1.1449999999999996,
+        -18.577,
+        3.9350000000000005,
+        -15.7875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_15",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          3.8100000000000005,
+          -15.9125
+        ],
+        [
+          1.2699999999999996,
+          -18.452
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        1.1449999999999996,
+        -21.125,
+        1.3949999999999996,
+        -18.327
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_15",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          1.2699999999999996,
+          -18.452
+        ],
+        [
+          1.2699999999999996,
+          -21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.6850000000000005,
+        -16.297,
+        4.195,
+        -15.7875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_15",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          3.8100000000000005,
+          -15.9125
+        ],
+        [
+          4.07,
+          -16.172
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.9450000000000003,
+        -16.816,
+        4.195,
+        -16.047
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_15",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          4.07,
+          -16.172
+        ],
+        [
+          4.07,
+          -16.691
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.9450000000000003,
+        -16.816,
+        4.211565942716282,
+        -16.54943405728372
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_15",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          4.07,
+          -16.691
+        ],
+        [
+          4.086565942716282,
+          -16.67443405728372
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.961565942716282,
+        -16.79943405728372,
+        4.211565942716282,
+        -16.4639837164519
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_15",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          4.086565942716282,
+          -16.67443405728372
+        ],
+        [
+          4.086565942716282,
+          -16.5889837164519
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.675,
+        -16.7139837164519,
+        4.211565942716282,
+        -16.177417773735616
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_15",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          4.086565942716282,
+          -16.5889837164519
+        ],
+        [
+          3.8,
+          -16.302417773735616
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.675,
+        -16.427417773735616,
+        3.925,
+        -11.075
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_15",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          3.8,
+          -16.302417773735616
+        ],
+        [
+          3.8,
+          -11.2
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.675,
+        -11.325,
+        3.931040996469426,
+        -11.068959003530573
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_15",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          3.8,
+          -11.2
+        ],
+        [
+          3.806040996469426,
+          -11.193959003530573
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.681040996469426,
+        -11.318959003530573,
+        3.931040996469426,
+        -10.87328883155119
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_15",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          3.806040996469426,
+          -11.193959003530573
+        ],
+        [
+          3.806040996469426,
+          -10.99828883155119
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.681040996469426,
+        -11.12328883155119,
+        3.9350000000000005,
+        -10.869329828020614
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_15",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          3.806040996469426,
+          -10.99828883155119
+        ],
+        [
+          3.8100000000000005,
+          -10.994329828020614
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.6850000000000005,
+        -11.119329828020614,
+        3.9350000000000005,
+        -9.875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_15",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          3.8100000000000005,
+          -10.994329828020614
+        ],
+        [
+          3.8100000000000005,
+          -10
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.9200000000000004,
+        -16.840999999999998,
+        4.220000000000001,
+        -16.541
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_15",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          4.07,
+          -16.691
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.65,
+        -11.35,
+        3.9499999999999997,
+        -11.049999999999999
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_15",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          3.8,
+          -11.2
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        10.655963231499083,
+        -4.057036768500919,
+        17.8375,
+        3.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_15",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          17.7125,
+          3
+        ],
+        [
+          10.780963231499083,
+          -3.932036768500919
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        9.45185995172363,
+        -4.057036768500919,
+        10.905963231499083,
+        -3.7032090388007903
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_15",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          10.780963231499083,
+          -3.932036768500919
+        ],
+        [
+          9.57685995172363,
+          -3.8282090388007903
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.6506516762303813,
+        -9.894083475176897,
+        9.70185995172363,
+        -3.7032090388007903
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_15",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          9.57685995172363,
+          -3.8282090388007903
+        ],
+        [
+          3.7756516762303813,
+          -9.769083475176897
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.6506516762303813,
+        -10.125,
+        3.9350000000000005,
+        -9.644083475176897
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_15",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          3.7756516762303813,
+          -9.769083475176897
+        ],
+        [
+          3.8100000000000005,
+          -10
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.762499999999998,
+        7.874500000000003,
+        16.012499999999996,
+        8.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_14",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          15.887499999999998,
+          8
+        ],
+        [
+          15.887499999999998,
+          7.999500000000003
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.762499999999998,
+        2.875,
+        16.012499999999996,
+        8.124500000000003
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_14",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          15.887499999999998,
+          7.999500000000003
+        ],
+        [
+          15.887499999999998,
+          3
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.762499999999998,
+        11.049499999999997,
+        17.8375,
+        13.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_14",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          17.7125,
+          13
+        ],
+        [
+          15.887499999999998,
+          11.174499999999997
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.762499999999998,
+        7.875,
+        16.012499999999996,
+        11.299499999999997
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_14",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          15.887499999999998,
+          11.174499999999997
+        ],
+        [
+          15.887499999999998,
+          8
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.404999999999998,
+        13.232000000000003,
+        15.654999999999998,
+        21.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_13",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          15.529999999999998,
+          21
+        ],
+        [
+          15.529999999999998,
+          13.357000000000003
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.404999999999998,
+        12.875,
+        16.012499999999996,
+        13.482000000000003
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_13",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          15.529999999999998,
+          13.357000000000003
+        ],
+        [
+          15.887499999999998,
+          13
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -1.3950000000000005,
+        -18.577,
+        1.3950000000000005,
+        -15.7875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_12",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          1.2700000000000005,
+          -15.9125
+        ],
+        [
+          -1.2700000000000005,
+          -18.452
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -1.3950000000000005,
+        -21.125,
+        -1.1450000000000005,
+        -18.327
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_12",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -1.2700000000000005,
+          -18.452
+        ],
+        [
+          -1.2700000000000005,
+          -21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        0.2329999999999992,
+        -16.0375,
+        1.3950000000000005,
+        -14.875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_12",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          1.2700000000000005,
+          -15.9125
+        ],
+        [
+          0.3579999999999992,
+          -15
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        0.181,
+        -15.125,
+        0.4829999999999992,
+        -14.875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_12",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          0.3579999999999992,
+          -15
+        ],
+        [
+          0.306,
+          -15
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        0.181,
+        -15.125,
+        0.5363785877787182,
+        -14.769621412221282
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_12",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          0.306,
+          -15
+        ],
+        [
+          0.4113785877787181,
+          -14.894621412221282
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        0.2863785877787181,
+        -15.019621412221282,
+        0.6133166386167224,
+        -14.769621412221282
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_12",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          0.4113785877787181,
+          -14.894621412221282
+        ],
+        [
+          0.4883166386167224,
+          -14.894621412221282
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        0.3633166386167224,
+        -15.019621412221282,
+        1.109,
+        -14.273938050838005
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_12",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          0.4883166386167224,
+          -14.894621412221282
+        ],
+        [
+          0.984,
+          -14.398938050838005
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        0.859,
+        -14.523938050838005,
+        1.109,
+        -11.226
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_12",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          0.984,
+          -14.398938050838005
+        ],
+        [
+          0.984,
+          -11.351
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        0.859,
+        -11.476,
+        1.1107149795728088,
+        -11.224285020427192
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_12",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          0.984,
+          -11.351
+        ],
+        [
+          0.9857149795728088,
+          -11.349285020427192
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        0.8607149795728088,
+        -11.474285020427192,
+        1.3950000000000005,
+        -10.940000000000001
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_12",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          0.9857149795728088,
+          -11.349285020427192
+        ],
+        [
+          1.2700000000000005,
+          -11.065000000000001
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        1.1450000000000005,
+        -11.190000000000001,
+        1.3950000000000005,
+        -9.875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_12",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          1.2700000000000005,
+          -11.065000000000001
+        ],
+        [
+          1.2700000000000005,
+          -10
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        0.156,
+        -15.15,
+        0.45599999999999996,
+        -14.85
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_12",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          0.306,
+          -15
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        0.834,
+        -11.501000000000001,
+        1.134,
+        -11.201
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_12",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          0.984,
+          -11.351
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        1.1450000000000005,
+        -2.366999999999999,
+        6.637499999999994,
+        3.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_12",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          6.512499999999994,
+          3
+        ],
+        [
+          1.2700000000000005,
+          -2.241999999999999
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        1.1450000000000005,
+        -10.125,
+        1.3950000000000005,
+        -2.116999999999999
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_12",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          1.2700000000000005,
+          -2.241999999999999
+        ],
+        [
+          1.2700000000000005,
+          -10
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        4.562499999999995,
+        7.874500000000006,
+        4.812499999999995,
+        8.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_11",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          4.687499999999995,
+          8
+        ],
+        [
+          4.687499999999995,
+          7.999500000000006
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        4.562499999999995,
+        2.875,
+        4.812499999999995,
+        8.124500000000005
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_11",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          4.687499999999995,
+          7.999500000000006
+        ],
+        [
+          4.687499999999995,
+          3
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.39,
+        9.878,
+        6.637499999999994,
+        13.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_11",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          6.512499999999994,
+          13
+        ],
+        [
+          3.515,
+          10.003
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.39,
+        9.856,
+        3.64,
+        10.128
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_11",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          3.515,
+          10.003
+        ],
+        [
+          3.515,
+          9.981
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.3753447858047014,
+        9.8413447858047,
+        3.64,
+        10.106
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_11",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          3.515,
+          9.981
+        ],
+        [
+          3.5003447858047014,
+          9.9663447858047
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.3753447858047014,
+        9.688426907678553,
+        3.6253447858047014,
+        10.0913447858047
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_11",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          3.5003447858047014,
+          9.9663447858047
+        ],
+        [
+          3.5003447858047014,
+          9.813426907678553
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.338,
+        9.651082121873852,
+        3.6253447858047014,
+        9.938426907678553
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_11",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          3.5003447858047014,
+          9.813426907678553
+        ],
+        [
+          3.463,
+          9.776082121873852
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.338,
+        7.705,
+        3.588,
+        9.901082121873852
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_11",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          3.463,
+          9.776082121873852
+        ],
+        [
+          3.463,
+          7.83
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.338,
+        7.679257819225995,
+        3.613742180774005,
+        7.955
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_11",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          3.463,
+          7.83
+        ],
+        [
+          3.488742180774005,
+          7.804257819225995
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.363742180774005,
+        7.679257819225995,
+        3.6437046638200723,
+        7.929257819225995
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_11",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          3.488742180774005,
+          7.804257819225995
+        ],
+        [
+          3.5187046638200723,
+          7.804257819225995
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.3937046638200723,
+        7.679257819225995,
+        3.839446844594077,
+        8.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_11",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          3.5187046638200723,
+          7.804257819225995
+        ],
+        [
+          3.714446844594077,
+          8
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.589446844594077,
+        7.875,
+        4.812499999999995,
+        8.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_11",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          3.714446844594077,
+          8
+        ],
+        [
+          4.687499999999995,
+          8
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.365,
+        9.831,
+        3.665,
+        10.131
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_11",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          3.515,
+          9.981
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.313,
+        7.68,
+        3.613,
+        7.98
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_11",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          3.463,
+          7.83
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        4.204999999999995,
+        13.232000000000006,
+        4.454999999999995,
+        21.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_10",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          4.329999999999995,
+          21
+        ],
+        [
+          4.329999999999995,
+          13.357000000000006
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        4.204999999999995,
+        12.875,
+        4.812499999999995,
+        13.482000000000006
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_10",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          4.329999999999995,
+          13.357000000000006
+        ],
+        [
+          4.687499999999995,
+          13
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -3.9350000000000005,
+        -18.577,
+        -1.1449999999999996,
+        -15.7875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_9",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -1.2699999999999996,
+          -15.9125
+        ],
+        [
+          -3.8100000000000005,
+          -18.452
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -3.9350000000000005,
+        -21.125,
+        -3.6850000000000005,
+        -18.327
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_9",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -3.8100000000000005,
+          -18.452
+        ],
+        [
+          -3.8100000000000005,
+          -21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -1.825,
+        -16.467000000000002,
+        -1.1449999999999996,
+        -15.7875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_9",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -1.2699999999999996,
+          -15.9125
+        ],
+        [
+          -1.7,
+          -16.342000000000002
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -1.825,
+        -16.817,
+        -1.575,
+        -16.217000000000002
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_9",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -1.7,
+          -16.342000000000002
+        ],
+        [
+          -1.7,
+          -16.692
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -1.825,
+        -16.817,
+        -1.575,
+        -16.52950291718186
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_9",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -1.7,
+          -16.692
+        ],
+        [
+          -1.7,
+          -16.65450291718186
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -1.825,
+        -16.77950291718186,
+        -1.475,
+        -16.429502917181857
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_9",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -1.7,
+          -16.65450291718186
+        ],
+        [
+          -1.6,
+          -16.554502917181857
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -1.725,
+        -16.679502917181857,
+        -1.475,
+        -11.075
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_9",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -1.6,
+          -16.554502917181857
+        ],
+        [
+          -1.6,
+          -11.2
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -1.725,
+        -11.325,
+        -1.4219597104679853,
+        -11.021959710467984
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_9",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -1.6,
+          -11.2
+        ],
+        [
+          -1.5469597104679853,
+          -11.146959710467984
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -1.6719597104679853,
+        -11.271959710467984,
+        -1.4219597104679853,
+        -11.010188796775086
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_9",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -1.5469597104679853,
+          -11.146959710467984
+        ],
+        [
+          -1.5469597104679853,
+          -11.135188796775086
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -1.6719597104679853,
+        -11.260188796775086,
+        -1.1449999999999996,
+        -10.7332290863071
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_9",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -1.5469597104679853,
+          -11.135188796775086
+        ],
+        [
+          -1.2699999999999996,
+          -10.8582290863071
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -1.3949999999999996,
+        -10.9832290863071,
+        -1.1449999999999996,
+        -9.875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_9",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -1.2699999999999996,
+          -10.8582290863071
+        ],
+        [
+          -1.2699999999999996,
+          -10
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -1.8499999999999999,
+        -16.842,
+        -1.55,
+        -16.542
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_9",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          -1.7,
+          -16.692
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -1.75,
+        -11.35,
+        -1.4500000000000002,
+        -11.049999999999999
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_9",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          -1.6,
+          -11.2
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -4.812500000000002,
+        -0.5430000000000001,
+        -1.1449999999999996,
+        3.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_9",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -4.687500000000002,
+          3
+        ],
+        [
+          -1.2699999999999996,
+          -0.41800000000000015
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -1.3949999999999996,
+        -10.125,
+        -1.1449999999999996,
+        -0.29300000000000015
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_9",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -1.2699999999999996,
+          -0.41800000000000015
+        ],
+        [
+          -1.2699999999999996,
+          -10
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -6.637500000000001,
+        7.874500000000001,
+        -6.387500000000001,
+        8.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_8",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -6.512500000000001,
+          8
+        ],
+        [
+          -6.512500000000001,
+          7.999500000000001
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -6.637500000000001,
+        2.875,
+        -6.387500000000001,
+        8.124500000000001
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_8",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -6.512500000000001,
+          7.999500000000001
+        ],
+        [
+          -6.512500000000001,
+          3
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -5.11218777079743,
+        12.827187770797432,
+        -4.562500000000002,
+        13.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_8",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -4.687500000000002,
+          13
+        ],
+        [
+          -4.98718777079743,
+          12.952187770797432
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -6.457180221427148,
+        11.482195320167714,
+        -4.86218777079743,
+        13.077187770797432
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_8",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -4.98718777079743,
+          12.952187770797432
+        ],
+        [
+          -6.332180221427148,
+          11.607195320167714
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -6.49618777079743,
+        11.443187770797431,
+        -6.207180221427148,
+        11.732195320167714
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_8",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -6.332180221427148,
+          11.607195320167714
+        ],
+        [
+          -6.37118777079743,
+          11.568187770797431
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -6.544,
+        9.544276922080606,
+        -6.24618777079743,
+        11.693187770797431
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_8",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -6.37118777079743,
+          11.568187770797431
+        ],
+        [
+          -6.419,
+          9.669276922080606
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.464812965195114,
+        8.623463956885491,
+        -6.294,
+        9.794276922080606
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_8",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -6.419,
+          9.669276922080606
+        ],
+        [
+          -7.339812965195114,
+          8.748463956885491
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.464812965195114,
+        8.560187034804885,
+        -7.214812965195114,
+        8.873463956885491
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_8",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -7.339812965195114,
+          8.748463956885491
+        ],
+        [
+          -7.339812965195114,
+          8.685187034804885
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.55,
+        8.475,
+        -7.214812965195114,
+        8.810187034804885
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_8",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -7.339812965195114,
+          8.685187034804885
+        ],
+        [
+          -7.425,
+          8.6
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.55,
+        8.475,
+        -6.9879999999999995,
+        8.725
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_8",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -7.425,
+          8.6
+        ],
+        [
+          -7.1129999999999995,
+          8.6
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.2379999999999995,
+        7.875,
+        -6.387500000000001,
+        8.725
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_8",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -7.1129999999999995,
+          8.6
+        ],
+        [
+          -6.512500000000001,
+          8
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -6.521187770797431,
+        11.41818777079743,
+        -6.22118777079743,
+        11.718187770797432
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_8",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          -6.37118777079743,
+          11.568187770797431
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.575,
+        8.45,
+        -7.2749999999999995,
+        8.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_8",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          -7.425,
+          8.6
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -6.995000000000001,
+        13.232000000000001,
+        -6.745000000000001,
+        21.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_7",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -6.870000000000001,
+          21
+        ],
+        [
+          -6.870000000000001,
+          13.357000000000001
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -6.995000000000001,
+        12.875,
+        -6.387500000000001,
+        13.482000000000001
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_7",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -6.870000000000001,
+          13.357000000000001
+        ],
+        [
+          -6.512500000000001,
+          13
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -6.4750000000000005,
+        -18.577,
+        -3.6849999999999996,
+        -15.7875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_6",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -3.8099999999999996,
+          -15.9125
+        ],
+        [
+          -6.3500000000000005,
+          -18.452
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -6.4750000000000005,
+        -21.125,
+        -6.2250000000000005,
+        -18.327
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_6",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -6.3500000000000005,
+          -18.452
+        ],
+        [
+          -6.3500000000000005,
+          -21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -3.9349999999999996,
+        -16.047,
+        -3.675,
+        -15.7875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_6",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -3.8099999999999996,
+          -15.9125
+        ],
+        [
+          -3.8,
+          -15.922
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -3.925,
+        -16.817,
+        -3.675,
+        -15.797
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_6",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -3.8,
+          -15.922
+        ],
+        [
+          -3.8,
+          -16.692
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -3.925,
+        -16.817,
+        -3.675,
+        -16.35624895447514
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_6",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -3.8,
+          -16.692
+        ],
+        [
+          -3.8,
+          -16.48124895447514
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -3.925,
+        -16.60624895447514,
+        -3.675,
+        -11.075
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_6",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -3.8,
+          -16.48124895447514
+        ],
+        [
+          -3.8,
+          -11.2
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -3.931040996469426,
+        -11.325,
+        -3.675,
+        -11.068959003530573
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_6",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -3.8,
+          -11.2
+        ],
+        [
+          -3.806040996469426,
+          -11.193959003530573
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -3.931040996469426,
+        -11.318959003530573,
+        -3.681040996469426,
+        -10.87328883155119
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_6",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -3.806040996469426,
+          -11.193959003530573
+        ],
+        [
+          -3.806040996469426,
+          -10.99828883155119
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -3.9349999999999996,
+        -11.12328883155119,
+        -3.681040996469426,
+        -10.869329828020616
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_6",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -3.806040996469426,
+          -10.99828883155119
+        ],
+        [
+          -3.8099999999999996,
+          -10.994329828020616
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -3.9349999999999996,
+        -11.119329828020616,
+        -3.6849999999999996,
+        -9.875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_6",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -3.8099999999999996,
+          -10.994329828020616
+        ],
+        [
+          -3.8099999999999996,
+          -10
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -3.9499999999999997,
+        -16.842,
+        -3.65,
+        -16.542
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_6",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          -3.8,
+          -16.692
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -3.9499999999999997,
+        -11.35,
+        -3.65,
+        -11.049999999999999
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_6",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          -3.8,
+          -11.2
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -16.012500000000003,
+        -9.203,
+        -3.6849999999999996,
+        3.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_6",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -15.887500000000001,
+          3
+        ],
+        [
+          -3.8099999999999996,
+          -9.078
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -3.9349999999999996,
+        -10.125,
+        -3.6849999999999996,
+        -8.953
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_6",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -3.8099999999999996,
+          -9.078
+        ],
+        [
+          -3.8099999999999996,
+          -10
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -17.837500000000002,
+        7.874500000000001,
+        -17.587500000000002,
+        8.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_5",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -17.712500000000002,
+          8
+        ],
+        [
+          -17.712500000000002,
+          7.999500000000001
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -17.837500000000002,
+        2.875,
+        -17.587500000000002,
+        8.124500000000001
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_5",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -17.712500000000002,
+          7.999500000000001
+        ],
+        [
+          -17.712500000000002,
+          3
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -17.337596842973205,
+        11.549903157026794,
+        -15.762500000000001,
+        13.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_5",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -15.887500000000001,
+          13
+        ],
+        [
+          -17.212596842973205,
+          11.674903157026794
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -17.713096842973208,
+        11.549903157026794,
+        -17.087596842973205,
+        11.799903157026794
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_5",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -17.212596842973205,
+          11.674903157026794
+        ],
+        [
+          -17.588096842973208,
+          11.674903157026794
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -17.739,
+        11.524,
+        -17.463096842973208,
+        11.799903157026794
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_5",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -17.588096842973208,
+          11.674903157026794
+        ],
+        [
+          -17.614,
+          11.649
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -17.739,
+        9.549276922080605,
+        -17.489,
+        11.774
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_5",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -17.614,
+          11.649
+        ],
+        [
+          -17.614,
+          9.674276922080605
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -18.64002423424003,
+        8.648252687840575,
+        -17.489,
+        9.799276922080605
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_5",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -17.614,
+          9.674276922080605
+        ],
+        [
+          -18.51502423424003,
+          8.773252687840575
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -18.64002423424003,
+        8.58497576575997,
+        -18.39002423424003,
+        8.898252687840575
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_5",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -18.51502423424003,
+          8.773252687840575
+        ],
+        [
+          -18.51502423424003,
+          8.70997576575997
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -18.75,
+        8.475,
+        -18.39002423424003,
+        8.83497576575997
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_5",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -18.51502423424003,
+          8.70997576575997
+        ],
+        [
+          -18.625,
+          8.6
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -18.75,
+        8.475,
+        -18.188000000000002,
+        8.725
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_5",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -18.625,
+          8.6
+        ],
+        [
+          -18.313000000000002,
+          8.6
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -18.438000000000002,
+        7.875,
+        -17.587500000000002,
+        8.725
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_5",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -18.313000000000002,
+          8.6
+        ],
+        [
+          -17.712500000000002,
+          8
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -17.764,
+        11.498999999999999,
+        -17.464000000000002,
+        11.799
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_5",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          -17.614,
+          11.649
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -18.775,
+        8.45,
+        -18.475,
+        8.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_5",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          -18.625,
+          8.6
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -18.195,
+        13.232,
+        -17.945,
+        21.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_4",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -18.07,
+          21
+        ],
+        [
+          -18.07,
+          13.357
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -18.195,
+        12.875,
+        -17.587500000000002,
+        13.482
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_4",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -18.07,
+          13.357
+        ],
+        [
+          -17.712500000000002,
+          13
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -9.015,
+        -18.577,
+        -6.225,
+        -15.7875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_3",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -6.35,
+          -15.9125
+        ],
+        [
+          -8.89,
+          -18.452
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -9.015,
+        -21.125,
+        -8.765,
+        -18.327
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_3",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -8.89,
+          -18.452
+        ],
+        [
+          -8.89,
+          -21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.342801047734601,
+        -16.0375,
+        -6.225,
+        -14.9191989522654
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_3",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -6.35,
+          -15.9125
+        ],
+        [
+          -7.217801047734601,
+          -15.0441989522654
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.342801047734601,
+        -15.1691989522654,
+        -7.092801047734601,
+        -14.761385564430435
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_3",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -7.217801047734601,
+          -15.0441989522654
+        ],
+        [
+          -7.217801047734601,
+          -14.886385564430435
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.429801047734601,
+        -15.1691989522654,
+        -7.092801047734601,
+        -14.761385564430435
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_3",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -7.217801047734601,
+          -14.886385564430435
+        ],
+        [
+          -7.304801047734601,
+          -15.0441989522654
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.43,
+        -15.1691989522654,
+        -7.179801047734601,
+        -14.575
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_3",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -7.304801047734601,
+          -15.0441989522654
+        ],
+        [
+          -7.305,
+          -14.7
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.43,
+        -14.825,
+        -7.18,
+        -14.375
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_3",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -7.305,
+          -14.7
+        ],
+        [
+          -7.305,
+          -14.5
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.43,
+        -14.625,
+        -7.18,
+        -13.925
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_3",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -7.305,
+          -14.5
+        ],
+        [
+          -7.305,
+          -14.05
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.43,
+        -14.175,
+        -7.18,
+        -13.675
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_3",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -7.305,
+          -14.05
+        ],
+        [
+          -7.305,
+          -13.8
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.43,
+        -13.925,
+        -7.18,
+        -13.425
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_3",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -7.305,
+          -13.8
+        ],
+        [
+          -7.305,
+          -13.55
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.43,
+        -13.675,
+        -7.18,
+        -13.265308492202815
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_3",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -7.305,
+          -13.55
+        ],
+        [
+          -7.305,
+          -13.390308492202815
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.43,
+        -13.515308492202815,
+        -6.311999999999999,
+        -12.397308492202814
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_3",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -7.305,
+          -13.390308492202815
+        ],
+        [
+          -6.436999999999999,
+          -12.522308492202814
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -6.561999999999999,
+        -12.647308492202814,
+        -6.225,
+        -9.875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_3",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -6.436999999999999,
+          -12.522308492202814
+        ],
+        [
+          -6.35,
+          -10
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -27.2125,
+        -10.125,
+        -13.962,
+        3.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_3",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -27.0875,
+          3
+        ],
+        [
+          -14.087,
+          -10
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -14.212,
+        -10.125,
+        -6.225,
+        -9.875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_3",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -14.087,
+          -10
+        ],
+        [
+          -6.35,
+          -10
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -29.0375,
+        7.874499999999998,
+        -28.7875,
+        8.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_2",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -28.9125,
+          8
+        ],
+        [
+          -28.9125,
+          7.999499999999998
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -29.0375,
+        2.875,
+        -28.7875,
+        8.124499999999998
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_2",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -28.9125,
+          7.999499999999998
+        ],
+        [
+          -28.9125,
+          3
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -27.2125,
+        9.6995,
+        -26.9625,
+        13.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_2",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -27.0875,
+          13
+        ],
+        [
+          -27.0875,
+          9.8245
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -29.0375,
+        7.875,
+        -26.9625,
+        9.9495
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_2",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -27.0875,
+          9.8245
+        ],
+        [
+          -28.9125,
+          8
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -29.395,
+        13.233,
+        -29.145,
+        21.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_1",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -29.27,
+          21
+        ],
+        [
+          -29.27,
+          13.358
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -29.395,
+        12.875,
+        -28.7875,
+        13.483
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_1",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -29.27,
+          13.358
+        ],
+        [
+          -28.9125,
+          13
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.6850000000000005,
+        -14.2125,
+        6.474499999999999,
+        -13.9625
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          3.8100000000000005,
+          -14.0875
+        ],
+        [
+          6.349499999999999,
+          -14.0875
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        6.224499999999999,
+        -14.2125,
+        6.475,
+        -13.9625
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          6.349499999999999,
+          -14.0875
+        ],
+        [
+          6.35,
+          -14.0875
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -6.475,
+        -14.2125,
+        -6.224499999999999,
+        -13.9625
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -6.35,
+          -14.0875
+        ],
+        [
+          -6.349499999999999,
+          -14.0875
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -6.474499999999999,
+        -14.2125,
+        -3.6849999999999996,
+        -13.9625
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -6.349499999999999,
+          -14.0875
+        ],
+        [
+          -3.8099999999999996,
+          -14.0875
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -3.9349999999999996,
+        -14.2125,
+        -3.6844999999999994,
+        -13.9625
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -3.8099999999999996,
+          -14.0875
+        ],
+        [
+          -3.8094999999999994,
+          -14.0875
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -3.9344999999999994,
+        -14.2125,
+        -1.1449999999999996,
+        -13.9625
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -3.8094999999999994,
+          -14.0875
+        ],
+        [
+          -1.2699999999999996,
+          -14.0875
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -1.3949999999999996,
+        -14.2125,
+        1.3944999999999994,
+        -13.9625
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -1.2699999999999996,
+          -14.0875
+        ],
+        [
+          1.2694999999999994,
+          -14.0875
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        1.1444999999999994,
+        -14.2125,
+        1.3950000000000005,
+        -13.9625
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          1.2694999999999994,
+          -14.0875
+        ],
+        [
+          1.2700000000000005,
+          -14.0875
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        1.1450000000000005,
+        -14.2125,
+        3.9344999999999994,
+        -13.9625
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          1.2700000000000005,
+          -14.0875
+        ],
+        [
+          3.8094999999999994,
+          -14.0875
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.6844999999999994,
+        -14.2125,
+        3.9350000000000005,
+        -13.9625
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          3.8094999999999994,
+          -14.0875
+        ],
+        [
+          3.8100000000000005,
+          -14.0875
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        6.225,
+        -21.125,
+        9.015,
+        -20.875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          6.35,
+          -21
+        ],
+        [
+          8.89,
+          -21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        6.225,
+        -15.125,
+        7.388,
+        -13.9625
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          6.35,
+          -14.0875
+        ],
+        [
+          7.263,
+          -15
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        7.138,
+        -15.125,
+        13.125,
+        -14.875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          7.263,
+          -15
+        ],
+        [
+          13,
+          -15
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        6.225,
+        -15.090186696972872,
+        7.43,
+        -13.9625
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          6.35,
+          -14.0875
+        ],
+        [
+          7.305,
+          -14.965186696972872
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        7.18,
+        -15.097936629925636,
+        7.43,
+        -14.840186696972872
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          7.305,
+          -14.965186696972872
+        ],
+        [
+          7.305,
+          -14.972936629925636
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        7.18,
+        -20.24681330302713,
+        7.43,
+        -14.847936629925636
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          7.305,
+          -14.972936629925636
+        ],
+        [
+          7.305,
+          -20.12181330302713
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        6.225,
+        -21.125,
+        7.43,
+        -19.99681330302713
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          7.305,
+          -20.12181330302713
+        ],
+        [
+          6.35,
+          -21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -4.812500000000002,
+        7.875,
+        -3.6349378653261866,
+        9.052562134673815
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -4.687500000000002,
+          8
+        ],
+        [
+          -3.7599378653261866,
+          8.927562134673815
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -3.8849378653261866,
+        8.802562134673815,
+        5.709437865326184,
+        9.052562134673815
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -3.7599378653261866,
+          8.927562134673815
+        ],
+        [
+          5.584437865326184,
+          8.927562134673815
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        5.459437865326184,
+        7.875,
+        6.637499999999994,
+        9.052562134673815
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          5.584437865326184,
+          8.927562134673815
+        ],
+        [
+          6.512499999999994,
+          8
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -4.455000000000002,
+        20.875,
+        -3.2298673293371287,
+        22.100132670662873
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -4.330000000000002,
+          21
+        ],
+        [
+          -3.3548673293371287,
+          21.975132670662873
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -3.4798673293371287,
+        21.850132670662873,
+        5.890831726157446,
+        22.100132670662873
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -3.3548673293371287,
+          21.975132670662873
+        ],
+        [
+          5.765831726157446,
+          21.975132670662873
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        5.640831726157446,
+        21.850132670662873,
+        6.019867329337127,
+        22.100132670662873
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          5.765831726157446,
+          21.975132670662873
+        ],
+        [
+          5.894867329337127,
+          21.975132670662873
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        5.769867329337127,
+        20.875,
+        6.994999999999994,
+        22.100132670662873
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          5.894867329337127,
+          21.975132670662873
+        ],
+        [
+          6.869999999999994,
+          21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -27.2125,
+        7.875,
+        -25.971882022689734,
+        9.115117977310264
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -27.0875,
+          8
+        ],
+        [
+          -26.096882022689734,
+          8.990117977310264
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -26.221882022689734,
+        8.865117977310264,
+        -25.852083655818795,
+        9.115117977310264
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -26.096882022689734,
+          8.990117977310264
+        ],
+        [
+          -25.977083655818795,
+          8.990117977310264
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -26.102083655818795,
+        8.865117977310264,
+        -16.752617977310265,
+        9.115117977310264
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -25.977083655818795,
+          8.990117977310264
+        ],
+        [
+          -16.877617977310265,
+          8.990117977310264
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -17.002617977310265,
+        7.875,
+        -15.762500000000001,
+        9.115117977310264
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -16.877617977310265,
+          8.990117977310264
+        ],
+        [
+          -15.887500000000001,
+          8
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -26.855,
+        20.875,
+        -25.737000000000002,
+        21.993
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -26.73,
+          21
+        ],
+        [
+          -25.862000000000002,
+          21.868
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -25.987000000000002,
+        21.743,
+        -19.039807671077664,
+        21.993
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -25.862000000000002,
+          21.868
+        ],
+        [
+          -19.164807671077664,
+          21.868
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -19.292015690230297,
+        21.743,
+        -19.039807671077664,
+        22.13
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -19.164807671077664,
+          21.868
+        ],
+        [
+          -19.167015690230297,
+          22.005
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -19.292015690230297,
+        21.88,
+        -18.825,
+        22.13
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -19.167015690230297,
+          22.005
+        ],
+        [
+          -18.95,
+          22.005
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -19.075,
+        21.88,
+        -18.575,
+        22.13
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -18.95,
+          22.005
+        ],
+        [
+          -18.7,
+          22.005
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -18.825,
+        21.88,
+        -18.375,
+        22.13
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -18.7,
+          22.005
+        ],
+        [
+          -18.5,
+          22.005
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -18.625,
+        21.88,
+        -18.125,
+        22.13
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -18.5,
+          22.005
+        ],
+        [
+          -18.25,
+          22.005
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -18.375,
+        21.88,
+        -17.875,
+        22.13
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -18.25,
+          22.005
+        ],
+        [
+          -18,
+          22.005
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -18.125,
+        21.88,
+        -17.625,
+        22.13
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -18,
+          22.005
+        ],
+        [
+          -17.75,
+          22.005
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -17.875,
+        21.88,
+        -17.375,
+        22.13
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -17.75,
+          22.005
+        ],
+        [
+          -17.5,
+          22.005
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -17.625,
+        21.879051250346876,
+        -17.04606551564976,
+        22.13
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -17.5,
+          22.005
+        ],
+        [
+          -17.17106551564976,
+          22.004051250346876
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -17.29606551564976,
+        21.012,
+        -16.179014265302886,
+        22.129051250346876
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -17.17106551564976,
+          22.004051250346876
+        ],
+        [
+          -16.304014265302886,
+          21.137
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -16.429014265302886,
+        20.875,
+        -15.405000000000001,
+        21.262
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -16.304014265302886,
+          21.137
+        ],
+        [
+          -15.530000000000001,
+          21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -16.012500000000003,
+        7.875,
+        -14.727607450172357,
+        9.159892549827644
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -15.887500000000001,
+          8
+        ],
+        [
+          -14.852607450172357,
+          9.034892549827644
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -14.977607450172357,
+        8.909892549827644,
+        -5.6912757982536055,
+        9.159892549827644
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -14.852607450172357,
+          9.034892549827644
+        ],
+        [
+          -5.8162757982536055,
+          9.034892549827644
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -5.9412757982536055,
+        8.909892549827644,
+        -5.597892549827644,
+        9.159892549827644
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -5.8162757982536055,
+          9.034892549827644
+        ],
+        [
+          -5.722892549827644,
+          9.034892549827644
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -5.847892549827644,
+        7.875,
+        -4.562500000000002,
+        9.159892549827644
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -5.722892549827644,
+          9.034892549827644
+        ],
+        [
+          -4.687500000000002,
+          8
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -15.655000000000001,
+        20.875,
+        -8.528258574633938,
+        21.262
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -15.530000000000001,
+          21
+        ],
+        [
+          -8.653258574633938,
+          21.137
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -8.778258574633938,
+        21.012,
+        -7.66025857463394,
+        22.13
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -8.653258574633938,
+          21.137
+        ],
+        [
+          -7.78525857463394,
+          22.005
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.91025857463394,
+        21.88,
+        -7.45,
+        22.13
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -7.78525857463394,
+          22.005
+        ],
+        [
+          -7.575,
+          22.005
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.7,
+        21.88,
+        -7.25,
+        22.13
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -7.575,
+          22.005
+        ],
+        [
+          -7.375,
+          22.005
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.5,
+        21.88,
+        -7.0,
+        22.13
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -7.375,
+          22.005
+        ],
+        [
+          -7.125,
+          22.005
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -7.25,
+        21.88,
+        -6.55,
+        22.13
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -7.125,
+          22.005
+        ],
+        [
+          -6.675,
+          22.005
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -6.8,
+        21.88,
+        -6.35,
+        22.13
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -6.675,
+          22.005
+        ],
+        [
+          -6.475,
+          22.005
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -6.6,
+        21.88,
+        -6.15,
+        22.13
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -6.475,
+          22.005
+        ],
+        [
+          -6.275,
+          22.005
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -6.4,
+        21.88,
+        -5.9,
+        22.13
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -6.275,
+          22.005
+        ],
+        [
+          -6.025,
+          22.005
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -6.15,
+        21.871000000000002,
+        -5.651,
+        22.13
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -6.025,
+          22.005
+        ],
+        [
+          -5.776,
+          21.996000000000002
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -5.921786456615808,
+        21.736494374793896,
+        -5.651,
+        22.121000000000002
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -5.776,
+          21.996000000000002
+        ],
+        [
+          -5.796786456615808,
+          21.861494374793896
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -5.921786456615808,
+        21.736494374793896,
+        -5.066494374793896,
+        21.986494374793896
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -5.796786456615808,
+          21.861494374793896
+        ],
+        [
+          -5.191494374793896,
+          21.861494374793896
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -5.316494374793896,
+        20.875,
+        -4.205000000000002,
+        21.986494374793896
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -5.191494374793896,
+          21.861494374793896
+        ],
+        [
+          -4.330000000000002,
+          21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        6.744999999999994,
+        19.87,
+        7.9354491090372,
+        21.125
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          6.869999999999994,
+          21
+        ],
+        [
+          7.8104491090372,
+          19.995
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        7.6854491090372,
+        19.87,
+        8.105130333070143,
+        20.12
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          7.8104491090372,
+          19.995
+        ],
+        [
+          7.980130333070144,
+          19.995
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        7.855130333070144,
+        19.87,
+        17.254550890962797,
+        20.12
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          7.980130333070144,
+          19.995
+        ],
+        [
+          17.129550890962797,
+          19.995
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        17.004550890962797,
+        19.87,
+        18.194999999999997,
+        21.125
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          17.129550890962797,
+          19.995
+        ],
+        [
+          18.069999999999997,
+          21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        17.5875,
+        7.875,
+        24.31135953931388,
+        8.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          17.7125,
+          8
+        ],
+        [
+          24.18635953931388,
+          8
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        24.06135953931388,
+        7.875,
+        26.62787354750915,
+        10.44151400819527
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          24.18635953931388,
+          8
+        ],
+        [
+          26.50287354750915,
+          10.31651400819527
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        26.37787354750915,
+        10.19151400819527,
+        26.70051400819527,
+        10.44151400819527
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          26.50287354750915,
+          10.31651400819527
+        ],
+        [
+          26.57551400819527,
+          10.31651400819527
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        26.45051400819527,
+        10.19151400819527,
+        26.806,
+        10.547
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          26.57551400819527,
+          10.31651400819527
+        ],
+        [
+          26.681,
+          10.422
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        26.556,
+        10.199305382689932,
+        26.806,
+        10.547
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          26.681,
+          10.422
+        ],
+        [
+          26.681,
+          10.324305382689932
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        26.556,
+        9.031721641980564,
+        27.97358374070937,
+        10.449305382689932
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          26.681,
+          10.324305382689932
+        ],
+        [
+          27.84858374070937,
+          9.156721641980564
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        27.72358374070937,
+        9.026416259290631,
+        27.97358374070937,
+        9.281721641980564
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          27.84858374070937,
+          9.156721641980564
+        ],
+        [
+          27.84858374070937,
+          9.151416259290631
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        27.72358374070937,
+        8.875,
+        28.125,
+        9.276416259290631
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          27.84858374070937,
+          9.151416259290631
+        ],
+        [
+          28,
+          9
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        27.875,
+        8.788,
+        28.125,
+        9.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          28,
+          9
+        ],
+        [
+          28,
+          8.913
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        27.875,
+        7.875,
+        29.0375,
+        9.038
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          28,
+          8.913
+        ],
+        [
+          28.9125,
+          8
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        26.531000000000002,
+        10.272,
+        26.831,
+        10.572000000000001
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          26.681,
+          10.422
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        27.85,
+        8.85,
+        28.15,
+        9.15
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          28,
+          9
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        17.944999999999997,
+        19.899026629062654,
+        19.170973370937343,
+        21.125
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          18.069999999999997,
+          21
+        ],
+        [
+          19.045973370937343,
+          20.024026629062654
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        18.920973370937343,
+        19.899026629062654,
+        28.290604335684616,
+        20.149026629062654
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          19.045973370937343,
+          20.024026629062654
+        ],
+        [
+          28.165604335684616,
+          20.024026629062654
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        28.040604335684616,
+        19.899026629062654,
+        28.419026629062653,
+        20.149026629062654
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          28.165604335684616,
+          20.024026629062654
+        ],
+        [
+          28.294026629062653,
+          20.024026629062654
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        28.169026629062653,
+        19.899026629062654,
+        29.395,
+        21.125
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          28.294026629062653,
+          20.024026629062654
+        ],
+        [
+          29.27,
+          21
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        6.387499999999994,
+        7.875,
+        9.059000000000001,
+        10.547
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          6.512499999999994,
+          8
+        ],
+        [
+          8.934000000000001,
+          10.422
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        8.809000000000001,
+        10.297,
+        15.606,
+        10.547
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          8.934000000000001,
+          10.422
+        ],
+        [
+          15.481,
+          10.422
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.356,
+        10.160287536492467,
+        15.742712463507534,
+        10.547
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          15.481,
+          10.422
+        ],
+        [
+          15.617712463507534,
+          10.285287536492467
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.492712463507534,
+        10.134187758660588,
+        15.742712463507534,
+        10.410287536492467
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          15.617712463507534,
+          10.285287536492467
+        ],
+        [
+          15.617712463507534,
+          10.259187758660588
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.492712463507534,
+        8.95190022216812,
+        16.925,
+        10.384187758660588
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          15.617712463507534,
+          10.259187758660588
+        ],
+        [
+          16.8,
+          9.07690022216812
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        16.675,
+        8.875,
+        16.925,
+        9.20190022216812
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          16.8,
+          9.07690022216812
+        ],
+        [
+          16.8,
+          9
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        16.675,
+        8.68085509749561,
+        16.925,
+        9.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          16.8,
+          9
+        ],
+        [
+          16.8,
+          8.80585509749561
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        16.675,
+        7.875,
+        17.73085509749561,
+        8.93085509749561
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          16.8,
+          8.80585509749561
+        ],
+        [
+          17.60585509749561,
+          8
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        17.48085509749561,
+        7.875,
+        17.8375,
+        8.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          17.60585509749561,
+          8
+        ],
+        [
+          17.7125,
+          8
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.331,
+        10.272,
+        15.631,
+        10.572000000000001
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          15.481,
+          10.422
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        16.650000000000002,
+        8.85,
+        16.95,
+        9.15
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          16.8,
+          9
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -26.855,
+        14.153264543768232,
+        -26.605,
+        21.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -26.73,
+          21
+        ],
+        [
+          -26.73,
+          14.278264543768232
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -26.855,
+        13.956562535601938,
+        -26.227297991833705,
+        14.403264543768232
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -26.73,
+          14.278264543768232
+        ],
+        [
+          -26.352297991833705,
+          14.081562535601938
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -26.477297991833705,
+        13.7,
+        -26.195,
+        14.206562535601938
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -26.352297991833705,
+          14.081562535601938
+        ],
+        [
+          -26.32,
+          13.825
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -26.445,
+        13.394,
+        -26.195,
+        13.95
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -26.32,
+          13.825
+        ],
+        [
+          -26.32,
+          13.519
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -26.445,
+        13.19,
+        -26.195,
+        13.644
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -26.32,
+          13.519
+        ],
+        [
+          -26.32,
+          13.315
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -26.445,
+        12.986,
+        -26.195,
+        13.44
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -26.32,
+          13.315
+        ],
+        [
+          -26.32,
+          13.111
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -26.445,
+        12.68,
+        -26.195,
+        13.236
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -26.32,
+          13.111
+        ],
+        [
+          -26.32,
+          12.805
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -26.445,
+        12.476,
+        -26.195,
+        12.93
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -26.32,
+          12.805
+        ],
+        [
+          -26.32,
+          12.601
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -26.445,
+        12.272,
+        -26.195,
+        12.726
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -26.32,
+          12.601
+        ],
+        [
+          -26.32,
+          12.397
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -26.451,
+        11.969,
+        -26.195,
+        12.522
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -26.32,
+          12.397
+        ],
+        [
+          -26.326,
+          12.094
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -26.451,
+        11.969,
+        -26.20089312442584,
+        12.224397216495218
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -26.326,
+          12.094
+        ],
+        [
+          -26.32589312442584,
+          12.099397216495218
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -26.45089312442584,
+        8.45510687557416,
+        -26.20089312442584,
+        12.224397216495218
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -26.32589312442584,
+          12.099397216495218
+        ],
+        [
+          -26.32589312442584,
+          8.58010687557416
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        -27.2125,
+        7.875,
+        -26.20089312442584,
+        8.70510687557416
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          -26.32589312442584,
+          8.58010687557416
+        ],
+        [
+          -27.0875,
+          8
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        6.387499999999994,
+        5.913999999999999,
+        8.598,
+        8.125
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          6.512499999999994,
+          8
+        ],
+        [
+          8.473,
+          6.038999999999999
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        8.348,
+        -3.806,
+        8.598,
+        6.163999999999999
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          8.473,
+          6.038999999999999
+        ],
+        [
+          8.473,
+          -3.681
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        8.348,
+        -3.8636336364953996,
+        8.6556336364954,
+        -3.556
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          8.473,
+          -3.681
+        ],
+        [
+          8.5306336364954,
+          -3.7386336364953996
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        8.4056336364954,
+        -4.019007089331502,
+        8.6556336364954,
+        -3.6136336364953996
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          8.5306336364954,
+          -3.7386336364953996
+        ],
+        [
+          8.5306336364954,
+          -3.894007089331503
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        8.349,
+        -4.0756407258269025,
+        8.6556336364954,
+        -3.769007089331503
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          8.5306336364954,
+          -3.894007089331503
+        ],
+        [
+          8.474,
+          -3.950640725826903
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        8.349,
+        -5.873149426265657,
+        8.728339603017096,
+        -3.825640725826903
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          8.474,
+          -3.950640725826903
+        ],
+        [
+          8.603339603017096,
+          -5.748149426265657
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        8.261339180452898,
+        -5.873149426265657,
+        8.728339603017096,
+        -5.599883491477384
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          8.603339603017096,
+          -5.748149426265657
+        ],
+        [
+          8.386339180452898,
+          -5.724883491477384
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        8.252227844487757,
+        -5.858600541680561,
+        8.511339180452898,
+        -5.599883491477384
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          8.386339180452898,
+          -5.724883491477384
+        ],
+        [
+          8.377227844487757,
+          -5.733600541680561
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        5.252312560796162,
+        -8.858515825372155,
+        8.502227844487757,
+        -5.608600541680561
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          8.377227844487757,
+          -5.733600541680561
+        ],
+        [
+          5.377312560796162,
+          -8.733515825372155
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        5.252312560796162,
+        -8.86569377919202,
+        5.502312560796162,
+        -8.608515825372155
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          5.377312560796162,
+          -8.733515825372155
+        ],
+        [
+          5.377312560796162,
+          -8.74069377919202
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        5.252312560796162,
+        -13.239812560796164,
+        5.502312560796162,
+        -8.61569377919202
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          5.377312560796162,
+          -8.74069377919202
+        ],
+        [
+          5.377312560796162,
+          -13.114812560796164
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        5.252312560796162,
+        -14.2125,
+        6.475,
+        -12.989812560796164
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          5.377312560796162,
+          -13.114812560796164
+        ],
+        [
+          6.35,
+          -14.0875
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        8.323,
+        -3.831,
+        8.623000000000001,
+        -3.531
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          8.473,
+          -3.681
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        8.453339603017096,
+        -5.8981494262656575,
+        8.753339603017096,
+        -5.598149426265657
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "source_net_0",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          8.603339603017096,
+          -5.748149426265657
+        ]
+      ]
+    }
+  ],
+  "holes": [
+    {
+      "diameter": 3.2,
+      "x": -36,
+      "y": -21
+    },
+    {
+      "diameter": 3.2,
+      "x": -36,
+      "y": 21
+    },
+    {
+      "diameter": 3.2,
+      "x": 36,
+      "y": -21
+    },
+    {
+      "diameter": 3.2,
+      "x": 36,
+      "y": 21
+    }
+  ],
+  "schematic_present": true,
+  "silkscreen": [
+    "IN1",
+    "GND",
+    "J1",
+    "R1",
+    "R2",
+    "R3",
+    "C1",
+    "TP1",
+    "OUT1",
+    "J1:1 IN1",
+    "IN2",
+    "GND",
+    "J2",
+    "R4",
+    "R5",
+    "R6",
+    "C2",
+    "TP2",
+    "OUT2",
+    "J2:1 IN2",
+    "IN3",
+    "GND",
+    "J3",
+    "R7",
+    "R8",
+    "R9",
+    "C3",
+    "TP3",
+    "OUT3",
+    "J3:1 IN3",
+    "IN4",
+    "GND",
+    "J4",
+    "R10",
+    "R11",
+    "R12",
+    "C4",
+    "TP4",
+    "OUT4",
+    "J4:1 IN4",
+    "IN5",
+    "GND",
+    "J5",
+    "R13",
+    "R14",
+    "R15",
+    "C5",
+    "TP5",
+    "OUT5",
+    "J5:1 IN5",
+    "IN6",
+    "GND",
+    "J6",
+    "R16",
+    "R17",
+    "R18",
+    "C6",
+    "TP6",
+    "OUT6",
+    "J6:1 IN6",
+    "OUT1",
+    "OUT2",
+    "OUT3",
+    "OUT4",
+    "OUT5",
+    "OUT6",
+    "GND",
+    "GND",
+    "J7",
+    "TP7",
+    "GND",
+    "J7 1:OUT1 2:OUT2 3:OUT3 4:OUT4 5:OUT5 6:OUT6 7/8:GND"
+  ],
+  "source_present": true,
+  "tracks": [
+    {
+      "net": "source_net_18",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_18",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_18",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_18",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_18",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_18",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_18",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_18",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_18",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_18",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_18",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_18",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_17",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_17",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_17",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_17",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_16",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_16",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_15",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_15",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_15",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_15",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_15",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_15",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_15",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_15",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_15",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_15",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_15",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_15",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_15",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_15",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_15",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_15",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_14",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_14",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_14",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_14",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_13",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_13",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_12",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_12",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_12",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_12",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_12",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_12",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_12",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_12",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_12",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_12",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_12",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_12",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_12",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_11",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_11",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_11",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_11",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_11",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_11",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_11",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_11",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_11",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_11",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_11",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_11",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_10",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_10",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_9",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_9",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_9",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_9",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_9",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_9",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_9",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_9",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_9",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_9",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_9",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_9",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_9",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_8",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_8",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_8",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_8",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_8",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_8",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_8",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_8",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_8",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_8",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_8",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_7",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_7",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_6",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_6",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_6",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_6",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_6",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_6",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_6",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_6",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_6",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_6",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_6",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_6",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_5",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_5",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_5",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_5",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_5",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_5",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_5",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_5",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_5",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_5",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_5",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_4",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_4",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_3",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_3",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_3",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_3",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_3",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_3",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_3",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_3",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_3",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_3",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_3",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_3",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_3",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_3",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_3",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_2",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_2",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_2",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_2",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_1",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_1",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    },
+    {
+      "net": "source_net_0",
+      "width": 0.25
+    }
+  ],
+  "unsupported": [],
+  "warnings": []
+}

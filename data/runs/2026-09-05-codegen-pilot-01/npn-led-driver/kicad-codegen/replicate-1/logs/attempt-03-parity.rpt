@@ -1,0 +1,102 @@
+** Drc report for driver.kicad_pcb **
+** Created on 2026-09-05T23:15:38 **
+** Report includes: Errors, Warnings **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 28 Footprint errors **
+[net_conflict]: Pad net (+5V) doesn't match net given by schematic (/+5V)
+    Local override; warning
+    @(57.0500 mm, 61.7500 mm): Pad 1 [+5V] of C1 on F.Cu
+[net_conflict]: Pad net (GND) doesn't match net given by schematic (/GND)
+    Local override; warning
+    @(58.9500 mm, 61.7500 mm): Pad 2 [GND] of C1 on F.Cu
+[net_conflict]: Pad net (COL1) doesn't match net given by schematic (/COL1)
+    Local override; warning
+    @(66.0625 mm, 55.0000 mm): Pad 1 [COL1] of D1 on F.Cu
+[net_conflict]: Pad net (ANODE1) doesn't match net given by schematic (/ANODE1)
+    Local override; warning
+    @(67.9375 mm, 55.0000 mm): Pad 2 [ANODE1] of D1 on F.Cu
+[net_conflict]: Pad net (COL2) doesn't match net given by schematic (/COL2)
+    Local override; warning
+    @(81.0625 mm, 55.0000 mm): Pad 1 [COL2] of D2 on F.Cu
+[net_conflict]: Pad net (ANODE2) doesn't match net given by schematic (/ANODE2)
+    Local override; warning
+    @(82.9375 mm, 55.0000 mm): Pad 2 [ANODE2] of D2 on F.Cu
+[net_conflict]: Pad net (+5V) doesn't match net given by schematic (/+5V)
+    Local override; warning
+    @(54.0000 mm, 58.0000 mm): PTH pad 1 [+5V] of J1
+[net_conflict]: Pad net (GND) doesn't match net given by schematic (/GND)
+    Local override; warning
+    @(54.0000 mm, 60.5400 mm): PTH pad 2 [GND] of J1
+[net_conflict]: Pad net (CTRL1) doesn't match net given by schematic (/CTRL1)
+    Local override; warning
+    @(54.0000 mm, 63.0800 mm): PTH pad 3 [CTRL1] of J1
+[net_conflict]: Pad net (CTRL2) doesn't match net given by schematic (/CTRL2)
+    Local override; warning
+    @(54.0000 mm, 65.6200 mm): PTH pad 4 [CTRL2] of J1
+[net_conflict]: Pad net (BASE1) doesn't match net given by schematic (/BASE1)
+    Local override; warning
+    @(66.0625 mm, 67.0500 mm): Pad 1 [BASE1] of Q1 on F.Cu
+[net_conflict]: Pad net (GND) doesn't match net given by schematic (/GND)
+    Local override; warning
+    @(66.0625 mm, 68.9500 mm): Pad 2 [GND] of Q1 on F.Cu
+[net_conflict]: Pad net (COL1) doesn't match net given by schematic (/COL1)
+    Local override; warning
+    @(67.9375 mm, 68.0000 mm): Pad 3 [COL1] of Q1 on F.Cu
+[net_conflict]: Pad net (BASE2) doesn't match net given by schematic (/BASE2)
+    Local override; warning
+    @(81.0625 mm, 67.0500 mm): Pad 1 [BASE2] of Q2 on F.Cu
+[net_conflict]: Pad net (GND) doesn't match net given by schematic (/GND)
+    Local override; warning
+    @(81.0625 mm, 68.9500 mm): Pad 2 [GND] of Q2 on F.Cu
+[net_conflict]: Pad net (COL2) doesn't match net given by schematic (/COL2)
+    Local override; warning
+    @(82.9375 mm, 68.0000 mm): Pad 3 [COL2] of Q2 on F.Cu
+[net_conflict]: Pad net (+5V) doesn't match net given by schematic (/+5V)
+    Local override; warning
+    @(66.0875 mm, 59.0000 mm): Pad 1 [+5V] of R1 on F.Cu
+[net_conflict]: Pad net (ANODE1) doesn't match net given by schematic (/ANODE1)
+    Local override; warning
+    @(67.9125 mm, 59.0000 mm): Pad 2 [ANODE1] of R1 on F.Cu
+[net_conflict]: Pad net (CTRL1) doesn't match net given by schematic (/CTRL1)
+    Local override; warning
+    @(62.0875 mm, 64.0000 mm): Pad 1 [CTRL1] of R2 on F.Cu
+[net_conflict]: Pad net (BASE1) doesn't match net given by schematic (/BASE1)
+    Local override; warning
+    @(63.9125 mm, 64.0000 mm): Pad 2 [BASE1] of R2 on F.Cu
+[net_conflict]: Pad net (BASE1) doesn't match net given by schematic (/BASE1)
+    Local override; warning
+    @(66.0875 mm, 73.0000 mm): Pad 1 [BASE1] of R3 on F.Cu
+[net_conflict]: Pad net (GND) doesn't match net given by schematic (/GND)
+    Local override; warning
+    @(67.9125 mm, 73.0000 mm): Pad 2 [GND] of R3 on F.Cu
+[net_conflict]: Pad net (+5V) doesn't match net given by schematic (/+5V)
+    Local override; warning
+    @(81.0875 mm, 59.0000 mm): Pad 1 [+5V] of R4 on F.Cu
+[net_conflict]: Pad net (ANODE2) doesn't match net given by schematic (/ANODE2)
+    Local override; warning
+    @(82.9125 mm, 59.0000 mm): Pad 2 [ANODE2] of R4 on F.Cu
+[net_conflict]: Pad net (CTRL2) doesn't match net given by schematic (/CTRL2)
+    Local override; warning
+    @(77.0875 mm, 64.0000 mm): Pad 1 [CTRL2] of R5 on F.Cu
+[net_conflict]: Pad net (BASE2) doesn't match net given by schematic (/BASE2)
+    Local override; warning
+    @(78.9125 mm, 64.0000 mm): Pad 2 [BASE2] of R5 on F.Cu
+[net_conflict]: Pad net (BASE2) doesn't match net given by schematic (/BASE2)
+    Local override; warning
+    @(81.0875 mm, 73.0000 mm): Pad 1 [BASE2] of R6 on F.Cu
+[net_conflict]: Pad net (GND) doesn't match net given by schematic (/GND)
+    Local override; warning
+    @(82.9125 mm, 73.0000 mm): Pad 2 [GND] of R6 on F.Cu
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

@@ -1,0 +1,13 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+Traceback (most recent call last):
+  File "/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/artifacts/attempt-01/generate.py", line 21, in <module>
+    component(f'J{i}',f'IN{i}', 'Connector_Generic:Conn_01x02',H,x,4,[f'IN{i}','GND'])
+  File "/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/artifacts/attempt-01/generate.py", line 12, in component
+    f=p.FootprintLoad(str(LIB/'footprints'/ (fp.split(':')[0]+'.pretty')),fp.split(':')[1]);f.SetReference(ref);f.SetValue(val);f.SetPosition(p.VECTOR2I(p.FromMM(x),p.FromMM(y)));f.SetOrientationDegrees(angle);f.SetFPID(p.LIB_ID(fp));board.Add(f)
+  File "/Users/ankan/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pcbnew.py", line 7917, in __init__
+    _pcbnew.LIB_ID_swiginit(self, _pcbnew.new_LIB_ID(*args))
+TypeError: Wrong number or type of arguments for overloaded function 'new_LIB_ID'.
+  Possible C/C++ prototypes are:
+    LIB_ID::LIB_ID()
+    LIB_ID::LIB_ID(wxString const &,wxString const &)
+

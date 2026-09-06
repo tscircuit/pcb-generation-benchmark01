@@ -1,0 +1,38 @@
+$ tsci check schematic-placement index.circuit.tsx
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. It was passed a child from default. See https://react.dev/link/warning-keys for more information.
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="Q1" positionAnchor="center" schX="2" schY="12" width="1.2" height="0.6" />
+<SchematicBoxPlacement componentName="R2" positionAnchor="center" schX="0" schY="9" width="0.9" height="0.6" />
+<SchematicBoxPlacement componentName="D1" positionAnchor="center" schX="7" schY="13" width="0.54" height="1.04" />
+<SchematicBoxPlacement componentName="Q2" positionAnchor="center" schX="2" schY="3" width="1.2" height="0.6" />
+<SchematicBoxPlacement componentName="R4" positionAnchor="center" schX="0" schY="0" width="0.9" height="0.6" />
+<SchematicBoxPlacement componentName="D2" positionAnchor="center" schX="7" schY="4" width="0.54" height="1.04" />
+<SchematicBoxPlacement componentName="Q3" positionAnchor="center" schX="2" schY="-6" width="1.2" height="0.6" />
+<SchematicBoxPlacement componentName="R6" positionAnchor="center" schX="0" schY="-9" width="0.9" height="0.6" />
+<SchematicBoxPlacement componentName="D3" positionAnchor="center" schX="7" schY="-5" width="0.54" height="1.04" />
+<SchematicBoxPlacement componentName="Q4" positionAnchor="center" schX="2" schY="-15" width="1.2" height="0.6" />
+<SchematicBoxPlacement componentName="R8" positionAnchor="center" schX="0" schY="-18" width="0.9" height="0.6" />
+<SchematicBoxPlacement componentName="D4" positionAnchor="center" schX="7" schY="-14" width="0.54" height="1.04" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<SchematicPinPaddingToEdgeTooLarge message="Move schematic pins closer to the box edge or change the schematic box height" componentName="Q1" pinSide="left" edgeSide="top" pinName="gate" measuredPadding="0.3" maxAllowedPadding="0.2" excessPadding="0.1" suggestedSchHeight="0.4" />
+<SchematicPinPaddingToEdgeTooLarge message="Move schematic pins closer to the box edge or change the schematic box height" componentName="Q1" pinSide="left" edgeSide="bottom" pinName="gate" measuredPadding="0.3" maxAllowedPadding="0.2" excessPadding="0.1" suggestedSchHeight="0.4" />
+<SchematicPinPaddingToEdgeTooLarge message="Move schematic pins closer to the box edge or change the schematic box height" componentName="Q2" pinSide="left" edgeSide="top" pinName="gate" measuredPadding="0.3" maxAllowedPadding="0.2" excessPadding="0.1" suggestedSchHeight="0.4" />
+<SchematicPinPaddingToEdgeTooLarge message="Move schematic pins closer to the box edge or change the schematic box height" componentName="Q2" pinSide="left" edgeSide="bottom" pinName="gate" measuredPadding="0.3" maxAllowedPadding="0.2" excessPadding="0.1" suggestedSchHeight="0.4" />
+<SchematicPinPaddingToEdgeTooLarge message="Move schematic pins closer to the box edge or change the schematic box height" componentName="Q3" pinSide="left" edgeSide="top" pinName="gate" measuredPadding="0.3" maxAllowedPadding="0.2" excessPadding="0.1" suggestedSchHeight="0.4" />
+<SchematicPinPaddingToEdgeTooLarge message="Move schematic pins closer to the box edge or change the schematic box height" componentName="Q3" pinSide="left" edgeSide="bottom" pinName="gate" measuredPadding="0.3" maxAllowedPadding="0.2" excessPadding="0.1" suggestedSchHeight="0.4" />
+<SchematicPinPaddingToEdgeTooLarge message="Move schematic pins closer to the box edge or change the schematic box height" componentName="Q4" pinSide="left" edgeSide="top" pinName="gate" measuredPadding="0.3" maxAllowedPadding="0.2" excessPadding="0.1" suggestedSchHeight="0.4" />
+<SchematicPinPaddingToEdgeTooLarge message="Move schematic pins closer to the box edge or change the schematic box height" componentName="Q4" pinSide="left" edgeSide="bottom" pinName="gate" measuredPadding="0.3" maxAllowedPadding="0.2" excessPadding="0.1" suggestedSchHeight="0.4" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_2" targetComponentName="R2" deltaSchX="+3.2" deltaSchY="0" newSchX="3.2" newSchY="9" currentTurnCount="3" suggestedTurnCount="1" message="move R2 right by 3.2 (to schX=3.2, schY=9) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_3" targetComponentName="R4" deltaSchX="+3.2" deltaSchY="0" newSchX="3.2" newSchY="0" currentTurnCount="3" suggestedTurnCount="1" message="move R4 right by 3.2 (to schX=3.2, schY=0) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_4" targetComponentName="R6" deltaSchX="+3.2" deltaSchY="0" newSchX="3.2" newSchY="-9" currentTurnCount="3" suggestedTurnCount="1" message="move R6 right by 3.2 (to schX=3.2, schY=-9) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_5" targetComponentName="R8" deltaSchX="+3.2" deltaSchY="0" newSchX="3.2" newSchY="-18" currentTurnCount="3" suggestedTurnCount="1" message="move R8 right by 3.2 (to schX=3.2, schY=-18) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_7" targetComponentName="Q1" deltaSchX="0" deltaSchY="+1.62" newSchX="2" newSchY="13.62" currentTurnCount="3" suggestedTurnCount="1" message="move Q1 up by 1.62 (to schX=2, schY=13.62) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_9" targetComponentName="Q2" deltaSchX="0" deltaSchY="+1.62" newSchX="2" newSchY="4.62" currentTurnCount="3" suggestedTurnCount="1" message="move Q2 up by 1.62 (to schX=2, schY=4.62) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_11" targetComponentName="Q3" deltaSchX="0" deltaSchY="+1.62" newSchX="2" newSchY="-4.38" currentTurnCount="3" suggestedTurnCount="1" message="move Q3 up by 1.62 (to schX=2, schY=-4.38) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_13" targetComponentName="Q4" deltaSchX="0" deltaSchY="+1.62" newSchX="2" newSchY="-13.38" currentTurnCount="3" suggestedTurnCount="1" message="move Q4 up by 1.62 (to schX=2, schY=-13.38) to reduce this trace from 3 turns to 1" />
+</SchematicPlacementIssues>
+
+EXIT_CODE=0

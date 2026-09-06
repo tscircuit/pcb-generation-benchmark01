@@ -1,0 +1,78 @@
+{
+  "status": "completed",
+  "final_attempt": "artifacts/attempt-02",
+  "generated_files": [
+    "artifacts/README.md",
+    "artifacts/attempt-02/divider.kicad_sch",
+    "artifacts/attempt-02/divider.net",
+    "artifacts/attempt-02/generate.py",
+    "artifacts/attempt-02/fp-lib-table",
+    "artifacts/attempt-02/divider.kicad_pro",
+    "artifacts/attempt-02/generation-metadata.json",
+    "artifacts/attempt-02/verify-v2.py",
+    "artifacts/attempt-02/verification.json",
+    "artifacts/attempt-02/verify.py",
+    "artifacts/attempt-02/sym-lib-table",
+    "artifacts/attempt-02/divider.kicad_dru",
+    "artifacts/attempt-02/divider.kicad_pcb",
+    "artifacts/attempt-02/pcb.svg",
+    "artifacts/attempt-02/divider.kicad_prl",
+    "artifacts/attempt-02/schematic-svg/divider.svg",
+    "artifacts/attempt-01/divider.kicad_sch",
+    "artifacts/attempt-01/divider.net",
+    "artifacts/attempt-01/generate.py",
+    "artifacts/attempt-01/fp-lib-table",
+    "artifacts/attempt-01/divider.kicad_pro",
+    "artifacts/attempt-01/generation-metadata.json",
+    "artifacts/attempt-01/sym-lib-table",
+    "artifacts/attempt-01/divider.kicad_dru",
+    "artifacts/attempt-01/divider.kicad_pcb",
+    "artifacts/attempt-01/pcb.svg",
+    "artifacts/attempt-01/divider.kicad_prl",
+    "artifacts/attempt-01/schematic-svg/divider.svg"
+  ],
+  "validation": [
+    {
+      "check": "erc",
+      "exit_code": 0,
+      "log": "logs/attempt-02-erc.log"
+    },
+    {
+      "check": "drc",
+      "exit_code": 0,
+      "log": "logs/attempt-02-drc.log"
+    },
+    {
+      "check": "schematic-svg",
+      "exit_code": 0,
+      "log": "logs/attempt-02-schematic-svg.log"
+    },
+    {
+      "check": "netlist",
+      "exit_code": 0,
+      "log": "logs/attempt-02-netlist.log"
+    },
+    {
+      "check": "pcb-svg",
+      "exit_code": 0,
+      "log": "logs/attempt-02-pcb-svg.log"
+    },
+    {
+      "check": "native geometry and schematic/PCB pin-set equality",
+      "exit_code": 0,
+      "log": "logs/attempt-02-verify-v2.log"
+    }
+  ],
+  "erc_violations": 0,
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "known_limitations": [
+    "Library tables contain machine-specific paths.",
+    "Generic components; no physical testing or independent visual review.",
+    "Headless pcbnew emits a wxApp diagnostic despite successful commands.",
+    "Parent generation reused orchestration context after the agent thread limit."
+  ],
+  "failure": null,
+  "wall_time_seconds": 415.198067
+}

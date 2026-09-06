@@ -1,0 +1,4 @@
+$ tsci check shorts dist/index/circuit.json
+No shorts detected in circuit.json
+
+EXIT_CODE=0

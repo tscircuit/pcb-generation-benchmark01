@@ -1,0 +1,3 @@
+83:  solderjumper: () => solderjumper,
+10783:// src/fn/solderjumper.ts
+10785:var solderjumper = (params) => {

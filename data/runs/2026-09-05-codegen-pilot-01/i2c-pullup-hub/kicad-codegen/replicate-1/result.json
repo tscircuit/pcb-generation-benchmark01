@@ -1,0 +1,68 @@
+{
+  "status": "completed",
+  "final_attempt": "artifacts/attempt-02",
+  "generated_files": [
+    "artifacts/attempt-02/hub.kicad_pro",
+    "artifacts/attempt-02/generate.py",
+    "artifacts/attempt-02/fp-lib-table",
+    "artifacts/attempt-02/hub.kicad_sch",
+    "artifacts/attempt-02/connectivity.json",
+    "artifacts/attempt-02/hub.kicad_prl",
+    "artifacts/attempt-02/hub.kicad_pcb",
+    "artifacts/attempt-02/sym-lib-table",
+    "artifacts/attempt-02/hub.net.xml",
+    "artifacts/attempt-02/pcb-svg/hub-Edge_Cuts.svg",
+    "artifacts/attempt-02/pcb-svg/hub-F_Silkscreen.svg",
+    "artifacts/attempt-02/pcb-svg/hub-B_Cu.svg",
+    "artifacts/attempt-02/pcb-svg/hub-F_Cu.svg",
+    "artifacts/attempt-02/schematic-svg/hub.svg",
+    "artifacts/attempt-02/libraries/Connector_Generic.kicad_sym",
+    "artifacts/attempt-02/libraries/Jumper.kicad_sym",
+    "artifacts/attempt-02/libraries/Device.kicad_sym",
+    "artifacts/attempt-02/libraries/Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod",
+    "artifacts/attempt-02/libraries/Jumper.pretty/SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm.kicad_mod",
+    "artifacts/attempt-02/libraries/Connector_PinHeader_2.54mm.pretty/PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
+    "artifacts/attempt-02/libraries/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod",
+    "artifacts/README.md"
+  ],
+  "validation": {
+    "erc": {
+      "exit_code": 0,
+      "passed": true,
+      "log": "logs/attempt-02-erc.log",
+      "report": "logs/attempt-02-erc.json"
+    },
+    "drc": {
+      "exit_code": 0,
+      "passed": true,
+      "log": "logs/attempt-02-drc.log",
+      "report": "logs/attempt-02-drc.json",
+      "violations": 0,
+      "unconnected_items": 0,
+      "schematic_parity_issues": 0
+    },
+    "netlist": {
+      "exit_code": 0,
+      "passed": true,
+      "log": "logs/attempt-02-netlist.log"
+    },
+    "sch-export": {
+      "exit_code": 0,
+      "passed": true,
+      "log": "logs/attempt-02-sch-export.log"
+    },
+    "pcb-export": {
+      "exit_code": 0,
+      "passed": true,
+      "log": "logs/attempt-02-pcb-export.log"
+    },
+    "geometry": {
+      "report": "logs/attempt-02-geometry.json"
+    }
+  },
+  "known_limitations": [
+    "Physical testing, fabrication, assembly, and visual rendering review not performed.",
+    "Generation script contains the local KiCad installation path; native project library paths are relative."
+  ],
+  "failure": null
+}

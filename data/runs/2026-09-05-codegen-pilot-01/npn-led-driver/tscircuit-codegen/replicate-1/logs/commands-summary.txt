@@ -1,0 +1,11 @@
+All shell calls used /bin/zsh with the run root as explicit workdir. No GUI operations, commits or publishing.
+Read input/method-instructions.md, input/prompt.md and local tscircuit SKILL.md, SYNTAX.md, FOOTPRINTS.md and relevant elements.
+Tool discovery: command -v tsci; command -v bun; tsci --version; bun --version; tsci build --help; tsci check --help.
+Read installed tscircuit props/core/schematic-symbols docs and package metadata. Symbol extraction via bun -e is preserved in logs/symbol.json.
+Datasheet retrieval: initial assets.nexperia.com MMBT3904 URL failed; onsemi MMBT3904LT1 URL succeeded. pdftotext unavailable, so used installed Python pypdf to extract first page.
+Wrote immutable TSX/package snapshots for attempts 01, 02 and 03; preserved installed global bun.lock and package versions for each.
+Validation commands and working-directory handling are recorded exactly by logs/validate.py and its per-check log headers. It ran once per candidate using ATTEMPT environment selection.
+Shorts: tsci check shorts dist/index/circuit.json, run from attempt-02 and attempt-03 via subprocess (raw logs preserved).
+Geometry audit script: python3 logs/audit.py > logs/attempt-03-audit.json.
+A check for installed shapely failed (not installed); no packages installed and no clearance result claimed.
+Created artifacts/README.md and run-root result.json; updated run.json timestamps/status/artifact listing.

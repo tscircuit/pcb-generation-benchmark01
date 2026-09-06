@@ -1,0 +1,3 @@
+$ kicad-cli sch erc --format json --exit-code-violations -o /Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/logs/attempt-02-erc.json divider.kicad_sch
+Found 0 violations
+Saved ERC Report to /Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/logs/attempt-02-erc.json

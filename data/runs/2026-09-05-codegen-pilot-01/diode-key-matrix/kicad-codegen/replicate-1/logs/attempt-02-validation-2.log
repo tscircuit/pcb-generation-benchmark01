@@ -1,0 +1,5 @@
+$ kicad-cli sch export svg artifacts/attempt-02/matrix.kicad_sch -o artifacts/attempt-02/schematic-svg
+Plotted to '/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-02/schematic-svg/matrix.svg'.
+Done.
+11:26:07 PM: Warning: Library table '/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-02/sym-lib-table' has type UNINITIALIZED but expected SYMBOL; skipping
+11:26:07 PM: Warning: Library table '/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-02/fp-lib-table' has type UNINITIALIZED but expected FOOTPRINT; skipping

@@ -1,0 +1,110 @@
+{
+  "board": {
+    "type": "pcb_board",
+    "pcb_board_id": "pcb_board_0",
+    "source_board_id": "source_board_0",
+    "center": {
+      "x": 0,
+      "y": 0
+    },
+    "thickness": 1.4,
+    "num_layers": 2,
+    "width": 50,
+    "height": 30,
+    "material": "fr4",
+    "min_trace_width": 0.25,
+    "min_via_hole_diameter": 0.2,
+    "min_via_pad_diameter": 0.3,
+    "min_via_hole_edge_to_via_hole_edge_clearance": 0.1,
+    "min_trace_to_pad_edge_clearance": 0.1,
+    "min_pad_edge_to_pad_edge_clearance": 0.1,
+    "min_plated_hole_drill_edge_to_drill_edge_clearance": 0.15,
+    "min_board_edge_clearance": 0.2
+  },
+  "net_routing": {
+    "source_net_0": {
+      "terminal_count": 2,
+      "connected_by_pcb_trace_graph": true
+    },
+    "source_net_1": {
+      "terminal_count": 2,
+      "connected_by_pcb_trace_graph": true
+    },
+    "source_net_2": {
+      "terminal_count": 4,
+      "connected_by_pcb_trace_graph": true
+    },
+    "source_net_3": {
+      "terminal_count": 2,
+      "connected_by_pcb_trace_graph": true
+    },
+    "source_net_4": {
+      "terminal_count": 2,
+      "connected_by_pcb_trace_graph": true
+    },
+    "source_net_5": {
+      "terminal_count": 4,
+      "connected_by_pcb_trace_graph": true
+    },
+    "source_net_6": {
+      "terminal_count": 5,
+      "connected_by_pcb_trace_graph": true
+    }
+  },
+  "trace_widths_mm": [
+    0.25
+  ],
+  "routing_error_objects": [],
+  "test_pads": [
+    {
+      "type": "pcb_smtpad",
+      "pcb_smtpad_id": "pcb_smtpad_12",
+      "pcb_component_id": "pcb_component_8",
+      "pcb_port_id": "pcb_port_18",
+      "layer": "top",
+      "shape": "circle",
+      "radius": 0.75,
+      "port_hints": [
+        "1"
+      ],
+      "is_covered_with_solder_mask": false,
+      "x": 15,
+      "y": 10,
+      "subcircuit_id": "subcircuit_source_group_0"
+    },
+    {
+      "type": "pcb_smtpad",
+      "pcb_smtpad_id": "pcb_smtpad_13",
+      "pcb_component_id": "pcb_component_9",
+      "pcb_port_id": "pcb_port_19",
+      "layer": "top",
+      "shape": "circle",
+      "radius": 0.75,
+      "port_hints": [
+        "1"
+      ],
+      "is_covered_with_solder_mask": false,
+      "x": 15,
+      "y": -10,
+      "subcircuit_id": "subcircuit_source_group_0"
+    },
+    {
+      "type": "pcb_smtpad",
+      "pcb_smtpad_id": "pcb_smtpad_14",
+      "pcb_component_id": "pcb_component_10",
+      "pcb_port_id": "pcb_port_20",
+      "layer": "top",
+      "shape": "circle",
+      "radius": 0.75,
+      "port_hints": [
+        "1"
+      ],
+      "is_covered_with_solder_mask": false,
+      "x": 0,
+      "y": 0,
+      "subcircuit_id": "subcircuit_source_group_0"
+    }
+  ],
+  "full_copper_clearance_mm": null,
+  "clearance_note": "Source requests 0.35 mm autorouter traceClearance and 0.25 mm routingTolerances, but compiled board retains 0.1 mm trace-to-pad and pad-to-pad rule defaults. Full 0.25 mm clearance is not independently verified."
+}

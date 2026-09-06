@@ -1,0 +1,70 @@
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. See https://react.dev/link/warning-keys for more information.
+Errors: 0
+Warnings: 0
+
+Readable Netlist:
+COMPONENTS:
+ - C1: 100nF capacitor
+ - C2: 100nF capacitor
+ - C3: 100nF capacitor
+ - R1: 4.7kΩ resistor
+ - JP1: 
+ - R2: 4.7kΩ resistor
+ - JP2: 
+
+NET: GND
+  - C3 pin2 (-)
+  - C2 pin2 (-)
+  - C1 pin2 (-)
+
+NET: R1_neg
+  - R1 pin2
+  - JP1 pin1
+
+NET: V3V3
+  - R2 pin1
+  - R1 pin1
+  - C3 pin1 (+)
+  - C2 pin1 (+)
+  - C1 pin1 (+)
+
+NET: R2_neg
+  - R2 pin2
+  - JP2 pin1
+
+
+EMPTY NET PINS:
+  - JP1 pin2
+  - JP2 pin2
+
+COMPONENT_PINS:
+C1 (100nF undefined)
+- pin1(anode, pos, left): NETS(V3V3)
+- pin2(cathode, neg, right): NETS(GND)
+
+C2 (100nF undefined)
+- pin1(anode, pos, left): NETS(V3V3)
+- pin2(cathode, neg, right): NETS(GND)
+
+C3 (100nF undefined)
+- pin1(anode, pos, left): NETS(V3V3)
+- pin2(cathode, neg, right): NETS(GND)
+
+R1 (4.7kΩ undefined)
+- pin1(anode, pos, left): NETS(V3V3)
+- pin2(cathode, neg, right): NETS(R1_neg)
+
+JP1
+- pin1: NETS(R1_neg)
+- pin2: NETS(SDA)
+
+R2 (4.7kΩ undefined)
+- pin1(anode, pos, left): NETS(V3V3)
+- pin2(cathode, neg, right): NETS(R2_neg)
+
+JP2
+- pin1: NETS(R2_neg)
+- pin2: NETS(SCL)
+

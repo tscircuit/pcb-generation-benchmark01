@@ -1,0 +1,18 @@
+$ tsci check schematic-placement index.circuit.tsx
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. It was passed a child from default. See https://react.dev/link/warning-keys for more information.
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="C1" positionAnchor="center" schX="-3" schY="4" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R1" positionAnchor="center" schX="0" schY="4" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R2" positionAnchor="center" schX="3" schY="2.5" width="0.9" height="0.6" />
+<SchematicBoxPlacement componentName="C2" positionAnchor="center" schX="-3" schY="-4" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R3" positionAnchor="center" schX="0" schY="-4" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R4" positionAnchor="center" schX="3" schY="-5.5" width="0.9" height="0.6" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<CapacitorSymbolHorizontal componentName="C1" schX="-3" schY="4" width="0.6" height="0.65" message="Use schOrientation="vertical" on this capacitor to fix the symbol orientation" />
+<CapacitorSymbolHorizontal componentName="C2" schX="-3" schY="-4" width="0.6" height="0.65" message="Use schOrientation="vertical" on this capacitor to fix the symbol orientation" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_2" targetComponentName="R1" deltaSchX="0" deltaSchY="-2" newSchX="0" newSchY="2" currentTurnCount="3" suggestedTurnCount="1" message="move R1 down by 2 (to schX=0, schY=2) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_4" targetComponentName="R3" deltaSchX="0" deltaSchY="-2" newSchX="0" newSchY="-6" currentTurnCount="3" suggestedTurnCount="1" message="move R3 down by 2 (to schX=0, schY=-6) to reduce this trace from 3 turns to 1" />
+</SchematicPlacementIssues>

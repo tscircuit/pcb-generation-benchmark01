@@ -1,0 +1,106 @@
+{
+  "board_mm": [
+    80,
+    50
+  ],
+  "copper_layers": 2,
+  "capacitor_distance_to_J7_mm": {
+    "C1": 8.736274949885678,
+    "C2": 7.107467903550462,
+    "C3": 6.132935675514624,
+    "C4": 6.132935675514624,
+    "C5": 7.107467903550463,
+    "C6": 8.736274949885678
+  },
+  "input_header_centers": {
+    "J1": {
+      "x": -28,
+      "y": 21
+    },
+    "J2": {
+      "x": -16.8,
+      "y": 21
+    },
+    "J3": {
+      "x": -5.600000000000001,
+      "y": 21
+    },
+    "J4": {
+      "x": 5.599999999999994,
+      "y": 21
+    },
+    "J5": {
+      "x": 16.799999999999997,
+      "y": 21
+    },
+    "J6": {
+      "x": 28,
+      "y": 21
+    }
+  },
+  "output_header_center": {
+    "x": 0,
+    "y": -21
+  },
+  "nonplated_holes": [
+    {
+      "type": "pcb_hole",
+      "pcb_hole_id": "pcb_hole_0",
+      "pcb_component_id": null,
+      "hole_shape": "circle",
+      "hole_diameter": 3.2,
+      "x": -36,
+      "y": -21,
+      "is_covered_with_solder_mask": false,
+      "subcircuit_id": "subcircuit_source_group_0"
+    },
+    {
+      "type": "pcb_hole",
+      "pcb_hole_id": "pcb_hole_1",
+      "pcb_component_id": null,
+      "hole_shape": "circle",
+      "hole_diameter": 3.2,
+      "x": -36,
+      "y": 21,
+      "is_covered_with_solder_mask": false,
+      "subcircuit_id": "subcircuit_source_group_0"
+    },
+    {
+      "type": "pcb_hole",
+      "pcb_hole_id": "pcb_hole_2",
+      "pcb_component_id": null,
+      "hole_shape": "circle",
+      "hole_diameter": 3.2,
+      "x": 36,
+      "y": -21,
+      "is_covered_with_solder_mask": false,
+      "subcircuit_id": "subcircuit_source_group_0"
+    },
+    {
+      "type": "pcb_hole",
+      "pcb_hole_id": "pcb_hole_3",
+      "pcb_component_id": null,
+      "hole_shape": "circle",
+      "hole_diameter": 3.2,
+      "x": 36,
+      "y": 21,
+      "is_covered_with_solder_mask": false,
+      "subcircuit_id": "subcircuit_source_group_0"
+    }
+  ],
+  "minimum_component_bounds_to_hole_edge_mm": 4.380000000000001,
+  "minimum_copper_to_hole_edge_mm": 4.380000000000001,
+  "min_routed_width_mm": 0.25,
+  "pcb_trace_count": 56,
+  "pcb_via_count": 22,
+  "generation_errors": [],
+  "compiled_clearance_settings": {
+    "min_via_hole_edge_to_via_hole_edge_clearance": 0.1,
+    "min_trace_to_pad_edge_clearance": 0.1,
+    "min_pad_edge_to_pad_edge_clearance": 0.1,
+    "min_plated_hole_drill_edge_to_drill_edge_clearance": 0.15,
+    "min_board_edge_clearance": 0.2
+  },
+  "all_net_physical_continuity": null,
+  "minimum_between_net_copper_clearance_mm": null
+}

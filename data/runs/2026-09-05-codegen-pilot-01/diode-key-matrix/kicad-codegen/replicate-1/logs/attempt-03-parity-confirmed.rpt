@@ -1,0 +1,75 @@
+** Drc report for matrix.kicad_pcb **
+** Created on 2026-09-05T23:28:12 **
+** Report includes: Errors, Warnings **
+
+** Found 19 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_THT'
+    Local override; warning
+    @(48.7500 mm, 10.7500 mm): Footprint SW33
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_THT'
+    Local override; warning
+    @(28.7500 mm, 50.7500 mm): Footprint SW12
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_THT'
+    Local override; warning
+    @(8.7500 mm, 30.7500 mm): Footprint SW21
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Diode_THT'
+    Local override; warning
+    @(48.1900 mm, 39.5000 mm): Footprint D23
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_THT'
+    Local override; warning
+    @(48.7500 mm, 50.7500 mm): Footprint SW13
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Diode_THT'
+    Local override; warning
+    @(8.1900 mm, 39.5000 mm): Footprint D21
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(20.0000 mm, 4.0000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Diode_THT'
+    Local override; warning
+    @(48.1900 mm, 19.5000 mm): Footprint D33
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_THT'
+    Local override; warning
+    @(28.7500 mm, 30.7500 mm): Footprint SW22
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Diode_THT'
+    Local override; warning
+    @(8.1900 mm, 19.5000 mm): Footprint D31
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Diode_THT'
+    Local override; warning
+    @(8.1900 mm, 59.5000 mm): Footprint D11
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_THT'
+    Local override; warning
+    @(8.7500 mm, 50.7500 mm): Footprint SW11
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_THT'
+    Local override; warning
+    @(48.7500 mm, 30.7500 mm): Footprint SW23
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Diode_THT'
+    Local override; warning
+    @(28.1900 mm, 39.5000 mm): Footprint D22
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Diode_THT'
+    Local override; warning
+    @(28.1900 mm, 59.5000 mm): Footprint D12
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_THT'
+    Local override; warning
+    @(8.7500 mm, 10.7500 mm): Footprint SW31
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_THT'
+    Local override; warning
+    @(28.7500 mm, 10.7500 mm): Footprint SW32
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Diode_THT'
+    Local override; warning
+    @(28.1900 mm, 19.5000 mm): Footprint D32
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Diode_THT'
+    Local override; warning
+    @(48.1900 mm, 59.5000 mm): Footprint D13
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

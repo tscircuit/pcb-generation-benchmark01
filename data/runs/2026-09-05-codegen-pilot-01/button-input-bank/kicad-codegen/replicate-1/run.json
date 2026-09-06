@@ -1,0 +1,104 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "2026-09-05-codegen-pilot-01",
+  "run_id": "2026-09-05-codegen-pilot-01--button-input-bank--kicad-codegen--r1",
+  "prompt_id": "button-input-bank",
+  "prompt_revision": 1,
+  "prompt_sha256": "41d352cc9a6280e14727ad0186f65a05ced344cb4a848c5689204b0beea64e47",
+  "method": "kicad-codegen",
+  "replicate": 1,
+  "status": "completed",
+  "repository_commit": "a9d1e4f7624451818322ebec60f5e12dd4b3f9a6",
+  "started_at": "2026-09-05T18:04:30.689826+00:00",
+  "ended_at": "2026-09-05T18:09:36.262264+00:00",
+  "model": {
+    "provider": null,
+    "name": null,
+    "reasoning_effort": null,
+    "sampling": {}
+  },
+  "environment": {
+    "tool_versions": {
+      "tsci": "0.0.2462",
+      "kicad-cli": "10.0.6",
+      "bun": "1.3.14",
+      "python": "3.9.6"
+    },
+    "os": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "budget": {
+    "wall_time_seconds": 900,
+    "max_tokens": null,
+    "max_tool_calls": null
+  },
+  "usage": {
+    "wall_time_seconds": 305.572438,
+    "input_tokens": null,
+    "output_tokens": null,
+    "tool_calls": null,
+    "cost_usd": null
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "path": "artifacts/attempt-01",
+      "status": "generated",
+      "erc_errors": 0,
+      "erc_warnings": 13,
+      "drc_violations": 15,
+      "unconnected_pads": 0
+    },
+    {
+      "attempt": 2,
+      "path": "artifacts/attempt-02",
+      "status": "generated",
+      "erc_errors": 0,
+      "erc_warnings": 0,
+      "drc_violations": 4,
+      "unconnected_pads": 0
+    },
+    {
+      "attempt": 3,
+      "path": "artifacts/attempt-03",
+      "status": "generated",
+      "erc_errors": 0,
+      "erc_warnings": 0,
+      "drc_violations": 0,
+      "unconnected_pads": 0
+    }
+  ],
+  "artifacts": [
+    "artifacts/README.md",
+    "artifacts/attempt-02/buttons.kicad_pcb",
+    "artifacts/attempt-02/pcb-svg",
+    "artifacts/attempt-02/buttons.kicad_prl",
+    "artifacts/attempt-02/generate.py",
+    "artifacts/attempt-02/fp-lib-table",
+    "artifacts/attempt-02/buttons.kicad_pro",
+    "artifacts/attempt-02/buttons.kicad_sch",
+    "artifacts/attempt-02/sym-lib-table",
+    "artifacts/attempt-02/buttons.net",
+    "artifacts/attempt-02/schematic-svg/buttons.svg",
+    "artifacts/attempt-03/buttons.kicad_pcb",
+    "artifacts/attempt-03/pcb-svg",
+    "artifacts/attempt-03/buttons.kicad_prl",
+    "artifacts/attempt-03/generate.py",
+    "artifacts/attempt-03/fp-lib-table",
+    "artifacts/attempt-03/buttons.kicad_pro",
+    "artifacts/attempt-03/buttons.kicad_sch",
+    "artifacts/attempt-03/sym-lib-table",
+    "artifacts/attempt-03/buttons.net",
+    "artifacts/attempt-03/schematic-svg/buttons.svg",
+    "artifacts/attempt-01/buttons.kicad_pcb",
+    "artifacts/attempt-01/pcb-svg",
+    "artifacts/attempt-01/buttons.kicad_prl",
+    "artifacts/attempt-01/generate.py",
+    "artifacts/attempt-01/fp-lib-table",
+    "artifacts/attempt-01/buttons.kicad_pro",
+    "artifacts/attempt-01/buttons.kicad_sch",
+    "artifacts/attempt-01/buttons.net",
+    "artifacts/attempt-01/schematic-svg/buttons.svg"
+  ],
+  "failure": null,
+  "notes": "Exploratory pilot; GUI method excluded by user. Read result.json and raw validation logs for limitations."
+}

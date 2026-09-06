@@ -16,8 +16,16 @@ Keep original source/native designs plus logs and evidence. Record the repositor
 
 Define per-prompt acceptance criteria before generation. Use common checks for requested connectivity, component values, board constraints, and deliverable completeness. Use native ERC/DRC where available and record checker versions and exact reports; these are method-specific diagnostics and are not automatically equivalent across tools. Missing capability is unsupported, missing evidence is unknown, and a failed check is false or an error count. Use null for unmeasured values, never zero. A clean DRC alone does not establish functional correctness.
 
-Keep evaluation records under `data/evaluations/<experiment-id>/`, linked by run ID. Evaluation must not modify raw artifacts. Record per-criterion evidence and reviewer identity; blind manual reviewers to method where practical. Manufacturing exports are evaluated only when requested. Aggregate paired prompt-level outcomes, completeness, failures, time, tokens, and cost; show sample size and missing data. No aggregate score or weighting is defined yet.
+Keep evaluation records under `data/evaluations/<experiment-id>/`, linked by run ID. Evaluation must not modify raw artifacts. Record per-criterion evidence and reviewer identity; blind manual reviewers to method where practical. Manufacturing exports are evaluated only when requested. Aggregate paired prompt-level outcomes, completeness, failures, time, tokens, and cost; show sample size and missing data. Deterministic scoring v1 defines fixed 30/30/20/20 category weights; see `docs/deterministic-scoring.md`. Unknown evidence blocks a strict numeric total. Evaluations of the existing pilot are retrospective and do not change its frozen generation protocol.
 
 ## Run states
 
 `not_started`, `running`, `completed`, `failed`, `timeout`, `unsupported`, `cancelled`. Completed means execution ended normally, not that the design passed evaluation. Record structured failure category, message, and evidence. Never overwrite a previous run to retry it.
+
+## Two-method pilot exception
+
+The user-authorized `2026-09-05-codegen-pilot-01` excludes `kicad-computer-use` and uses one replicate for each of the ten prompts under each code-generation method. It is an exploratory artifact-generation pilot, not a full three-method or controlled model comparison. Its configuration records the exclusion, tool versions, randomized dispatch order, unavailable model accounting, and per-run time and repair limits. Runs use separate directories. Eighteen used fresh generation contexts; the final two were parent-generated after a hard agent thread limit, as recorded in execution notes. Original candidates and diagnostics are retained even when validation fails; completion does not imply acceptance.
+
+## Deterministic evaluation records
+
+Versioned evaluator-only rules live in `evaluation/rules/v1/`, outside generation inputs. Each evaluation archives exact rule/code bytes, SHA-256 input references, normalized evidence and decisions. `scripts/score-experiment.ts` computes scores without a model call or raw-artifact edits. Content-derived evaluation IDs preserve previous versions; identical reruns must reproduce identical bytes. Earlier development evaluations and corrections are listed in the experiment’s evaluation history.

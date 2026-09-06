@@ -1,0 +1,17 @@
+bun install v1.3.14 (0d9b296a)
+Resolving dependencies
+Resolved, downloaded and extracted [263]
+warn: incorrect peer dependency "react-dom@19.2.8"
+
+warn: incorrect peer dependency "react@19.2.8"
+
+warn: incorrect peer dependency "circuit-json@0.0.479"
+
+warn: incorrect peer dependency "@tscircuit/alphabet@0.0.25"
+
+warn: incorrect peer dependency "circuit-json@0.0.479"
+Saved lockfile
+
++ tscircuit@0.0.2462
+
+280 packages installed [5.74s]

@@ -1,0 +1,96 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>rc-low-pass · tscircuit · PCB view</title><style>* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font: 14px/1.4 system-ui;
+  background: #111c2c;
+  color: #e4ecf6;
+}
+button {
+  font: inherit;
+  background: #243650;
+  color: #fff;
+  border: 1px solid #53647c;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+button:focus-visible,
+input:focus-visible,
+summary:focus-visible {
+  outline: 2px solid #7ae0d0;
+  outline-offset: 2px;
+}
+.bar {
+  min-height: 54px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.bar span {
+  flex: 1;
+  color: #b9c9dd;
+  font-size: 12px;
+}
+.viewport {
+  height: calc(100vh - 110px);
+  min-height: 420px;
+  overflow: hidden;
+  touch-action: none;
+  cursor: grab;
+  background: #111c2c;
+}
+.viewport:active {
+  cursor: grabbing;
+}
+.viewport svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+details {
+  padding: 8px 12px;
+  border-top: 1px solid #38495f;
+}
+summary {
+  cursor: pointer;
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 7px 20px;
+  padding: 12px 0;
+}
+label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+}
+label span {
+  min-width: 78px;
+}
+input[type="range"] {
+  width: 100%;
+  min-width: 45px;
+  accent-color: #71cfc2;
+}
+output {
+  min-width: 34px;
+}
+p {
+  color: #b9c9dd;
+  font-size: 12px;
+  margin: 8px 0;
+}
+h1 {
+  font-size: 16px;
+  margin: 12px;
+}
+input[type="checkbox"] {
+  accent-color: #71cfc2;
+}
+</style><div class="bar"><button id="minus" aria-label="Zoom out">−</button><button id="plus" aria-label="Zoom in">+</button><button id="reset">Reset view</button><span>All layers: 50% opacity by default · drag to pan</span></div><div class="viewport"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 800 600"><g id="layer-0" opacity="0.5"><style/><rect class="pcb-boundary" fill="none" stroke="#fff" stroke-width="0.3" x="21.621621621621614" y="29.72972972972974" width="756.7567567567567" height="540.5405405405404" data-type="pcb_boundary" data-pcb-layer="global"/></g><g id="layer-1" opacity="0.5"><path class="pcb-board" d="M 21.621621621621614 570.2702702702702 L 778.3783783783783 570.2702702702702 L 778.3783783783783 29.72972972972974 L 21.621621621621614 29.72972972972974 Z" fill="none" stroke="rgba(255, 255, 255, 0.5)" stroke-width="2.1621621621621623" data-type="pcb_board" data-pcb-layer="board"/></g><g id="layer-2" opacity="0.5"><path class="pcb-trace" stroke="rgb(77, 127, 196)" fill="none" d="M 97.29729729729729 272.5405405405405 L 438.4298556753036 272.5405405405405" stroke-width="5.405405405405405" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges" data-type="pcb_trace" data-pcb-layer="bottom"/><path class="pcb-trace" stroke="rgb(77, 127, 196)" fill="none" d="M 438.4298556753036 272.5405405405405 L 453.2985599701039 257.6718362457402" stroke-width="5.405405405405405" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges" data-type="pcb_trace" data-pcb-layer="bottom"/><path class="pcb-trace" stroke="rgb(77, 127, 196)" fill="none" d="M 453.2985599701039 257.6718362457402 L 453.2985599701039 256.8852238136799" stroke-width="5.405405405405405" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges" data-type="pcb_trace" data-pcb-layer="bottom"/><path class="pcb-trace" stroke="rgb(77, 127, 196)" fill="none" d="M 453.2985599701039 256.8852238136799 L 456.15135135135137 254.03243243243244" stroke-width="5.405405405405405" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges" data-type="pcb_trace" data-pcb-layer="bottom"/></g><g id="layer-3" opacity="0.5"><rect class="pcb-pad" fill="rgb(200, 52, 52)" x="369.18918918918916" y="257.40540540540536" width="22.16216216216216" height="30.270270270270267" data-type="pcb_smtpad" data-pcb-layer="top" data-pad-name="R1.pin1"/><rect class="pcb-pad" fill="rgb(200, 52, 52)" x="408.64864864864865" y="257.40540540540536" width="22.16216216216216" height="30.270270270270267" data-type="pcb_smtpad" data-pcb-layer="top" data-pad-name="R1.pin2"/><rect class="pcb-pad" fill="rgb(200, 52, 52)" x="601.0810810810812" y="308.64864864864865" width="30.270270270270267" height="22.16216216216216" data-type="pcb_smtpad" data-pcb-layer="top" data-pad-name="C1.pin1"/><rect class="pcb-pad" fill="rgb(200, 52, 52)" x="601.0810810810812" y="269.18918918918916" width="30.270270270270267" height="22.16216216216216" data-type="pcb_smtpad" data-pcb-layer="top" data-pad-name="C1.pin2" data-pad-net-name="GND"/><path class="pcb-trace" stroke="rgb(200, 52, 52)" fill="none" d="M 702.7027027027027 272.5405405405405 L 623.9351351351352 272.5405405405405" stroke-width="5.405405405405405" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges" data-type="pcb_trace" data-pcb-layer="top"/><path class="pcb-trace" stroke="rgb(200, 52, 52)" fill="none" d="M 623.9351351351352 272.5405405405405 L 616.2162162162163 280.27027027027026" stroke-width="5.405405405405405" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges" data-type="pcb_trace" data-pcb-layer="top"/><path class="pcb-trace" stroke="rgb(200, 52, 52)" fill="none" d="M 456.15135135135137 254.03243243243244 L 589.9891891891892 254.03243243243244" stroke-width="5.405405405405405" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges" data-type="pcb_trace" data-pcb-layer="top"/><path class="pcb-trace" stroke="rgb(200, 52, 52)" fill="none" d="M 589.9891891891892 254.03243243243244 L 616.2162162162163 280.27027027027026" stroke-width="5.405405405405405" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges" data-type="pcb_trace" data-pcb-layer="top"/><path class="pcb-trace" stroke="rgb(200, 52, 52)" fill="none" d="M 616.2162162162163 319.72972972972974 L 623.9567567567567 327.4594594594595" stroke-width="5.405405405405405" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges" data-type="pcb_trace" data-pcb-layer="top"/><path class="pcb-trace" stroke="rgb(200, 52, 52)" fill="none" d="M 623.9567567567567 327.4594594594595 L 702.7027027027027 327.4594594594595" stroke-width="5.405405405405405" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges" data-type="pcb_trace" data-pcb-layer="top"/><path class="pcb-trace" stroke="rgb(200, 52, 52)" fill="none" d="M 616.2162162162163 319.72972972972974 L 569.0378378378379 272.5405405405405" stroke-width="5.405405405405405" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges" data-type="pcb_trace" data-pcb-layer="top"/><path class="pcb-trace" stroke="rgb(200, 52, 52)" fill="none" d="M 569.0378378378379 272.5405405405405 L 419.72972972972974 272.5405405405405" stroke-width="5.405405405405405" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges" data-type="pcb_trace" data-pcb-layer="top"/><path class="pcb-trace" stroke="rgb(200, 52, 52)" fill="none" d="M 97.29729729729729 327.4594594594595 L 325.3621621621622 327.4594594594595" stroke-width="5.405405405405405" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges" data-type="pcb_trace" data-pcb-layer="top"/><path class="pcb-trace" stroke="rgb(200, 52, 52)" fill="none" d="M 325.3621621621622 327.4594594594595 L 380.27027027027026 272.5405405405405" stroke-width="5.405405405405405" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges" data-type="pcb_trace" data-pcb-layer="top"/><text x="0" y="0" dx="0" dy="0" fill="#f2eda1" font-family="Arial, sans-serif" font-size="10.81081081081081" text-anchor="middle" dominant-baseline="central" transform="matrix(-1.8369701987210297e-16,1,-1,-1.8369701987210297e-16,68.10810810810813,327.4594594594595)" class="pcb-silkscreen-text pcb-silkscreen-top" data-pcb-silkscreen-text-id="pcb_silkscreen_text_0" stroke="none" data-type="pcb_silkscreen_text" data-pcb-layer="top">SIGNAL_IN</text><text x="0" y="0" dx="0" dy="0" fill="#f2eda1" font-family="Arial, sans-serif" font-size="10.81081081081081" text-anchor="middle" dominant-baseline="central" transform="matrix(-1.8369701987210297e-16,1,-1,-1.8369701987210297e-16,68.10810810810813,272.5405405405405)" class="pcb-silkscreen-text pcb-silkscreen-top" data-pcb-silkscreen-text-id="pcb_silkscreen_text_1" stroke="none" data-type="pcb_silkscreen_text" data-pcb-layer="top">GND</text><text x="0" y="0" dx="0" dy="0" fill="#f2eda1" font-family="Arial, sans-serif" font-size="15.135135135135133" text-anchor="middle" dominant-baseline="central" transform="matrix(6.123233995736766e-17,-1,1,6.123233995736766e-17,42.378378378378386,300)" class="pcb-silkscreen-text pcb-silkscreen-top" data-pcb-silkscreen-text-id="pcb_silkscreen_text_2" stroke="none" data-type="pcb_silkscreen_text" data-pcb-layer="top">J1</text><text x="0" y="0" dx="0" dy="0" fill="#f2eda1" font-family="Arial, sans-serif" font-size="10.81081081081081" text-anchor="middle" dominant-baseline="central" transform="matrix(-1.8369701987210297e-16,1,-1,-1.8369701987210297e-16,673.5135135135135,327.4594594594595)" class="pcb-silkscreen-text pcb-silkscreen-top" data-pcb-silkscreen-text-id="pcb_silkscreen_text_3" stroke="none" data-type="pcb_silkscreen_text" data-pcb-layer="top">SIGNAL_OUT</text><text x="0" y="0" dx="0" dy="0" fill="#f2eda1" font-family="Arial, sans-serif" font-size="10.81081081081081" text-anchor="middle" dominant-baseline="central" transform="matrix(-1.8369701987210297e-16,1,-1,-1.8369701987210297e-16,673.5135135135135,272.5405405405405)" class="pcb-silkscreen-text pcb-silkscreen-top" data-pcb-silkscreen-text-id="pcb_silkscreen_text_4" stroke="none" data-type="pcb_silkscreen_text" data-pcb-layer="top">GND</text><text x="0" y="0" dx="0" dy="0" fill="#f2eda1" font-family="Arial, sans-serif" font-size="15.135135135135133" text-anchor="middle" dominant-baseline="central" transform="matrix(6.123233995736766e-17,-1,1,6.123233995736766e-17,647.7837837837837,300)" class="pcb-silkscreen-text pcb-silkscreen-top" data-pcb-silkscreen-text-id="pcb_silkscreen_text_5" stroke="none" data-type="pcb_silkscreen_text" data-pcb-layer="top">J2</text><path class="pcb-silkscreen pcb-silkscreen-top" d="M 395.0905081081081 256.64864864864865 L 404.9094918918919 256.64864864864865" fill="none" stroke="#f2eda1" stroke-width="2.5945945945945943" stroke-linecap="round" stroke-linejoin="round" data-pcb-component-id="pcb_component_2" data-pcb-silkscreen-path-id="pcb_silkscreen_path_0" data-type="pcb_silkscreen_path" data-pcb-layer="top"/><path class="pcb-silkscreen pcb-silkscreen-top" d="M 395.0905081081081 288.43243243243245 L 404.9094918918919 288.43243243243245" fill="none" stroke="#f2eda1" stroke-width="2.5945945945945943" stroke-linecap="round" stroke-linejoin="round" data-pcb-component-id="pcb_component_2" data-pcb-silkscreen-path-id="pcb_silkscreen_path_1" data-type="pcb_silkscreen_path" data-pcb-layer="top"/><text x="0" y="0" dx="0" dy="0" fill="#f2eda1" font-family="Arial, sans-serif" font-size="8.64864864864865" text-anchor="middle" dominant-baseline="central" transform="matrix(1,0,0,1,400,237.94594594594594)" class="pcb-silkscreen-text pcb-silkscreen-top" data-pcb-silkscreen-text-id="pcb_silkscreen_text_6" stroke="none" data-type="pcb_silkscreen_text" data-pcb-layer="top">R1</text><path class="pcb-silkscreen pcb-silkscreen-top" d="M 592.4324324324324 280.27027027027026 L 592.4324324324324 335.1351351351351 L 640 335.1351351351351 L 640 280.27027027027026" fill="none" stroke="#f2eda1" stroke-width="2.1621621621621623" stroke-linecap="round" stroke-linejoin="round" data-pcb-component-id="pcb_component_3" data-pcb-silkscreen-path-id="pcb_silkscreen_path_2" data-type="pcb_silkscreen_path" data-pcb-layer="top"/><text x="0" y="0" dx="0" dy="0" fill="#f2eda1" font-family="Arial, sans-serif" font-size="8.64864864864865" text-anchor="middle" dominant-baseline="central" transform="matrix(6.123233995736766e-17,-1,1,6.123233995736766e-17,581.6216216216217,300)" class="pcb-silkscreen-text pcb-silkscreen-top" data-pcb-silkscreen-text-id="pcb_silkscreen_text_7" stroke="none" data-type="pcb_silkscreen_text" data-pcb-layer="top">C1</text><text x="0" y="0" dx="0" dy="0" fill="#f2eda1" font-family="Arial, sans-serif" font-size="17.2972972972973" text-anchor="middle" dominant-baseline="central" transform="matrix(1,0,0,1,162.16216216216216,386.48648648648646)" class="pcb-silkscreen-text pcb-silkscreen-top" data-pcb-silkscreen-text-id="pcb_silkscreen_text_8" stroke="none" data-type="pcb_silkscreen_text" data-pcb-layer="top">1 SIGNAL_IN</text><text x="0" y="0" dx="0" dy="0" fill="#f2eda1" font-family="Arial, sans-serif" font-size="17.2972972972973" text-anchor="middle" dominant-baseline="central" transform="matrix(1,0,0,1,118.9189189189189,213.51351351351352)" class="pcb-silkscreen-text pcb-silkscreen-top" data-pcb-silkscreen-text-id="pcb_silkscreen_text_9" stroke="none" data-type="pcb_silkscreen_text" data-pcb-layer="top">2 GND</text><text x="0" y="0" dx="0" dy="0" fill="#f2eda1" font-family="Arial, sans-serif" font-size="17.2972972972973" text-anchor="middle" dominant-baseline="central" transform="matrix(1,0,0,1,616.2162162162163,386.48648648648646)" class="pcb-silkscreen-text pcb-silkscreen-top" data-pcb-silkscreen-text-id="pcb_silkscreen_text_10" stroke="none" data-type="pcb_silkscreen_text" data-pcb-layer="top">1 SIGNAL_OUT</text><text x="0" y="0" dx="0" dy="0" fill="#f2eda1" font-family="Arial, sans-serif" font-size="17.2972972972973" text-anchor="middle" dominant-baseline="central" transform="matrix(1,0,0,1,681.081081081081,213.51351351351352)" class="pcb-silkscreen-text pcb-silkscreen-top" data-pcb-silkscreen-text-id="pcb_silkscreen_text_11" stroke="none" data-type="pcb_silkscreen_text" data-pcb-layer="top">2 GND</text><text x="0" y="0" dx="0" dy="0" fill="#f2eda1" font-family="Arial, sans-serif" font-size="17.2972972972973" text-anchor="middle" dominant-baseline="central" transform="matrix(1,0,0,1,400,105.40540540540542)" class="pcb-silkscreen-text pcb-silkscreen-top" data-pcb-silkscreen-text-id="pcb_silkscreen_text_12" stroke="none" data-type="pcb_silkscreen_text" data-pcb-layer="top">RC LOW PASS / 1k + 100nF</text></g><g id="layer-4" opacity="0.5"><g data-type="pcb_plated_hole" data-pcb-layer="through" data-pad-name="J1.SIGNAL_IN"><rect class="pcb-hole-outer-pad" fill="rgb(200, 52, 52)" x="-16.216216216216218" y="-16.216216216216218" transform="translate(97.29729729729729 327.4594594594595) rotate(-90)" width="32.432432432432435" height="32.432432432432435" data-type="pcb_plated_hole" data-pcb-layer="top"/><circle class="pcb-hole-inner" fill="#FF26E2" cx="97.29729729729729" cy="327.4594594594595" r="10.81081081081081" data-type="pcb_plated_hole_drill" data-pcb-layer="drill"/></g><g data-type="pcb_plated_hole" data-pcb-layer="through" data-pad-name="J1.GND" data-pad-net-name="GND"><circle class="pcb-hole-outer" fill="rgb(200, 52, 52)" cx="97.29729729729729" cy="272.5405405405405" r="16.216216216216218" data-type="pcb_plated_hole" data-pcb-layer="top"/><circle class="pcb-hole-inner" fill="#FF26E2" cx="97.29729729729729" cy="272.5405405405405" r="10.81081081081081" data-type="pcb_plated_hole_drill" data-pcb-layer="drill"/></g><g data-type="pcb_plated_hole" data-pcb-layer="through" data-pad-name="J2.SIGNAL_OUT"><rect class="pcb-hole-outer-pad" fill="rgb(200, 52, 52)" x="-16.216216216216218" y="-16.216216216216218" transform="translate(702.7027027027027 327.4594594594595) rotate(-90)" width="32.432432432432435" height="32.432432432432435" data-type="pcb_plated_hole" data-pcb-layer="top"/><circle class="pcb-hole-inner" fill="#FF26E2" cx="702.7027027027027" cy="327.4594594594595" r="10.81081081081081" data-type="pcb_plated_hole_drill" data-pcb-layer="drill"/></g><g data-type="pcb_plated_hole" data-pcb-layer="through" data-pad-name="J2.GND" data-pad-net-name="GND"><circle class="pcb-hole-outer" fill="rgb(200, 52, 52)" cx="702.7027027027027" cy="272.5405405405405" r="16.216216216216218" data-type="pcb_plated_hole" data-pcb-layer="top"/><circle class="pcb-hole-inner" fill="#FF26E2" cx="702.7027027027027" cy="272.5405405405405" r="10.81081081081081" data-type="pcb_plated_hole_drill" data-pcb-layer="drill"/></g><g data-type="pcb_via" data-pcb-layer="through"><circle class="pcb-hole-outer" fill="rgb(200, 52, 52)" cx="456.15135135135137" cy="254.03243243243244" r="3.243243243243243" data-type="pcb_via" data-pcb-layer="top"/><circle class="pcb-hole-inner" fill="#FF26E2" cx="456.15135135135137" cy="254.03243243243244" r="2.1621621621621623" data-type="pcb_via" data-pcb-layer="drill"/></g></g></svg></div><details><summary>Layers &amp; opacity</summary><section><label><input type="checkbox" checked data-layer="layer-0"><span>global</span><input aria-label="global opacity" type="range" min="0" max="100" value="50" data-layer="layer-0"><output>50%</output></label><label><input type="checkbox" checked data-layer="layer-1"><span>board</span><input aria-label="board opacity" type="range" min="0" max="100" value="50" data-layer="layer-1"><output>50%</output></label><label><input type="checkbox" checked data-layer="layer-2"><span>bottom</span><input aria-label="bottom opacity" type="range" min="0" max="100" value="50" data-layer="layer-2"><output>50%</output></label><label><input type="checkbox" checked data-layer="layer-3"><span>top</span><input aria-label="top opacity" type="range" min="0" max="100" value="50" data-layer="layer-3"><output>50%</output></label><label><input type="checkbox" checked data-layer="layer-4"><span>through</span><input aria-label="through opacity" type="range" min="0" max="100" value="50" data-layer="layer-4"><output>50%</output></label></section><button id="layers-reset">Reset all layers to 50%</button><p>Visualization only. Layer opacity does not change the design or its score.</p></details><script type="module" src="viewer.js?v=00b6068d4210"></script></html>

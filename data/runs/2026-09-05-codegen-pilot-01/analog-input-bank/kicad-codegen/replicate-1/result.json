@@ -1,0 +1,65 @@
+{
+  "status": "completed",
+  "final_attempt": "artifacts/attempt-03",
+  "generated_files": [
+    "artifacts/README.md",
+    "artifacts/attempt-01/generate.py",
+    "artifacts/attempt-02/generate.py",
+    "artifacts/attempt-03/analog_input.kicad_pcb",
+    "artifacts/attempt-03/analog_input.kicad_prl",
+    "artifacts/attempt-03/analog_input.kicad_pro",
+    "artifacts/attempt-03/analog_input.kicad_sch",
+    "artifacts/attempt-03/analog_input.net",
+    "artifacts/attempt-03/analog_input.xml",
+    "artifacts/attempt-03/board.svg",
+    "artifacts/attempt-03/generate.py",
+    "artifacts/attempt-03/routing-summary.json",
+    "artifacts/attempt-03/schematic-svg/analog_input.svg"
+  ],
+  "validation": {
+    "schematic_export": {
+      "passed": true,
+      "log": "logs/attempt-03-sch-export-command.log"
+    },
+    "pcb_export": {
+      "passed": true,
+      "log": "logs/attempt-03-pcb-export-retry-command.log",
+      "initial_failure_log": "logs/attempt-03-pcb-export-command.log"
+    },
+    "schematic_pin_connectivity": {
+      "passed": true,
+      "checked_assignments": 75,
+      "nets": 19,
+      "log": "logs/attempt-03-connectivity-audit.log"
+    },
+    "erc": {
+      "passed": false,
+      "errors": 0,
+      "warnings": 114,
+      "log": "logs/attempt-03-erc.rpt"
+    },
+    "drc": {
+      "passed": false,
+      "violations": 63,
+      "unconnected_pads": 0,
+      "log": "logs/attempt-03-drc.rpt"
+    },
+    "geometry": {
+      "log": "logs/attempt-03-geometry-audit.json"
+    },
+    "physical_testing": null,
+    "schematic_pcb_parity": null
+  },
+  "known_limitations": [
+    "Copper clearance requirement violated: native report actual 0.1868 mm. Report used 0.20 mm rather than intended 0.25 mm, so additional sub-0.25 mm spacing may exist.",
+    "Via overlaps J6 GND drilled hole.",
+    "ERC off-grid and library configuration warnings.",
+    "Small silkscreen text warnings and missing configured library tables.",
+    "Native schematic/PCB UUID parity not checked.",
+    "Both repair allowances exhausted by initial pcbnew API execution failures."
+  ],
+  "failure": null,
+  "correctness_passed": false,
+  "started_at": "2026-09-05T17:32:41.202454+00:00",
+  "ended_at": "2026-09-05T17:39:31.551036+00:00"
+}

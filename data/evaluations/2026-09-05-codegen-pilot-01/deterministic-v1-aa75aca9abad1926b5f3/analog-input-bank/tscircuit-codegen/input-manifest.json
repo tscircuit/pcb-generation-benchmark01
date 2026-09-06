@@ -1,0 +1,206 @@
+[
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/README.md",
+    "sha256": "04d4406d8d60a6b9826ae089ab65275f211a37c5cf9e9932f87d0a88d8a17bb8"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/58ea7e9511-8e414dd4d512a1b300f536e52f6df170.json",
+    "sha256": "441a147f65d006417df39842f918418d028b343794aedaa9208bc10f89c804c1"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/cle_d1_5__-0cf1c9a7014b82371363e1b2dd25e8ab.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/cle_d1_5__-202f959a2c7f0dcfaf963d7f58d0abbd.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/cle_d1_5__-26b4f428fed4de9908c14fe738751a1f.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/cle_d1_5__-44d8e64d60ed88d7763d7a4a85eeb0d2.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/cle_d1_5__-a3da131c98d3cf5758801b10b78295e6.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/cle_d1_5__-b430227cf0df4831bc1da1eee18e3ca7.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/cle_d1_5__-c2671485d60fecdf953d789dcf06ff7d.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-14dbab3daa696c3799231f83c3533fff.json",
+    "sha256": "e998a91d33ba8ad46a1ade6daf4b4a85933e2b493a6a7591e1b479de6ab6f548"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-1741ba7c32835acb3334753165565519.json",
+    "sha256": "9fd6196235d20d0f10c76aada36c7246c293a4e90bf323733154285683474bd3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-27a59f81d8c60374e654b386339cfe23.json",
+    "sha256": "2225d5a558677d1b0b1b8b40023e1010febd40bb9cdfdb8cfaadc7773b890764"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-3a06863b7b647f829860bd4b5a4c3169.json",
+    "sha256": "ea8f3346c08d1a77fc91d33ef10942ff46dcfacb5f01dcb73a26893599a8df28"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-3f493644cd9d56b2b109fdff5fb8c140.json",
+    "sha256": "9fd6196235d20d0f10c76aada36c7246c293a4e90bf323733154285683474bd3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-43db67e983cdb2750956af657330bc64.json",
+    "sha256": "e998a91d33ba8ad46a1ade6daf4b4a85933e2b493a6a7591e1b479de6ab6f548"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-449e20854ae5a6bd2728bbe0660d4352.json",
+    "sha256": "e998a91d33ba8ad46a1ade6daf4b4a85933e2b493a6a7591e1b479de6ab6f548"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-4cb2c94ac2ae06a87d6ab6c9ada63def.json",
+    "sha256": "2225d5a558677d1b0b1b8b40023e1010febd40bb9cdfdb8cfaadc7773b890764"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-5a262364bdf6c738798dd070569c50ec.json",
+    "sha256": "2225d5a558677d1b0b1b8b40023e1010febd40bb9cdfdb8cfaadc7773b890764"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-5d9a9aed274f8686c7cb7027f4dc6eec.json",
+    "sha256": "e998a91d33ba8ad46a1ade6daf4b4a85933e2b493a6a7591e1b479de6ab6f548"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-6fdac7a287d32ba6c81386bf7b50e2b3.json",
+    "sha256": "ea8f3346c08d1a77fc91d33ef10942ff46dcfacb5f01dcb73a26893599a8df28"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-78a4e018deb9a16bc63d54ce44226417.json",
+    "sha256": "e998a91d33ba8ad46a1ade6daf4b4a85933e2b493a6a7591e1b479de6ab6f548"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-7d744edd0a82ad100e54caaeaf2e97b9.json",
+    "sha256": "9fd6196235d20d0f10c76aada36c7246c293a4e90bf323733154285683474bd3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-7e9b043a1765415211070137734d1fa5.json",
+    "sha256": "ea8f3346c08d1a77fc91d33ef10942ff46dcfacb5f01dcb73a26893599a8df28"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-8a35ed8c6c0da056535932a4ea4d7ad6.json",
+    "sha256": "2225d5a558677d1b0b1b8b40023e1010febd40bb9cdfdb8cfaadc7773b890764"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-997fa602626729afb8bc1281178fc288.json",
+    "sha256": "2225d5a558677d1b0b1b8b40023e1010febd40bb9cdfdb8cfaadc7773b890764"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-9996332b60fa962888613159269924bc.json",
+    "sha256": "e998a91d33ba8ad46a1ade6daf4b4a85933e2b493a6a7591e1b479de6ab6f548"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-9a9a94a3705b3d3fab70d5a3caea3a34.json",
+    "sha256": "ea8f3346c08d1a77fc91d33ef10942ff46dcfacb5f01dcb73a26893599a8df28"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-9f603b87a601b12dc88e706884a0f5dd.json",
+    "sha256": "9fd6196235d20d0f10c76aada36c7246c293a4e90bf323733154285683474bd3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-aba94818b3ddd219cd2194bef0861bca.json",
+    "sha256": "2225d5a558677d1b0b1b8b40023e1010febd40bb9cdfdb8cfaadc7773b890764"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-bc54dedd8da2c2029fd5f1c1b235b4f6.json",
+    "sha256": "9fd6196235d20d0f10c76aada36c7246c293a4e90bf323733154285683474bd3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-dc19715aa3056f63bde04ed7fec2f6e7.json",
+    "sha256": "9fd6196235d20d0f10c76aada36c7246c293a4e90bf323733154285683474bd3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-f42b00ec23fc22eb47b53b7aad96d123.json",
+    "sha256": "ea8f3346c08d1a77fc91d33ef10942ff46dcfacb5f01dcb73a26893599a8df28"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-f9a82ee5af4706266cc1f0ca38504d4b.json",
+    "sha256": "ea8f3346c08d1a77fc91d33ef10942ff46dcfacb5f01dcb73a26893599a8df28"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/w2_p2_54__-026451260194c099a7bb0933c2bd6a94.json",
+    "sha256": "cc9d883ba0864d6a85d9099d9b9752ca095d862fd6aaede16f161da747392d51"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/w2_p2_54__-17dd96b9a722cb18409ea875ca6ade65.json",
+    "sha256": "cc9d883ba0864d6a85d9099d9b9752ca095d862fd6aaede16f161da747392d51"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/w2_p2_54__-4860a3e1f23e5d4253971fd57d056967.json",
+    "sha256": "cc9d883ba0864d6a85d9099d9b9752ca095d862fd6aaede16f161da747392d51"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/w2_p2_54__-7f21f60b777b07bf021d702e281d032f.json",
+    "sha256": "cc9d883ba0864d6a85d9099d9b9752ca095d862fd6aaede16f161da747392d51"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/w2_p2_54__-9918d8e25f326223c97f1b52cb2b94ea.json",
+    "sha256": "cc9d883ba0864d6a85d9099d9b9752ca095d862fd6aaede16f161da747392d51"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/w2_p2_54__-ee9729f8721473af1fb535458baa3268.json",
+    "sha256": "cc9d883ba0864d6a85d9099d9b9752ca095d862fd6aaede16f161da747392d51"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/w8_p2_54__-4e35acd01770f0ddbcb81205829cc0f5.json",
+    "sha256": "6bdd384bea66850f83fbe52864d33e8fac9f60eb6598aa79ef108d23b254241b"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/circuit.json",
+    "sha256": "2c7115fbf9754c23b7152344a4639333b3e7fd71ccd1e7dd1cf6afee5c58f50c"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/pcb.png",
+    "sha256": "bcc37831c3ecade45eeda7ad97ca0b4f0fad4dd45fa117db3c7623b4569758ce"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/pcb.svg",
+    "sha256": "6aee7c90fee1eb84a4dd3bb8c4f067a4c7a42cf724fc184eebe8389ed1105734"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/schematic.png",
+    "sha256": "068c460c2c240c43d292acf9f1e52f05dedce3e44e761159314101713236ddd2"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/schematic.svg",
+    "sha256": "7467fe7c87ff87a71edab61a6c736f0b4a2f5df27b72ff89191da3863cadd1bf"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/index.circuit.tsx",
+    "sha256": "778d1094aa21a3b7cb73407f8b2ae74e3b7cb9ae5d59cb2ba67c2c984f1f64b3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-03/package.json",
+    "sha256": "11eff7f4959b17ffa7dcb0d0357118b23b1bfe7c40f1b754c58f2e7af1666258"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/input/metadata.json",
+    "sha256": "31b87f35dbf7bc55dce1196d878d39d096c4afc915cf00373213bcddcb87f5bb"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/input/prompt.md",
+    "sha256": "441ad72121511dea1787995ae6086eabd660a0a235f60ea4d0cf70d11adac869"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/result.json",
+    "sha256": "144a9859c44b576b13c3a27590004afaf7477c7094a0b554b8af02dd49afd19e"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1/run.json",
+    "sha256": "6d7b691aa739ecc2d4e87410e6839350c1b93e95be0f8a1dc49af51c5d011c7a"
+  }
+]

@@ -1,0 +1,8 @@
+Initial discovery: pwd; ls -la; cat run.json; which kicad-cli; locate bundled KiCad Python and libraries.
+For each attempt N=01,02,03:
+/Users/ankan/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/3.9/bin/python3 artifacts/attempt-N/generate.py > logs/attempt-N/generation.log 2>&1
+zsh logs/attempt-N/validate.zsh
+Each validate.zsh preserves the exact native export/ERC/DRC commands and per-command output and exit codes.
+Final additional checks:
+/Users/ankan/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/3.9/bin/python3 logs/attempt-03/verify.py > logs/attempt-03/connectivity-and-geometry.json 2> logs/attempt-03/verify.stderr
+kicad-cli pcb drc artifacts/attempt-03/buttons.kicad_pcb --schematic-parity --exit-code-violations -o logs/attempt-03/drc-parity.rpt > logs/attempt-03/drc-parity.log 2>&1

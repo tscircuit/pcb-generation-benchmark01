@@ -1,0 +1,27 @@
+$ tsci check schematic-placement index.circuit.tsx
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. It was passed a child from default. See https://react.dev/link/warning-keys for more information.
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="J1" positionAnchor="center" schX="-18" schY="10" width="1.4" height="0.6" />
+<SchematicBoxPlacement componentName="C1" positionAnchor="center" schX="-14" schY="10" width="0.9" height="0.6" />
+<SchematicBoxPlacement componentName="J2" positionAnchor="center" schX="-18" schY="0" width="1.6" height="1.2" />
+<SchematicBoxPlacement componentName="Q1" positionAnchor="center" schX="2" schY="12" width="0.84" height="1.1" />
+<SchematicBoxPlacement componentName="R1" positionAnchor="center" schX="-3" schY="12" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="Q2" positionAnchor="center" schX="2" schY="3" width="0.84" height="1.1" />
+<SchematicBoxPlacement componentName="R3" positionAnchor="center" schX="-3" schY="3" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="Q3" positionAnchor="center" schX="2" schY="-6" width="0.84" height="1.1" />
+<SchematicBoxPlacement componentName="R5" positionAnchor="center" schX="-3" schY="-6" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="Q4" positionAnchor="center" schX="2" schY="-15" width="0.84" height="1.1" />
+<SchematicBoxPlacement componentName="R7" positionAnchor="center" schX="-3" schY="-15" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<PinHeaderSchematicBoxTooWide message="Shrink schematic box width" componentName="J2" currentSchWidth="1.6" measuredInnerLabelHorizontalEmptySpace="1.025" maxAllowedInnerLabelHorizontalEmptySpace="0.1" suggestedSchWidth="0.675" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_0" targetComponentName="J1" deltaSchX="0" deltaSchY="-0.68" newSchX="-18" newSchY="9.32" currentTurnCount="3" suggestedTurnCount="1" message="move J1 down by 0.68 (to schX=-18, schY=9.32) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_6" targetComponentName="R1" deltaSchX="0" deltaSchY="+0.75" newSchX="-3" newSchY="12.75" currentTurnCount="3" suggestedTurnCount="1" message="move R1 up by 0.75 (to schX=-3, schY=12.75) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_7" targetComponentName="R3" deltaSchX="0" deltaSchY="+0.75" newSchX="-3" newSchY="3.75" currentTurnCount="3" suggestedTurnCount="1" message="move R3 up by 0.75 (to schX=-3, schY=3.75) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_8" targetComponentName="R5" deltaSchX="0" deltaSchY="+0.75" newSchX="-3" newSchY="-5.25" currentTurnCount="3" suggestedTurnCount="1" message="move R5 up by 0.75 (to schX=-3, schY=-5.25) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_9" targetComponentName="R7" deltaSchX="0" deltaSchY="+0.75" newSchX="-3" newSchY="-14.25" currentTurnCount="3" suggestedTurnCount="1" message="move R7 up by 0.75 (to schX=-3, schY=-14.25) to reduce this trace from 3 turns to 1" />
+</SchematicPlacementIssues>
+
+EXIT_CODE=0

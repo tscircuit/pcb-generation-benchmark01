@@ -1,0 +1,17 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+Traceback (most recent call last):
+  File "/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/artifacts/attempt-02/generate.py", line 36, in <module>
+    x=10+(i-1)*12;text(f'J{i} 1:IN{i}',x,1.3,.7);text('2:GND',x,9,.7)
+  File "/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/artifacts/attempt-02/generate.py", line 34, in text
+    z=p.PCB_TEXT();z.SetText(t);z.SetPosition(p.VECTOR2I(p.FromMM(x),p.FromMM(y)));z.SetTextSize(p.VECTOR2I(p.FromMM(size),p.FromMM(size)));z.SetTextThickness(p.FromMM(.12));z.SetLayer(p.F_SilkS);board.Add(z)
+  File "/Users/ankan/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pcbnew.py", line 18455, in __init__
+    _pcbnew.PCB_TEXT_swiginit(self, _pcbnew.new_PCB_TEXT(*args))
+TypeError: Wrong number or type of arguments for overloaded function 'new_PCB_TEXT'.
+  Possible C/C++ prototypes are:
+    PCB_TEXT::PCB_TEXT(BOARD_ITEM *,KICAD_T)
+    PCB_TEXT::PCB_TEXT(BOARD_ITEM *)
+    PCB_TEXT::PCB_TEXT(FOOTPRINT *,KICAD_T)
+    PCB_TEXT::PCB_TEXT(FOOTPRINT *)
+    PCB_TEXT::PCB_TEXT(PCB_TEXT const &)
+    PCB_TEXT::PCB_TEXT(PCB_TEXT &&)
+

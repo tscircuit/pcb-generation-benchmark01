@@ -1,0 +1,1 @@
+(sym_lib_table (lib (name "Device") (type "KiCad") (uri "${KIPRJMOD}/libraries/Device.kicad_sym") (options "") (descr ""))(lib (name "Connector_Generic") (type "KiCad") (uri "${KIPRJMOD}/libraries/Connector_Generic.kicad_sym") (options "") (descr ""))(lib (name "Transistor_BJT") (type "KiCad") (uri "${KIPRJMOD}/libraries/Transistor_BJT.kicad_sym") (options "") (descr "")))

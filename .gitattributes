@@ -1,6 +1,4 @@
-* text=auto
-*.png binary
-*.jpg binary
-*.pdf binary
-*.mp4 binary
-*.zip binary
+# Preserve benchmark evidence byte-for-byte, including native line endings.
+data/** -text -whitespace linguist-generated=true
+reports/** -text -whitespace linguist-generated=true
+website/dist/** -text -whitespace linguist-generated=true

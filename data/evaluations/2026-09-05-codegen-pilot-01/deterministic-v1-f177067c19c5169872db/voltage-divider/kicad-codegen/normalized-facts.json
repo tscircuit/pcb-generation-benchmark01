@@ -1,0 +1,895 @@
+{
+  "board": {
+    "bounds": [
+      0.0,
+      -20.0,
+      30.0,
+      -0.0
+    ],
+    "height": 20.0,
+    "layers": 2,
+    "width": 30.0
+  },
+  "components": {
+    "J1": {
+      "bounds": [
+        2.23,
+        -12.32,
+        5.77,
+        -6.23
+      ],
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "kind": "header",
+      "pads": [
+        {
+          "height": 1.7,
+          "hole": 1.0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.7,
+          "x": 4.0,
+          "y": -8.0
+        },
+        {
+          "height": 1.7,
+          "hole": 1.0,
+          "pin": "2",
+          "shape": "circle",
+          "width": 1.7,
+          "x": 4.0,
+          "y": -10.54
+        }
+      ],
+      "part": "INPUT",
+      "pcb_pins": {
+        "1": "/VIN",
+        "2": "/GND"
+      },
+      "pins": {
+        "1": "/VIN",
+        "2": "/GND"
+      },
+      "position": {
+        "x": 4.0,
+        "y": -8.0
+      },
+      "value": null
+    },
+    "J2": {
+      "bounds": [
+        24.23,
+        -12.32,
+        27.77,
+        -6.23
+      ],
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "kind": "header",
+      "pads": [
+        {
+          "height": 1.7,
+          "hole": 1.0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.7,
+          "x": 26.0,
+          "y": -8.0
+        },
+        {
+          "height": 1.7,
+          "hole": 1.0,
+          "pin": "2",
+          "shape": "circle",
+          "width": 1.7,
+          "x": 26.0,
+          "y": -10.54
+        }
+      ],
+      "part": "OUTPUT",
+      "pcb_pins": {
+        "1": "/VOUT",
+        "2": "/GND"
+      },
+      "pins": {
+        "1": "/VOUT",
+        "2": "/GND"
+      },
+      "position": {
+        "x": 26.0,
+        "y": -8.0
+      },
+      "value": null
+    },
+    "R1": {
+      "bounds": [
+        9.32,
+        -8.95,
+        12.68,
+        -7.05
+      ],
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "kind": "resistor",
+      "pads": [
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "1",
+          "shape": "roundrect",
+          "width": 1.025,
+          "x": 10.0875,
+          "y": -8.0
+        },
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "2",
+          "shape": "roundrect",
+          "width": 1.025,
+          "x": 11.9125,
+          "y": -8.0
+        }
+      ],
+      "part": "10k",
+      "pcb_pins": {
+        "1": "/VIN",
+        "2": "/VOUT"
+      },
+      "pins": {
+        "1": "/VIN",
+        "2": "/VOUT"
+      },
+      "position": {
+        "x": 11.0,
+        "y": -8.0
+      },
+      "value": 10000.0
+    },
+    "R2": {
+      "bounds": [
+        16.32,
+        -12.95,
+        19.68,
+        -11.05
+      ],
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "kind": "resistor",
+      "pads": [
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "1",
+          "shape": "roundrect",
+          "width": 1.025,
+          "x": 17.0875,
+          "y": -12.0
+        },
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "2",
+          "shape": "roundrect",
+          "width": 1.025,
+          "x": 18.9125,
+          "y": -12.0
+        }
+      ],
+      "part": "10k",
+      "pcb_pins": {
+        "1": "/VOUT",
+        "2": "/GND"
+      },
+      "pins": {
+        "1": "/VOUT",
+        "2": "/GND"
+      },
+      "position": {
+        "x": 18.0,
+        "y": -12.0
+      },
+      "value": 10000.0
+    },
+    "TP1": {
+      "bounds": [
+        21.25,
+        -5.75,
+        22.75,
+        -4.25
+      ],
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "kind": "testpoint",
+      "pads": [
+        {
+          "height": 1.5,
+          "hole": 0,
+          "pin": "1",
+          "shape": "circle",
+          "width": 1.5,
+          "x": 22.0,
+          "y": -5.0
+        }
+      ],
+      "part": "VOUT",
+      "pcb_pins": {
+        "1": "/VOUT"
+      },
+      "pins": {
+        "1": "/VOUT"
+      },
+      "position": {
+        "x": 22.0,
+        "y": -5.0
+      },
+      "value": null
+    },
+    "TP2": {
+      "bounds": [
+        9.25,
+        -16.75,
+        10.75,
+        -15.25
+      ],
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "kind": "testpoint",
+      "pads": [
+        {
+          "height": 1.5,
+          "hole": 0,
+          "pin": "1",
+          "shape": "circle",
+          "width": 1.5,
+          "x": 10.0,
+          "y": -16.0
+        }
+      ],
+      "part": "GND",
+      "pcb_pins": {
+        "1": "/GND"
+      },
+      "pins": {
+        "1": "/GND"
+      },
+      "position": {
+        "x": 10.0,
+        "y": -16.0
+      },
+      "value": null
+    }
+  },
+  "copper": [
+    {
+      "bounds": [
+        9.25,
+        -16.75,
+        10.75,
+        -15.25
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/GND",
+      "pin": "TP2.1",
+      "radius": 0.75,
+      "vertices": [
+        [
+          10.0,
+          -16.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        25.15,
+        -8.85,
+        26.85,
+        -7.15
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/VOUT",
+      "pin": "J2.1",
+      "radius": 0,
+      "vertices": [
+        [
+          25.15,
+          -8.85
+        ],
+        [
+          26.85,
+          -8.85
+        ],
+        [
+          26.85,
+          -7.15
+        ],
+        [
+          25.15,
+          -7.15
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        25.15,
+        -11.389999999999999,
+        26.85,
+        -9.69
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/GND",
+      "pin": "J2.2",
+      "radius": 0.85,
+      "vertices": [
+        [
+          26.0,
+          -10.54
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        21.25,
+        -5.75,
+        22.75,
+        -4.25
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/VOUT",
+      "pin": "TP1.1",
+      "radius": 0.75,
+      "vertices": [
+        [
+          22.0,
+          -5.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        16.575,
+        -12.7,
+        17.599999999999998,
+        -11.3
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/VOUT",
+      "pin": "R2.1",
+      "radius": 0.24999955,
+      "vertices": [
+        [
+          16.824999549999998,
+          -12.45000045
+        ],
+        [
+          17.35000045,
+          -12.45000045
+        ],
+        [
+          17.35000045,
+          -11.54999955
+        ],
+        [
+          16.824999549999998,
+          -11.54999955
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        18.400000000000002,
+        -12.7,
+        19.425,
+        -11.3
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/GND",
+      "pin": "R2.2",
+      "radius": 0.24999955,
+      "vertices": [
+        [
+          18.64999955,
+          -12.45000045
+        ],
+        [
+          19.175000450000002,
+          -12.45000045
+        ],
+        [
+          19.175000450000002,
+          -11.54999955
+        ],
+        [
+          18.64999955,
+          -11.54999955
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        9.575000000000001,
+        -8.7,
+        10.6,
+        -7.3
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/VIN",
+      "pin": "R1.1",
+      "radius": 0.24999955,
+      "vertices": [
+        [
+          9.824999550000001,
+          -8.45000045
+        ],
+        [
+          10.35000045,
+          -8.45000045
+        ],
+        [
+          10.35000045,
+          -7.54999955
+        ],
+        [
+          9.824999550000001,
+          -7.54999955
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        11.4,
+        -8.7,
+        12.424999999999999,
+        -7.3
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/VOUT",
+      "pin": "R1.2",
+      "radius": 0.24999955,
+      "vertices": [
+        [
+          11.64999955,
+          -8.45000045
+        ],
+        [
+          12.175000449999999,
+          -8.45000045
+        ],
+        [
+          12.175000449999999,
+          -7.54999955
+        ],
+        [
+          11.64999955,
+          -7.54999955
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.15,
+        -8.85,
+        4.85,
+        -7.15
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/VIN",
+      "pin": "J1.1",
+      "radius": 0,
+      "vertices": [
+        [
+          3.15,
+          -8.85
+        ],
+        [
+          4.85,
+          -8.85
+        ],
+        [
+          4.85,
+          -7.15
+        ],
+        [
+          3.15,
+          -7.15
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.15,
+        -11.389999999999999,
+        4.85,
+        -9.69
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/GND",
+      "pin": "J1.2",
+      "radius": 0.85,
+      "vertices": [
+        [
+          4.0,
+          -10.54
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.85,
+        -8.15,
+        10.2375,
+        -7.85
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/VIN",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          4.0,
+          -8.0
+        ],
+        [
+          10.0875,
+          -8.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        11.7625,
+        -8.15,
+        17.237499999999997,
+        -7.85
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/VOUT",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          11.9125,
+          -8.0
+        ],
+        [
+          17.0875,
+          -8.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        21.85,
+        -8.15,
+        22.15,
+        -4.85
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/VOUT",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          22.0,
+          -8.0
+        ],
+        [
+          22.0,
+          -5.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        21.85,
+        -8.15,
+        26.15,
+        -7.85
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/VOUT",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          22.0,
+          -8.0
+        ],
+        [
+          26.0,
+          -8.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        16.9375,
+        -12.15,
+        17.237499999999997,
+        -7.85
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/VOUT",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          17.0875,
+          -8.0
+        ],
+        [
+          17.0875,
+          -12.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        16.9375,
+        -8.15,
+        22.15,
+        -7.85
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/VOUT",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          17.0875,
+          -8.0
+        ],
+        [
+          22.0,
+          -8.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        18.762500000000003,
+        -16.15,
+        26.15,
+        -15.85
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/GND",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          18.9125,
+          -16.0
+        ],
+        [
+          26.0,
+          -16.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        18.762500000000003,
+        -16.15,
+        19.0625,
+        -11.85
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/GND",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          18.9125,
+          -12.0
+        ],
+        [
+          18.9125,
+          -16.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        9.85,
+        -16.15,
+        19.0625,
+        -15.85
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/GND",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          18.9125,
+          -16.0
+        ],
+        [
+          10.0,
+          -16.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.85,
+        -16.15,
+        10.15,
+        -15.85
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/GND",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          10.0,
+          -16.0
+        ],
+        [
+          4.0,
+          -16.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        25.85,
+        -16.15,
+        26.15,
+        -10.389999999999999
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/GND",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          26.0,
+          -16.0
+        ],
+        [
+          26.0,
+          -10.54
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.85,
+        -16.15,
+        4.15,
+        -10.389999999999999
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/GND",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          4.0,
+          -16.0
+        ],
+        [
+          4.0,
+          -10.54
+        ]
+      ]
+    }
+  ],
+  "holes": [],
+  "schematic_present": true,
+  "silkscreen": [
+    "TP2",
+    "J2",
+    "connector/pin_header_socket",
+    "TP1",
+    "R2",
+    "SMD_2terminal_chip_molded",
+    "R1",
+    "SMD_2terminal_chip_molded",
+    "J1",
+    "connector/pin_header_socket",
+    "1 VIN",
+    "2 GND",
+    "1:2 DIVIDER",
+    "1 VOUT",
+    "2 GND"
+  ],
+  "source_present": true,
+  "tracks": [
+    {
+      "net": "/VIN",
+      "width": 0.3
+    },
+    {
+      "net": "/VOUT",
+      "width": 0.3
+    },
+    {
+      "net": "/VOUT",
+      "width": 0.3
+    },
+    {
+      "net": "/VOUT",
+      "width": 0.3
+    },
+    {
+      "net": "/VOUT",
+      "width": 0.3
+    },
+    {
+      "net": "/VOUT",
+      "width": 0.3
+    },
+    {
+      "net": "/GND",
+      "width": 0.3
+    },
+    {
+      "net": "/GND",
+      "width": 0.3
+    },
+    {
+      "net": "/GND",
+      "width": 0.3
+    },
+    {
+      "net": "/GND",
+      "width": 0.3
+    },
+    {
+      "net": "/GND",
+      "width": 0.3
+    },
+    {
+      "net": "/GND",
+      "width": 0.3
+    }
+  ],
+  "unsupported": [],
+  "warnings": []
+}

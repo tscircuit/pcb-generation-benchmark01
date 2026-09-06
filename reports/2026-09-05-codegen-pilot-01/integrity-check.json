@@ -1,0 +1,133 @@
+{
+  "checked_at": "2026-09-05T18:19:24.780947+00:00",
+  "generation_runs": 20,
+  "final_schematic_and_pcb_outputs_present": 20,
+  "preserved_candidate_directories": 55,
+  "canonical_prompts_checked_by_collector": true,
+  "frozen_config_and_wrappers_unchanged": true,
+  "preview_copies_match_sources": true,
+  "all_recorded_durations_within_900_second_budget": true,
+  "timings": [
+    {
+      "prompt_id": "led-indicator",
+      "method": "kicad-codegen",
+      "elapsed_seconds": 209.29182,
+      "source": "run.usage.wall_time_seconds"
+    },
+    {
+      "prompt_id": "led-indicator",
+      "method": "tscircuit-codegen",
+      "elapsed_seconds": 376.126241,
+      "source": "run.usage.wall_time_seconds"
+    },
+    {
+      "prompt_id": "rc-low-pass",
+      "method": "kicad-codegen",
+      "elapsed_seconds": 294.009184,
+      "source": "run.usage.wall_time_seconds"
+    },
+    {
+      "prompt_id": "rc-low-pass",
+      "method": "tscircuit-codegen",
+      "elapsed_seconds": 280.689247,
+      "source": "run.usage.wall_time_seconds"
+    },
+    {
+      "prompt_id": "voltage-divider",
+      "method": "kicad-codegen",
+      "elapsed_seconds": 415.198067,
+      "source": "run.usage.wall_time_seconds"
+    },
+    {
+      "prompt_id": "voltage-divider",
+      "method": "tscircuit-codegen",
+      "elapsed_seconds": 265.941775,
+      "source": "derived from run.started_at and run.ended_at; original usage metric remains null"
+    },
+    {
+      "prompt_id": "button-input-bank",
+      "method": "kicad-codegen",
+      "elapsed_seconds": 305.572438,
+      "source": "run.usage.wall_time_seconds"
+    },
+    {
+      "prompt_id": "button-input-bank",
+      "method": "tscircuit-codegen",
+      "elapsed_seconds": 311.733373,
+      "source": "run.usage.wall_time_seconds"
+    },
+    {
+      "prompt_id": "i2c-pullup-hub",
+      "method": "kicad-codegen",
+      "elapsed_seconds": 324.554522,
+      "source": "run.usage.wall_time_seconds"
+    },
+    {
+      "prompt_id": "i2c-pullup-hub",
+      "method": "tscircuit-codegen",
+      "elapsed_seconds": 240.735992,
+      "source": "run.usage.wall_time_seconds"
+    },
+    {
+      "prompt_id": "npn-led-driver",
+      "method": "kicad-codegen",
+      "elapsed_seconds": 477.168633,
+      "source": "run.usage.wall_time_seconds"
+    },
+    {
+      "prompt_id": "npn-led-driver",
+      "method": "tscircuit-codegen",
+      "elapsed_seconds": 354.684899,
+      "source": "run.usage.wall_time_seconds"
+    },
+    {
+      "prompt_id": "stereo-passive-attenuator",
+      "method": "kicad-codegen",
+      "elapsed_seconds": 320.035122,
+      "source": "run.usage.wall_time_seconds"
+    },
+    {
+      "prompt_id": "stereo-passive-attenuator",
+      "method": "tscircuit-codegen",
+      "elapsed_seconds": 247.045286,
+      "source": "run.usage.wall_time_seconds"
+    },
+    {
+      "prompt_id": "analog-input-bank",
+      "method": "kicad-codegen",
+      "elapsed_seconds": 410.348582,
+      "source": "run.usage.wall_time_seconds"
+    },
+    {
+      "prompt_id": "analog-input-bank",
+      "method": "tscircuit-codegen",
+      "elapsed_seconds": 290.754033,
+      "source": "run.usage.wall_time_seconds"
+    },
+    {
+      "prompt_id": "diode-key-matrix",
+      "method": "kicad-codegen",
+      "elapsed_seconds": 336.491012,
+      "source": "run.usage.wall_time_seconds"
+    },
+    {
+      "prompt_id": "diode-key-matrix",
+      "method": "tscircuit-codegen",
+      "elapsed_seconds": 325.714739,
+      "source": "run.usage.wall_time_seconds"
+    },
+    {
+      "prompt_id": "mosfet-output-bank",
+      "method": "kicad-codegen",
+      "elapsed_seconds": 398.871604,
+      "source": "run.usage.wall_time_seconds"
+    },
+    {
+      "prompt_id": "mosfet-output-bank",
+      "method": "tscircuit-codegen",
+      "elapsed_seconds": 331.495398,
+      "source": "run.usage.wall_time_seconds"
+    }
+  ],
+  "functional_acceptance": "Not independently scored; see original run diagnostics and known limitations."
+}

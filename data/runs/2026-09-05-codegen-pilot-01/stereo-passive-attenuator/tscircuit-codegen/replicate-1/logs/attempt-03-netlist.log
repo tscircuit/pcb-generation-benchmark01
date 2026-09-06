@@ -1,0 +1,101 @@
+$ tsci check netlist index.circuit.tsx
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. It was passed a child from default. See https://react.dev/link/warning-keys for more information.
+Errors: 0
+Warnings: 0
+
+Readable Netlist:
+COMPONENTS:
+ - J1: J1, source_component
+ - J2: J2, source_component
+ - C1: 1uF capacitor
+ - R1: 10kΩ resistor
+ - R2: 10kΩ resistor
+ - C2: 1uF capacitor
+ - R3: 10kΩ resistor
+ - R4: 10kΩ resistor
+ - TP1: TP1, source_component
+ - TP2: TP2, source_component
+ - TP3: TP3, source_component
+
+NET: LEFT_IN
+  - C1 pin1 (+)
+  - J1 LEFT_IN
+
+NET: LEFT_AC
+  - R1 pin1
+  - C1 pin2 (-)
+
+NET: LEFT_OUT
+  - TP1 pin1
+  - J2 LEFT_OUT
+  - R2 pin1
+  - R1 pin2
+
+NET: RIGHT_IN
+  - C2 pin1 (+)
+  - J1 RIGHT_IN
+
+NET: RIGHT_AC
+  - R3 pin1
+  - C2 pin2 (-)
+
+NET: RIGHT_OUT
+  - TP2 pin1
+  - J2 RIGHT_OUT
+  - R4 pin1
+  - R3 pin2
+
+NET: GND
+  - TP3 pin1
+  - R4 pin2
+  - R2 pin2
+  - J2 GND
+  - J1 GND
+
+
+COMPONENT_PINS:
+J1
+- pin1(LEFT_IN): NETS(LEFT_IN)
+- pin2(GND): NETS(GND)
+- pin3(RIGHT_IN): NETS(RIGHT_IN)
+
+J2
+- pin1(LEFT_OUT): NETS(LEFT_OUT)
+- pin2(GND): NETS(GND)
+- pin3(RIGHT_OUT): NETS(RIGHT_OUT)
+
+C1 (1uF undefined)
+- pin1(anode, pos, left): NETS(LEFT_IN)
+- pin2(cathode, neg, right): NETS(LEFT_AC)
+
+R1 (10kΩ undefined)
+- pin1(anode, pos, left): NETS(LEFT_AC)
+- pin2(cathode, neg, right): NETS(LEFT_OUT)
+
+R2 (10kΩ undefined)
+- pin1(anode, pos, left): NETS(LEFT_OUT)
+- pin2(cathode, neg, right): NETS(GND)
+
+C2 (1uF undefined)
+- pin1(anode, pos, left): NETS(RIGHT_IN)
+- pin2(cathode, neg, right): NETS(RIGHT_AC)
+
+R3 (10kΩ undefined)
+- pin1(anode, pos, left): NETS(RIGHT_AC)
+- pin2(cathode, neg, right): NETS(RIGHT_OUT)
+
+R4 (10kΩ undefined)
+- pin1(anode, pos, left): NETS(RIGHT_OUT)
+- pin2(cathode, neg, right): NETS(GND)
+
+TP1
+- pin1: NETS(LEFT_OUT)
+
+TP2
+- pin1: NETS(RIGHT_OUT)
+
+TP3
+- pin1: NETS(GND)
+

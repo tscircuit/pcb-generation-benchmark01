@@ -1,0 +1,39 @@
++logs/generate-01.zsh:3> /Users/ankan/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/3.9/bin/python3.9 artifacts/attempt-01/generate.py
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+{
+  "pads_mm": {
+    "J1:1": [
+      53.0,
+      60.0
+    ],
+    "J1:2": [
+      53.0,
+      62.54
+    ],
+    "J2:1": [
+      82.0,
+      60.0
+    ],
+    "J2:2": [
+      82.0,
+      62.54
+    ],
+    "R1:1": [
+      66.0875,
+      60.0
+    ],
+    "R1:2": [
+      67.9125,
+      60.0
+    ],
+    "C1:1": [
+      77.05,
+      61.27
+    ],
+    "C1:2": [
+      78.95,
+      61.27
+    ]
+  },
+  "schematic_uuid": "60586cd5-4917-495d-a47a-ea8b7d4d08a2"
+}

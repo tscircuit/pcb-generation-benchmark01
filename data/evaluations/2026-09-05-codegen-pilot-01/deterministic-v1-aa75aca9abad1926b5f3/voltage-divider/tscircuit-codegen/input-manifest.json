@@ -1,0 +1,78 @@
+[
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/artifacts/README.md",
+    "sha256": "edcb823a70407a571a8b205d3eba1697897be1c3e0eb10e9aa051c3ba43a49cf"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/7012edc2ab-b19ffb038d7c751a03a6b8ba9b04a859.json",
+    "sha256": "8963bbc6b9229c7669df802adf740a3e2dbaa2ee93f36a990920b28d5ead4d02"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/_pinrow2__-4be5185a4ac4e6d0c6040093ab8a40d2.json",
+    "sha256": "1d3b4dccac9368318f9cf1d1827a429c7ce8a8041e8de956bdfaf3dc8237b4eb"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/_pinrow2__-9ccaf4a0ca16ec5b19b2aa4899f732e6.json",
+    "sha256": "1d3b4dccac9368318f9cf1d1827a429c7ce8a8041e8de956bdfaf3dc8237b4eb"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/cle_d1_5__-202f959a2c7f0dcfaf963d7f58d0abbd.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/cle_d1_5__-c2671485d60fecdf953d789dcf06ff7d.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-449e20854ae5a6bd2728bbe0660d4352.json",
+    "sha256": "9fd6196235d20d0f10c76aada36c7246c293a4e90bf323733154285683474bd3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/artifacts/attempt-03/.tscircuit/cache/g___0805__-9f603b87a601b12dc88e706884a0f5dd.json",
+    "sha256": "9fd6196235d20d0f10c76aada36c7246c293a4e90bf323733154285683474bd3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/circuit.json",
+    "sha256": "3e7ee31c06f6cb65bd9883122b24007625df8c74cad8a888ad431d4d24862836"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/pcb.png",
+    "sha256": "d3c6cdbb4697e3f691cd72c36a82780eef249d1a2f5c9145e22eb7d67274dac9"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/pcb.svg",
+    "sha256": "23eb0b048699580c3e7d73af7443deaf7a595cecd83173c5536f7410a4eac4e2"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/index/schematic.svg",
+    "sha256": "0f643edd0166c7c5e01aba0768f5a04e04831ed0c00df95a396457fc1488bc23"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/artifacts/attempt-03/index.circuit.tsx",
+    "sha256": "5748d60e41104cf36f6f442c16c910d9a8e7800d4ea1b39742c09a62577acf99"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/artifacts/attempt-03/package.json",
+    "sha256": "3b20c6d5d2172a1a0b2eaa1bb5f940f9461e3155f0a55bb58a1fe5aaf7f79882"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/artifacts/attempt-03/toolchain.bun.lock",
+    "sha256": "8fc3c694d6f79ced508e7b65dff2a23a5405b92c0cecadd3739b0d7b96756e6c"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/input/metadata.json",
+    "sha256": "5f9f46dbf9eeea77a56aa28887aa964380e0e20a171453e44d03fb0b0cb919ff"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/input/prompt.md",
+    "sha256": "9bf89efc737280478cc01e57d670eb4caa16ad81b4e140e03bc68d6adcab33a5"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/result.json",
+    "sha256": "c68bb9c6cd1443b6114a892c594106b32c07ce845e0fbf36ba6a0b77b69f64d8"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/tscircuit-codegen/replicate-1/run.json",
+    "sha256": "00eaa6f7bfee326fb0c95ca2742287fb4d1561d54cbc2ffb507953af42330065"
+  }
+]

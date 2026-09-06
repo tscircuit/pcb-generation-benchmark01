@@ -1,0 +1,326 @@
+/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/tscircuit-codegen/replicate-1
+/Users/ankan/.bun/bin/tsci
+0.0.2462
+1.3.14
+@babel
+@biomejs
+@flatten-js
+@jridgewell
+@jscad
+@lume
+@nodable
+@react-hook
+@remix-run
+@resvg
+@rollup
+@thednp
+@tsci
+@tscircuit
+@types
+abort-controller
+any-promise
+anynum
+b4a
+bare-events
+bare-fs
+bare-path
+bare-stream
+bare-url
+base64-js
+bl
+boolbase
+bpc-graph
+buffer
+bun-match-svg
+bun-types
+calculate-cell-boundaries
+calculate-elbow
+calculate-packing
+chownr
+circuit-json
+circuit-json-to-bpc
+circuit-json-to-connectivity-map
+circuit-json-to-gltf
+circuit-json-to-pnp-csv
+circuit-json-to-simple-3d
+circuit-json-to-spice
+circuit-to-svg
+color
+color-convert
+color-diff
+color-name
+color-string
+comlink
+commander
+commondir
+connectivity-map
+convert-source-map
+css-select
+css-what
+csstype
+debug
+decompress-response
+deep-extend
+deep-rename-keys
+deepmerge
+detect-libc
+dom-serializer
+domelementtype
+domhandler
+domutils
+earcut
+end-of-stream
+entities
+es-errors
+estree-walker
+event-target-shim
+eventemitter3
+events
+events-universal
+expand-template
+fast-fifo
+fast-json-stable-stringify
+fast-png
+fast-xml-builder
+fast-xml-parser
+fdir
+fflate
+flatbush
+flatqueue
+format-si-unit
+fs-constants
+fs-extra
+fsevents
+function-bind
+github-from-package
+gl-matrix
+graceful-fs
+graphics-debug
+hasown
+ieee754
+inherits
+ini
+iobuffer
+is-arrayish
+is-buffer
+is-core-module
+is-module
+is-reference
+is-unsafe
+jpeg-js
+js-graph-algorithms
+js-tokens
+jscad-electronics
+jscad-planner
+jscad-to-gltf
+jsonfile
+kicad-component-converter
+kicad-to-circuit-json
+kicadts
+kind-of
+lines-and-columns
+lodash
+looks-same
+loose-envify
+lucide-react
+magic-string
+mimic-response
+minicssgrid
+minimist
+mkdirp-classic
+ms
+mz
+nanoid
+napi-build-utils
+nested-error-stacks
+node-abi
+node-addon-api
+nth-check
+object-assign
+object-hash
+occt-import-js
+once
+opentype.js
+papaparse
+parse-color
+parsel-js
+path-expression-matcher
+path-parse
+performance-now
+picomatch
+pirates
+pngjs
+polished
+poppygl
+prebuild-install
+process
+pump
+pureimage
+rc
+react
+react-dom
+react-reconciler
+react-router
+react-router-dom
+react-supergrid
+readable-stream
+rename-keys
+resolve
+rollup
+rollup-plugin-dts
+s-expression
+safe-buffer
+scheduler
+schematic-symbols
+semver
+sharp
+simple-concat
+simple-get
+simple-swizzle
+spicets
+spicey
+stack-svgs
+streamx
+string_decoder
+strip-json-comments
+strnum
+sucrase
+supports-preserve-symlinks-flag
+svg-path-commander
+svgson
+tar-fs
+tar-stream
+teex
+text-decoder
+thenify
+thenify-all
+three
+tinyglobby
+transformation-matrix
+ts-interface-checker
+tscircuit
+tslib
+tunnel-agent
+typescript
+undici-types
+universalify
+use-mouse-matrix-transform
+util-deprecate
+wrappy
+xml-lexer
+xml-naming
+xml-reader
+zod
+# `<schematicsection />`
+
+Groups components into a named section on the schematic (e.g. "Power", "Digital").
+
+Use `schSectionName` on any component to assign it to a section, then declare the section with `<schematicsection />`.
+
+> **No auto-layout.** `<schematicsection />` does NOT move components. You must manually place all components in the section in close proximity using `schX`/`schY` so the section renders as a coherent group.
+
+## Placement rule
+
+Pick a cluster origin (e.g. `schX={0} schY={0}`) and place all section members nearby. Components scattered across the schematic will still be tagged to the section but will look disconnected.
+
+## Example
+
+```tsx
+export default () => (
+  <board width="40mm" height="20mm">
+    <schematicsection name="Power" displayName="Power Supply" />
+    <schematicsection name="IO" displayName="Input / Output" />
+
+    {/* Power section — cluster around schX=0 */}
+    <capacitor
+      name="C1"
+      capacitance="100nF"
+      footprint="0402"
+      schSectionName="Power"
+      schX={0}
+      schY={0}
+    />
+    <capacitor
+      name="C2"
+      capacitance="10uF"
+      footprint="0805"
+      schSectionName="Power"
+      schX={2}
+      schY={0}
+    />
+    <resistor
+      name="R1"
+      resistance="10k"
+      footprint="0402"
+      schSectionName="Power"
+      schX={4}
+      schY={0}
+    />
+
+    {/* IO section — cluster around schX=12, well separated from Power */}
+    <pushbutton
+      name="BTN1"
+      footprint="button_4pin"
+      schSectionName="IO"
+      schX={12}
+      schY={0}
+    />
+    <resistor
+      name="R2"
+      resistance="1k"
+      footprint="0402"
+      schSectionName="IO"
+      schX={14}
+      schY={0}
+    />
+  </board>
+)
+```
+
+## Props
+
+| Prop | Type | Required | Description |
+|------|------|----------|-------------|
+| `name` | `string` | yes | Unique identifier for the section |
+| `displayName` | `string` | no | Human-readable label shown on schematic |
+
+## Assigning components to a section
+
+Any component that accepts `CommonComponentProps` has `schSectionName`. Set it to the `name` of a `<schematicsection />`.
+
+```tsx
+<resistor name="R1" resistance="10k" footprint="0402" schSectionName="Power" schX={0} schY={0} />
+```
+
+## Layout guidance
+
+- Keep section members within ~4–6 schematic units of each other.
+- Separate different sections by at least 6–8 units so section boundaries are visually clear.
+- Arrange members in a row or grid — do not leave large schX/schY gaps between them.
+
+## References
+
+- Props: [SchematicSectionProps](https://github.com/tscircuit/props#schematicsectionprops-schematicsection)
+- Source: [lib/components/schematic-section.ts](https://github.com/tscircuit/props/blob/main/lib/components/schematic-section.ts)
+# `<pcbkeepout />`
+
+Keepout region that blocks copper/features in a PCB area.
+
+## Example
+
+```tsx
+export default () => (
+  <board width="20mm" height="20mm">
+    <pcbkeepout shape="rect" pcbX={0} pcbY={0} width="6mm" height="4mm" />
+  </board>
+)
+```
+
+## Props
+
+Commonly used: `shape`, `radius`, `width`, `height`, `pcbX`, `pcbY`, `layer`
+
+## References
+
+- Props: [PcbKeepoutProps](https://github.com/tscircuit/props#pcbkeepoutprops-pcbkeepout)
+- Source: [lib/components/pcb-keepout.ts](https://github.com/tscircuit/props/blob/main/lib/components/pcb-keepout.ts)

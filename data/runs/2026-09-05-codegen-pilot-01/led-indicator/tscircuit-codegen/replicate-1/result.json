@@ -1,0 +1,69 @@
+{
+  "status": "completed",
+  "final_attempt": "artifacts/attempt-02",
+  "validation": [
+    {
+      "check": "netlist",
+      "exit_code": 0,
+      "log": "logs/attempt-02-netlist.log"
+    },
+    {
+      "check": "schematic-placement",
+      "exit_code": 0,
+      "log": "logs/attempt-02-schematic-placement.log"
+    },
+    {
+      "check": "placement",
+      "exit_code": 0,
+      "log": "logs/attempt-02-placement.log"
+    },
+    {
+      "check": "build",
+      "exit_code": 0,
+      "log": "logs/attempt-02-build.log"
+    },
+    {
+      "check": "shorts",
+      "exit_code": 0,
+      "log": "logs/attempt-02-shorts.log"
+    }
+  ],
+  "inspection": "artifacts/attempt-02/inspection.json",
+  "known_limitations": [
+    "No schematic-sheet drawing area, though schematic preview is readable.",
+    "Independent full copper clearance and physical testing are unmeasured.",
+    "Generic red LED and header have no manufacturer SKU.",
+    "Parent generation reused orchestration context after the agent thread limit."
+  ],
+  "failure": null,
+  "wall_time_seconds": 376.126241,
+  "generated_files": [
+    "artifacts/README.md",
+    "artifacts/attempt-02/environment.bun.lock",
+    "artifacts/attempt-02/package.json",
+    "artifacts/attempt-02/index.circuit.tsx",
+    "artifacts/attempt-02/inspection.json",
+    "artifacts/attempt-02/dist/index/pcb.png",
+    "artifacts/attempt-02/dist/index/schematic.svg",
+    "artifacts/attempt-02/dist/index/schematic.png",
+    "artifacts/attempt-02/dist/index/circuit.json",
+    "artifacts/attempt-02/dist/index/pcb.svg",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-204639452bff11565a086c375be54719.json",
+    "artifacts/attempt-02/.tscircuit/cache/747d7e3a11-60bbe4487cfdfab0e8a20e458fa25440.json",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-9f603b87a601b12dc88e706884a0f5dd.json",
+    "artifacts/attempt-02/.tscircuit/cache/w2_p2_54__-ee9729f8721473af1fb535458baa3268.json",
+    "artifacts/attempt-02/.tscircuit/cache/3069b12c11-4d95e5b75b115cb30eec1d322022d4bc.json",
+    "artifacts/attempt-01/environment.bun.lock",
+    "artifacts/attempt-01/package.json",
+    "artifacts/attempt-01/index.circuit.tsx",
+    "artifacts/attempt-01/dist/index/pcb.png",
+    "artifacts/attempt-01/dist/index/schematic.svg",
+    "artifacts/attempt-01/dist/index/schematic.png",
+    "artifacts/attempt-01/dist/index/circuit.json",
+    "artifacts/attempt-01/dist/index/pcb.svg",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-204639452bff11565a086c375be54719.json",
+    "artifacts/attempt-01/.tscircuit/cache/747d7e3a11-60bbe4487cfdfab0e8a20e458fa25440.json",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-9f603b87a601b12dc88e706884a0f5dd.json",
+    "artifacts/attempt-01/.tscircuit/cache/w2_p2_54__-ee9729f8721473af1fb535458baa3268.json"
+  ]
+}

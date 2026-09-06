@@ -1,0 +1,28 @@
+COMMAND: ['tsci', 'check', 'placement', 'index.circuit.tsx']
+trace: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)
+placement summary: no placement issues
+
+board top-layer utilization:
+- occupied: 9.248% (124.842mm^2 of 1350mm^2)
+- empty spaces over 5% of board area:
+  - 20.639% (278.625mm^2); bounds=(minX=13.213mm, maxX=22.5mm, minY=-15mm, maxY=15mm)
+  - 16.141% (217.908mm^2); bounds=(minX=-22.5mm, maxX=0.633mm, minY=-15mm, maxY=-5.58mm)
+  - 13.86% (187.105mm^2); bounds=(minX=-22.5mm, maxX=-2.638mm, minY=5.58mm, maxY=15mm)
+
+board-edge status:
+- J1: 5.75mm inside left edge
+- C1: 9.8mm inside left edge
+- Q1: 10.388mm inside top edge
+- D1: 5.938mm inside bottom edge
+- R1: 5.938mm inside bottom edge
+- R2: 9.938mm inside top edge
+- R3: 5.938mm inside top edge
+- Q2: 7.125mm inside top edge
+- D2: 9.2mm inside bottom edge
+- R4: 9.2mm inside bottom edge
+- R5: 6.675mm inside top edge
+- R6: 2.675mm inside top edge
+
+placement drc:
+Errors: 0
+Warnings: 0

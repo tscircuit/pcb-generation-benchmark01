@@ -1,0 +1,4 @@
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. See https://react.dev/link/warning-keys for more information.
+

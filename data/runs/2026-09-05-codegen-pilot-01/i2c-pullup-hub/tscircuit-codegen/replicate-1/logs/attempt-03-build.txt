@@ -1,0 +1,31 @@
+Building 1 file(s)...
+Building artifacts/attempt-03/index.circuit.tsx...
+Generating circuit JSON...
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. It was passed a child from default. See https://react.dev/link/warning-keys for more information.
+Circuit JSON written to dist/artifacts/attempt-03/index/circuit.json
+<trace#151(from:.R1 > .pin2 to:.JP1 > .pin1) /> is missing a name. Add a name prop to make the trace easier to identify.
+<trace#200(from:.R2 > .pin2 to:.JP2 > .pin1) /> is missing a name. Add a name prop to make the trace easier to identify.
+No <schematicsheet> was found. Add a <schematicsheet> to define the schematic drawing area.
+All pins on JP1 are underspecified (no pinAttributes set)
+All pins on JP2 are underspecified (no pinAttributes set)
+JP1 has no pin with requires_power=true
+JP2 has no pin with requires_power=true
+JP1 has no pin with requires_ground=true
+JP2 has no pin with requires_ground=true
+Generating preview images...
+[artifacts/attempt-03/index] Generating PCB SVG...
+[artifacts/attempt-03/index] Written pcb.svg
+[artifacts/attempt-03/index] Generating PCB PNG...
+[artifacts/attempt-03/index] Written pcb.png
+[artifacts/attempt-03/index] Generating schematic SVG...
+[artifacts/attempt-03/index] Written schematic.svg
+
+Build complete
+  Circuits  1 passed
+  Options   pcb-png, svgs, autorouter-timeout
+  Output    ../../dist
+
+✓ Done
+Build exiting with code 0: build finished successfully

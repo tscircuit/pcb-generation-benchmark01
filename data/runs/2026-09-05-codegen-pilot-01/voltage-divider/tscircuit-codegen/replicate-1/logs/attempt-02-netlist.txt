@@ -1,0 +1,52 @@
+Errors: 0
+Warnings: 0
+
+Readable Netlist:
+COMPONENTS:
+ - J1: J1, source_component
+ - J2: J2, source_component
+ - R1: 10kΩ resistor
+ - R2: 10kΩ resistor
+ - TP1: TP1, source_component
+ - TP2: TP2, source_component
+
+NET: VIN
+  - R1 pin1
+  - J1 VIN
+
+NET: VOUT
+  - TP1 pin1
+  - J2 VOUT
+  - R2 pin1
+  - R1 pin2
+
+NET: GND
+  - TP2 pin1
+  - R2 pin2
+  - J2 GND
+  - J1 GND
+
+
+COMPONENT_PINS:
+J1
+- pin1(VIN): NETS(VIN)
+- pin2(GND): NETS(GND)
+
+J2
+- pin1(VOUT): NETS(VOUT)
+- pin2(GND): NETS(GND)
+
+R1 (10kΩ undefined)
+- pin1(anode, pos, left): NETS(VIN)
+- pin2(cathode, neg, right): NETS(VOUT)
+
+R2 (10kΩ undefined)
+- pin1(anode, pos, left): NETS(VOUT)
+- pin2(cathode, neg, right): NETS(GND)
+
+TP1
+- pin1: NETS(VOUT)
+
+TP2
+- pin1: NETS(GND)
+

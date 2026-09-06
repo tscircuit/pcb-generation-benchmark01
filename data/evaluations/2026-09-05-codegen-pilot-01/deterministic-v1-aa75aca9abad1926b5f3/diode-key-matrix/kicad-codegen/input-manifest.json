@@ -1,0 +1,90 @@
+[
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/README.md",
+    "sha256": "27e61b7ac996d79c178507b7c8bf5e83c252d78ff3e990acd017f7b27688e017"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/Button_Switch_THT.pretty/SW_PUSH_6mm.kicad_mod",
+    "sha256": "45f5bc8d06f716115e6f50d19634a72a8aeffbb24ae6b28a12a958f2d4519d86"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/Connector_Generic.kicad_sym",
+    "sha256": "84036310c0454291e66fe0a453cba6e278c959782b4e883341e06308156a108c"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/Connector_PinHeader_2.54mm.pretty/PinHeader_1x06_P2.54mm_Vertical.kicad_mod",
+    "sha256": "5f2993c50dbd5024384bf6fa972fcd10d40d0837039e1e371b326a27d9f5b8b7"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/Device.kicad_sym",
+    "sha256": "9c52b3580d59875eec61ce0e25d26d42ef71b0db43e1626132cf293f5250ad6a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/Diode_THT.pretty/D_DO-35_SOD27_P7.62mm_Horizontal.kicad_mod",
+    "sha256": "a053fbe6259d61a2f1c9a216214de690fddddfa9b2c8add5063bada8b33ff4c6"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/Switch.kicad_sym",
+    "sha256": "e39cda74b76c55bb3653a61748597c03adc26454d2fb3ff89a0ba718c693b3a8"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/fp-lib-table",
+    "sha256": "fb9081dd4221ac72517ecf824587083eb125e4109d1cfa3a235cbbaca7aaa161"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/generate.py",
+    "sha256": "9ceed001f44c26cd56337fbc6876729e3566e42a773daa45cffcf035e99d1a52"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/matrix.kicad_dru",
+    "sha256": "b707054fe7d48466c18a582d50a4cd6d40e79b8ea1480b7aeba8984eb73d9dec"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/matrix.kicad_pcb",
+    "sha256": "f80554709e64bb4b43d7024f302b1fed1ed1ee581a740a69710a68a064ff9fc7"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/matrix.kicad_prl",
+    "sha256": "8ff73655b494c0babbbb1d9a52b41992da86f5573e838ec21ece2a3adc8b18bb"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/matrix.kicad_pro",
+    "sha256": "fa7fc94b4a314825844a0ae94419eb634907998112458c8829b050d3b9f2fd9e"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/matrix.kicad_sch",
+    "sha256": "9bd7bcbcc45b16a18dfde37bbc2f53f0be70bf380c3e99ee53bad51a3def480f"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/matrix.net",
+    "sha256": "eb07bb9cdaac3fd8ae1084fdd043cac98007e6e115405ceaca7aa3177cee0c09"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/pcb-svg",
+    "sha256": "24580f3ee7be44a5cb6fb6467bdb580726ae82220f9a397ba5ec9c5ba930bb07"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/schematic-svg/matrix.svg",
+    "sha256": "1ac5f0309efb718e71359ed2a5bea6b325ce3529fa2cbff7de8277f8fa9f146d"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/artifacts/attempt-03/sym-lib-table",
+    "sha256": "b6144f523488b377edda52fd0059989b2ec5991f196966d9b60a466a68ea458a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/input/metadata.json",
+    "sha256": "cc49a20b2fdbdda4b2c7e54e46e36ca7d2a0ddda98bddda22ade2588356950fb"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/input/prompt.md",
+    "sha256": "8d97a8456932f786386bc04b8f672eb1a0dd9759deed87a475b0328ec07adc15"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/result.json",
+    "sha256": "44bdd1199615c465fc963af6b1f2a5d2cfed54c8747aa85e445ededf46abf6ae"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/diode-key-matrix/kicad-codegen/replicate-1/run.json",
+    "sha256": "0febe60412e0d601060ecf9db4a786edcf41d80176b03bd34a89a329c538af3d"
+  }
+]

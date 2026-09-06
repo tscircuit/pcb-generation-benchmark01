@@ -1,0 +1,32 @@
+COMMAND: ['tsci', 'check', 'placement', 'index.circuit.tsx']
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. See https://react.dev/link/warning-keys for more information.
+trace: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)
+placement summary: no placement issues
+
+board top-layer utilization:
+- occupied: 9.248% (124.842mm^2 of 1350mm^2)
+- empty spaces over 5% of board area:
+  - 23.5% (317.25mm^2); bounds=(minX=-22.5mm, maxX=22.5mm, minY=-15mm, maxY=-7.95mm)
+  - 18.937% (255.651mm^2); bounds=(minX=-11.05mm, maxX=22.5mm, minY=-0.3mm, maxY=7.32mm)
+  - 14.4% (194.4mm^2); bounds=(minX=-22.5mm, maxX=22.5mm, minY=10.68mm, maxY=15mm)
+  - 5.714% (77.133mm^2); bounds=(minX=-14.23mm, maxX=22.5mm, minY=-6.05mm, maxY=-3.95mm)
+
+board-edge status:
+- J1: 5.75mm inside left edge
+- C1: 9.8mm inside left edge
+- Q1: 11.75mm inside top edge
+- D1: 4.575mm inside bottom edge
+- R1: 4.575mm inside bottom edge
+- R2: 11.3mm inside top edge
+- R3: 7.3mm inside top edge
+- Q2: 8.7mm inside right edge
+- D2: 4.575mm inside bottom edge
+- R4: 4.575mm inside bottom edge
+- R5: 11.3mm inside top edge
+- R6: 7.3mm inside top edge
+
+placement drc:
+Errors: 0
+Warnings: 0

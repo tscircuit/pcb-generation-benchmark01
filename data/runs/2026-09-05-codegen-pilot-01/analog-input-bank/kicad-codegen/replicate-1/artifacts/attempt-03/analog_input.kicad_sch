@@ -1,0 +1,1027 @@
+(kicad_sch (version 20250114) (generator "pcb_benchmark_codegen")
+(uuid d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f)
+(paper "A3")
+(lib_symbols
+(symbol "Connector:TestPoint"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.762)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "TP"
+			(at 0 6.858 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "test point tp"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Pin* Test*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TestPoint_0_1"
+			(circle
+				(center 0 3.302)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TestPoint_1_1"
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Connector_Generic:Conn_01x02"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x02_1_1"
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Connector_Generic:Conn_01x08"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 0 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x08_1_1"
+			(rectangle
+				(start -1.27 8.89)
+				(end 1.27 -11.43)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 7.747)
+				(end 0 7.493)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 5.207)
+				(end 0 4.953)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -4.953)
+				(end 0 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -7.493)
+				(end 0 -7.747)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -10.033)
+				(end 0 -10.287)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 7.62 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 5.08 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -7.62 0)
+				(length 3.81)
+				(name "Pin_7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -10.16 0)
+				(length 3.81)
+				(name "Pin_8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
+(symbol (lib_id "Connector_Generic:Conn_01x02") (at 25 30 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 1529ec36-8fe6-49fe-a068-11d132aa7d46) (property "Reference" "J1" (at 29 27 0) (effects (font (size 1.27 1.27)))) (property "Value" "IN1" (at 29 30 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 25 30 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "J1") (unit 1)))) )
+(label "IN1" (at 19.9200 30.0000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid cfb31380-503c-488f-a883-210aff5d866f))
+(label "GND" (at 19.9200 32.5400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 2363158f-712c-4071-aad2-eda2f88931a8))
+(symbol (lib_id "Device:R") (at 77 30 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 14b5f616-f64d-47e3-a9ce-62229e1c3f37) (property "Reference" "R1" (at 81 27 0) (effects (font (size 1.27 1.27)))) (property "Value" "10k" (at 81 30 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 77 30 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "R1") (unit 1)))) )
+(label "IN1" (at 77.0000 26.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 2cc782f0-533b-4953-b22b-cdd6e11e634f))
+(label "DIV1" (at 77.0000 33.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 81a2bd1e-3324-4458-8413-f44d229fec7a))
+(symbol (lib_id "Device:R") (at 129 30 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid c6f05e2c-c51b-45b1-a4e0-36966950281c) (property "Reference" "R2" (at 133 27 0) (effects (font (size 1.27 1.27)))) (property "Value" "20k" (at 133 30 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 129 30 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "R2") (unit 1)))) )
+(label "DIV1" (at 129.0000 26.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 2e60fcfe-a2c7-4942-a131-edb4bfd56e4a))
+(label "GND" (at 129.0000 33.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 7efffeca-2ce8-4d5c-b8fc-5f22af7d608d))
+(symbol (lib_id "Device:R") (at 181 30 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid c2122508-c37d-40f2-8fa8-e09ea9227d7e) (property "Reference" "R3" (at 185 27 0) (effects (font (size 1.27 1.27)))) (property "Value" "1k" (at 185 30 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 181 30 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "R3") (unit 1)))) )
+(label "DIV1" (at 181.0000 26.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 58e3f9c8-df77-40eb-b9be-771bdfddf6de))
+(label "OUT1" (at 181.0000 33.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 1d3b10e8-ad27-48bf-8288-231abe6a56f4))
+(symbol (lib_id "Device:C") (at 233 30 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 63248645-bf82-4c8c-adb2-875a07b64e6b) (property "Reference" "C1" (at 237 27 0) (effects (font (size 1.27 1.27)))) (property "Value" "100n" (at 237 30 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 233 30 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "C1") (unit 1)))) )
+(label "OUT1" (at 233.0000 26.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid ef00de50-d0dc-4482-bbee-a1d9deb43a05))
+(label "GND" (at 233.0000 33.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 8f5c377d-aee9-4325-9e90-c54ef01442e7))
+(symbol (lib_id "Connector:TestPoint") (at 285 30 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 8b73b07c-c115-43a8-9be2-317cb1aea8bc) (property "Reference" "TP1" (at 289 27 0) (effects (font (size 1.27 1.27)))) (property "Value" "OUT1" (at 289 30 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 285 30 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "TP1") (unit 1)))) )
+(label "OUT1" (at 285.0000 30.0000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid cf6ab2e2-b533-42e5-898a-56fbcc61b487))
+(symbol (lib_id "Connector_Generic:Conn_01x02") (at 337 30 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid cb36f08e-8562-4dc9-923f-e4af65d705e9) (property "Reference" "J2" (at 341 27 0) (effects (font (size 1.27 1.27)))) (property "Value" "IN2" (at 341 30 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 337 30 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "J2") (unit 1)))) )
+(label "IN2" (at 331.9200 30.0000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 6b5e5b64-ccbc-46dd-b005-120204193966))
+(label "GND" (at 331.9200 32.5400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 05a6e60d-a670-4cbc-a178-da2227a77403))
+(symbol (lib_id "Device:R") (at 25 73 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 193aa1ec-cd8d-452a-bccc-d28fe3fda505) (property "Reference" "R4" (at 29 70 0) (effects (font (size 1.27 1.27)))) (property "Value" "10k" (at 29 73 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 25 73 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "R4") (unit 1)))) )
+(label "IN2" (at 25.0000 69.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 482680e5-3690-423f-9370-76f69404bb10))
+(label "DIV2" (at 25.0000 76.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 412540e6-8b89-4809-8db8-1d057af5bcb8))
+(symbol (lib_id "Device:R") (at 77 73 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid e4847604-c028-4e96-b28b-60388f73c9c8) (property "Reference" "R5" (at 81 70 0) (effects (font (size 1.27 1.27)))) (property "Value" "20k" (at 81 73 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 77 73 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "R5") (unit 1)))) )
+(label "DIV2" (at 77.0000 69.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 583024b3-b279-43b3-bd6a-e993f146645a))
+(label "GND" (at 77.0000 76.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid dc3e9444-e8b8-42db-aa31-64e73635f45a))
+(symbol (lib_id "Device:R") (at 129 73 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid cfdc2174-b291-45fc-81da-4592f1c9549a) (property "Reference" "R6" (at 133 70 0) (effects (font (size 1.27 1.27)))) (property "Value" "1k" (at 133 73 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 129 73 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "R6") (unit 1)))) )
+(label "DIV2" (at 129.0000 69.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 594e9138-c25b-476e-98a0-7fe871403a7b))
+(label "OUT2" (at 129.0000 76.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid cbfae2ad-728f-4d4b-9537-8129e17dc10c))
+(symbol (lib_id "Device:C") (at 181 73 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid f25fa325-7f2b-45b3-8088-bf4766ee337f) (property "Reference" "C2" (at 185 70 0) (effects (font (size 1.27 1.27)))) (property "Value" "100n" (at 185 73 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 181 73 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "C2") (unit 1)))) )
+(label "OUT2" (at 181.0000 69.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 5b4529d4-24f7-45c8-9876-06a64f4b93e7))
+(label "GND" (at 181.0000 76.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 30b3cb1a-56a1-42af-bb2a-cbc021e8e9ef))
+(symbol (lib_id "Connector:TestPoint") (at 233 73 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 7fcfcd1f-c33f-4f9f-9496-a3fdbe77ab28) (property "Reference" "TP2" (at 237 70 0) (effects (font (size 1.27 1.27)))) (property "Value" "OUT2" (at 237 73 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 233 73 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "TP2") (unit 1)))) )
+(label "OUT2" (at 233.0000 73.0000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 1184d654-f935-4988-9a7e-3938b5d45c92))
+(symbol (lib_id "Connector_Generic:Conn_01x02") (at 285 73 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 6fce7dc1-c328-4246-b887-cb1019b2b58a) (property "Reference" "J3" (at 289 70 0) (effects (font (size 1.27 1.27)))) (property "Value" "IN3" (at 289 73 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 285 73 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "J3") (unit 1)))) )
+(label "IN3" (at 279.9200 73.0000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 92050d29-d2d6-4a91-b612-2c176ee3c5ac))
+(label "GND" (at 279.9200 75.5400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid daacd296-6d72-4149-bb9b-529be0acff96))
+(symbol (lib_id "Device:R") (at 337 73 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 270375c3-6341-4cac-a471-f56fadb795c3) (property "Reference" "R7" (at 341 70 0) (effects (font (size 1.27 1.27)))) (property "Value" "10k" (at 341 73 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 337 73 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "R7") (unit 1)))) )
+(label "IN3" (at 337.0000 69.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid e043a4a7-1e5d-4327-ba15-51a1facdd707))
+(label "DIV3" (at 337.0000 76.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid c469372a-dc09-4662-8b94-08eca77ddb2e))
+(symbol (lib_id "Device:R") (at 25 116 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 7dae4d6b-ebd5-4ddd-bfde-8bacb8ec534b) (property "Reference" "R8" (at 29 113 0) (effects (font (size 1.27 1.27)))) (property "Value" "20k" (at 29 116 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 25 116 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "R8") (unit 1)))) )
+(label "DIV3" (at 25.0000 112.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid fc34c6ed-49ce-4f3a-b5f3-e7b0dc04f4d1))
+(label "GND" (at 25.0000 119.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 1ce1c808-301d-49d9-b526-8b1900507081))
+(symbol (lib_id "Device:R") (at 77 116 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid c62bdcb1-1552-4b6b-9808-8bbd56340521) (property "Reference" "R9" (at 81 113 0) (effects (font (size 1.27 1.27)))) (property "Value" "1k" (at 81 116 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 77 116 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "R9") (unit 1)))) )
+(label "DIV3" (at 77.0000 112.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid a2ace747-60a7-438b-9f79-4371847311fa))
+(label "OUT3" (at 77.0000 119.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 38090775-ade9-4bac-8529-df06a27335de))
+(symbol (lib_id "Device:C") (at 129 116 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 7c99d1d6-da05-4365-a53c-d7d46f0358a0) (property "Reference" "C3" (at 133 113 0) (effects (font (size 1.27 1.27)))) (property "Value" "100n" (at 133 116 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 129 116 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "C3") (unit 1)))) )
+(label "OUT3" (at 129.0000 112.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 4f6767dd-e78a-4f08-888d-3fe905739374))
+(label "GND" (at 129.0000 119.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 3728f1eb-45c3-4626-a6bd-644c629afbd0))
+(symbol (lib_id "Connector:TestPoint") (at 181 116 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 87bb589f-15b1-4738-96a7-f23ca16ba585) (property "Reference" "TP3" (at 185 113 0) (effects (font (size 1.27 1.27)))) (property "Value" "OUT3" (at 185 116 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 181 116 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "TP3") (unit 1)))) )
+(label "OUT3" (at 181.0000 116.0000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid de92c8f1-12b6-46c0-8e3a-a544c5f259b3))
+(symbol (lib_id "Connector_Generic:Conn_01x02") (at 233 116 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid caaed869-d5ee-479e-819a-e8649bffaa42) (property "Reference" "J4" (at 237 113 0) (effects (font (size 1.27 1.27)))) (property "Value" "IN4" (at 237 116 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 233 116 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "J4") (unit 1)))) )
+(label "IN4" (at 227.9200 116.0000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid b72f38e4-5692-4ce1-bd9b-7681c2c0eba2))
+(label "GND" (at 227.9200 118.5400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid f8c607e7-0144-439d-b75d-d26eef88bfca))
+(symbol (lib_id "Device:R") (at 285 116 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 0eb57d3e-deb5-4a47-a50d-3db9cda7606a) (property "Reference" "R10" (at 289 113 0) (effects (font (size 1.27 1.27)))) (property "Value" "10k" (at 289 116 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 285 116 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "R10") (unit 1)))) )
+(label "IN4" (at 285.0000 112.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 564f5a40-9ceb-4acf-9f6a-69d00e955d74))
+(label "DIV4" (at 285.0000 119.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid abb8f6b8-b6bd-40b2-aae2-b6abed575bcc))
+(symbol (lib_id "Device:R") (at 337 116 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 4c2af3a4-022e-4062-83c1-68fa880dfafd) (property "Reference" "R11" (at 341 113 0) (effects (font (size 1.27 1.27)))) (property "Value" "20k" (at 341 116 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 337 116 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "R11") (unit 1)))) )
+(label "DIV4" (at 337.0000 112.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid fc0d40b8-c5a8-48d9-b68b-62c25e0e3d44))
+(label "GND" (at 337.0000 119.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 9e84faca-ad25-4e28-b48d-9edaba187476))
+(symbol (lib_id "Device:R") (at 25 159 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 01759a02-d672-4e16-90fb-0d6123753172) (property "Reference" "R12" (at 29 156 0) (effects (font (size 1.27 1.27)))) (property "Value" "1k" (at 29 159 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 25 159 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "R12") (unit 1)))) )
+(label "DIV4" (at 25.0000 155.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid b6062dbb-e6c4-4c15-99f8-8b7730436706))
+(label "OUT4" (at 25.0000 162.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 6b2103b8-a370-4558-88f9-d03fc6b84b1c))
+(symbol (lib_id "Device:C") (at 77 159 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid c10a14dd-44cd-42b6-96e6-3908b4443314) (property "Reference" "C4" (at 81 156 0) (effects (font (size 1.27 1.27)))) (property "Value" "100n" (at 81 159 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 77 159 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "C4") (unit 1)))) )
+(label "OUT4" (at 77.0000 155.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid ed39605d-9fee-4656-a4bd-5139e72df386))
+(label "GND" (at 77.0000 162.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 3c131175-04e6-426c-8cee-cde3ce69bb38))
+(symbol (lib_id "Connector:TestPoint") (at 129 159 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 5094f063-84f4-4de6-b578-bd38a3495b47) (property "Reference" "TP4" (at 133 156 0) (effects (font (size 1.27 1.27)))) (property "Value" "OUT4" (at 133 159 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 129 159 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "TP4") (unit 1)))) )
+(label "OUT4" (at 129.0000 159.0000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 3ef6f7d7-1b50-4b71-bc58-c9569076e4dd))
+(symbol (lib_id "Connector_Generic:Conn_01x02") (at 181 159 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 65e6ee76-edac-43bc-b936-6103c7292153) (property "Reference" "J5" (at 185 156 0) (effects (font (size 1.27 1.27)))) (property "Value" "IN5" (at 185 159 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 181 159 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "J5") (unit 1)))) )
+(label "IN5" (at 175.9200 159.0000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid d4f41e77-239f-4e34-a69e-9114f9bb959f))
+(label "GND" (at 175.9200 161.5400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 28f38eef-7bc1-4d24-ac18-5be2bfed8e88))
+(symbol (lib_id "Device:R") (at 233 159 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 73ec1ef7-ef82-420c-b7a9-bbfec7cdd4b4) (property "Reference" "R13" (at 237 156 0) (effects (font (size 1.27 1.27)))) (property "Value" "10k" (at 237 159 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 233 159 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "R13") (unit 1)))) )
+(label "IN5" (at 233.0000 155.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 044f7917-3803-4786-83d8-7afaa5d83115))
+(label "DIV5" (at 233.0000 162.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 17f83bbe-dda0-48d6-91f7-4705168f9daf))
+(symbol (lib_id "Device:R") (at 285 159 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 903aa104-2875-4a3f-95d0-52ef04f66263) (property "Reference" "R14" (at 289 156 0) (effects (font (size 1.27 1.27)))) (property "Value" "20k" (at 289 159 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 285 159 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "R14") (unit 1)))) )
+(label "DIV5" (at 285.0000 155.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 1e2a7010-976c-4196-8c0b-fef5337b04bd))
+(label "GND" (at 285.0000 162.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid c4a30618-a189-4936-bbd6-3674b1c772cf))
+(symbol (lib_id "Device:R") (at 337 159 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 0d21bd37-767c-4561-81c1-74f5317140c0) (property "Reference" "R15" (at 341 156 0) (effects (font (size 1.27 1.27)))) (property "Value" "1k" (at 341 159 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 337 159 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "R15") (unit 1)))) )
+(label "DIV5" (at 337.0000 155.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid f726088b-a6ad-49c1-b418-69436969f719))
+(label "OUT5" (at 337.0000 162.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 67493840-288b-477c-ac43-62941826f854))
+(symbol (lib_id "Device:C") (at 25 202 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 18657ec9-1e92-4fd0-924b-20a5c1c2e11a) (property "Reference" "C5" (at 29 199 0) (effects (font (size 1.27 1.27)))) (property "Value" "100n" (at 29 202 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 25 202 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "C5") (unit 1)))) )
+(label "OUT5" (at 25.0000 198.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid febd6fb4-0e56-4707-8ed8-8a302e899a47))
+(label "GND" (at 25.0000 205.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 15a35d70-badf-4a5a-83ef-d3caffd667aa))
+(symbol (lib_id "Connector:TestPoint") (at 77 202 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 90ce946f-03e8-486c-9850-7f3499b98c7a) (property "Reference" "TP5" (at 81 199 0) (effects (font (size 1.27 1.27)))) (property "Value" "OUT5" (at 81 202 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 77 202 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "TP5") (unit 1)))) )
+(label "OUT5" (at 77.0000 202.0000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 5a442a07-0186-477b-86ea-55b027cf293c))
+(symbol (lib_id "Connector_Generic:Conn_01x02") (at 129 202 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 7f92ed53-b126-4d86-a5e7-6f82fe97cd9c) (property "Reference" "J6" (at 133 199 0) (effects (font (size 1.27 1.27)))) (property "Value" "IN6" (at 133 202 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 129 202 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "J6") (unit 1)))) )
+(label "IN6" (at 123.9200 202.0000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 70b2cbe8-2975-4871-a2ed-5bcb4ccebd92))
+(label "GND" (at 123.9200 204.5400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 1d5c36da-c722-41e0-9c01-e8d16697b0de))
+(symbol (lib_id "Device:R") (at 181 202 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 211aba2c-86be-4205-ab9b-8248a48e5828) (property "Reference" "R16" (at 185 199 0) (effects (font (size 1.27 1.27)))) (property "Value" "10k" (at 185 202 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 181 202 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "R16") (unit 1)))) )
+(label "IN6" (at 181.0000 198.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 725eb6db-946c-4c57-9416-8fcf7b3fdf70))
+(label "DIV6" (at 181.0000 205.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 70e1e4a5-cecb-40a0-a9cf-df1ec1230127))
+(symbol (lib_id "Device:R") (at 233 202 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 102a7d73-29c5-48a9-a2f2-f91eb5b21f4a) (property "Reference" "R17" (at 237 199 0) (effects (font (size 1.27 1.27)))) (property "Value" "20k" (at 237 202 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 233 202 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "R17") (unit 1)))) )
+(label "DIV6" (at 233.0000 198.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 9d3bd0a8-ec4d-4a48-bdf4-809d66e2db66))
+(label "GND" (at 233.0000 205.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid c446457f-75d5-4baf-8908-935643938389))
+(symbol (lib_id "Device:R") (at 285 202 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 14eb81ba-cab8-409d-9981-d2b6a7baad24) (property "Reference" "R18" (at 289 199 0) (effects (font (size 1.27 1.27)))) (property "Value" "1k" (at 289 202 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 285 202 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "R18") (unit 1)))) )
+(label "DIV6" (at 285.0000 198.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 4b908b9f-9c93-48d9-972b-c5422584c0b2))
+(label "OUT6" (at 285.0000 205.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 911a383e-69e6-475d-ab9f-afbd603f368a))
+(symbol (lib_id "Device:C") (at 337 202 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid dbed7a7e-42e3-4115-aa4a-72d460654f4d) (property "Reference" "C6" (at 341 199 0) (effects (font (size 1.27 1.27)))) (property "Value" "100n" (at 341 202 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 337 202 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "C6") (unit 1)))) )
+(label "OUT6" (at 337.0000 198.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 45931fee-a805-4177-81ba-4943ce8ee9c2))
+(label "GND" (at 337.0000 205.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 7e2d7306-ed15-44bf-ab51-f0799f8cd3e5))
+(symbol (lib_id "Connector:TestPoint") (at 25 245 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 3bfdafd7-c4f9-4493-8e84-c12c91f12d76) (property "Reference" "TP6" (at 29 242 0) (effects (font (size 1.27 1.27)))) (property "Value" "OUT6" (at 29 245 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 25 245 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "TP6") (unit 1)))) )
+(label "OUT6" (at 25.0000 245.0000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid dda752f5-09ef-4148-a3f5-194cea184aed))
+(symbol (lib_id "Connector_Generic:Conn_01x08") (at 77 245 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 18935b57-cc68-43f7-a116-aba6a05cfea3) (property "Reference" "J7" (at 81 242 0) (effects (font (size 1.27 1.27)))) (property "Value" "OUTPUTS" (at 81 245 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" (at 77 245 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "J7") (unit 1)))) )
+(label "OUT1" (at 71.9200 237.3800 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 0c48cc5b-ff12-47f7-8679-9da4453f82cb))
+(label "OUT2" (at 71.9200 239.9200 0) (effects (font (size 1 1)) (justify left bottom)) (uuid f76cc665-a41c-464b-8430-5f27122b5a50))
+(label "OUT3" (at 71.9200 242.4600 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 5f3c5852-76e1-4ff2-9c4b-29460a2d8510))
+(label "OUT4" (at 71.9200 245.0000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid ac5222f6-acf1-4718-975b-773ccc69c74f))
+(label "OUT5" (at 71.9200 247.5400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 1beb59eb-454f-4bb5-81f8-4f36d84dd59b))
+(label "OUT6" (at 71.9200 250.0800 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 16b9e756-2520-4e2c-a55f-d92347a7935d))
+(label "GND" (at 71.9200 252.6200 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 4ebb9798-f5ca-4bfc-8912-34e37070fb14))
+(label "GND" (at 71.9200 255.1600 0) (effects (font (size 1 1)) (justify left bottom)) (uuid a7e54765-6891-41fd-8560-b29a8d97fcb1))
+(symbol (lib_id "Connector:TestPoint") (at 129 245 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 565e41e1-bda0-4b3c-9f05-a8d0f2ed2517) (property "Reference" "TP7" (at 133 242 0) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 133 245 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 129 245 0) (effects (font (size 1.27 1.27)) (hide yes))) (instances (project "analog_input" (path "/d3b8d1c8-4d62-4950-8e91-3c2cf769ef4f" (reference "TP7") (unit 1)))) )
+(label "GND" (at 129.0000 245.0000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid ed808d07-5908-40fa-9368-e9614023fde6))
+)

@@ -1,0 +1,535 @@
+(kicad_sch (version 20250114) (generator "pcb_benchmark_codegen") (uuid "36a0679a-1629-4144-9541-f3a865351bbb") (paper "A4") (lib_symbols
+(symbol "Connector_Generic:Conn_01x02"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x02_1_1"
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:LED"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "LED diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "LED_0_1"
+			(polyline
+				(pts
+					(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LED_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
+(symbol (lib_id "Connector_Generic:Conn_01x02") (at 50.8 50.8 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "6436652c-08b9-4c05-9a7d-c61064b15cb1")
+(property "Reference" "J1" (at 55.879999999999995 46.989999999999995 0) (effects (font (size 1.27 1.27))))
+(property "Value" "5V INPUT" (at 55.879999999999995 50.8 0) (effects (font (size 1.27 1.27))))
+(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 50.8 50.8 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(pin "1" (uuid "4f6fabfd-225d-433d-a0d6-a10407f5e820"))
+(pin "2" (uuid "c3325913-5083-449d-a919-e1b99296498b"))
+(instances (project "indicator" (path "/36a0679a-1629-4144-9541-f3a865351bbb" (reference "J1") (unit 1)))) )
+(symbol (lib_id "Device:R") (at 81.28 50.8 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "ac23dfdb-8c8b-4356-b7bf-a7db5b0cec5f")
+(property "Reference" "R1" (at 86.36 46.989999999999995 0) (effects (font (size 1.27 1.27))))
+(property "Value" "1k" (at 86.36 50.8 0) (effects (font (size 1.27 1.27))))
+(property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 81.28 50.8 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(pin "1" (uuid "fa446142-a4fa-413b-a305-92ba185cfda8"))
+(pin "2" (uuid "3182b91f-e6db-45f5-b55b-eebc8f9937bc"))
+(instances (project "indicator" (path "/36a0679a-1629-4144-9541-f3a865351bbb" (reference "R1") (unit 1)))) )
+(symbol (lib_id "Device:LED") (at 111.76 50.8 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "af56218f-4bf6-43fa-9b2b-d71c953a8c56")
+(property "Reference" "D1" (at 116.84 46.989999999999995 0) (effects (font (size 1.27 1.27))))
+(property "Value" "RED" (at 116.84 50.8 0) (effects (font (size 1.27 1.27))))
+(property "Footprint" "LED_SMD:LED_0805_2012Metric" (at 111.76 50.8 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(pin "1" (uuid "b0a4b226-2dc4-49fb-b2a7-7aa77472a80c"))
+(pin "2" (uuid "1b579d28-e21b-4dd2-90bc-4503b4428dd6"))
+(instances (project "indicator" (path "/36a0679a-1629-4144-9541-f3a865351bbb" (reference "D1") (unit 1)))) )
+(wire (pts (xy 45.72 50.8) (xy 38.1 50.8)) (stroke (width 0) (type default)) (uuid "78bcca3e-393b-4b56-a809-91c5d5eee76f"))
+(label "+5V" (at 38.1 50.8 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "01a0dedc-199e-4909-9c26-641cd688d94a"))
+(wire (pts (xy 45.72 53.34) (xy 38.1 53.34)) (stroke (width 0) (type default)) (uuid "3b360d1f-954d-48f7-9af3-bd99d83ec41b"))
+(label "GND" (at 38.1 53.34 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a0c3796b-3804-4295-a82b-b3bc805d7300"))
+(wire (pts (xy 81.28 46.99) (xy 81.28 40.64)) (stroke (width 0) (type default)) (uuid "2dee6e80-514d-4942-a8bf-e0bf7c661328"))
+(label "+5V" (at 81.28 40.64 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7dca1fd2-6080-46f7-b8cf-788be87f5e02"))
+(wire (pts (xy 81.28 54.61) (xy 81.28 60.96)) (stroke (width 0) (type default)) (uuid "09009f7d-83f8-41a7-a808-d050455e7d16"))
+(label "LED_A" (at 81.28 60.96 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3b3f638f-374b-4257-9941-6506e1163d7c"))
+(wire (pts (xy 107.95 50.8) (xy 100.33 50.8)) (stroke (width 0) (type default)) (uuid "fdb6a00c-4724-4801-9984-cbe1f91d9da5"))
+(label "GND" (at 100.33 50.8 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "95f0f601-7198-4c3d-9a9d-d3eb28f232c5"))
+(wire (pts (xy 115.57 50.8) (xy 123.19 50.8)) (stroke (width 0) (type default)) (uuid "0dc746a3-6e23-48dd-9c8b-3241c5d5bb08"))
+(label "LED_A" (at 123.19 50.8 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "9651575c-4873-4381-b5f9-e6040821180a"))
+(embedded_fonts no))

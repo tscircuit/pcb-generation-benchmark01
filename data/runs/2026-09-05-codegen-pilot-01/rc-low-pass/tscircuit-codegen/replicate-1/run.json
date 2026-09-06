@@ -1,0 +1,100 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "2026-09-05-codegen-pilot-01",
+  "run_id": "2026-09-05-codegen-pilot-01--rc-low-pass--tscircuit-codegen--r1",
+  "prompt_id": "rc-low-pass",
+  "prompt_revision": 1,
+  "prompt_sha256": "eda1af0a7aa0fba25e862b7795c61a6137ad61d76285ec39f641765016bb6541",
+  "method": "tscircuit-codegen",
+  "replicate": 1,
+  "status": "completed",
+  "repository_commit": "a9d1e4f7624451818322ebec60f5e12dd4b3f9a6",
+  "started_at": "2026-09-05T17:38:48.720264+00:00",
+  "ended_at": "2026-09-05T17:43:29.409511+00:00",
+  "model": {
+    "provider": null,
+    "name": null,
+    "reasoning_effort": null,
+    "sampling": {}
+  },
+  "environment": {
+    "tool_versions": {
+      "tsci": "0.0.2462",
+      "kicad-cli": "10.0.6",
+      "bun": "1.3.14",
+      "python": "3.9.6"
+    },
+    "os": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "budget": {
+    "wall_time_seconds": 900,
+    "max_tokens": null,
+    "max_tool_calls": null
+  },
+  "usage": {
+    "wall_time_seconds": 280.689247,
+    "input_tokens": null,
+    "output_tokens": null,
+    "tool_calls": null,
+    "cost_usd": null
+  },
+  "attempts": [
+    {
+      "attempt_id": "attempt-01",
+      "status": "completed",
+      "source": "artifacts/attempt-01/index.circuit.tsx",
+      "diagnostics": [
+        "logs/attempt-01-netlist.log",
+        "logs/attempt-01-schematic-placement.log",
+        "logs/attempt-01-placement.log",
+        "logs/attempt-01-build.log",
+        "logs/attempt-01-shorts.log"
+      ]
+    },
+    {
+      "attempt_id": "attempt-02",
+      "status": "completed",
+      "source": "artifacts/attempt-02/index.circuit.tsx",
+      "diagnostics": [
+        "logs/attempt-02-netlist.log",
+        "logs/attempt-02-schematic-placement.log",
+        "logs/attempt-02-placement.log",
+        "logs/attempt-02-build.log",
+        "logs/attempt-02-shorts.log",
+        "logs/attempt-02-geometry-audit.log",
+        "logs/attempt-02-render-schematic.log"
+      ]
+    }
+  ],
+  "artifacts": [
+    "artifacts/README.md",
+    "artifacts/attempt-02/geometry-audit.json",
+    "artifacts/attempt-02/environment.bun.lock",
+    "artifacts/attempt-02/package.json",
+    "artifacts/attempt-02/index.circuit.tsx",
+    "artifacts/attempt-02/dist/index/pcb.png",
+    "artifacts/attempt-02/dist/index/schematic.svg",
+    "artifacts/attempt-02/dist/index/schematic.png",
+    "artifacts/attempt-02/dist/index/circuit.json",
+    "artifacts/attempt-02/dist/index/pcb.svg",
+    "artifacts/attempt-02/.tscircuit/cache/64e645c44e-93a284460b6f84ea50fd7df0b2fda9b8.json",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-9f603b87a601b12dc88e706884a0f5dd.json",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-f42b00ec23fc22eb47b53b7aad96d123.json",
+    "artifacts/attempt-02/.tscircuit/cache/_pinrow2__-9ccaf4a0ca16ec5b19b2aa4899f732e6.json",
+    "artifacts/attempt-02/.tscircuit/cache/_pinrow2__-4be5185a4ac4e6d0c6040093ab8a40d2.json",
+    "artifacts/attempt-01/environment.bun.lock",
+    "artifacts/attempt-01/package.json",
+    "artifacts/attempt-01/index.circuit.tsx",
+    "artifacts/attempt-01/dist/index/pcb.png",
+    "artifacts/attempt-01/dist/index/schematic.svg",
+    "artifacts/attempt-01/dist/index/circuit.json",
+    "artifacts/attempt-01/dist/index/pcb.svg",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-9f603b87a601b12dc88e706884a0f5dd.json",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-f42b00ec23fc22eb47b53b7aad96d123.json",
+    "artifacts/attempt-01/.tscircuit/cache/_pinrow2__-9ccaf4a0ca16ec5b19b2aa4899f732e6.json",
+    "artifacts/attempt-01/.tscircuit/cache/3812d0c708-b866a29437db5d5f1c5be39ed5709d6a.json",
+    "artifacts/attempt-01/.tscircuit/cache/_pinrow2__-4be5185a4ac4e6d0c6040093ab8a40d2.json"
+  ],
+  "failure": null,
+  "notes": "Exploratory pilot; GUI method excluded by user. Read result.json and raw validation logs for limitations."
+}

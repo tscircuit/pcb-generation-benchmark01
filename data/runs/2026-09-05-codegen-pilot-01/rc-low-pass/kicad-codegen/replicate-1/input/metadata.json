@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1",
+  "prompt_id": "rc-low-pass",
+  "revision": 1,
+  "title": "Single-stage RC low-pass filter",
+  "labels": [
+    "easy",
+    "rc-filter",
+    "analog",
+    "signal-conditioning"
+  ],
+  "status": "draft",
+  "split": "unassigned",
+  "family": "rc-filter",
+  "difficulty": "easy",
+  "deliverable_scope": "both",
+  "prompt_file": "prompt.md",
+  "prompt_sha256": "eda1af0a7aa0fba25e862b7795c61a6137ad61d76285ec39f641765016bb6541",
+  "assets": [],
+  "constraints": {
+    "board_width_mm": 35,
+    "board_height_mm": 25,
+    "copper_layers": 2,
+    "min_clearance_mm": 0.25,
+    "min_signal_trace_width_mm": 0.25
+  },
+  "acceptance_criteria": [
+    {
+      "criterion_id": "req-01",
+      "requirement": "Use a rectangular 35 mm \u00d7 25 mm board outline (dimension tolerance 0.1 mm) with two copper layers."
+    },
+    {
+      "criterion_id": "req-02",
+      "requirement": "Use J1 with pin 1 SIGNAL_IN and pin 2 GND, and J2 with pin 1 SIGNAL_OUT and pin 2 GND. This is a passive filter for signals between 0 V and 3.3 V."
+    },
+    {
+      "criterion_id": "req-03",
+      "requirement": "Connect R1 = 1 kohm from SIGNAL_IN to SIGNAL_OUT and C1 = 100 nF from SIGNAL_OUT to GND. Do not connect SIGNAL_IN directly to SIGNAL_OUT."
+    },
+    {
+      "criterion_id": "req-04",
+      "requirement": "Place C1 within 5 mm of J2, measured between footprint centres. Place J1 within 5 mm of the left edge and J2 within 5 mm of the right edge, measured from footprint centres."
+    },
+    {
+      "criterion_id": "deliverables",
+      "requirement": "Editable schematic and fully placed and routed PCB are supplied with readable entry files and a README documenting component choices and unresolved requirements."
+    },
+    {
+      "criterion_id": "common-layout",
+      "requirement": "Header pitch, passive packages, component pin mapping, silkscreen, board containment, copper clearance, trace widths, and complete routing satisfy the common prompt requirements."
+    }
+  ],
+  "source": {
+    "type": "original",
+    "description": "Authored for this benchmark; draft awaiting review."
+  },
+  "license": null
+}

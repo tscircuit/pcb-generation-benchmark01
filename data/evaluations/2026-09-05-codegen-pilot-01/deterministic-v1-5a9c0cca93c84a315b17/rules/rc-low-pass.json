@@ -1,0 +1,367 @@
+{
+  "applicability": {
+    "connectivity": true,
+    "deliverable_integrity": true,
+    "functional_requirements": true,
+    "physical_constraints": true
+  },
+  "expected_components": [
+    {
+      "kind": "header",
+      "pins": {
+        "1": "IN",
+        "2": "GND"
+      },
+      "ref": "J1",
+      "role": "J1",
+      "value": null
+    },
+    {
+      "kind": "header",
+      "pins": {
+        "1": "OUT",
+        "2": "GND"
+      },
+      "ref": "J2",
+      "role": "J2",
+      "value": null
+    },
+    {
+      "kind": "resistor",
+      "pins": {
+        "1": "IN",
+        "2": "OUT"
+      },
+      "ref": "R1",
+      "role": "R1",
+      "value": 1000
+    },
+    {
+      "kind": "capacitor",
+      "pins": {
+        "1": "OUT",
+        "2": "GND"
+      },
+      "ref": "C1",
+      "role": "C1",
+      "value": 1e-07
+    }
+  ],
+  "prompt_id": "rc-low-pass",
+  "prompt_revision": 1,
+  "prompt_sha256": "eda1af0a7aa0fba25e862b7795c61a6137ad61d76285ec39f641765016bb6541",
+  "retrospective": true,
+  "tests": [
+    {
+      "category": "functional_requirements",
+      "critical": true,
+      "id": "required-components",
+      "requirement": "Required electronic component types and counts are present.",
+      "rule": {
+        "op": "component_counts"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "functional_requirements",
+      "critical": true,
+      "id": "passive-values",
+      "requirement": "All requested resistor and capacitor nominal values match the prompt.",
+      "rule": {
+        "op": "values"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "id": "topology",
+      "requirement": "Required logical net topology and connector pin assignments match, allowing interchangeable passive terminals and unconstrained references.",
+      "rule": {
+        "op": "topology"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "id": "schematic-pcb-net-agreement",
+      "requirement": "Schematic-export and PCB assigned-net partitions agree.",
+      "rule": {
+        "op": "net_agreement"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "id": "routed-copper",
+      "requirement": "Every required pad is joined by continuous copper to other pads on its net.",
+      "rule": {
+        "op": "routing"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "id": "no-copper-shorts",
+      "requirement": "Different assigned nets do not touch in supported copper geometry.",
+      "rule": {
+        "op": "shorts"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "board-size",
+      "requirement": "Requested board dimensions within 0.1 mm.",
+      "rule": {
+        "height_mm": 25,
+        "op": "board_size",
+        "tolerance_mm": 0.1,
+        "width_mm": 35
+      },
+      "source_criteria": [
+        "req-01"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "layers",
+      "requirement": "Two copper layers.",
+      "rule": {
+        "count": 2,
+        "op": "layers"
+      },
+      "source_criteria": [
+        "req-01"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": true,
+      "id": "trace-width",
+      "requirement": "All copper track widths at least 0.25 mm.",
+      "rule": {
+        "minimum_mm": 0.25,
+        "op": "trace_width"
+      },
+      "source_criteria": [
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": true,
+      "id": "copper-clearance",
+      "requirement": "At least 0.25 mm clearance between separate-net copper outer envelopes.",
+      "rule": {
+        "minimum_mm": 0.25,
+        "op": "clearance"
+      },
+      "source_criteria": [
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "component-containment",
+      "requirement": "Declared component/pad/courtyard bounds remain inside the board.",
+      "rule": {
+        "op": "containment"
+      },
+      "source_criteria": [
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "header-pitch",
+      "requirement": "Through-hole header pin pitch is 2.54 mm.",
+      "rule": {
+        "op": "header_pitch",
+        "pitch_mm": 2.54,
+        "tolerance_mm": 0.01
+      },
+      "source_criteria": [
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "passive-packages",
+      "requirement": "Resistor/capacitor and requested LED pad geometry is compatible with the documented 0805 recognition contract.",
+      "rule": {
+        "op": "packages_0805"
+      },
+      "source_criteria": [
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "signal-markings",
+      "requirement": "Connector pin 1 and requested signal/part markings are correctly associated and readable.",
+      "rule": {
+        "op": "unknown",
+        "reason": "Automated presence of text does not verify pin/signal association, polarity, and readable silkscreen placement."
+      },
+      "source_criteria": [
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "layout-01",
+      "requirement": "Prompt-specific placement/routing constraint: {\"maximum_mm\": 5, \"op\": \"edge\", \"ref\": \"J1\", \"side\": \"left\"}",
+      "rule": {
+        "maximum_mm": 5,
+        "op": "edge",
+        "ref": "J1",
+        "side": "left"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "layout-02",
+      "requirement": "Prompt-specific placement/routing constraint: {\"maximum_mm\": 5, \"op\": \"edge\", \"ref\": \"J2\", \"side\": \"right\"}",
+      "rule": {
+        "maximum_mm": 5,
+        "op": "edge",
+        "ref": "J2",
+        "side": "right"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "layout-03",
+      "requirement": "Prompt-specific placement/routing constraint: {\"a\": \"C1\", \"b\": \"J2\", \"maximum_mm\": 5, \"op\": \"distance\"}",
+      "rule": {
+        "a": "C1",
+        "b": "J2",
+        "maximum_mm": 5,
+        "op": "distance"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": true,
+      "id": "editable-artifacts",
+      "requirement": "Editable source/native files and parseable schematic/PCB artifacts are present.",
+      "rule": {
+        "op": "artifacts"
+      },
+      "source_criteria": [
+        "deliverables"
+      ]
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": false,
+      "id": "readme",
+      "requirement": "Nonempty README accompanies the generated artifacts.",
+      "rule": {
+        "op": "readme"
+      },
+      "source_criteria": [
+        "deliverables"
+      ]
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": false,
+      "id": "source-replay-and-documentation",
+      "requirement": "Source and generated artifacts agree, and component choices/unresolved requirements are documented.",
+      "rule": {
+        "op": "unknown",
+        "reason": "A read-only static audit does not prove source/build reproducibility, exported-netlist freshness, or the semantic completeness of README component/limitation documentation."
+      },
+      "source_criteria": [
+        "deliverables"
+      ]
+    }
+  ],
+  "version": "1.0.0",
+  "weights": {
+    "connectivity": 30,
+    "deliverable_integrity": 20,
+    "functional_requirements": 30,
+    "physical_constraints": 20
+  }
+}

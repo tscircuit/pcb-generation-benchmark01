@@ -1,0 +1,5 @@
+{
+  "check": "shorts",
+  "exit_code": 0,
+  "log": "logs/attempt-03-shorts.log"
+}

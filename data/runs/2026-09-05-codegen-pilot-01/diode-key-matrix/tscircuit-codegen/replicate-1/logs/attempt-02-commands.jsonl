@@ -1,0 +1,5 @@
+{"command": ["tsci", "check", "netlist", "index.circuit.tsx"], "exit_code": 0, "log": "logs/attempt-02-netlist.log"}
+{"command": ["tsci", "check", "schematic-placement", "index.circuit.tsx"], "exit_code": 0, "log": "logs/attempt-02-schematic-placement.log"}
+{"command": ["tsci", "check", "placement", "index.circuit.tsx"], "exit_code": 0, "log": "logs/attempt-02-placement.log"}
+{"command": ["tsci", "build", "index.circuit.tsx", "--svgs", "--pcb-png", "--disable-parts-engine", "--autorouter-timeout", "120s"], "exit_code": 0, "log": "logs/attempt-02-build.log"}
+{"command": ["tsci", "check", "shorts", "dist/index/circuit.json"], "exit_code": 0, "log": "logs/attempt-02-shorts.log"}

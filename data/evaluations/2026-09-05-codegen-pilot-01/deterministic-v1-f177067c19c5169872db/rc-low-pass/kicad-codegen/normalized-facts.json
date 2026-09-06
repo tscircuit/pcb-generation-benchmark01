@@ -1,0 +1,759 @@
+{
+  "board": {
+    "bounds": [
+      50.0,
+      -75.0,
+      85.0,
+      -50.0
+    ],
+    "height": 25.0,
+    "layers": 2,
+    "width": 35.0
+  },
+  "components": {
+    "C1": {
+      "bounds": [
+        76.3,
+        -62.25,
+        79.7,
+        -60.290000000000006
+      ],
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "kind": "capacitor",
+      "pads": [
+        {
+          "height": 1.45,
+          "hole": 0,
+          "pin": "1",
+          "shape": "roundrect",
+          "width": 1.0,
+          "x": 77.05,
+          "y": -61.27
+        },
+        {
+          "height": 1.45,
+          "hole": 0,
+          "pin": "2",
+          "shape": "roundrect",
+          "width": 1.0,
+          "x": 78.95,
+          "y": -61.27
+        }
+      ],
+      "part": "100nF",
+      "pcb_pins": {
+        "1": "/SIGNAL_OUT",
+        "2": "/GND"
+      },
+      "pins": {
+        "1": "/SIGNAL_OUT",
+        "2": "/GND"
+      },
+      "position": {
+        "x": 78.0,
+        "y": -61.27
+      },
+      "value": 1.0000000000000001e-07
+    },
+    "J1": {
+      "bounds": [
+        51.23,
+        -64.32,
+        54.77,
+        -58.23
+      ],
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "kind": "header",
+      "pads": [
+        {
+          "height": 1.7,
+          "hole": 1.0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.7,
+          "x": 53.0,
+          "y": -60.0
+        },
+        {
+          "height": 1.7,
+          "hole": 1.0,
+          "pin": "2",
+          "shape": "circle",
+          "width": 1.7,
+          "x": 53.0,
+          "y": -62.54
+        }
+      ],
+      "part": "SIGNAL_IN",
+      "pcb_pins": {
+        "1": "/SIGNAL_IN",
+        "2": "/GND"
+      },
+      "pins": {
+        "1": "/SIGNAL_IN",
+        "2": "/GND"
+      },
+      "position": {
+        "x": 53.0,
+        "y": -60.0
+      },
+      "value": null
+    },
+    "J2": {
+      "bounds": [
+        80.23,
+        -64.32,
+        83.77,
+        -58.23
+      ],
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "kind": "header",
+      "pads": [
+        {
+          "height": 1.7,
+          "hole": 1.0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.7,
+          "x": 82.0,
+          "y": -60.0
+        },
+        {
+          "height": 1.7,
+          "hole": 1.0,
+          "pin": "2",
+          "shape": "circle",
+          "width": 1.7,
+          "x": 82.0,
+          "y": -62.54
+        }
+      ],
+      "part": "SIGNAL_OUT",
+      "pcb_pins": {
+        "1": "/SIGNAL_OUT",
+        "2": "/GND"
+      },
+      "pins": {
+        "1": "/SIGNAL_OUT",
+        "2": "/GND"
+      },
+      "position": {
+        "x": 82.0,
+        "y": -60.0
+      },
+      "value": null
+    },
+    "R1": {
+      "bounds": [
+        65.32,
+        -60.95,
+        68.68,
+        -59.05
+      ],
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "kind": "resistor",
+      "pads": [
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "1",
+          "shape": "roundrect",
+          "width": 1.025,
+          "x": 66.0875,
+          "y": -60.0
+        },
+        {
+          "height": 1.4,
+          "hole": 0,
+          "pin": "2",
+          "shape": "roundrect",
+          "width": 1.025,
+          "x": 67.9125,
+          "y": -60.0
+        }
+      ],
+      "part": "1k",
+      "pcb_pins": {
+        "1": "/SIGNAL_IN",
+        "2": "/SIGNAL_OUT"
+      },
+      "pins": {
+        "1": "/SIGNAL_IN",
+        "2": "/SIGNAL_OUT"
+      },
+      "position": {
+        "x": 67.0,
+        "y": -60.0
+      },
+      "value": 1000.0
+    }
+  },
+  "copper": [
+    {
+      "bounds": [
+        76.55,
+        -61.995000000000005,
+        77.55,
+        -60.545
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/SIGNAL_OUT",
+      "pin": "C1.1",
+      "radius": 0.25,
+      "vertices": [
+        [
+          76.8,
+          -61.745000000000005
+        ],
+        [
+          77.3,
+          -61.745000000000005
+        ],
+        [
+          77.3,
+          -60.795
+        ],
+        [
+          76.8,
+          -60.795
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        78.45,
+        -61.995000000000005,
+        79.45,
+        -60.545
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/GND",
+      "pin": "C1.2",
+      "radius": 0.25,
+      "vertices": [
+        [
+          78.7,
+          -61.745000000000005
+        ],
+        [
+          79.2,
+          -61.745000000000005
+        ],
+        [
+          79.2,
+          -60.795
+        ],
+        [
+          78.7,
+          -60.795
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        65.575,
+        -60.699999999999996,
+        66.60000000000001,
+        -59.300000000000004
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/SIGNAL_IN",
+      "pin": "R1.1",
+      "radius": 0.24999955,
+      "vertices": [
+        [
+          65.82499955,
+          -60.45000045
+        ],
+        [
+          66.35000045000001,
+          -60.45000045
+        ],
+        [
+          66.35000045000001,
+          -59.54999955
+        ],
+        [
+          65.82499955,
+          -59.54999955
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        67.39999999999999,
+        -60.699999999999996,
+        68.425,
+        -59.300000000000004
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/SIGNAL_OUT",
+      "pin": "R1.2",
+      "radius": 0.24999955,
+      "vertices": [
+        [
+          67.64999954999999,
+          -60.45000045
+        ],
+        [
+          68.17500045,
+          -60.45000045
+        ],
+        [
+          68.17500045,
+          -59.54999955
+        ],
+        [
+          67.64999954999999,
+          -59.54999955
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        52.15,
+        -60.85,
+        53.85,
+        -59.15
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/SIGNAL_IN",
+      "pin": "J1.1",
+      "radius": 0,
+      "vertices": [
+        [
+          52.15,
+          -60.85
+        ],
+        [
+          53.85,
+          -60.85
+        ],
+        [
+          53.85,
+          -59.15
+        ],
+        [
+          52.15,
+          -59.15
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        52.15,
+        -63.39,
+        53.85,
+        -61.69
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/GND",
+      "pin": "J1.2",
+      "radius": 0.85,
+      "vertices": [
+        [
+          53.0,
+          -62.54
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        81.15,
+        -60.85,
+        82.85,
+        -59.15
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/SIGNAL_OUT",
+      "pin": "J2.1",
+      "radius": 0,
+      "vertices": [
+        [
+          81.15,
+          -60.85
+        ],
+        [
+          82.85,
+          -60.85
+        ],
+        [
+          82.85,
+          -59.15
+        ],
+        [
+          81.15,
+          -59.15
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        81.15,
+        -63.39,
+        82.85,
+        -61.69
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/GND",
+      "pin": "J2.2",
+      "radius": 0.85,
+      "vertices": [
+        [
+          82.0,
+          -62.54
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        67.7875,
+        -60.125,
+        75.9425,
+        -59.875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/SIGNAL_OUT",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          67.9125,
+          -60.0
+        ],
+        [
+          75.8175,
+          -60.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        76.9625,
+        -58.125,
+        80.125,
+        -57.875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/SIGNAL_OUT",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          77.0875,
+          -58.0
+        ],
+        [
+          80.0,
+          -58.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        75.6925,
+        -61.395,
+        77.175,
+        -59.875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/SIGNAL_OUT",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          75.8175,
+          -60.0
+        ],
+        [
+          77.05,
+          -61.27
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        79.875,
+        -60.125,
+        82.125,
+        -57.875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/SIGNAL_OUT",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          80.0,
+          -58.0
+        ],
+        [
+          82.0,
+          -60.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        76.925,
+        -61.395,
+        77.2125,
+        -57.875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/SIGNAL_OUT",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          77.05,
+          -61.27
+        ],
+        [
+          77.0875,
+          -58.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        52.875,
+        -65.125,
+        79.0375,
+        -64.875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/GND",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          78.9125,
+          -65.0
+        ],
+        [
+          53.0,
+          -65.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        78.7875,
+        -65.125,
+        79.075,
+        -61.145
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/GND",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          78.95,
+          -61.27
+        ],
+        [
+          78.9125,
+          -65.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        81.875,
+        -65.125,
+        82.125,
+        -62.415
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/GND",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          82.0,
+          -65.0
+        ],
+        [
+          82.0,
+          -62.54
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        78.7875,
+        -65.125,
+        82.125,
+        -64.875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/GND",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          78.9125,
+          -65.0
+        ],
+        [
+          82.0,
+          -65.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        52.875,
+        -65.125,
+        53.125,
+        -62.415
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/GND",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          53.0,
+          -65.0
+        ],
+        [
+          53.0,
+          -62.54
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        52.875,
+        -60.125,
+        66.2125,
+        -59.875
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/SIGNAL_IN",
+      "pin": null,
+      "radius": 0.125,
+      "vertices": [
+        [
+          53.0,
+          -60.0
+        ],
+        [
+          66.0875,
+          -60.0
+        ]
+      ]
+    }
+  ],
+  "holes": [],
+  "schematic_present": true,
+  "silkscreen": [
+    "C1",
+    "SMD_2terminal_chip_molded",
+    "R1",
+    "SMD_2terminal_chip_molded",
+    "J1",
+    "connector/pin_header_socket",
+    "J2",
+    "connector/pin_header_socket",
+    "2 GND",
+    "1 SIGNAL_IN",
+    "1 SIGNAL_OUT",
+    "2 GND",
+    "RC LOW PASS  1k / 100nF"
+  ],
+  "source_present": true,
+  "tracks": [
+    {
+      "net": "/SIGNAL_OUT",
+      "width": 0.25
+    },
+    {
+      "net": "/SIGNAL_OUT",
+      "width": 0.25
+    },
+    {
+      "net": "/SIGNAL_OUT",
+      "width": 0.25
+    },
+    {
+      "net": "/SIGNAL_OUT",
+      "width": 0.25
+    },
+    {
+      "net": "/SIGNAL_OUT",
+      "width": 0.25
+    },
+    {
+      "net": "/GND",
+      "width": 0.25
+    },
+    {
+      "net": "/GND",
+      "width": 0.25
+    },
+    {
+      "net": "/GND",
+      "width": 0.25
+    },
+    {
+      "net": "/GND",
+      "width": 0.25
+    },
+    {
+      "net": "/GND",
+      "width": 0.25
+    },
+    {
+      "net": "/SIGNAL_IN",
+      "width": 0.25
+    }
+  ],
+  "unsupported": [],
+  "warnings": []
+}

@@ -1,0 +1,482 @@
+{
+  "evaluation_id": "deterministic-v1-5a9c0cca93c84a315b17--stereo-passive-attenuator--tscircuit-codegen",
+  "evaluator_code_sha256": "77a701ee4903229914f262bfba7050005477aa1d00b200d11255fecbce87bae9",
+  "method": "tscircuit-codegen",
+  "outcomes": [
+    {
+      "category": "functional_requirements",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "actual": {
+          "capacitor": 2,
+          "header": 2,
+          "resistor": 4,
+          "testpoint": 3
+        },
+        "expected": {
+          "capacitor": 2,
+          "header": 2,
+          "resistor": 4,
+          "testpoint": 3
+        }
+      },
+      "outcome": "pass",
+      "test_id": "required-components"
+    },
+    {
+      "category": "functional_requirements",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "net_mapping": {
+          "GND": "source_net_6",
+          "LAC": "source_net_1",
+          "LIN": "source_net_0",
+          "LOUT": "source_net_2",
+          "RAC": "source_net_4",
+          "RIN": "source_net_3",
+          "ROUT": "source_net_5"
+        },
+        "role_mapping": {
+          "J1": "J1",
+          "J2": "J2",
+          "Lcap": "C1",
+          "Lseries": "R1",
+          "Lshunt": "R2",
+          "Ltp": "TP1",
+          "Rcap": "C2",
+          "Rseries": "R3",
+          "Rshunt": "R4",
+          "Rtp": "TP2",
+          "groundtp": "TP3"
+        }
+      },
+      "outcome": "pass",
+      "test_id": "passive-values"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "net_mapping": {
+          "GND": "source_net_6",
+          "LAC": "source_net_1",
+          "LIN": "source_net_0",
+          "LOUT": "source_net_2",
+          "RAC": "source_net_4",
+          "RIN": "source_net_3",
+          "ROUT": "source_net_5"
+        },
+        "role_mapping": {
+          "J1": "J1",
+          "J2": "J2",
+          "Lcap": "C1",
+          "Lseries": "R1",
+          "Lshunt": "R2",
+          "Ltp": "TP1",
+          "Rcap": "C2",
+          "Rseries": "R3",
+          "Rshunt": "R4",
+          "Rtp": "TP2",
+          "groundtp": "TP3"
+        }
+      },
+      "outcome": "pass",
+      "test_id": "topology"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [],
+      "observed": {
+        "reason": "Compiled tscircuit source and PCB port links share an intermediate representation; independent schematic/source replay was not performed"
+      },
+      "outcome": "unknown",
+      "test_id": "schematic-pcb-net-agreement"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": [],
+        "primitive_count": 60,
+        "scope": "supported outer copper envelopes; no source/build replay"
+      },
+      "outcome": "pass",
+      "test_id": "routed-copper"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": [],
+        "primitive_count": 60,
+        "scope": "supported outer copper envelopes; no source/build replay"
+      },
+      "outcome": "pass",
+      "test_id": "no-copper-shorts"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "height_mm": 30,
+        "width_mm": 50
+      },
+      "outcome": "pass",
+      "test_id": "board-size"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "layers": 2
+      },
+      "outcome": "pass",
+      "test_id": "layers"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "minimum_mm": 0.25
+      },
+      "outcome": "pass",
+      "test_id": "trace-width"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": [
+          {
+            "a": 51,
+            "b": 32,
+            "clearance_mm": 0.173326984
+          },
+          {
+            "a": 51,
+            "b": 27,
+            "clearance_mm": 0.198326984
+          },
+          {
+            "a": 51,
+            "b": 28,
+            "clearance_mm": 0.200639783
+          },
+          {
+            "a": 32,
+            "b": 4,
+            "clearance_mm": 0.224
+          },
+          {
+            "a": 27,
+            "b": 4,
+            "clearance_mm": 0.246687201
+          },
+          {
+            "a": 28,
+            "b": 4,
+            "clearance_mm": 0.246687201
+          },
+          {
+            "a": 29,
+            "b": 4,
+            "clearance_mm": 0.109308129
+          }
+        ]
+      },
+      "outcome": "fail",
+      "test_id": "copper-clearance"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "outside": []
+      },
+      "outcome": "pass",
+      "test_id": "component-containment"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": []
+      },
+      "outcome": "pass",
+      "test_id": "header-pitch"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "recognition": "two surface pads, centre spacing 1.6\u20132.2 mm, short side 0.8\u20131.3 mm and long side 1.1\u20131.7 mm"
+      },
+      "outcome": "pass",
+      "test_id": "passive-packages"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "Automated presence of text does not verify pin/signal association, polarity, and readable silkscreen placement."
+      },
+      "outcome": "unknown",
+      "test_id": "signal-markings"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "exposure_note": "mask opening/material exposure is not independently measured",
+        "undersized": []
+      },
+      "outcome": "pass",
+      "test_id": "test-pads"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "edge_distance_mm": 3.0
+      },
+      "outcome": "pass",
+      "test_id": "layout-01"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "edge_distance_mm": 3.0
+      },
+      "outcome": "pass",
+      "test_id": "layout-02"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "positions_mm": [
+          [
+            -12,
+            8
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            10,
+            5
+          ]
+        ]
+      },
+      "outcome": "pass",
+      "test_id": "layout-03"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "positions_mm": [
+          [
+            -12,
+            -8
+          ],
+          [
+            0,
+            -8
+          ],
+          [
+            10,
+            -5
+          ]
+        ]
+      },
+      "outcome": "pass",
+      "test_id": "layout-04"
+    },
+    {
+      "category": "functional_requirements",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "Nonpolar ceramic capacitor construction needs verified component identity."
+      },
+      "outcome": "unknown",
+      "test_id": "component-evidence-01"
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "scope": "structural parsing, not source replay"
+      },
+      "outcome": "pass",
+      "test_id": "editable-artifacts"
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "path": "artifacts/README.md"
+      },
+      "outcome": "pass",
+      "test_id": "readme"
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "A read-only static audit does not prove source/build reproducibility, exported-netlist freshness, or the semantic completeness of README component/limitation documentation."
+      },
+      "outcome": "unknown",
+      "test_id": "source-replay-and-documentation"
+    }
+  ],
+  "parse_error": null,
+  "prompt_id": "stereo-passive-attenuator",
+  "prompt_sha256": "2af5de18a6c2a7bf188a0b22ee6714466cbfa080c2f6a28bdd81a3579968fb4a",
+  "retrospective": true,
+  "rules_sha256": "b2112eef4d10f7a3b337ebc0ea28d46acafc2bb7c2a983a1e1162d9a1cf2be22",
+  "run_id": "2026-09-05-codegen-pilot-01--stereo-passive-attenuator--tscircuit-codegen--r1",
+  "schema_version": "1.0.0",
+  "scores": {
+    "applicable_test_count": 23,
+    "category_scores": [
+      {
+        "applicable": true,
+        "category": "functional_requirements",
+        "failed": 0,
+        "passed": 2,
+        "possible_score_max": 2,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 1,
+        "weight": 30
+      },
+      {
+        "applicable": true,
+        "category": "connectivity",
+        "failed": 0,
+        "passed": 3,
+        "possible_score_max": 2,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 1,
+        "weight": 30
+      },
+      {
+        "applicable": true,
+        "category": "physical_constraints",
+        "failed": 1,
+        "passed": 11,
+        "possible_score_max": 1,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 1,
+        "weight": 20
+      },
+      {
+        "applicable": true,
+        "category": "deliverable_integrity",
+        "failed": 0,
+        "passed": 2,
+        "possible_score_max": 2,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 1,
+        "weight": 20
+      }
+    ],
+    "critical_failure": true,
+    "overall_pass": false,
+    "possible_total_max": 90.0,
+    "possible_total_min": 50.0,
+    "resolved_test_count": 19,
+    "total_score": null
+  },
+  "versions": {
+    "artifact_readers": "stdlib-only; no external native tool replay",
+    "evaluator": "1.0.0",
+    "python": "3.9.6"
+  }
+}

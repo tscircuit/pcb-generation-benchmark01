@@ -1,0 +1,24 @@
+{
+  "board_mm": [
+    35,
+    25
+  ],
+  "copper_layers": 2,
+  "j1_left_edge_center_mm": 3.5,
+  "j2_right_edge_center_mm": 3.5,
+  "c1_j2_centers_mm": 4.0,
+  "min_route_width_mm": 0.25,
+  "min_distinct_net_copper_clearance_mm": 0.3079398748141336,
+  "closest_copper_pair": [
+    "source_trace_2__source_trace_3__source_net_1_mst1_0",
+    "pcb_smtpad_3"
+  ],
+  "pcb_trace_count": 5,
+  "via_count": 1,
+  "nets_connected": {
+    "GND": true,
+    "SIGNAL_IN": true,
+    "SIGNAL_OUT": true
+  },
+  "circuit_error_records": []
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "2026-09-05-codegen-pilot-01",
+  "run_id": "2026-09-05-codegen-pilot-01--stereo-passive-attenuator--kicad-codegen--r1",
+  "prompt_id": "stereo-passive-attenuator",
+  "prompt_revision": 1,
+  "prompt_sha256": "2af5de18a6c2a7bf188a0b22ee6714466cbfa080c2f6a28bdd81a3579968fb4a",
+  "method": "kicad-codegen",
+  "replicate": 1,
+  "status": "completed",
+  "repository_commit": "a9d1e4f7624451818322ebec60f5e12dd4b3f9a6",
+  "started_at": "2026-09-05T17:40:14.820135+00:00",
+  "ended_at": "2026-09-05T17:45:34.855257+00:00",
+  "model": {
+    "provider": null,
+    "name": null,
+    "reasoning_effort": null,
+    "sampling": {}
+  },
+  "environment": {
+    "tool_versions": {
+      "tsci": "0.0.2462",
+      "kicad-cli": "10.0.6",
+      "bun": "1.3.14",
+      "python": "3.9.6"
+    },
+    "os": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "budget": {
+    "wall_time_seconds": 900,
+    "max_tokens": null,
+    "max_tool_calls": null
+  },
+  "usage": {
+    "wall_time_seconds": 320.035122,
+    "input_tokens": null,
+    "output_tokens": null,
+    "tool_calls": null,
+    "cost_usd": null
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "completed",
+      "path": "artifacts/attempt-01",
+      "outcome": "Routed; ERC 22 warnings; DRC 10 warnings and 35 parity footprint/net warnings; 0 unconnected pads"
+    },
+    {
+      "attempt": 2,
+      "status": "failed",
+      "path": "artifacts/attempt-02",
+      "failure": "KiCad LIB_ID_SetLibNickname SWIG UTF8 TypeError; only schematic generated",
+      "log": "logs/attempt-02-generation.log"
+    },
+    {
+      "attempt": 3,
+      "status": "completed",
+      "path": "artifacts/attempt-03",
+      "outcome": "ERC/DRC and schematic parity pass; 0 unconnected pads"
+    }
+  ],
+  "artifacts": [
+    "artifacts/README.md",
+    "artifacts/attempt-02/attenuator.kicad_sch",
+    "artifacts/attempt-02/generate.py",
+    "artifacts/attempt-02/attenuator.net",
+    "artifacts/attempt-02/attenuator.kicad_prl",
+    "artifacts/attempt-02/schematic-svg/attenuator.svg",
+    "artifacts/attempt-03/pcb-svg",
+    "artifacts/attempt-03/attenuator.kicad_sch",
+    "artifacts/attempt-03/generate.py",
+    "artifacts/attempt-03/attenuator.kicad_pro",
+    "artifacts/attempt-03/fp-lib-table",
+    "artifacts/attempt-03/connectivity.json",
+    "artifacts/attempt-03/attenuator.net",
+    "artifacts/attempt-03/attenuator.kicad_prl",
+    "artifacts/attempt-03/sym-lib-table",
+    "artifacts/attempt-03/attenuator.kicad_pcb",
+    "artifacts/attempt-03/attenuator.kicad_dru",
+    "artifacts/attempt-03/schematic-svg/attenuator.svg",
+    "artifacts/attempt-03/libraries/Connector.kicad_sym",
+    "artifacts/attempt-03/libraries/Connector_Generic.kicad_sym",
+    "artifacts/attempt-03/libraries/Device.kicad_sym",
+    "artifacts/attempt-03/libraries/Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod",
+    "artifacts/attempt-03/libraries/TestPoint.pretty/TestPoint_Pad_D1.5mm.kicad_mod",
+    "artifacts/attempt-03/libraries/Connector_PinHeader_2.54mm.pretty/PinHeader_1x03_P2.54mm_Vertical.kicad_mod",
+    "artifacts/attempt-03/libraries/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod",
+    "artifacts/attempt-01/pcb-svg",
+    "artifacts/attempt-01/attenuator.kicad_sch",
+    "artifacts/attempt-01/generate.py",
+    "artifacts/attempt-01/attenuator.kicad_pro",
+    "artifacts/attempt-01/connectivity.json",
+    "artifacts/attempt-01/attenuator.net",
+    "artifacts/attempt-01/attenuator.kicad_prl",
+    "artifacts/attempt-01/attenuator.kicad_pcb",
+    "artifacts/attempt-01/attenuator.kicad_dru",
+    "artifacts/attempt-01/schematic-svg/attenuator.svg"
+  ],
+  "failure": null,
+  "notes": "Exploratory pilot; GUI method excluded by user. Read result.json and raw validation logs for limitations."
+}

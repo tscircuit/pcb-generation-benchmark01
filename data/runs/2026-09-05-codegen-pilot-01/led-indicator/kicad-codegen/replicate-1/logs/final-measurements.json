@@ -1,0 +1,65 @@
+{
+  "outline_mm": {
+    "width": 30.0,
+    "height": 20.0,
+    "left": 100.0,
+    "right": 130.0
+  },
+  "copper_layers": 2,
+  "track_widths_mm": [
+    0.3
+  ],
+  "footprints": {
+    "R1": {
+      "origin_mm": [
+        115.0,
+        108.73
+      ],
+      "footprint": "R_0805_2012Metric",
+      "bounding_box_mm": [
+        113.295,
+        107.755,
+        116.705,
+        109.705
+      ],
+      "pad_nets": {
+        "1": "/+5V",
+        "2": "/LED_A"
+      }
+    },
+    "D1": {
+      "origin_mm": [
+        127.0,
+        108.73
+      ],
+      "footprint": "LED_0805_2012Metric",
+      "bounding_box_mm": [
+        125.295,
+        107.71,
+        128.745,
+        109.75
+      ],
+      "pad_nets": {
+        "1": "/GND",
+        "2": "/LED_A"
+      }
+    },
+    "J1": {
+      "origin_mm": [
+        103.0,
+        108.73
+      ],
+      "footprint": "PinHeader_1x02_P2.54mm_Vertical",
+      "bounding_box_mm": [
+        101.205,
+        106.935,
+        104.795,
+        113.075
+      ],
+      "pad_nets": {
+        "1": "/+5V",
+        "2": "/GND"
+      }
+    }
+  }
+}

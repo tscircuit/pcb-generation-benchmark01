@@ -1,0 +1,4 @@
+artifacts/attempt-02/dist/index/pcb.svg
+artifacts/attempt-02/dist/index/circuit.json
+artifacts/attempt-02/dist/index/schematic.svg
+artifacts/attempt-02/dist/index/pcb.png

@@ -1,0 +1,840 @@
+{
+  "applicability": {
+    "connectivity": true,
+    "deliverable_integrity": true,
+    "functional_requirements": true,
+    "physical_constraints": true
+  },
+  "expected_components": [
+    {
+      "kind": "header",
+      "pins": {
+        "1": "V12",
+        "2": "GND"
+      },
+      "ref": "J1",
+      "role": "J1",
+      "value": null
+    },
+    {
+      "kind": "header",
+      "pins": {
+        "1": "GND",
+        "2": "CTRL1",
+        "3": "CTRL2",
+        "4": "CTRL3",
+        "5": "CTRL4"
+      },
+      "ref": "J2",
+      "role": "J2",
+      "value": null
+    },
+    {
+      "kind": "capacitor",
+      "pins": {
+        "1": "V12",
+        "2": "GND"
+      },
+      "ref": null,
+      "role": "bulk",
+      "value": 1e-05
+    },
+    {
+      "kind": "capacitor",
+      "pins": {
+        "1": "V12",
+        "2": "GND"
+      },
+      "ref": null,
+      "role": "decouple",
+      "value": 1e-07
+    },
+    {
+      "kind": "transistor",
+      "pins": {
+        "D": "OUT1",
+        "G": "GATE1",
+        "S": "GND"
+      },
+      "ref": "Q1",
+      "role": "Q1",
+      "value": null
+    },
+    {
+      "kind": "resistor",
+      "pins": {
+        "1": "CTRL1",
+        "2": "GATE1"
+      },
+      "ref": null,
+      "role": "gate1",
+      "value": 100
+    },
+    {
+      "kind": "resistor",
+      "pins": {
+        "1": "GATE1",
+        "2": "GND"
+      },
+      "ref": null,
+      "role": "pull1",
+      "value": 100000
+    },
+    {
+      "kind": "diode",
+      "pins": {
+        "A": "OUT1",
+        "K": "V12"
+      },
+      "ref": "D1",
+      "role": "D1",
+      "value": null
+    },
+    {
+      "kind": "header",
+      "pins": {
+        "1": "V12",
+        "2": "OUT1"
+      },
+      "ref": "J3",
+      "role": "J3",
+      "value": null
+    },
+    {
+      "kind": "transistor",
+      "pins": {
+        "D": "OUT2",
+        "G": "GATE2",
+        "S": "GND"
+      },
+      "ref": "Q2",
+      "role": "Q2",
+      "value": null
+    },
+    {
+      "kind": "resistor",
+      "pins": {
+        "1": "CTRL2",
+        "2": "GATE2"
+      },
+      "ref": null,
+      "role": "gate2",
+      "value": 100
+    },
+    {
+      "kind": "resistor",
+      "pins": {
+        "1": "GATE2",
+        "2": "GND"
+      },
+      "ref": null,
+      "role": "pull2",
+      "value": 100000
+    },
+    {
+      "kind": "diode",
+      "pins": {
+        "A": "OUT2",
+        "K": "V12"
+      },
+      "ref": "D2",
+      "role": "D2",
+      "value": null
+    },
+    {
+      "kind": "header",
+      "pins": {
+        "1": "V12",
+        "2": "OUT2"
+      },
+      "ref": "J4",
+      "role": "J4",
+      "value": null
+    },
+    {
+      "kind": "transistor",
+      "pins": {
+        "D": "OUT3",
+        "G": "GATE3",
+        "S": "GND"
+      },
+      "ref": "Q3",
+      "role": "Q3",
+      "value": null
+    },
+    {
+      "kind": "resistor",
+      "pins": {
+        "1": "CTRL3",
+        "2": "GATE3"
+      },
+      "ref": null,
+      "role": "gate3",
+      "value": 100
+    },
+    {
+      "kind": "resistor",
+      "pins": {
+        "1": "GATE3",
+        "2": "GND"
+      },
+      "ref": null,
+      "role": "pull3",
+      "value": 100000
+    },
+    {
+      "kind": "diode",
+      "pins": {
+        "A": "OUT3",
+        "K": "V12"
+      },
+      "ref": "D3",
+      "role": "D3",
+      "value": null
+    },
+    {
+      "kind": "header",
+      "pins": {
+        "1": "V12",
+        "2": "OUT3"
+      },
+      "ref": "J5",
+      "role": "J5",
+      "value": null
+    },
+    {
+      "kind": "transistor",
+      "pins": {
+        "D": "OUT4",
+        "G": "GATE4",
+        "S": "GND"
+      },
+      "ref": "Q4",
+      "role": "Q4",
+      "value": null
+    },
+    {
+      "kind": "resistor",
+      "pins": {
+        "1": "CTRL4",
+        "2": "GATE4"
+      },
+      "ref": null,
+      "role": "gate4",
+      "value": 100
+    },
+    {
+      "kind": "resistor",
+      "pins": {
+        "1": "GATE4",
+        "2": "GND"
+      },
+      "ref": null,
+      "role": "pull4",
+      "value": 100000
+    },
+    {
+      "kind": "diode",
+      "pins": {
+        "A": "OUT4",
+        "K": "V12"
+      },
+      "ref": "D4",
+      "role": "D4",
+      "value": null
+    },
+    {
+      "kind": "header",
+      "pins": {
+        "1": "V12",
+        "2": "OUT4"
+      },
+      "ref": "J6",
+      "role": "J6",
+      "value": null
+    }
+  ],
+  "prompt_id": "mosfet-output-bank",
+  "prompt_revision": 1,
+  "prompt_sha256": "46049eb02f86cb9da99159dcdd96c5eb5dd7bdba53dc4b53cb60572b4ecfdf4e",
+  "retrospective": true,
+  "tests": [
+    {
+      "category": "functional_requirements",
+      "critical": true,
+      "id": "required-components",
+      "requirement": "Required electronic component types and counts are present.",
+      "rule": {
+        "op": "component_counts"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "req-05",
+        "req-06",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "functional_requirements",
+      "critical": true,
+      "id": "passive-values",
+      "requirement": "All requested resistor and capacitor nominal values match the prompt.",
+      "rule": {
+        "op": "values"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "req-05",
+        "req-06",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "id": "topology",
+      "requirement": "Required logical net topology and connector pin assignments match, allowing interchangeable passive terminals and unconstrained references.",
+      "rule": {
+        "op": "topology"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "req-05",
+        "req-06",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "id": "schematic-pcb-net-agreement",
+      "requirement": "Schematic-export and PCB assigned-net partitions agree.",
+      "rule": {
+        "op": "net_agreement"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "req-05",
+        "req-06",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "id": "routed-copper",
+      "requirement": "Every required pad is joined by continuous copper to other pads on its net.",
+      "rule": {
+        "op": "routing"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "req-05",
+        "req-06",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "id": "no-copper-shorts",
+      "requirement": "Different assigned nets do not touch in supported copper geometry.",
+      "rule": {
+        "op": "shorts"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "req-05",
+        "req-06",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "board-size",
+      "requirement": "Requested board dimensions within 0.1 mm.",
+      "rule": {
+        "height_mm": 50,
+        "op": "board_size",
+        "tolerance_mm": 0.1,
+        "width_mm": 70
+      },
+      "source_criteria": [
+        "req-01"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "layers",
+      "requirement": "Two copper layers.",
+      "rule": {
+        "count": 2,
+        "op": "layers"
+      },
+      "source_criteria": [
+        "req-01"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": true,
+      "id": "trace-width",
+      "requirement": "All copper track widths at least 0.25 mm.",
+      "rule": {
+        "minimum_mm": 0.25,
+        "op": "trace_width"
+      },
+      "source_criteria": [
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": true,
+      "id": "copper-clearance",
+      "requirement": "At least 0.25 mm clearance between separate-net copper outer envelopes.",
+      "rule": {
+        "minimum_mm": 0.25,
+        "op": "clearance"
+      },
+      "source_criteria": [
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "component-containment",
+      "requirement": "Declared component/pad/courtyard bounds remain inside the board.",
+      "rule": {
+        "op": "containment"
+      },
+      "source_criteria": [
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "header-pitch",
+      "requirement": "Through-hole header pin pitch is 2.54 mm.",
+      "rule": {
+        "op": "header_pitch",
+        "pitch_mm": 2.54,
+        "tolerance_mm": 0.01
+      },
+      "source_criteria": [
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "passive-packages",
+      "requirement": "Resistor/capacitor and requested LED pad geometry is compatible with the documented 0805 recognition contract.",
+      "rule": {
+        "op": "packages_0805"
+      },
+      "source_criteria": [
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "signal-markings",
+      "requirement": "Connector pin 1 and requested signal/part markings are correctly associated and readable.",
+      "rule": {
+        "op": "unknown",
+        "reason": "Automated presence of text does not verify pin/signal association, polarity, and readable silkscreen placement."
+      },
+      "source_criteria": [
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "layout-01",
+      "requirement": "Prompt-specific placement/routing constraint: {\"a\": \"bulk\", \"b\": \"J1\", \"maximum_mm\": 7, \"op\": \"role_distance\"}",
+      "rule": {
+        "a": "bulk",
+        "b": "J1",
+        "maximum_mm": 7,
+        "op": "role_distance"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "req-05",
+        "req-06",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "layout-02",
+      "requirement": "Prompt-specific placement/routing constraint: {\"a\": \"decouple\", \"b\": \"J1\", \"maximum_mm\": 7, \"op\": \"role_distance\"}",
+      "rule": {
+        "a": "decouple",
+        "b": "J1",
+        "maximum_mm": 7,
+        "op": "role_distance"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "req-05",
+        "req-06",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "layout-03",
+      "requirement": "Prompt-specific placement/routing constraint: {\"maximum_mm\": 6, \"op\": \"edge\", \"ref\": \"J3\", \"side\": \"right\"}",
+      "rule": {
+        "maximum_mm": 6,
+        "op": "edge",
+        "ref": "J3",
+        "side": "right"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "req-05",
+        "req-06",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "layout-04",
+      "requirement": "Prompt-specific placement/routing constraint: {\"a\": \"D1\", \"b\": \"J3\", \"maximum_mm\": 8, \"op\": \"distance\"}",
+      "rule": {
+        "a": "D1",
+        "b": "J3",
+        "maximum_mm": 8,
+        "op": "distance"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "req-05",
+        "req-06",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "layout-05",
+      "requirement": "Prompt-specific placement/routing constraint: {\"maximum_mm\": 6, \"op\": \"edge\", \"ref\": \"J4\", \"side\": \"right\"}",
+      "rule": {
+        "maximum_mm": 6,
+        "op": "edge",
+        "ref": "J4",
+        "side": "right"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "req-05",
+        "req-06",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "layout-06",
+      "requirement": "Prompt-specific placement/routing constraint: {\"a\": \"D2\", \"b\": \"J4\", \"maximum_mm\": 8, \"op\": \"distance\"}",
+      "rule": {
+        "a": "D2",
+        "b": "J4",
+        "maximum_mm": 8,
+        "op": "distance"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "req-05",
+        "req-06",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "layout-07",
+      "requirement": "Prompt-specific placement/routing constraint: {\"maximum_mm\": 6, \"op\": \"edge\", \"ref\": \"J5\", \"side\": \"right\"}",
+      "rule": {
+        "maximum_mm": 6,
+        "op": "edge",
+        "ref": "J5",
+        "side": "right"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "req-05",
+        "req-06",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "layout-08",
+      "requirement": "Prompt-specific placement/routing constraint: {\"a\": \"D3\", \"b\": \"J5\", \"maximum_mm\": 8, \"op\": \"distance\"}",
+      "rule": {
+        "a": "D3",
+        "b": "J5",
+        "maximum_mm": 8,
+        "op": "distance"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "req-05",
+        "req-06",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "layout-09",
+      "requirement": "Prompt-specific placement/routing constraint: {\"maximum_mm\": 6, \"op\": \"edge\", \"ref\": \"J6\", \"side\": \"right\"}",
+      "rule": {
+        "maximum_mm": 6,
+        "op": "edge",
+        "ref": "J6",
+        "side": "right"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "req-05",
+        "req-06",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "layout-10",
+      "requirement": "Prompt-specific placement/routing constraint: {\"a\": \"D4\", \"b\": \"J6\", \"maximum_mm\": 8, \"op\": \"distance\"}",
+      "rule": {
+        "a": "D4",
+        "b": "J6",
+        "maximum_mm": 8,
+        "op": "distance"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "req-05",
+        "req-06",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "layout-11",
+      "requirement": "Prompt-specific placement/routing constraint: {\"minimum_spacing_mm\": 10, \"op\": \"spacing\", \"refs\": [\"J3\", \"J4\", \"J5\", \"J6\"]}",
+      "rule": {
+        "minimum_spacing_mm": 10,
+        "op": "spacing",
+        "refs": [
+          "J3",
+          "J4",
+          "J5",
+          "J6"
+        ]
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "req-05",
+        "req-06",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "layout-12",
+      "requirement": "Prompt-specific placement/routing constraint: {\"minimum_mm\": 0.5, \"nets\": [\"V12\", \"GND\", \"OUT1\", \"OUT2\", \"OUT3\", \"OUT4\"], \"op\": \"net_width\"}",
+      "rule": {
+        "minimum_mm": 0.5,
+        "nets": [
+          "V12",
+          "GND",
+          "OUT1",
+          "OUT2",
+          "OUT3",
+          "OUT4"
+        ],
+        "op": "net_width"
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "req-05",
+        "req-06",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "functional_requirements",
+      "critical": false,
+      "id": "component-evidence-01",
+      "requirement": "MOSFET VDS/on-resistance gate voltage, diode reverse/current ratings, capacitor voltage ratings, and manufacturer pin mapping need independently verified datasheets.",
+      "rule": {
+        "op": "unknown",
+        "reason": "MOSFET VDS/on-resistance gate voltage, diode reverse/current ratings, capacitor voltage ratings, and manufacturer pin mapping need independently verified datasheets."
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "req-05",
+        "req-06",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "id": "component-evidence-02",
+      "requirement": "Flyback diode polarity markings need reviewed footprint evidence.",
+      "rule": {
+        "op": "unknown",
+        "reason": "Flyback diode polarity markings need reviewed footprint evidence."
+      },
+      "source_criteria": [
+        "req-01",
+        "req-02",
+        "req-03",
+        "req-04",
+        "req-05",
+        "req-06",
+        "deliverables",
+        "common-layout"
+      ]
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": true,
+      "id": "editable-artifacts",
+      "requirement": "Editable source/native files and parseable schematic/PCB artifacts are present.",
+      "rule": {
+        "op": "artifacts"
+      },
+      "source_criteria": [
+        "deliverables"
+      ]
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": false,
+      "id": "readme",
+      "requirement": "Nonempty README accompanies the generated artifacts.",
+      "rule": {
+        "op": "readme"
+      },
+      "source_criteria": [
+        "deliverables"
+      ]
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": false,
+      "id": "source-replay-and-documentation",
+      "requirement": "Source and generated artifacts agree, and component choices/unresolved requirements are documented.",
+      "rule": {
+        "op": "unknown",
+        "reason": "A read-only static audit does not prove source/build reproducibility, exported-netlist freshness, or the semantic completeness of README component/limitation documentation."
+      },
+      "source_criteria": [
+        "deliverables"
+      ]
+    }
+  ],
+  "version": "1.0.0",
+  "weights": {
+    "connectivity": 30,
+    "deliverable_integrity": 20,
+    "functional_requirements": 30,
+    "physical_constraints": 20
+  }
+}

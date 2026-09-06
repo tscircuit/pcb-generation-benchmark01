@@ -1,0 +1,36 @@
+$ tsci check netlist index.circuit.tsx
+Errors: 0
+Warnings: 0
+
+Readable Netlist:
+COMPONENTS:
+ - J1: J1, source_component
+ - R1: 1kΩ resistor
+ - D1: D1, source_component
+
+NET: R1_pos
+  - J1 V5
+  - R1 pin1
+
+NET: D1_pos
+  - R1 pin2
+  - D1 pin1 (+)
+
+NET: J1_GND
+  - D1 pin2 (-)
+  - J1 GND
+
+
+COMPONENT_PINS:
+J1
+- pin1(V5): NETS(R1_pos)
+- pin2(GND): NETS(J1_GND)
+
+R1 (1kΩ undefined)
+- pin1(anode, pos, left): NETS(R1_pos)
+- pin2(cathode, neg, right): NETS(D1_pos)
+
+D1
+- pin1(anode, pos, left): NETS(D1_pos)
+- pin2(cathode, neg, right): NETS(J1_GND)
+

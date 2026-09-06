@@ -1,0 +1,13 @@
+tsci check netlist index.circuit.tsx
+tsci check schematic-placement index.circuit.tsx
+tsci check placement index.circuit.tsx
+tsci build index.circuit.tsx --svgs --pcb-png --disable-parts-engine --autorouter-timeout 120s
+tsci check netlist index.circuit.tsx
+tsci check schematic-placement index.circuit.tsx
+tsci check placement index.circuit.tsx
+tsci build index.circuit.tsx --svgs --pcb-png --disable-parts-engine --autorouter-timeout 120s
+tsci check netlist index.circuit.tsx
+tsci check schematic-placement index.circuit.tsx
+tsci check placement index.circuit.tsx
+tsci build index.circuit.tsx --svgs --pcb-png --disable-parts-engine --autorouter-timeout 120s
+tsci check shorts dist/artifacts/attempt-03/index/circuit.json

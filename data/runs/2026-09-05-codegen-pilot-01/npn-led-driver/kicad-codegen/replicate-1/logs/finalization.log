@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "wall_time_seconds": 477.168633,
+  "checks": {
+    "erc": {
+      "passed": true,
+      "exit_code": 0,
+      "log": "logs/attempt-03-erc.rpt"
+    },
+    "drc": {
+      "passed": true,
+      "exit_code": 0,
+      "log": "logs/attempt-03-drc.rpt"
+    },
+    "netlist": {
+      "passed": true,
+      "exit_code": 0,
+      "log": "logs/attempt-03-netlist.log"
+    },
+    "schematic_export": {
+      "passed": true,
+      "exit_code": 0,
+      "log": "logs/attempt-03-sch-export.log"
+    },
+    "pcb_export": {
+      "passed": true,
+      "exit_code": 0,
+      "log": "logs/attempt-03-pcb-export-retry.log"
+    },
+    "schematic_parity": {
+      "passed": false,
+      "exit_code": 5,
+      "log": "logs/attempt-03-parity.rpt"
+    },
+    "normalized_pin_connectivity": {
+      "passed": true,
+      "exit_code": 0,
+      "log": "logs/attempt-03-connectivity.json"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+143:    /** Additional clearance around the nominal opening. */
+303:    /** Horizontal clearance between the board edge and inside wall. */
+316:     * cannot end up straddling the base/lid seam. Setting it explicitly opts out
+19666:declare const kicadPinElectricalType: z.ZodEnum<["input", "output", "bidirectional", "tri_state", "passive", "free", "unspecified", "power_in", "power_out", "open_collector", "open_emitter", "no_connect"]>;
+19678:    electricalType: z.ZodOptional<z.ZodEnum<["input", "output", "bidirectional", "tri_state", "passive", "free", "unspecified", "power_in", "power_out", "open_collector", "open_emitter", "no_connect"]>>;
+19684:    electricalType?: "input" | "output" | "bidirectional" | "tri_state" | "passive" | "free" | "unspecified" | "power_in" | "power_out" | "open_collector" | "open_emitter" | "no_connect" | undefined;
+19690:    electricalType?: "input" | "output" | "bidirectional" | "tri_state" | "passive" | "free" | "unspecified" | "power_in" | "power_out" | "open_collector" | "open_emitter" | "no_connect" | undefined;
+19740:declare const base_manual_edit_event: z.ZodObject<{
+19758:type BaseManualEditEventInput = z.input<typeof base_manual_edit_event>;
+21093:declare const autorouterConfig: z.ZodObject<{
+21136:declare const autorouterPreset: z.ZodUnion<[z.ZodLiteral<"sequential_trace">, z.ZodLiteral<"subcircuit">, z.ZodLiteral<"default">, z.ZodLiteral<"auto">, z.ZodLiteral<"auto_local">, z.ZodLiteral<"auto_cloud">, z.ZodLiteral<"auto_jumper">, z.ZodLiteral<"tscircuit_beta">, z.ZodLiteral<"krt">, z.ZodLiteral<"freerouting">, z.ZodLiteral<"laser_prefab">, z.ZodLiteral<"single_layer_fanout">, z.ZodLiteral<"fanout">, z.ZodLiteral<"auto-jumper">, z.ZodLiteral<"sequential-trace">, z.ZodLiteral<"auto-local">, z.ZodLiteral<"auto-cloud">]>;
+21137:declare const autorouterProp: z.ZodType<AutorouterProp>;
+21138:declare const autorouterEffortLevel: z.ZodEnum<["1x", "2x", "5x", "10x", "100x"]>;
+21153:    autorouter?: AutorouterProp;
+21154:    autorouterEffortLevel?: "1x" | "2x" | "5x" | "10x" | "100x";
+21159:    autorouterVersion?: "beta_pipeline1" | "beta_pipeline3" | "beta_pipeline4" | "beta_pipeline5" | "beta_pipeline7" | "beta_pipeline9" | "latest" | (string & {});
+21205:declare const baseGroupProps: z.ZodObject<{
+22847:    autorouter: z.ZodOptional<z.ZodType<AutorouterProp, z.ZodTypeDef, AutorouterProp>>;
+22848:    autorouterEffortLevel: z.ZodOptional<z.ZodEnum<["1x", "2x", "5x", "10x", "100x"]>>;
+22849:    autorouterVersion: z.ZodOptional<z.ZodEffects<z.ZodType<AutocompleteString<AutorouterVersion>, z.ZodTypeDef, AutocompleteString<AutorouterVersion>>, "beta_pipeline1" | "beta_pipeline3" | "beta_pipeline4" | "beta_pipeline5" | "beta_pipeline7" | "beta_pipeline9" | "latest", AutocompleteString<AutorouterVersion>>>;
+23313:    autorouter?: AutorouterProp | undefined;
+23314:    autorouterEffortLevel?: "2x" | "1x" | "5x" | "10x" | "100x" | undefined;
+23315:    autorouterVersion?: "beta_pipeline1" | "beta_pipeline3" | "beta_pipeline4" | "beta_pipeline5" | "beta_pipeline7" | "beta_pipeline9" | "latest" | undefined;
+23636:    autorouter?: AutorouterProp | undefined;
+23637:    autorouterEffortLevel?: "2x" | "1x" | "5x" | "10x" | "100x" | undefined;
+23638:    autorouterVersion?: AutocompleteString<AutorouterVersion> | undefined;
+24256:    autorouter: z.ZodOptional<z.ZodType<AutorouterProp, z.ZodTypeDef, AutorouterProp>>;
+24257:    autorouterEffortLevel: z.ZodOptional<z.ZodEnum<["1x", "2x", "5x", "10x", "100x"]>>;
+24258:    autorouterVersion: z.ZodOptional<z.ZodEffects<z.ZodType<AutocompleteString<AutorouterVersion>, z.ZodTypeDef, AutocompleteString<AutorouterVersion>>, "beta_pipeline1" | "beta_pipeline3" | "beta_pipeline4" | "beta_pipeline5" | "beta_pipeline7" | "beta_pipeline9" | "latest", AutocompleteString<AutorouterVersion>>>;
+24725:    autorouter?: AutorouterProp | undefined;
+24726:    autorouterEffortLevel?: "2x" | "1x" | "5x" | "10x" | "100x" | undefined;
+24727:    autorouterVersion?: "beta_pipeline1" | "beta_pipeline3" | "beta_pipeline4" | "beta_pipeline5" | "beta_pipeline7" | "beta_pipeline9" | "latest" | undefined;
+25049:    autorouter?: AutorouterProp | undefined;
+25050:    autorouterEffortLevel?: "2x" | "1x" | "5x" | "10x" | "100x" | undefined;
+25051:    autorouterVersion?: AutocompleteString<AutorouterVersion> | undefined;
+26752:    autorouter: z.ZodOptional<z.ZodType<AutorouterProp, z.ZodTypeDef, AutorouterProp>>;
+26753:    autorouterEffortLevel: z.ZodOptional<z.ZodEnum<["1x", "2x", "5x", "10x", "100x"]>>;
+26754:    autorouterVersion: z.ZodOptional<z.ZodEffects<z.ZodType<AutocompleteString<AutorouterVersion>, z.ZodTypeDef, AutocompleteString<AutorouterVersion>>, "beta_pipeline1" | "beta_pipeline3" | "beta_pipeline4" | "beta_pipeline5" | "beta_pipeline7" | "beta_pipeline9" | "latest", AutocompleteString<AutorouterVersion>>>;
+27221:    autorouter?: AutorouterProp | undefined;
+27222:    autorouterEffortLevel?: "2x" | "1x" | "5x" | "10x" | "100x" | undefined;
+27223:    autorouterVersion?: "beta_pipeline1" | "beta_pipeline3" | "beta_pipeline4" | "beta_pipeline5" | "beta_pipeline7" | "beta_pipeline9" | "latest" | undefined;
+27545:    autorouter?: AutorouterProp | undefined;
+27546:    autorouterEffortLevel?: "2x" | "1x" | "5x" | "10x" | "100x" | undefined;
+27547:    autorouterVersion?: AutocompleteString<AutorouterVersion> | undefined;
+27660:     * Whether the autorouter may generate blind and buried vias. Defaults to
+28405:    autorouter: z.ZodOptional<z.ZodType<AutorouterProp, z.ZodTypeDef, AutorouterProp>>;
+28406:    autorouterEffortLevel: z.ZodOptional<z.ZodEnum<["1x", "2x", "5x", "10x", "100x"]>>;
+28407:    autorouterVersion: z.ZodOptional<z.ZodEffects<z.ZodType<AutocompleteString<AutorouterVersion>, z.ZodTypeDef, AutocompleteString<AutorouterVersion>>, "beta_pipeline1" | "beta_pipeline3" | "beta_pipeline4" | "beta_pipeline5" | "beta_pipeline7" | "beta_pipeline9" | "latest", AutocompleteString<AutorouterVersion>>>;
+28790:    autorouter?: AutorouterProp | undefined;
+28791:    autorouterEffortLevel?: "2x" | "1x" | "5x" | "10x" | "100x" | undefined;
+28792:    autorouterVersion?: "beta_pipeline1" | "beta_pipeline3" | "beta_pipeline4" | "beta_pipeline5" | "beta_pipeline7" | "beta_pipeline9" | "latest" | undefined;
+29134:    autorouter?: AutorouterProp | undefined;
+29135:    autorouterEffortLevel?: "2x" | "1x" | "5x" | "10x" | "100x" | undefined;
+29136:    autorouterVersion?: AutocompleteString<AutorouterVersion> | undefined;
+31529: * Declares one or more connections that an autorouter should route as a group.
+31788:     * Defaults to the multilayer fanout autorouter.
+31790:    autorouter?: AutorouterProp;
+31797:     * Minimum clearance between this fanout boundary and another fanout
+32357:    autorouterEffortLevel: z.ZodOptional<z.ZodEnum<["1x", "2x", "5x", "10x", "100x"]>>;
+32358:    autorouterVersion: z.ZodOptional<z.ZodEffects<z.ZodType<AutocompleteString<AutorouterVersion>, z.ZodTypeDef, AutocompleteString<AutorouterVersion>>, "beta_pipeline1" | "beta_pipeline3" | "beta_pipeline4" | "beta_pipeline5" | "beta_pipeline7" | "beta_pipeline9" | "latest", AutocompleteString<AutorouterVersion>>>;
+32603:    autorouter: z.ZodDefault<z.ZodType<AutorouterProp, z.ZodTypeDef, AutorouterProp>>;
+32611:    autorouter: AutorouterProp;
+32872:    autorouterEffortLevel?: "2x" | "1x" | "5x" | "10x" | "100x" | undefined;
+32873:    autorouterVersion?: "beta_pipeline1" | "beta_pipeline3" | "beta_pipeline4" | "beta_pipeline5" | "beta_pipeline7" | "beta_pipeline9" | "latest" | undefined;
+33206:    autorouter?: AutorouterProp | undefined;

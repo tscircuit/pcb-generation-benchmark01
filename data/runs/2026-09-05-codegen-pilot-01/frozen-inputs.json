@@ -1,0 +1,17 @@
+{
+  "repository_base_commit": "a9d1e4f7624451818322ebec60f5e12dd4b3f9a6",
+  "files": [
+    {
+      "path": "configs/2026-09-05-codegen-pilot-01.json",
+      "sha256": "e53418abb3a674f64fefce21ecc878ec5baf7a7c32674ebbef74cf654605054e"
+    },
+    {
+      "path": "methods/tscircuit-codegen/pilot-wrapper-v1.md",
+      "sha256": "b0313be08a6b7c1b62cf809a370cfb5abcfd6e3471d3fa76f036ec6f0e65c6d4"
+    },
+    {
+      "path": "methods/kicad-codegen/pilot-wrapper-v1.md",
+      "sha256": "f462017be267caf7bd4be924ee629e93d956bc7c9a4e52b9a3e2824d432bdad8"
+    }
+  ]
+}

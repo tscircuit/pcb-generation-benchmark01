@@ -1,0 +1,17 @@
+Usage: tsci export [options] <file>
+
+Export tscircuit code to various formats
+
+Arguments:
+  file                    Path to the package file
+
+Options:
+  -f, --format <format>   Output format (json, circuit-json, schematic-svg,
+                          schematic-pdf, pcb-svg, gerbers, readable-netlist,
+                          gltf, glb, specctra-dsn, kicad_sch, kicad_pcb,
+                          kicad_zip, kicad-library, srj, step, assembly-svg,
+                          component-box-3mf)
+  -o, --output <path>     Output file path
+  --disable-parts-engine  Disable the parts engine
+  --show-courtyards       Show courtyard outlines in PCB SVG output
+  -h, --help              display help for command

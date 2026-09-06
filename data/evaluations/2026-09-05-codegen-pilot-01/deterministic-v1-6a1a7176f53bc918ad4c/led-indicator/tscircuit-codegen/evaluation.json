@@ -1,0 +1,366 @@
+{
+  "evaluation_id": "deterministic-v1-6a1a7176f53bc918ad4c--led-indicator--tscircuit-codegen",
+  "evaluator_code_sha256": "4bb17d4993c1766c19a22f6394e12369197e4a58a5c8937192b3be89211ad4f3",
+  "method": "tscircuit-codegen",
+  "outcomes": [
+    {
+      "category": "functional_requirements",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "actual": {
+          "header": 1,
+          "led": 1,
+          "resistor": 1
+        },
+        "expected": {
+          "header": 1,
+          "led": 1,
+          "resistor": 1
+        }
+      },
+      "outcome": "pass",
+      "test_id": "required-components"
+    },
+    {
+      "category": "functional_requirements",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "net_mapping": {
+          "A": "source_port_3",
+          "GND": "source_port_1",
+          "V5": "source_port_0"
+        },
+        "role_mapping": {
+          "D1": "D1",
+          "J1": "J1",
+          "R1": "R1"
+        }
+      },
+      "outcome": "pass",
+      "test_id": "passive-values"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "net_mapping": {
+          "A": "source_port_3",
+          "GND": "source_port_1",
+          "V5": "source_port_0"
+        },
+        "role_mapping": {
+          "D1": "D1",
+          "J1": "J1",
+          "R1": "R1"
+        }
+      },
+      "outcome": "pass",
+      "test_id": "topology"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [],
+      "observed": {
+        "reason": "Compiled tscircuit source and PCB port links share an intermediate representation; independent schematic/source replay was not performed"
+      },
+      "outcome": "unknown",
+      "test_id": "schematic-pcb-net-agreement"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": [],
+        "primitive_count": 17,
+        "scope": "supported outer copper envelopes; no source/build replay"
+      },
+      "outcome": "pass",
+      "test_id": "routed-copper"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": [],
+        "primitive_count": 17,
+        "scope": "supported outer copper envelopes; no source/build replay"
+      },
+      "outcome": "pass",
+      "test_id": "no-copper-shorts"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "height_mm": 20,
+        "width_mm": 30
+      },
+      "outcome": "pass",
+      "test_id": "board-size"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "layers": 2
+      },
+      "outcome": "pass",
+      "test_id": "layers"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "minimum_mm": 0.3
+      },
+      "outcome": "pass",
+      "test_id": "trace-width"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": [],
+        "primitive_count": 17,
+        "scope": "supported outer copper envelopes; no source/build replay"
+      },
+      "outcome": "pass",
+      "test_id": "copper-clearance"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "outside": []
+      },
+      "outcome": "pass",
+      "test_id": "component-containment"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": []
+      },
+      "outcome": "pass",
+      "test_id": "header-pitch"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "recognition": "two surface pads, centre spacing 1.6\u20132.2 mm, short side 0.8\u20131.3 mm and long side 1.1\u20131.7 mm"
+      },
+      "outcome": "pass",
+      "test_id": "passive-packages"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "Automated presence of text does not verify pin/signal association, polarity, and readable silkscreen placement."
+      },
+      "outcome": "unknown",
+      "test_id": "signal-markings"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "edge_distance_mm": 4.0
+      },
+      "outcome": "pass",
+      "test_id": "layout-01"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "edge_distance_mm": 4.0
+      },
+      "outcome": "pass",
+      "test_id": "layout-02"
+    },
+    {
+      "category": "functional_requirements",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "LED color and selected part identity require component evidence beyond copper geometry."
+      },
+      "outcome": "unknown",
+      "test_id": "component-evidence-01"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "Cathode-mark polarity and placement require a reviewed marking/footprint evidence record."
+      },
+      "outcome": "unknown",
+      "test_id": "component-evidence-02"
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "scope": "structural parsing, not source replay"
+      },
+      "outcome": "pass",
+      "test_id": "editable-artifacts"
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "path": "artifacts/README.md"
+      },
+      "outcome": "pass",
+      "test_id": "readme"
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "A read-only static audit does not prove source/build reproducibility, exported-netlist freshness, or the semantic completeness of README component/limitation documentation."
+      },
+      "outcome": "unknown",
+      "test_id": "source-replay-and-documentation"
+    }
+  ],
+  "parse_error": null,
+  "prompt_id": "led-indicator",
+  "prompt_sha256": "ac819606ce733f29806a8bc142714050d32099f1bef99a8d611b0e0581442f5b",
+  "retrospective": true,
+  "rules_sha256": "021c32a5837eb67b5e95872139f879eea486d713cc733c755b1f6db02e2a1486",
+  "run_id": "2026-09-05-codegen-pilot-01--led-indicator--tscircuit-codegen--r1",
+  "schema_version": "1.0.0",
+  "scores": {
+    "applicable_test_count": 21,
+    "category_scores": [
+      {
+        "applicable": true,
+        "category": "functional_requirements",
+        "failed": 0,
+        "passed": 2,
+        "possible_score_max": 2,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 1,
+        "weight": 30
+      },
+      {
+        "applicable": true,
+        "category": "connectivity",
+        "failed": 0,
+        "passed": 3,
+        "possible_score_max": 2,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 1,
+        "weight": 30
+      },
+      {
+        "applicable": true,
+        "category": "physical_constraints",
+        "failed": 0,
+        "passed": 9,
+        "possible_score_max": 2,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 2,
+        "weight": 20
+      },
+      {
+        "applicable": true,
+        "category": "deliverable_integrity",
+        "failed": 0,
+        "passed": 2,
+        "possible_score_max": 2,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 1,
+        "weight": 20
+      }
+    ],
+    "critical_failure": false,
+    "overall_pass": null,
+    "possible_total_max": 100.0,
+    "possible_total_min": 50.0,
+    "resolved_test_count": 16,
+    "total_score": null
+  },
+  "versions": {
+    "artifact_readers": "stdlib-only; no external native tool replay",
+    "evaluator": "1.0.0",
+    "python": "3.9.6"
+  }
+}

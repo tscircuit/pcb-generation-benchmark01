@@ -1,0 +1,63 @@
+** Drc report for buttons.kicad_pcb **
+** Created on 2026-09-05T23:37:14 **
+** Report includes: Errors, Warnings **
+
+** Found 15 DRC violations **
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(47.0000 mm, 31.0000 mm): Track [GND] on F.Cu, length 42.0000 mm
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(9.0000 mm, 16.8000 mm): PCB text 'C1 100n' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(20.0000 mm, 16.8000 mm): PCB text 'C2 100n' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(31.0000 mm, 16.8000 mm): PCB text 'C3 100n' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(42.0000 mm, 16.8000 mm): PCB text 'C4 100n' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(10.0000 mm, 8.0000 mm): PCB text '1:+3V3' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(12.5400 mm, 8.0000 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(15.0800 mm, 8.0000 mm): PCB text 'BTN1' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(17.6200 mm, 8.0000 mm): PCB text 'BTN2' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(20.1600 mm, 8.0000 mm): PCB text 'BTN3' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(22.7000 mm, 8.0000 mm): PCB text 'BTN4' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(8.0000 mm, 13.5000 mm): PCB text 'R1 10k' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(19.0000 mm, 13.5000 mm): PCB text 'R2 10k' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(30.0000 mm, 13.5000 mm): PCB text 'R3 10k' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(41.0000 mm, 13.5000 mm): PCB text 'R4 10k' on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

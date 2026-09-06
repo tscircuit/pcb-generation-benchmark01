@@ -1,0 +1,149 @@
+{
+  "status": "completed",
+  "final_attempt": "artifacts/attempt-03",
+  "generated_files": [
+    "artifacts/README.md",
+    "artifacts/attempt-01/.tscircuit/cache/cle_d1_5__-0cf1c9a7014b82371363e1b2dd25e8ab.json",
+    "artifacts/attempt-01/.tscircuit/cache/cle_d1_5__-202f959a2c7f0dcfaf963d7f58d0abbd.json",
+    "artifacts/attempt-01/.tscircuit/cache/cle_d1_5__-c2671485d60fecdf953d789dcf06ff7d.json",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-27a59f81d8c60374e654b386339cfe23.json",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-449e20854ae5a6bd2728bbe0660d4352.json",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-7e9b043a1765415211070137734d1fa5.json",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-9f603b87a601b12dc88e706884a0f5dd.json",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-bc54dedd8da2c2029fd5f1c1b235b4f6.json",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-f42b00ec23fc22eb47b53b7aad96d123.json",
+    "artifacts/attempt-01/.tscircuit/cache/w3_p2_54__-6bfaec0b29351a388ba319e846d79bc2.json",
+    "artifacts/attempt-01/.tscircuit/cache/w3_p2_54__-9e9ee71f8c04707517864d50ee7a438d.json",
+    "artifacts/attempt-01/dist/index/circuit.json",
+    "artifacts/attempt-01/dist/index/pcb.png",
+    "artifacts/attempt-01/dist/index/pcb.svg",
+    "artifacts/attempt-01/dist/index/schematic.svg",
+    "artifacts/attempt-01/environment.bun.lock",
+    "artifacts/attempt-01/index.circuit.tsx",
+    "artifacts/attempt-01/package.json",
+    "artifacts/attempt-02/.tscircuit/cache/6e5252ca11-05489642dee2aaf18c442aa594d0956e.json",
+    "artifacts/attempt-02/.tscircuit/cache/cle_d1_5__-0cf1c9a7014b82371363e1b2dd25e8ab.json",
+    "artifacts/attempt-02/.tscircuit/cache/cle_d1_5__-202f959a2c7f0dcfaf963d7f58d0abbd.json",
+    "artifacts/attempt-02/.tscircuit/cache/cle_d1_5__-c2671485d60fecdf953d789dcf06ff7d.json",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-27a59f81d8c60374e654b386339cfe23.json",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-449e20854ae5a6bd2728bbe0660d4352.json",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-7e9b043a1765415211070137734d1fa5.json",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-9f603b87a601b12dc88e706884a0f5dd.json",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-bc54dedd8da2c2029fd5f1c1b235b4f6.json",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-f42b00ec23fc22eb47b53b7aad96d123.json",
+    "artifacts/attempt-02/.tscircuit/cache/w3_p2_54__-6bfaec0b29351a388ba319e846d79bc2.json",
+    "artifacts/attempt-02/.tscircuit/cache/w3_p2_54__-9e9ee71f8c04707517864d50ee7a438d.json",
+    "artifacts/attempt-02/dist/index/circuit.json",
+    "artifacts/attempt-02/dist/index/pcb.png",
+    "artifacts/attempt-02/dist/index/pcb.svg",
+    "artifacts/attempt-02/dist/index/schematic.svg",
+    "artifacts/attempt-02/environment.bun.lock",
+    "artifacts/attempt-02/index.circuit.tsx",
+    "artifacts/attempt-02/package.json",
+    "artifacts/attempt-03/.tscircuit/cache/6c2b19a807-ccc32b30ed006d660b97b0ef52d670ba.json",
+    "artifacts/attempt-03/.tscircuit/cache/cle_d1_5__-0cf1c9a7014b82371363e1b2dd25e8ab.json",
+    "artifacts/attempt-03/.tscircuit/cache/cle_d1_5__-202f959a2c7f0dcfaf963d7f58d0abbd.json",
+    "artifacts/attempt-03/.tscircuit/cache/cle_d1_5__-c2671485d60fecdf953d789dcf06ff7d.json",
+    "artifacts/attempt-03/.tscircuit/cache/g___0805__-27a59f81d8c60374e654b386339cfe23.json",
+    "artifacts/attempt-03/.tscircuit/cache/g___0805__-449e20854ae5a6bd2728bbe0660d4352.json",
+    "artifacts/attempt-03/.tscircuit/cache/g___0805__-7e9b043a1765415211070137734d1fa5.json",
+    "artifacts/attempt-03/.tscircuit/cache/g___0805__-9f603b87a601b12dc88e706884a0f5dd.json",
+    "artifacts/attempt-03/.tscircuit/cache/g___0805__-bc54dedd8da2c2029fd5f1c1b235b4f6.json",
+    "artifacts/attempt-03/.tscircuit/cache/g___0805__-f42b00ec23fc22eb47b53b7aad96d123.json",
+    "artifacts/attempt-03/.tscircuit/cache/w3_p2_54__-6bfaec0b29351a388ba319e846d79bc2.json",
+    "artifacts/attempt-03/.tscircuit/cache/w3_p2_54__-9e9ee71f8c04707517864d50ee7a438d.json",
+    "artifacts/attempt-03/dist/index/circuit.json",
+    "artifacts/attempt-03/dist/index/pcb.png",
+    "artifacts/attempt-03/dist/index/pcb.svg",
+    "artifacts/attempt-03/dist/index/schematic.svg",
+    "artifacts/attempt-03/environment.bun.lock",
+    "artifacts/attempt-03/index.circuit.tsx",
+    "artifacts/attempt-03/package.json",
+    "artifacts/tool-versions.json"
+  ],
+  "validation": [
+    {
+      "check": "netlist",
+      "command": [
+        "tsci",
+        "check",
+        "netlist",
+        "index.circuit.tsx"
+      ],
+      "exit_code": 0,
+      "log": "logs/attempt-03-netlist.log",
+      "status": "passed"
+    },
+    {
+      "check": "schematic-placement",
+      "command": [
+        "tsci",
+        "check",
+        "schematic-placement",
+        "index.circuit.tsx"
+      ],
+      "exit_code": 0,
+      "log": "logs/attempt-03-schematic-placement.log",
+      "status": "passed"
+    },
+    {
+      "check": "placement",
+      "command": [
+        "tsci",
+        "check",
+        "placement",
+        "index.circuit.tsx"
+      ],
+      "exit_code": 0,
+      "log": "logs/attempt-03-placement.log",
+      "status": "passed"
+    },
+    {
+      "check": "build",
+      "command": [
+        "tsci",
+        "build",
+        "index.circuit.tsx",
+        "--svgs",
+        "--pcb-png",
+        "--disable-parts-engine",
+        "--autorouter-timeout",
+        "120s"
+      ],
+      "exit_code": 0,
+      "log": "logs/attempt-03-build.log",
+      "status": "passed"
+    },
+    {
+      "check": "shorts",
+      "command": [
+        "tsci",
+        "check",
+        "shorts",
+        "dist/index/circuit.json"
+      ],
+      "exit_code": 0,
+      "log": "logs/attempt-03-shorts.log",
+      "status": "passed"
+    },
+    {
+      "check": "compiled_geometry_and_terminal_graph",
+      "status": "passed",
+      "log": "logs/attempt-03-geometry-audit.json",
+      "command": "python3 logs/audit_geometry.py"
+    },
+    {
+      "check": "full_0.25mm_copper_clearance",
+      "status": null,
+      "log": "logs/attempt-03-geometry-audit.json"
+    }
+  ],
+  "known_limitations": [
+    "Full 0.25 mm copper clearance unverified; compiled board clearance fields retain 0.1 mm defaults despite source routingTolerances.",
+    "No explicit schematic sheet; testpoints have no courtyard.",
+    "First two shorts invocations used a wrong generated JSON path; preserved failures, corrected final invocation.",
+    "Generic component choices; no manufacturer part numbers."
+  ],
+  "failure": null,
+  "requirements_fully_verified": false
+}

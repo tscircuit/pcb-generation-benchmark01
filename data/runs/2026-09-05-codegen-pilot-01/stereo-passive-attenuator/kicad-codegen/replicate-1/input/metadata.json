@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1",
+  "prompt_id": "stereo-passive-attenuator",
+  "revision": 1,
+  "title": "Stereo AC-coupled attenuator",
+  "labels": [
+    "medium",
+    "audio",
+    "ac-coupling",
+    "voltage-divider"
+  ],
+  "status": "draft",
+  "split": "unassigned",
+  "family": "audio-attenuator",
+  "difficulty": "medium",
+  "deliverable_scope": "both",
+  "prompt_file": "prompt.md",
+  "prompt_sha256": "2af5de18a6c2a7bf188a0b22ee6714466cbfa080c2f6a28bdd81a3579968fb4a",
+  "assets": [],
+  "constraints": {
+    "board_width_mm": 50,
+    "board_height_mm": 30,
+    "copper_layers": 2,
+    "min_clearance_mm": 0.25,
+    "min_signal_trace_width_mm": 0.25
+  },
+  "acceptance_criteria": [
+    {
+      "criterion_id": "req-01",
+      "requirement": "Use a rectangular 50 mm \u00d7 30 mm board outline (dimension tolerance 0.1 mm) with two copper layers."
+    },
+    {
+      "criterion_id": "req-02",
+      "requirement": "Use J1 with pins 1 through 3 assigned LEFT_IN, GND, RIGHT_IN, and J2 with pins 1 through 3 assigned LEFT_OUT, GND, RIGHT_OUT."
+    },
+    {
+      "criterion_id": "req-03",
+      "requirement": "For each of the left and right channels, connect the input through a nonpolar 1 uF ceramic capacitor to an internal node, connect a 10 kohm resistor from that node to the output, and connect another 10 kohm resistor from the output to GND. Give every component a unique reference."
+    },
+    {
+      "criterion_id": "req-04",
+      "requirement": "Keep the left and right signal nets separate and share only GND. Place the left channel components in the top half and the right channel components in the bottom half of the board, measured by footprint centres."
+    },
+    {
+      "criterion_id": "req-05",
+      "requirement": "Place J1 within 5 mm of the left edge and J2 within 5 mm of the right edge, measured from footprint centres. Add separate exposed test pads at least 1 mm in diameter for LEFT_OUT, RIGHT_OUT, and GND."
+    },
+    {
+      "criterion_id": "deliverables",
+      "requirement": "Editable schematic and fully placed and routed PCB are supplied with readable entry files and a README documenting component choices and unresolved requirements."
+    },
+    {
+      "criterion_id": "common-layout",
+      "requirement": "Header pitch, passive packages, component pin mapping, silkscreen, board containment, copper clearance, trace widths, and complete routing satisfy the common prompt requirements."
+    }
+  ],
+  "source": {
+    "type": "original",
+    "description": "Authored for this benchmark; draft awaiting review."
+  },
+  "license": null
+}

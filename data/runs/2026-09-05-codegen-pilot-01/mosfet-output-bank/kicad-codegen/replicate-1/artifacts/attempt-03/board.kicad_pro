@@ -1,0 +1,13 @@
+{
+  "board": {
+    "design_settings": {
+      "rules": {
+        "min_clearance": 0.25,
+        "min_track_width": 0.25
+      },
+      "defaults": {
+        "board_outline_line_width": 0.05
+      }
+    }
+  }
+}

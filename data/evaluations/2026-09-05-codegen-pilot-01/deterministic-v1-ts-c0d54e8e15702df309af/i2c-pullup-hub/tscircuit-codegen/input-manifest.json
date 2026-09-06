@@ -1,0 +1,46 @@
+[
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/tscircuit-codegen/replicate-1/artifacts/README.md",
+    "sha256": "8a0f5e6a789c83010a5e4163a327b75757539fc9091482347c2f94e446700242"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/artifacts/attempt-03/index/circuit.json",
+    "sha256": "b4ca3b88c0eae2c599b0ba35101a4ab922194e4d56fb7897c97603a9f30c585d"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/artifacts/attempt-03/index/pcb.png",
+    "sha256": "3f370cbc3b23dc359d16a9ac6ee0efdf461e6119a00b33d5da2d02fe3f369d5d"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/artifacts/attempt-03/index/pcb.svg",
+    "sha256": "623d10bc9dfb896be8bccc5ff2a4aade25e1bba244953cee70e0cb98b1c81ed1"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/artifacts/attempt-03/index/schematic.png",
+    "sha256": "0ea07046717764cc280a10f8f6058388841e072fb6730421e417fec6ba31bfd6"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/tscircuit-codegen/replicate-1/artifacts/attempt-03/dist/artifacts/attempt-03/index/schematic.svg",
+    "sha256": "f5c435e51171279b351222c73c452f79afbfe5c56d891f002e26fc8532ab6417"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/tscircuit-codegen/replicate-1/artifacts/attempt-03/index.circuit.tsx",
+    "sha256": "8cb94495bf352069fa1677680fa28e4f9b8b258bc34c1a1d693f8772c4252106"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/tscircuit-codegen/replicate-1/input/metadata.json",
+    "sha256": "e6110c79e238eac8f71342ed59df99715b47639925fd7a4b252a39dec8a28120"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/tscircuit-codegen/replicate-1/input/prompt.md",
+    "sha256": "63731fd6945270a8a0584ce606aacb4b084064584774f34cc24007635c1b5810"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/tscircuit-codegen/replicate-1/result.json",
+    "sha256": "5cdd974732154a566253fd839e3b45fb008883028bdf86ec1195bbc3552fd697"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/i2c-pullup-hub/tscircuit-codegen/replicate-1/run.json",
+    "sha256": "f70b35be203e60bbf5bf1bd0824ed89cda503ea30a8ab926257f21efc3926ab2"
+  }
+]

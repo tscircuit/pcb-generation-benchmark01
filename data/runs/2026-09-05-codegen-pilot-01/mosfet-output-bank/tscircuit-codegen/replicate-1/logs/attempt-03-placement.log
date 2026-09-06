@@ -1,0 +1,44 @@
+$ tsci check placement index.circuit.tsx
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. It was passed a child from default. See https://react.dev/link/warning-keys for more information.
+placement summary: no placement issues
+
+board top-layer utilization:
+- occupied: 9.113% (318.954mm^2 of 3500mm^2)
+- empty spaces over 5% of board area:
+  - 39.486% (1382mm^2); bounds=(minX=-22.32mm, maxX=5.32mm, minY=-25mm, maxY=25mm)
+  - 7.339% (256.863mm^2); bounds=(minX=-35mm, maxX=-28.77mm, minY=-25mm, maxY=16.23mm)
+  - 5.143% (180mm^2); bounds=(minX=19.05mm, maxX=22.65mm, minY=-25mm, maxY=25mm)
+
+board-edge status:
+- J1: 3.98mm inside left edge
+- C1: 5.3mm inside bottom edge
+- C2: 9.3mm inside bottom edge
+- J2: 7.25mm inside left edge
+- Q1: 5.75mm inside bottom edge
+- R1: 4.3mm inside bottom edge
+- R2: 8.575mm inside bottom edge
+- D1: 6.4mm inside bottom edge
+- J3: 3.25mm inside right edge
+- Q2: 16.2mm inside right edge
+- R3: 16.3mm inside bottom edge
+- R4: 20.575mm inside bottom edge
+- D2: 7.9mm inside right edge
+- J4: 3.25mm inside right edge
+- Q3: 16.2mm inside right edge
+- R5: 20.3mm inside top edge
+- R6: 14.575mm inside top edge
+- D3: 7.9mm inside right edge
+- J5: 3.25mm inside right edge
+- Q4: 5.75mm inside top edge
+- R7: 8.3mm inside top edge
+- R8: 2.575mm inside top edge
+- D4: 6.4mm inside top edge
+- J6: 3.25mm inside right edge
+
+placement drc:
+Errors: 0
+Warnings: 0
+
+EXIT_CODE=0

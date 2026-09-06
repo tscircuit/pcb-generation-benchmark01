@@ -1,0 +1,321 @@
+[
+  {
+    "ref": "J1",
+    "val": "12V INPUT",
+    "lib": "Connector_Generic:Conn_01x02",
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "nets": [
+      "+12V",
+      "GND"
+    ],
+    "x": 15,
+    "y": 15,
+    "uuid": "52b82601-06b9-4056-b8d9-4a4334dc3659"
+  },
+  {
+    "ref": "J2",
+    "val": "CONTROL",
+    "lib": "Connector_Generic:Conn_01x05",
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+    "nets": [
+      "GND",
+      "CTRL1",
+      "CTRL2",
+      "CTRL3",
+      "CTRL4"
+    ],
+    "x": 15,
+    "y": 31,
+    "uuid": "317aa1b5-b2a7-4a32-8d9d-7cec8983b3b3"
+  },
+  {
+    "ref": "C1",
+    "val": "10uF 25V X7R",
+    "lib": "Device:C",
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "nets": [
+      "+12V",
+      "GND"
+    ],
+    "x": 20,
+    "y": 15,
+    "uuid": "a4b9e034-8647-478d-9f0c-fbeb6be3eafc"
+  },
+  {
+    "ref": "C2",
+    "val": "100nF 50V X7R",
+    "lib": "Device:C",
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "nets": [
+      "+12V",
+      "GND"
+    ],
+    "x": 20,
+    "y": 19,
+    "uuid": "668594ac-66be-4d1a-8653-136f95793311"
+  },
+  {
+    "ref": "J3",
+    "val": "LOAD1",
+    "lib": "Connector_Generic:Conn_01x02",
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "nets": [
+      "+12V",
+      "OUT1"
+    ],
+    "x": 75,
+    "y": 17,
+    "uuid": "498fb3b0-ebe7-4ce0-9329-a14528662bc9"
+  },
+  {
+    "ref": "Q1",
+    "val": "AO3400A",
+    "lib": "Transistor_FET:Q_NMOS_GSD",
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "nets": [
+      "GATE1",
+      "GND",
+      "OUT1"
+    ],
+    "x": 59,
+    "y": 19,
+    "uuid": "f0b2ac1b-e8bf-4b2a-804c-2fff70be1125"
+  },
+  {
+    "ref": "R1",
+    "val": "100",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0805_2012Metric",
+    "nets": [
+      "CTRL1",
+      "GATE1"
+    ],
+    "x": 42,
+    "y": 18,
+    "uuid": "0f407f4a-f65c-41a7-8d4b-8566be4eb06b"
+  },
+  {
+    "ref": "R2",
+    "val": "100k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0805_2012Metric",
+    "nets": [
+      "GATE1",
+      "GND"
+    ],
+    "x": 51,
+    "y": 22,
+    "uuid": "c2555481-cf24-4cd3-8c7c-9d0ba084949b"
+  },
+  {
+    "ref": "D1",
+    "val": "SS14 40V 1A",
+    "lib": "Device:D_Schottky",
+    "fp": "Diode_SMD:D_SMA",
+    "nets": [
+      "+12V",
+      "OUT1"
+    ],
+    "x": 69,
+    "y": 17,
+    "uuid": "7aed4b0e-80a6-43c8-be3f-70a916e757cc"
+  },
+  {
+    "ref": "J4",
+    "val": "LOAD2",
+    "lib": "Connector_Generic:Conn_01x02",
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "nets": [
+      "+12V",
+      "OUT2"
+    ],
+    "x": 75,
+    "y": 28,
+    "uuid": "dccb10bf-5e84-416f-a434-ae065568d74d"
+  },
+  {
+    "ref": "Q2",
+    "val": "AO3400A",
+    "lib": "Transistor_FET:Q_NMOS_GSD",
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "nets": [
+      "GATE2",
+      "GND",
+      "OUT2"
+    ],
+    "x": 59,
+    "y": 30,
+    "uuid": "f21467e2-ce09-45f6-82ba-8842996bd565"
+  },
+  {
+    "ref": "R3",
+    "val": "100",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0805_2012Metric",
+    "nets": [
+      "CTRL2",
+      "GATE2"
+    ],
+    "x": 42,
+    "y": 29,
+    "uuid": "bbd45418-318b-4c83-a7bc-51d09763bb24"
+  },
+  {
+    "ref": "R4",
+    "val": "100k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0805_2012Metric",
+    "nets": [
+      "GATE2",
+      "GND"
+    ],
+    "x": 51,
+    "y": 33,
+    "uuid": "be9f0664-2850-4c7d-982c-2c8a6bd5d33d"
+  },
+  {
+    "ref": "D2",
+    "val": "SS14 40V 1A",
+    "lib": "Device:D_Schottky",
+    "fp": "Diode_SMD:D_SMA",
+    "nets": [
+      "+12V",
+      "OUT2"
+    ],
+    "x": 69,
+    "y": 28,
+    "uuid": "89e2becc-496d-4ec8-b1a3-1bae51e75af4"
+  },
+  {
+    "ref": "J5",
+    "val": "LOAD3",
+    "lib": "Connector_Generic:Conn_01x02",
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "nets": [
+      "+12V",
+      "OUT3"
+    ],
+    "x": 75,
+    "y": 39,
+    "uuid": "2513d800-2cd0-402e-b53d-64bedcb0422a"
+  },
+  {
+    "ref": "Q3",
+    "val": "AO3400A",
+    "lib": "Transistor_FET:Q_NMOS_GSD",
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "nets": [
+      "GATE3",
+      "GND",
+      "OUT3"
+    ],
+    "x": 59,
+    "y": 41,
+    "uuid": "352ed40a-8c69-4d60-b448-6b03e0270bf5"
+  },
+  {
+    "ref": "R5",
+    "val": "100",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0805_2012Metric",
+    "nets": [
+      "CTRL3",
+      "GATE3"
+    ],
+    "x": 42,
+    "y": 40,
+    "uuid": "215cfc44-98f0-4988-9884-46d737779a87"
+  },
+  {
+    "ref": "R6",
+    "val": "100k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0805_2012Metric",
+    "nets": [
+      "GATE3",
+      "GND"
+    ],
+    "x": 51,
+    "y": 44,
+    "uuid": "0a0f62a1-d469-40af-b35c-03bff65fd779"
+  },
+  {
+    "ref": "D3",
+    "val": "SS14 40V 1A",
+    "lib": "Device:D_Schottky",
+    "fp": "Diode_SMD:D_SMA",
+    "nets": [
+      "+12V",
+      "OUT3"
+    ],
+    "x": 69,
+    "y": 39,
+    "uuid": "6c2a3fe8-04d1-472b-841d-2b32c25c17fa"
+  },
+  {
+    "ref": "J6",
+    "val": "LOAD4",
+    "lib": "Connector_Generic:Conn_01x02",
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "nets": [
+      "+12V",
+      "OUT4"
+    ],
+    "x": 75,
+    "y": 50,
+    "uuid": "a94358dc-ed9d-4787-a522-a62d86fcb51c"
+  },
+  {
+    "ref": "Q4",
+    "val": "AO3400A",
+    "lib": "Transistor_FET:Q_NMOS_GSD",
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "nets": [
+      "GATE4",
+      "GND",
+      "OUT4"
+    ],
+    "x": 59,
+    "y": 52,
+    "uuid": "b41137e8-bb2d-416f-8d2c-21393014d94b"
+  },
+  {
+    "ref": "R7",
+    "val": "100",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0805_2012Metric",
+    "nets": [
+      "CTRL4",
+      "GATE4"
+    ],
+    "x": 42,
+    "y": 51,
+    "uuid": "b7adfc89-87db-4017-af9d-f9324e09b662"
+  },
+  {
+    "ref": "R8",
+    "val": "100k",
+    "lib": "Device:R",
+    "fp": "Resistor_SMD:R_0805_2012Metric",
+    "nets": [
+      "GATE4",
+      "GND"
+    ],
+    "x": 51,
+    "y": 55,
+    "uuid": "122edd99-4ae5-436b-b0a8-3b891574f6c8"
+  },
+  {
+    "ref": "D4",
+    "val": "SS14 40V 1A",
+    "lib": "Device:D_Schottky",
+    "fp": "Diode_SMD:D_SMA",
+    "nets": [
+      "+12V",
+      "OUT4"
+    ],
+    "x": 69,
+    "y": 50,
+    "uuid": "90060006-38cc-4113-b179-b92bcbe5ec49"
+  }
+]

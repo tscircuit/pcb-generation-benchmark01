@@ -1,0 +1,661 @@
+{
+  "evaluation_id": "deterministic-v1-6a1a7176f53bc918ad4c--diode-key-matrix--tscircuit-codegen",
+  "evaluator_code_sha256": "4bb17d4993c1766c19a22f6394e12369197e4a58a5c8937192b3be89211ad4f3",
+  "method": "tscircuit-codegen",
+  "outcomes": [
+    {
+      "category": "functional_requirements",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "actual": {
+          "diode": 9,
+          "header": 1,
+          "switch": 9
+        },
+        "expected": {
+          "diode": 9,
+          "header": 1,
+          "switch": 9
+        }
+      },
+      "outcome": "pass",
+      "test_id": "required-components"
+    },
+    {
+      "category": "functional_requirements",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "net_mapping": {
+          "COL1": "source_net_3",
+          "COL2": "source_net_4",
+          "COL3": "source_net_5",
+          "K11": "source_net_6",
+          "K12": "source_net_7",
+          "K13": "source_net_8",
+          "K21": "source_net_9",
+          "K22": "source_net_10",
+          "K23": "source_net_11",
+          "K31": "source_net_12",
+          "K32": "source_net_13",
+          "K33": "source_net_14",
+          "ROW1": "source_net_0",
+          "ROW2": "source_net_1",
+          "ROW3": "source_net_2"
+        },
+        "role_mapping": {
+          "D11": "D11",
+          "D12": "D12",
+          "D13": "D13",
+          "D21": "D21",
+          "D22": "D22",
+          "D23": "D23",
+          "D31": "D31",
+          "D32": "D32",
+          "D33": "D33",
+          "J1": "J1",
+          "SW11": "SW11",
+          "SW12": "SW12",
+          "SW13": "SW13",
+          "SW21": "SW21",
+          "SW22": "SW22",
+          "SW23": "SW23",
+          "SW31": "SW31",
+          "SW32": "SW32",
+          "SW33": "SW33"
+        }
+      },
+      "outcome": "pass",
+      "test_id": "passive-values"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "net_mapping": {
+          "COL1": "source_net_3",
+          "COL2": "source_net_4",
+          "COL3": "source_net_5",
+          "K11": "source_net_6",
+          "K12": "source_net_7",
+          "K13": "source_net_8",
+          "K21": "source_net_9",
+          "K22": "source_net_10",
+          "K23": "source_net_11",
+          "K31": "source_net_12",
+          "K32": "source_net_13",
+          "K33": "source_net_14",
+          "ROW1": "source_net_0",
+          "ROW2": "source_net_1",
+          "ROW3": "source_net_2"
+        },
+        "role_mapping": {
+          "D11": "D11",
+          "D12": "D12",
+          "D13": "D13",
+          "D21": "D21",
+          "D22": "D22",
+          "D23": "D23",
+          "D31": "D31",
+          "D32": "D32",
+          "D33": "D33",
+          "J1": "J1",
+          "SW11": "SW11",
+          "SW12": "SW12",
+          "SW13": "SW13",
+          "SW21": "SW21",
+          "SW22": "SW22",
+          "SW23": "SW23",
+          "SW31": "SW31",
+          "SW32": "SW32",
+          "SW33": "SW33"
+        }
+      },
+      "outcome": "pass",
+      "test_id": "topology"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [],
+      "observed": {
+        "reason": "Compiled tscircuit source and PCB port links share an intermediate representation; independent schematic/source replay was not performed"
+      },
+      "outcome": "unknown",
+      "test_id": "schematic-pcb-net-agreement"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": [],
+        "primitive_count": 236,
+        "scope": "supported outer copper envelopes; no source/build replay"
+      },
+      "outcome": "pass",
+      "test_id": "routed-copper"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": [],
+        "primitive_count": 236,
+        "scope": "supported outer copper envelopes; no source/build replay"
+      },
+      "outcome": "pass",
+      "test_id": "no-copper-shorts"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "height_mm": 65,
+        "width_mm": 65
+      },
+      "outcome": "pass",
+      "test_id": "board-size"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "layers": 2
+      },
+      "outcome": "pass",
+      "test_id": "layers"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "minimum_mm": 0.25
+      },
+      "outcome": "pass",
+      "test_id": "trace-width"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": [
+          {
+            "a": 55,
+            "b": 135,
+            "clearance_mm": 0.227
+          }
+        ]
+      },
+      "outcome": "fail",
+      "test_id": "copper-clearance"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "outside": []
+      },
+      "outcome": "pass",
+      "test_id": "component-containment"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": []
+      },
+      "outcome": "pass",
+      "test_id": "header-pitch"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "recognition": "two surface pads, centre spacing 1.6\u20132.2 mm, short side 0.8\u20131.3 mm and long side 1.1\u20131.7 mm"
+      },
+      "outcome": "pass",
+      "test_id": "passive-packages"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "Automated presence of text does not verify pin/signal association, polarity, and readable silkscreen placement."
+      },
+      "outcome": "unknown",
+      "test_id": "signal-markings"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "distance_mm": 6.0
+      },
+      "outcome": "pass",
+      "test_id": "layout-01"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "position_from_lower_left_mm": [
+          12.0,
+          12.0
+        ]
+      },
+      "outcome": "pass",
+      "test_id": "layout-02"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "distance_mm": 6.0
+      },
+      "outcome": "pass",
+      "test_id": "layout-03"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "position_from_lower_left_mm": [
+          32.0,
+          12.0
+        ]
+      },
+      "outcome": "pass",
+      "test_id": "layout-04"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "distance_mm": 6.0
+      },
+      "outcome": "pass",
+      "test_id": "layout-05"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "position_from_lower_left_mm": [
+          52.0,
+          12.0
+        ]
+      },
+      "outcome": "pass",
+      "test_id": "layout-06"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "distance_mm": 6.0
+      },
+      "outcome": "pass",
+      "test_id": "layout-07"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "position_from_lower_left_mm": [
+          12.0,
+          32.0
+        ]
+      },
+      "outcome": "pass",
+      "test_id": "layout-08"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "distance_mm": 6.0
+      },
+      "outcome": "pass",
+      "test_id": "layout-09"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "position_from_lower_left_mm": [
+          32.0,
+          32.0
+        ]
+      },
+      "outcome": "pass",
+      "test_id": "layout-10"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "distance_mm": 6.0
+      },
+      "outcome": "pass",
+      "test_id": "layout-11"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "position_from_lower_left_mm": [
+          52.0,
+          32.0
+        ]
+      },
+      "outcome": "pass",
+      "test_id": "layout-12"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "distance_mm": 6.0
+      },
+      "outcome": "pass",
+      "test_id": "layout-13"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "position_from_lower_left_mm": [
+          12.0,
+          52.0
+        ]
+      },
+      "outcome": "pass",
+      "test_id": "layout-14"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "distance_mm": 6.0
+      },
+      "outcome": "pass",
+      "test_id": "layout-15"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "position_from_lower_left_mm": [
+          32.0,
+          52.0
+        ]
+      },
+      "outcome": "pass",
+      "test_id": "layout-16"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "distance_mm": 6.0
+      },
+      "outcome": "pass",
+      "test_id": "layout-17"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "position_from_lower_left_mm": [
+          52.0,
+          52.0
+        ]
+      },
+      "outcome": "pass",
+      "test_id": "layout-18"
+    },
+    {
+      "category": "functional_requirements",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "Momentary switch behavior, duplicated terminal grouping, and diode switching part/pin mapping require verified component-library evidence."
+      },
+      "outcome": "unknown",
+      "test_id": "component-evidence-01"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "Cathode markings and RrCc marking association need reviewed footprint evidence."
+      },
+      "outcome": "unknown",
+      "test_id": "component-evidence-02"
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "scope": "structural parsing, not source replay"
+      },
+      "outcome": "pass",
+      "test_id": "editable-artifacts"
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "path": "artifacts/README.md"
+      },
+      "outcome": "pass",
+      "test_id": "readme"
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "A read-only static audit does not prove source/build reproducibility, exported-netlist freshness, or the semantic completeness of README component/limitation documentation."
+      },
+      "outcome": "unknown",
+      "test_id": "source-replay-and-documentation"
+    }
+  ],
+  "parse_error": null,
+  "prompt_id": "diode-key-matrix",
+  "prompt_sha256": "8d97a8456932f786386bc04b8f672eb1a0dd9759deed87a475b0328ec07adc15",
+  "retrospective": true,
+  "rules_sha256": "7c9cd4f7b87ea95dd986ca12c08fc625682e52f8ecb1b054e64ff3cf0b9b61b0",
+  "run_id": "2026-09-05-codegen-pilot-01--diode-key-matrix--tscircuit-codegen--r1",
+  "schema_version": "1.0.0",
+  "scores": {
+    "applicable_test_count": 37,
+    "category_scores": [
+      {
+        "applicable": true,
+        "category": "functional_requirements",
+        "failed": 0,
+        "passed": 2,
+        "possible_score_max": 2,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 1,
+        "weight": 30
+      },
+      {
+        "applicable": true,
+        "category": "connectivity",
+        "failed": 0,
+        "passed": 3,
+        "possible_score_max": 2,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 1,
+        "weight": 30
+      },
+      {
+        "applicable": true,
+        "category": "physical_constraints",
+        "failed": 1,
+        "passed": 24,
+        "possible_score_max": 1,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 2,
+        "weight": 20
+      },
+      {
+        "applicable": true,
+        "category": "deliverable_integrity",
+        "failed": 0,
+        "passed": 2,
+        "possible_score_max": 2,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 1,
+        "weight": 20
+      }
+    ],
+    "critical_failure": true,
+    "overall_pass": false,
+    "possible_total_max": 90.0,
+    "possible_total_min": 50.0,
+    "resolved_test_count": 32,
+    "total_score": null
+  },
+  "versions": {
+    "artifact_readers": "stdlib-only; no external native tool replay",
+    "evaluator": "1.0.0",
+    "python": "3.9.6"
+  }
+}

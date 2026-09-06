@@ -1,0 +1,15 @@
+# Analog input bank — KiCad code generation pilot
+
+Entry files: `attempt-03/analog_input.kicad_sch`, `attempt-03/analog_input.kicad_pcb`, and `attempt-03/analog_input.kicad_pro`. Editable generation source is `attempt-03/generate.py`. Open native files in KiCad. SVG exports and native/XML netlists are retained alongside them.
+
+Generated directly using Python and installed KiCad 10.0.6 pcbnew bindings; no GUI, tscircuit, downloaded designs, or evaluator reference material was used. The schematic embeds standard KiCad library symbols and connects pins using net labels. The PCB uses standard library footprints and a deterministic two-layer Manhattan maze router. The generator needs the local KiCad Python runtime and library paths recorded in its source.
+
+J1–J6 use 1x02 2.54 mm vertical through-hole headers (pin 1 INi, pin 2 GND). J7 uses a rotated 1x08 2.54 mm header with pins 1–6 OUT1–OUT6 and pins 7–8 GND. R(3i−2)=10k between INi and DIVi, R(3i−1)=20k between DIVi and GND, and R(3i)=1k between DIVi and OUTi. C1–C6 are 100nF between OUTi and GND. All resistors/capacitors use standard 0805 footprints. TP1–TP6 are OUT1–OUT6; TP7 is GND, using exposed 1.5 mm pads. H1–H4 use standard 3.2 mm nonplated mounting holes.
+
+Native exports and connectivity audit succeeded: all 75 specified pin assignments match the schematic netlist and PCB DRC reports zero unconnected pads. Read-only geometry inspection confirms 80x50 mm outline, two copper layers, 0.25 mm tracks, input centres 5.27 mm from top edge with 12 mm spacing, J7 centre 5 mm from bottom, capacitor centre distances 5.70–9.30 mm from J7, and requested hole coordinates.
+
+Unresolved: ERC has 114 warnings (38 off-grid, 38 footprint library configuration, 38 symbol library configuration). DRC has 63 reported issues: two copper clearance errors (0.1868 mm actual), two overlapping drilled-hole warnings from a via at a header pad, 38 library configuration warnings, and 21 small silkscreen text warnings. The requested 0.25 mm copper clearance is therefore NOT satisfied. KiCad's report used a 0.20 mm local/default clearance despite the intended project setting, so additional sub-0.25 mm clearances are possible. Full schematic/PCB UUID parity was not checked; physical testing and manufacturing validation were not performed. The schematic is organized as individually net-labeled symbols rather than a conventional channel-grouped drawing.
+
+Attempt-01 failed before native output due to a pcbnew LIB_ID constructor mismatch. Attempt-02 fixed that but failed before native output due to PCB_TEXT constructor requirements. Attempt-03 fixed that and produced the final candidate. Both failures and exact scripts remain preserved; the two-repair budget is exhausted. The PCB SVG command initially used directory syntax unsupported by the selected export mode; a second export command succeeded without changing the design.
+
+Raw reports and command output are in `../logs/`. “Completed” in result.json means generation ended normally; the design has not passed ERC/DRC or all prompt requirements.

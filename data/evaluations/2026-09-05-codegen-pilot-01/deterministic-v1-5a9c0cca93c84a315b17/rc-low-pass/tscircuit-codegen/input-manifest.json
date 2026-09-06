@@ -1,0 +1,78 @@
+[
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/artifacts/README.md",
+    "sha256": "d29073cd6b595b2de72d3596541eb7ddf5ee7af6ac621c93dcec51b5a02bffa2"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/64e645c44e-93a284460b6f84ea50fd7df0b2fda9b8.json",
+    "sha256": "85b2965194512781ea4c58bda420e896cf19b9486993fffbd8da3c6df449de71"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/_pinrow2__-4be5185a4ac4e6d0c6040093ab8a40d2.json",
+    "sha256": "1d3b4dccac9368318f9cf1d1827a429c7ce8a8041e8de956bdfaf3dc8237b4eb"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/_pinrow2__-9ccaf4a0ca16ec5b19b2aa4899f732e6.json",
+    "sha256": "1d3b4dccac9368318f9cf1d1827a429c7ce8a8041e8de956bdfaf3dc8237b4eb"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/g___0805__-9f603b87a601b12dc88e706884a0f5dd.json",
+    "sha256": "2225d5a558677d1b0b1b8b40023e1010febd40bb9cdfdb8cfaadc7773b890764"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/g___0805__-f42b00ec23fc22eb47b53b7aad96d123.json",
+    "sha256": "ea8f3346c08d1a77fc91d33ef10942ff46dcfacb5f01dcb73a26893599a8df28"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/circuit.json",
+    "sha256": "6a579a3d13e0c535397a74b6ac81210425d87453e03cbb833b29322314ab5971"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/pcb.png",
+    "sha256": "2b5d4799f7ebdd0b056bc47015fc67d60ed7f356e4c699c47fce457ce5cb7666"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/pcb.svg",
+    "sha256": "8dd26b2c8abdd52e939fc796ceb05c27d35b5eed9d904c5ac030a0258c5db2ae"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/schematic.png",
+    "sha256": "1524e9a0e30472ef296bca68abc170a3172c6a680b305d6e63051fccacdb8a3b"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/schematic.svg",
+    "sha256": "88f4b7f0503fdae7412710fc38c43aa3ceb46dcbdce18c05958810d4f006bc2a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/artifacts/attempt-02/environment.bun.lock",
+    "sha256": "8fc3c694d6f79ced508e7b65dff2a23a5405b92c0cecadd3739b0d7b96756e6c"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/artifacts/attempt-02/geometry-audit.json",
+    "sha256": "3845eaa048dbcc1e4acb64938e0bd17d57ed11856686c3bfa20223796d325dd1"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/artifacts/attempt-02/index.circuit.tsx",
+    "sha256": "1b7a6b26d3e65e87ef5a7876b08775a2454a3ec9c71a26750a1512914e9609c6"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/artifacts/attempt-02/package.json",
+    "sha256": "0f3a061cbe435b47db4f6605b0e29b12ecf62398fe035f5ad4d6147c16beb1be"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/input/metadata.json",
+    "sha256": "b83d078d0e19292c78f1f54adf45a12bd96e5eae370645627564dbe61ad7b957"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/input/prompt.md",
+    "sha256": "eda1af0a7aa0fba25e862b7795c61a6137ad61d76285ec39f641765016bb6541"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/result.json",
+    "sha256": "973912e56c109148faeb8f9ab8411681b6446c0b5143d5755801d54551784448"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/rc-low-pass/tscircuit-codegen/replicate-1/run.json",
+    "sha256": "a44bc4b80e4798b04172cb46618b98d018a0ec34b4dd9be9cef9e2eb2ff06995"
+  }
+]

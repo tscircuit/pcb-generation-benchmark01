@@ -1,0 +1,207 @@
+Building 1 file(s)...
+Building artifacts/attempt-01/index.circuit.tsx...
+Generating circuit JSON...
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `board`. It was passed a child from default. See https://react.dev/link/warning-keys for more information.
+Circuit JSON written to dist/artifacts/attempt-01/index/circuit.json
+<trace#112(from:.R1 > .pin2 to:.JP1 > .pin1) /> is missing a name. Add a name prop to make the trace easier to identify.
+<trace#161(from:.R2 > .pin2 to:.JP2 > .pin1) /> is missing a name. Add a name prop to make the trace easier to identify.
+No <schematicsheet> was found. Add a <schematicsheet> to define the schematic drawing area.
+All pins on JP1 are underspecified (no pinAttributes set)
+All pins on JP2 are underspecified (no pinAttributes set)
+JP1 has no pin with requires_power=true
+JP2 has no pin with requires_power=true
+JP1 has no pin with requires_ground=true
+JP2 has no pin with requires_ground=true
+Could not create pinheader "J1". Invalid props for pinheader "J1": pinLabels ({"0":{"_errors":["Invalid"]},"_errors":[]}) Details: Props: {
+  "name": "J1",
+  "pinCount": 4,
+  "pitch": "2.54mm",
+  "gender": "male",
+  "footprint": "pinrow4_p2.54mm",
+  "pcbX": -19,
+  "pcbY": 0,
+  "pcbRotation": 90,
+  "schX": -8,
+  "schY": 5,
+  "schSectionName": "IO",
+  "pinLabels": [
+    "+3V3",
+    "GND",
+    "SDA",
+    "SCL"
+  ],
+  "showSilkscreenPinLabels": true,
+  "componentType": "pinheader",
+  "error": {
+    "componentName": "pinheader",
+    "originalProps": {
+      "name": "J1",
+      "pinCount": 4,
+      "pitch": "2.54mm",
+      "gender": "male",
+      "footprint": "pinrow4_p2.54mm",
+      "pcbX": -19,
+      "pcbY": 0,
+      "pcbRotation": 90,
+      "schX": -8,
+      "schY": 5,
+      "schSectionName": "IO",
+      "pinLabels": "[Circular]",
+      "showSilkscreenPinLabels": true
+    },
+    "formattedError": {
+      "_errors": [],
+      "pinLabels": {
+        "0": {
+          "_errors": [
+            "Invalid"
+          ]
+        },
+        "_errors": []
+      }
+    }
+  },
+  "type": "unknown",
+  "component_name": "J1",
+  "error_type": "source_failed_to_create_component_error",
+  "message": "Invalid props for pinheader \"J1\": pinLabels ({\"0\":{\"_errors\":[\"Invalid\"]},\"_errors\":[]})"
+}
+Could not create pinheader "J2". Invalid props for pinheader "J2": pinLabels ({"0":{"_errors":["Invalid"]},"_errors":[]}) Details: Props: {
+  "name": "J2",
+  "pinCount": 4,
+  "pitch": "2.54mm",
+  "gender": "male",
+  "footprint": "pinrow4_p2.54mm",
+  "pcbX": 19,
+  "pcbY": 0,
+  "pcbRotation": 90,
+  "schX": 0,
+  "schY": 5,
+  "schSectionName": "IO",
+  "pinLabels": [
+    "+3V3",
+    "GND",
+    "SDA",
+    "SCL"
+  ],
+  "showSilkscreenPinLabels": true,
+  "componentType": "pinheader",
+  "error": {
+    "componentName": "pinheader",
+    "originalProps": {
+      "name": "J2",
+      "pinCount": 4,
+      "pitch": "2.54mm",
+      "gender": "male",
+      "footprint": "pinrow4_p2.54mm",
+      "pcbX": 19,
+      "pcbY": 0,
+      "pcbRotation": 90,
+      "schX": 0,
+      "schY": 5,
+      "schSectionName": "IO",
+      "pinLabels": "[Circular]",
+      "showSilkscreenPinLabels": true
+    },
+    "formattedError": {
+      "_errors": [],
+      "pinLabels": {
+        "0": {
+          "_errors": [
+            "Invalid"
+          ]
+        },
+        "_errors": []
+      }
+    }
+  },
+  "type": "unknown",
+  "component_name": "J2",
+  "error_type": "source_failed_to_create_component_error",
+  "message": "Invalid props for pinheader \"J2\": pinLabels ({\"0\":{\"_errors\":[\"Invalid\"]},\"_errors\":[]})"
+}
+Could not create pinheader "J3". Invalid props for pinheader "J3": pinLabels ({"0":{"_errors":["Invalid"]},"_errors":[]}) Details: Props: {
+  "name": "J3",
+  "pinCount": 4,
+  "pitch": "2.54mm",
+  "gender": "male",
+  "footprint": "pinrow4_p2.54mm",
+  "pcbX": 0,
+  "pcbY": 14,
+  "pcbRotation": 0,
+  "schX": 8,
+  "schY": 5,
+  "schSectionName": "IO",
+  "pinLabels": [
+    "+3V3",
+    "GND",
+    "SDA",
+    "SCL"
+  ],
+  "showSilkscreenPinLabels": true,
+  "componentType": "pinheader",
+  "error": {
+    "componentName": "pinheader",
+    "originalProps": {
+      "name": "J3",
+      "pinCount": 4,
+      "pitch": "2.54mm",
+      "gender": "male",
+      "footprint": "pinrow4_p2.54mm",
+      "pcbX": 0,
+      "pcbY": 14,
+      "pcbRotation": 0,
+      "schX": 8,
+      "schY": 5,
+      "schSectionName": "IO",
+      "pinLabels": "[Circular]",
+      "showSilkscreenPinLabels": true
+    },
+    "formattedError": {
+      "_errors": [],
+      "pinLabels": {
+        "0": {
+          "_errors": [
+            "Invalid"
+          ]
+        },
+        "_errors": []
+      }
+    }
+  },
+  "type": "unknown",
+  "component_name": "J3",
+  "error_type": "source_failed_to_create_component_error",
+  "message": "Invalid props for pinheader \"J3\": pinLabels ({\"0\":{\"_errors\":[\"Invalid\"]},\"_errors\":[]})"
+}
+Could not find port for selector ".J1 > .pin1". Component ".J1 > " not found
+Could not find port for selector ".J1 > .pin2". Component ".J1 > " not found
+Could not find port for selector ".J1 > .pin3". Component ".J1 > " not found
+Could not find port for selector ".J1 > .pin4". Component ".J1 > " not found
+Could not find port for selector ".J2 > .pin1". Component ".J2 > " not found
+Could not find port for selector ".J2 > .pin2". Component ".J2 > " not found
+Could not find port for selector ".J2 > .pin3". Component ".J2 > " not found
+Could not find port for selector ".J2 > .pin4". Component ".J2 > " not found
+Could not find port for selector ".J3 > .pin1". Component ".J3 > " not found
+Could not find port for selector ".J3 > .pin2". Component ".J3 > " not found
+Could not find port for selector ".J3 > .pin3". Component ".J3 > " not found
+Could not find port for selector ".J3 > .pin4". Component ".J3 > " not found
+Port [JP1.pin2] is not connected to net [SDA] by a PCB trace.
+Port [JP2.pin2] is not connected to net [SCL] by a PCB trace.
+Generating preview images...
+[artifacts/attempt-01/index] Generating PCB SVG...
+[artifacts/attempt-01/index] Written pcb.svg
+[artifacts/attempt-01/index] Generating PCB PNG...
+[artifacts/attempt-01/index] Written pcb.png
+[artifacts/attempt-01/index] Generating schematic SVG...
+[artifacts/attempt-01/index] Written schematic.svg
+
+Build complete
+  Circuits  1 passed
+  Options   pcb-png, svgs, autorouter-timeout
+  Output    ../../dist
+
+⚠ Build completed with errors
+Build exiting with code 0: build finished successfully

@@ -1,0 +1,5 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+Traceback (most recent call last):
+  File "/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-01/generate.py", line 46, in <module>
+    f.Reference().SetPosition(pcb.VECTOR2I(pcb.FromMM(x),pcb.FromMM(y-2.8)));f.Reference().SetTextAngle(pcb.EDA_ANGLE(0,pcb.DEGREES))
+AttributeError: module 'pcbnew' has no attribute 'DEGREES'

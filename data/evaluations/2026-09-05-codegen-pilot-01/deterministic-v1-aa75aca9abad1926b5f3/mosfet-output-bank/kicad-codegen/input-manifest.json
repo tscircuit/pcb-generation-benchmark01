@@ -1,0 +1,70 @@
+[
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/artifacts/README.md",
+    "sha256": "d2027f9df30305834b2fb8dc04f7f5bc54913afec99f1adc264fe0f29695ccf6"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/artifacts/attempt-03/board.kicad_pcb",
+    "sha256": "79e4d7e38cca8ade339c7f054c3ff0deea273e4310246504b328aae688eda378"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/artifacts/attempt-03/board.kicad_prl",
+    "sha256": "17fd2530bde826c57486affa122d0a9446a8a4fe73175fb09efea655f55b1903"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/artifacts/attempt-03/board.kicad_pro",
+    "sha256": "26150ca12f2bdfb7760ca8215e9df93d486d2b22f40dc0b7d32220d9a8e46369"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/artifacts/attempt-03/board.kicad_sch",
+    "sha256": "129af06c86ee759ae22c0a23ad4bdaa83f8aa482f7f2334ff33257b870920178"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/artifacts/attempt-03/board.net",
+    "sha256": "17e1b8c7add4caf37dc5ed50af01afda561217322274ded5d0131ddf223330fc"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/artifacts/attempt-03/board.svg",
+    "sha256": "215d5e03b1c60f674d32ecf7037e876aadef28448fcf5c40064871f375b6b137"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/artifacts/attempt-03/components.json",
+    "sha256": "3199dd390819b78cfcb2ad156ef8a02e290f3b1d6c16ce6a933ac60849085b42"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/artifacts/attempt-03/fp-lib-table",
+    "sha256": "12c8207b752e8e94624dd4b284d12abc630a5d27de558bf0f6b228b9f6866944"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/artifacts/attempt-03/generate.py",
+    "sha256": "7142b905069b494eb1faff8af8228a1de8fb9b294b1ce6b65b4d0f1dd872bad5"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/artifacts/attempt-03/repair.py",
+    "sha256": "3f64f0d9f691d2b470102341c839b59361c272eaa2c289fcf4856bd54b2c7dcd"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/artifacts/attempt-03/schematic-svg/board.svg",
+    "sha256": "5a88520d17129840dd3c43d45513f879aefe374139130442deb7652225452e36"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/artifacts/attempt-03/sym-lib-table",
+    "sha256": "7b3ef597523c68bf083b8e9c74b89336b4aaf01fc1601abcc748253ae8745660"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/input/metadata.json",
+    "sha256": "0bca7d34efa2d16f9975b68db439e61f1fbde5b04d93938783dfef9805f334f9"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/input/prompt.md",
+    "sha256": "46049eb02f86cb9da99159dcdd96c5eb5dd7bdba53dc4b53cb60572b4ecfdf4e"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/result.json",
+    "sha256": "03467903d57a2d2c32c82d44fdedfb4e642c6374881f35477267eb4d85b2e2d1"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/run.json",
+    "sha256": "afdeddc996eff07e9ed1531b42c31adae5ea969f62a415717184ce361903d220"
+  }
+]

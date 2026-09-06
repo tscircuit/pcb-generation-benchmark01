@@ -1,0 +1,42 @@
+Errors: 0
+Warnings: 0
+
+Readable Netlist:
+COMPONENTS:
+ - J1: J1, source_component
+ - J2: J2, source_component
+ - R1: 1kΩ resistor
+ - C1: 100nF capacitor
+
+NET: SIGNAL_IN
+  - J1 SIGNAL_IN
+  - R1 pin1
+
+NET: SIGNAL_OUT
+  - C1 pin1 (+)
+  - R1 pin2
+  - J2 SIGNAL_OUT
+
+NET: GND
+  - C1 pin2 (-)
+  - J2 GND
+  - J1 GND
+
+
+COMPONENT_PINS:
+J1
+- pin1(SIGNAL_IN): NETS(SIGNAL_IN)
+- pin2(GND): NETS(GND)
+
+J2
+- pin1(SIGNAL_OUT): NETS(SIGNAL_OUT)
+- pin2(GND): NETS(GND)
+
+R1 (1kΩ undefined)
+- pin1(anode, pos, left): NETS(SIGNAL_IN)
+- pin2(cathode, neg, right): NETS(SIGNAL_OUT)
+
+C1 (100nF undefined)
+- pin1(anode, pos, left): NETS(SIGNAL_OUT)
+- pin2(cathode, neg, right): NETS(GND)
+

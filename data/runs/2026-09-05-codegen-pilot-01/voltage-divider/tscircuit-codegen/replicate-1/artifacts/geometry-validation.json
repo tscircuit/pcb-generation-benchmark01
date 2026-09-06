@@ -1,0 +1,16 @@
+{
+  "minimum_separate_net_copper_clearance_mm": 0.26652900210381025,
+  "nearest_pair": [
+    "source_net_1_mst2_0",
+    "pcb_smtpad_3",
+    "top"
+  ],
+  "clearance_0_25_pass": true,
+  "routed_net_connectivity": {
+    "source_net_1": true,
+    "source_net_2": true,
+    "source_net_0": true
+  },
+  "trace_min_width_mm": 0.25,
+  "method": "Shapely buffered wire segments, circular pads/vias approximated with 512-sided polygons, pad outlines. Connectivity from compiled route endpoints."
+}

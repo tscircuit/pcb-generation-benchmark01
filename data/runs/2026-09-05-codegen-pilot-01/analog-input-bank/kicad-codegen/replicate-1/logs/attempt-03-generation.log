@@ -1,0 +1,21 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+OUT1 routed
+OUT2 routed
+OUT3 routed
+OUT4 routed
+OUT5 routed
+OUT6 routed
+DIV1 routed
+DIV2 routed
+DIV3 routed
+DIV4 routed
+DIV5 routed
+DIV6 routed
+IN1 routed
+IN2 routed
+IN3 routed
+IN4 routed
+IN5 routed
+IN6 routed
+GND routed
+Saved 2404 tracks 17 vias []

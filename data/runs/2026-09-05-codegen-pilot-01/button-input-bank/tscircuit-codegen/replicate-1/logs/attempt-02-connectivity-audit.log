@@ -1,0 +1,61 @@
+{
+  "method": "Compiler route connectsTo graph plus source internal switch terminal pairs; not independent geometric continuity DRC",
+  "nets": {
+    "V3V3": {
+      "source_port_count": 5,
+      "routed_connected_groups_including_internal_switch_pairs": 1
+    },
+    "GND": {
+      "source_port_count": 13,
+      "routed_connected_groups_including_internal_switch_pairs": 1
+    },
+    "BTN1": {
+      "source_port_count": 5,
+      "routed_connected_groups_including_internal_switch_pairs": 1
+    },
+    "BTN2": {
+      "source_port_count": 5,
+      "routed_connected_groups_including_internal_switch_pairs": 1
+    },
+    "BTN3": {
+      "source_port_count": 5,
+      "routed_connected_groups_including_internal_switch_pairs": 1
+    },
+    "BTN4": {
+      "source_port_count": 5,
+      "routed_connected_groups_including_internal_switch_pairs": 1
+    }
+  },
+  "all_nets_connected_in_route_graph": true,
+  "min_trace_width_mm": 0.25,
+  "max_trace_width_mm": 0.25,
+  "pcb_trace_count": 32,
+  "via_count": 9,
+  "board": [
+    {
+      "type": "pcb_board",
+      "pcb_board_id": "pcb_board_0",
+      "source_board_id": "source_board_0",
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "thickness": 1.4,
+      "num_layers": 2,
+      "width": 50,
+      "height": 35,
+      "material": "fr4",
+      "min_trace_width": 0.25,
+      "min_via_hole_diameter": 0.2,
+      "min_via_pad_diameter": 0.3,
+      "min_via_hole_edge_to_via_hole_edge_clearance": 0.1,
+      "min_via_edge_to_pad_edge_clearance": 0.25,
+      "min_trace_to_pad_edge_clearance": 0.25,
+      "min_pad_edge_to_pad_edge_clearance": 0.25,
+      "min_plated_hole_drill_edge_to_drill_edge_clearance": 0.15,
+      "min_board_edge_clearance": 0.2
+    }
+  ],
+  "errors": [],
+  "minimum_physical_copper_clearance_mm": null
+}

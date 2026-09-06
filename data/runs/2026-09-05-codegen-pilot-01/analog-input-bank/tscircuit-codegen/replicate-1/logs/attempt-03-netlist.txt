@@ -1,0 +1,310 @@
+Errors: 0
+Warnings: 0
+
+Readable Netlist:
+COMPONENTS:
+ - J1: J1, source_component
+ - R1: 10kΩ resistor
+ - R2: 20kΩ resistor
+ - R3: 1kΩ resistor
+ - C1: 100nF capacitor
+ - TP1: TP1, source_component
+ - J2: J2, source_component
+ - R4: 10kΩ resistor
+ - R5: 20kΩ resistor
+ - R6: 1kΩ resistor
+ - C2: 100nF capacitor
+ - TP2: TP2, source_component
+ - J3: J3, source_component
+ - R7: 10kΩ resistor
+ - R8: 20kΩ resistor
+ - R9: 1kΩ resistor
+ - C3: 100nF capacitor
+ - TP3: TP3, source_component
+ - J4: J4, source_component
+ - R10: 10kΩ resistor
+ - R11: 20kΩ resistor
+ - R12: 1kΩ resistor
+ - C4: 100nF capacitor
+ - TP4: TP4, source_component
+ - J5: J5, source_component
+ - R13: 10kΩ resistor
+ - R14: 20kΩ resistor
+ - R15: 1kΩ resistor
+ - C5: 100nF capacitor
+ - TP5: TP5, source_component
+ - J6: J6, source_component
+ - R16: 10kΩ resistor
+ - R17: 20kΩ resistor
+ - R18: 1kΩ resistor
+ - C6: 100nF capacitor
+ - TP6: TP6, source_component
+ - J7: J7, source_component
+ - TP7: TP7, source_component
+
+NET: IN1
+  - R1 pin1
+  - J1 IN1
+
+NET: DIV1
+  - R3 pin1
+  - R2 pin1
+  - R1 pin2
+
+NET: OUT1
+  - J7 OUT1
+  - TP1 pin1
+  - C1 pin1 (+)
+  - R3 pin2
+
+NET: IN2
+  - R4 pin1
+  - J2 IN2
+
+NET: DIV2
+  - R6 pin1
+  - R5 pin1
+  - R4 pin2
+
+NET: OUT2
+  - J7 OUT2
+  - TP2 pin1
+  - C2 pin1 (+)
+  - R6 pin2
+
+NET: IN3
+  - R7 pin1
+  - J3 IN3
+
+NET: DIV3
+  - R9 pin1
+  - R8 pin1
+  - R7 pin2
+
+NET: OUT3
+  - J7 OUT3
+  - TP3 pin1
+  - C3 pin1 (+)
+  - R9 pin2
+
+NET: IN4
+  - R10 pin1
+  - J4 IN4
+
+NET: DIV4
+  - R12 pin1
+  - R11 pin1
+  - R10 pin2
+
+NET: OUT4
+  - J7 OUT4
+  - TP4 pin1
+  - C4 pin1 (+)
+  - R12 pin2
+
+NET: IN5
+  - R13 pin1
+  - J5 IN5
+
+NET: DIV5
+  - R15 pin1
+  - R14 pin1
+  - R13 pin2
+
+NET: OUT5
+  - J7 OUT5
+  - TP5 pin1
+  - C5 pin1 (+)
+  - R15 pin2
+
+NET: IN6
+  - R16 pin1
+  - J6 IN6
+
+NET: DIV6
+  - R18 pin1
+  - R17 pin1
+  - R16 pin2
+
+NET: OUT6
+  - J7 OUT6
+  - TP6 pin1
+  - C6 pin1 (+)
+  - R18 pin2
+
+NET: GND
+  - TP7 pin1
+  - J7 GND
+  - J7 GND
+  - C6 pin2 (-)
+  - R17 pin2
+  - J6 GND
+  - C5 pin2 (-)
+  - R14 pin2
+  - J5 GND
+  - C4 pin2 (-)
+  - R11 pin2
+  - J4 GND
+  - C3 pin2 (-)
+  - R8 pin2
+  - J3 GND
+  - C2 pin2 (-)
+  - R5 pin2
+  - J2 GND
+  - C1 pin2 (-)
+  - R2 pin2
+  - J1 GND
+
+
+COMPONENT_PINS:
+J1
+- pin1(IN1): NETS(IN1)
+- pin2(GND): NETS(GND)
+
+R1 (10kΩ undefined)
+- pin1(anode, pos, left): NETS(IN1)
+- pin2(cathode, neg, right): NETS(DIV1)
+
+R2 (20kΩ undefined)
+- pin1(anode, pos, left): NETS(DIV1)
+- pin2(cathode, neg, right): NETS(GND)
+
+R3 (1kΩ undefined)
+- pin1(anode, pos, left): NETS(DIV1)
+- pin2(cathode, neg, right): NETS(OUT1)
+
+C1 (100nF undefined)
+- pin1(anode, pos, left): NETS(OUT1)
+- pin2(cathode, neg, right): NETS(GND)
+
+TP1
+- pin1: NETS(OUT1)
+
+J2
+- pin1(IN2): NETS(IN2)
+- pin2(GND): NETS(GND)
+
+R4 (10kΩ undefined)
+- pin1(anode, pos, left): NETS(IN2)
+- pin2(cathode, neg, right): NETS(DIV2)
+
+R5 (20kΩ undefined)
+- pin1(anode, pos, left): NETS(DIV2)
+- pin2(cathode, neg, right): NETS(GND)
+
+R6 (1kΩ undefined)
+- pin1(anode, pos, left): NETS(DIV2)
+- pin2(cathode, neg, right): NETS(OUT2)
+
+C2 (100nF undefined)
+- pin1(anode, pos, left): NETS(OUT2)
+- pin2(cathode, neg, right): NETS(GND)
+
+TP2
+- pin1: NETS(OUT2)
+
+J3
+- pin1(IN3): NETS(IN3)
+- pin2(GND): NETS(GND)
+
+R7 (10kΩ undefined)
+- pin1(anode, pos, left): NETS(IN3)
+- pin2(cathode, neg, right): NETS(DIV3)
+
+R8 (20kΩ undefined)
+- pin1(anode, pos, left): NETS(DIV3)
+- pin2(cathode, neg, right): NETS(GND)
+
+R9 (1kΩ undefined)
+- pin1(anode, pos, left): NETS(DIV3)
+- pin2(cathode, neg, right): NETS(OUT3)
+
+C3 (100nF undefined)
+- pin1(anode, pos, left): NETS(OUT3)
+- pin2(cathode, neg, right): NETS(GND)
+
+TP3
+- pin1: NETS(OUT3)
+
+J4
+- pin1(IN4): NETS(IN4)
+- pin2(GND): NETS(GND)
+
+R10 (10kΩ undefined)
+- pin1(anode, pos, left): NETS(IN4)
+- pin2(cathode, neg, right): NETS(DIV4)
+
+R11 (20kΩ undefined)
+- pin1(anode, pos, left): NETS(DIV4)
+- pin2(cathode, neg, right): NETS(GND)
+
+R12 (1kΩ undefined)
+- pin1(anode, pos, left): NETS(DIV4)
+- pin2(cathode, neg, right): NETS(OUT4)
+
+C4 (100nF undefined)
+- pin1(anode, pos, left): NETS(OUT4)
+- pin2(cathode, neg, right): NETS(GND)
+
+TP4
+- pin1: NETS(OUT4)
+
+J5
+- pin1(IN5): NETS(IN5)
+- pin2(GND): NETS(GND)
+
+R13 (10kΩ undefined)
+- pin1(anode, pos, left): NETS(IN5)
+- pin2(cathode, neg, right): NETS(DIV5)
+
+R14 (20kΩ undefined)
+- pin1(anode, pos, left): NETS(DIV5)
+- pin2(cathode, neg, right): NETS(GND)
+
+R15 (1kΩ undefined)
+- pin1(anode, pos, left): NETS(DIV5)
+- pin2(cathode, neg, right): NETS(OUT5)
+
+C5 (100nF undefined)
+- pin1(anode, pos, left): NETS(OUT5)
+- pin2(cathode, neg, right): NETS(GND)
+
+TP5
+- pin1: NETS(OUT5)
+
+J6
+- pin1(IN6): NETS(IN6)
+- pin2(GND): NETS(GND)
+
+R16 (10kΩ undefined)
+- pin1(anode, pos, left): NETS(IN6)
+- pin2(cathode, neg, right): NETS(DIV6)
+
+R17 (20kΩ undefined)
+- pin1(anode, pos, left): NETS(DIV6)
+- pin2(cathode, neg, right): NETS(GND)
+
+R18 (1kΩ undefined)
+- pin1(anode, pos, left): NETS(DIV6)
+- pin2(cathode, neg, right): NETS(OUT6)
+
+C6 (100nF undefined)
+- pin1(anode, pos, left): NETS(OUT6)
+- pin2(cathode, neg, right): NETS(GND)
+
+TP6
+- pin1: NETS(OUT6)
+
+J7
+- pin1(OUT1): NETS(OUT1)
+- pin2(OUT2): NETS(OUT2)
+- pin3(OUT3): NETS(OUT3)
+- pin4(OUT4): NETS(OUT4)
+- pin5(OUT5): NETS(OUT5)
+- pin6(OUT6): NETS(OUT6)
+- pin7(GND): NETS(GND)
+- pin8(GND): NETS(GND)
+
+TP7
+- pin1: NETS(GND)
+

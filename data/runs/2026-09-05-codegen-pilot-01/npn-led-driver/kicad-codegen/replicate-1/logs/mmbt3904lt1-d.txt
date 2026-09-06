@@ -1,0 +1,698 @@
+DATA SHEET
+www.onsemi.com
+©  Semiconductor Components Industries, LLC, 1994
+August, 2021 − Rev. 14
+1 Publication Order Number:
+MMBT3904LT1/D
+General Purpose Transistor
+NPN Silicon
+MMBT3904L, SMMBT3904L
+Features
+• These Devices are Pb−Free, Halogen Free/BFR Free and are RoHS
+Compliant
+• S Prefix for Automotive and Other Applications Requiring Unique
+Site and Control Change Requirements; AEC−Q101 Qualified and
+PPAP Capable
+MAXIMUM RATINGS
+Rating Symbol Value Unit
+Collector −Emitter Voltage VCEO 40 Vdc
+Collector −Base Voltage VCBO 60 Vdc
+Emitter −Base Voltage VEBO 6.0 Vdc
+Collector Current − Continuous IC 200 mAdc
+Collector Current − Peak (Note 3) ICM 900 mAdc
+THERMAL CHARACTERISTICS
+Characteristic Symbol Max Unit
+Total Device Dissipation FR−5 Board 
+(Note 1) @TA = 25°C
+Derate above 25°C
+PD
+225
+1.8
+mW
+mW/°C
+Thermal Resistance, Junction−to−Ambient R/C0113JA 556 °C/W
+Total Device Dissipation Alumina 
+Substrate, (Note 2)
+@TA = 25°C
+Derate above 25°C
+PD
+300
+2.4
+mW
+mW/°C
+Thermal Resistance, Junction−to−Ambient R/C0113JA 417 °C/W
+Junction and Storage Temperature TJ, Tstg −55 to +150 °C
+Stresses exceeding those listed in the Maximum Ratings table may damage the
+device. If any of these limits are exceeded, device functionality should not be
+assumed, damage may occur and reliability may be affected.
+1. FR −5 = 1.0 /C0002 0.75 /C0002 0.062 in.
+2. Alumina = 0.4 /C0002 0.3 /C0002 0.024 in. 99.5% alumina.
+3. Reference SOA curve.
+COLLECTOR
+3
+1
+BASE
+2
+EMITTER
+†For information on tape and reel specifications,
+including part orientation and tape sizes, please
+refer to our Tape and Reel Packaging Specifications
+Brochure, BRD8011/D.
+SOT−23 (TO−236)
+CASE 318
+STYLE 6
+MARKING DIAGRAM
+1AM = Specific Device Code
+M = Date Code*
+/C0071 = Pb−Free Package
+*Date Code orientation and/or overbar may
+vary depending upon manufacturing location.
+(Note: Microdot may be in either location)
+1
+2
+1
+3
+1AM M /C0071
+/C0071
+Device Package Shipping †
+ORDERING INFORMATION
+MMBT3904LT3G
+SMMBT3904LT3G
+SOT−23
+(Pb−Free)
+MMBT3904LT1G
+SMMBT3904LT1G
+SOT−23
+(Pb−Free)
+3000 / Tape &
+Reel
+10,000 / Tape &
+Reel
+Share FeedbackYour Opinion Matters
+MMBT3904L, SMMBT3904L
+www.onsemi.com
+2
+ELECTRICAL CHARACTERISTICS (TA = 25°C unless otherwise noted)
+Characteristic Symbol Min Max Unit
+OFF CHARACTERISTICS
+Collector −Emitter Breakdown Voltage (IC = 1.0 mAdc, IB = 0) V(BR)CEO 40 − Vdc
+Collector −Base Breakdown Voltage (IC = 10 /C0109Adc, IE = 0) V(BR)CBO 60 − Vdc
+Emitter −Base Breakdown Voltage (IE = 10 /C0109Adc, IC = 0) V(BR)EBO 6.0 − Vdc
+Base Cutoff Current (VCE = 30 Vdc, VEB = 3.0 Vdc) IBL − 50 nAdc
+Collector Cutoff Current (VCE = 30 Vdc, VEB = 3.0 Vdc) ICEX − 50 nAdc
+ON CHARACTERISTICS (Note 4)
+DC Current Gain
+(IC = 0.1 mAdc, VCE = 1.0 Vdc)
+(IC = 1.0 mAdc, VCE = 1.0 Vdc)
+(IC = 10 mAdc, VCE = 1.0 Vdc)
+(IC = 50 mAdc, VCE = 1.0 Vdc)
+(IC = 100 mAdc, VCE = 1.0 Vdc)
+HFE
+40
+70
+100
+60
+30
+−
+−
+300
+−
+−
+−
+Collector −Emitter Saturation Voltage
+(IC = 10 mAdc, IB = 1.0 mAdc)
+(IC = 50 mAdc, IB = 5.0 mAdc)
+VCE(sat)
+−
+−
+0.2
+0.3
+Vdc
+Base −Emitter Saturation Voltage
+(IC = 10 mAdc, IB = 1.0 mAdc)
+(IC = 50 mAdc, IB = 5.0 mAdc)
+VBE(sat)
+0.65
+−
+0.85
+0.95
+Vdc
+SMALL−SIGNAL CHARACTERISTICS
+Current −Gain − Bandwidth Product (IC = 10 mAdc, VCE = 20 Vdc, f = 100 MHz) fT 300 − MHz
+Output Capacitance (VCB = 5.0 Vdc, IE = 0, f = 1.0 MHz) Cobo − 4.0 pF
+Input Capacitance (VEB = 0.5 Vdc, IC = 0, f = 1.0 MHz) Cibo − 8.0 pF
+Input Impedance (VCE = 10 Vdc, IC = 1.0 mAdc, f = 1.0 kHz) hie 1.0 10 k/C0087
+Voltage Feedback Ratio (VCE = 10 Vdc, IC = 1.0 mAdc, f = 1.0 kHz) hre 0.5 8.0 X 10−4
+Small −Signal Current Gain (VCE = 10 Vdc, IC = 1.0 mAdc, f = 1.0 kHz) hfe 100 400 −
+Output Admittance (VCE = 10 Vdc, IC = 1.0 mAdc, f = 1.0 kHz) hoe 1.0 40 /C0109mhos
+Noise Figure (VCE = 5.0 Vdc, IC = 100 /C0109Adc, RS = 1.0 k ohms, f = 1.0 kHz) NF − 5.0 dB
+SWITCHING CHARACTERISTICS
+Delay Time (VCC = 3.0 Vdc, VBE = −0.5 Vdc,
+IC = 10 mAdc, IB1 = 1.0 mAdc)
+td − 35
+ns
+Rise Time tr − 35
+Storage Time (VCC = 3.0 Vdc,
+IC = 10 mAdc, IB1 = IB2 = 1.0 mAdc)
+ts − 200
+ns
+Fall Time tf − 50
+Product parametric performance is indicated in the Electrical Characteristics for the listed test conditions, unless otherwise noted. Product
+performance may not be indicated by the Electrical Characteristics if operated under different conditions.
+4. Pulse Test: Pulse Width /C0118 300 /C0109s, Duty Cycle /C0118 2.0%.
+Figure 1. Delay and Rise Time
+Equivalent Test Circuit
+Figure 2. Storage and Fall Time
+Equivalent Test Circuit
++3 V
+275
+10 k
+1N916 CS < 4 pF*
++3 V
+275
+10 k
+CS < 4 pF*< 1 ns
+-/C82020.5 V
++10.9 V300 ns
+DUTY CYCLE = 2%
+< 1 ns-/C82029.1 V′
++10.9 VDUTY CYCLE = 2%
+t1
+0
+10 < t1 < 500 /C0109s
+ * T otal shunt capacitance of test jig and connectors
+Share FeedbackYour Opinion Matters
+MMBT3904L, SMMBT3904L
+www.onsemi.com
+3
+TYPICAL TRANSIENT CHARACTERISTICS
+Figure 3. Capacitance
+REVERSE BIAS VOLTAGE (VOLTS)
+2.0
+3.0
+5.0
+7.0
+10
+1.0
+0.1
+Figure 4. Charge Data
+IC, COLLECTOR CURRENT (mA)
+5000
+1.0
+VCC = 40 V
+IC/IB = 10
+Q, CHARGE (pC)
+3000
+2000
+1000
+500
+300
+200
+700
+100
+50
+70
+2.0 3.0 5.0 7.0 10 20 30 50 70 100 200
+CAPACITANCE (pF)
+1.0 2.0 3.0 5.0 7.0 10 20 30 400.2 0.3 0.5 0.7
+QT
+QA
+Cibo
+Cobo
+TJ = 25°C
+TJ = 125°C
+Figure 5. Turn−On Time
+IC, COLLECTOR CURRENT (mA)
+70
+100
+200
+300
+500
+50
+Figure 6. Rise Time
+IC, COLLECTOR CURRENT (mA)
+TIME (ns)
+1.0 2.0 3.0 10 20 70
+5
+100
+t  , RISE TIME (ns)
+Figure 7. Storage Time
+IC, COLLECTOR CURRENT (mA)
+Figure 8. Fall Time
+IC, COLLECTOR CURRENT (mA)
+5.0 7.0 30 50 200
+10
+30
+7
+20
+70
+100
+200
+300
+500
+50
+1.0 2.0 3.0 10 20 70
+5
+1005.0 7.0 30 50 200
+10
+30
+7
+20
+70
+100
+200
+300
+500
+50
+1.0 2.0 3.0 10 20 70
+5
+1005.0 7.0 30 50 200
+10
+30
+7
+20
+70
+100
+200
+300
+500
+50
+1.0 2.0 3.0 10 20 70
+5
+1005.0 7.0 30 50 200
+10
+30
+7
+20
+rt  , FALL TIME (ns)f
+t  , STORAGE TIME (ns)s′
+VCC = 40 V
+IC/IB = 10
+VCC = 40 V
+IB1 = IB2
+IC/IB = 20
+IC/IB = 10
+IC/IB = 10
+tr @ VCC = 3.0 V
+td @ VOB = 0 V
+40 V
+15 V
+2.0 V
+IC/IB = 10
+IC/IB = 20
+IC/IB = 10IC/IB = 20
+t′s = ts - 1/8 tf
+IB1 = IB2
+Share FeedbackYour Opinion Matters
+MMBT3904L, SMMBT3904L
+www.onsemi.com
+4
+TYPICAL AUDIO SMALL−SIGNAL CHARACTERISTICS
+NOISE FIGURE VARIATIONS
+(VCE = 5.0 Vdc, TA = 25°C, Bandwidth = 1.0 Hz)
+Figure 9. 
+f, FREQUENCY (kHz)
+4
+6
+8
+10
+12
+2
+0.1
+Figure 10. 
+RS, SOURCE RESISTANCE (k OHMS)
+0
+NF, NOISE FIGURE (dB)
+1.0 2.0 4.0 10 20 400.2 0.4
+0
+100
+4
+6
+8
+10
+12
+2
+14
+0.1 1.0 2.0 4.0 10 20 400.2 0.4 100
+NF, NOISE FIGURE (dB)
+f = 1.0 kHz IC = 1.0 mA
+IC = 0.5 mA
+IC = 50 /C0109A
+IC = 100 /C0109A
+SOURCE RESISTANCE = 200 /C0087
+IC = 1.0 mA
+SOURCE RESISTANCE = 200 /C0087
+I
+C = 0.5 mA
+SOURCE RESISTANCE = 500 /C0087
+I
+C = 100 /C0109A
+SOURCE RESISTANCE = 1.0 k
+I
+C = 50 /C0109A
+h PARAMETERS
+(VCE = 10 Vdc, f = 1.0 kHz, TA = 25°C)
+Figure 11. Current Gain
+IC, COLLECTOR CURRENT (mA)
+70
+100
+200
+300
+50
+Figure 12. Output Admittance
+IC, COLLECTOR CURRENT (mA)
+h    , CURRENT GAIN
+h    , OUTPUT ADMITTANCE (   mhos)
+Figure 13. Input Impedance
+IC, COLLECTOR CURRENT (mA)
+Figure 14. Voltage Feedback Ratio
+IC, COLLECTOR CURRENT (mA)
+30
+100
+50
+5
+10
+20
+2.0
+3.0
+5.0
+7.0
+10
+1.0
+0.1 0.2 1.0 2.0 5.0
+0.5
+100.3 0.5 3.0
+0.7
+2.0
+5.0
+10
+20
+1.0
+0.2
+0.5
+oeh    , VOLTAGE FEEDBACK RATIO (X 10    )re
+h    , INPUT IMPEDANCE (k OHMS)ie
+0.1 0.2 1.0 2.0 5.0 100.3 0.5 3.0
+0.1 0.2 1.0 2.0 5.0 100.3 0.5 3.0
+2
+1
+0.1 0.2 1.0 2.0 5.0 100.3 0.5 3.0
+fe
+/C0109-4
+Share FeedbackYour Opinion Matters
+MMBT3904L, SMMBT3904L
+www.onsemi.com
+5
+TYPICAL STATIC CHARACTERISTICS
+Figure 15. DC Current Gain
+IC, COLLECTOR CURRENT (mA)
+10
+100
+1000
+0.1
+h     , DC CURRENT GAIN
+10
+1
+1001.0 1000
+FE
+VCE = 1.0 VTJ = +150°C
++25°C
+-/C820255°C
+Figure 16. Collector Saturation Region
+IB, BASE CURRENT (mA)
+0.4
+0.6
+0.8
+1.0
+0.2
+0.1
+V     , COLLECTOR EMITTER VOLTAGE (VOLTS)
+0.5 2.0 3.0 100.2 0.3
+0
+1.0 0.7 5.0 7.0
+CE
+IC = 1.0 mA
+TJ = 25°C
+0.07 0.050.03 0.020.01
+10 mA 30 mA 100 mA
+Share FeedbackYour Opinion Matters
+MMBT3904L, SMMBT3904L
+www.onsemi.com
+6
+Figure 17. Collector Emitter Saturation Voltage
+vs. Collector Current
+Figure 18. Base Emitter Saturation Voltage vs.
+Collector Current
+IC, COLLECTOR CURRENT (A) IC, COLLECTOR CURRENT (A)
+10.10.010.001
+0
+0.1
+0.2
+0.3
+0.4
+0.6
+0.7
+0.8
+10.10.010.0010.0001
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+1.4
+Figure 19. Base Emitter Voltage vs. Collector
+Current
+IC, COLLECTOR CURRENT (A)
+10.10.010.0010.0001
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+1.4
+VCE(sat), COLLECTOR−EMITTER
+SATURATION VOLTAGE (V)
+VBE(sat), BASE−EMITTER
+SATURATION VOLTAGE (V)
+VBE(on), BASE−EMITTER VOLTAGE (V)
+0.5
+IC/IB = 10
+150°C
+25°C
+−55°C
+IC/IB = 10
+150°C
+25°C
+−55°C
+VCE = 1 V
+150°C
+25°C
+−55°C
+Figure 20. Temperature Coefficients
+IC, COLLECTOR CURRENT (mA)
+-/C82020.5
+0
+0.5
+1.0
+0 60 80 120 140 160 18020 40 100
+COEFFICIENT (mV/  C)
+200
+-/C82021.0
+-/C82021.5
+-/C82022.0
+°
++25°C TO +125°C
+-/C820255°C TO +25°C
++25°C TO +125°C
+-/C820255°C TO +25°C
+/C0113VC FOR VCE(sat)
+/C0113VB FOR VBE(sat)
+VCE (Vdc)
+1001010.10.01
+0.001
+0.01
+0.1
+1
+IC (A)
+Single Pulse Test
+@ TA = 25°C
+Thermal Limit
+100 ms
+1 s 10 ms
+1 ms
+Figure 21. Current Gain Bandwidth vs.
+Collector Current
+IC, COLLECTOR CURRENT (mA)
+10001001010.1
+10
+100
+1000
+fT, CURRENT−GAIN−BANDWIDTH
+PRODUCT (MHz)
+VCE = 1 V
+TA = 25°C
+Figure 22. Safe Operating Area
+Share FeedbackYour Opinion Matters
+SOT−23 (TO−236) 2.90x1.30x1.00 1.90P
+CASE 318
+ISSUE AU
+DATE 14 AUG 2024
+SCALE 4:1
+1
+XXXM/C0071
+/C0071
+XXX = Specific Device Code
+M = Date Code
+/C0071= Pb−Free Package
+GENERIC
+MARKING DIAGRAM*
+*This information is generic. Please refer to
+device data sheet for actual part marking.
+Pb−Free indicator, “G” or microdot “/C0071”, may
+or may not be present. Some products may
+not follow the Generic Marking. STYLES ON PAGE 2
+MECHANICAL CASE OUTLINE
+PACKAGE DIMENSIONS
+onsemi and                     are trademarks of Semiconductor Components Industries, LLC dba onsemi or its subsidiaries in the United States and/or other countries. onsemi reserves
+the right to make changes without further notice to any products herein. onsemi makes no warranty, representation or guarantee regarding the suitability of its products for any particular
+purpose, nor does onsemi assume any liability arising out of the application or use of any product or circuit, and specifically disclaims any and all liability, including without limitation
+special, consequential or incidental damages. onsemi does not convey any license under its patent rights nor the rights of others.
+98ASB42226BDOCUMENT NUMBER:
+DESCRIPTION:
+Electronic versions are uncontrolled except when accessed directly from the Document Repository.
+Printed  versions are uncontrolled  except when stamped  “CONTROLLED COPY” in red.
+PAGE 1 OF 2SOT−23 (TO−236) 2.90x1.30x1.00 1.90P
+©  Semiconductor Components Industries, LLC, 2019 www.onsemi.com
+SOT−23 (TO−236) 2.90x1.30x1.00 1.90P
+CASE 318
+ISSUE AU
+DATE 14 AUG 2024
+STYLE 22:
+PIN 1. RETURN
+2. OUTPUT
+3. INPUT
+STYLE 6:
+PIN 1. BASE
+2. EMITTER
+3. COLLECTOR
+STYLE 7:
+PIN 1. EMITTER
+2. BASE
+3. COLLECTOR
+STYLE 8:
+PIN 1. ANODE
+2. NO CONNECTION
+3. CATHODE
+STYLE 9:
+PIN 1. ANODE
+2. ANODE
+3. CATHODE
+STYLE 10:
+PIN 1. DRAIN
+2. SOURCE
+3. GATE
+STYLE 11:
+PIN 1. ANODE
+2. CATHODE
+3. CATHODE −ANODE
+STYLE 12:
+PIN 1. CATHODE
+2. CATHODE
+3. ANODE
+STYLE 13:
+PIN 1. SOURCE
+2. DRAIN
+3. GATE
+STYLE 14:
+PIN 1. CATHODE
+2. GATE
+3. ANODE
+STYLE 15:
+PIN 1. GATE
+2. CATHODE
+3. ANODE
+STYLE 16:
+PIN 1. ANODE
+2. CATHODE
+3. CATHODE
+STYLE 17:
+PIN 1. NO CONNECTION
+2. ANODE
+3. CATHODE
+STYLE 18:
+PIN 1. NO CONNECTION
+2. CATHODE
+3. ANODE
+STYLE 19:
+PIN 1. CATHODE
+2. ANODE
+3. CATHODE −ANODE
+STYLE 23:
+PIN 1. ANODE
+2. ANODE
+3. CATHODE
+STYLE 20:
+PIN 1. CATHODE
+2. ANODE
+3. GATE
+STYLE 21:
+PIN 1. GATE
+2. SOURCE
+3. DRAIN
+STYLE 1 THRU 5:
+CANCELLED
+STYLE 24:
+PIN 1. GATE
+ 2. DRAIN
+ 3. SOURCE
+STYLE 25:
+PIN 1. ANODE
+ 2. CATHODE
+ 3. GATE
+STYLE 26:
+PIN 1. CATHODE
+ 2. ANODE
+ 3. NO CONNECTION
+STYLE 27:
+PIN 1. CATHODE
+ 2. CATHODE
+ 3. CATHODE
+STYLE 28:
+PIN 1. ANODE
+ 2. ANODE
+ 3. ANODE
+onsemi and                     are trademarks of Semiconductor Components Industries, LLC dba onsemi or its subsidiaries in the United States and/or other countries. onsemi reserves
+the right to make changes without further notice to any products herein. onsemi makes no warranty, representation or guarantee regarding the suitability of its products for any particular
+purpose, nor does onsemi assume any liability arising out of the application or use of any product or circuit, and specifically disclaims any and all liability, including without limitation
+special, consequential or incidental damages. onsemi does not convey any license under its patent rights nor the rights of others.
+98ASB42226BDOCUMENT NUMBER:
+DESCRIPTION:
+Electronic versions are uncontrolled except when accessed directly from the Document Repository.
+Printed  versions are uncontrolled  except when stamped  “CONTROLLED COPY” in red.
+PAGE 2 OF 2SOT−23 (TO−236) 2.90x1.30x1.00 1.90P
+©  Semiconductor Components Industries, LLC, 2019 www.onsemi.com
+onsemi,  , and other names, marks, and brands are registered and/or common law trademarks of Semiconductor Components Industries, LLC  dba “onsemi” or its affiliates
+and/or subsidiaries in the United States and/or other countries. onsemi owns the rights to a number of patents, trademarks, copyrights, trade secrets, and other intellectual property.
+A listing of onsemi’s product/patent coverage may be accessed at www.onsemi.com/site/pdf/Patent−Marking.pdf. onsemi reserves the right to make changes at any time to any
+products or information herein, without notice. The information herein is provided “as−is” and onsemi makes no warranty, representation or guarantee regarding the accuracy of the
+information, product features, availability, functionality, or suitability of its products for any particular purpose, nor does onsemi assume any liability arising out of the application or use
+of any product or circuit, and specifically disclaims any and all liability, including without limitation special, consequential or incidental damages. Buyer is responsible for its products
+and applications using onsemi products, including compliance with all laws, regulations and safety requirements or standards, regardless of any support or applications information
+provided by onsemi. “Typical” parameters which may be provided in onsemi data sheets and/or specifications can and do vary in different applications and actual performance may
+vary over time. All operating parameters, including “Typicals” must be validated for each customer application by customer’s technical experts. onsemi does not convey any license
+under any of its intellectual property rights nor the rights of others. onsemi products are not designed, intended, or authorized for use as a critical component in life support systems
+or any FDA Class 3 medical devices or medical devices with a same or similar classification in a foreign jurisdiction or any devices intended for implantation in the human body. Should
+Buyer purchase or use onsemi products for any such unintended or unauthorized application, Buyer shall indemnify and hold onsemi and its officers, employees, subsidiaries, affiliates,
+and distributors harmless against all claims, costs, damages, and expenses, and reasonable attorney fees arising out of, direct ly or indirectly, any claim of personal injury or death
+associated with such unintended or unauthorized use, even if such claim alleges that onsemi was negligent regarding the design or manufacture of the part. onsemi is an Equal
+Opportunity/Affirmative Action Employer. This literature is subject to all applicable copyright laws and is not for resale in any manner.
+ADDITIONAL INFORMATION
+TECHNICAL PUBLICATIONS:
+Technical Library: www.onsemi.com/design/resources/technical−documentation
+onsemi Website: www.onsemi.com
+ONLINE SUPPORT: www.onsemi.com/support
+For additional information, please contact your local Sales Representative at
+www.onsemi.com/support/sales
+

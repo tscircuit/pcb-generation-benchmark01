@@ -1,0 +1,5 @@
+Expected pin assignments: 75
+Mismatches: []
+Connected nets: 19
+erc {'endpoint_off_grid': 38, 'footprint_link_issues': 38, 'lib_symbol_issues': 38}
+drc {'clearance': 2, 'hole_to_hole': 2, 'lib_footprint_issues': 38, 'text_height': 21}

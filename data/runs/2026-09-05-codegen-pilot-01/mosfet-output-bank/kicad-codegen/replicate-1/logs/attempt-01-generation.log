@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/ankan/Documents/Codex/2026-09-05/cr/outputs/pcb-generation-benchmark/data/runs/2026-09-05-codegen-pilot-01/mosfet-output-bank/kicad-codegen/replicate-1/artifacts/attempt-01/generate.py", line 33, in <module>
+    ln,sn=c['lib'].split(':');tree=sex((LIB/'symbols'/f'{ln}.kicad_sym').read_text());sym=next(x for x in tree if isinstance(x,list) and x[:2]==['symbol','"'+sn+'"']);sym[1]='"'+c['lib']+'"';libs[c['lib']]=out(sym)
+StopIteration

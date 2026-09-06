@@ -1,0 +1,78 @@
+[
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/artifacts/README.md",
+    "sha256": "6526a3873a09e75e399d38627baf219b78c07420933bc8fc3fbd7f1c94c25480"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/3069b12c11-4d95e5b75b115cb30eec1d322022d4bc.json",
+    "sha256": "03fe043f7f4afcd67bd467a2bf26feff08d25b2ed8c29e6981434001a2cdb392"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/747d7e3a11-60bbe4487cfdfab0e8a20e458fa25440.json",
+    "sha256": "805e85a565b836c040c0647e568af5e51298a47ee85737c1d7f6acdd557b1b66"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/g___0805__-204639452bff11565a086c375be54719.json",
+    "sha256": "14a5a907d884cc966e5b34ea8e2ac9374af83d0768339022c6e55963a486ee05"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/g___0805__-9f603b87a601b12dc88e706884a0f5dd.json",
+    "sha256": "2225d5a558677d1b0b1b8b40023e1010febd40bb9cdfdb8cfaadc7773b890764"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/w2_p2_54__-ee9729f8721473af1fb535458baa3268.json",
+    "sha256": "cc9d883ba0864d6a85d9099d9b9752ca095d862fd6aaede16f161da747392d51"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/circuit.json",
+    "sha256": "2d1ceccab2e98b78737332983cd9c0e8986c5a6cd55e1c65ad57053e9cbb15f3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/pcb.png",
+    "sha256": "5b28c5022ad2ba24e5dc2612bf1f5cef8aff9532725ac17b6302fdbc1596448b"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/pcb.svg",
+    "sha256": "45faca00c989769535ba7a53e649cd9a590e1abb0b32d228a035f04d6ddf446d"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/schematic.png",
+    "sha256": "0f85ead648bd13ac28b9f19ba8d5a68e455c4b8108e326c3b4bc055b83028175"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/schematic.svg",
+    "sha256": "e600beeca08d7f837c34fc4912f05b5f8a20639dee928fa459299a2283d950f6"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/artifacts/attempt-02/environment.bun.lock",
+    "sha256": "8fc3c694d6f79ced508e7b65dff2a23a5405b92c0cecadd3739b0d7b96756e6c"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/artifacts/attempt-02/index.circuit.tsx",
+    "sha256": "d5912a7d69c3e81affd79d34e31948e1d6aa84b49735f3ad22e1ac5b158b9016"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/artifacts/attempt-02/inspection.json",
+    "sha256": "f93d200f4ca6f7d173276c3907f95fed8b745309a1b2ec6364bb7856383e0616"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/artifacts/attempt-02/package.json",
+    "sha256": "c64fe1ce1b9fd127890bf453c18d84993967213ba8b359dfbaa2c300d4b8b007"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/input/metadata.json",
+    "sha256": "1ffca592494df1eb4ada54aff7cf1fbd38c85f594a367992df8395f5cd3f8eab"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/input/prompt.md",
+    "sha256": "ac819606ce733f29806a8bc142714050d32099f1bef99a8d611b0e0581442f5b"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/result.json",
+    "sha256": "6d95c8d13392a4578c740ab3d636915f5a01ee5f51460786eadff9b00ec865e7"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/tscircuit-codegen/replicate-1/run.json",
+    "sha256": "453cdc5d97f88582603d39b5e6408b738b4ecfc96382082d40a648bda847e7f7"
+  }
+]

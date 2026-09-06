@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "2026-09-05-codegen-pilot-01",
+  "run_id": "2026-09-05-codegen-pilot-01--i2c-pullup-hub--kicad-codegen--r1",
+  "prompt_id": "i2c-pullup-hub",
+  "prompt_revision": 1,
+  "prompt_sha256": "63731fd6945270a8a0584ce606aacb4b084064584774f34cc24007635c1b5810",
+  "method": "kicad-codegen",
+  "replicate": 1,
+  "status": "completed",
+  "repository_commit": "a9d1e4f7624451818322ebec60f5e12dd4b3f9a6",
+  "started_at": "2026-09-05T17:59:04.997784+00:00",
+  "ended_at": "2026-09-05T18:04:29.552306+00:00",
+  "model": {
+    "provider": null,
+    "name": null,
+    "reasoning_effort": null,
+    "sampling": {}
+  },
+  "environment": {
+    "tool_versions": {
+      "tsci": "0.0.2462",
+      "kicad-cli": "10.0.6",
+      "bun": "1.3.14",
+      "python": "3.9.6"
+    },
+    "os": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "budget": {
+    "wall_time_seconds": 900,
+    "max_tokens": null,
+    "max_tool_calls": null
+  },
+  "usage": {
+    "wall_time_seconds": 324.554522,
+    "input_tokens": null,
+    "output_tokens": null,
+    "tool_calls": null,
+    "cost_usd": null
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "directory": "artifacts/attempt-01",
+      "validation": "logs/attempt-01-drc.json"
+    },
+    {
+      "attempt": 2,
+      "directory": "artifacts/attempt-02",
+      "validation": "logs/attempt-02-drc.json"
+    }
+  ],
+  "artifacts": [
+    "artifacts/attempt-02/hub.kicad_pro",
+    "artifacts/attempt-02/generate.py",
+    "artifacts/attempt-02/fp-lib-table",
+    "artifacts/attempt-02/hub.kicad_sch",
+    "artifacts/attempt-02/connectivity.json",
+    "artifacts/attempt-02/hub.kicad_prl",
+    "artifacts/attempt-02/hub.kicad_pcb",
+    "artifacts/attempt-02/sym-lib-table",
+    "artifacts/attempt-02/hub.net.xml",
+    "artifacts/attempt-02/pcb-svg/hub-Edge_Cuts.svg",
+    "artifacts/attempt-02/pcb-svg/hub-F_Silkscreen.svg",
+    "artifacts/attempt-02/pcb-svg/hub-B_Cu.svg",
+    "artifacts/attempt-02/pcb-svg/hub-F_Cu.svg",
+    "artifacts/attempt-02/schematic-svg/hub.svg",
+    "artifacts/attempt-02/libraries/Connector_Generic.kicad_sym",
+    "artifacts/attempt-02/libraries/Jumper.kicad_sym",
+    "artifacts/attempt-02/libraries/Device.kicad_sym",
+    "artifacts/attempt-02/libraries/Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod",
+    "artifacts/attempt-02/libraries/Jumper.pretty/SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm.kicad_mod",
+    "artifacts/attempt-02/libraries/Connector_PinHeader_2.54mm.pretty/PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
+    "artifacts/attempt-02/libraries/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod",
+    "artifacts/README.md"
+  ],
+  "failure": null,
+  "notes": "Exploratory pilot; GUI method excluded by user. Read result.json and raw validation logs for limitations."
+}

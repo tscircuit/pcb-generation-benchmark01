@@ -1,0 +1,90 @@
+[
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/README.md",
+    "sha256": "8f006cedb2bac7eb9a69a8bc8cf68f2655ea29ae12621719d0d1be62369ad229"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/fp-lib-table",
+    "sha256": "d7695b1aab4e4d783ef2fc0afcb396b1686f35aaf5e341b70ff4979611447c5d"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/generate.py",
+    "sha256": "809d7fbb675b8643a34947d53b7b9228667c76e80c87eaf09e2e6e990ab43aa0"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/ids.json",
+    "sha256": "6e0a891f0721efbd78330da24e63314f67f85429f7cc0e9779822b14d9b70341"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/indicator.kicad_dru",
+    "sha256": "b707054fe7d48466c18a582d50a4cd6d40e79b8ea1480b7aeba8984eb73d9dec"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/indicator.kicad_pcb",
+    "sha256": "4fb29a23069efc356a7140410977f5648e6e3866147371c7294280d50c5c07c3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/indicator.kicad_prl",
+    "sha256": "7de600eb0e38e584d4e3b085189adb9ac76b863b82ef5d75975c77162792f08b"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/indicator.kicad_pro",
+    "sha256": "a3ac4a94304240919dc17ff88a693518ef91925e18dabd75a93e1bcf67d09605"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/indicator.kicad_sch",
+    "sha256": "225a03afc676467c86abdf22728dbca606e21c094a380a0a94f13f155f8c763c"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/indicator.net",
+    "sha256": "a1e4fd8b313c521024443886061ab895d6c209bba8b3a480c117d3d4bd74ba7a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/libraries/Connector_Generic.kicad_sym",
+    "sha256": "b40057d620867e58e8c3d1be9ab822bba6955e76ccfc566fd0945eedcf527fd3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/libraries/Connector_PinHeader_2.54mm.pretty/PinHeader_1x02_P2.54mm_Vertical.kicad_mod",
+    "sha256": "5301303268f72ba9cc94b7fdbac355951933e6854272ce8d300b679b86b5d45d"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/libraries/Device.kicad_sym",
+    "sha256": "f65c9dd13ef986c482165e5c8237ccf4f691bc7321868cf05e01dafbc1326b24"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/libraries/LED_SMD.pretty/LED_0805_2012Metric.kicad_mod",
+    "sha256": "8806125556e590701b13b47a1725dff28fc47fca41a7905c7d78c8312d08cbbd"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/libraries/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod",
+    "sha256": "f050b6a50cc7e6f86291fb7aa8f87b0d02255e21cfbddf291cdccc87e5889794"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/pcb.svg",
+    "sha256": "add6d2671105fb26fff3f6ae151e4423f922c0f7fc4f6d5b89cab5bea8d6d73a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/schematic-svg/indicator.svg",
+    "sha256": "d1f63c474a3903b4ce0e2ffdf90ee55307fb94cbbf1092e5b84f3e53e45a84df"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/artifacts/attempt-03/sym-lib-table",
+    "sha256": "1c87cf5952a14b81c9417948416441d66f6e9fb1b750796d2d355d53efc72979"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/input/metadata.json",
+    "sha256": "1ffca592494df1eb4ada54aff7cf1fbd38c85f594a367992df8395f5cd3f8eab"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/input/prompt.md",
+    "sha256": "ac819606ce733f29806a8bc142714050d32099f1bef99a8d611b0e0581442f5b"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/result.json",
+    "sha256": "60d7483ec0b4ed6cd40f48f8cd652865d14c8c772c0c665a171cc6815371df54"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/led-indicator/kicad-codegen/replicate-1/run.json",
+    "sha256": "dad7f9a8d588f889fa879e80e203243013e2080b1b0a3c2310efcfdccffb76e7"
+  }
+]

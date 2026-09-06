@@ -1,0 +1,166 @@
+{
+  "status": "completed",
+  "final_attempt": "attempt-03",
+  "generated_files": [
+    "artifacts/README.md",
+    "artifacts/attempt-02/index.circuit.tsx",
+    "artifacts/attempt-02/dist/artifacts/attempt-02/index/pcb.png",
+    "artifacts/attempt-02/dist/artifacts/attempt-02/index/schematic.svg",
+    "artifacts/attempt-02/dist/artifacts/attempt-02/index/circuit.json",
+    "artifacts/attempt-02/dist/artifacts/attempt-02/index/pcb.svg",
+    "artifacts/attempt-03/index.circuit.tsx",
+    "artifacts/attempt-03/dist/artifacts/attempt-03/index/pcb.png",
+    "artifacts/attempt-03/dist/artifacts/attempt-03/index/schematic.svg",
+    "artifacts/attempt-03/dist/artifacts/attempt-03/index/schematic.png",
+    "artifacts/attempt-03/dist/artifacts/attempt-03/index/circuit.json",
+    "artifacts/attempt-03/dist/artifacts/attempt-03/index/pcb.svg",
+    "artifacts/attempt-01/index.circuit.tsx",
+    "artifacts/attempt-01/dist/artifacts/attempt-01/index/pcb.png",
+    "artifacts/attempt-01/dist/artifacts/attempt-01/index/schematic.svg",
+    "artifacts/attempt-01/dist/artifacts/attempt-01/index/circuit.json",
+    "artifacts/attempt-01/dist/artifacts/attempt-01/index/pcb.svg",
+    "package.json",
+    "bun.lock"
+  ],
+  "validation": [
+    {
+      "attempt": "attempt-01",
+      "check": "netlist",
+      "status": "passed",
+      "exit_code": 0,
+      "log_path": "logs/attempt-01-netlist.txt",
+      "note": "CLI exit 0 does not establish completeness; initial headers were missing"
+    },
+    {
+      "attempt": "attempt-01",
+      "check": "schematic-placement",
+      "status": "passed",
+      "exit_code": 0,
+      "log_path": "logs/attempt-01-schematic-placement.txt",
+      "note": "CLI exit 0 does not establish completeness; initial headers were missing"
+    },
+    {
+      "attempt": "attempt-01",
+      "check": "placement",
+      "status": "passed",
+      "exit_code": 0,
+      "log_path": "logs/attempt-01-placement.txt",
+      "note": "CLI exit 0 does not establish completeness; initial headers were missing"
+    },
+    {
+      "attempt": "attempt-01",
+      "check": "build",
+      "status": "failed",
+      "exit_code": 0,
+      "log_path": "logs/attempt-01-build.txt",
+      "note": "CLI exit 0 does not establish completeness; initial headers were missing"
+    },
+    {
+      "attempt": "attempt-02",
+      "check": "netlist",
+      "status": "passed",
+      "exit_code": 0,
+      "log_path": "logs/attempt-02-netlist.txt",
+      "note": null
+    },
+    {
+      "attempt": "attempt-02",
+      "check": "schematic-placement",
+      "status": "failed",
+      "exit_code": 0,
+      "log_path": "logs/attempt-02-schematic-placement.txt",
+      "note": null
+    },
+    {
+      "attempt": "attempt-02",
+      "check": "placement",
+      "status": "passed",
+      "exit_code": 0,
+      "log_path": "logs/attempt-02-placement.txt",
+      "note": null
+    },
+    {
+      "attempt": "attempt-02",
+      "check": "build",
+      "status": "passed",
+      "exit_code": 0,
+      "log_path": "logs/attempt-02-build.txt",
+      "note": null
+    },
+    {
+      "attempt": "attempt-02",
+      "check": "shorts",
+      "status": "passed",
+      "exit_code": 0,
+      "log_path": "logs/attempt-02-shorts.txt",
+      "note": null
+    },
+    {
+      "attempt": "attempt-03",
+      "check": "netlist",
+      "status": "passed",
+      "exit_code": 0,
+      "log_path": "logs/attempt-03-netlist.txt",
+      "note": null
+    },
+    {
+      "attempt": "attempt-03",
+      "check": "schematic-placement",
+      "status": "passed",
+      "exit_code": 0,
+      "log_path": "logs/attempt-03-schematic-placement.txt",
+      "note": null
+    },
+    {
+      "attempt": "attempt-03",
+      "check": "placement",
+      "status": "passed",
+      "exit_code": 0,
+      "log_path": "logs/attempt-03-placement.txt",
+      "note": null
+    },
+    {
+      "attempt": "attempt-03",
+      "check": "build",
+      "status": "passed",
+      "exit_code": 0,
+      "log_path": "logs/attempt-03-build.txt",
+      "note": null
+    },
+    {
+      "attempt": "attempt-03",
+      "check": "shorts",
+      "status": "passed",
+      "exit_code": 0,
+      "log_path": "logs/attempt-03-shorts.txt",
+      "note": null
+    }
+  ],
+  "geometry_audit_log": "logs/attempt-03-geometry-audit.txt",
+  "known_limitations": [
+    "Full 0.25 mm copper clearance unmeasured; emitted board has 0.1 mm default trace-to-pad and pad-to-pad clearance fields despite attempted source settings.",
+    "Final source has harmless React key warnings and compiled jumper pin-attribute, unnamed-trace and missing-sheet warnings.",
+    "Schematic heading close to J1 label.",
+    "No independent physical connectivity/manufacturing checks; generic component footprints, no supplier MPNs."
+  ],
+  "failure": null,
+  "requirements_fully_verified": false,
+  "measurements": {
+    "board_width_mm": 45,
+    "board_height_mm": 35,
+    "copper_layers": 2,
+    "minimum_trace_width_mm": 0.25,
+    "minimum_copper_clearance_mm": null,
+    "capacitor_connector_distance_mm": [
+      4,
+      4,
+      4
+    ],
+    "jumper_gap_mm": [
+      0.3,
+      0.3
+    ],
+    "pcb_trace_count": 20,
+    "compiled_error_count": 0
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/artifacts/README.md",
+    "sha256": "98753ac1a1abcc85e98269c4d980d0eea9f4bd4fbeab19ebebd84d20afe18522"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/analog_input.kicad_pcb",
+    "sha256": "683231383ebe1af155fde11193674a2a09318fe519444aa40dcfdf667ebe9398"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/analog_input.kicad_prl",
+    "sha256": "c96f3680a06b1755da54b5ccb5393134912003f7d8bb85fd304cacbc8c09e114"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/analog_input.kicad_pro",
+    "sha256": "37d7ec3e72f60c5ed7b6e0c8144db019d8f0e9ddff9a8c40eb2bebcf2656e6e8"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/analog_input.kicad_sch",
+    "sha256": "ae44c826602378c58c5fe04c1e4024a37291b00f2859bb0737daaa917aa94f06"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/analog_input.net",
+    "sha256": "67ddbb711c0dfc9ba76ebcb9bc33142f20c5ed24599ead7742197b2eceea6497"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/analog_input.xml",
+    "sha256": "363593855b11d478e9a67a6729d5d94c93b16eaf9ce9b2e516f1ba21ff42a4af"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/board.svg",
+    "sha256": "c6b90acedbbc8432578fe8614954836d77cd90de71dcba575f5d776e1b2d207e"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/generate.py",
+    "sha256": "e4683f58591e7108c721855da6a25e1133bd358c558512d703b629b62bb278a2"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/routing-summary.json",
+    "sha256": "bdef4922a5567e5ee48fe3d36b7e83f0640bff2ab2e1dcf93d054bafef58bfd8"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/artifacts/attempt-03/schematic-svg/analog_input.svg",
+    "sha256": "34d8757dea0a81578344b6ca4980b5c4c061474e0ec3e6e738e453f2c2d038c3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/input/metadata.json",
+    "sha256": "31b87f35dbf7bc55dce1196d878d39d096c4afc915cf00373213bcddcb87f5bb"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/input/prompt.md",
+    "sha256": "441ad72121511dea1787995ae6086eabd660a0a235f60ea4d0cf70d11adac869"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/result.json",
+    "sha256": "862a472da48c73012a48cda91ff52ca1cceef6c5dc2d2b7de46737b5820b282a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/analog-input-bank/kicad-codegen/replicate-1/run.json",
+    "sha256": "41f18ac42f39173967725d520b21c42cf397966bc5772e0df295ff253102fdb6"
+  }
+]

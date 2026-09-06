@@ -1,0 +1,104 @@
+{
+  "status": "completed",
+  "final_attempt": "attempt-03",
+  "generated_files": [
+    "artifacts/README.md",
+    "artifacts/attempt-02/driver.kicad_sch",
+    "artifacts/attempt-02/generate.py",
+    "artifacts/attempt-02/fp-lib-table",
+    "artifacts/attempt-02/pin-map.json",
+    "artifacts/attempt-02/driver.kicad_pro",
+    "artifacts/attempt-02/sym-lib-table",
+    "artifacts/attempt-02/driver.kicad_pcb",
+    "artifacts/attempt-02/pcb.svg",
+    "artifacts/attempt-02/driver.kicad_prl",
+    "artifacts/attempt-02/schematic-svg/driver.svg",
+    "artifacts/attempt-03/driver.kicad_sch",
+    "artifacts/attempt-03/generate.py",
+    "artifacts/attempt-03/fp-lib-table",
+    "artifacts/attempt-03/pin-map.json",
+    "artifacts/attempt-03/driver.kicad_pro",
+    "artifacts/attempt-03/sym-lib-table",
+    "artifacts/attempt-03/driver.kicad_pcb",
+    "artifacts/attempt-03/pcb.svg",
+    "artifacts/attempt-03/driver.kicad_prl",
+    "artifacts/attempt-03/schematic-svg/driver.svg",
+    "artifacts/attempt-03/libraries/Connector_Generic.kicad_sym",
+    "artifacts/attempt-03/libraries/Transistor_BJT.kicad_sym",
+    "artifacts/attempt-03/libraries/Device.kicad_sym",
+    "artifacts/attempt-03/libraries/LED_SMD.pretty/LED_0805_2012Metric.kicad_mod",
+    "artifacts/attempt-03/libraries/Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod",
+    "artifacts/attempt-03/libraries/Package_TO_SOT_SMD.pretty/SOT-23.kicad_mod",
+    "artifacts/attempt-03/libraries/Connector_PinHeader_2.54mm.pretty/PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
+    "artifacts/attempt-03/libraries/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod",
+    "artifacts/attempt-01/driver.kicad_sch",
+    "artifacts/attempt-01/generate.py",
+    "artifacts/attempt-01/pin-map.json",
+    "artifacts/attempt-01/driver.kicad_pro",
+    "artifacts/attempt-01/driver.kicad_pcb",
+    "artifacts/attempt-01/pcb.svg",
+    "artifacts/attempt-01/driver.kicad_prl",
+    "artifacts/attempt-01/schematic-svg/driver.svg"
+  ],
+  "validation": {
+    "erc": {
+      "passed": true,
+      "exit_code": 0,
+      "log": "logs/attempt-03-erc.rpt"
+    },
+    "drc": {
+      "passed": true,
+      "exit_code": 0,
+      "log": "logs/attempt-03-drc.rpt"
+    },
+    "netlist": {
+      "passed": true,
+      "exit_code": 0,
+      "log": "logs/attempt-03-netlist.log"
+    },
+    "schematic_export": {
+      "passed": true,
+      "exit_code": 0,
+      "log": "logs/attempt-03-sch-export.log"
+    },
+    "pcb_export": {
+      "passed": true,
+      "exit_code": 0,
+      "log": "logs/attempt-03-pcb-export-retry.log"
+    },
+    "schematic_parity": {
+      "passed": false,
+      "exit_code": 5,
+      "log": "logs/attempt-03-parity.rpt"
+    },
+    "normalized_pin_connectivity": {
+      "passed": true,
+      "exit_code": 0,
+      "log": "logs/attempt-03-connectivity.json"
+    }
+  },
+  "known_limitations": [
+    "Native schematic parity reports 28 net-name warnings because local schematic names have a leading / and PCB names do not; normalized pin groups agree exactly.",
+    "Schematic value/label overlap around Q1/Q2 and D1/D2 reduces readability.",
+    "No physical testing or simulation; a specific red LED ordering code was not selected."
+  ],
+  "failure": null,
+  "started_at": "2026-09-05T17:39:56.681815+00:00",
+  "ended_at": "2026-09-05T17:47:53.850448+00:00",
+  "measurements": {
+    "erc_errors": 0,
+    "erc_warnings": 0,
+    "drc_violations": 0,
+    "unconnected_pads": 0,
+    "native_parity_name_warnings": 28,
+    "normalized_connectivity_match": true,
+    "board_outline_mm": [
+      45,
+      30
+    ],
+    "led_spacing_mm": 15,
+    "capacitor_header_distance_mm": 4.000449974690347,
+    "minimum_trace_width_mm": 0.25,
+    "physical_test": null
+  }
+}

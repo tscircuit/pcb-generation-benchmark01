@@ -1,0 +1,4815 @@
+{
+  "board": {
+    "bounds": [
+      0.0,
+      -65.0,
+      65.0,
+      -0.0
+    ],
+    "height": 65.0,
+    "layers": 2,
+    "rectangular": true,
+    "width": 65.0
+  },
+  "components": {
+    "D11": {
+      "bounds": [
+        7.139999,
+        -60.75,
+        16.859999000000002,
+        -58.25
+      ],
+      "footprint": "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal",
+      "kind": "diode",
+      "origin": {
+        "x": 8.189999,
+        "y": -59.5
+      },
+      "pads": [
+        {
+          "height": 1.6,
+          "hole": 0.8,
+          "pin": "1",
+          "shape": "roundrect",
+          "width": 1.6,
+          "x": 8.189999,
+          "y": -59.5
+        },
+        {
+          "height": 1.6,
+          "hole": 0.8,
+          "pin": "2",
+          "shape": "circle",
+          "width": 1.6,
+          "x": 15.809999000000001,
+          "y": -59.5
+        }
+      ],
+      "part": "1N4148",
+      "pcb_pins": {
+        "1": "/ROW1",
+        "2": "/KEY11"
+      },
+      "pins": {
+        "1": "/ROW1",
+        "2": "/KEY11"
+      },
+      "position": {
+        "x": 11.999999,
+        "y": -59.5
+      },
+      "value": null
+    },
+    "D12": {
+      "bounds": [
+        27.14,
+        -60.75,
+        36.86,
+        -58.25
+      ],
+      "footprint": "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal",
+      "kind": "diode",
+      "origin": {
+        "x": 28.19,
+        "y": -59.5
+      },
+      "pads": [
+        {
+          "height": 1.6,
+          "hole": 0.8,
+          "pin": "1",
+          "shape": "roundrect",
+          "width": 1.6,
+          "x": 28.19,
+          "y": -59.5
+        },
+        {
+          "height": 1.6,
+          "hole": 0.8,
+          "pin": "2",
+          "shape": "circle",
+          "width": 1.6,
+          "x": 35.81,
+          "y": -59.5
+        }
+      ],
+      "part": "1N4148",
+      "pcb_pins": {
+        "1": "/ROW1",
+        "2": "/KEY12"
+      },
+      "pins": {
+        "1": "/ROW1",
+        "2": "/KEY12"
+      },
+      "position": {
+        "x": 32.0,
+        "y": -59.5
+      },
+      "value": null
+    },
+    "D13": {
+      "bounds": [
+        47.14,
+        -60.75,
+        56.86,
+        -58.25
+      ],
+      "footprint": "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal",
+      "kind": "diode",
+      "origin": {
+        "x": 48.19,
+        "y": -59.5
+      },
+      "pads": [
+        {
+          "height": 1.6,
+          "hole": 0.8,
+          "pin": "1",
+          "shape": "roundrect",
+          "width": 1.6,
+          "x": 48.19,
+          "y": -59.5
+        },
+        {
+          "height": 1.6,
+          "hole": 0.8,
+          "pin": "2",
+          "shape": "circle",
+          "width": 1.6,
+          "x": 55.809999999999995,
+          "y": -59.5
+        }
+      ],
+      "part": "1N4148",
+      "pcb_pins": {
+        "1": "/ROW1",
+        "2": "/KEY13"
+      },
+      "pins": {
+        "1": "/ROW1",
+        "2": "/KEY13"
+      },
+      "position": {
+        "x": 52.0,
+        "y": -59.5
+      },
+      "value": null
+    },
+    "D21": {
+      "bounds": [
+        7.139999,
+        -40.75,
+        16.859999000000002,
+        -38.25
+      ],
+      "footprint": "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal",
+      "kind": "diode",
+      "origin": {
+        "x": 8.189999,
+        "y": -39.5
+      },
+      "pads": [
+        {
+          "height": 1.6,
+          "hole": 0.8,
+          "pin": "1",
+          "shape": "roundrect",
+          "width": 1.6,
+          "x": 8.189999,
+          "y": -39.5
+        },
+        {
+          "height": 1.6,
+          "hole": 0.8,
+          "pin": "2",
+          "shape": "circle",
+          "width": 1.6,
+          "x": 15.809999000000001,
+          "y": -39.5
+        }
+      ],
+      "part": "1N4148",
+      "pcb_pins": {
+        "1": "/ROW2",
+        "2": "/KEY21"
+      },
+      "pins": {
+        "1": "/ROW2",
+        "2": "/KEY21"
+      },
+      "position": {
+        "x": 11.999999,
+        "y": -39.5
+      },
+      "value": null
+    },
+    "D22": {
+      "bounds": [
+        27.14,
+        -40.75,
+        36.86,
+        -38.25
+      ],
+      "footprint": "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal",
+      "kind": "diode",
+      "origin": {
+        "x": 28.19,
+        "y": -39.5
+      },
+      "pads": [
+        {
+          "height": 1.6,
+          "hole": 0.8,
+          "pin": "1",
+          "shape": "roundrect",
+          "width": 1.6,
+          "x": 28.19,
+          "y": -39.5
+        },
+        {
+          "height": 1.6,
+          "hole": 0.8,
+          "pin": "2",
+          "shape": "circle",
+          "width": 1.6,
+          "x": 35.81,
+          "y": -39.5
+        }
+      ],
+      "part": "1N4148",
+      "pcb_pins": {
+        "1": "/ROW2",
+        "2": "/KEY22"
+      },
+      "pins": {
+        "1": "/ROW2",
+        "2": "/KEY22"
+      },
+      "position": {
+        "x": 32.0,
+        "y": -39.5
+      },
+      "value": null
+    },
+    "D23": {
+      "bounds": [
+        47.14,
+        -40.75,
+        56.86,
+        -38.25
+      ],
+      "footprint": "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal",
+      "kind": "diode",
+      "origin": {
+        "x": 48.19,
+        "y": -39.5
+      },
+      "pads": [
+        {
+          "height": 1.6,
+          "hole": 0.8,
+          "pin": "1",
+          "shape": "roundrect",
+          "width": 1.6,
+          "x": 48.19,
+          "y": -39.5
+        },
+        {
+          "height": 1.6,
+          "hole": 0.8,
+          "pin": "2",
+          "shape": "circle",
+          "width": 1.6,
+          "x": 55.809999999999995,
+          "y": -39.5
+        }
+      ],
+      "part": "1N4148",
+      "pcb_pins": {
+        "1": "/ROW2",
+        "2": "/KEY23"
+      },
+      "pins": {
+        "1": "/ROW2",
+        "2": "/KEY23"
+      },
+      "position": {
+        "x": 52.0,
+        "y": -39.5
+      },
+      "value": null
+    },
+    "D31": {
+      "bounds": [
+        7.139999,
+        -20.75,
+        16.859999000000002,
+        -18.25
+      ],
+      "footprint": "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal",
+      "kind": "diode",
+      "origin": {
+        "x": 8.189999,
+        "y": -19.5
+      },
+      "pads": [
+        {
+          "height": 1.6,
+          "hole": 0.8,
+          "pin": "1",
+          "shape": "roundrect",
+          "width": 1.6,
+          "x": 8.189999,
+          "y": -19.5
+        },
+        {
+          "height": 1.6,
+          "hole": 0.8,
+          "pin": "2",
+          "shape": "circle",
+          "width": 1.6,
+          "x": 15.809999000000001,
+          "y": -19.5
+        }
+      ],
+      "part": "1N4148",
+      "pcb_pins": {
+        "1": "/ROW3",
+        "2": "/KEY31"
+      },
+      "pins": {
+        "1": "/ROW3",
+        "2": "/KEY31"
+      },
+      "position": {
+        "x": 11.999999,
+        "y": -19.5
+      },
+      "value": null
+    },
+    "D32": {
+      "bounds": [
+        27.14,
+        -20.75,
+        36.86,
+        -18.25
+      ],
+      "footprint": "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal",
+      "kind": "diode",
+      "origin": {
+        "x": 28.19,
+        "y": -19.5
+      },
+      "pads": [
+        {
+          "height": 1.6,
+          "hole": 0.8,
+          "pin": "1",
+          "shape": "roundrect",
+          "width": 1.6,
+          "x": 28.19,
+          "y": -19.5
+        },
+        {
+          "height": 1.6,
+          "hole": 0.8,
+          "pin": "2",
+          "shape": "circle",
+          "width": 1.6,
+          "x": 35.81,
+          "y": -19.5
+        }
+      ],
+      "part": "1N4148",
+      "pcb_pins": {
+        "1": "/ROW3",
+        "2": "/KEY32"
+      },
+      "pins": {
+        "1": "/ROW3",
+        "2": "/KEY32"
+      },
+      "position": {
+        "x": 32.0,
+        "y": -19.5
+      },
+      "value": null
+    },
+    "D33": {
+      "bounds": [
+        47.14,
+        -20.75,
+        56.86,
+        -18.25
+      ],
+      "footprint": "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal",
+      "kind": "diode",
+      "origin": {
+        "x": 48.19,
+        "y": -19.5
+      },
+      "pads": [
+        {
+          "height": 1.6,
+          "hole": 0.8,
+          "pin": "1",
+          "shape": "roundrect",
+          "width": 1.6,
+          "x": 48.19,
+          "y": -19.5
+        },
+        {
+          "height": 1.6,
+          "hole": 0.8,
+          "pin": "2",
+          "shape": "circle",
+          "width": 1.6,
+          "x": 55.809999999999995,
+          "y": -19.5
+        }
+      ],
+      "part": "1N4148",
+      "pcb_pins": {
+        "1": "/ROW3",
+        "2": "/KEY33"
+      },
+      "pins": {
+        "1": "/ROW3",
+        "2": "/KEY33"
+      },
+      "position": {
+        "x": 52.0,
+        "y": -19.5
+      },
+      "value": null
+    },
+    "J1": {
+      "bounds": [
+        18.23,
+        -5.77,
+        34.47,
+        -2.230000000000001
+      ],
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+      "kind": "header",
+      "origin": {
+        "x": 20.0,
+        "y": -4.0
+      },
+      "pads": [
+        {
+          "height": 1.7,
+          "hole": 1.0,
+          "pin": "1",
+          "shape": "rect",
+          "width": 1.7,
+          "x": 20.0,
+          "y": -4.0
+        },
+        {
+          "height": 1.7,
+          "hole": 1.0,
+          "pin": "2",
+          "shape": "circle",
+          "width": 1.7,
+          "x": 22.54,
+          "y": -4.0
+        },
+        {
+          "height": 1.7,
+          "hole": 1.0,
+          "pin": "3",
+          "shape": "circle",
+          "width": 1.7,
+          "x": 25.08,
+          "y": -4.0
+        },
+        {
+          "height": 1.7,
+          "hole": 1.0,
+          "pin": "4",
+          "shape": "circle",
+          "width": 1.7,
+          "x": 27.62,
+          "y": -4.000000000000001
+        },
+        {
+          "height": 1.7,
+          "hole": 1.0,
+          "pin": "5",
+          "shape": "circle",
+          "width": 1.7,
+          "x": 30.16,
+          "y": -4.000000000000001
+        },
+        {
+          "height": 1.7,
+          "hole": 1.0,
+          "pin": "6",
+          "shape": "circle",
+          "width": 1.7,
+          "x": 32.7,
+          "y": -4.000000000000001
+        }
+      ],
+      "part": "MATRIX",
+      "pcb_pins": {
+        "1": "/ROW1",
+        "2": "/ROW2",
+        "3": "/ROW3",
+        "4": "/COL1",
+        "5": "/COL2",
+        "6": "/COL3"
+      },
+      "pins": {
+        "1": "/ROW1",
+        "2": "/ROW2",
+        "3": "/ROW3",
+        "4": "/COL1",
+        "5": "/COL2",
+        "6": "/COL3"
+      },
+      "position": {
+        "x": 26.35,
+        "y": -4.0
+      },
+      "value": null
+    },
+    "SW11": {
+      "bounds": [
+        7.25,
+        -56.75,
+        16.75,
+        -49.25
+      ],
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "kind": "switch",
+      "origin": {
+        "x": 8.75,
+        "y": -50.75
+      },
+      "pads": [
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "1",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 8.75,
+          "y": -50.75
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "1",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 15.25,
+          "y": -50.75
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 8.75,
+          "y": -55.25
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 15.25,
+          "y": -55.25
+        }
+      ],
+      "part": "SW_Push",
+      "pcb_pins": {
+        "1": "/COL1",
+        "2": "/KEY11"
+      },
+      "pins": {
+        "1": "/COL1",
+        "2": "/KEY11"
+      },
+      "position": {
+        "x": 12.0,
+        "y": -53.0
+      },
+      "value": null
+    },
+    "SW12": {
+      "bounds": [
+        27.25,
+        -56.75,
+        36.75,
+        -49.25
+      ],
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "kind": "switch",
+      "origin": {
+        "x": 28.75,
+        "y": -50.75
+      },
+      "pads": [
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "1",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 28.75,
+          "y": -50.75
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "1",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 35.25,
+          "y": -50.75
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 28.75,
+          "y": -55.25
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 35.25,
+          "y": -55.25
+        }
+      ],
+      "part": "SW_Push",
+      "pcb_pins": {
+        "1": "/COL2",
+        "2": "/KEY12"
+      },
+      "pins": {
+        "1": "/COL2",
+        "2": "/KEY12"
+      },
+      "position": {
+        "x": 32.0,
+        "y": -53.0
+      },
+      "value": null
+    },
+    "SW13": {
+      "bounds": [
+        47.25,
+        -56.75,
+        56.75,
+        -49.25
+      ],
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "kind": "switch",
+      "origin": {
+        "x": 48.75,
+        "y": -50.75
+      },
+      "pads": [
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "1",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 48.75,
+          "y": -50.75
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "1",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 55.25,
+          "y": -50.75
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 48.75,
+          "y": -55.25
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 55.25,
+          "y": -55.25
+        }
+      ],
+      "part": "SW_Push",
+      "pcb_pins": {
+        "1": "/COL3",
+        "2": "/KEY13"
+      },
+      "pins": {
+        "1": "/COL3",
+        "2": "/KEY13"
+      },
+      "position": {
+        "x": 52.0,
+        "y": -53.0
+      },
+      "value": null
+    },
+    "SW21": {
+      "bounds": [
+        7.25,
+        -36.75,
+        16.75,
+        -29.25
+      ],
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "kind": "switch",
+      "origin": {
+        "x": 8.75,
+        "y": -30.75
+      },
+      "pads": [
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "1",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 8.75,
+          "y": -30.75
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "1",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 15.25,
+          "y": -30.75
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 8.75,
+          "y": -35.25
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 15.25,
+          "y": -35.25
+        }
+      ],
+      "part": "SW_Push",
+      "pcb_pins": {
+        "1": "/COL1",
+        "2": "/KEY21"
+      },
+      "pins": {
+        "1": "/COL1",
+        "2": "/KEY21"
+      },
+      "position": {
+        "x": 12.0,
+        "y": -33.0
+      },
+      "value": null
+    },
+    "SW22": {
+      "bounds": [
+        27.25,
+        -36.75,
+        36.75,
+        -29.25
+      ],
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "kind": "switch",
+      "origin": {
+        "x": 28.75,
+        "y": -30.75
+      },
+      "pads": [
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "1",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 28.75,
+          "y": -30.75
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "1",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 35.25,
+          "y": -30.75
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 28.75,
+          "y": -35.25
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 35.25,
+          "y": -35.25
+        }
+      ],
+      "part": "SW_Push",
+      "pcb_pins": {
+        "1": "/COL2",
+        "2": "/KEY22"
+      },
+      "pins": {
+        "1": "/COL2",
+        "2": "/KEY22"
+      },
+      "position": {
+        "x": 32.0,
+        "y": -33.0
+      },
+      "value": null
+    },
+    "SW23": {
+      "bounds": [
+        47.25,
+        -36.75,
+        56.75,
+        -29.25
+      ],
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "kind": "switch",
+      "origin": {
+        "x": 48.75,
+        "y": -30.75
+      },
+      "pads": [
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "1",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 48.75,
+          "y": -30.75
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "1",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 55.25,
+          "y": -30.75
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 48.75,
+          "y": -35.25
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 55.25,
+          "y": -35.25
+        }
+      ],
+      "part": "SW_Push",
+      "pcb_pins": {
+        "1": "/COL3",
+        "2": "/KEY23"
+      },
+      "pins": {
+        "1": "/COL3",
+        "2": "/KEY23"
+      },
+      "position": {
+        "x": 52.0,
+        "y": -33.0
+      },
+      "value": null
+    },
+    "SW31": {
+      "bounds": [
+        7.25,
+        -16.75,
+        16.75,
+        -9.25
+      ],
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "kind": "switch",
+      "origin": {
+        "x": 8.75,
+        "y": -10.75
+      },
+      "pads": [
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "1",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 8.75,
+          "y": -10.75
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "1",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 15.25,
+          "y": -10.75
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 8.75,
+          "y": -15.25
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 15.25,
+          "y": -15.25
+        }
+      ],
+      "part": "SW_Push",
+      "pcb_pins": {
+        "1": "/COL1",
+        "2": "/KEY31"
+      },
+      "pins": {
+        "1": "/COL1",
+        "2": "/KEY31"
+      },
+      "position": {
+        "x": 12.0,
+        "y": -13.0
+      },
+      "value": null
+    },
+    "SW32": {
+      "bounds": [
+        27.25,
+        -16.75,
+        36.75,
+        -9.25
+      ],
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "kind": "switch",
+      "origin": {
+        "x": 28.75,
+        "y": -10.75
+      },
+      "pads": [
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "1",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 28.75,
+          "y": -10.75
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "1",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 35.25,
+          "y": -10.75
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 28.75,
+          "y": -15.25
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 35.25,
+          "y": -15.25
+        }
+      ],
+      "part": "SW_Push",
+      "pcb_pins": {
+        "1": "/COL2",
+        "2": "/KEY32"
+      },
+      "pins": {
+        "1": "/COL2",
+        "2": "/KEY32"
+      },
+      "position": {
+        "x": 32.0,
+        "y": -13.0
+      },
+      "value": null
+    },
+    "SW33": {
+      "bounds": [
+        47.25,
+        -16.75,
+        56.75,
+        -9.25
+      ],
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "kind": "switch",
+      "origin": {
+        "x": 48.75,
+        "y": -10.75
+      },
+      "pads": [
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "1",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 48.75,
+          "y": -10.75
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "1",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 55.25,
+          "y": -10.75
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 48.75,
+          "y": -15.25
+        },
+        {
+          "height": 2.0,
+          "hole": 1.1,
+          "pin": "2",
+          "shape": "circle",
+          "width": 2.0,
+          "x": 55.25,
+          "y": -15.25
+        }
+      ],
+      "part": "SW_Push",
+      "pcb_pins": {
+        "1": "/COL3",
+        "2": "/KEY33"
+      },
+      "pins": {
+        "1": "/COL3",
+        "2": "/KEY33"
+      },
+      "position": {
+        "x": 52.0,
+        "y": -13.0
+      },
+      "value": null
+    }
+  },
+  "copper": [
+    {
+      "bounds": [
+        47.75,
+        -11.75,
+        49.75,
+        -9.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL3",
+      "pin": "SW33.1",
+      "radius": 1.0,
+      "vertices": [
+        [
+          48.75,
+          -10.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        54.25,
+        -11.75,
+        56.25,
+        -9.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL3",
+      "pin": "SW33.1",
+      "radius": 1.0,
+      "vertices": [
+        [
+          55.25,
+          -10.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        47.75,
+        -16.25,
+        49.75,
+        -14.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY33",
+      "pin": "SW33.2",
+      "radius": 1.0,
+      "vertices": [
+        [
+          48.75,
+          -15.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        54.25,
+        -16.25,
+        56.25,
+        -14.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY33",
+      "pin": "SW33.2",
+      "radius": 1.0,
+      "vertices": [
+        [
+          55.25,
+          -15.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        27.75,
+        -51.75,
+        29.75,
+        -49.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL2",
+      "pin": "SW12.1",
+      "radius": 1.0,
+      "vertices": [
+        [
+          28.75,
+          -50.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        34.25,
+        -51.75,
+        36.25,
+        -49.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL2",
+      "pin": "SW12.1",
+      "radius": 1.0,
+      "vertices": [
+        [
+          35.25,
+          -50.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        27.75,
+        -56.25,
+        29.75,
+        -54.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY12",
+      "pin": "SW12.2",
+      "radius": 1.0,
+      "vertices": [
+        [
+          28.75,
+          -55.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        34.25,
+        -56.25,
+        36.25,
+        -54.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY12",
+      "pin": "SW12.2",
+      "radius": 1.0,
+      "vertices": [
+        [
+          35.25,
+          -55.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        7.75,
+        -31.75,
+        9.75,
+        -29.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL1",
+      "pin": "SW21.1",
+      "radius": 1.0,
+      "vertices": [
+        [
+          8.75,
+          -30.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        14.25,
+        -31.75,
+        16.25,
+        -29.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL1",
+      "pin": "SW21.1",
+      "radius": 1.0,
+      "vertices": [
+        [
+          15.25,
+          -30.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        7.75,
+        -36.25,
+        9.75,
+        -34.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY21",
+      "pin": "SW21.2",
+      "radius": 1.0,
+      "vertices": [
+        [
+          8.75,
+          -35.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        14.25,
+        -36.25,
+        16.25,
+        -34.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY21",
+      "pin": "SW21.2",
+      "radius": 1.0,
+      "vertices": [
+        [
+          15.25,
+          -35.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        47.39,
+        -40.3,
+        48.989999999999995,
+        -38.7
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/ROW2",
+      "pin": "D23.1",
+      "radius": 0.25,
+      "vertices": [
+        [
+          47.64,
+          -40.05
+        ],
+        [
+          48.739999999999995,
+          -40.05
+        ],
+        [
+          48.739999999999995,
+          -38.95
+        ],
+        [
+          47.64,
+          -38.95
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        55.01,
+        -40.3,
+        56.60999999999999,
+        -38.7
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY23",
+      "pin": "D23.2",
+      "radius": 0.8,
+      "vertices": [
+        [
+          55.809999999999995,
+          -39.5
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        47.75,
+        -51.75,
+        49.75,
+        -49.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL3",
+      "pin": "SW13.1",
+      "radius": 1.0,
+      "vertices": [
+        [
+          48.75,
+          -50.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        54.25,
+        -51.75,
+        56.25,
+        -49.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL3",
+      "pin": "SW13.1",
+      "radius": 1.0,
+      "vertices": [
+        [
+          55.25,
+          -50.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        47.75,
+        -56.25,
+        49.75,
+        -54.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY13",
+      "pin": "SW13.2",
+      "radius": 1.0,
+      "vertices": [
+        [
+          48.75,
+          -55.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        54.25,
+        -56.25,
+        56.25,
+        -54.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY13",
+      "pin": "SW13.2",
+      "radius": 1.0,
+      "vertices": [
+        [
+          55.25,
+          -55.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        7.389999,
+        -40.3,
+        8.989999000000001,
+        -38.7
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/ROW2",
+      "pin": "D21.1",
+      "radius": 0.25,
+      "vertices": [
+        [
+          7.639999,
+          -40.05
+        ],
+        [
+          8.739999000000001,
+          -40.05
+        ],
+        [
+          8.739999000000001,
+          -38.95
+        ],
+        [
+          7.639999,
+          -38.95
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.009999,
+        -40.3,
+        16.609999000000002,
+        -38.7
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY21",
+      "pin": "D21.2",
+      "radius": 0.8,
+      "vertices": [
+        [
+          15.809999000000001,
+          -39.5
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        19.15,
+        -4.85,
+        20.85,
+        -3.15
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/ROW1",
+      "pin": "J1.1",
+      "radius": 0,
+      "vertices": [
+        [
+          20.85,
+          -4.85
+        ],
+        [
+          20.85,
+          -3.15
+        ],
+        [
+          19.15,
+          -3.15
+        ],
+        [
+          19.15,
+          -4.85
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        21.689999999999998,
+        -4.85,
+        23.39,
+        -3.15
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/ROW2",
+      "pin": "J1.2",
+      "radius": 0.85,
+      "vertices": [
+        [
+          22.54,
+          -4.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        24.229999999999997,
+        -4.85,
+        25.93,
+        -3.15
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/ROW3",
+      "pin": "J1.3",
+      "radius": 0.85,
+      "vertices": [
+        [
+          25.08,
+          -4.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        26.77,
+        -4.8500000000000005,
+        28.470000000000002,
+        -3.150000000000001
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL1",
+      "pin": "J1.4",
+      "radius": 0.85,
+      "vertices": [
+        [
+          27.62,
+          -4.000000000000001
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        29.31,
+        -4.8500000000000005,
+        31.01,
+        -3.150000000000001
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL2",
+      "pin": "J1.5",
+      "radius": 0.85,
+      "vertices": [
+        [
+          30.16,
+          -4.000000000000001
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        31.85,
+        -4.8500000000000005,
+        33.550000000000004,
+        -3.150000000000001
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL3",
+      "pin": "J1.6",
+      "radius": 0.85,
+      "vertices": [
+        [
+          32.7,
+          -4.000000000000001
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        47.39,
+        -20.3,
+        48.989999999999995,
+        -18.7
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/ROW3",
+      "pin": "D33.1",
+      "radius": 0.25,
+      "vertices": [
+        [
+          47.64,
+          -20.05
+        ],
+        [
+          48.739999999999995,
+          -20.05
+        ],
+        [
+          48.739999999999995,
+          -18.95
+        ],
+        [
+          47.64,
+          -18.95
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        55.01,
+        -20.3,
+        56.60999999999999,
+        -18.7
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY33",
+      "pin": "D33.2",
+      "radius": 0.8,
+      "vertices": [
+        [
+          55.809999999999995,
+          -19.5
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        27.75,
+        -31.75,
+        29.75,
+        -29.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL2",
+      "pin": "SW22.1",
+      "radius": 1.0,
+      "vertices": [
+        [
+          28.75,
+          -30.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        34.25,
+        -31.75,
+        36.25,
+        -29.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL2",
+      "pin": "SW22.1",
+      "radius": 1.0,
+      "vertices": [
+        [
+          35.25,
+          -30.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        27.75,
+        -36.25,
+        29.75,
+        -34.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY22",
+      "pin": "SW22.2",
+      "radius": 1.0,
+      "vertices": [
+        [
+          28.75,
+          -35.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        34.25,
+        -36.25,
+        36.25,
+        -34.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY22",
+      "pin": "SW22.2",
+      "radius": 1.0,
+      "vertices": [
+        [
+          35.25,
+          -35.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        7.389999,
+        -20.3,
+        8.989999000000001,
+        -18.7
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/ROW3",
+      "pin": "D31.1",
+      "radius": 0.25,
+      "vertices": [
+        [
+          7.639999,
+          -20.05
+        ],
+        [
+          8.739999000000001,
+          -20.05
+        ],
+        [
+          8.739999000000001,
+          -18.95
+        ],
+        [
+          7.639999,
+          -18.95
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.009999,
+        -20.3,
+        16.609999000000002,
+        -18.7
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY31",
+      "pin": "D31.2",
+      "radius": 0.8,
+      "vertices": [
+        [
+          15.809999000000001,
+          -19.5
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        7.389999,
+        -60.3,
+        8.989999000000001,
+        -58.7
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/ROW1",
+      "pin": "D11.1",
+      "radius": 0.25,
+      "vertices": [
+        [
+          7.639999,
+          -60.05
+        ],
+        [
+          8.739999000000001,
+          -60.05
+        ],
+        [
+          8.739999000000001,
+          -58.95
+        ],
+        [
+          7.639999,
+          -58.95
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.009999,
+        -60.3,
+        16.609999000000002,
+        -58.7
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY11",
+      "pin": "D11.2",
+      "radius": 0.8,
+      "vertices": [
+        [
+          15.809999000000001,
+          -59.5
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        7.75,
+        -51.75,
+        9.75,
+        -49.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL1",
+      "pin": "SW11.1",
+      "radius": 1.0,
+      "vertices": [
+        [
+          8.75,
+          -50.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        14.25,
+        -51.75,
+        16.25,
+        -49.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL1",
+      "pin": "SW11.1",
+      "radius": 1.0,
+      "vertices": [
+        [
+          15.25,
+          -50.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        7.75,
+        -56.25,
+        9.75,
+        -54.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY11",
+      "pin": "SW11.2",
+      "radius": 1.0,
+      "vertices": [
+        [
+          8.75,
+          -55.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        14.25,
+        -56.25,
+        16.25,
+        -54.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY11",
+      "pin": "SW11.2",
+      "radius": 1.0,
+      "vertices": [
+        [
+          15.25,
+          -55.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        47.75,
+        -31.75,
+        49.75,
+        -29.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL3",
+      "pin": "SW23.1",
+      "radius": 1.0,
+      "vertices": [
+        [
+          48.75,
+          -30.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        54.25,
+        -31.75,
+        56.25,
+        -29.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL3",
+      "pin": "SW23.1",
+      "radius": 1.0,
+      "vertices": [
+        [
+          55.25,
+          -30.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        47.75,
+        -36.25,
+        49.75,
+        -34.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY23",
+      "pin": "SW23.2",
+      "radius": 1.0,
+      "vertices": [
+        [
+          48.75,
+          -35.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        54.25,
+        -36.25,
+        56.25,
+        -34.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY23",
+      "pin": "SW23.2",
+      "radius": 1.0,
+      "vertices": [
+        [
+          55.25,
+          -35.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        27.39,
+        -40.3,
+        28.990000000000002,
+        -38.7
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/ROW2",
+      "pin": "D22.1",
+      "radius": 0.25,
+      "vertices": [
+        [
+          27.64,
+          -40.05
+        ],
+        [
+          28.740000000000002,
+          -40.05
+        ],
+        [
+          28.740000000000002,
+          -38.95
+        ],
+        [
+          27.64,
+          -38.95
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        35.010000000000005,
+        -40.3,
+        36.61,
+        -38.7
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY22",
+      "pin": "D22.2",
+      "radius": 0.8,
+      "vertices": [
+        [
+          35.81,
+          -39.5
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        27.39,
+        -60.3,
+        28.990000000000002,
+        -58.7
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/ROW1",
+      "pin": "D12.1",
+      "radius": 0.25,
+      "vertices": [
+        [
+          27.64,
+          -60.05
+        ],
+        [
+          28.740000000000002,
+          -60.05
+        ],
+        [
+          28.740000000000002,
+          -58.95
+        ],
+        [
+          27.64,
+          -58.95
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        35.010000000000005,
+        -60.3,
+        36.61,
+        -58.7
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY12",
+      "pin": "D12.2",
+      "radius": 0.8,
+      "vertices": [
+        [
+          35.81,
+          -59.5
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        7.75,
+        -11.75,
+        9.75,
+        -9.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL1",
+      "pin": "SW31.1",
+      "radius": 1.0,
+      "vertices": [
+        [
+          8.75,
+          -10.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        14.25,
+        -11.75,
+        16.25,
+        -9.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL1",
+      "pin": "SW31.1",
+      "radius": 1.0,
+      "vertices": [
+        [
+          15.25,
+          -10.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        7.75,
+        -16.25,
+        9.75,
+        -14.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY31",
+      "pin": "SW31.2",
+      "radius": 1.0,
+      "vertices": [
+        [
+          8.75,
+          -15.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        14.25,
+        -16.25,
+        16.25,
+        -14.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY31",
+      "pin": "SW31.2",
+      "radius": 1.0,
+      "vertices": [
+        [
+          15.25,
+          -15.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        27.75,
+        -11.75,
+        29.75,
+        -9.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL2",
+      "pin": "SW32.1",
+      "radius": 1.0,
+      "vertices": [
+        [
+          28.75,
+          -10.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        34.25,
+        -11.75,
+        36.25,
+        -9.75
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL2",
+      "pin": "SW32.1",
+      "radius": 1.0,
+      "vertices": [
+        [
+          35.25,
+          -10.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        27.75,
+        -16.25,
+        29.75,
+        -14.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY32",
+      "pin": "SW32.2",
+      "radius": 1.0,
+      "vertices": [
+        [
+          28.75,
+          -15.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        34.25,
+        -16.25,
+        36.25,
+        -14.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY32",
+      "pin": "SW32.2",
+      "radius": 1.0,
+      "vertices": [
+        [
+          35.25,
+          -15.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        27.39,
+        -20.3,
+        28.990000000000002,
+        -18.7
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/ROW3",
+      "pin": "D32.1",
+      "radius": 0.25,
+      "vertices": [
+        [
+          27.64,
+          -20.05
+        ],
+        [
+          28.740000000000002,
+          -20.05
+        ],
+        [
+          28.740000000000002,
+          -18.95
+        ],
+        [
+          27.64,
+          -18.95
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        35.010000000000005,
+        -20.3,
+        36.61,
+        -18.7
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY32",
+      "pin": "D32.2",
+      "radius": 0.8,
+      "vertices": [
+        [
+          35.81,
+          -19.5
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        47.39,
+        -60.3,
+        48.989999999999995,
+        -58.7
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/ROW1",
+      "pin": "D13.1",
+      "radius": 0.25,
+      "vertices": [
+        [
+          47.64,
+          -60.05
+        ],
+        [
+          48.739999999999995,
+          -60.05
+        ],
+        [
+          48.739999999999995,
+          -58.95
+        ],
+        [
+          47.64,
+          -58.95
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        55.01,
+        -60.3,
+        56.60999999999999,
+        -58.7
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/KEY13",
+      "pin": "D13.2",
+      "radius": 0.8,
+      "vertices": [
+        [
+          55.809999999999995,
+          -59.5
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        19.85,
+        -6.15,
+        20.15,
+        -3.85
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/ROW1",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          20.0,
+          -4.0
+        ],
+        [
+          20.0,
+          -6.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        1.85,
+        -6.15,
+        20.15,
+        -5.85
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/ROW1",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          20.0,
+          -6.0
+        ],
+        [
+          2.0,
+          -6.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        1.85,
+        -62.15,
+        2.15,
+        -5.85
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "/ROW1",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          2.0,
+          -6.0
+        ],
+        [
+          2.0,
+          -62.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        8.039999,
+        -62.15,
+        8.339999,
+        -59.35
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "/ROW1",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          8.189999,
+          -59.5
+        ],
+        [
+          8.189999,
+          -62.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        1.85,
+        -62.15,
+        48.339999999999996,
+        -61.85
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "/ROW1",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          2.0,
+          -62.0
+        ],
+        [
+          48.19,
+          -62.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        48.04,
+        -62.15,
+        48.339999999999996,
+        -59.35
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "/ROW1",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          48.19,
+          -59.5
+        ],
+        [
+          48.19,
+          -62.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        28.040000000000003,
+        -62.15,
+        28.34,
+        -59.35
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "/ROW1",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          28.19,
+          -59.5
+        ],
+        [
+          28.19,
+          -62.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        2.85,
+        -7.15,
+        22.689999999999998,
+        -6.85
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/ROW2",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          22.54,
+          -7.0
+        ],
+        [
+          3.0,
+          -7.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        22.39,
+        -7.15,
+        22.689999999999998,
+        -3.85
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/ROW2",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          22.54,
+          -4.0
+        ],
+        [
+          22.54,
+          -7.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        2.85,
+        -42.15,
+        48.339999999999996,
+        -41.85
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "/ROW2",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          3.0,
+          -42.0
+        ],
+        [
+          48.19,
+          -42.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        48.04,
+        -42.15,
+        48.339999999999996,
+        -39.35
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "/ROW2",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          48.19,
+          -39.5
+        ],
+        [
+          48.19,
+          -42.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        2.85,
+        -42.15,
+        3.15,
+        -6.85
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "/ROW2",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          3.0,
+          -7.0
+        ],
+        [
+          3.0,
+          -42.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        28.040000000000003,
+        -42.15,
+        28.34,
+        -39.35
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "/ROW2",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          28.19,
+          -39.5
+        ],
+        [
+          28.19,
+          -42.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        8.039999,
+        -42.15,
+        8.339999,
+        -39.35
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "/ROW2",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          8.189999,
+          -39.5
+        ],
+        [
+          8.189999,
+          -42.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        24.93,
+        -8.15,
+        25.229999999999997,
+        -3.85
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/ROW3",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          25.08,
+          -4.0
+        ],
+        [
+          25.08,
+          -8.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.85,
+        -8.15,
+        25.229999999999997,
+        -7.85
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/ROW3",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          25.08,
+          -8.0
+        ],
+        [
+          4.0,
+          -8.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        28.040000000000003,
+        -22.15,
+        28.34,
+        -19.35
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "/ROW3",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          28.19,
+          -19.5
+        ],
+        [
+          28.19,
+          -22.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        8.039999,
+        -22.15,
+        8.339999,
+        -19.35
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "/ROW3",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          8.189999,
+          -19.5
+        ],
+        [
+          8.189999,
+          -22.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        48.04,
+        -22.15,
+        48.339999999999996,
+        -19.35
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "/ROW3",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          48.19,
+          -19.5
+        ],
+        [
+          48.19,
+          -22.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.85,
+        -22.15,
+        4.15,
+        -7.85
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "/ROW3",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          4.0,
+          -8.0
+        ],
+        [
+          4.0,
+          -22.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.85,
+        -22.15,
+        48.339999999999996,
+        -21.85
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "/ROW3",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          4.0,
+          -22.0
+        ],
+        [
+          48.19,
+          -22.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        8.6,
+        -10.9,
+        15.4,
+        -10.6
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/COL1",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          8.75,
+          -10.75
+        ],
+        [
+          15.25,
+          -10.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        5.85,
+        -50.9,
+        6.15,
+        -8.85
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/COL1",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          6.0,
+          -9.0
+        ],
+        [
+          6.0,
+          -50.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        5.85,
+        -50.9,
+        8.9,
+        -50.6
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/COL1",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          6.0,
+          -50.75
+        ],
+        [
+          8.75,
+          -50.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        5.85,
+        -30.9,
+        8.9,
+        -30.6
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/COL1",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          6.0,
+          -30.75
+        ],
+        [
+          8.75,
+          -30.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        8.6,
+        -30.9,
+        15.4,
+        -30.6
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/COL1",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          8.75,
+          -30.75
+        ],
+        [
+          15.25,
+          -30.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        5.85,
+        -10.9,
+        8.9,
+        -10.6
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/COL1",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          6.0,
+          -10.75
+        ],
+        [
+          8.75,
+          -10.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        8.6,
+        -50.9,
+        15.4,
+        -50.6
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/COL1",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          8.75,
+          -50.75
+        ],
+        [
+          15.25,
+          -50.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        27.470000000000002,
+        -9.15,
+        27.77,
+        -3.85
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "/COL1",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          27.62,
+          -4.0
+        ],
+        [
+          27.62,
+          -9.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        5.85,
+        -9.15,
+        27.77,
+        -8.85
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "/COL1",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          27.62,
+          -9.0
+        ],
+        [
+          6.0,
+          -9.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        28.6,
+        -10.9,
+        35.4,
+        -10.6
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/COL2",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          28.75,
+          -10.75
+        ],
+        [
+          35.25,
+          -10.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        28.6,
+        -30.9,
+        35.4,
+        -30.6
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/COL2",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          28.75,
+          -30.75
+        ],
+        [
+          35.25,
+          -30.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        25.85,
+        -30.9,
+        28.9,
+        -30.6
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/COL2",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          26.0,
+          -30.75
+        ],
+        [
+          28.75,
+          -30.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        25.85,
+        -50.9,
+        26.15,
+        -9.85
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/COL2",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          26.0,
+          -10.0
+        ],
+        [
+          26.0,
+          -50.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        25.85,
+        -10.9,
+        28.9,
+        -10.6
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/COL2",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          26.0,
+          -10.75
+        ],
+        [
+          28.75,
+          -10.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        25.85,
+        -50.9,
+        28.9,
+        -50.6
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/COL2",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          26.0,
+          -50.75
+        ],
+        [
+          28.75,
+          -50.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        28.6,
+        -50.9,
+        35.4,
+        -50.6
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/COL2",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          28.75,
+          -50.75
+        ],
+        [
+          35.25,
+          -50.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        25.85,
+        -10.15,
+        30.31,
+        -9.85
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "/COL2",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          30.16,
+          -10.0
+        ],
+        [
+          26.0,
+          -10.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        30.01,
+        -10.15,
+        30.31,
+        -3.85
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "/COL2",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          30.16,
+          -4.0
+        ],
+        [
+          30.16,
+          -10.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        45.85,
+        -50.9,
+        46.15,
+        -7.35
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/COL3",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          46.0,
+          -7.5
+        ],
+        [
+          46.0,
+          -50.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        48.6,
+        -30.9,
+        55.4,
+        -30.6
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/COL3",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          48.75,
+          -30.75
+        ],
+        [
+          55.25,
+          -30.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        48.6,
+        -10.9,
+        55.4,
+        -10.6
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/COL3",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          48.75,
+          -10.75
+        ],
+        [
+          55.25,
+          -10.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        45.85,
+        -10.9,
+        48.9,
+        -10.6
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/COL3",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          46.0,
+          -10.75
+        ],
+        [
+          48.75,
+          -10.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        45.85,
+        -50.9,
+        48.9,
+        -50.6
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/COL3",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          46.0,
+          -50.75
+        ],
+        [
+          48.75,
+          -50.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        45.85,
+        -30.9,
+        48.9,
+        -30.6
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/COL3",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          46.0,
+          -30.75
+        ],
+        [
+          48.75,
+          -30.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        48.6,
+        -50.9,
+        55.4,
+        -50.6
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/COL3",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          48.75,
+          -50.75
+        ],
+        [
+          55.25,
+          -50.75
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        32.550000000000004,
+        -7.65,
+        32.85,
+        -3.85
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "/COL3",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          32.7,
+          -4.0
+        ],
+        [
+          32.7,
+          -7.5
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        32.550000000000004,
+        -7.65,
+        46.15,
+        -7.35
+      ],
+      "layers": [
+        "bottom"
+      ],
+      "net": "/COL3",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          32.7,
+          -7.5
+        ],
+        [
+          46.0,
+          -7.5
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        8.6,
+        -55.4,
+        15.4,
+        -55.1
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY11",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          8.75,
+          -55.25
+        ],
+        [
+          15.25,
+          -55.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.1,
+        -55.96,
+        15.96,
+        -55.1
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY11",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          15.25,
+          -55.25
+        ],
+        [
+          15.81,
+          -55.81
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.66,
+        -59.65,
+        15.96,
+        -55.660000000000004
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY11",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          15.81,
+          -55.81
+        ],
+        [
+          15.81,
+          -59.5
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        35.1,
+        -55.96,
+        35.96,
+        -55.1
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY12",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          35.25,
+          -55.25
+        ],
+        [
+          35.81,
+          -55.81
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        28.6,
+        -55.4,
+        35.4,
+        -55.1
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY12",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          28.75,
+          -55.25
+        ],
+        [
+          35.25,
+          -55.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        35.660000000000004,
+        -59.65,
+        35.96,
+        -55.660000000000004
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY12",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          35.81,
+          -55.81
+        ],
+        [
+          35.81,
+          -59.5
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        55.1,
+        -55.96,
+        55.96,
+        -55.1
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY13",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          55.25,
+          -55.25
+        ],
+        [
+          55.81,
+          -55.81
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        48.6,
+        -55.4,
+        55.4,
+        -55.1
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY13",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          48.75,
+          -55.25
+        ],
+        [
+          55.25,
+          -55.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        55.660000000000004,
+        -59.65,
+        55.96,
+        -55.660000000000004
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY13",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          55.81,
+          -55.81
+        ],
+        [
+          55.81,
+          -59.5
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        8.6,
+        -35.4,
+        15.4,
+        -35.1
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY21",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          8.75,
+          -35.25
+        ],
+        [
+          15.25,
+          -35.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.66,
+        -39.65,
+        15.96,
+        -35.660000000000004
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY21",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          15.81,
+          -35.81
+        ],
+        [
+          15.81,
+          -39.5
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.1,
+        -35.96,
+        15.96,
+        -35.1
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY21",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          15.25,
+          -35.25
+        ],
+        [
+          15.81,
+          -35.81
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        35.660000000000004,
+        -39.65,
+        35.96,
+        -35.660000000000004
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY22",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          35.81,
+          -35.81
+        ],
+        [
+          35.81,
+          -39.5
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        28.6,
+        -35.4,
+        35.4,
+        -35.1
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY22",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          28.75,
+          -35.25
+        ],
+        [
+          35.25,
+          -35.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        35.1,
+        -35.96,
+        35.96,
+        -35.1
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY22",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          35.25,
+          -35.25
+        ],
+        [
+          35.81,
+          -35.81
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        55.1,
+        -35.96,
+        55.96,
+        -35.1
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY23",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          55.25,
+          -35.25
+        ],
+        [
+          55.81,
+          -35.81
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        55.660000000000004,
+        -39.65,
+        55.96,
+        -35.660000000000004
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY23",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          55.81,
+          -35.81
+        ],
+        [
+          55.81,
+          -39.5
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        48.6,
+        -35.4,
+        55.4,
+        -35.1
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY23",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          48.75,
+          -35.25
+        ],
+        [
+          55.25,
+          -35.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.1,
+        -15.96,
+        15.96,
+        -15.1
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY31",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          15.25,
+          -15.25
+        ],
+        [
+          15.81,
+          -15.81
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        8.6,
+        -15.4,
+        15.4,
+        -15.1
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY31",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          8.75,
+          -15.25
+        ],
+        [
+          15.25,
+          -15.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        15.66,
+        -19.65,
+        15.96,
+        -15.66
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY31",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          15.81,
+          -15.81
+        ],
+        [
+          15.81,
+          -19.5
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        35.1,
+        -15.96,
+        35.96,
+        -15.1
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY32",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          35.25,
+          -15.25
+        ],
+        [
+          35.81,
+          -15.81
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        28.6,
+        -15.4,
+        35.4,
+        -15.1
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY32",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          28.75,
+          -15.25
+        ],
+        [
+          35.25,
+          -15.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        35.660000000000004,
+        -19.65,
+        35.96,
+        -15.66
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY32",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          35.81,
+          -15.81
+        ],
+        [
+          35.81,
+          -19.5
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        55.1,
+        -15.96,
+        55.96,
+        -15.1
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY33",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          55.25,
+          -15.25
+        ],
+        [
+          55.81,
+          -15.81
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        55.660000000000004,
+        -19.65,
+        55.96,
+        -15.66
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY33",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          55.81,
+          -15.81
+        ],
+        [
+          55.81,
+          -19.5
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        48.6,
+        -15.4,
+        55.4,
+        -15.1
+      ],
+      "layers": [
+        "top"
+      ],
+      "net": "/KEY33",
+      "pin": null,
+      "radius": 0.15,
+      "vertices": [
+        [
+          48.75,
+          -15.25
+        ],
+        [
+          55.25,
+          -15.25
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        1.675,
+        -6.325,
+        2.325,
+        -5.675
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/ROW1",
+      "pin": null,
+      "radius": 0.325,
+      "vertices": [
+        [
+          2.0,
+          -6.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        2.675,
+        -7.325,
+        3.325,
+        -6.675
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/ROW2",
+      "pin": null,
+      "radius": 0.325,
+      "vertices": [
+        [
+          3.0,
+          -7.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3.675,
+        -8.325,
+        4.325,
+        -7.675
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/ROW3",
+      "pin": null,
+      "radius": 0.325,
+      "vertices": [
+        [
+          4.0,
+          -8.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        5.675,
+        -9.325,
+        6.325,
+        -8.675
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL1",
+      "pin": null,
+      "radius": 0.325,
+      "vertices": [
+        [
+          6.0,
+          -9.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        25.675,
+        -10.325,
+        26.325,
+        -9.675
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL2",
+      "pin": null,
+      "radius": 0.325,
+      "vertices": [
+        [
+          26.0,
+          -10.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        45.675,
+        -7.825,
+        46.325,
+        -7.175
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "net": "/COL3",
+      "pin": null,
+      "radius": 0.325,
+      "vertices": [
+        [
+          46.0,
+          -7.5
+        ]
+      ]
+    }
+  ],
+  "holes": [],
+  "schematic_present": true,
+  "silkscreen": [
+    "SW33",
+    "SW12",
+    "SW21",
+    "K",
+    "D23",
+    "diode/THT",
+    "SW13",
+    "K",
+    "D21",
+    "diode/THT",
+    "J1",
+    "connector/pin_header_socket",
+    "K",
+    "D33",
+    "diode/THT",
+    "SW22",
+    "K",
+    "D31",
+    "diode/THT",
+    "K",
+    "D11",
+    "diode/THT",
+    "SW11",
+    "SW23",
+    "K",
+    "D22",
+    "diode/THT",
+    "K",
+    "D12",
+    "diode/THT",
+    "SW31",
+    "SW32",
+    "K",
+    "D32",
+    "diode/THT",
+    "K",
+    "D13",
+    "diode/THT",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "J1: 1=ROW1 2=ROW2 3=ROW3",
+    "4=COL1 5=COL2 6=COL3",
+    "R3C1",
+    "R2C1",
+    "R1C1",
+    "D31",
+    "D21",
+    "D11",
+    "R3C2",
+    "R2C2",
+    "R1C2",
+    "D32",
+    "D22",
+    "D12",
+    "R3C3",
+    "R2C3",
+    "R1C3",
+    "D33",
+    "D23",
+    "D13"
+  ],
+  "source_present": true,
+  "tracks": [
+    {
+      "net": "/ROW1",
+      "width": 0.3
+    },
+    {
+      "net": "/ROW1",
+      "width": 0.3
+    },
+    {
+      "net": "/ROW1",
+      "width": 0.3
+    },
+    {
+      "net": "/ROW1",
+      "width": 0.3
+    },
+    {
+      "net": "/ROW1",
+      "width": 0.3
+    },
+    {
+      "net": "/ROW1",
+      "width": 0.3
+    },
+    {
+      "net": "/ROW1",
+      "width": 0.3
+    },
+    {
+      "net": "/ROW2",
+      "width": 0.3
+    },
+    {
+      "net": "/ROW2",
+      "width": 0.3
+    },
+    {
+      "net": "/ROW2",
+      "width": 0.3
+    },
+    {
+      "net": "/ROW2",
+      "width": 0.3
+    },
+    {
+      "net": "/ROW2",
+      "width": 0.3
+    },
+    {
+      "net": "/ROW2",
+      "width": 0.3
+    },
+    {
+      "net": "/ROW2",
+      "width": 0.3
+    },
+    {
+      "net": "/ROW3",
+      "width": 0.3
+    },
+    {
+      "net": "/ROW3",
+      "width": 0.3
+    },
+    {
+      "net": "/ROW3",
+      "width": 0.3
+    },
+    {
+      "net": "/ROW3",
+      "width": 0.3
+    },
+    {
+      "net": "/ROW3",
+      "width": 0.3
+    },
+    {
+      "net": "/ROW3",
+      "width": 0.3
+    },
+    {
+      "net": "/ROW3",
+      "width": 0.3
+    },
+    {
+      "net": "/COL1",
+      "width": 0.3
+    },
+    {
+      "net": "/COL1",
+      "width": 0.3
+    },
+    {
+      "net": "/COL1",
+      "width": 0.3
+    },
+    {
+      "net": "/COL1",
+      "width": 0.3
+    },
+    {
+      "net": "/COL1",
+      "width": 0.3
+    },
+    {
+      "net": "/COL1",
+      "width": 0.3
+    },
+    {
+      "net": "/COL1",
+      "width": 0.3
+    },
+    {
+      "net": "/COL1",
+      "width": 0.3
+    },
+    {
+      "net": "/COL1",
+      "width": 0.3
+    },
+    {
+      "net": "/COL2",
+      "width": 0.3
+    },
+    {
+      "net": "/COL2",
+      "width": 0.3
+    },
+    {
+      "net": "/COL2",
+      "width": 0.3
+    },
+    {
+      "net": "/COL2",
+      "width": 0.3
+    },
+    {
+      "net": "/COL2",
+      "width": 0.3
+    },
+    {
+      "net": "/COL2",
+      "width": 0.3
+    },
+    {
+      "net": "/COL2",
+      "width": 0.3
+    },
+    {
+      "net": "/COL2",
+      "width": 0.3
+    },
+    {
+      "net": "/COL2",
+      "width": 0.3
+    },
+    {
+      "net": "/COL3",
+      "width": 0.3
+    },
+    {
+      "net": "/COL3",
+      "width": 0.3
+    },
+    {
+      "net": "/COL3",
+      "width": 0.3
+    },
+    {
+      "net": "/COL3",
+      "width": 0.3
+    },
+    {
+      "net": "/COL3",
+      "width": 0.3
+    },
+    {
+      "net": "/COL3",
+      "width": 0.3
+    },
+    {
+      "net": "/COL3",
+      "width": 0.3
+    },
+    {
+      "net": "/COL3",
+      "width": 0.3
+    },
+    {
+      "net": "/COL3",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY11",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY11",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY11",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY12",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY12",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY12",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY13",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY13",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY13",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY21",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY21",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY21",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY22",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY22",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY22",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY23",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY23",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY23",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY31",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY31",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY31",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY32",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY32",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY32",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY33",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY33",
+      "width": 0.3
+    },
+    {
+      "net": "/KEY33",
+      "width": 0.3
+    }
+  ],
+  "unsupported": [],
+  "warnings": []
+}

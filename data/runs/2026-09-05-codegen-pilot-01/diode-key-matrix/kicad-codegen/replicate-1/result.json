@@ -1,0 +1,64 @@
+{
+  "status": "completed",
+  "final_attempt": "attempt-03",
+  "generated_files": [
+    "artifacts/attempt-03/pcb-svg",
+    "artifacts/attempt-03/matrix.net",
+    "artifacts/attempt-03/matrix.kicad_pro",
+    "artifacts/attempt-03/generate.py",
+    "artifacts/attempt-03/fp-lib-table",
+    "artifacts/attempt-03/matrix.kicad_sch",
+    "artifacts/attempt-03/Switch.kicad_sym",
+    "artifacts/attempt-03/matrix.kicad_dru",
+    "artifacts/attempt-03/matrix.kicad_pcb",
+    "artifacts/attempt-03/matrix.kicad_prl",
+    "artifacts/attempt-03/Connector_Generic.kicad_sym",
+    "artifacts/attempt-03/sym-lib-table",
+    "artifacts/attempt-03/Device.kicad_sym",
+    "artifacts/attempt-03/Button_Switch_THT.pretty/SW_PUSH_6mm.kicad_mod",
+    "artifacts/attempt-03/schematic-svg/matrix.svg",
+    "artifacts/attempt-03/Connector_PinHeader_2.54mm.pretty/PinHeader_1x06_P2.54mm_Vertical.kicad_mod",
+    "artifacts/attempt-03/Diode_THT.pretty/D_DO-35_SOD27_P7.62mm_Horizontal.kicad_mod"
+  ],
+  "validation": {
+    "schematic_export": {
+      "passed": true,
+      "log": "logs/attempt-03-validation-2.log"
+    },
+    "pcb_export": {
+      "passed": true,
+      "log": "logs/attempt-03-validation-5.log"
+    },
+    "erc": {
+      "passed": false,
+      "errors": 0,
+      "warnings": 38,
+      "log": "logs/attempt-03-erc.rpt"
+    },
+    "drc": {
+      "passed": false,
+      "errors": 0,
+      "warnings": 19,
+      "unconnected_pads": 0,
+      "log": "logs/attempt-03-drc.rpt"
+    },
+    "schematic_parity": {
+      "passed": true,
+      "issues": 0,
+      "log": "logs/attempt-03-parity-confirmed.rpt",
+      "strict_combined_exit_code": 5
+    },
+    "geometry_and_connectivity": {
+      "passed": true,
+      "log": "logs/attempt-03-requirements.json"
+    },
+    "physical_testing": null
+  },
+  "known_limitations": [
+    "KiCad skips local library tables as UNINITIALIZED: 38 ERC and 19 DRC library warnings remain. Native embedded design data is intact.",
+    "Generic tactile switch vendor selection is unspecified; use documented pad arrangement.",
+    "No physical testing or rendered-image visual inspection."
+  ],
+  "failure": null,
+  "completed_meaning": "Generation ended normally; warning-inclusive ERC/DRC remain non-clean."
+}

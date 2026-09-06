@@ -1,0 +1,8 @@
++logs/repair-02.zsh:3> mkdir -p artifacts/attempt-02
++logs/repair-02.zsh:4> cp artifacts/attempt-01/rc-filter.kicad_sch artifacts/attempt-01/rc-filter.kicad_pcb artifacts/attempt-01/rc-filter.kicad_pro artifacts/attempt-01/rc-filter.kicad_dru artifacts/attempt-01/sym-lib-table artifacts/attempt-01/fp-lib-table artifacts/attempt-01/generate.py artifacts/attempt-02/
++logs/repair-02.zsh:5> python3 -
++logs/repair-02.zsh:11> /Users/ankan/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/3.9/bin/python3.9 artifacts/attempt-02/repair.py
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+Rename SIGNAL_OUT to /SIGNAL_OUT
+Rename GND to /GND
+Rename SIGNAL_IN to /SIGNAL_IN

@@ -1,0 +1,108 @@
+** Drc report for matrix.kicad_pcb **
+** Created on 2026-09-05T23:25:21 **
+** Report includes: Errors, Warnings **
+
+** Found 29 DRC violations **
+[shorting_items]: Items shorting two nets (nets COL2 and COL3)
+    Local override; error
+    @(35.2500 mm, 10.7500 mm): PTH pad 1 [COL2] of SW32
+    @(32.7000 mm, 11.0000 mm): Track [COL3] on B.Cu, length 13.3000 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(32.7000 mm, 11.0000 mm): Track [COL3] on B.Cu, length 13.3000 mm
+    @(35.2500 mm, 10.7500 mm): PTH pad 1 [COL2] of SW32
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Diode_THT'
+    Local override; warning
+    @(28.1900 mm, 39.5000 mm): Footprint D22
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_THT'
+    Local override; warning
+    @(48.7500 mm, 30.7500 mm): Footprint SW23
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_THT'
+    Local override; warning
+    @(8.7500 mm, 30.7500 mm): Footprint SW21
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_THT'
+    Local override; warning
+    @(28.7500 mm, 30.7500 mm): Footprint SW22
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Diode_THT'
+    Local override; warning
+    @(8.1900 mm, 39.5000 mm): Footprint D21
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_THT'
+    Local override; warning
+    @(28.7500 mm, 50.7500 mm): Footprint SW12
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Diode_THT'
+    Local override; warning
+    @(48.1900 mm, 19.5000 mm): Footprint D33
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_THT'
+    Local override; warning
+    @(8.7500 mm, 50.7500 mm): Footprint SW11
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_THT'
+    Local override; warning
+    @(48.7500 mm, 10.7500 mm): Footprint SW33
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_THT'
+    Local override; warning
+    @(48.7500 mm, 50.7500 mm): Footprint SW13
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Diode_THT'
+    Local override; warning
+    @(8.1900 mm, 19.5000 mm): Footprint D31
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Diode_THT'
+    Local override; warning
+    @(28.1900 mm, 59.5000 mm): Footprint D12
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(20.0000 mm, 4.0000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_THT'
+    Local override; warning
+    @(28.7500 mm, 10.7500 mm): Footprint SW32
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Diode_THT'
+    Local override; warning
+    @(48.1900 mm, 39.5000 mm): Footprint D23
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Diode_THT'
+    Local override; warning
+    @(28.1900 mm, 19.5000 mm): Footprint D32
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Diode_THT'
+    Local override; warning
+    @(48.1900 mm, 59.5000 mm): Footprint D13
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_THT'
+    Local override; warning
+    @(8.7500 mm, 10.7500 mm): Footprint SW31
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Diode_THT'
+    Local override; warning
+    @(8.1900 mm, 59.5000 mm): Footprint D11
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(20.0000 mm, 1.7000 mm): PCB text '1:R1' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(22.5400 mm, 1.7000 mm): PCB text '2:R2' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(25.0800 mm, 1.7000 mm): PCB text '3:R3' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(27.6200 mm, 1.7000 mm): PCB text '4:C1' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(30.1600 mm, 1.7000 mm): PCB text '5:C2' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(32.7000 mm, 1.7000 mm): PCB text '6:C3' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(40.0000 mm, 7.0000 mm): PCB text 'J1 ROW1 ROW2 ROW3 COL1 COL2 COL3' on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(32.0000 mm, 7.8000 mm): PCB text 'R3C2' on F.Silkscreen
+    @(40.0000 mm, 7.0000 mm): PCB text 'J1 ROW1 ROW2 ROW3 COL1 COL2 COL3' on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

@@ -1,0 +1,20 @@
+COMMAND: ['tsci', 'check', 'schematic-placement', 'index.circuit.tsx']
+trace: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="J1" positionAnchor="center" schX="-10" schY="0" width="1.6" height="1" />
+<SchematicBoxPlacement componentName="C1" positionAnchor="center" schX="-7" schY="-2" width="0.9" height="0.6" />
+<SchematicBoxPlacement componentName="Q1" positionAnchor="center" schX="0" schY="0" width="1.2" height="0.6" />
+<SchematicBoxPlacement componentName="R3" positionAnchor="center" schX="-2" schY="-3" width="0.9" height="0.6" />
+<SchematicBoxPlacement componentName="Q2" positionAnchor="center" schX="9" schY="0" width="1.2" height="0.6" />
+<SchematicBoxPlacement componentName="R6" positionAnchor="center" schX="7" schY="-3" width="0.9" height="0.6" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<PinHeaderSchematicBoxTooWide message="Shrink schematic box width" componentName="J1" currentSchWidth="1.6" measuredInnerLabelHorizontalEmptySpace="1.025" maxAllowedInnerLabelHorizontalEmptySpace="0.1" suggestedSchWidth="0.675" />
+<SchematicPinPaddingToEdgeTooLarge message="Move schematic pins closer to the box edge or change the schematic box height" componentName="Q1" pinSide="left" edgeSide="top" pinName="B" measuredPadding="0.3" maxAllowedPadding="0.2" excessPadding="0.1" suggestedSchHeight="0.4" />
+<SchematicPinPaddingToEdgeTooLarge message="Move schematic pins closer to the box edge or change the schematic box height" componentName="Q1" pinSide="left" edgeSide="bottom" pinName="B" measuredPadding="0.3" maxAllowedPadding="0.2" excessPadding="0.1" suggestedSchHeight="0.4" />
+<SchematicPinPaddingToEdgeTooLarge message="Move schematic pins closer to the box edge or change the schematic box height" componentName="Q2" pinSide="left" edgeSide="top" pinName="B" measuredPadding="0.3" maxAllowedPadding="0.2" excessPadding="0.1" suggestedSchHeight="0.4" />
+<SchematicPinPaddingToEdgeTooLarge message="Move schematic pins closer to the box edge or change the schematic box height" componentName="Q2" pinSide="left" edgeSide="bottom" pinName="B" measuredPadding="0.3" maxAllowedPadding="0.2" excessPadding="0.1" suggestedSchHeight="0.4" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_2" targetComponentName="J1" deltaSchX="0" deltaSchY="-2.88" newSchX="-10" newSchY="-2.88" currentTurnCount="3" suggestedTurnCount="1" message="move J1 down by 2.88 (to schX=-10, schY=-2.88) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_3" targetComponentName="R3" deltaSchX="+3.2" deltaSchY="0" newSchX="1.2" newSchY="-3" currentTurnCount="3" suggestedTurnCount="1" message="move R3 right by 3.2 (to schX=1.2, schY=-3) to reduce this trace from 3 turns to 1" />
+<TraceCanBeSimplifiedByMovingComponent schematicTraceId="schematic_trace_4" targetComponentName="R6" deltaSchX="+3.2" deltaSchY="0" newSchX="10.2" newSchY="-3" currentTurnCount="3" suggestedTurnCount="1" message="move R6 right by 3.2 (to schX=10.2, schY=-3) to reduce this trace from 3 turns to 1" />
+</SchematicPlacementIssues>

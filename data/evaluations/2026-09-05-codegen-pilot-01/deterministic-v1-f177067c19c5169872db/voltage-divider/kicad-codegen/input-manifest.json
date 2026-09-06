@@ -1,0 +1,82 @@
+[
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/README.md",
+    "sha256": "6d670d49f410ba36e8f978c69468a15d92b8ea6ed729621b1e56ac5187e5fe53"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/attempt-02/divider.kicad_dru",
+    "sha256": "4f99d474b1f0a8ee74a341db7c0d42cf663833415464630103cff1a9fc18be30"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/attempt-02/divider.kicad_pcb",
+    "sha256": "2bd25b9eeba6f55fcde1a3735d567b2ee395ab50220e8f08184320e051e6fd49"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/attempt-02/divider.kicad_prl",
+    "sha256": "a9e1ce23585cc7d4a5583af38fafcaa47838c5cc6bdc9577992b4a9d8d3ce3b2"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/attempt-02/divider.kicad_pro",
+    "sha256": "b1a179a4ada1743fe8816e6fb84a6bf08194d6e48862521401d1f5f4b0093220"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/attempt-02/divider.kicad_sch",
+    "sha256": "598ead0af007fbdf1363d2263359549ebd8d29a8cccf849409e8c67899f73720"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/attempt-02/divider.net",
+    "sha256": "082fbc2dfa6a007cfba7ae5dfc3962c688f6273890eb85633d454babd67155ce"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/attempt-02/fp-lib-table",
+    "sha256": "15bb18d631ae9b03bd51081ecb611d659d0c2edcafc578928da349d8d7707a59"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/attempt-02/generate.py",
+    "sha256": "727f50d9505f2ffdb516121f0377195f7620c45aa877a0ffbe0c296e26de4739"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/attempt-02/generation-metadata.json",
+    "sha256": "8f23cca165ed71fdf2006fccbc50189676d799c3e598637b301298e11c7943fc"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/attempt-02/pcb.svg",
+    "sha256": "962069c822059bcbe4d290f3b66286268872a6242500e5a63ff18bff95660a71"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/attempt-02/schematic-svg/divider.svg",
+    "sha256": "de3b87e532be3e8401eaaf97cd4aef09759cff58f2395d8c33d3d2942d9e70f9"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/attempt-02/sym-lib-table",
+    "sha256": "1e446372d730c107d66fe953f865f2d91586d0c3916c334b13e21e14001dd9bc"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/attempt-02/verification.json",
+    "sha256": "0a507464951a5a6f91328d141f8da5c5a022cfd239b55af9c8d0f1045b16f01b"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/attempt-02/verify-v2.py",
+    "sha256": "c75599f01fe95ebf8f20bea1de9890c4e5f8c0953b44d7c82b94fff8af531d5b"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/artifacts/attempt-02/verify.py",
+    "sha256": "4a600323cf06be19bbe74e549a5eda8a16e6f9f3ef61d33c2d3bae0df926e4ef"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/input/metadata.json",
+    "sha256": "5f9f46dbf9eeea77a56aa28887aa964380e0e20a171453e44d03fb0b0cb919ff"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/input/prompt.md",
+    "sha256": "9bf89efc737280478cc01e57d670eb4caa16ad81b4e140e03bc68d6adcab33a5"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/result.json",
+    "sha256": "0ea6316b345f9814a85a9d76ab2dd69b61d85aac0f53303ad8d80c9f17e94e26"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/voltage-divider/kicad-codegen/replicate-1/run.json",
+    "sha256": "3a20024568b39c0851d805b2bbd55e41e6a8fa7b373d6011cd6f0041c24b7616"
+  }
+]

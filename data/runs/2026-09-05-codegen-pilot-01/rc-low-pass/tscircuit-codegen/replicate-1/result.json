@@ -1,0 +1,109 @@
+{
+  "status": "completed",
+  "final_attempt": "attempt-02",
+  "generated_files": [
+    "artifacts/README.md",
+    "artifacts/attempt-02/geometry-audit.json",
+    "artifacts/attempt-02/environment.bun.lock",
+    "artifacts/attempt-02/package.json",
+    "artifacts/attempt-02/index.circuit.tsx",
+    "artifacts/attempt-02/dist/index/pcb.png",
+    "artifacts/attempt-02/dist/index/schematic.svg",
+    "artifacts/attempt-02/dist/index/schematic.png",
+    "artifacts/attempt-02/dist/index/circuit.json",
+    "artifacts/attempt-02/dist/index/pcb.svg",
+    "artifacts/attempt-02/.tscircuit/cache/64e645c44e-93a284460b6f84ea50fd7df0b2fda9b8.json",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-9f603b87a601b12dc88e706884a0f5dd.json",
+    "artifacts/attempt-02/.tscircuit/cache/g___0805__-f42b00ec23fc22eb47b53b7aad96d123.json",
+    "artifacts/attempt-02/.tscircuit/cache/_pinrow2__-9ccaf4a0ca16ec5b19b2aa4899f732e6.json",
+    "artifacts/attempt-02/.tscircuit/cache/_pinrow2__-4be5185a4ac4e6d0c6040093ab8a40d2.json",
+    "artifacts/attempt-01/environment.bun.lock",
+    "artifacts/attempt-01/package.json",
+    "artifacts/attempt-01/index.circuit.tsx",
+    "artifacts/attempt-01/dist/index/pcb.png",
+    "artifacts/attempt-01/dist/index/schematic.svg",
+    "artifacts/attempt-01/dist/index/circuit.json",
+    "artifacts/attempt-01/dist/index/pcb.svg",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-9f603b87a601b12dc88e706884a0f5dd.json",
+    "artifacts/attempt-01/.tscircuit/cache/g___0805__-f42b00ec23fc22eb47b53b7aad96d123.json",
+    "artifacts/attempt-01/.tscircuit/cache/_pinrow2__-9ccaf4a0ca16ec5b19b2aa4899f732e6.json",
+    "artifacts/attempt-01/.tscircuit/cache/3812d0c708-b866a29437db5d5f1c5be39ed5709d6a.json",
+    "artifacts/attempt-01/.tscircuit/cache/_pinrow2__-4be5185a4ac4e6d0c6040093ab8a40d2.json"
+  ],
+  "validation": [
+    {
+      "check": "netlist",
+      "exit_code": 0,
+      "status": "passed",
+      "log": "logs/attempt-02-netlist.log"
+    },
+    {
+      "check": "schematic-placement",
+      "exit_code": 0,
+      "status": "passed",
+      "log": "logs/attempt-02-schematic-placement.log"
+    },
+    {
+      "check": "placement",
+      "exit_code": 0,
+      "status": "passed",
+      "log": "logs/attempt-02-placement.log"
+    },
+    {
+      "check": "build",
+      "exit_code": 0,
+      "status": "passed",
+      "log": "logs/attempt-02-build.log"
+    },
+    {
+      "check": "shorts",
+      "exit_code": 0,
+      "status": "passed",
+      "log": "logs/attempt-02-shorts.log"
+    },
+    {
+      "check": "geometry-audit",
+      "exit_code": 0,
+      "status": "passed",
+      "log": "logs/attempt-02-geometry-audit.log"
+    },
+    {
+      "check": "render-schematic",
+      "exit_code": 0,
+      "status": "passed",
+      "log": "logs/attempt-02-render-schematic.log"
+    }
+  ],
+  "measurements": {
+    "board_mm": [
+      35,
+      25
+    ],
+    "copper_layers": 2,
+    "j1_left_edge_center_mm": 3.5,
+    "j2_right_edge_center_mm": 3.5,
+    "c1_j2_centers_mm": 4.0,
+    "min_route_width_mm": 0.25,
+    "min_distinct_net_copper_clearance_mm": 0.3079398748141336,
+    "closest_copper_pair": [
+      "source_trace_2__source_trace_3__source_net_1_mst1_0",
+      "pcb_smtpad_3"
+    ],
+    "pcb_trace_count": 5,
+    "via_count": 1,
+    "nets_connected": {
+      "GND": true,
+      "SIGNAL_IN": true,
+      "SIGNAL_OUT": true
+    },
+    "circuit_error_records": []
+  },
+  "known_limitations": [
+    "Build warning: no explicit schematicsheet drawing area.",
+    "Generic component values and footprints; procurement-specific parts not selected.",
+    "Geometry audit uses circuit JSON and simple shape models, not independent manufacturing DRC.",
+    "Installed environment preserved by global lockfile snapshot and local node_modules symlink.",
+    "Manufacturing exports and physical testing not performed (not required)."
+  ],
+  "failure": null
+}

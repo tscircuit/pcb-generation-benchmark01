@@ -1,0 +1,25 @@
+{
+  "current": "deterministic-v1-5a9c0cca93c84a315b17",
+  "evaluations": [
+    {
+      "id": "deterministic-v1-f177067c19c5169872db",
+      "status": "superseded-development-evaluation",
+      "reason": "Initial reader used native placement origins instead of declared footprint centres. Preserved for audit; do not use its placement outcomes."
+    },
+    {
+      "id": "deterministic-v1-6a1a7176f53bc918ad4c",
+      "status": "superseded-development-evaluation",
+      "reason": "Replaced after explicit unsupported-reader handling and additional validation tests; original bytes retained."
+    },
+    {
+      "id": "deterministic-v1-aa75aca9abad1926b5f3",
+      "status": "superseded-development-evaluation",
+      "reason": "Replaced after malformed-artifact and README parsing hardening. Original evaluation bytes retained."
+    },
+    {
+      "id": "deterministic-v1-5a9c0cca93c84a315b17",
+      "status": "current",
+      "reason": "30 tests passed; repeated scoring produced identical bytes. Original generation artifacts unchanged."
+    }
+  ]
+}

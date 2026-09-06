@@ -1,0 +1,657 @@
+{
+  "evaluation_id": "deterministic-v1-6a1a7176f53bc918ad4c--mosfet-output-bank--kicad-codegen",
+  "evaluator_code_sha256": "4bb17d4993c1766c19a22f6394e12369197e4a58a5c8937192b3be89211ad4f3",
+  "method": "kicad-codegen",
+  "outcomes": [
+    {
+      "category": "functional_requirements",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "actual": {
+          "capacitor": 2,
+          "diode": 4,
+          "header": 6,
+          "resistor": 8,
+          "transistor": 4
+        },
+        "expected": {
+          "capacitor": 2,
+          "diode": 4,
+          "header": 6,
+          "resistor": 8,
+          "transistor": 4
+        }
+      },
+      "outcome": "pass",
+      "test_id": "required-components"
+    },
+    {
+      "category": "functional_requirements",
+      "critical": true,
+      "evidence": [],
+      "observed": {
+        "reason": "Missing pin/value semantics or deterministic graph-search limit reached"
+      },
+      "outcome": "unknown",
+      "test_id": "passive-values"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [],
+      "observed": {
+        "reason": "Missing pin/value semantics or deterministic graph-search limit reached"
+      },
+      "outcome": "unknown",
+      "test_id": "topology"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "logical_partitions": [
+          [
+            "C1.1",
+            "C2.1",
+            "D1.1",
+            "D2.1",
+            "D3.1",
+            "D4.1",
+            "J1.1",
+            "J3.1",
+            "J4.1",
+            "J5.1",
+            "J6.1"
+          ],
+          [
+            "C1.2",
+            "C2.2",
+            "J1.2",
+            "J2.1",
+            "Q1.2",
+            "Q2.2",
+            "Q3.2",
+            "Q4.2",
+            "R2.2",
+            "R4.2",
+            "R6.2",
+            "R8.2"
+          ],
+          [
+            "D1.2",
+            "J3.2",
+            "Q1.3"
+          ],
+          [
+            "D2.2",
+            "J4.2",
+            "Q2.3"
+          ],
+          [
+            "D3.2",
+            "J5.2",
+            "Q3.3"
+          ],
+          [
+            "D4.2",
+            "J6.2",
+            "Q4.3"
+          ],
+          [
+            "J2.2",
+            "R1.1"
+          ],
+          [
+            "J2.3",
+            "R3.1"
+          ],
+          [
+            "J2.4",
+            "R5.1"
+          ],
+          [
+            "J2.5",
+            "R7.1"
+          ],
+          [
+            "Q1.1",
+            "R1.2",
+            "R2.1"
+          ],
+          [
+            "Q2.1",
+            "R3.2",
+            "R4.1"
+          ],
+          [
+            "Q3.1",
+            "R5.2",
+            "R6.1"
+          ],
+          [
+            "Q4.1",
+            "R7.2",
+            "R8.1"
+          ]
+        ],
+        "pcb_partitions": [
+          [
+            "C1.1",
+            "C2.1",
+            "D1.1",
+            "D2.1",
+            "D3.1",
+            "D4.1",
+            "J1.1",
+            "J3.1",
+            "J4.1",
+            "J5.1",
+            "J6.1"
+          ],
+          [
+            "C1.2",
+            "C2.2",
+            "J1.2",
+            "J2.1",
+            "Q1.2",
+            "Q2.2",
+            "Q3.2",
+            "Q4.2",
+            "R2.2",
+            "R4.2",
+            "R6.2",
+            "R8.2"
+          ],
+          [
+            "D1.2",
+            "J3.2",
+            "Q1.3"
+          ],
+          [
+            "D2.2",
+            "J4.2",
+            "Q2.3"
+          ],
+          [
+            "D3.2",
+            "J5.2",
+            "Q3.3"
+          ],
+          [
+            "D4.2",
+            "J6.2",
+            "Q4.3"
+          ],
+          [
+            "J2.2",
+            "R1.1"
+          ],
+          [
+            "J2.3",
+            "R3.1"
+          ],
+          [
+            "J2.4",
+            "R5.1"
+          ],
+          [
+            "J2.5",
+            "R7.1"
+          ],
+          [
+            "Q1.1",
+            "R1.2",
+            "R2.1"
+          ],
+          [
+            "Q2.1",
+            "R3.2",
+            "R4.1"
+          ],
+          [
+            "Q3.1",
+            "R5.2",
+            "R6.1"
+          ],
+          [
+            "Q4.1",
+            "R7.2",
+            "R8.1"
+          ]
+        ]
+      },
+      "outcome": "pass",
+      "test_id": "schematic-pcb-net-agreement"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": [],
+        "primitive_count": 2296,
+        "scope": "supported outer copper envelopes; no source/build replay"
+      },
+      "outcome": "pass",
+      "test_id": "routed-copper"
+    },
+    {
+      "category": "connectivity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": [],
+        "primitive_count": 2296,
+        "scope": "supported outer copper envelopes; no source/build replay"
+      },
+      "outcome": "pass",
+      "test_id": "no-copper-shorts"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "height_mm": 50.0,
+        "width_mm": 70.0
+      },
+      "outcome": "pass",
+      "test_id": "board-size"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "layers": 2
+      },
+      "outcome": "pass",
+      "test_id": "layers"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "minimum_mm": 0.25
+      },
+      "outcome": "pass",
+      "test_id": "trace-width"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": [],
+        "primitive_count": 2296,
+        "scope": "supported outer copper envelopes; no source/build replay"
+      },
+      "outcome": "pass",
+      "test_id": "copper-clearance"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "outside": []
+      },
+      "outcome": "pass",
+      "test_id": "component-containment"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "issues": []
+      },
+      "outcome": "pass",
+      "test_id": "header-pitch"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "recognition": "two surface pads, centre spacing 1.6\u20132.2 mm, short side 0.8\u20131.3 mm and long side 1.1\u20131.7 mm"
+      },
+      "outcome": "pass",
+      "test_id": "passive-packages"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "Automated presence of text does not verify pin/signal association, polarity, and readable silkscreen placement."
+      },
+      "outcome": "unknown",
+      "test_id": "signal-markings"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "Missing/unmatched component position"
+      },
+      "outcome": "unknown",
+      "test_id": "layout-01"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "Missing/unmatched component position"
+      },
+      "outcome": "unknown",
+      "test_id": "layout-02"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "edge_distance_mm": 5.0
+      },
+      "outcome": "pass",
+      "test_id": "layout-03"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "distance_mm": 6.1339730191777
+      },
+      "outcome": "pass",
+      "test_id": "layout-04"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "edge_distance_mm": 5.0
+      },
+      "outcome": "pass",
+      "test_id": "layout-05"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "distance_mm": 6.1339730191777
+      },
+      "outcome": "pass",
+      "test_id": "layout-06"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "edge_distance_mm": 5.0
+      },
+      "outcome": "pass",
+      "test_id": "layout-07"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "distance_mm": 6.1339730191777
+      },
+      "outcome": "pass",
+      "test_id": "layout-08"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "edge_distance_mm": 5.0
+      },
+      "outcome": "pass",
+      "test_id": "layout-09"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "distance_mm": 6.1339730191777
+      },
+      "outcome": "pass",
+      "test_id": "layout-10"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "minimum_spacing_mm": 11.0,
+        "positions_mm": [
+          [
+            75.0,
+            -18.275
+          ],
+          [
+            75.0,
+            -29.275
+          ],
+          [
+            75.0,
+            -40.275
+          ],
+          [
+            75.0,
+            -51.275
+          ]
+        ]
+      },
+      "outcome": "pass",
+      "test_id": "layout-11"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "Net roles unavailable"
+      },
+      "outcome": "unknown",
+      "test_id": "layout-12"
+    },
+    {
+      "category": "functional_requirements",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "MOSFET VDS/on-resistance gate voltage, diode reverse/current ratings, capacitor voltage ratings, and manufacturer pin mapping need independently verified datasheets."
+      },
+      "outcome": "unknown",
+      "test_id": "component-evidence-01"
+    },
+    {
+      "category": "physical_constraints",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "Flyback diode polarity markings need reviewed footprint evidence."
+      },
+      "outcome": "unknown",
+      "test_id": "component-evidence-02"
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": true,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "scope": "structural parsing, not source replay"
+      },
+      "outcome": "pass",
+      "test_id": "editable-artifacts"
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": false,
+      "evidence": [
+        "input-manifest.json",
+        "normalized-facts.json"
+      ],
+      "observed": {
+        "path": "artifacts/README.md"
+      },
+      "outcome": "pass",
+      "test_id": "readme"
+    },
+    {
+      "category": "deliverable_integrity",
+      "critical": false,
+      "evidence": [],
+      "observed": {
+        "reason": "A read-only static audit does not prove source/build reproducibility, exported-netlist freshness, or the semantic completeness of README component/limitation documentation."
+      },
+      "outcome": "unknown",
+      "test_id": "source-replay-and-documentation"
+    }
+  ],
+  "parse_error": null,
+  "prompt_id": "mosfet-output-bank",
+  "prompt_sha256": "46049eb02f86cb9da99159dcdd96c5eb5dd7bdba53dc4b53cb60572b4ecfdf4e",
+  "retrospective": true,
+  "rules_sha256": "c7581105f092089b8d9f164ef16a4c46dd4b708b98aa0c4639766ef15a479f28",
+  "run_id": "2026-09-05-codegen-pilot-01--mosfet-output-bank--kicad-codegen--r1",
+  "schema_version": "1.0.0",
+  "scores": {
+    "applicable_test_count": 31,
+    "category_scores": [
+      {
+        "applicable": true,
+        "category": "functional_requirements",
+        "failed": 0,
+        "passed": 1,
+        "possible_score_max": 2,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 2,
+        "weight": 30
+      },
+      {
+        "applicable": true,
+        "category": "connectivity",
+        "failed": 0,
+        "passed": 3,
+        "possible_score_max": 2,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 1,
+        "weight": 30
+      },
+      {
+        "applicable": true,
+        "category": "physical_constraints",
+        "failed": 0,
+        "passed": 16,
+        "possible_score_max": 2,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 5,
+        "weight": 20
+      },
+      {
+        "applicable": true,
+        "category": "deliverable_integrity",
+        "failed": 0,
+        "passed": 2,
+        "possible_score_max": 2,
+        "possible_score_min": 1,
+        "score": null,
+        "unknown_or_unsupported": 1,
+        "weight": 20
+      }
+    ],
+    "critical_failure": false,
+    "overall_pass": null,
+    "possible_total_max": 100.0,
+    "possible_total_min": 50.0,
+    "resolved_test_count": 22,
+    "total_score": null
+  },
+  "versions": {
+    "artifact_readers": "stdlib-only; no external native tool replay",
+    "evaluator": "1.0.0",
+    "python": "3.9.6"
+  }
+}

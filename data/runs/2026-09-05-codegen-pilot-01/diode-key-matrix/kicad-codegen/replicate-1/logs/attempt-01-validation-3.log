@@ -1,0 +1,3 @@
+$ kicad-cli sch erc artifacts/attempt-01/matrix.kicad_sch -o logs/attempt-01-erc.rpt
+Found 126 violations
+Saved ERC Report to logs/attempt-01-erc.rpt

@@ -1,0 +1,1 @@
+$ kicad-cli sch export netlist -o divider.net divider.kicad_sch

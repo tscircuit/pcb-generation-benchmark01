@@ -1,0 +1,43 @@
+{
+  "clearance_violations": [
+    {
+      "a": 51,
+      "b": 32,
+      "clearance_mm": 0.173326984
+    },
+    {
+      "a": 51,
+      "b": 27,
+      "clearance_mm": 0.198326984
+    },
+    {
+      "a": 51,
+      "b": 28,
+      "clearance_mm": 0.200639783
+    },
+    {
+      "a": 32,
+      "b": 4,
+      "clearance_mm": 0.224
+    },
+    {
+      "a": 27,
+      "b": 4,
+      "clearance_mm": 0.246687201
+    },
+    {
+      "a": 28,
+      "b": 4,
+      "clearance_mm": 0.246687201
+    },
+    {
+      "a": 29,
+      "b": 4,
+      "clearance_mm": 0.109308129
+    }
+  ],
+  "disconnected_nets": [],
+  "primitive_count": 60,
+  "shorts": [],
+  "unsupported_geometry": []
+}

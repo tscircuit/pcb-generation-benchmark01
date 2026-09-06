@@ -1,0 +1,106 @@
+[
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/README.md",
+    "sha256": "41e7a44f6d35d146aabcb0fc0875d7e962a1aaecc547cce80df2cad78ced21d0"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/2838f4e834-983cea1483fe4f155a281c4ee9717314.json",
+    "sha256": "656bd963cdfd9a5cb39d26a04b99ecb7adfa4228ca0bcbcb0100d105f9bba893"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/_p2_54mm__-a1d1ccdb87c7c7ea926f8c6651b98979.json",
+    "sha256": "b5ef715b4e96d84117bf8ab4a1cff8e9e881ceb66951d23a6668c89c377a04aa"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/g___0805__-27a59f81d8c60374e654b386339cfe23.json",
+    "sha256": "9fd6196235d20d0f10c76aada36c7246c293a4e90bf323733154285683474bd3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/g___0805__-3a06863b7b647f829860bd4b5a4c3169.json",
+    "sha256": "ea8f3346c08d1a77fc91d33ef10942ff46dcfacb5f01dcb73a26893599a8df28"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/g___0805__-449e20854ae5a6bd2728bbe0660d4352.json",
+    "sha256": "9fd6196235d20d0f10c76aada36c7246c293a4e90bf323733154285683474bd3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/g___0805__-7e9b043a1765415211070137734d1fa5.json",
+    "sha256": "ea8f3346c08d1a77fc91d33ef10942ff46dcfacb5f01dcb73a26893599a8df28"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/g___0805__-9a9a94a3705b3d3fab70d5a3caea3a34.json",
+    "sha256": "ea8f3346c08d1a77fc91d33ef10942ff46dcfacb5f01dcb73a26893599a8df28"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/g___0805__-9f603b87a601b12dc88e706884a0f5dd.json",
+    "sha256": "9fd6196235d20d0f10c76aada36c7246c293a4e90bf323733154285683474bd3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/g___0805__-bc54dedd8da2c2029fd5f1c1b235b4f6.json",
+    "sha256": "9fd6196235d20d0f10c76aada36c7246c293a4e90bf323733154285683474bd3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/g___0805__-f42b00ec23fc22eb47b53b7aad96d123.json",
+    "sha256": "ea8f3346c08d1a77fc91d33ef10942ff46dcfacb5f01dcb73a26893599a8df28"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/shbutton__-4a8a8792604a0ff802db25caf1b3d730.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/shbutton__-627cb6deac72a2d8932c7e62e4e55c4f.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/shbutton__-f365d435b66418857a6ca7cafaf50b3b.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/.tscircuit/cache/shbutton__-f9131b810046ab1ff072c7787eca5274.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/circuit.json",
+    "sha256": "d8f31e9e39516b2ce0ee4c6ad1a396aa45e807844c1fb687df02dcb0e80730f1"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/pcb.png",
+    "sha256": "304cb6bcad535db2d39bf1a4a7146b1d5d9940e399f475c5b2500afdfb7fb63f"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/pcb.svg",
+    "sha256": "f65b81b82deb822d268e1a4bebde1691ae7248cc978a3dc39b83c92414c01e9b"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/schematic.png",
+    "sha256": "250324a5c62945eca9c7da1f7c1530aa1b9e7849102ef313eb2f06edac85aaba"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/dist/index/schematic.svg",
+    "sha256": "0cf0486ebf3faa9c7cd1835397272309140f7bda42efda3784d6714d6dee32fb"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/index.circuit.tsx",
+    "sha256": "fdfe56c803d183a90acfa44f88832d7d872a47e2fca245468ec226d1ede247b7"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/artifacts/attempt-02/package.json",
+    "sha256": "c8cb55f700d837c55a36e0ec02b4895f7ecd74826fe5023929f1d8427138f6c0"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/input/metadata.json",
+    "sha256": "fe3452ed78eeb349abe55785b863ac0f6506c8714bc8622cde6292bbba2d07e3"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/input/prompt.md",
+    "sha256": "41d352cc9a6280e14727ad0186f65a05ced344cb4a848c5689204b0beea64e47"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/result.json",
+    "sha256": "20c6465916e29058e4f76f924fe8294de802718eae6b4da980df5d7052850c5d"
+  },
+  {
+    "path": "data/runs/2026-09-05-codegen-pilot-01/button-input-bank/tscircuit-codegen/replicate-1/run.json",
+    "sha256": "6c51eae58ffebcf2375bfc743e7578389608805e4fcd843171f284dfbb5b1e7f"
+  }
+]

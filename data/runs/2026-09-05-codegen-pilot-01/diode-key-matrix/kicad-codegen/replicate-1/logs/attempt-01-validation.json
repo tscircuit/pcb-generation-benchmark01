@@ -1,0 +1,67 @@
+[
+  {
+    "command": [
+      "kicad-cli",
+      "sch",
+      "export",
+      "netlist",
+      "artifacts/attempt-01/matrix.kicad_sch",
+      "-o",
+      "artifacts/attempt-01/matrix.net"
+    ],
+    "exit_code": 0,
+    "log": "logs/attempt-01-validation-1.log"
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "sch",
+      "export",
+      "svg",
+      "artifacts/attempt-01/matrix.kicad_sch",
+      "-o",
+      "artifacts/attempt-01/schematic-svg"
+    ],
+    "exit_code": 0,
+    "log": "logs/attempt-01-validation-2.log"
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "sch",
+      "erc",
+      "artifacts/attempt-01/matrix.kicad_sch",
+      "-o",
+      "logs/attempt-01-erc.rpt"
+    ],
+    "exit_code": 0,
+    "log": "logs/attempt-01-validation-3.log"
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "artifacts/attempt-01/matrix.kicad_pcb",
+      "-o",
+      "logs/attempt-01-drc.rpt"
+    ],
+    "exit_code": 0,
+    "log": "logs/attempt-01-validation-4.log"
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "artifacts/attempt-01/matrix.kicad_pcb",
+      "-o",
+      "artifacts/attempt-01/pcb-svg",
+      "-l",
+      "F.Cu,B.Cu,F.Silkscreen,Edge.Cuts"
+    ],
+    "exit_code": 0,
+    "log": "logs/attempt-01-validation-5.log"
+  }
+]

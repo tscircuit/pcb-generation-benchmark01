@@ -13,3 +13,10 @@ work/
 *.kicad_prl
 *.lck
 ~*.lck
+
+# Benchmark diagnostic logs are retained as evidence.
+!data/runs/**/*.log
+!data/evaluations/**/*.log
+
+# Ignore dependency symlinks as well as directories.
+node_modules
