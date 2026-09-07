@@ -6,7 +6,7 @@ Publish with `ohmx-box publish-html --json website/dist --title 'PCB Generation 
 
 Public URL: https://0hmx.com/artifacts/pcb-generation-benchmark-01/
 
-The publication bundle contains only the generated HTML/CSS, selected result fields, recorded previews and final native KiCad files. Nineteen previews were recorded; the KiCad I2C hub preview is unavailable. Sanitized supplementary transcripts include recorded tool output and relevant local paths; full session archives are not included. Unknown scores remain unknown.
+The publication bundle contains only the generated HTML/CSS, selected result fields, recorded previews and final native KiCad files. Nineteen previews were recorded; the KiCad I2C hub preview is unavailable. Sanitized supplementary transcripts include recorded tool output and relevant local paths; full session archives are not included. The comparison and downloadable results show recorded DRC status and reports, without numeric scores. Missing DRC remains unknown; tscircuit placement and shorts checks are not relabeled as full DRC. Historical evaluations remain preserved.
 
 Each KiCad design offers original schematic, PCB and project downloads plus a ZIP. `download-manifest.json` records source paths and SHA-256 checksums; published native bytes match the retained final attempts.
 

@@ -13,7 +13,7 @@ import {
   escapeHtml as esc,
 } from "../src/lib/io";
 import { publishRunEvidence } from "./run-evidence";
-import { verifiedScore, overallVerifiedScore, type VerifiedScoreCategory } from "./verifiedScore";
+import { publishDrc, drcHtml, type DrcResult } from "./drc";
 import { HEADER, FOOTER } from "./templates";
 const EID = "2026-09-05-codegen-pilot-01",
   VID = "deterministic-v1-5a9c0cca93c84a315b17",
@@ -21,11 +21,6 @@ const EID = "2026-09-05-codegen-pilot-01",
   EV = join(ROOT, "data/evaluations", EID, VID);
 const methods = ["kicad-codegen", "tscircuit-codegen"],
   names = ["KiCad", "tscircuit"];
-function scoreHtml(result: { category_scores: VerifiedScoreCategory[]; critical_failure: boolean }): string {
-  const score = verifiedScore(result.category_scores);
-  const value = score === null ? "Unavailable" : score.toFixed(1);
-  return `<div class="verified-score"><span>Verified score</span><strong>${value}${score === null ? "" : "<small> / 100</small>"}</strong>${result.critical_failure ? '<small class="fail">Critical check failed</small>' : ""}</div>`;
-}
 export function buildWebsite() {
   mkdirSync(OUT, { recursive: true });
   const rows: any[] = json(join(EV, "summary.json")),
@@ -55,23 +50,34 @@ export function buildWebsite() {
     for (const method of methods)
       evidence[p][method] = publishRunEvidence(EID, p, method, OUT);
   }
+  const drc: Record<string, Record<string, DrcResult>> = {};
+  for (const p of Object.keys(paired)) {
+    drc[p] = {};
+    for (const method of methods)
+      drc[p][method] = publishDrc(join(ROOT, "data/runs", EID, p, method, "replicate-1"), OUT, p + "--" + method);
+  }
   const order = Object.keys(paired).sort(
       (a, b) =>
         ["easy", "medium", "hard"].indexOf(meta[a].difficulty) -
           ["easy", "medium", "hard"].indexOf(meta[b].difficulty) ||
         a.localeCompare(b),
     ),
-    overallScores = Object.fromEntries(methods.map((method) => [method, {
-      value: overallVerifiedScore(order.map((prompt) => verifiedScore(paired[prompt][method].category_scores))),
-      design_count: order.length,
-      maximum: 100,
-      aggregation: "equal-design-mean-v1",
-    }])),
-    overallHtml = `<section class="overall-scores" aria-label="Overall verified scores">${methods.map((method, index) => {
-      const score = overallScores[method];
-      return `<div class="overall-score ${method}"><h2>${names[index]}</h2><strong>${score.value === null ? "Unavailable" : score.value.toFixed(1)}<small> / 100</small></strong><span>Overall verified score · ${score.design_count} designs</span></div>`;
-    }).join("")}</section>`,
-    parts = [HEADER.replace("<!-- overall-scores -->", overallHtml)];
+    totalRuntime = Object.fromEntries(methods.map((method) => {
+      const timings = order.map((prompt) => evidence[prompt][method].timing);
+      const seconds = timings.map((timing) => timing.recorded_total_seconds ?? timing.derived_total_seconds);
+      return [method, {
+        seconds: seconds.some((value) => value === null) ? null : seconds.reduce<number>((sum, value) => sum + (value ?? 0), 0),
+        design_count: timings.length,
+        derived_count: timings.filter((timing) => timing.recorded_total_seconds === null && timing.derived_total_seconds !== null).length,
+      }];
+    })),
+    parts = [methods.reduce((header, method) => {
+      const total = totalRuntime[method];
+      const rounded = total.seconds === null ? null : Math.round(total.seconds);
+      const duration = rounded === null ? "Unavailable" : `${Math.floor(rounded / 60)}m ${String(rounded % 60).padStart(2, "0")}s`;
+      const note = `Sum of total run times across ${total.design_count} designs${total.derived_count ? `; ${total.derived_count} derived from timestamps` : ""}.`;
+      return header.replace(`<!-- runtime-${method} -->`, `<span class="intro-runtime" title="${esc(note)}"><strong>${duration}</strong> total runtime<small>${total.design_count} designs${total.derived_count ? ` · ${total.derived_count} time derived` : ""}</small></span>`);
+    }, HEADER)];
   for (const p of order) {
     const m = meta[p];
     parts.push(
@@ -80,7 +86,7 @@ export function buildWebsite() {
     for (const method of methods) {
       const r = paired[p][method];
       parts.push(
-        `<td>${scoreHtml(r)}</td>`,
+        `<td>${drcHtml(drc[p][method])}</td>`,
       );
     }
     parts.push("</tr>");
@@ -96,7 +102,6 @@ export function buildWebsite() {
     parts.push(
       `<article id="${p}" class="design"><div class="design-heading"><div><h3>${esc(m.title)}</h3></div></div><div class="pair">`,
     );
-    const outcomes: Record<string, any[]> = {};
     const runDownloads: Record<string, string> = {};
     for (const [mi, method] of methods.entries()) {
       const name = names[mi],
@@ -173,13 +178,12 @@ export function buildWebsite() {
         downloads = `<div class="downloads"><a class="download-all" download href="downloads/${p}/${zipname}">↓ KiCad ZIP</a><div>${links.join(" · ")}</div><small>Original files · KiCad 10</small></div>`;
       }
       parts.push(
-        `<div class="method ${method}"><div class="method-heading"><h4>${name}</h4>${scoreHtml(r)}</div>${previewHtml}</div>`,
+        `<div class="method ${method}"><div class="method-heading"><h4>${name}</h4>${drcHtml(drc[p][method])}</div>${previewHtml}</div>`,
       );
       runDownloads[method] = downloads;
-      outcomes[method] = json(join(EV, p, method, "evaluation.json")).outcomes;
     }
     const detailRows: { label: string; cells: string[] }[] = [
-      { label: "Verified score", cells: methods.map((method) => scoreHtml(paired[p][method])) },
+      { label: "DRC", cells: methods.map((method) => drcHtml(drc[p][method])) },
       { label: "Total run time", cells: methods.map((method) => {
         const timing = evidence[p][method].timing;
         const seconds = timing.recorded_total_seconds ?? timing.derived_total_seconds;
@@ -218,15 +222,9 @@ export function buildWebsite() {
         methods.map((method) => [
           method,
           {
-            summary: paired[p][method],
-            verified_score: { version: "verified-score-v1", value: verifiedScore(paired[p][method].category_scores), maximum: 100 },
+            drc: drc[p][method],
             timing: evidence[p][method].timing,
             transcript: evidence[p][method].transcript,
-            rules: outcomes[method].map((o) => ({
-              test_id: o.test_id,
-              outcome: o.outcome,
-              critical: o.critical,
-            })),
           },
         ]),
       ),
@@ -249,7 +247,7 @@ export function buildWebsite() {
   write(
     join(OUT, "results.json"),
     JSON.stringify(
-      { experiment_id: EID, evaluation_id: VID, overall_verified_scores: overallScores, prompts: publicResults },
+      { experiment_id: EID, total_runtime: totalRuntime, prompts: publicResults },
       null,
       2,
     ) + "\n",
