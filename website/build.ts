@@ -26,12 +26,12 @@ const counts = (r: any) =>
   );
 const badges = (r: any) => {
   const [p, f, u] = counts(r);
-  return `<span class="pass">${p} passed</span><span class="fail">${f} failed</span><span class="unknown">${u} unresolved</span>`;
+  return `<span class="pass" title="${p} passed" aria-label="${p} passed">✓ ${p}</span><span class="fail" title="${f} failed" aria-label="${f} failed">× ${f}</span><span class="unknown" title="${u} unresolved" aria-label="${u} unresolved">? ${u}</span>`;
 };
 const result = (r: any) =>
   r.overall_pass === false
-    ? '<span class="status fail">Clearance failure</span>'
-    : '<span class="status unknown">Awaiting evidence</span>';
+    ? '<span class="status fail" title="Copper clearance failure">× Clearance</span>'
+    : '<span class="status unknown" title="Awaiting required evidence">? Pending</span>';
 export function buildWebsite() {
   mkdirSync(OUT, { recursive: true });
   const rows: any[] = json(join(EV, "summary.json")),
@@ -69,26 +69,24 @@ export function buildWebsite() {
     ),
     parts = [HEADER];
   for (const p of order) {
-    const m = meta[p],
-      tags = m.labels
-        .filter((x: string) => !["easy", "medium", "hard"].includes(x))
-        .join(" · ");
+    const m = meta[p];
     parts.push(
-      `<tr><th scope="row"><span class="difficulty ${m.difficulty}">${m.difficulty}</span><a href="#${p}">${esc(m.title)}</a><small>${esc(tags)}</small></th>`,
+      `<tr><th scope="row"><span class="difficulty ${m.difficulty}">${m.difficulty}</span><a href="#${p}">${esc(m.title)}</a></th>`,
     );
     for (const method of methods) {
       const r = paired[p][method];
       parts.push(
-        `<td>${result(r)}<div class="counts">${badges(r)}</div>${evidence[p][method].html}</td>`,
+        `<td>${result(r)}<div class="counts">${badges(r)}</div></td>`,
       );
     }
     parts.push("</tr>");
   }
   parts.push(
-    '</tbody></table></div></section><section id="designs"><div class="section-heading"><h2>Inspect the generated designs</h2><span>Final preserved candidates</span></div><p class="muted">Native tscircuit PCB views and KiCad layer exports. Layers start at 50% opacity. Open the layer controls to adjust visibility and opacity; click a KiCad drawing item to adjust it individually.</p>',
+    ' </tbody></table></div></details></section><section id="designs" aria-label="Designs">',
   );
   const publicResults: any[] = [],
-    downloadManifest: any[] = [];
+    downloadManifest: any[] = [],
+    schematicManifest: { prompt_id: string; method: string; source: string; download: string; sha256: string }[] = [];
   for (const [index, p] of order.entries()) {
     const m = meta[p];
     parts.push(
@@ -111,7 +109,19 @@ export function buildWebsite() {
           12,
         ),
         viewer = `views/${viewerName}?v=${viewerVersion}`,
-        previewHtml = `<iframe allow="fullscreen" allowfullscreen class="pcb-viewer" width="100%" height="640" style="display:block;width:100%;height:640px;border:0" loading="lazy" title="${esc(m.title)} ${name} PCB layer viewer" src="${viewer}"></iframe><a class="open-viewer" href="${viewer}" target="_blank" rel="noopener">Open full PCB viewer ↗</a>`;
+        viewId = p + "--" + method;
+      const retainedCandidate = finalCandidate(join(ROOT, "data/runs", EID, p, method, "replicate-1"));
+      if (!retainedCandidate) throw Error("Missing final candidate: " + viewId);
+      const schematics = walk(retainedCandidate).filter((f) =>
+        f.endsWith(".svg") && (basename(f) === "schematic.svg" || f.includes("/schematic-svg/")),
+      );
+      if (schematics.length !== 1) throw Error("Expected one retained schematic: " + viewId);
+      const schematicSource = schematics[0],
+        schematicPath = "schematics/" + viewId + ".svg",
+        schematicBytes = readFileSync(schematicSource);
+      write(join(OUT, schematicPath), schematicBytes);
+      schematicManifest.push({ prompt_id: p, method, source: relative(ROOT, schematicSource), download: schematicPath, sha256: sha(schematicBytes) });
+      const previewHtml = `<div class="view-switch"><input type="radio" name="${viewId}" id="${viewId}-sch" checked><label for="${viewId}-sch">⌁ Schematic</label><input type="radio" name="${viewId}" id="${viewId}-pcb"><label for="${viewId}-pcb">▦ PCB</label><div class="schematic-panel"><a href="${schematicPath}" target="_blank" rel="noopener" title="Open full schematic"><img loading="lazy" src="${schematicPath}" alt="${esc(m.title)} · ${name} schematic"></a><a class="open-viewer" href="${schematicPath}" target="_blank" rel="noopener">↗ Schematic</a></div><div class="pcb-panel"><iframe allow="fullscreen" allowfullscreen class="pcb-viewer" width="100%" height="640" loading="lazy" title="${esc(m.title)} ${name} PCB layer viewer" src="${viewer}"></iframe><a class="open-viewer" href="${viewer}" target="_blank" rel="noopener">↗ PCB</a></div></div>`;
       let downloads = "";
       if (method === "kicad-codegen") {
         const run = join(ROOT, "data/runs", EID, p, method, "replicate-1"),
@@ -155,15 +165,15 @@ export function buildWebsite() {
           join(dest, zipname),
           zipSync(zipFiles, { mtime: new Date("2000-01-01T00:00:00Z") }),
         );
-        downloads = `<div class="downloads"><strong>Editable KiCad files</strong><a class="download-all" download href="downloads/${p}/${zipname}">Download KiCad files (.zip) ↓</a><div>${links.join(" · ")}</div><small>Final recorded attempt · original files, including known failures. Open with KiCad 10; standard libraries may be required.</small></div>`;
+        downloads = `<div class="downloads"><a class="download-all" download href="downloads/${p}/${zipname}">↓ KiCad ZIP</a><div>${links.join(" · ")}</div><small>Original files · KiCad 10</small></div>`;
       }
       parts.push(
-        `<div class="method ${method}"><div class="method-heading"><h4>${name}</h4>${result(r)}</div>${previewHtml}<div class="counts">${badges(r)}</div><p class="range">Possible score range <b>${r.possible_total_min}–${r.possible_total_max}</b> / 100<br><small>Unresolved bounds · not an awarded score</small></p>${evidence[p][method].html}${downloads}</div>`,
+        `<div class="method ${method}"><div class="method-heading"><h4>${name}</h4>${result(r)}</div>${previewHtml}<div class="counts">${badges(r)}</div><details class="evidence"><summary>ⓘ Evidence &amp; files</summary><p class="range">Score bounds <b>${r.possible_total_min}–${r.possible_total_max}</b> / 100 <small>Not an awarded score</small></p>${evidence[p][method].html}${downloads}</details></div>`,
       );
       outcomes[method] = json(join(EV, p, method, "evaluation.json")).outcomes;
     }
     parts.push(
-      '</div><details><summary>Compare category checks &amp; individual rules</summary><div class="table-wrap"><table><thead><tr><th>Category / weight</th><th>KiCad: pass / fail / unresolved</th><th>tscircuit: pass / fail / unresolved</th></tr></thead><tbody>',
+      '</div><details><summary>✓ Checks</summary><div class="table-wrap"><table><thead><tr><th>Category / weight</th><th>KiCad: pass / fail / unresolved</th><th>tscircuit: pass / fail / unresolved</th></tr></thead><tbody>',
     );
     for (const [i, c] of paired[p][methods[0]].category_scores.entries()) {
       const label = c.category.replaceAll("_", " ");
@@ -205,7 +215,7 @@ export function buildWebsite() {
       ),
     );
     parts.push(
-      `<details><summary>Read the canonical prompt</summary><pre>${esc(prompt)}</pre></details></article>`,
+      `<details><summary>≡ Prompt</summary><pre>${esc(prompt)}</pre></details></article>`,
     );
     publicResults.push({
       prompt_id: p,
@@ -228,6 +238,7 @@ export function buildWebsite() {
     });
   }
   parts.push(FOOTER);
+  write(join(OUT, "schematic-manifest.json"), JSON.stringify(schematicManifest, null, 2) + "\n");
   write(
     join(OUT, "download-manifest.json"),
     JSON.stringify(downloadManifest, null, 2) + "\n",
