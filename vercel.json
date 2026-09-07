@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "bun install --frozen-lockfile",
+  "buildCommand": "KICAD_LAYER_EXPORTS=website/kicad-layer-exports bun run build",
+  "outputDirectory": "website/dist"
+}
