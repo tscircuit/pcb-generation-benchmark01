@@ -76,3 +76,6 @@ pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 12px; backgroun
 footer { display: flex; justify-content: space-between; gap: 16px; color: #86868b; font-size: 12px; padding-top: 8px; padding-bottom: 32px; }
 @media (max-width: 700px) { header, main, footer { padding-left: 16px; padding-right: 16px; } .intro { align-items: flex-start; flex-direction: column; gap: 8px; } .pair { grid-template-columns: minmax(0,1fr); } .method + .method { border-left: 0; border-top: 1px solid #ededf0; } .legend .muted { margin-left: 0; } .schematic-panel img, .pcb-viewer { height: 420px; } h1 { font-size: 18px; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+.shared-evidence { padding: 0; }
+.shared-evidence > summary { padding: 12px 20px; }
+.shared-evidence > .pair { border-top: 1px solid #ededf0; }

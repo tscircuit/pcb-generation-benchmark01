@@ -93,6 +93,7 @@ export function buildWebsite() {
       `<article id="${p}" class="design"><div class="design-heading"><div><h3>${esc(m.title)}</h3></div></div><div class="pair">`,
     );
     const outcomes: Record<string, any[]> = {};
+    const runDetails: string[] = [];
     for (const [mi, method] of methods.entries()) {
       const name = names[mi],
         r = paired[p][method],
@@ -168,12 +169,16 @@ export function buildWebsite() {
         downloads = `<div class="downloads"><a class="download-all" download href="downloads/${p}/${zipname}">↓ KiCad ZIP</a><div>${links.join(" · ")}</div><small>Original files · KiCad 10</small></div>`;
       }
       parts.push(
-        `<div class="method ${method}"><div class="method-heading"><h4>${name}</h4></div>${previewHtml}<details class="evidence"><summary>Run details &amp; downloads</summary><p class="range">Score bounds <b>${r.possible_total_min}–${r.possible_total_max}</b> / 100 <small>Not an awarded score</small></p>${evidence[p][method].html}${downloads}</details></div>`,
+        `<div class="method ${method}"><div class="method-heading"><h4>${name}</h4></div>${previewHtml}</div>`,
+      );
+      runDetails.push(
+        `<div class="method ${method}"><h4>${name}</h4><p class="range">Score bounds <b>${r.possible_total_min}–${r.possible_total_max}</b> / 100 <small>Not an awarded score</small></p>${evidence[p][method].html}${downloads}</div>`,
       );
       outcomes[method] = json(join(EV, p, method, "evaluation.json")).outcomes;
     }
     parts.push(
-      '</div><details><summary>Evaluation checks</summary><div class="table-wrap"><table><thead><tr><th>Category / weight</th><th>KiCad: pass / fail / unresolved</th><th>tscircuit: pass / fail / unresolved</th></tr></thead><tbody>',
+      `</div><details class="shared-evidence"><summary>Run details &amp; downloads</summary><div class="pair">${runDetails.join("")}</div></details>`,
+      '<details><summary>Evaluation checks</summary><div class="table-wrap"><table><thead><tr><th>Category / weight</th><th>KiCad: pass / fail / unresolved</th><th>tscircuit: pass / fail / unresolved</th></tr></thead><tbody>',
     );
     for (const [i, c] of paired[p][methods[0]].category_scores.entries()) {
       const label = c.category.replaceAll("_", " ");
