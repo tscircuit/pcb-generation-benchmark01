@@ -79,3 +79,15 @@ footer { display: flex; justify-content: space-between; gap: 16px; color: #86868
 .shared-evidence { padding: 0; }
 .shared-evidence > summary { padding: 12px 20px; }
 .shared-evidence > .pair { border-top: 1px solid #ededf0; }
+.score-note { color: #6e6e73; font-size: 12px; margin: 0 0 20px; max-width: 760px; }
+.verified-score { display: flex; flex-direction: column; font-variant-numeric: tabular-nums; }
+.verified-score > span { font-size: 12px; color: #6e6e73; }
+.verified-score strong { font-size: 22px; font-weight: 600; letter-spacing: -.5px; }
+.verified-score strong small { font-size: 12px; font-weight: 400; color: #6e6e73; letter-spacing: 0; }
+.verified-score > small { font-size: 12px; }
+.method-heading .verified-score { text-align: right; }
+.run-table { margin: 0 16px 16px; }
+.run-table th, .run-table td { vertical-align: top; width: 33.333%; }
+.run-table td > small { display: block; margin-top: 4px; }
+.run-table .downloads { padding: 0; }
+.run-table .verified-score > span { display: none; }

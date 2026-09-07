@@ -13,6 +13,7 @@ import {
   escapeHtml as esc,
 } from "../src/lib/io";
 import { publishRunEvidence } from "./run-evidence";
+import { verifiedScore, type VerifiedScoreCategory } from "./verifiedScore";
 import { HEADER, FOOTER } from "./templates";
 const EID = "2026-09-05-codegen-pilot-01",
   VID = "deterministic-v1-5a9c0cca93c84a315b17",
@@ -20,18 +21,11 @@ const EID = "2026-09-05-codegen-pilot-01",
   EV = join(ROOT, "data/evaluations", EID, VID);
 const methods = ["kicad-codegen", "tscircuit-codegen"],
   names = ["KiCad", "tscircuit"];
-const counts = (r: any) =>
-  ["passed", "failed", "unknown_or_unsupported"].map((k) =>
-    r.category_scores.reduce((a: number, c: any) => a + c[k], 0),
-  );
-const badges = (r: any) => {
-  const [p, f, u] = counts(r);
-  return `<span class="pass" title="${p} passed" aria-label="${p} passed">✓ ${p} passed</span><span class="fail" title="${f} failed" aria-label="${f} failed">× ${f} failed</span><span class="unknown" title="${u} unresolved" aria-label="${u} unresolved">? ${u} unverified</span>`;
-};
-const result = (r: any) =>
-  r.overall_pass === false
-    ? '<span class="status fail" title="Copper clearance failure">Clearance failed</span>'
-    : '<span class="status unknown" title="Awaiting required evidence">Incomplete evidence</span>';
+function scoreHtml(result: { category_scores: VerifiedScoreCategory[]; critical_failure: boolean }): string {
+  const score = verifiedScore(result.category_scores);
+  const value = score === null ? "Unavailable" : score.toFixed(1);
+  return `<div class="verified-score"><span>Verified score</span><strong>${value}${score === null ? "" : "<small> / 100</small>"}</strong>${result.critical_failure ? '<small class="fail">Critical check failed</small>' : ""}</div>`;
+}
 export function buildWebsite() {
   mkdirSync(OUT, { recursive: true });
   const rows: any[] = json(join(EV, "summary.json")),
@@ -76,7 +70,7 @@ export function buildWebsite() {
     for (const method of methods) {
       const r = paired[p][method];
       parts.push(
-        `<td>${result(r)}<div class="counts">${badges(r)}</div></td>`,
+        `<td>${scoreHtml(r)}</td>`,
       );
     }
     parts.push("</tr>");
@@ -93,7 +87,7 @@ export function buildWebsite() {
       `<article id="${p}" class="design"><div class="design-heading"><div><h3>${esc(m.title)}</h3></div></div><div class="pair">`,
     );
     const outcomes: Record<string, any[]> = {};
-    const runDetails: string[] = [];
+    const runDownloads: Record<string, string> = {};
     for (const [mi, method] of methods.entries()) {
       const name = names[mi],
         r = paired[p][method],
@@ -169,46 +163,31 @@ export function buildWebsite() {
         downloads = `<div class="downloads"><a class="download-all" download href="downloads/${p}/${zipname}">↓ KiCad ZIP</a><div>${links.join(" · ")}</div><small>Original files · KiCad 10</small></div>`;
       }
       parts.push(
-        `<div class="method ${method}"><div class="method-heading"><h4>${name}</h4></div>${previewHtml}</div>`,
+        `<div class="method ${method}"><div class="method-heading"><h4>${name}</h4>${scoreHtml(r)}</div>${previewHtml}</div>`,
       );
-      runDetails.push(
-        `<div class="method ${method}"><h4>${name}</h4><p class="range">Score bounds <b>${r.possible_total_min}–${r.possible_total_max}</b> / 100 <small>Not an awarded score</small></p>${evidence[p][method].html}${downloads}</div>`,
-      );
+      runDownloads[method] = downloads;
       outcomes[method] = json(join(EV, p, method, "evaluation.json")).outcomes;
     }
+    const detailRows: { label: string; cells: string[] }[] = [
+      { label: "Verified score", cells: methods.map((method) => scoreHtml(paired[p][method])) },
+      { label: "Total run time", cells: methods.map((method) => {
+        const timing = evidence[p][method].timing;
+        const seconds = timing.recorded_total_seconds ?? timing.derived_total_seconds;
+        return seconds === null ? "Unavailable" : `${seconds.toFixed(3)} s <small class="muted">${timing.recorded_total_seconds === null ? "Derived" : "Recorded"}</small>`;
+      }) },
+      { label: "Generation-only time", cells: methods.map((method) => {
+        const seconds = evidence[p][method].timing.generation_only_seconds;
+        return seconds === null ? "Not measured" : seconds.toFixed(3) + " s";
+      }) },
+      { label: "Transcript", cells: methods.map((method) => {
+        const transcript = evidence[p][method].transcript;
+        return `<a href="${transcript.href}">View transcript ↗</a><small class="muted">${esc(transcript.status)}</small>`;
+      }) },
+      { label: "KiCad files", cells: methods.map((method) => method === "kicad-codegen" ? runDownloads[method] : "Not applicable") },
+    ];
     parts.push(
-      `</div><details class="shared-evidence"><summary>Run details &amp; downloads</summary><div class="pair">${runDetails.join("")}</div></details>`,
-      '<details><summary>Evaluation checks</summary><div class="table-wrap"><table><thead><tr><th>Category / weight</th><th>KiCad: pass / fail / unresolved</th><th>tscircuit: pass / fail / unresolved</th></tr></thead><tbody>',
+      `</div><details class="shared-evidence"><summary>Run details &amp; downloads</summary><div class="table-wrap run-table"><table><thead><tr><th scope="col">Metric</th><th scope="col" class="kicad-text">KiCad</th><th scope="col" class="tscircuit-text">tscircuit</th></tr></thead><tbody>${detailRows.map((row) => `<tr><th scope="row">${row.label}</th>${row.cells.map((cell) => `<td>${cell}</td>`).join("")}</tr>`).join("")}</tbody></table></div></details>`,
     );
-    for (const [i, c] of paired[p][methods[0]].category_scores.entries()) {
-      const label = c.category.replaceAll("_", " ");
-      parts.push(
-        `<tr><th>${esc(label[0].toUpperCase() + label.slice(1))} · ${c.weight}%</th>`,
-      );
-      for (const method of methods) {
-        const a = paired[p][method].category_scores[i];
-        parts.push(
-          `<td>${a.passed} / ${a.failed} / ${a.unknown_or_unsupported}</td>`,
-        );
-      }
-      parts.push("</tr>");
-    }
-    parts.push(
-      '</tbody></table><table class="rule-table"><thead><tr><th>Rule</th><th>KiCad</th><th>tscircuit</th></tr></thead><tbody>',
-    );
-    for (const o of outcomes[methods[0]]) {
-      parts.push(`<tr><th>${esc(o.test_id.replaceAll("-", " "))}</th>`);
-      for (const method of methods) {
-        const outcome = outcomes[method].find(
-          (x) => x.test_id === o.test_id,
-        )?.outcome;
-        if (!outcome) throw Error("Unpaired rule");
-        const cls = ["pass", "fail"].includes(outcome) ? outcome : "unknown";
-        parts.push(`<td><span class="${cls}">${esc(outcome)}</span></td>`);
-      }
-      parts.push("</tr>");
-    }
-    parts.push("</tbody></table></div></details>");
     const prompt = read(
       join(
         ROOT,
@@ -230,6 +209,7 @@ export function buildWebsite() {
           method,
           {
             summary: paired[p][method],
+            verified_score: { version: "verified-score-v1", value: verifiedScore(paired[p][method].category_scores), maximum: 100 },
             timing: evidence[p][method].timing,
             transcript: evidence[p][method].transcript,
             rules: outcomes[method].map((o) => ({
