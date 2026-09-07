@@ -23,3 +23,15 @@ export function verifiedScore(categories: VerifiedScoreCategory[]): number | nul
   }
   return weight === 0 ? null : Math.round(1000 * points / weight) / 10;
 }
+
+export function overallVerifiedScore(scores: (number | null)[]): number | null {
+  if (scores.length === 0 || scores.some((score) => score === null)) return null;
+  let total = 0;
+  for (const score of scores) {
+    if (score === null || !Number.isFinite(score) || score < 0 || score > 100) {
+      throw Error("Invalid design score for overall verified score");
+    }
+    total += score;
+  }
+  return Math.round(10 * total / scores.length) / 10;
+}

@@ -13,7 +13,7 @@ import {
   escapeHtml as esc,
 } from "../src/lib/io";
 import { publishRunEvidence } from "./run-evidence";
-import { verifiedScore, type VerifiedScoreCategory } from "./verifiedScore";
+import { verifiedScore, overallVerifiedScore, type VerifiedScoreCategory } from "./verifiedScore";
 import { HEADER, FOOTER } from "./templates";
 const EID = "2026-09-05-codegen-pilot-01",
   VID = "deterministic-v1-5a9c0cca93c84a315b17",
@@ -61,7 +61,17 @@ export function buildWebsite() {
           ["easy", "medium", "hard"].indexOf(meta[b].difficulty) ||
         a.localeCompare(b),
     ),
-    parts = [HEADER];
+    overallScores = Object.fromEntries(methods.map((method) => [method, {
+      value: overallVerifiedScore(order.map((prompt) => verifiedScore(paired[prompt][method].category_scores))),
+      design_count: order.length,
+      maximum: 100,
+      aggregation: "equal-design-mean-v1",
+    }])),
+    overallHtml = `<section class="overall-scores" aria-label="Overall verified scores">${methods.map((method, index) => {
+      const score = overallScores[method];
+      return `<div class="overall-score ${method}"><h2>${names[index]}</h2><strong>${score.value === null ? "Unavailable" : score.value.toFixed(1)}<small> / 100</small></strong><span>Overall verified score · ${score.design_count} designs</span></div>`;
+    }).join("")}</section>`,
+    parts = [HEADER.replace("<!-- overall-scores -->", overallHtml)];
   for (const p of order) {
     const m = meta[p];
     parts.push(
@@ -239,7 +249,7 @@ export function buildWebsite() {
   write(
     join(OUT, "results.json"),
     JSON.stringify(
-      { experiment_id: EID, evaluation_id: VID, prompts: publicResults },
+      { experiment_id: EID, evaluation_id: VID, overall_verified_scores: overallScores, prompts: publicResults },
       null,
       2,
     ) + "\n",
