@@ -62,7 +62,22 @@ export function buildWebsite() {
           ["easy", "medium", "hard"].indexOf(meta[b].difficulty) ||
         a.localeCompare(b),
     ),
-    parts = [HEADER];
+    totalRuntime = Object.fromEntries(methods.map((method) => {
+      const timings = order.map((prompt) => evidence[prompt][method].timing);
+      const seconds = timings.map((timing) => timing.recorded_total_seconds ?? timing.derived_total_seconds);
+      return [method, {
+        seconds: seconds.some((value) => value === null) ? null : seconds.reduce<number>((sum, value) => sum + (value ?? 0), 0),
+        design_count: timings.length,
+        derived_count: timings.filter((timing) => timing.recorded_total_seconds === null && timing.derived_total_seconds !== null).length,
+      }];
+    })),
+    parts = [methods.reduce((header, method) => {
+      const total = totalRuntime[method];
+      const rounded = total.seconds === null ? null : Math.round(total.seconds);
+      const duration = rounded === null ? "Unavailable" : `${Math.floor(rounded / 60)}m ${String(rounded % 60).padStart(2, "0")}s`;
+      const note = `Sum of total run times across ${total.design_count} designs${total.derived_count ? `; ${total.derived_count} derived from timestamps` : ""}.`;
+      return header.replace(`<!-- runtime-${method} -->`, `<span class="intro-runtime" title="${esc(note)}"><strong>${duration}</strong> total runtime<small>${total.design_count} designs${total.derived_count ? ` · ${total.derived_count} time derived` : ""}</small></span>`);
+    }, HEADER)];
   for (const p of order) {
     const m = meta[p];
     parts.push(
@@ -232,7 +247,7 @@ export function buildWebsite() {
   write(
     join(OUT, "results.json"),
     JSON.stringify(
-      { experiment_id: EID, prompts: publicResults },
+      { experiment_id: EID, total_runtime: totalRuntime, prompts: publicResults },
       null,
       2,
     ) + "\n",

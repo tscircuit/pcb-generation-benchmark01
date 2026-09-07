@@ -94,3 +94,10 @@ footer { display: flex; justify-content: space-between; gap: 16px; color: #86868
 
 .kicad-codegen .open-viewer { color: var(--kicad); }
 .kicad-codegen .view-switch > input:checked + label { color: var(--kicad); background: #fff0ef; box-shadow: inset 0 0 0 1px #f2ccca; }
+
+.intro h1 { display: flex; align-items: flex-start; gap: 0; }
+.intro-method { display: flex; flex-direction: column; }
+.intro-runtime { margin-top: 8px; color: #6e6e73; font-size: 12px; font-weight: 400; letter-spacing: 0; }
+.intro-runtime strong { color: #1d1d1f; font-size: 20px; font-weight: 500; letter-spacing: -.4px; font-variant-numeric: tabular-nums; margin-right: 4px; }
+.intro-runtime small { display: block; margin-top: 2px; font-size: 11px; }
+.intro-runtime strong { display: block; margin-right: 0; font-size: 24px; }
