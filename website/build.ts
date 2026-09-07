@@ -26,12 +26,12 @@ const counts = (r: any) =>
   );
 const badges = (r: any) => {
   const [p, f, u] = counts(r);
-  return `<span class="pass" title="${p} passed" aria-label="${p} passed">✓ ${p}</span><span class="fail" title="${f} failed" aria-label="${f} failed">× ${f}</span><span class="unknown" title="${u} unresolved" aria-label="${u} unresolved">? ${u}</span>`;
+  return `<span class="pass" title="${p} passed" aria-label="${p} passed">✓ ${p} passed</span><span class="fail" title="${f} failed" aria-label="${f} failed">× ${f} failed</span><span class="unknown" title="${u} unresolved" aria-label="${u} unresolved">? ${u} unverified</span>`;
 };
 const result = (r: any) =>
   r.overall_pass === false
-    ? '<span class="status fail" title="Copper clearance failure">× Clearance</span>'
-    : '<span class="status unknown" title="Awaiting required evidence">? Pending</span>';
+    ? '<span class="status fail" title="Copper clearance failure">Clearance failed</span>'
+    : '<span class="status unknown" title="Awaiting required evidence">Incomplete evidence</span>';
 export function buildWebsite() {
   mkdirSync(OUT, { recursive: true });
   const rows: any[] = json(join(EV, "summary.json")),
@@ -87,10 +87,10 @@ export function buildWebsite() {
   const publicResults: any[] = [],
     downloadManifest: any[] = [],
     schematicManifest: { prompt_id: string; method: string; source: string; download: string; sha256: string }[] = [];
-  for (const [index, p] of order.entries()) {
+  for (const p of order) {
     const m = meta[p];
     parts.push(
-      `<article id="${p}" class="design"><div class="design-heading"><div><span class="index">${String(index + 1).padStart(2, "0")}</span><h3>${esc(m.title)}</h3></div><span class="difficulty ${m.difficulty}">${m.difficulty}</span></div><div class="pair">`,
+      `<article id="${p}" class="design"><div class="design-heading"><div><h3>${esc(m.title)}</h3></div></div><div class="pair">`,
     );
     const outcomes: Record<string, any[]> = {};
     for (const [mi, method] of methods.entries()) {
@@ -121,7 +121,7 @@ export function buildWebsite() {
         schematicBytes = readFileSync(schematicSource);
       write(join(OUT, schematicPath), schematicBytes);
       schematicManifest.push({ prompt_id: p, method, source: relative(ROOT, schematicSource), download: schematicPath, sha256: sha(schematicBytes) });
-      const previewHtml = `<div class="view-switch"><input type="radio" name="${viewId}" id="${viewId}-sch" checked><label for="${viewId}-sch">⌁ Schematic</label><input type="radio" name="${viewId}" id="${viewId}-pcb"><label for="${viewId}-pcb">▦ PCB</label><div class="schematic-panel"><a href="${schematicPath}" target="_blank" rel="noopener" title="Open full schematic"><img loading="lazy" src="${schematicPath}" alt="${esc(m.title)} · ${name} schematic"></a><a class="open-viewer" href="${schematicPath}" target="_blank" rel="noopener">↗ Schematic</a></div><div class="pcb-panel"><iframe allow="fullscreen" allowfullscreen class="pcb-viewer" width="100%" height="640" loading="lazy" title="${esc(m.title)} ${name} PCB layer viewer" src="${viewer}"></iframe><a class="open-viewer" href="${viewer}" target="_blank" rel="noopener">↗ PCB</a></div></div>`;
+      const previewHtml = `<div class="view-switch"><input type="radio" name="${viewId}" id="${viewId}-sch" checked><label for="${viewId}-sch">Schematic</label><input type="radio" name="${viewId}" id="${viewId}-pcb"><label for="${viewId}-pcb">PCB</label><div class="schematic-panel"><a href="${schematicPath}" target="_blank" rel="noopener" title="Open full schematic"><img loading="lazy" src="${schematicPath}" alt="${esc(m.title)} · ${name} schematic"></a><a class="open-viewer" href="${schematicPath}" target="_blank" rel="noopener">Open schematic ↗</a></div><div class="pcb-panel"><iframe allow="fullscreen" allowfullscreen class="pcb-viewer" width="100%" height="640" loading="lazy" title="${esc(m.title)} ${name} PCB layer viewer" src="${viewer}"></iframe><a class="open-viewer" href="${viewer}" target="_blank" rel="noopener">Open PCB viewer ↗</a></div></div>`;
       let downloads = "";
       if (method === "kicad-codegen") {
         const run = join(ROOT, "data/runs", EID, p, method, "replicate-1"),
@@ -168,12 +168,12 @@ export function buildWebsite() {
         downloads = `<div class="downloads"><a class="download-all" download href="downloads/${p}/${zipname}">↓ KiCad ZIP</a><div>${links.join(" · ")}</div><small>Original files · KiCad 10</small></div>`;
       }
       parts.push(
-        `<div class="method ${method}"><div class="method-heading"><h4>${name}</h4>${result(r)}</div>${previewHtml}<div class="counts">${badges(r)}</div><details class="evidence"><summary>ⓘ Evidence &amp; files</summary><p class="range">Score bounds <b>${r.possible_total_min}–${r.possible_total_max}</b> / 100 <small>Not an awarded score</small></p>${evidence[p][method].html}${downloads}</details></div>`,
+        `<div class="method ${method}"><div class="method-heading"><h4>${name}</h4></div>${previewHtml}<details class="evidence"><summary>Run details &amp; downloads</summary><p class="range">Score bounds <b>${r.possible_total_min}–${r.possible_total_max}</b> / 100 <small>Not an awarded score</small></p>${evidence[p][method].html}${downloads}</details></div>`,
       );
       outcomes[method] = json(join(EV, p, method, "evaluation.json")).outcomes;
     }
     parts.push(
-      '</div><details><summary>✓ Checks</summary><div class="table-wrap"><table><thead><tr><th>Category / weight</th><th>KiCad: pass / fail / unresolved</th><th>tscircuit: pass / fail / unresolved</th></tr></thead><tbody>',
+      '</div><details><summary>Evaluation checks</summary><div class="table-wrap"><table><thead><tr><th>Category / weight</th><th>KiCad: pass / fail / unresolved</th><th>tscircuit: pass / fail / unresolved</th></tr></thead><tbody>',
     );
     for (const [i, c] of paired[p][methods[0]].category_scores.entries()) {
       const label = c.category.replaceAll("_", " ");
@@ -215,7 +215,7 @@ export function buildWebsite() {
       ),
     );
     parts.push(
-      `<details><summary>≡ Prompt</summary><pre>${esc(prompt)}</pre></details></article>`,
+      `<details><summary>Design prompt</summary><pre>${esc(prompt)}</pre></details></article>`,
     );
     publicResults.push({
       prompt_id: p,
