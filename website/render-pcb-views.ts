@@ -111,27 +111,42 @@ export async function renderViews() {
       source = walk(candidate).find((p) => p.endsWith(".kicad_pcb"))!;
       const output = join(OUT, "layers", prompt);
       mkdirSync(output, { recursive: true });
-      const cli = process.env.KICAD_CLI ?? Bun.which("kicad-cli");
-      if (!cli)
-        throw Error(
-          "KiCad CLI required; set KICAD_CLI or put kicad-cli on PATH",
-        );
-      const proc = Bun.spawnSync([
-        cli,
-        "pcb",
-        "export",
-        "svg",
-        "--output",
-        output + "/",
-        "--layers",
-        LAYERS.join(","),
-        "--page-size-mode",
-        "2",
-        "--exclude-drawing-sheet",
-        "--mode-multi",
-        source,
-      ]);
-      if (proc.exitCode !== 0) throw Error(proc.stderr.toString());
+      if (process.env.KICAD_LAYER_EXPORTS) {
+        const archive = join(ROOT, process.env.KICAD_LAYER_EXPORTS);
+        const records: { prompt: string; source: string; sha256: string; files: Record<string, string> }[] = json(join(archive, "manifest.json"));
+        const record = records.find((entry) => entry.prompt === prompt);
+        if (!record || record.source !== relative(ROOT, source) || record.sha256 !== sha(readFileSync(source))) {
+          throw Error("KiCad layer export source mismatch: " + prompt);
+        }
+        for (const [file, digest] of Object.entries(record.files)) {
+          if (basename(file) !== file || !file.endsWith(".svg")) throw Error("Invalid KiCad layer export filename");
+          const bytes = readFileSync(join(archive, prompt, file));
+          if (sha(bytes) !== digest) throw Error("KiCad layer export hash mismatch: " + file);
+          write(join(output, file), bytes);
+        }
+      } else {
+        const cli = process.env.KICAD_CLI ?? Bun.which("kicad-cli");
+        if (!cli)
+          throw Error(
+            "KiCad CLI required; set KICAD_CLI or put kicad-cli on PATH",
+          );
+        const proc = Bun.spawnSync([
+          cli,
+          "pcb",
+          "export",
+          "svg",
+          "--output",
+          output + "/",
+          "--layers",
+          LAYERS.join(","),
+          "--page-size-mode",
+          "2",
+          "--exclude-drawing-sheet",
+          "--mode-multi",
+          source,
+        ]);
+        if (proc.exitCode !== 0) throw Error(proc.stderr.toString());
+      }
       let vb: string | null = null;
       for (const layer of LAYERS) {
         const file = walk(output).find((p) =>
