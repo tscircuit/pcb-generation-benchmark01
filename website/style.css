@@ -1,4 +1,4 @@
-:root { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #1d1d1f; background: #f5f5f7; font-size: 14px; line-height: 1.5; --blue: #0066cc; --teal: #7b3ed3; }
+:root { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #1d1d1f; background: #f5f5f7; font-size: 14px; line-height: 1.5; --blue: #0066cc; --kicad: #c23432; --tscircuit: #0066cc; }
 * { box-sizing: border-box; }
 body { margin: 0; }
 html { scroll-behavior: smooth; scroll-padding-top: 20px; }
@@ -17,8 +17,8 @@ main { padding-top: 22px; }
 .intro { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 16px; }
 h1 { font-size: 20px; letter-spacing: -.5px; margin: 0; font-weight: 600; }
 .versus { color: #aeaeb2; margin: 0 14px; font-weight: 400; }
-.kicad-text, .kicad-codegen h4 { color: var(--blue); }
-.tscircuit-text, .tscircuit-codegen h4 { color: var(--teal); }
+.kicad-text, .kicad-codegen h4 { color: var(--kicad); }
+.tscircuit-text, .tscircuit-codegen h4 { color: var(--tscircuit); }
 .muted { color: #6e6e73; font-size: 12px; font-weight: 400; }
 .legend { display: flex; gap: 16px; flex-wrap: wrap; font-size: 12px; margin-bottom: 18px; align-items: center; }
 .legend .muted { margin-left: auto; }
@@ -91,3 +91,6 @@ footer { display: flex; justify-content: space-between; gap: 16px; color: #86868
 .run-table td > small { display: block; margin-top: 4px; }
 .run-table .downloads { padding: 0; }
 .run-table .verified-score > span { display: none; }
+
+.kicad-codegen .open-viewer { color: var(--kicad); }
+.kicad-codegen .view-switch > input:checked + label { color: var(--kicad); background: #fff0ef; box-shadow: inset 0 0 0 1px #f2ccca; }
